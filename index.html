@@ -3,21 +3,23 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Meridian Capital Research — 투자 리서치</title>
+<title>YM Research — 돈 되는 고민만을 담아내겠습니다</title>
+<meta name="description" content="YM Research — 서울대학교 투자동아리 출신이 설립한 독립 투자 리서치 회사." />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
 <script>
   tailwind.config = {
     theme: {
       extend: {
         colors: {
-          ink: '#0b1220',
-          navy: '#0f1b34',
-          slate: '#1c2b4a',
-          gold: '#c8a04a',
-          mist: '#eef2f8',
+          ink: '#0a0a0b',     /* 거의 검정 */
+          navy: '#111113',    /* 딥 차콜 (로고 블랙) */
+          slate: '#26262b',
+          gold: '#c89a47',     /* 로고 골드 */
+          goldlt: '#e7c87d',   /* 밝은 골드 */
+          mist: '#f6f3ec',     /* 웜 오프화이트 */
         },
         fontFamily: {
           sans: ['Inter', 'Noto Sans KR', 'sans-serif'],
@@ -30,23 +32,49 @@
   html { scroll-behavior: smooth; }
   .grid-bg {
     background-image:
-      linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
     background-size: 48px 48px;
   }
   .glass { backdrop-filter: blur(10px); }
   .fade-up { animation: fadeUp .8s ease both; }
   @keyframes fadeUp { from { opacity:0; transform: translateY(16px);} to {opacity:1; transform:none;} }
+  .gold-text {
+    background: linear-gradient(120deg,#e7c87d,#c89a47 55%,#a9762f);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
 </style>
 </head>
 <body class="font-sans bg-white text-ink antialiased">
 
-  <!-- NAV -->
+  <!-- ===== LOGO (재사용용 SVG 심볼) ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="ymGold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#e9cd84"/>
+        <stop offset="55%" stop-color="#c69a47"/>
+        <stop offset="100%" stop-color="#9c6f2c"/>
+      </linearGradient>
+      <!-- 블레이드: 밝은 배경용(검정) / 어두운 배경용(흰색)은 currentColor 사용 -->
+      <symbol id="ym-mark" viewBox="0 0 200 150">
+        <polygon fill="currentColor" points="44,130 66,130 88,44 66,44"/>
+        <polygon fill="currentColor" points="156,130 134,130 112,44 134,44"/>
+        <g fill="url(#ymGold)">
+          <polygon points="74,30 96,30 110,92 88,92"/>
+          <polygon points="126,30 104,30 90,92 112,92"/>
+          <polygon points="89,88 111,88 111,130 89,130"/>
+          <polygon points="104,30 141,30 129,50 104,50"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== NAV ===== -->
   <header class="fixed top-0 inset-x-0 z-50 bg-navy/90 glass border-b border-white/10">
     <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-2.5">
-        <span class="w-8 h-8 rounded bg-gold flex items-center justify-center text-navy font-extrabold">M</span>
-        <span class="text-white font-bold tracking-tight">MERIDIAN <span class="text-gold font-medium">Research</span></span>
+      <a href="#" class="flex items-center gap-3 text-white">
+        <svg class="w-9 h-9 text-white"><use href="#ym-mark"/></svg>
+        <span class="font-bold tracking-tight text-lg">YM <span class="gold-text font-extrabold">Research</span></span>
       </a>
       <nav class="hidden md:flex items-center gap-8 text-sm text-white/70">
         <a href="#research" class="hover:text-white transition">리서치</a>
@@ -54,37 +82,42 @@
         <a href="#insights" class="hover:text-white transition">인사이트</a>
         <a href="#team" class="hover:text-white transition">팀</a>
       </nav>
-      <a href="#contact" class="text-sm font-semibold bg-gold text-navy px-4 py-2 rounded-md hover:bg-gold/90 transition">구독 문의</a>
+      <a href="https://t.me/ym_research" target="_blank" rel="noopener"
+         class="text-sm font-semibold bg-gold text-ink px-4 py-2 rounded-md hover:bg-goldlt transition">텔레그램 채널</a>
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- ===== HERO ===== -->
   <section class="relative bg-navy grid-bg pt-32 pb-24 overflow-hidden">
     <div class="absolute -top-24 -right-24 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-6 relative">
       <div class="max-w-3xl fade-up">
         <span class="inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-gold uppercase mb-5">
-          <span class="w-6 h-px bg-gold"></span> Independent Investment Research
+          <span class="w-6 h-px bg-gold"></span> YM Research · Independent Investment Research
         </span>
-        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-[1.1] tracking-tight">
-          데이터로 검증하는<br>독립 투자 리서치
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-[1.15] tracking-tight">
+          <span class="gold-text">돈 되는 고민</span>만을<br>담아내겠습니다.
         </h1>
         <p class="mt-6 text-lg text-white/70 leading-relaxed max-w-2xl">
-          Meridian은 거시 경제, 산업 사이클, 개별 기업 펀더멘털을 정량 모델과
-          현장 리서치로 교차 검증합니다. 기관과 개인 투자자 모두에게 편향 없는
-          의사결정 근거를 제공합니다.
+          YM Research는 <strong class="text-white">서울대학교 투자동아리 출신</strong>이 설립한 독립 투자 리서치 회사입니다.
+          화려한 전망이 아니라, 실제 수익으로 이어지는 질문에 집중합니다.
+          정량 모델과 현장 리서치로 교차 검증한 편향 없는 의사결정 근거를 제공합니다.
         </p>
         <div class="mt-9 flex flex-wrap gap-4">
-          <a href="#research" class="bg-gold text-navy font-semibold px-6 py-3 rounded-md hover:bg-gold/90 transition">리서치 둘러보기</a>
-          <a href="#contact" class="border border-white/25 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition">무료 리포트 받기</a>
+          <a href="#research" class="bg-gold text-ink font-semibold px-6 py-3 rounded-md hover:bg-goldlt transition">리서치 둘러보기</a>
+          <a href="https://t.me/ym_research" target="_blank" rel="noopener"
+             class="border border-white/25 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition flex items-center gap-2">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.12-3.04-1.98 1.93c-.23.23-.42.42-.84.42z"/></svg>
+            리서치 받아보기
+          </a>
         </div>
       </div>
 
       <!-- stat strip -->
       <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 rounded-xl overflow-hidden border border-white/10">
         <div class="bg-navy p-6">
-          <div class="text-3xl font-extrabold text-white">12년</div>
-          <div class="text-sm text-white/50 mt-1">리서치 트랙 레코드</div>
+          <div class="text-3xl font-extrabold text-white">서울대</div>
+          <div class="text-sm text-white/50 mt-1">투자동아리 출신 설립</div>
         </div>
         <div class="bg-navy p-6">
           <div class="text-3xl font-extrabold text-white">340<span class="text-gold">+</span></div>
@@ -95,14 +128,14 @@
           <div class="text-sm text-white/50 mt-1">매수 의견 적중률</div>
         </div>
         <div class="bg-navy p-6">
-          <div class="text-3xl font-extrabold text-white">90<span class="text-gold">+</span></div>
-          <div class="text-sm text-white/50 mt-1">기관 구독사</div>
+          <div class="text-3xl font-extrabold text-white">100<span class="text-gold">%</span></div>
+          <div class="text-sm text-white/50 mt-1">돈 되는 고민에 집중</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- RESEARCH AREAS -->
+  <!-- ===== RESEARCH AREAS ===== -->
   <section id="research" class="py-24 bg-mist">
     <div class="max-w-7xl mx-auto px-6">
       <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
@@ -113,7 +146,6 @@
         <p class="text-slate/70 max-w-md text-sm">섹터별 전담 애널리스트가 톱다운·바텀업 분석을 병행합니다.</p>
       </div>
       <div class="grid md:grid-cols-3 gap-6">
-        <!-- card -->
         <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
           <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">▦</div>
           <h3 class="text-lg font-bold">거시 · 전략</h3>
@@ -148,13 +180,13 @@
     </div>
   </section>
 
-  <!-- APPROACH -->
+  <!-- ===== APPROACH ===== -->
   <section id="approach" class="py-24 bg-navy grid-bg">
     <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
       <div>
         <span class="text-xs font-semibold tracking-widest text-gold uppercase">Our Process</span>
         <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-3 tracking-tight">검증 가능한 리서치 프로세스</h2>
-        <p class="text-white/60 mt-5 leading-relaxed">모든 투자 의견은 가설 → 데이터 → 반증 → 결론의 4단계를 거칩니다. 우리는 틀릴 수 있다는 전제에서 출발합니다.</p>
+        <p class="text-white/60 mt-5 leading-relaxed">모든 투자 의견은 가설 → 데이터 → 반증 → 결론의 4단계를 거칩니다. 우리는 틀릴 수 있다는 전제에서 출발해, <span class="text-gold">돈 되는 고민</span>만 끝까지 파고듭니다.</p>
         <div class="mt-8 space-y-5">
           <div class="flex gap-4">
             <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">01</span>
@@ -188,18 +220,17 @@
           <div class="bg-mist rounded-lg p-3"><div class="text-xs text-slate/50">상승여력</div><div class="font-bold text-green-600">+24%</div></div>
           <div class="bg-mist rounded-lg p-3"><div class="text-xs text-slate/50">신뢰도</div><div class="font-bold text-navy">High</div></div>
         </div>
-        <!-- sparkline -->
         <svg viewBox="0 0 300 70" class="w-full h-20">
-          <polyline fill="none" stroke="#c8a04a" stroke-width="2.5"
+          <polyline fill="none" stroke="#c89a47" stroke-width="2.5"
             points="0,55 30,50 60,52 90,40 120,42 150,30 180,33 210,22 240,25 270,14 300,10"/>
-          <polygon fill="rgba(200,160,74,.12)" points="0,55 30,50 60,52 90,40 120,42 150,30 180,33 210,22 240,25 270,14 300,10 300,70 0,70"/>
+          <polygon fill="rgba(200,154,71,.12)" points="0,55 30,50 60,52 90,40 120,42 150,30 180,33 210,22 240,25 270,14 300,10 300,70 0,70"/>
         </svg>
         <p class="text-xs text-slate/60 mt-3 leading-relaxed">리튬 가격 저점 통과 + 가동률 회복으로 분기 실적 턴어라운드 예상. 다운사이드는 중국 증설 리스크.</p>
       </div>
     </div>
   </section>
 
-  <!-- INSIGHTS -->
+  <!-- ===== INSIGHTS ===== -->
   <section id="insights" class="py-24 bg-white">
     <div class="max-w-7xl mx-auto px-6">
       <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
@@ -207,11 +238,11 @@
           <span class="text-xs font-semibold tracking-widest text-gold uppercase">Latest</span>
           <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">최신 인사이트</h2>
         </div>
-        <a href="#" class="text-sm font-semibold text-navy hover:text-gold transition">전체 리포트 →</a>
+        <a href="https://t.me/ym_research" target="_blank" rel="noopener" class="text-sm font-semibold text-ink hover:text-gold transition">전체 리포트 →</a>
       </div>
       <div class="grid md:grid-cols-3 gap-8">
         <article class="group cursor-pointer">
-          <div class="aspect-video rounded-xl bg-gradient-to-br from-navy to-slate mb-4 flex items-end p-5">
+          <div class="aspect-video rounded-xl bg-gradient-to-br from-ink to-slate mb-4 flex items-end p-5">
             <span class="text-white/80 text-sm font-medium">MACRO</span>
           </div>
           <div class="text-xs text-slate/50">2026.06.28 · 8분 읽기</div>
@@ -238,36 +269,36 @@
     </div>
   </section>
 
-  <!-- TEAM -->
+  <!-- ===== TEAM ===== -->
   <section id="team" class="py-24 bg-mist">
     <div class="max-w-7xl mx-auto px-6">
       <div class="text-center mb-14">
         <span class="text-xs font-semibold tracking-widest text-gold uppercase">People</span>
         <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">리서치 팀</h2>
-        <p class="text-slate/60 mt-3 max-w-xl mx-auto text-sm">평균 14년 경력의 섹터 전문 애널리스트가 의견에 실명을 겁니다.</p>
+        <p class="text-slate/60 mt-3 max-w-xl mx-auto text-sm">서울대학교 투자동아리에서 함께 고민하던 멤버들이 의견에 실명을 겁니다.</p>
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-20 h-20 rounded-full bg-navy mx-auto mb-4"></div>
-          <h4 class="font-bold">김도현</h4>
-          <p class="text-sm text-gold">대표 / 거시전략</p>
-          <p class="text-xs text-slate/50 mt-2">前 글로벌 IB 수석 이코노미스트</p>
+          <div class="w-20 h-20 rounded-full bg-navy mx-auto mb-4 flex items-center justify-center text-goldlt text-2xl font-extrabold">P</div>
+          <h4 class="font-bold">페펠루</h4>
+          <p class="text-sm text-gold">대표 / 거시 · 전략</p>
+          <p class="text-xs text-slate/50 mt-2">자산배분 · 매크로 총괄</p>
         </div>
         <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-20 h-20 rounded-full bg-slate mx-auto mb-4"></div>
-          <h4 class="font-bold">이서연</h4>
+          <div class="w-20 h-20 rounded-full bg-slate mx-auto mb-4 flex items-center justify-center text-goldlt text-2xl font-extrabold">R</div>
+          <h4 class="font-bold">로이</h4>
           <p class="text-sm text-gold">에너지 / 2차전지</p>
-          <p class="text-xs text-slate/50 mt-2">소재 밸류체인 12년</p>
+          <p class="text-xs text-slate/50 mt-2">소재 밸류체인 리서치</p>
         </div>
         <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-20 h-20 rounded-full bg-ink mx-auto mb-4"></div>
-          <h4 class="font-bold">박준영</h4>
+          <div class="w-20 h-20 rounded-full bg-ink mx-auto mb-4 flex items-center justify-center text-goldlt text-2xl font-extrabold">G</div>
+          <h4 class="font-bold">구름</h4>
           <p class="text-sm text-gold">테크 / 반도체</p>
-          <p class="text-xs text-slate/50 mt-2">반도체 산업 애널 15년</p>
+          <p class="text-xs text-slate/50 mt-2">반도체 · AI 수요 모델</p>
         </div>
         <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-20 h-20 rounded-full bg-gold/70 mx-auto mb-4"></div>
-          <h4 class="font-bold">최민지</h4>
+          <div class="w-20 h-20 rounded-full bg-gold/80 mx-auto mb-4 flex items-center justify-center text-ink text-2xl font-extrabold">C</div>
+          <h4 class="font-bold">춰릿</h4>
           <p class="text-sm text-gold">퀀트 / 데이터</p>
           <p class="text-xs text-slate/50 mt-2">팩터 모델 · 백테스트</p>
         </div>
@@ -275,36 +306,40 @@
     </div>
   </section>
 
-  <!-- CTA / CONTACT -->
+  <!-- ===== CTA / TELEGRAM ===== -->
   <section id="contact" class="py-24 bg-navy grid-bg relative overflow-hidden">
     <div class="absolute -bottom-32 -left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
     <div class="max-w-3xl mx-auto px-6 text-center relative">
-      <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">주간 리서치를 받아보세요</h2>
-      <p class="text-white/60 mt-4">매주 월요일, 핵심 차트와 투자 아이디어를 메일로 보내드립니다. 첫 달 무료.</p>
-      <form class="mt-8 flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="return false">
-        <input type="email" placeholder="이메일 주소" class="flex-1 px-4 py-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-gold" />
-        <button class="bg-gold text-navy font-semibold px-6 py-3 rounded-md hover:bg-gold/90 transition">구독하기</button>
-      </form>
-      <p class="text-xs text-white/40 mt-4">언제든 구독 해지 가능 · 본 페이지는 디자인 샘플이며 실제 투자 자문이 아닙니다.</p>
+      <svg class="w-14 h-14 mx-auto mb-6 text-white"><use href="#ym-mark"/></svg>
+      <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">YM리서치의 리서치를<br class="sm:hidden">받아보세요</h2>
+      <p class="text-white/60 mt-4">핵심 차트와 투자 아이디어를 텔레그램 채널에서 가장 먼저 전해드립니다.</p>
+      <div class="mt-8">
+        <a href="https://t.me/ym_research" target="_blank" rel="noopener"
+           class="inline-flex items-center gap-3 bg-gold text-ink font-bold px-8 py-4 rounded-xl hover:bg-goldlt transition text-lg shadow-lg shadow-gold/20">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.12-3.04-1.98 1.93c-.23.23-.42.42-.84.42z"/></svg>
+          텔레그램 채널 입장하기
+        </a>
+      </div>
+      <p class="text-xs text-white/40 mt-5">@ym_research · 본 페이지는 정보 제공 목적이며 실제 투자 자문이 아닙니다.</p>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ===== FOOTER ===== -->
   <footer class="bg-ink text-white/50 py-12">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-sm">
       <div>
-        <div class="flex items-center gap-2.5 mb-3">
-          <span class="w-7 h-7 rounded bg-gold flex items-center justify-center text-navy font-extrabold text-sm">M</span>
-          <span class="text-white font-bold">MERIDIAN Research</span>
+        <div class="flex items-center gap-3 mb-3 text-white">
+          <svg class="w-8 h-8 text-white"><use href="#ym-mark"/></svg>
+          <span class="font-bold">YM Research</span>
         </div>
-        <p class="text-xs leading-relaxed">독립 투자 리서치 하우스.<br>데이터 기반의 편향 없는 의견을 지향합니다.</p>
+        <p class="text-xs leading-relaxed">서울대학교 투자동아리 출신이 설립한<br>독립 투자 리서치 회사.<br><span class="text-gold">"돈 되는 고민만을 담아내겠습니다."</span></p>
       </div>
       <div><h5 class="text-white font-semibold mb-3">리서치</h5><ul class="space-y-2 text-xs"><li>거시·전략</li><li>2차전지</li><li>반도체</li><li>퀀트</li></ul></div>
-      <div><h5 class="text-white font-semibold mb-3">회사</h5><ul class="space-y-2 text-xs"><li>소개</li><li>팀</li><li>채용</li><li>문의</li></ul></div>
+      <div><h5 class="text-white font-semibold mb-3">회사</h5><ul class="space-y-2 text-xs"><li>소개</li><li>팀</li><li>채용</li><li><a href="https://t.me/ym_research" target="_blank" rel="noopener" class="hover:text-gold">텔레그램 문의</a></li></ul></div>
       <div><h5 class="text-white font-semibold mb-3">법적 고지</h5><ul class="space-y-2 text-xs"><li>이용약관</li><li>개인정보처리방침</li><li>투자유의사항</li></ul></div>
     </div>
     <div class="max-w-7xl mx-auto px-6 mt-10 pt-6 border-t border-white/10 text-xs flex flex-wrap justify-between gap-3">
-      <span>© 2026 Meridian Capital Research. All rights reserved.</span>
+      <span>© 2026 YM Research. All rights reserved.</span>
       <span>본 자료는 정보 제공 목적이며 투자 권유가 아닙니다.</span>
     </div>
   </footer>
