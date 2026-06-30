@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>YM Research — 돈 되는 고민만을 담아내겠습니다</title>
 <meta name="description" content="YM Research — 서울대학교 투자동아리 출신이 설립한 독립 투자 리서치 회사." />
+<link rel="icon" type="image/png" href="logo-mark.png" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,33 +48,13 @@
 </head>
 <body class="font-sans bg-white text-ink antialiased">
 
-  <!-- ===== LOGO (재사용용 SVG 심볼) ===== -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <defs>
-      <linearGradient id="ymGold" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#e9cd84"/>
-        <stop offset="55%" stop-color="#c69a47"/>
-        <stop offset="100%" stop-color="#9c6f2c"/>
-      </linearGradient>
-      <!-- 블레이드: 밝은 배경용(검정) / 어두운 배경용(흰색)은 currentColor 사용 -->
-      <symbol id="ym-mark" viewBox="0 0 200 150">
-        <polygon fill="currentColor" points="44,130 66,130 88,44 66,44"/>
-        <polygon fill="currentColor" points="156,130 134,130 112,44 134,44"/>
-        <g fill="url(#ymGold)">
-          <polygon points="74,30 96,30 110,92 88,92"/>
-          <polygon points="126,30 104,30 90,92 112,92"/>
-          <polygon points="89,88 111,88 111,130 89,130"/>
-          <polygon points="104,30 141,30 129,50 104,50"/>
-        </g>
-      </symbol>
-    </defs>
-  </svg>
-
   <!-- ===== NAV ===== -->
   <header class="fixed top-0 inset-x-0 z-50 bg-navy/90 glass border-b border-white/10">
     <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="#" class="flex items-center gap-3 text-white">
-        <svg class="w-9 h-9 text-white"><use href="#ym-mark"/></svg>
+        <span class="w-10 h-10 rounded-lg bg-mist flex items-center justify-center p-1.5">
+          <img src="logo-mark.png" alt="YM Research 로고" class="w-full h-full object-contain"/>
+        </span>
         <span class="font-bold tracking-tight text-lg">YM <span class="gold-text font-extrabold">Research</span></span>
       </a>
       <nav class="hidden md:flex items-center gap-8 text-sm text-white/70">
@@ -310,7 +291,9 @@
   <section id="contact" class="py-24 bg-navy grid-bg relative overflow-hidden">
     <div class="absolute -bottom-32 -left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
     <div class="max-w-3xl mx-auto px-6 text-center relative">
-      <svg class="w-14 h-14 mx-auto mb-6 text-white"><use href="#ym-mark"/></svg>
+      <div class="mx-auto mb-6 w-24 h-24 rounded-2xl bg-mist flex items-center justify-center p-4">
+        <img src="logo-mark.png" alt="YM Research 로고" class="w-full h-full object-contain"/>
+      </div>
       <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">YM리서치의 리서치를<br class="sm:hidden">받아보세요</h2>
       <p class="text-white/60 mt-4">핵심 차트와 투자 아이디어를 텔레그램 채널에서 가장 먼저 전해드립니다.</p>
       <div class="mt-8">
@@ -329,7 +312,9 @@
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-sm">
       <div>
         <div class="flex items-center gap-3 mb-3 text-white">
-          <svg class="w-8 h-8 text-white"><use href="#ym-mark"/></svg>
+          <span class="w-9 h-9 rounded-lg bg-mist flex items-center justify-center p-1.5">
+            <img src="logo-mark.png" alt="YM Research 로고" class="w-full h-full object-contain"/>
+          </span>
           <span class="font-bold">YM Research</span>
         </div>
         <p class="text-xs leading-relaxed">서울대학교 투자동아리 출신이 설립한<br>독립 투자 리서치 회사.<br><span class="text-gold">"돈 되는 고민만을 담아내겠습니다."</span></p>
