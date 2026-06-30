@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meridian Capital Research — 투자 리서치</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#0b1220',
+          navy: '#0f1b34',
+          slate: '#1c2b4a',
+          gold: '#c8a04a',
+          mist: '#eef2f8',
+        },
+        fontFamily: {
+          sans: ['Inter', 'Noto Sans KR', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .glass { backdrop-filter: blur(10px); }
+  .fade-up { animation: fadeUp .8s ease both; }
+  @keyframes fadeUp { from { opacity:0; transform: translateY(16px);} to {opacity:1; transform:none;} }
+</style>
+</head>
+<body class="font-sans bg-white text-ink antialiased">
+
+  <!-- NAV -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-navy/90 glass border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5">
+        <span class="w-8 h-8 rounded bg-gold flex items-center justify-center text-navy font-extrabold">M</span>
+        <span class="text-white font-bold tracking-tight">MERIDIAN <span class="text-gold font-medium">Research</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm text-white/70">
+        <a href="#research" class="hover:text-white transition">리서치</a>
+        <a href="#approach" class="hover:text-white transition">투자 철학</a>
+        <a href="#insights" class="hover:text-white transition">인사이트</a>
+        <a href="#team" class="hover:text-white transition">팀</a>
+      </nav>
+      <a href="#contact" class="text-sm font-semibold bg-gold text-navy px-4 py-2 rounded-md hover:bg-gold/90 transition">구독 문의</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative bg-navy grid-bg pt-32 pb-24 overflow-hidden">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
+    <div class="max-w-7xl mx-auto px-6 relative">
+      <div class="max-w-3xl fade-up">
+        <span class="inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-gold uppercase mb-5">
+          <span class="w-6 h-px bg-gold"></span> Independent Investment Research
+        </span>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-[1.1] tracking-tight">
+          데이터로 검증하는<br>독립 투자 리서치
+        </h1>
+        <p class="mt-6 text-lg text-white/70 leading-relaxed max-w-2xl">
+          Meridian은 거시 경제, 산업 사이클, 개별 기업 펀더멘털을 정량 모델과
+          현장 리서치로 교차 검증합니다. 기관과 개인 투자자 모두에게 편향 없는
+          의사결정 근거를 제공합니다.
+        </p>
+        <div class="mt-9 flex flex-wrap gap-4">
+          <a href="#research" class="bg-gold text-navy font-semibold px-6 py-3 rounded-md hover:bg-gold/90 transition">리서치 둘러보기</a>
+          <a href="#contact" class="border border-white/25 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition">무료 리포트 받기</a>
+        </div>
+      </div>
+
+      <!-- stat strip -->
+      <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 rounded-xl overflow-hidden border border-white/10">
+        <div class="bg-navy p-6">
+          <div class="text-3xl font-extrabold text-white">12년</div>
+          <div class="text-sm text-white/50 mt-1">리서치 트랙 레코드</div>
+        </div>
+        <div class="bg-navy p-6">
+          <div class="text-3xl font-extrabold text-white">340<span class="text-gold">+</span></div>
+          <div class="text-sm text-white/50 mt-1">발간 리포트 / 연</div>
+        </div>
+        <div class="bg-navy p-6">
+          <div class="text-3xl font-extrabold text-white">68<span class="text-gold">%</span></div>
+          <div class="text-sm text-white/50 mt-1">매수 의견 적중률</div>
+        </div>
+        <div class="bg-navy p-6">
+          <div class="text-3xl font-extrabold text-white">90<span class="text-gold">+</span></div>
+          <div class="text-sm text-white/50 mt-1">기관 구독사</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH AREAS -->
+  <section id="research" class="py-24 bg-mist">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
+        <div>
+          <span class="text-xs font-semibold tracking-widest text-gold uppercase">Coverage</span>
+          <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">리서치 커버리지</h2>
+        </div>
+        <p class="text-slate/70 max-w-md text-sm">섹터별 전담 애널리스트가 톱다운·바텀업 분석을 병행합니다.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- card -->
+        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
+          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">▦</div>
+          <h3 class="text-lg font-bold">거시 · 전략</h3>
+          <p class="text-sm text-slate/70 mt-2 leading-relaxed">금리·환율·유동성 사이클을 기반으로 자산배분 프레임을 제시합니다.</p>
+        </div>
+        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
+          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">⚡</div>
+          <h3 class="text-lg font-bold">에너지 · 2차전지</h3>
+          <p class="text-sm text-slate/70 mt-2 leading-relaxed">원자재 가격, 공급망, 정책을 결합한 밸류체인 심층 분석.</p>
+        </div>
+        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
+          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">⌬</div>
+          <h3 class="text-lg font-bold">테크 · 반도체</h3>
+          <p class="text-sm text-slate/70 mt-2 leading-relaxed">AI 수요 사이클과 캐파 증설을 추적하는 분기 모델.</p>
+        </div>
+        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
+          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">$</div>
+          <h3 class="text-lg font-bold">금융 · 부동산</h3>
+          <p class="text-sm text-slate/70 mt-2 leading-relaxed">자본비용과 자산건전성 지표로 본 섹터 리스크 점검.</p>
+        </div>
+        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
+          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">◷</div>
+          <h3 class="text-lg font-bold">퀀트 · 팩터</h3>
+          <p class="text-sm text-slate/70 mt-2 leading-relaxed">멀티팩터 백테스트와 리스크 패리티 기반 포트폴리오.</p>
+        </div>
+        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
+          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">◐</div>
+          <h3 class="text-lg font-bold">ESG · 정책</h3>
+          <p class="text-sm text-slate/70 mt-2 leading-relaxed">규제 변화가 기업 현금흐름에 미치는 영향 시나리오 분석.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section id="approach" class="py-24 bg-navy grid-bg">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <span class="text-xs font-semibold tracking-widest text-gold uppercase">Our Process</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-3 tracking-tight">검증 가능한 리서치 프로세스</h2>
+        <p class="text-white/60 mt-5 leading-relaxed">모든 투자 의견은 가설 → 데이터 → 반증 → 결론의 4단계를 거칩니다. 우리는 틀릴 수 있다는 전제에서 출발합니다.</p>
+        <div class="mt-8 space-y-5">
+          <div class="flex gap-4">
+            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">01</span>
+            <div><h4 class="text-white font-semibold">정량 스크리닝</h4><p class="text-sm text-white/55 mt-1">자체 데이터 파이프라인으로 1차 후보군 선별.</p></div>
+          </div>
+          <div class="flex gap-4">
+            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">02</span>
+            <div><h4 class="text-white font-semibold">현장 · 채널 체크</h4><p class="text-sm text-white/55 mt-1">공급망·고객사 인터뷰로 가설 교차 검증.</p></div>
+          </div>
+          <div class="flex gap-4">
+            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">03</span>
+            <div><h4 class="text-white font-semibold">반증 리뷰</h4><p class="text-sm text-white/55 mt-1">독립 리뷰어가 의견의 약점을 공격.</p></div>
+          </div>
+          <div class="flex gap-4">
+            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">04</span>
+            <div><h4 class="text-white font-semibold">발간 · 사후 추적</h4><p class="text-sm text-white/55 mt-1">목표가 대비 실제 성과를 공개 기록.</p></div>
+          </div>
+        </div>
+      </div>
+      <!-- mock report card -->
+      <div class="bg-white rounded-2xl shadow-2xl p-7 rotate-1 hover:rotate-0 transition">
+        <div class="flex items-center justify-between border-b border-slate/10 pb-4">
+          <div>
+            <div class="text-xs text-slate/50">SECTOR REPORT · 2026.06</div>
+            <div class="font-bold text-lg">2차전지 소재 — 하반기 전망</div>
+          </div>
+          <span class="text-xs font-bold bg-green-100 text-green-700 px-2 py-1 rounded">BUY</span>
+        </div>
+        <div class="grid grid-cols-3 gap-3 my-5 text-center">
+          <div class="bg-mist rounded-lg p-3"><div class="text-xs text-slate/50">목표가</div><div class="font-bold text-navy">₩412,000</div></div>
+          <div class="bg-mist rounded-lg p-3"><div class="text-xs text-slate/50">상승여력</div><div class="font-bold text-green-600">+24%</div></div>
+          <div class="bg-mist rounded-lg p-3"><div class="text-xs text-slate/50">신뢰도</div><div class="font-bold text-navy">High</div></div>
+        </div>
+        <!-- sparkline -->
+        <svg viewBox="0 0 300 70" class="w-full h-20">
+          <polyline fill="none" stroke="#c8a04a" stroke-width="2.5"
+            points="0,55 30,50 60,52 90,40 120,42 150,30 180,33 210,22 240,25 270,14 300,10"/>
+          <polygon fill="rgba(200,160,74,.12)" points="0,55 30,50 60,52 90,40 120,42 150,30 180,33 210,22 240,25 270,14 300,10 300,70 0,70"/>
+        </svg>
+        <p class="text-xs text-slate/60 mt-3 leading-relaxed">리튬 가격 저점 통과 + 가동률 회복으로 분기 실적 턴어라운드 예상. 다운사이드는 중국 증설 리스크.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSIGHTS -->
+  <section id="insights" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
+        <div>
+          <span class="text-xs font-semibold tracking-widest text-gold uppercase">Latest</span>
+          <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">최신 인사이트</h2>
+        </div>
+        <a href="#" class="text-sm font-semibold text-navy hover:text-gold transition">전체 리포트 →</a>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <article class="group cursor-pointer">
+          <div class="aspect-video rounded-xl bg-gradient-to-br from-navy to-slate mb-4 flex items-end p-5">
+            <span class="text-white/80 text-sm font-medium">MACRO</span>
+          </div>
+          <div class="text-xs text-slate/50">2026.06.28 · 8분 읽기</div>
+          <h3 class="font-bold text-lg mt-1 group-hover:text-gold transition">금리 인하 사이클, 어떤 자산이 먼저 움직이나</h3>
+          <p class="text-sm text-slate/60 mt-2">과거 4번의 인하 국면에서 섹터 로테이션 패턴을 정량 분석했습니다.</p>
+        </article>
+        <article class="group cursor-pointer">
+          <div class="aspect-video rounded-xl bg-gradient-to-br from-slate to-gold/70 mb-4 flex items-end p-5">
+            <span class="text-white/90 text-sm font-medium">BATTERY</span>
+          </div>
+          <div class="text-xs text-slate/50">2026.06.24 · 12분 읽기</div>
+          <h3 class="font-bold text-lg mt-1 group-hover:text-gold transition">리튬 가격은 바닥을 찍었나 — 공급 곡선 재점검</h3>
+          <p class="text-sm text-slate/60 mt-2">광산별 생산원가 데이터로 본 균형 가격 시나리오.</p>
+        </article>
+        <article class="group cursor-pointer">
+          <div class="aspect-video rounded-xl bg-gradient-to-br from-ink to-slate mb-4 flex items-end p-5">
+            <span class="text-white/80 text-sm font-medium">SEMICON</span>
+          </div>
+          <div class="text-xs text-slate/50">2026.06.20 · 10분 읽기</div>
+          <h3 class="font-bold text-lg mt-1 group-hover:text-gold transition">AI 추론 수요와 HBM 공급, 2027년 균형점</h3>
+          <p class="text-sm text-slate/60 mt-2">캐파 증설 일정과 수요 모델을 대조했습니다.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="py-24 bg-mist">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-14">
+        <span class="text-xs font-semibold tracking-widest text-gold uppercase">People</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">리서치 팀</h2>
+        <p class="text-slate/60 mt-3 max-w-xl mx-auto text-sm">평균 14년 경력의 섹터 전문 애널리스트가 의견에 실명을 겁니다.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
+          <div class="w-20 h-20 rounded-full bg-navy mx-auto mb-4"></div>
+          <h4 class="font-bold">김도현</h4>
+          <p class="text-sm text-gold">대표 / 거시전략</p>
+          <p class="text-xs text-slate/50 mt-2">前 글로벌 IB 수석 이코노미스트</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
+          <div class="w-20 h-20 rounded-full bg-slate mx-auto mb-4"></div>
+          <h4 class="font-bold">이서연</h4>
+          <p class="text-sm text-gold">에너지 / 2차전지</p>
+          <p class="text-xs text-slate/50 mt-2">소재 밸류체인 12년</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
+          <div class="w-20 h-20 rounded-full bg-ink mx-auto mb-4"></div>
+          <h4 class="font-bold">박준영</h4>
+          <p class="text-sm text-gold">테크 / 반도체</p>
+          <p class="text-xs text-slate/50 mt-2">반도체 산업 애널 15년</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
+          <div class="w-20 h-20 rounded-full bg-gold/70 mx-auto mb-4"></div>
+          <h4 class="font-bold">최민지</h4>
+          <p class="text-sm text-gold">퀀트 / 데이터</p>
+          <p class="text-xs text-slate/50 mt-2">팩터 모델 · 백테스트</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTACT -->
+  <section id="contact" class="py-24 bg-navy grid-bg relative overflow-hidden">
+    <div class="absolute -bottom-32 -left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
+    <div class="max-w-3xl mx-auto px-6 text-center relative">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">주간 리서치를 받아보세요</h2>
+      <p class="text-white/60 mt-4">매주 월요일, 핵심 차트와 투자 아이디어를 메일로 보내드립니다. 첫 달 무료.</p>
+      <form class="mt-8 flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="return false">
+        <input type="email" placeholder="이메일 주소" class="flex-1 px-4 py-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-gold" />
+        <button class="bg-gold text-navy font-semibold px-6 py-3 rounded-md hover:bg-gold/90 transition">구독하기</button>
+      </form>
+      <p class="text-xs text-white/40 mt-4">언제든 구독 해지 가능 · 본 페이지는 디자인 샘플이며 실제 투자 자문이 아닙니다.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-ink text-white/50 py-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-sm">
+      <div>
+        <div class="flex items-center gap-2.5 mb-3">
+          <span class="w-7 h-7 rounded bg-gold flex items-center justify-center text-navy font-extrabold text-sm">M</span>
+          <span class="text-white font-bold">MERIDIAN Research</span>
+        </div>
+        <p class="text-xs leading-relaxed">독립 투자 리서치 하우스.<br>데이터 기반의 편향 없는 의견을 지향합니다.</p>
+      </div>
+      <div><h5 class="text-white font-semibold mb-3">리서치</h5><ul class="space-y-2 text-xs"><li>거시·전략</li><li>2차전지</li><li>반도체</li><li>퀀트</li></ul></div>
+      <div><h5 class="text-white font-semibold mb-3">회사</h5><ul class="space-y-2 text-xs"><li>소개</li><li>팀</li><li>채용</li><li>문의</li></ul></div>
+      <div><h5 class="text-white font-semibold mb-3">법적 고지</h5><ul class="space-y-2 text-xs"><li>이용약관</li><li>개인정보처리방침</li><li>투자유의사항</li></ul></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 mt-10 pt-6 border-t border-white/10 text-xs flex flex-wrap justify-between gap-3">
+      <span>© 2026 Meridian Capital Research. All rights reserved.</span>
+      <span>본 자료는 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
