@@ -28,12 +28,34 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Verify latest K-Ramen dashboard file
+      - name: Restore and verify latest dashboard HTML
         shell: bash
         run: |
           set -euo pipefail
-          test -s k-ramen-dashboard/index.html
+          python - <<'PY'
+          from pathlib import Path
+          import base64
+          import gzip
+          import hashlib
+          import re
+
+          path = Path('k-ramen-dashboard/index.html')
+          wrapper = path.read_text(encoding='utf-8')
+          match = re.search(r"const b='([^']+)'", wrapper)
+          if not match:
+              raise SystemExit('Embedded dashboard payload was not found.')
+
+          html = gzip.decompress(base64.b64decode(match.group(1)))
+          digest = hashlib.sha256(html).hexdigest()
+          expected = '5580d048c22f7ef617d9ba17b57923fd722491c8a30fc1c010872e3e8a731c80'
+          if digest != expected:
+              raise SystemExit(f'Dashboard checksum mismatch: {digest}')
+
+          path.write_bytes(html)
+          PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
+          grep -q '2026.07' k-ramen-dashboard/index.html
+          grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
           touch .nojekyll
 
       - name: Configure GitHub Pages
