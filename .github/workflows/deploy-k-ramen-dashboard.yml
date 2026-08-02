@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - 'k-ramen-dashboard/**'
       - '.github/workflows/deploy-k-ramen-dashboard.yml'
   workflow_dispatch:
 
@@ -27,16 +28,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Copy current K-Ramen dashboard
+      - name: Verify latest K-Ramen dashboard file
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p k-ramen-dashboard
-          curl --fail --location --retry 5 --retry-delay 3 --max-time 120 \
-            'https://k-ramen-dashboard.pages.dev/' \
-            --output k-ramen-dashboard/index.html
           test -s k-ramen-dashboard/index.html
-          grep -q 'K-라면' k-ramen-dashboard/index.html
+          grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
           touch .nojekyll
 
       - name: Configure GitHub Pages
@@ -50,5 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-# Deployment trigger after GitHub Pages source setup
