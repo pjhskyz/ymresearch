@@ -1,0 +1,52 @@
+name: Deploy K-Ramen Dashboard
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/deploy-k-ramen-dashboard.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Copy current K-Ramen dashboard
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p k-ramen-dashboard
+          curl --fail --location --retry 5 --retry-delay 3 --max-time 120 \
+            'https://k-ramen-dashboard.pages.dev/' \
+            --output k-ramen-dashboard/index.html
+          test -s k-ramen-dashboard/index.html
+          grep -q 'K-라면' k-ramen-dashboard/index.html
+          touch .nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
