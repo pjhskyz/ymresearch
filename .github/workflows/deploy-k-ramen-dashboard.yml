@@ -47,14 +47,14 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '5580d048c22f7ef617d9ba17b57923fd722491c8a30fc1c010872e3e8a731c80'
+          expected = '41a2b032c1d6f814a72879c44183c682b533a280cb3e02de0e0e3076b63dcd1d'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
           path.write_bytes(html)
           PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
-          grep -q '2026.07' k-ramen-dashboard/index.html
+          grep -q '2026.08' k-ramen-dashboard/index.html
           grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
           touch .nojekyll
 
