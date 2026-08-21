@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'k-ramen-dashboard/**'
+      - 'leader-signal-radar/**'
       - '.github/workflows/deploy-k-ramen-dashboard.yml'
   workflow_dispatch:
 
