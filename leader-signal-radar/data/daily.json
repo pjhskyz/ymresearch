@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "asOfDate": "2026.08.22",
+  "updatedAt": "2026-08-22T17:52:02+09:00",
+  "status": "pending",
+  "statusMessage": "자동 업데이트 연결 완료 · 첫 실행 2026.08.23 07:30 KST",
+  "currentSignalIds": [],
+  "dailyThesis": "가장 최근 기준선에서는 AI 경쟁의 중심이 모델 성능에서 물리적 인프라와 검증 가능한 운영 행동으로 이동하고 있습니다.",
+  "lastSuccessfulRun": null,
+  "researchWindow": {
+    "from": null,
+    "to": null
+  },
+  "runSummary": {
+    "leadersChecked": 0,
+    "sourcesChecked": 0,
+    "excludedCount": 0,
+    "notes": "첫 자동 조사 대기 중"
+  },
+  "signals": [
+    {
+      "id": "openai-pacing",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 97,
+      "kind": "반전",
+      "date": "2026.08.18",
+      "reportDate": "2026.08.21",
+      "theme": "AI 안전",
+      "headline": "OpenAI가 사이버 위험 때문에 차세대 모델 훈련을 2주간 멈췄다",
+      "takeaway": "AI 안전이 선언에 그치지 않고 실제 모델 개발 일정과 비용을 바꾸는 제약으로 작동하기 시작했습니다.",
+      "before": "모델 능력을 빠르게 키우고 배포하는 데 초점",
+      "now": "위험 가능성이 보이면 훈련을 멈추고 안전 검증을 우선",
+      "facts": [
+        "OpenAI는 배포 목적 최신 모델의 강화학습 훈련을 2주간 일시 중지했다고 밝혔습니다.",
+        "차기 모델 Astra가 Preparedness Framework의 Critical 사이버 역량 문턱에 이를 수 있다는 예비 증거를 공개했습니다.",
+        "가장 큰 규모로 계획된 frontier RL run은 발표 시점에도 보류 중이라고 명시했습니다."
+      ],
+      "action": "일부 코드 실행·인터넷 접근 연구를 멈추고, 고성능 모델의 도구 사용에는 다단계 모니터링을 의무화했습니다.",
+      "impact": "AI 개발의 병목이 GPU 확보에서 보안 격리·안전성 검증·모니터링 인프라로 넓어질 수 있습니다.",
+      "impactPath": [
+        "훈련 보류",
+        "검증·보안 수요 증가",
+        "출시 지연·비용 상승"
+      ],
+      "counter": "Astra가 실제로 위험 임계점을 넘었다는 뜻은 아닙니다. 현재 판단은 어디까지나 예비 증거에 기반합니다.",
+      "next": "보류된 최대 규모 RL 훈련이 언제, 어떤 통제 조건에서 재개되는지 확인합니다. Astra 시스템 카드와 모니터링 비용, 차기 모델 출시 일정 변화도 함께 봅니다.",
+      "source": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "sourceLabel": "OpenAI · Pacing model development",
+      "sourceGrade": "A"
+    },
+    {
+      "id": "ports-pike",
+      "leader": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son)",
+      "role": "NVIDIA · OpenAI · SoftBank",
+      "initials": "AI",
+      "score": 98,
+      "kind": "실행",
+      "date": "2026.08.17",
+      "reportDate": "2026.08.21",
+      "theme": "AI 인프라",
+      "headline": "NVIDIA·OpenAI·SoftBank가 전력·부지·건물을 20년 단위로 선점한다",
+      "takeaway": "AI 인프라 경쟁의 중심이 GPU 구매에서 발전·송배전·냉각·건설까지 넓어지고 있습니다.",
+      "before": "‘AI 팩토리’와 초지능 인프라를 장기 구상으로 제시",
+      "now": "20년 임대·15억 달러 투자·신용 지원·발전 계획으로 계약화",
+      "facts": [
+        "NVIDIA는 Ohio PORTS-Pike의 독점 AI 컴퓨트 공급자로 선정됐습니다.",
+        "OpenAI는 총 8 IT-GW 규모의 수요 고객으로 참여하고, SB Energy와 20년 임대 구조를 맺었습니다.",
+        "NVIDIA는 SB Energy에 15억 달러를 투자하고 초기 4.25 IT-GW 건설에 신용 지원을 제공합니다."
+      ],
+      "action": "초기 4.25 IT-GW와 추가 3.75 IT-GW 옵션, 신규 발전 10GW 이상 및 지역 그리드 투자를 계획했습니다.",
+      "impact": "AI 투자 수혜 범위가 반도체에서 발전·송배전·냉각·건설·프로젝트 금융으로 넓어질 수 있습니다.",
+      "impactPath": [
+        "전력·부지 선점",
+        "대규모 인프라 발주",
+        "AI 수혜 산업 확장"
+      ],
+      "counter": "첫 단계 가동 목표가 2028년으로, 인허가·계통 연결·자금조달의 실행 위험이 남아 있습니다.",
+      "next": "전력 인허가 → 계통 연결 → 자금조달 → 실제 GPU 발주 → 2028년 1단계 가동 순서로 확인합니다. 추가 3.75 IT-GW 옵션 행사도 봅니다.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
+      "sourceLabel": "NVIDIA Newsroom · PORTS-Pike",
+      "sourceGrade": "A"
+    },
+    {
+      "id": "catl-supply-chain",
+      "leader": "쩡위췬(Robin Zeng)",
+      "role": "CATL Chairman & CEO",
+      "initials": "RZ",
+      "score": 94,
+      "kind": "실행",
+      "date": "2026.08.17",
+      "reportDate": "2026.08.21",
+      "theme": "에너지 전환",
+      "headline": "CATL이 공급업체의 탄소 대응을 주문과 장기계약 기준으로 바꾼다",
+      "takeaway": "탄소중립이 홍보 목표가 아니라 납품 조건과 수주 경쟁력으로 이동하고 있습니다.",
+      "before": "CATL 자체 공장의 탄소중립과 장기 감축 목표가 중심",
+      "now": "공급업체 탄소 데이터를 평가해 주문·장기계약 우대에 반영",
+      "facts": [
+        "CATL은 20개 배터리 공장이 모두 탄소중립 인증을 받았다고 발표했습니다.",
+        "2027년부터 신규 공급업체에 제품 탄소발자국 데이터를 요구하고 재생전력·효율을 연간 평가에 반영합니다.",
+        "30개 핵심 공급업체를 첫 실행 코호트로 제시했습니다."
+      ],
+      "action": "저탄소 공급업체를 주문과 장기계약에서 우대할 수 있도록 조달 평가 기준을 변경합니다.",
+      "impact": "배터리 공급사는 가격·품질뿐 아니라 탄소 데이터와 재생전력까지 갖춰야 수주에서 유리할 수 있습니다.",
+      "impactPath": [
+        "탄소평가 도입",
+        "공급업체 대응 투자",
+        "주문·장기계약 차별화"
+      ],
+      "counter": "감축 수치는 회사 발표치입니다. 인증 범위·방법론과 실제 주문 우대 사례는 추가 확인이 필요합니다.",
+      "next": "2027년 가이드라인의 구체적인 평가 기준, 30개 핵심 공급업체 이후 적용 범위, 실제 주문·장기계약 우대 사례를 확인합니다.",
+      "source": "https://www.catl.com/en/news/6953.html",
+      "sourceLabel": "CATL · Supply chain decarbonization",
+      "sourceGrade": "A"
+    }
+  ],
+  "themes": [
+    {
+      "name": "AI 인프라",
+      "conviction": 91,
+      "direction": "+9",
+      "note": "칩에서 전력·부지·계통·금융으로 병목 이동",
+      "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son) · 웨이저자(C.C. Wei)"
+    },
+    {
+      "name": "AI 안전",
+      "conviction": 78,
+      "direction": "+12",
+      "note": "원칙에서 훈련 중단·상시 모니터링 비용으로",
+      "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)"
+    },
+    {
+      "name": "AI 배포",
+      "conviction": 76,
+      "direction": "+4",
+      "note": "모델 성능에서 제작자·현장 운영 지표로",
+      "leaders": "일론 머스크(Elon Musk) · 사티아 나델라(Satya Nadella) · 알렉스 카프(Alex Karp)"
+    },
+    {
+      "name": "에너지 전환",
+      "conviction": 68,
+      "direction": "+5",
+      "note": "목표에서 공급업체 평가·주문 배분 규칙으로",
+      "leaders": "쩡위췬(Robin Zeng) · 스콧 스트라직(Scott Strazik)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "date": "2주 내",
+      "title": "OpenAI 최대 RL run",
+      "test": "어떤 통제 조건에서 보류된 훈련이 재개되는가",
+      "theme": "AI 안전"
+    },
+    {
+      "date": "2027",
+      "title": "CATL 조달 가이드라인",
+      "test": "탄소 데이터가 실제 주문·장기계약 우대로 이어지는가",
+      "theme": "에너지 전환"
+    },
+    {
+      "date": "2028",
+      "title": "PORTS-Pike 1단계",
+      "test": "인허가·계통 연결·GPU 발주가 계획대로 완료되는가",
+      "theme": "AI 인프라"
+    },
+    {
+      "date": "상시",
+      "title": "말과 행동의 괴리",
+      "test": "메시지 변화가 채용·CAPEX·M&A에 90일 내 반영되는가",
+      "theme": "전체"
+    }
+  ]
+}
