@@ -61,6 +61,66 @@ jobs:
           grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
           touch .nojekyll
 
+
+      - name: Validate Leader Signal Radar data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from datetime import datetime
+          from pathlib import Path
+          import json
+          import re
+
+          path = Path('leader-signal-radar/data/daily.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+
+          required_top = {
+              'schemaVersion', 'asOfDate', 'updatedAt', 'status', 'statusMessage',
+              'currentSignalIds', 'dailyThesis', 'lastSuccessfulRun',
+              'researchWindow', 'runSummary', 'signals', 'themes', 'checkpoints'
+          }
+          if not required_top.issubset(data):
+              raise SystemExit('Leader signal data is missing required fields.')
+          if data['schemaVersion'] != 1:
+              raise SystemExit('Unsupported Leader signal schema version.')
+          if not re.fullmatch(r'\d{4}\.\d{2}\.\d{2}', data['asOfDate']):
+              raise SystemExit('Invalid Leader signal asOfDate.')
+          datetime.fromisoformat(data['updatedAt'])
+          if data['status'] not in {'pending', 'signals', 'no_signal', 'partial'}:
+              raise SystemExit('Invalid Leader signal status.')
+
+          signals = data['signals']
+          ids = [signal.get('id') for signal in signals]
+          current_ids = data['currentSignalIds']
+          if len(ids) != len(set(ids)) or len(current_ids) != len(set(current_ids)):
+              raise SystemExit('Duplicate Leader signal IDs.')
+          if not set(current_ids).issubset(set(ids)):
+              raise SystemExit('Current Leader signal IDs are not present in history.')
+          if data['status'] == 'signals' and not current_ids:
+              raise SystemExit('Signals status requires currentSignalIds.')
+          if data['status'] == 'no_signal' and current_ids:
+              raise SystemExit('No-signal status cannot have currentSignalIds.')
+
+          required_signal = {
+              'id', 'leader', 'role', 'initials', 'score', 'kind', 'date',
+              'reportDate', 'theme', 'headline', 'takeaway', 'before', 'now',
+              'facts', 'action', 'impact', 'impactPath', 'counter', 'next',
+              'source', 'sourceLabel', 'sourceGrade'
+          }
+          for signal in signals:
+              if not required_signal.issubset(signal):
+                  raise SystemExit(f"Signal {signal.get('id')} is incomplete.")
+              if not 0 <= signal['score'] <= 100:
+                  raise SystemExit(f"Signal {signal['id']} has an invalid score.")
+              if signal['sourceGrade'] not in {'A', 'B'}:
+                  raise SystemExit(f"Signal {signal['id']} has an invalid source grade.")
+              if not signal['source'].startswith('https://'):
+                  raise SystemExit(f"Signal {signal['id']} has an invalid source URL.")
+              if not signal['facts'] or len(signal['impactPath']) < 2:
+                  raise SystemExit(f"Signal {signal['id']} lacks evidence or impact steps.")
+          PY
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
