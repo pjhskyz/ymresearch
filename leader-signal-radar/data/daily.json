@@ -1,12 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "asOfDate": "2026.08.27",
   "updatedAt": "2026-08-27T07:33:09+09:00",
   "status": "signals",
-  "statusMessage": "22명의 최신 공식 발표와 직접 발언을 확인해 결정적 신호 1건을 보강하고 신규 실행 신호 1건을 확인했습니다.",
+  "statusMessage": "22명을 조사해 결정적 신호 1건을 보강하고 신규 1건을 확인했으며, 관찰 신호 1건을 별도로 분류했습니다.",
   "currentSignalIds": [
     "openai-pacing",
     "nvidia-rubin-production"
+  ],
+  "currentObservationIds": [
+    "druckenmiller-treasury-buybacks"
   ],
   "dailyThesis": "AI 수요는 NVIDIA의 매출·차세대 시스템 양산으로 재확인됐지만, 동시에 OpenAI의 실제 침해 사고가 보안 격리와 상시 모니터링을 필수 인프라 비용으로 끌어올리고 있습니다.",
   "lastSuccessfulRun": "2026-08-27T07:33:09+09:00",
@@ -17,8 +20,8 @@
   "runSummary": {
     "leadersChecked": 22,
     "sourcesChecked": 30,
-    "excludedCount": 5,
-    "notes": "22명별 공식 채널·직접 발언·신뢰도 높은 교차검증 자료를 30회 점검했습니다. OpenAI 후속 보고서는 기존 신호를 보강했고 NVIDIA 실적과 양산 전환은 별도 실행 신호로 승격했습니다. 과거 발언 재보도, 리더와 직접 연결되지 않은 일반 공지, 단순 연구 소개 등 5건은 제외했습니다."
+    "excludedCount": 4,
+    "notes": "22명별 공식 채널·직접 발언·신뢰도 높은 교차검증 자료를 30회 점검했습니다. OpenAI 후속 보고서는 기존 신호를 보강했고 NVIDIA 실적과 양산 전환은 별도 실행 신호로 승격했습니다. 기존 제외 후보 중 드러켄밀러의 장기채 바이백 비판은 새 2단계 기준에 따라 관찰 신호로 분류했으며, 과거 발언 재보도·일반 공지·단순 연구 소개 등 4건은 제외했습니다."
   },
   "signals": [
     {
@@ -152,6 +155,41 @@
       "source": "https://www.catl.com/en/news/6953.html",
       "sourceLabel": "CATL · Supply chain decarbonization",
       "sourceGrade": "A"
+    }
+  ],
+  "observations": [
+    {
+      "id": "druckenmiller-treasury-buybacks",
+      "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
+      "role": "Duquesne Family Office",
+      "initials": "SD",
+      "score": 68,
+      "kind": "강화",
+      "date": "2026.08.25",
+      "reportDate": "2026.08.27",
+      "theme": "미국 채권",
+      "headline": "드러켄밀러가 미 재무부의 장기채 바이백 확대를 ‘가격 관리’라고 비판했다",
+      "takeaway": "재무부 개입이 장기금리를 낮추기보다 시장 신뢰와 재정 규율을 약화시킬 수 있다는 구체적 경고입니다. 실제 포지션은 확인되지 않아 결정적 신호가 아닌 관찰 신호로 분류합니다.",
+      "before": "미국 재정적자와 부채 증가가 장기금리와 달러 신뢰를 훼손할 수 있다는 기존 경고",
+      "now": "장기채 바이백 확대를 유동성 공급이 아니라 가격 개입으로 규정하고 실패 가능성을 명시",
+      "facts": [
+        "드러켄밀러는 재무부의 장기채 바이백 확대가 유동성 관리가 아니라 가격 관리라고 비판했습니다.",
+        "장기금리를 인위적으로 누르면 재정적자에 대한 시장의 규율 기능이 약해질 수 있다고 주장했습니다.",
+        "관련 기고문의 견해는 본인의 것이라고 확인했지만, 이를 뒷받침하는 채권 포지션 변화는 공개되지 않았습니다."
+      ],
+      "action": "미 재무부 정책을 공개 기고문으로 비판했지만, 장기채 매매나 포트폴리오 변경은 확인되지 않았습니다.",
+      "impact": "정책 개입에도 장기금리가 내려가지 않으면 장단기 금리차·은행·고배당주·달러 자산의 할인율 판단에 영향을 줄 수 있습니다.",
+      "impactPath": [
+        "장기채 바이백 확대",
+        "가격 개입 논란",
+        "채권시장 신뢰·기간 프리미엄 변화",
+        "장기금리 민감 자산 재평가"
+      ],
+      "counter": "바이백은 시장 기능을 개선하는 유동성 관리 수단일 수 있으며, 실제 규모가 전체 국채시장에 비해 작다면 금리 왜곡 효과도 제한적일 수 있습니다.",
+      "next": "재무부의 장기채 바이백 규모와 만기 구성, 10년·30년 국채 기간 프리미엄, 입찰 수요, 드러켄밀러의 후속 포지션 공개를 확인합니다.",
+      "source": "https://www.investing.com/news/stock-market-news/us-treasury-buybacks-a-mistake-costing-credibility-says-druckenmiller-4874531",
+      "sourceLabel": "Reuters · US Treasury buybacks",
+      "sourceGrade": "B"
     }
   ],
   "themes": [
