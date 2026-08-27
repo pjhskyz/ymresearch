@@ -77,30 +77,41 @@ jobs:
 
           required_top = {
               'schemaVersion', 'asOfDate', 'updatedAt', 'status', 'statusMessage',
-              'currentSignalIds', 'dailyThesis', 'lastSuccessfulRun',
-              'researchWindow', 'runSummary', 'signals', 'themes', 'checkpoints'
+              'currentSignalIds', 'currentObservationIds', 'dailyThesis',
+              'lastSuccessfulRun', 'researchWindow', 'runSummary', 'signals',
+              'observations', 'themes', 'checkpoints'
           }
           if not required_top.issubset(data):
               raise SystemExit('Leader signal data is missing required fields.')
-          if data['schemaVersion'] != 1:
+          if data['schemaVersion'] != 2:
               raise SystemExit('Unsupported Leader signal schema version.')
           if not re.fullmatch(r'\d{4}\.\d{2}\.\d{2}', data['asOfDate']):
               raise SystemExit('Invalid Leader signal asOfDate.')
           datetime.fromisoformat(data['updatedAt'])
-          if data['status'] not in {'pending', 'signals', 'no_signal', 'partial'}:
+          if data['status'] not in {'pending', 'signals', 'observations', 'no_signal', 'partial'}:
               raise SystemExit('Invalid Leader signal status.')
 
           signals = data['signals']
-          ids = [signal.get('id') for signal in signals]
+          observations = data['observations']
+          signal_ids = [signal.get('id') for signal in signals]
+          observation_ids = [signal.get('id') for signal in observations]
           current_ids = data['currentSignalIds']
-          if len(ids) != len(set(ids)) or len(current_ids) != len(set(current_ids)):
-              raise SystemExit('Duplicate Leader signal IDs.')
-          if not set(current_ids).issubset(set(ids)):
-              raise SystemExit('Current Leader signal IDs are not present in history.')
+          current_observation_ids = data['currentObservationIds']
+          all_ids = signal_ids + observation_ids
+          if len(all_ids) != len(set(all_ids)):
+              raise SystemExit('Duplicate Leader signal IDs across tiers.')
+          if len(current_ids) != len(set(current_ids)) or len(current_observation_ids) != len(set(current_observation_ids)):
+              raise SystemExit('Duplicate current Leader signal IDs.')
+          if not set(current_ids).issubset(set(signal_ids)):
+              raise SystemExit('Current decisive signal IDs are not present in decisive history.')
+          if not set(current_observation_ids).issubset(set(observation_ids)):
+              raise SystemExit('Current observation IDs are not present in observation history.')
           if data['status'] == 'signals' and not current_ids:
               raise SystemExit('Signals status requires currentSignalIds.')
-          if data['status'] == 'no_signal' and current_ids:
-              raise SystemExit('No-signal status cannot have currentSignalIds.')
+          if data['status'] == 'observations' and (current_ids or not current_observation_ids):
+              raise SystemExit('Observations status requires observation IDs and no decisive IDs.')
+          if data['status'] == 'no_signal' and (current_ids or current_observation_ids):
+              raise SystemExit('No-signal status cannot have current IDs.')
 
           required_signal = {
               'id', 'leader', 'role', 'initials', 'score', 'kind', 'date',
@@ -108,17 +119,22 @@ jobs:
               'facts', 'action', 'impact', 'impactPath', 'counter', 'next',
               'source', 'sourceLabel', 'sourceGrade'
           }
-          for signal in signals:
-              if not required_signal.issubset(signal):
-                  raise SystemExit(f"Signal {signal.get('id')} is incomplete.")
-              if not 0 <= signal['score'] <= 100:
-                  raise SystemExit(f"Signal {signal['id']} has an invalid score.")
-              if signal['sourceGrade'] not in {'A', 'B'}:
-                  raise SystemExit(f"Signal {signal['id']} has an invalid source grade.")
-              if not signal['source'].startswith('https://'):
-                  raise SystemExit(f"Signal {signal['id']} has an invalid source URL.")
-              if not signal['facts'] or len(signal['impactPath']) < 2:
-                  raise SystemExit(f"Signal {signal['id']} lacks evidence or impact steps.")
+          for tier_name, tier_signals in (('decisive', signals), ('observation', observations)):
+              for signal in tier_signals:
+                  if not required_signal.issubset(signal):
+                      raise SystemExit(f"Signal {signal.get('id')} is incomplete.")
+                  if not 0 <= signal['score'] <= 100:
+                      raise SystemExit(f"Signal {signal['id']} has an invalid score.")
+                  if tier_name == 'decisive' and signal['score'] < 75:
+                      raise SystemExit(f"Decisive signal {signal['id']} is below 75.")
+                  if tier_name == 'observation' and not 60 <= signal['score'] < 75:
+                      raise SystemExit(f"Observation signal {signal['id']} is outside 60-74.")
+                  if signal['sourceGrade'] not in {'A', 'B'}:
+                      raise SystemExit(f"Signal {signal['id']} has an invalid source grade.")
+                  if not signal['source'].startswith('https://'):
+                      raise SystemExit(f"Signal {signal['id']} has an invalid source URL.")
+                  if not signal['facts'] or len(signal['impactPath']) < 2:
+                      raise SystemExit(f"Signal {signal['id']} lacks evidence or impact steps.")
           PY
 
       - name: Configure GitHub Pages
