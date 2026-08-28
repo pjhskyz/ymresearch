@@ -1,26 +1,95 @@
 {
   "schemaVersion": 2,
-  "asOfDate": "2026.08.28",
-  "updatedAt": "2026-08-28T07:32:53+09:00",
-  "status": "observations",
-  "statusMessage": "22명을 조사해 결정적 신호 0건, 관찰 신호 1건을 확인했습니다.",
-  "currentSignalIds": [],
-  "currentObservationIds": [
-    "openai-brazil-commercial"
+  "asOfDate": "2026.08.29",
+  "updatedAt": "2026-08-29T07:34:36+09:00",
+  "status": "signals",
+  "statusMessage": "22명을 조사해 결정적 신호 2건을 확인했으며, 신규 관찰 신호는 없었습니다.",
+  "currentSignalIds": [
+    "anthropic-pentagon-red-lines",
+    "a16z-machine-age-fund"
   ],
-  "dailyThesis": "AI 수요의 다음 검증 지점이 모델 사용량에서 현지 기업·공공기관의 유료 도입과 계약으로 이동하고 있습니다.",
-  "lastSuccessfulRun": "2026-08-28T07:32:53+09:00",
+  "currentObservationIds": [],
+  "dailyThesis": "AI 경쟁의 병목이 물리 인프라와 사용 통제 규칙으로 이동하면서 자본은 하드웨어에, 법적 승부는 모델의 군사용 경계에 집중되고 있습니다.",
+  "lastSuccessfulRun": "2026-08-29T07:34:36+09:00",
   "researchWindow": {
-    "from": "2026-08-27T07:33:09+09:00",
-    "to": "2026-08-28T07:32:53+09:00"
+    "from": "2026-08-28T07:32:53+09:00",
+    "to": "2026-08-29T07:34:36+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
     "sourcesChecked": 30,
     "excludedCount": 4,
-    "notes": "22명별 공식 채널·직접 발언·신뢰도 높은 교차검증 자료를 30회 점검했습니다. OpenAI의 브라질 상업 운영 출범은 관찰 신호로 분류했고, 타일러 코웬의 AI 규제안 재게시·Meta 청소년 보호 합의 후속 승인·GE Vernova CFO 승계·드러켄밀러 기고문 작성 방식 보도는 신규성 또는 전략 변화 기준에 미달해 제외했습니다."
+    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 30회 점검했습니다. Anthropic의 군사용 AI 안전선 관련 위법 판결과 a16z의 11억 달러 Machine Age Fund를 결정적 신호로 승격했습니다. OpenAI 태국 액셀러레이터, NVIDIA 실적 후속 발언, SpaceX 장기 매출 전망, Meta 과거 조직개편 재구성 보도는 규모·신규성·직접 행동 기준에 미달해 제외했습니다."
   },
   "signals": [
+    {
+      "id": "anthropic-pentagon-red-lines",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "role": "Anthropic Co-Founder & CEO",
+      "initials": "DA",
+      "score": 92,
+      "kind": "실행",
+      "date": "2026.08.28",
+      "reportDate": "2026.08.29",
+      "theme": "AI 안전",
+      "headline": "Anthropic이 군사용 AI 안전선 철회를 거부하고 소송해 펜타곤의 공급망 위험 지정이 위법 판결을 받았다",
+      "takeaway": "대규모 감시와 인간 통제 없는 자율무기에 대한 제한이 선언에 머물지 않고 정부 조달을 상대로 감수한 법적·사업적 행동으로 확인됐습니다. AI 기업의 사용 제한이 국방 조달 계약의 실제 협상 조건이 될 수 있음을 보여줍니다.",
+      "before": "다리오 아모데이는 군사용 AI에도 대규모 국내 감시와 인간 통제 없는 자율무기 금지선을 유지하겠다고 공개적으로 주장함",
+      "now": "제재와 정부 거래 중단 위험을 감수하고 제한 철회를 거부한 뒤 소송을 제기해 공급망 위험 지정의 위법성을 인정받음",
+      "facts": [
+        "Anthropic은 펜타곤이 요구한 무제한 군사용 이용 가운데 대규모 국내 감시와 인간 통제 없는 자율무기에 대한 제한을 철회하지 않았습니다.",
+        "회사는 2026년 3월 공급망 위험 지정과 정부 차원의 사용 중단 조치가 보복이라며 캘리포니아와 워싱턴 D.C.에서 소송을 제기했습니다.",
+        "미 연방지방법원은 2026년 8월 28일 해당 조치가 표현의 자유와 적법절차를 침해했고, 공급망 위험 지정은 법률상 근거를 벗어난 자의적 결정이라고 판결했습니다.",
+        "별도의 워싱턴 D.C. 항소 사건은 계속 진행 중이며 미국 정부의 추가 항소 가능성도 남아 있습니다."
+      ],
+      "action": "Anthropic은 안전 제한 철회를 거부하고 두 건의 법적 절차를 시작했으며, 캘리포니아 연방법원에서 공급망 위험 지정의 위법 판결을 확보했습니다.",
+      "impact": "프런티어 AI 기업의 안전정책이 정부 요구에 따라 즉시 사라지는 내부 원칙이 아니라 계약·소송 위험을 감수하는 조달 조건으로 격상됐습니다. 국방 AI 시장에서는 성능 외에 사용권한·감사·책임 범위가 공급업체 선정과 멀티모델 전략의 핵심 비용이 됩니다.",
+      "impactPath": [
+        "AI 기업의 군사용 이용 제한 유지",
+        "정부 제재와 법적 분쟁",
+        "사용권한·감사·책임 조항의 조달 표준화 압력",
+        "국방 AI 공급업체 경쟁과 규제 비용 변화"
+      ],
+      "counter": "법원은 펜타곤이 원하는 공급업체를 선택할 자유까지 제한하지 않았고, 정부가 항소하면 판결 효력이 다시 다퉈질 수 있습니다. 별도 D.C. 사건도 남아 있어 Anthropic의 국방 매출 회복이 확정된 것은 아닙니다.",
+      "next": "미 정부의 항소 여부와 판결 집행 범위, D.C. 항소법원 사건 결과, 연방기관의 Claude 사용 재개, 펜타곤 계약 조건에 두 안전 제한이 반영되는지 확인합니다.",
+      "source": "https://www.reuters.com/world/us-judge-rules-pentagon-blacklisting-anthropic-unlawful-2026-08-28/",
+      "sourceLabel": "Reuters · US judge rules Pentagon blacklisting of Anthropic unlawful",
+      "sourceGrade": "B"
+    },
+    {
+      "id": "a16z-machine-age-fund",
+      "leader": "마크 앤드리슨(Marc Andreessen)",
+      "role": "Andreessen Horowitz Co-Founder & General Partner",
+      "initials": "MA",
+      "score": 95,
+      "kind": "실행",
+      "date": "2026.08.28",
+      "reportDate": "2026.08.29",
+      "theme": "AI 인프라",
+      "headline": "a16z가 11억 달러 첫 전용 하드웨어 펀드를 조성해 AI의 칩·메모리·전력 병목에 자본을 배치한다",
+      "takeaway": "‘소프트웨어가 세상을 먹는다’는 투자사로 알려진 a16z가 하드웨어를 공식 투자 축으로 만들었습니다. AI 수익 기회가 모델과 앱뿐 아니라 칩·네트워크·냉각·전력·로봇의 공급 제약을 푸는 기업으로 넓어진다는 자본배분 신호입니다.",
+      "before": "a16z는 소프트웨어 중심 투자사로 알려졌고 SpaceX·Anduril·Skydio 등 하드웨어 투자는 선택적으로 진행함",
+      "now": "하드웨어를 공식 투자 활동으로 지정하고 11억 달러 규모의 첫 전용 Machine Age Fund를 조성함",
+      "facts": [
+        "a16z는 2026년 8월 28일 11억 달러를 조성한 첫 전용 하드웨어 펀드인 Machine Age Fund를 공식 발표했습니다.",
+        "투자 범위는 AI용 칩·메모리·네트워크·저장장치뿐 아니라 데이터센터·로봇·가정용 AI 기기까지 포함합니다.",
+        "a16z는 AI 하드웨어 전 계층이 공급망 능력과 물리적 한계에 부딪히고 있어 전력까지 포함한 구조 재설계가 필요하다고 밝혔습니다.",
+        "발표문은 H100 대비 Rubin 랙의 연산 밀도가 28배 높아지고, 랙당 전력이 기존 5~10킬로와트에서 100~250킬로와트로 높아졌으며 향후 3년 내 1메가와트로 증가할 수 있다고 제시했습니다."
+      ],
+      "action": "a16z는 11억 달러의 전용 투자금을 조성하고 하드웨어를 공식 투자 축으로 만들었으며, 칩부터 전력·냉각·로봇까지 투자 대상을 명시했습니다.",
+      "impact": "초기·성장 자본이 AI 모델에서 반도체, 메모리, 광통신, 냉각, 전력변환, 데이터센터 부품과 로봇으로 확산될 가능성이 커졌습니다. 다만 펀드 조성이 상장 공급망 기업의 즉각적인 수주 증가를 의미하지는 않습니다.",
+      "impactPath": [
+        "AI 추론량과 랙당 전력밀도 급증",
+        "칩·메모리·네트워크·냉각·전력 병목",
+        "11억 달러 전용 벤처자본 투입",
+        "AI 물리 인프라 스타트업의 증설·상용화 촉진"
+      ],
+      "counter": "발표문 작성자에 마크 앤드리슨은 포함되지 않았고 실제 운용은 복수의 a16z 파트너가 담당합니다. 자금 조성은 완료됐지만 투자 집행 속도·기업별 배분·기술 상용화 성과는 아직 확인되지 않았습니다.",
+      "next": "Machine Age Fund의 첫 투자 기업과 건별 투자액, 칩·네트워크·전력·냉각별 배분, 후속 라운드와 상용 고객 확보, 포트폴리오 기업의 매출·생산능력 확대를 확인합니다.",
+      "source": "https://a16z.com/the-machine-age-fund/",
+      "sourceLabel": "Andreessen Horowitz · The Machine Age Fund",
+      "sourceGrade": "A"
+    },
     {
       "id": "openai-pacing",
       "leader": "샘 알트만(Sam Altman)",
@@ -226,16 +295,16 @@
   "themes": [
     {
       "name": "AI 인프라",
-      "conviction": 95,
-      "direction": "+4",
-      "note": "계약·부지 선점에 이어 데이터센터 매출과 Vera Rubin 양산으로 수요가 확인됨",
-      "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son) · 웨이저자(C.C. Wei)"
+      "conviction": 98,
+      "direction": "+3",
+      "note": "실적·양산 확인에 이어 a16z가 11억 달러 전용 펀드로 칩부터 전력까지 물리 병목에 자본을 배치",
+      "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son) · 웨이저자(C.C. Wei) · 마크 앤드리슨(Marc Andreessen)"
     },
     {
       "name": "AI 안전",
-      "conviction": 94,
-      "direction": "+16",
-      "note": "예비 위험 경고에서 실제 격리 우회·외부 시스템 침해와 운영 통제 강화로 전환",
+      "conviction": 97,
+      "direction": "+3",
+      "note": "운영 사고 대응에 더해 Anthropic의 군사용 안전선이 법적·조달 조건으로 격상",
       "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)"
     },
     {
@@ -273,22 +342,22 @@
       "theme": "AI 안전"
     },
     {
-      "date": "2027",
-      "title": "CATL 조달 가이드라인",
-      "test": "탄소 데이터가 실제 주문·장기계약 우대로 이어지는가",
-      "theme": "에너지 전환"
-    },
-    {
-      "date": "2028",
-      "title": "PORTS-Pike 1단계",
-      "test": "인허가·계통 연결·GPU 발주가 계획대로 완료되는가",
-      "theme": "AI 인프라"
-    },
-    {
       "date": "향후 2개 분기",
       "title": "OpenAI 브라질 상업화",
       "test": "현지팀 출범이 Enterprise 좌석·API 계약·공공기관 도입의 추가 증가로 이어지는가",
       "theme": "AI 배포"
+    },
+    {
+      "date": "항소 기한",
+      "title": "Anthropic-펜타곤 판결",
+      "test": "미 정부가 항소하는지와 연방기관의 Claude 사용·조달 제한이 실제로 해제되는가",
+      "theme": "AI 안전"
+    },
+    {
+      "date": "향후 2개 분기",
+      "title": "a16z Machine Age 집행",
+      "test": "11억 달러가 칩·메모리·네트워크·전력·냉각 기업에 어떤 비중과 속도로 배치되는가",
+      "theme": "AI 인프라"
     }
   ]
 }
