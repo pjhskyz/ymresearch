@@ -1,27 +1,55 @@
 {
   "schemaVersion": 2,
-  "asOfDate": "2026.08.29",
-  "updatedAt": "2026-08-29T07:34:36+09:00",
+  "asOfDate": "2026.08.30",
+  "updatedAt": "2026-08-30T07:29:36+09:00",
   "status": "signals",
-  "statusMessage": "22명을 조사해 결정적 신호 2건을 확인했으며, 신규 관찰 신호는 없었습니다.",
+  "statusMessage": "22명을 조사해 결정적 신호 1건을 확인했으며, 신규 관찰 신호는 없었습니다.",
   "currentSignalIds": [
-    "anthropic-pentagon-red-lines",
-    "a16z-machine-age-fund"
+    "openai-cursor-model-cutoff"
   ],
   "currentObservationIds": [],
-  "dailyThesis": "AI 경쟁의 병목이 물리 인프라와 사용 통제 규칙으로 이동하면서 자본은 하드웨어에, 법적 승부는 모델의 군사용 경계에 집중되고 있습니다.",
-  "lastSuccessfulRun": "2026-08-29T07:34:36+09:00",
+  "dailyThesis": "AI 모델 공급이 단순 API 유통을 넘어 인수합병·지배구조와 계약 신뢰에 따라 끊길 수 있는 전략 공급망으로 바뀌고 있습니다.",
+  "lastSuccessfulRun": "2026-08-30T07:29:36+09:00",
   "researchWindow": {
-    "from": "2026-08-28T07:32:53+09:00",
-    "to": "2026-08-29T07:34:36+09:00"
+    "from": "2026-08-29T07:34:36+09:00",
+    "to": "2026-08-30T07:29:36+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 30,
+    "sourcesChecked": 32,
     "excludedCount": 4,
-    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 30회 점검했습니다. Anthropic의 군사용 AI 안전선 관련 위법 판결과 a16z의 11억 달러 Machine Age Fund를 결정적 신호로 승격했습니다. OpenAI 태국 액셀러레이터, NVIDIA 실적 후속 발언, SpaceX 장기 매출 전망, Meta 과거 조직개편 재구성 보도는 규모·신규성·직접 행동 기준에 미달해 제외했습니다."
+    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 32회 점검했습니다. OpenAI의 Cursor 모델 공급 종료 통지를 결정적 신호로 승격했습니다. TSMC 일본 3나노 발표 재보도, NVIDIA 피지컬 AI 전략 반복, Anthropic 외부 저작권 소송, Tyler Cowen의 일반 링크 모음은 신규 행동·관점 변화가 없어 제외했습니다."
   },
   "signals": [
+    {
+      "id": "openai-cursor-model-cutoff",
+      "leader": "샘 알트만(Sam Altman) · 일론 머스크(Elon Musk)",
+      "role": "OpenAI CEO · SpaceX CEO",
+      "initials": "SA · EM",
+      "score": 92,
+      "kind": "실행",
+      "date": "2026.08.28",
+      "reportDate": "2026.08.30",
+      "theme": "AI 배포",
+      "headline": "OpenAI가 SpaceX 인수 후 Cursor에 모델 공급 종료를 통지하고 11월 12일 차단을 예고",
+      "takeaway": "OpenAI가 개발자 배포 확대보다 계약 통제와 모델 오용 위험을 우선해 핵심 유통 채널의 공급을 끊기로 했습니다. 기반 모델 접근권이 제품 기능이 아니라 인수합병과 지배구조에 따라 바뀌는 전략 공급망이 됐다는 신호입니다.",
+      "before": "Cursor는 여러 기반 모델을 선택할 수 있는 코딩 도구였고, OpenAI도 약 4년간 모델을 공급하며 개발자 접근 확대를 우선했습니다.",
+      "now": "SpaceX의 Cursor 인수로 지배권이 바뀌자 OpenAI는 계약상 해지권을 행사해 2026년 11월 12일 공급 종료를 제안했고, 차기 모델 Astra를 포함한 신규 모델도 제공하지 않기로 했습니다.",
+      "facts": [
+        "OpenAI는 8월 28일 SpaceX에 Cursor 모델 공급 계약을 종료할 뜻을 공식 통지했습니다.",
+        "제안된 공급 종료일은 2026년 11월 12일이며, 계약상 가능한 최대 통지 기간을 적용했습니다.",
+        "OpenAI는 지배권 변경 뒤 계약을 취소할 수 있는 조항과 머스크 계열사의 과거 약관 위반 경험을 결정 근거로 밝혔습니다.",
+        "OpenAI는 기존 모델의 전환 기간은 보장하지만 향후 모델은 Cursor에 제공하지 않겠다고 명시했습니다."
+      ],
+      "action": "OpenAI가 SpaceX에 계약 종료 통지를 발송하고 공급 중단 시점과 신규 모델 미제공 방침을 공개했습니다.",
+      "impact": "멀티모델 코딩 도구의 기업가치는 모델 성능뿐 아니라 공급계약의 지속성에 좌우됩니다. Cursor가 대체 모델로 전환하면 Anthropic·Google·xAI의 개발자 트래픽과 협상력이 커질 수 있습니다.",
+      "impactPath": "SpaceX의 Cursor 인수→OpenAI의 지배권 변경 해지권 행사→Cursor의 모델 구성·트래픽 재배분→코딩 모델 공급자별 사용량과 협상력 변화",
+      "counter": "OpenAI가 밝힌 날짜는 제안된 종료일이며 양측 협상이나 계약 분쟁으로 조건이 바뀔 수 있습니다. Cursor가 OpenAI 모델에 얼마나 의존하는지 공식 사용 비중도 공개되지 않았습니다.",
+      "next": "2026년 11월 12일 실제 모델 접근 종료 여부, Cursor의 대체 모델 계약과 모델별 사용 비중, 개발자 이탈·기업 고객 유지율을 확인합니다.",
+      "source": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "sourceLabel": "OpenAI 공식 발표",
+      "sourceGrade": "A"
+    },
     {
       "id": "anthropic-pentagon-red-lines",
       "leader": "다리오 아모데이(Dario Amodei)",
@@ -309,9 +337,9 @@
     },
     {
       "name": "AI 배포",
-      "conviction": 79,
-      "direction": "+3",
-      "note": "제품·현장 활용에서 대규모 사용자 시장의 현지 상업 운영과 기업 전환으로 확대",
+      "conviction": 84,
+      "direction": "+5",
+      "note": "상업 확장과 함께 지배권 변경만으로 핵심 모델 공급이 중단될 수 있는 계약 리스크가 현실화",
       "leaders": "일론 머스크(Elon Musk) · 샘 알트만(Sam Altman) · 사티아 나델라(Satya Nadella) · 알렉스 카프(Alex Karp)"
     },
     {
@@ -342,12 +370,6 @@
       "theme": "AI 안전"
     },
     {
-      "date": "향후 2개 분기",
-      "title": "OpenAI 브라질 상업화",
-      "test": "현지팀 출범이 Enterprise 좌석·API 계약·공공기관 도입의 추가 증가로 이어지는가",
-      "theme": "AI 배포"
-    },
-    {
       "date": "항소 기한",
       "title": "Anthropic-펜타곤 판결",
       "test": "미 정부가 항소하는지와 연방기관의 Claude 사용·조달 제한이 실제로 해제되는가",
@@ -358,6 +380,12 @@
       "title": "a16z Machine Age 집행",
       "test": "11억 달러가 칩·메모리·네트워크·전력·냉각 기업에 어떤 비중과 속도로 배치되는가",
       "theme": "AI 인프라"
+    },
+    {
+      "date": "2026.11.12",
+      "title": "Cursor의 OpenAI 모델 공급 종료",
+      "test": "예고일에 OpenAI 모델 접근이 실제 종료되고 Cursor가 어떤 대체 모델로 트래픽을 전환하는가",
+      "theme": "AI 배포"
     }
   ]
 }
