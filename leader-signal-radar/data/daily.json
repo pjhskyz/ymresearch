@@ -1,24 +1,22 @@
 {
   "schemaVersion": 2,
-  "asOfDate": "2026.08.30",
-  "updatedAt": "2026-08-30T07:29:36+09:00",
-  "status": "signals",
-  "statusMessage": "22명을 조사해 결정적 신호 1건을 확인했으며, 신규 관찰 신호는 없었습니다.",
-  "currentSignalIds": [
-    "openai-cursor-model-cutoff"
-  ],
+  "asOfDate": "2026.08.31",
+  "updatedAt": "2026-08-31T07:31:15+09:00",
+  "status": "no_signal",
+  "statusMessage": "22명을 조사했으나 결정적 신호와 관찰 신호 모두 신규 승격 기준을 넘는 사건이 없었습니다.",
+  "currentSignalIds": [],
   "currentObservationIds": [],
-  "dailyThesis": "AI 모델 공급이 단순 API 유통을 넘어 인수합병·지배구조와 계약 신뢰에 따라 끊길 수 있는 전략 공급망으로 바뀌고 있습니다.",
-  "lastSuccessfulRun": "2026-08-30T07:29:36+09:00",
+  "dailyThesis": "최근 기준선인 AI 인프라 확대, 안전 통제 강화, 모델 공급계약의 전략적 리스크가 유지됐으며 이를 바꿀 신규 행동은 확인되지 않았습니다.",
+  "lastSuccessfulRun": "2026-08-31T07:31:15+09:00",
   "researchWindow": {
-    "from": "2026-08-29T07:34:36+09:00",
-    "to": "2026-08-30T07:29:36+09:00"
+    "from": "2026-08-30T07:29:36+09:00",
+    "to": "2026-08-31T07:31:15+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 32,
+    "sourcesChecked": 28,
     "excludedCount": 4,
-    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 32회 점검했습니다. OpenAI의 Cursor 모델 공급 종료 통지를 결정적 신호로 승격했습니다. TSMC 일본 3나노 발표 재보도, NVIDIA 피지컬 AI 전략 반복, Anthropic 외부 저작권 소송, Tyler Cowen의 일반 링크 모음은 신규 행동·관점 변화가 없어 제외했습니다."
+    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 28회 점검했습니다. Anthropic 음악 저작권 소송의 후속 보도, OpenAI-Cursor 계약 종료의 반복 기사, Meta 청소년 보호 합의 재해석, Tyler Cowen의 영화 리뷰는 신규 행동·관점 변화가 없어 제외했습니다."
   },
   "signals": [
     {
