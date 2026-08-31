@@ -1,24 +1,97 @@
 {
   "schemaVersion": 2,
-  "asOfDate": "2026.08.31",
-  "updatedAt": "2026-08-31T07:31:15+09:00",
-  "status": "no_signal",
-  "statusMessage": "22명을 조사했으나 결정적 신호와 관찰 신호 모두 신규 승격 기준을 넘는 사건이 없었습니다.",
-  "currentSignalIds": [],
-  "currentObservationIds": [],
-  "dailyThesis": "최근 기준선인 AI 인프라 확대, 안전 통제 강화, 모델 공급계약의 전략적 리스크가 유지됐으며 이를 바꿀 신규 행동은 확인되지 않았습니다.",
-  "lastSuccessfulRun": "2026-08-31T07:31:15+09:00",
+  "asOfDate": "2026.09.01",
+  "updatedAt": "2026-09-01T07:31:36+09:00",
+  "status": "signals",
+  "statusMessage": "22명을 조사해 결정적 신호 2건과 관찰 신호 1건을 신규 등록했습니다.",
+  "currentSignalIds": [
+    "nvidia-mediatek-nvlink-investment",
+    "openai-chatgpt-ads-billion"
+  ],
+  "currentObservationIds": [
+    "dalio-us-power-hormuz-test"
+  ],
+  "dailyThesis": "AI 경쟁은 맞춤형 칩 생태계에 대한 직접 자본투자와 대화형 광고의 대규모 수익화로 확장되는 한편, 지정학에서는 미국의 연합 동원력이 단기 검증대에 올랐습니다.",
+  "lastSuccessfulRun": "2026-09-01T07:31:36+09:00",
   "researchWindow": {
-    "from": "2026-08-30T07:29:36+09:00",
-    "to": "2026-08-31T07:31:15+09:00"
+    "from": "2026-08-31T07:31:15+09:00",
+    "to": "2026-09-01T07:31:36+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 28,
-    "excludedCount": 4,
-    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 28회 점검했습니다. Anthropic 음악 저작권 소송의 후속 보도, OpenAI-Cursor 계약 종료의 반복 기사, Meta 청소년 보호 합의 재해석, Tyler Cowen의 영화 리뷰는 신규 행동·관점 변화가 없어 제외했습니다."
+    "sourcesChecked": 30,
+    "excludedCount": 5,
+    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 30회 점검했습니다. NVIDIA-MediaTek 투자와 OpenAI 광고 확장을 결정적 신호로, Ray Dalio의 호르무즈 패권 시험론을 관찰 신호로 등록했습니다. Bessent의 드러켄밀러 반박, Tyler Cowen의 AI 의인화 논평, Demis Hassabis 조직개편 재보도, Meta AI 조직개편 과거 기사, 제3자 중심의 Palantir·Starlink 보도는 리더의 신규 행동·검증 조건이 부족해 제외했습니다."
   },
   "signals": [
+    {
+      "id": "nvidia-mediatek-nvlink-investment",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA 창업자 겸 CEO",
+      "initials": "JH",
+      "score": 97,
+      "kind": "실행",
+      "date": "2026.08.31",
+      "reportDate": "2026.09.01",
+      "theme": "AI 인프라",
+      "headline": "NVIDIA가 MediaTek 전환사채에 35억 달러를 투자하고 NVLink 맞춤형 AI 칩 동맹을 확대했다",
+      "takeaway": "NVIDIA가 GPU 판매를 넘어 맞춤형 AI 칩을 설계·양산할 파트너에 직접 자본을 배치했습니다. 클라우드 AI 팩토리부터 PC와 자동차까지 NVLink를 사실상의 연결 표준으로 확장하려는 실행입니다.",
+      "before": "NVIDIA와 MediaTek은 DGX Spark용 GB10과 자동차용 Dimensity Auto 등 개별 제품을 함께 개발했지만, 협력의 중심은 특정 칩과 제품군이었습니다.",
+      "now": "MediaTek이 NVLink Fusion을 채택해 고객 맞춤형 XPU를 NVIDIA 랙에 연결하고, NVIDIA는 35억 달러 전환사채 투자로 다세대 클라우드·로컬 AI·자동차 협력을 자본 관계로 강화했습니다.",
+      "facts": [
+        "NVIDIA와 MediaTek은 2026년 8월 31일 AI 인프라·로컬 AI 컴퓨팅·자동차를 포괄하는 협력 확대를 공식 발표했습니다.",
+        "MediaTek은 NVLink Fusion을 채택해 하이퍼스케일러와 클라우드·프런티어 모델 기업의 맞춤형 XPU를 NVIDIA 랙 규모 시스템에 연결하기로 했습니다.",
+        "NVIDIA는 MediaTek이 발행한 전환사채에 35억 달러를 투자했습니다.",
+        "양사는 여러 세대의 RTX Spark·DGX Spark PC 칩과 AI 기반 자동차 플랫폼도 공동 개발하기로 했습니다."
+      ],
+      "action": "NVIDIA가 MediaTek 전환사채 35억 달러를 인수했고, MediaTek은 NVLink Fusion 기반 맞춤형 XPU 설계·양산 경로에 참여했습니다.",
+      "impact": "NVIDIA는 고객의 자체 AI 칩 수요를 GPU 대체 위협으로만 두지 않고 NVLink·메모리·패키징 생태계 안으로 흡수하려 합니다. MediaTek·첨단 패키징·HBM·고속 연결망 업체에는 신규 설계 기회가 생기지만, 독립 인터커넥트와 경쟁 가속기에는 진입 장벽이 높아질 수 있습니다.",
+      "impactPath": [
+        "NVIDIA의 35억 달러 투자와 MediaTek의 NVLink Fusion 채택",
+        "맞춤형 XPU의 설계·패키징·랙 통합 기간 단축",
+        "NVLink 기반 AI 팩토리와 엣지·자동차 플랫폼 확대",
+        "MediaTek·HBM·첨단 패키징 수요 증가와 NVIDIA 생태계 잠금 강화"
+      ],
+      "counter": "전환사채의 전환 조건과 만기, 공동 제품의 양산 일정·고객·매출 목표는 공개되지 않았습니다. 하이퍼스케일러가 독자 연결망을 유지하거나 맞춤형 칩 수요가 기대보다 작으면 NVLink 확장 효과가 제한될 수 있습니다.",
+      "next": "MediaTek 공시의 전환사채 조건, 첫 NVLink Fusion XPU의 테이프아웃·양산 일정과 고객, 첨단 패키징·HBM 발주 및 공동 PC·자동차 칩 매출을 확인합니다.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
+      "sourceLabel": "NVIDIA·MediaTek 공식 발표",
+      "sourceGrade": "A"
+    },
+    {
+      "id": "openai-chatgpt-ads-billion",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 98,
+      "kind": "실행",
+      "date": "2026.08.31",
+      "reportDate": "2026.09.01",
+      "theme": "AI 배포",
+      "headline": "OpenAI의 ChatGPT 광고가 출시 200일 안에 연환산 매출 10억 달러를 넘고 40여 개국으로 확대됐다",
+      "takeaway": "OpenAI가 구독·기업·API에 더해 광고를 10억 달러 규모의 네 번째 매출 축으로 증명했습니다. 대화형 의사결정 맥락을 광고 경매와 측정 인프라로 연결하면서 검색·커머스 광고 시장에 직접 진입했습니다.",
+      "before": "ChatGPT 광고는 제한된 시장의 초기 시험으로 시작했고, 광고 영업도 관리형 판매·대행사·파트너 중심이었습니다.",
+      "now": "출시 200일 이내 연환산 매출 10억 달러와 수만 광고주를 확보했고, 40여 개국 운영에 더해 인도·유럽·중동·북아프리카에서 셀프서비스 Ads Manager 판매를 시작했습니다.",
+      "facts": [
+        "OpenAI는 2026년 8월 31일 ChatGPT Ads의 연환산 매출이 출시 200일 안에 10억 달러에 도달했다고 공식 발표했습니다.",
+        "광고주는 수만 곳이며 ChatGPT Ads는 40여 개국에서 제공되고, 인도·유럽·중동·북아프리카에 셀프서비스 구매가 추가됐습니다.",
+        "Ads Manager는 5월에 도입됐고 중소기업이 현재 광고 사업에서 의미 있는 비중을 차지한다고 밝혔습니다.",
+        "성과 기반 입찰이 캠페인의 과반을 차지하며 Pixel·Conversions API, 상품 피드, 지역·맞춤 타기팅이 운영 중입니다."
+      ],
+      "action": "OpenAI가 광고 플랫폼을 40여 개국으로 확대하고 인도·유럽·중동·북아프리카에 직접 구매형 Ads Manager를 개방했습니다.",
+      "impact": "ChatGPT의 이용 시간을 매출로 전환하는 경로가 구독 외로 넓어져 AI 추론비용을 보조할 수 있습니다. 반면 검색·소셜 광고 예산 경쟁과 개인정보·답변 독립성 규제 위험이 커지며 Google·Meta와 광고 기술업체의 경쟁 구도가 바뀔 수 있습니다.",
+      "impactPath": [
+        "주간 사용자 10억 명 이상의 대화형 의사결정 맥락",
+        "셀프서비스 광고·성과 입찰·전환 측정 확대",
+        "광고주 수와 무료 사용자당 매출 증가",
+        "AI 추론비용 보전 및 검색·소셜 광고 예산 재배분"
+      ],
+      "counter": "연환산 매출은 최근 속도를 단순 연율화한 수치로 지속 매출과 같지 않고, 광고 사업의 비용·마진·지역별 유지율은 공개되지 않았습니다. 대화 맥락 활용에 대한 이용자 신뢰와 개인정보 규제가 확장을 제약할 수 있습니다.",
+      "next": "다음 분기의 실제 광고 매출·성장률·광고주 유지율, 무료 사용자당 매출과 추론비용, 광고 클릭·전환 품질, 유럽 등 주요 지역의 규제·옵트아웃 지표를 확인합니다.",
+      "source": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
+      "sourceLabel": "OpenAI 공식 발표",
+      "sourceGrade": "A"
+    },
     {
       "id": "openai-cursor-model-cutoff",
       "leader": "샘 알트만(Sam Altman) · 일론 머스크(Elon Musk)",
@@ -251,6 +324,40 @@
   ],
   "observations": [
     {
+      "id": "dalio-us-power-hormuz-test",
+      "leader": "레이 달리오(Ray Dalio)",
+      "role": "Bridgewater Associates 창업자",
+      "initials": "RD",
+      "score": 68,
+      "kind": "강화",
+      "date": "2026.08.31",
+      "reportDate": "2026.09.01",
+      "theme": "세계 질서",
+      "headline": "레이 달리오가 호르무즈 제재 동참 여부를 미국 패권의 ‘수에즈식 시험’으로 규정했다",
+      "takeaway": "달리오는 기존의 장기 패권순환론을 며칠 안에 결과가 드러날 구체적 지정학 시험으로 좁혔습니다. 실제 자산배분 행동은 확인되지 않았지만 국가별 동참과 미국의 제재 집행으로 판단을 검증할 수 있어 관찰 신호로 분류합니다.",
+      "before": "달리오는 부채·내부 정치·국제 질서·기술의 장기 ‘빅 사이클’로 미국과 중국의 상대적 힘을 설명해 왔습니다.",
+      "now": "호르무즈 해협 통행을 둘러싼 미국의 제재 압박을 영국의 수에즈 위기와 유사한 즉시 검증 가능한 패권 시험으로 제시하고, 국가별 동참과 미국의 후속 조치를 핵심 판별 기준으로 명시했습니다.",
+      "facts": [
+        "달리오는 2026년 8월 31일 본인 글에서 현재 상황을 미국의 세계 권력을 시험하는 사건으로 규정했습니다.",
+        "그는 다수 국가가 미국 계획에 동참해 성과를 내면 성공, 거부해 호르무즈 통제 상황이 유지되면 실패라고 판별 기준을 제시했습니다.",
+        "달리오는 중국·파키스탄은 동참하지 않고 UAE는 동참 의사를 보였으며, 다른 국가들은 수일 안에 입장을 정해야 할 것이라고 썼습니다.",
+        "그는 국가별 선택과 미국의 제재 집행 여부를 기다려 결과를 확인할 수 있다고 명시했습니다."
+      ],
+      "action": "확인된 공개 행동은 기존 빅 사이클 관점을 국가별 동참·제재 집행이라는 측정 가능한 시험으로 제시한 것입니다. 이 판단에 따른 포트폴리오 변경이나 거래는 확인되지 않았습니다.",
+      "impact": "미국의 연합 형성력이 약해지면 호르무즈 운송·에너지 가격·달러와 미 국채의 위험 프리미엄이 함께 높아질 수 있습니다. 반대로 동참국 확대와 통행 정상화가 빠르면 달리오의 패권 약화 해석은 약해질 수 있습니다.",
+      "impactPath": [
+        "미국의 호르무즈 제재 동참 압박",
+        "국가별 연합 선택과 실제 제재 집행",
+        "원유·해운 흐름 및 미국의 외교 신뢰 변화",
+        "에너지 가격·달러·미 국채 위험 프리미엄 변동"
+      ],
+      "counter": "수에즈 위기와 현재 미국의 군사·금융 역량은 직접 비교하기 어렵고, 달리오가 인용한 각국 입장은 빠르게 바뀔 수 있습니다. 포트폴리오 행동이 없으며 단기 외교 결과만으로 장기 패권 추세를 확정하기 어렵습니다.",
+      "next": "향후 수일의 G20·주요 수입국 공식 입장, 미국의 2차 제재 실제 집행, 호르무즈 선박 통행량·보험료·브렌트유 가격, 중국·러시아의 대응을 확인합니다.",
+      "source": "https://raydalio.substack.com/p/a-clear-and-classic-big-test-of-us",
+      "sourceLabel": "Ray Dalio · Principled Perspectives",
+      "sourceGrade": "A"
+    },
+    {
       "id": "openai-brazil-commercial",
       "leader": "샘 알트만(Sam Altman)",
       "role": "OpenAI CEO",
@@ -321,39 +428,45 @@
   "themes": [
     {
       "name": "AI 인프라",
-      "conviction": 98,
-      "direction": "+3",
-      "note": "실적·양산 확인에 이어 a16z가 11억 달러 전용 펀드로 칩부터 전력까지 물리 병목에 자본을 배치",
+      "conviction": 99,
+      "direction": "+1",
+      "note": "NVIDIA가 MediaTek에 35억 달러를 투자해 맞춤형 XPU·NVLink·패키징을 클라우드부터 PC·자동차까지 묶는 자본 동맹으로 확대",
       "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son) · 웨이저자(C.C. Wei) · 마크 앤드리슨(Marc Andreessen)"
     },
     {
       "name": "AI 안전",
       "conviction": 97,
-      "direction": "+3",
+      "direction": "0",
       "note": "운영 사고 대응에 더해 Anthropic의 군사용 안전선이 법적·조달 조건으로 격상",
       "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)"
     },
     {
       "name": "AI 배포",
-      "conviction": 84,
-      "direction": "+5",
-      "note": "상업 확장과 함께 지배권 변경만으로 핵심 모델 공급이 중단될 수 있는 계약 리스크가 현실화",
+      "conviction": 94,
+      "direction": "+10",
+      "note": "모델 공급계약의 전략적 위험과 함께 ChatGPT 광고가 연환산 10억 달러를 넘어 구독 외 대규모 수익화 축으로 부상",
       "leaders": "일론 머스크(Elon Musk) · 샘 알트만(Sam Altman) · 사티아 나델라(Satya Nadella) · 알렉스 카프(Alex Karp)"
     },
     {
       "name": "에너지 전환",
       "conviction": 68,
-      "direction": "+5",
+      "direction": "0",
       "note": "목표에서 공급업체 평가·주문 배분 규칙으로",
       "leaders": "쩡위췬(Robin Zeng) · 스콧 스트라직(Scott Strazik)"
     }
   ],
   "checkpoints": [
     {
-      "date": "다음 분기",
-      "title": "NVIDIA 3분기 가이던스",
-      "test": "중국 매출 없이 1,080억 달러 매출과 74% 매출총이익률을 달성하는가",
+      "date": "다음 공시·제품 발표",
+      "title": "NVIDIA-MediaTek 자본·제품 협력",
+      "test": "35억 달러 전환사채 조건과 첫 NVLink Fusion XPU의 고객·테이프아웃·양산 일정이 공개되는가",
       "theme": "AI 인프라"
+    },
+    {
+      "date": "다음 분기",
+      "title": "ChatGPT 광고의 지속 매출",
+      "test": "연환산 10억 달러 속도가 실제 분기 매출·광고주 유지율·무료 사용자당 매출로 이어지는가",
+      "theme": "AI 배포"
     },
     {
       "date": "후속 보고서",
@@ -372,12 +485,6 @@
       "title": "Anthropic-펜타곤 판결",
       "test": "미 정부가 항소하는지와 연방기관의 Claude 사용·조달 제한이 실제로 해제되는가",
       "theme": "AI 안전"
-    },
-    {
-      "date": "향후 2개 분기",
-      "title": "a16z Machine Age 집행",
-      "test": "11억 달러가 칩·메모리·네트워크·전력·냉각 기업에 어떤 비중과 속도로 배치되는가",
-      "theme": "AI 인프라"
     },
     {
       "date": "2026.11.12",
