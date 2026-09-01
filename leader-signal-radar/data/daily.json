@@ -1,29 +1,129 @@
 {
   "schemaVersion": 2,
-  "asOfDate": "2026.09.01",
-  "updatedAt": "2026-09-01T07:31:36+09:00",
+  "asOfDate": "2026.09.02",
+  "updatedAt": "2026-09-02T07:35:00+09:00",
   "status": "signals",
-  "statusMessage": "22명을 조사해 결정적 신호 2건과 관찰 신호 1건을 신규 등록했습니다.",
+  "statusMessage": "결정적 신호 3건, 관찰 신호 0건이 새로 확인되거나 실질적으로 보강됐습니다.",
   "currentSignalIds": [
-    "nvidia-mediatek-nvlink-investment",
-    "openai-chatgpt-ads-billion"
+    "anthropic-fable-mythos-5-1",
+    "ports-pike",
+    "karp-ukraine-defense-investment"
   ],
-  "currentObservationIds": [
-    "dalio-us-power-hormuz-test"
-  ],
-  "dailyThesis": "AI 경쟁은 맞춤형 칩 생태계에 대한 직접 자본투자와 대화형 광고의 대규모 수익화로 확장되는 한편, 지정학에서는 미국의 연합 동원력이 단기 검증대에 올랐습니다.",
-  "lastSuccessfulRun": "2026-09-01T07:31:36+09:00",
+  "currentObservationIds": [],
+  "dailyThesis": "프런티어 AI 경쟁은 위험별 모델 접근과 기업 통제형 안전장치로 세분화되는 동시에, 전력·데이터센터와 전장 기술의 대규모 자본조달 단계로 확장되고 있습니다.",
+  "lastSuccessfulRun": "2026-09-02T07:35:00+09:00",
   "researchWindow": {
-    "from": "2026-08-31T07:31:15+09:00",
-    "to": "2026-09-01T07:31:36+09:00"
+    "from": "2026-09-01T07:31:36+09:00",
+    "to": "2026-09-02T07:35:00+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 30,
-    "excludedCount": 5,
-    "notes": "22명의 공식 채널·직접 발언과 후보 사건을 30회 점검했습니다. NVIDIA-MediaTek 투자와 OpenAI 광고 확장을 결정적 신호로, Ray Dalio의 호르무즈 패권 시험론을 관찰 신호로 등록했습니다. Bessent의 드러켄밀러 반박, Tyler Cowen의 AI 의인화 논평, Demis Hassabis 조직개편 재보도, Meta AI 조직개편 과거 기사, 제3자 중심의 Palantir·Starlink 보도는 리더의 신규 행동·검증 조건이 부족해 제외했습니다."
+    "sourcesChecked": 32,
+    "excludedCount": 7,
+    "notes": "22명 전원의 공식 채널·직접 발언과 신뢰도 높은 보도를 대조했습니다. OpenAI Astra 예고, Meta 내부 협업도구 전환 보도, Airbnb 조직개편, Tyler Cowen의 논문·기사 소개, Balaji의 과거 발언 재노출 등은 행동·신규성·리더 직접성 기준 미달로 제외했습니다."
   },
   "signals": [
+    {
+      "id": "anthropic-fable-mythos-5-1",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "role": "Anthropic CEO",
+      "initials": "DA",
+      "score": 97,
+      "kind": "실행",
+      "date": "2026.09.01",
+      "reportDate": "2026.09.02",
+      "theme": "AI 안전",
+      "headline": "Anthropic이 같은 기반 모델을 일반용 Fable 5.1과 제한형 Mythos 5.1로 나누고 기업 통제형 안전장치를 출시했다",
+      "takeaway": "최상위 성능을 한 모델로 일괄 배포하지 않고 위험도에 따라 접근권과 안전장치를 분리했습니다. 비용을 낮추면서 고객 클라우드 안에서 데이터와 오용 탐지를 함께 통제하는 구조를 제품화했습니다.",
+      "before": "고위험 능력은 배포 전 평가와 사용 정책으로 제한하고, 기업 보안은 주로 계약·보관 정책으로 제공",
+      "now": "동일 기반 모델을 일반 공개형과 신뢰 고객 제한형으로 분리하고, 기업 고객이 관리하는 클라우드 안에 오용 탐지까지 넣은 Enterprise Frontier Safeguards를 공개",
+      "facts": [
+        "Fable 5.1과 Mythos 5.1은 같은 기반 모델이지만 Fable은 일반 제공되고 Mythos는 신뢰 접근 고객에게만 제공됩니다.",
+        "Fable 5.1은 대표적 작업에서 이전 세대보다 약 25%, 고도의 에이전트 작업에서는 최대 약 45% 비용을 낮췄고 캐시 읽기 가격은 입력 토큰 100만 개당 0.25달러로 75% 인하됐습니다.",
+        "Enterprise Frontier Safeguards는 고객이 관리하는 클라우드에 데이터를 두면서 오용 탐지를 제공하며 100곳이 넘는 고객이 설계에 참여했습니다.",
+        "사이버 안전장치의 오탐은 약 60%, 생물학 분야의 정상 작업 개입은 85% 낮아졌다고 Anthropic이 밝혔습니다."
+      ],
+      "action": "Fable 5.1을 API와 AWS·Google Cloud·Microsoft Azure에 출시하고 Mythos 5.1의 접근을 제한했습니다. Enterprise Frontier Safeguards는 단계적 도입을 시작해 올가을 확대할 예정입니다.",
+      "impact": "모델 경쟁이 단순 성능에서 위험별 접근권·기업 데이터 주권·오탐 비용까지 포함한 배포 구조 경쟁으로 이동합니다. 규제 산업의 도입 장벽이 낮아지는 동시에 고위험 모델의 고객 선별이 공급 제약이 될 수 있습니다.",
+      "impactPath": [
+        "성능·비용 개선",
+        "위험별 모델 접근 분리",
+        "규제 산업의 도입 확대",
+        "기업 보안·클라우드 수요 증가"
+      ],
+      "counter": "Anthropic이 제시한 비용·오탐·과학 성능은 회사 측 측정치이며 외부 재현이 필요합니다. Mythos 접근 고객 수와 Enterprise Frontier Safeguards의 가격·실제 도입률도 공개되지 않았습니다.",
+      "next": "올가을 Enterprise Frontier Safeguards의 정식 적용 고객·가격·탐지 성과, Mythos 5.1 접근 범위, 독립 벤치마크와 실제 API 사용량을 확인합니다.",
+      "source": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "sourceLabel": "Anthropic 공식 발표 · Claude Fable·Mythos 5.1",
+      "sourceGrade": "A"
+    },
+    {
+      "id": "ports-pike",
+      "leader": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son)",
+      "role": "NVIDIA · OpenAI · SoftBank",
+      "initials": "AI",
+      "score": 99,
+      "kind": "강화",
+      "date": "2026.09.01",
+      "reportDate": "2026.09.02",
+      "theme": "AI 인프라",
+      "headline": "SB Energy가 8.8GW AI 데이터센터 계약을 S-1에 공개하며 Ports-Pike 계획을 IPO 검증 단계로 옮겼다",
+      "takeaway": "NVIDIA·OpenAI·SoftBank의 장기 전력·데이터센터 계획이 비공개 프로젝트 계약을 넘어 공개시장 공시와 자금조달 단계로 진입했습니다. 동시에 고객 집중과 장기 백로그의 실행 위험도 수치로 드러났습니다.",
+      "before": "NVIDIA·OpenAI·SoftBank가 Ohio PORTS-Pike의 20년 임대·투자·신용 지원과 8GW 수요 계획을 발표",
+      "now": "SB Energy가 미국 IPO를 신청하고 8.8GW 계약 용량, NVIDIA의 30억 달러 지원 구조와 OpenAI 관련 워런트·고객 집중 위험을 S-1에 공개",
+      "facts": [
+        "SB Energy는 9월 1일 미국 증권거래위원회에 S-1을 제출했고 Nasdaq 상장 기호로 SBE를 신청했습니다.",
+        "공시상 계약된 데이터센터 용량은 8.8GW이며, 803MW가 건설 중이고 기존 태양광·배터리 자산은 5.5GW입니다.",
+        "NVIDIA 지원은 30억 달러 규모로 절반은 사모투자, 절반은 선급선도계약 구조이며 OpenAI에는 400만 주 규모의 워런트와 일정 지분 이상에서 이사 지명권이 연결됩니다.",
+        "데이터센터는 아직 매출이 없고 첫 관련 매출은 2026년 4분기로 예상되며, 계약 용량이 SoftBank와 OpenAI에 집중돼 있습니다."
+      ],
+      "action": "SB Energy가 S-1을 제출해 IPO 절차를 개시하고 NVIDIA의 자금 지원 계약과 OpenAI·SoftBank 고객 계약을 공개시장 검증 대상으로 전환했습니다.",
+      "impact": "AI 인프라 투자 수혜가 전력·건설·프로젝트 금융으로 확대되는 경로가 구체화됐습니다. 반면 장기 백로그의 현금화 속도와 관계사 고객 집중은 밸류에이션 할인 요인이 될 수 있습니다.",
+      "impactPath": [
+        "8.8GW 장기 계약 공개",
+        "IPO·NVIDIA 자금으로 건설 재원 조달",
+        "전력·냉각·건설 발주 확대",
+        "가동 지연·고객 집중 위험의 공개시장 가격 반영"
+      ],
+      "counter": "데이터센터 매출이 아직 없고 계약 백로그 대부분이 장기이며 고객이 SoftBank와 OpenAI에 집중돼 있습니다. 공모 가격과 조달액도 확정되지 않았습니다.",
+      "next": "IPO 가격·조달액과 NVIDIA 자금 납입, 803MW 공정률, 2026년 4분기 첫 데이터센터 매출, PORTS-Pike 인허가·계통 연결을 확인합니다.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/0001628280-26-059639-index.htm",
+      "sourceLabel": "미국 SEC · SB Energy S-1",
+      "sourceGrade": "A"
+    },
+    {
+      "id": "karp-ukraine-defense-investment",
+      "leader": "알렉스 카프(Alex Karp)",
+      "role": "Palantir CEO",
+      "initials": "AK",
+      "score": 81,
+      "kind": "실행",
+      "date": "2026.09.01",
+      "reportDate": "2026.09.02",
+      "theme": "방산 AI",
+      "headline": "알렉스 카프가 우크라이나 전 국방장관이 세우는 방산 기술회사에 첫 주요 투자자로 참여한다",
+      "takeaway": "Palantir의 우크라이나 협력이 소프트웨어 제공을 넘어 현지 방산 기술기업에 대한 직접 자본 참여로 넓어집니다. 전장 데이터와 로봇·요격체계·AI 무기의 상용화 경로를 함께 만들려는 신호입니다.",
+      "before": "Palantir는 5년 넘게 우크라이나 정부와 전장 데이터·분석 소프트웨어 협력을 지속",
+      "now": "카프가 미하일로 페도로우 전 우크라이나 국방장관의 신규 방산 기술회사에 첫 주요 투자자로 참여하기로 공개",
+      "facts": [
+        "페도로우는 카프가 자신이 설립하는 우크라이나 방산 기술회사의 첫 주요 투자자가 될 것이라고 9월 1일 공개했습니다.",
+        "두 사람은 5년 넘게 협력했으며 최근 Palantir 워싱턴 사무실에서 회동했습니다.",
+        "신설 회사는 우크라이나가 필요한 기술 개발을 목표로 하지만 회사명·투자액·지분·종결 일정은 공개되지 않았습니다."
+      ],
+      "action": "카프는 신설 방산 기술회사의 첫 주요 투자자로 참여하기로 했습니다. 다만 자금 납입과 법인 설립 완료는 아직 공개 확인되지 않았습니다.",
+      "impact": "성사되면 Palantir가 우크라이나 전장 수요와 현지 방산 스타트업을 잇는 자본·소프트웨어 플랫폼으로 확장될 수 있습니다. 드론·요격체계·전장 AI 공급망의 민간 자본 유입도 빨라질 수 있습니다.",
+      "impactPath": [
+        "카프의 선도 투자 약정",
+        "우크라이나 현지 방산 기술 사업화",
+        "Palantir 데이터·AI와 결합",
+        "유럽 방산 기술 생태계 확대"
+      ],
+      "counter": "투자 규모와 조건이 없고 거래 종결도 확인되지 않았습니다. 전시 조달·수출통제·정치 변화로 기술 상용화와 회수 경로가 제한될 수 있습니다.",
+      "next": "법인 설립, 투자 계약 종결과 금액·지분, 첫 제품·조달 계약, Palantir와의 기술 공급 계약을 확인합니다.",
+      "source": "https://www.reuters.com/business/aerospace-defense/ukraines-fedorov-says-palantir-ceo-will-be-first-major-investor-new-defence-2026-09-01/",
+      "sourceLabel": "Reuters · 페도로우의 카프 투자 발표",
+      "sourceGrade": "B"
+    },
     {
       "id": "nvidia-mediatek-nvlink-investment",
       "leader": "젠슨 황(Jensen Huang)",
@@ -258,38 +358,6 @@
       "sourceGrade": "A"
     },
     {
-      "id": "ports-pike",
-      "leader": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son)",
-      "role": "NVIDIA · OpenAI · SoftBank",
-      "initials": "AI",
-      "score": 98,
-      "kind": "실행",
-      "date": "2026.08.17",
-      "reportDate": "2026.08.21",
-      "theme": "AI 인프라",
-      "headline": "NVIDIA·OpenAI·SoftBank가 전력·부지·건물을 20년 단위로 선점한다",
-      "takeaway": "AI 인프라 경쟁의 중심이 GPU 구매에서 발전·송배전·냉각·건설까지 넓어지고 있습니다.",
-      "before": "‘AI 팩토리’와 초지능 인프라를 장기 구상으로 제시",
-      "now": "20년 임대·15억 달러 투자·신용 지원·발전 계획으로 계약화",
-      "facts": [
-        "NVIDIA는 Ohio PORTS-Pike의 독점 AI 컴퓨트 공급자로 선정됐습니다.",
-        "OpenAI는 총 8 IT-GW 규모의 수요 고객으로 참여하고, SB Energy와 20년 임대 구조를 맺었습니다.",
-        "NVIDIA는 SB Energy에 15억 달러를 투자하고 초기 4.25 IT-GW 건설에 신용 지원을 제공합니다."
-      ],
-      "action": "초기 4.25 IT-GW와 추가 3.75 IT-GW 옵션, 신규 발전 10GW 이상 및 지역 그리드 투자를 계획했습니다.",
-      "impact": "AI 투자 수혜 범위가 반도체에서 발전·송배전·냉각·건설·프로젝트 금융으로 넓어질 수 있습니다.",
-      "impactPath": [
-        "전력·부지 선점",
-        "대규모 인프라 발주",
-        "AI 수혜 산업 확장"
-      ],
-      "counter": "첫 단계 가동 목표가 2028년으로, 인허가·계통 연결·자금조달의 실행 위험이 남아 있습니다.",
-      "next": "전력 인허가 → 계통 연결 → 자금조달 → 실제 GPU 발주 → 2028년 1단계 가동 순서로 확인합니다. 추가 3.75 IT-GW 옵션 행사도 봅니다.",
-      "source": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
-      "sourceLabel": "NVIDIA Newsroom · PORTS-Pike",
-      "sourceGrade": "A"
-    },
-    {
       "id": "catl-supply-chain",
       "leader": "쩡위췬(Robin Zeng)",
       "role": "CATL Chairman & CEO",
@@ -429,22 +497,22 @@
     {
       "name": "AI 인프라",
       "conviction": 99,
-      "direction": "+1",
-      "note": "NVIDIA가 MediaTek에 35억 달러를 투자해 맞춤형 XPU·NVLink·패키징을 클라우드부터 PC·자동차까지 묶는 자본 동맹으로 확대",
+      "direction": "0",
+      "note": "SB Energy가 8.8GW 계약 용량과 NVIDIA·OpenAI 자금 구조를 S-1에 공개해 AI 전력·데이터센터 계획을 IPO 검증 단계로 전환",
       "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son) · 웨이저자(C.C. Wei) · 마크 앤드리슨(Marc Andreessen)"
     },
     {
       "name": "AI 안전",
-      "conviction": 97,
-      "direction": "0",
-      "note": "운영 사고 대응에 더해 Anthropic의 군사용 안전선이 법적·조달 조건으로 격상",
+      "conviction": 99,
+      "direction": "+2",
+      "note": "Anthropic이 동일 기반 모델을 일반형과 제한형으로 분리하고 고객 클라우드 안의 오용 탐지를 제품화해 안전 원칙을 배포 구조로 전환",
       "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)"
     },
     {
       "name": "AI 배포",
-      "conviction": 94,
-      "direction": "+10",
-      "note": "모델 공급계약의 전략적 위험과 함께 ChatGPT 광고가 연환산 10억 달러를 넘어 구독 외 대규모 수익화 축으로 부상",
+      "conviction": 97,
+      "direction": "+3",
+      "note": "Fable 5.1의 비용 인하·멀티클라우드 출시와 ChatGPT 광고 수익화가 모델 성능을 실제 기업 도입과 매출로 전환",
       "leaders": "일론 머스크(Elon Musk) · 샘 알트만(Sam Altman) · 사티아 나델라(Satya Nadella) · 알렉스 카프(Alex Karp)"
     },
     {
@@ -457,27 +525,27 @@
   ],
   "checkpoints": [
     {
-      "date": "다음 공시·제품 발표",
-      "title": "NVIDIA-MediaTek 자본·제품 협력",
-      "test": "35억 달러 전환사채 조건과 첫 NVLink Fusion XPU의 고객·테이프아웃·양산 일정이 공개되는가",
+      "date": "2026년 가을",
+      "title": "Anthropic 기업 통제형 안전장치",
+      "test": "Enterprise Frontier Safeguards의 정식 고객·가격·탐지 성과와 Mythos 5.1 접근 범위가 공개되는가",
+      "theme": "AI 안전"
+    },
+    {
+      "date": "IPO·2026년 4분기",
+      "title": "SB Energy 상장과 첫 데이터센터 매출",
+      "test": "공모 가격·조달액, NVIDIA 자금 납입, 803MW 공정률과 첫 데이터센터 매출이 계획대로 확인되는가",
       "theme": "AI 인프라"
     },
     {
-      "date": "다음 분기",
-      "title": "ChatGPT 광고의 지속 매출",
-      "test": "연환산 10억 달러 속도가 실제 분기 매출·광고주 유지율·무료 사용자당 매출로 이어지는가",
-      "theme": "AI 배포"
+      "date": "후속 공시·계약",
+      "title": "카프의 우크라이나 방산 투자",
+      "test": "법인 설립과 투자 종결 금액·지분, 첫 제품·조달 계약, Palantir 기술 공급 계약이 공개되는가",
+      "theme": "방산 AI"
     },
     {
       "date": "후속 보고서",
       "title": "OpenAI 침해 재발 방지",
       "test": "강화된 격리·추론 모니터링이 우회 재현률과 탐지시간을 얼마나 낮추는가",
-      "theme": "AI 안전"
-    },
-    {
-      "date": "2주 내",
-      "title": "OpenAI 최대 RL run",
-      "test": "어떤 통제 조건에서 보류된 훈련이 재개되는가",
       "theme": "AI 안전"
     },
     {
