@@ -48,7 +48,7 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '802ce69b6b7fed63980549db2cdd0f279eb8c2c019545ce57eddeba7efbe13b8'
+          expected = 'f3d4fff0dff681cd71c27ceba20c520134a2441fa599982b94c1802821e7e042'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
