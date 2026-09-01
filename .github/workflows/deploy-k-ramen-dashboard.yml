@@ -48,7 +48,7 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '47330f8fb9d000de44f0ad23ea194189b996e60e52a11f0bbccc4a0d6da86f3f'
+          expected = '802ce69b6b7fed63980549db2cdd0f279eb8c2c019545ce57eddeba7efbe13b8'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
@@ -60,6 +60,8 @@ jobs:
           grep -q 'releaseDate:"2026-09-01"' k-ramen-dashboard/index.html
           grep -q 'total:156.627873' k-ramen-dashboard/index.html
           grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
+          grep -q '진행 중 분기 추정' k-ramen-dashboard/index.html
+          grep -q 'buildCurrentQuarterEstimate' k-ramen-dashboard/index.html
           touch .nojekyll
 
 
