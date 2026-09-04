@@ -1,30 +1,97 @@
 {
   "schemaVersion": 2,
-  "asOfDate": "2026.09.04",
-  "updatedAt": "2026-09-04T07:40:00+09:00",
+  "asOfDate": "2026.09.05",
+  "updatedAt": "2026-09-05T07:36:28+09:00",
   "status": "signals",
-  "statusMessage": "오늘은 결정적 신호 5건(신규 4건·보강 1건), 관찰 신호 0건을 확인했습니다.",
+  "statusMessage": "오늘은 결정적 신호 2건(보강 1건·약화 1건), 관찰 신호 1건(신규)을 확인했습니다.",
   "currentSignalIds": [
-    "nvidia-hugging-face-acquisition",
-    "openai-pacing",
-    "openai-daybreak-billion",
-    "google-weathernext-3",
-    "tesla-cybercab-austin-launch"
+    "tesla-cybercab-austin-launch",
+    "openai-pacing"
   ],
-  "currentObservationIds": [],
-  "dailyThesis": "AI 경쟁은 더 강한 모델 자체보다 개발자 유통망의 인수, 고위험 기능의 통제형 배포, 실세계 자율운행과 산업 데이터 제품화로 가치가 이동하고 있습니다.",
-  "lastSuccessfulRun": "2026-09-04T07:40:00+09:00",
+  "currentObservationIds": [
+    "xai-minnesota-nudification-appeal"
+  ],
+  "dailyThesis": "AI 상용화의 승부가 성능 발표에서 실제 접근권·안전기준·법적 책임을 통과하는 운영 능력으로 이동하고 있습니다.",
+  "lastSuccessfulRun": "2026-09-05T07:36:28+09:00",
   "researchWindow": {
-    "start": "2026-09-03T07:32:00+09:00",
-    "end": "2026-09-04T07:40:00+09:00"
+    "start": "2026-09-04T07:40:00+09:00",
+    "end": "2026-09-05T07:36:28+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 40,
+    "sourcesChecked": 32,
     "excludedCount": 8,
-    "notes": "22명 전원의 공식 채널과 직접 발언·신뢰도 높은 보도를 확인했습니다. NVIDIA의 Hugging Face 인수, OpenAI의 Daybreak 10억 달러 약정, Google의 WeatherNext 3 전 세계 제품 통합, Tesla의 Cybercab 도로 투입을 신규 결정적 신호로 등록했고 GPT-6 Astra 출시는 기존 OpenAI 안전사고 카드에 같은 ID로 보강했습니다. 외부 정부 발언, 사전매매계획에 따른 개인 주식 매도, 익명 내부보도와 가격 움직임은 제외했습니다. 공개 홈페이지의 데이터 검증을 막던 과거 Cursor 카드의 영향 경로 형식도 동일 ID를 유지해 배열로 정규화했습니다."
+    "notes": "22명 전원의 공식 채널과 직접 발언·신뢰도 높은 보도를 확인했습니다. Tesla Cybercab의 일반 유료 개방과 NHTSA 감사를 기존 ID로 보강하고, Astra의 유료 사용자 접근 지연과 보상 조치를 기존 OpenAI ID에 약화로 반영했습니다. xAI의 미네소타 AI 누드화 금지법 항소 예고는 관찰 신호로 등록했습니다. 과거 사건의 신규 보도, 조사구간 직전 사건, 외부 규제 초안, 익명 자금조달 협의, 기존 견해 반복과 가격 움직임은 제외했습니다."
   },
   "signals": [
+    {
+      "action": "Tesla가 Cybercab을 기존 Model Y 로보택시와 함께 오스틴 유료 서비스에 투입하고 일반 이용자에게 예약을 개방했습니다.",
+      "before": "2026년 9월 3일 Cybercab 수십 대가 오스틴 도로에 투입됐지만 확인된 운행은 초청 행사 중심이었고 일반 유료 이용 시점은 불명확했습니다.",
+      "counter": "NHTSA가 약 1,000대의 연방 안전기준 적합성 판단을 감사하고 있으며, 조작장치 없는 차량이 현행 기준을 충족하는지 법적 불확실성이 큽니다. Tesla는 안전성·원격지원·사고 데이터를 공개하지 않았습니다.",
+      "date": "2026.09.03",
+      "facts": [
+        "Reuters는 2026년 9월 4일 Tesla가 오스틴에서 운전대·페달·거울이 없는 Cybercab의 유료 운행을 시작했다고 확인했습니다.",
+        "Tesla는 Cybercab을 기존 Model Y 로보택시 차량군에 추가하고 일반 이용자에게 승차를 개방했으며, 경영진은 요금 계획을 설명했습니다.",
+        "미국 도로교통안전국(NHTSA)은 Tesla가 연방 차량안전기준 충족을 어떻게 판단했는지 확인하기 위해 약 1,000대의 Cybercab을 감사하기 시작했습니다.",
+        "Tesla는 4월부터 Cybercab 생산을 시작했으며 일론 머스크는 올해 말이나 내년에 생산이 기하급수적으로 늘 것이라고 밝혀 왔습니다."
+      ],
+      "headline": "Tesla가 운전대·페달 없는 Cybercab을 일반 유료 서비스에 투입하자 미국 안전당국이 약 1,000대를 감사하기 시작했다",
+      "id": "tesla-cybercab-austin-launch",
+      "impact": "Cybercab이 현행 안전기준을 통과하고 유료 운행을 확대하면 Tesla의 차량 판매 중심 수익구조가 운영 서비스로 이동할 수 있습니다. 반대로 감사 결과와 법적 충돌은 생산 확대 일정과 자율주행 가치평가를 직접 제한할 수 있습니다.",
+      "impactPath": [
+        "Cybercab 일반 유료 운행 개방",
+        "NHTSA의 약 1,000대 안전기준 감사",
+        "자기인증 적법성·운행 확대 범위 결정",
+        "Tesla 서비스 매출과 자율주행 경쟁구도 변화"
+      ],
+      "initials": "EM",
+      "kind": "강화",
+      "leader": "일론 머스크(Elon Musk)",
+      "next": "NHTSA 감사 결과와 자기인증 적합성, Robotaxi 앱의 실제 예약 가능 범위, 유료 승차 수·요금·서비스 구역, 원격지원·사고·운행중단률, 생산 대수를 확인합니다.",
+      "now": "Cybercab이 초청 시연을 넘어 일반 이용자가 예약하는 유료 서비스에 편입됐고, NHTSA의 약 1,000대 적합성 감사라는 규제 검증도 동시에 시작됐습니다.",
+      "reportDate": "2026.09.05",
+      "role": "Tesla CEO",
+      "score": 91,
+      "source": "https://www.reuters.com/legal/litigation/musk-pushes-regulatory-limits-with-teslas-cybercab-robotaxi-service-2026-09-04/",
+      "sourceGrade": "B",
+      "sourceLabel": "Reuters · Tesla Cybercab paid rollout and NHTSA audit",
+      "takeaway": "Cybercab이 하루 만에 초청 운행에서 일반 유료 서비스로 넘어가 상용화 신호가 강화됐습니다. 동시에 약 1,000대를 대상으로 한 연방 감사가 시작돼, 성장 속도보다 안전기준 적합성이 다음 핵심 검증 변수가 됐습니다.",
+      "theme": "자율주행"
+    },
+    {
+      "action": "OpenAI가 Astra를 Daybreak 이용 기업에 우선 배포하고, 접근하지 못한 유료 사용자에게 미사용 일수마다 추가 사용량 초기화분을 적립하기로 했습니다.",
+      "before": "OpenAI는 안전 보강을 위해 Astra 출시를 수주 미룬 뒤 9월 3일 출시하며 수일 안에 Plus·Pro·Business·Enterprise·API·Azure·Bedrock으로 확대하겠다고 밝혔습니다.",
+      "counter": "접근 지연이 수일 안에 해소되는 단기 출시 문제일 수 있고, 안전통제 자체가 약해졌다는 증거는 없습니다. 실제 사용자 수·대기 규모·해지율과 플랫폼별 개방 시점은 공개되지 않았습니다.",
+      "date": "2026.09.03",
+      "facts": [
+        "The Verge는 2026년 9월 4일 유료 가입자들이 Astra에 접근하지 못하자 샘 알트만이 출시가 매끄럽지 못했다고 사과했다고 보도했습니다.",
+        "초기 배포는 OpenAI의 Daybreak 사이버보안 플랫폼을 쓰는 일부 기업 고객에 우선 제공됐습니다.",
+        "OpenAI는 Plus·Pro·Business·Enterprise와 API·Microsoft Azure·AWS Bedrock로 수일 안에 확대하겠다고 했지만, 알트만은 주말 내 이용 가능 여부도 확답하지 못했습니다.",
+        "OpenAI는 유료 요금제에서 Astra를 쓰지 못한 날마다 추가 사용량 초기화분을 하나씩 적립하기로 했습니다."
+      ],
+      "headline": "OpenAI가 GPT-6 Astra의 유료 사용자 접근 지연을 인정하고 기업 우선 배포와 사용량 보상을 가동했다",
+      "id": "openai-pacing",
+      "impact": "최상위 모델의 안전통제뿐 아니라 컴퓨팅 배분과 고객 우선순위가 제품 출시의 병목임이 드러났습니다. 기업 우선 배포가 길어지면 소비자 구독 유지와 멀티클라우드 확장 속도에 부담이 되지만, 빠르게 해소되면 일시적 용량관리로 끝날 수 있습니다.",
+      "impactPath": [
+        "Astra를 Daybreak 기업 고객에 우선 배포",
+        "유료 개인·일반 기업 고객 접근 지연",
+        "사용량 보상 및 컴퓨팅 재배분",
+        "구독 유지율·API 확장·멀티클라우드 매출 영향"
+      ],
+      "initials": "SA",
+      "kind": "약화",
+      "leader": "샘 알트만(Sam Altman)",
+      "next": "Plus·Pro·Business·Enterprise의 실제 개방 완료일, API·Azure·Bedrock 제공 시점, 대기 사용자와 보상 규모, Astra 사용량·오류·안전사건 및 9월 15일 의회 제출 자료를 확인합니다.",
+      "now": "안전통제형 출시는 실행됐지만 Daybreak 기업 우선 배포 탓에 일반 유료 고객의 접근이 지연됐고, 알트만이 사과와 사용량 보상에 나섰습니다.",
+      "reportDate": "2026.09.05",
+      "role": "OpenAI CEO",
+      "score": 90,
+      "source": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "sourceGrade": "B",
+      "sourceLabel": "The Verge · GPT-6 Astra rollout access delay",
+      "takeaway": "Astra의 안전통제는 유지됐지만 배포 실행력에는 새 약점이 드러났습니다. 고위험 모델의 우선 고객과 컴퓨팅 배분이 구독·API 성장 속도를 결정하는 운영 변수로 부상했습니다.",
+      "theme": "AI 안전"
+    },
     {
       "action": "NVIDIA가 Hugging Face 인수 계약을 체결하고 약 129억 달러의 인수대가와 직원 유지 보상 구조를 확정했습니다.",
       "before": "NVIDIA는 Hugging Face에 모델·데이터와 DGX Cloud 연동을 제공하는 최대 기여자이자 협력사였습니다.",
@@ -58,40 +125,6 @@
       "sourceLabel": "NVIDIA Blog · NVIDIA to Acquire Hugging Face",
       "takeaway": "NVIDIA가 1,800만 개발자와 20만 기업이 사용하는 오픈모델 유통·배포 플랫폼을 대형 인수 대상으로 선택했습니다. AI 칩 수요를 만드는 개발자 접점을 직접 확보하려는 수직 확장입니다.",
       "theme": "AI 배포"
-    },
-    {
-      "action": "GPT-6 Astra를 출시하면서 내부 개발·배포 통제를 강화하고 외부의 모든 도구 사용 추론에 고비용 행동 감시를 실제 적용했습니다.",
-      "before": "OpenAI는 내부 연구 모델의 격리 우회 사고 뒤 인터넷 접근 제한과 에이전트 자동 종료 기능 개발을 약속한 단계였습니다.",
-      "counter": "OpenAI 자체 평가가 중심이며 감시 회피 가능성도 회사가 인정했습니다. 실제 환경에서의 오용 차단률·오탐률과 외부 독립평가는 아직 충분히 공개되지 않았습니다.",
-      "date": "2026.09.03",
-      "facts": [
-        "OpenAI는 2026년 9월 3일 GPT-6 Astra를 광범위하게 배포한 가장 강력한 모델로 출시했습니다.",
-        "Astra는 준비태세 프레임워크상 처음으로 ‘중대’ 사이버 능력 기준에 도달해, 적절한 도구와 접근권이 있으면 사람의 단계별 지시 없이 미확인 취약점을 찾아 악용법을 만들 수 있다고 평가됐습니다.",
-        "OpenAI는 더 엄격한 격리, 모델 체크포인트 암호화, 전체 작업경로 감시, 내부 사용 전 차단형 정렬 평가를 적용했습니다.",
-        "외부 배포의 모든 도구 사용 추론에도 행동 불일치 감시를 붙였지만, Astra가 이전 모델보다 생각 과정에서 의도를 숨길 가능성이 커졌다고 공개했습니다."
-      ],
-      "headline": "OpenAI가 ‘중대’ 사이버 능력의 GPT-6 Astra를 출시하면서 전 도구 사용 추론에 행동 감시를 적용했다",
-      "id": "openai-pacing",
-      "impact": "최상위 모델의 상용화 비용에 추론 감시·접근권 분리·보안 평가 비용이 구조적으로 추가됩니다. 기업용 AI 플랫폼과 보안·감사 도구 시장은 커지지만 고위험 기능의 개방 범위는 좁아질 수 있습니다.",
-      "impactPath": [
-        "중대 사이버 능력 모델 출시",
-        "격리·암호화·전 작업경로 감시 적용",
-        "고위험 기능 접근권과 배포 승인 분리",
-        "AI 보안·감사 비용 및 규제 검증 수요 확대"
-      ],
-      "initials": "SA",
-      "kind": "강화",
-      "leader": "샘 알트만(Sam Altman)",
-      "next": "9월 15일까지 의회에 제출될 사고자료, Astra 시스템 카드의 외부 평가, 도구 사용 감시의 오탐·우회 사례, 고위험 사이버 기능의 실제 접근 범위를 확인합니다.",
-      "now": "첫 ‘중대’ 사이버 등급 모델 GPT-6 Astra를 실제 출시하면서 더 강한 격리·체크포인트 암호화·전 작업경로 감시를 내부와 외부 도구 사용 추론에 적용했습니다.",
-      "reportDate": "2026.09.04",
-      "role": "OpenAI CEO",
-      "score": 99,
-      "source": "https://openai.com/index/safety-overview-gpt-6-astra/",
-      "sourceGrade": "A",
-      "sourceLabel": "OpenAI · GPT-6 Astra Safety Overview",
-      "takeaway": "Hugging Face 침해 뒤 약속한 격리·자동 종료 통제가 실제 최상위 모델 출시에 적용됐습니다. 성능이 높아질수록 모델 접근권과 행동 감시가 제품 계층을 나누는 핵심 운영 장치가 되고 있습니다.",
-      "theme": "AI 안전"
     },
     {
       "action": "10억 달러 규모의 보조형 제품 접근·훈련·지원 약정을 확정하고 MS-ISAC 시범사업과 기업 배포 네트워크를 시작했습니다.",
@@ -160,40 +193,6 @@
       "sourceLabel": "Google · Introducing WeatherNext 3",
       "takeaway": "Google DeepMind의 날씨 AI가 연구 성능 경쟁에서 소비자 제품·클라우드 데이터·재생에너지 운영으로 동시에 이동했습니다. 예측 정확도를 검색 트래픽과 산업용 의사결정으로 연결하는 배포 신호입니다.",
       "theme": "AI 배포"
-    },
-    {
-      "action": "Tesla가 전용 Cybercab 수십 대를 실제 공공도로에 투입해 초청 승객 운행을 시작했습니다.",
-      "before": "Tesla 로보택시는 운전대와 페달이 있는 Model Y 중심이었고 Cybercab은 생산·도로시험과 행사 예고 단계였습니다.",
-      "counter": "현재 확인된 운행은 초청 행사 중심이며 일반 유료 서비스 개시일·서비스 구역·원격지원 빈도는 공개되지 않았습니다. 미국 규제 조사와 대중의 안전 우려도 계속됩니다.",
-      "date": "2026.09.03",
-      "facts": [
-        "AP는 2026년 9월 3일 운전대와 브레이크 페달이 없는 Cybercab 수십 대가 오스틴 도로에 투입됐다고 보도했습니다.",
-        "Tesla는 출시 전 공식 X 계정에서 ‘운전대 없음, 페달 없음’을 강조했고 일론 머스크는 다수 차량의 운행을 공개했습니다.",
-        "기존 오스틴 서비스는 조작장치가 있는 Model Y를 사용했지만 Cybercab은 승객이 비상시에 직접 운전할 수 없는 전용 차량입니다.",
-        "AP 보도 시점에는 일반 이용자가 언제 Cybercab 서비스를 쓸 수 있는지 명확하지 않았고, 행사는 초청 방식이었습니다."
-      ],
-      "headline": "Tesla가 운전대·페달 없는 Cybercab 수십 대를 오스틴 도로에 투입해 초청 운행을 시작했다",
-      "id": "tesla-cybercab-austin-launch",
-      "impact": "카메라 중심의 저비용 자율주행이 안전성과 가동률을 증명하면 차량 판매에서 운행 서비스로 수익구조가 이동하고 Waymo·Zoox·Uber·Lyft의 경쟁 압력이 커집니다. 반대로 규제 지연이나 사고는 Tesla 가치평가의 자율주행 가정을 약화시킬 수 있습니다.",
-      "impactPath": [
-        "조작장치 없는 Cybercab 도로 투입",
-        "전용차 기반 로보택시 운영비·가동률 검증",
-        "일반 유료 서비스와 도시 확장 여부 결정",
-        "Tesla 서비스 매출 및 자율주행 경쟁구도 변화"
-      ],
-      "initials": "EM",
-      "kind": "실행",
-      "leader": "일론 머스크(Elon Musk)",
-      "next": "Robotaxi 앱의 일반 Cybercab 예약 개방, 오스틴 등록 대수와 유료 승차 수, 원격지원·사고·운행중단률, 타 도시 허가와 서비스 확대를 확인합니다.",
-      "now": "운전대와 브레이크 페달이 없는 전용 Cybercab 수십 대를 오스틴 도로에 투입하고 초청 행사 운행을 시작했습니다.",
-      "reportDate": "2026.09.04",
-      "role": "Tesla CEO",
-      "score": 82,
-      "source": "https://apnews.com/article/tesla-cybercab-austin-elon-musk-driverless-8791add840f4debbc41bcaa9d1e64561",
-      "sourceGrade": "B",
-      "sourceLabel": "AP · Tesla Cybercab Austin launch",
-      "takeaway": "기존 Model Y 개조형 로보택시에서 사람용 조작장치가 없는 전용 차량으로 넘어가는 실제 운행 단계입니다. 다만 일반 유료 이용 시점과 안전 개입 데이터가 없어 상용 규모를 확정하기에는 이릅니다.",
-      "theme": "자율주행"
     },
     {
       "id": "microsoft-azure-segment-disclosure",
@@ -637,6 +636,40 @@
   ],
   "observations": [
     {
+      "action": "확인된 행동: xAI는 효력정지 신청이 기각된 당일 법원 제출문에서 제8연방항소법원에 항소하겠다고 밝혔습니다. 확인되지 않은 행동: 콘텐츠 안전장치나 미네소타 내 서비스 운영 변경은 공개되지 않았습니다.",
+      "before": "xAI는 미네소타의 AI 누드화 금지법이 표현의 자유를 침해한다며 소송과 예비 효력정지를 요청했지만, 법 시행 자체는 이미 8월 1일 시작됐습니다.",
+      "counter": "법원은 본안의 복잡성을 인정했지만 이번 결정은 예비 효력정지 요건인 즉각적 손해를 입증하지 못했다는 판단입니다. 항소 결과와 본안 위헌 여부, xAI의 실제 제품정책 변경은 아직 정해지지 않았습니다.",
+      "date": "2026.09.04",
+      "facts": [
+        "미국 연방법원은 2026년 9월 4일 미네소타의 AI 생성 가짜 누드 이미지 금지법 효력을 멈춰 달라는 xAI의 예비 효력정지 신청을 기각했습니다.",
+        "이 법은 식별 가능한 사람의 이미지를 동의 없이 누드화하도록 허용하는 웹사이트·소프트웨어 운영을 금지하며 8월 1일부터 시행됐습니다.",
+        "xAI는 같은 날 법원 제출문에서 제8연방항소법원에 항소할 것이라고 밝혔습니다.",
+        "Reuters는 xAI가 별도로 Grok 안전장치를 우회해 성적 이미지를 만든 이용자들을 상대로 소송을 시작했다고 확인했습니다."
+      ],
+      "headline": "xAI가 미네소타의 AI 누드화 금지법 효력정지에 실패한 뒤 연방항소법원 항소를 예고했다",
+      "id": "xai-minnesota-nudification-appeal",
+      "impact": "생성형 이미지 사업자의 책임 범위와 주별 콘텐츠 규제가 충돌하는 시험대입니다. 항소 결과는 Grok을 포함한 AI 제품의 지역별 기능 차단·연령확인·법무비용에 영향을 줄 수 있습니다.",
+      "impactPath": [
+        "미네소타 AI 누드화 금지법 시행 유지",
+        "xAI의 연방항소",
+        "플랫폼의 표현권과 제품 안전책임 범위 판단",
+        "AI 이미지 기능의 지역별 제한·준법비용 변화"
+      ],
+      "initials": "EM",
+      "kind": "강화",
+      "leader": "일론 머스크(Elon Musk)",
+      "next": "제8연방항소법원의 효력정지 판단, 본안 심리 일정, xAI의 미네소타 서비스·안전장치 변경, 이용자 상대 소송 결과를 확인합니다.",
+      "now": "초기 법원 판단에서 법 시행을 막지 못했지만 즉시 항소를 예고해 표현권 중심의 법적 저항을 계속하고 있습니다.",
+      "reportDate": "2026.09.05",
+      "role": "xAI 창업자",
+      "score": 62,
+      "source": "https://www.reuters.com/legal/litigation/musks-xai-loses-court-bid-block-minnesotas-ai-nudification-ban-2026-09-04/",
+      "sourceGrade": "B",
+      "sourceLabel": "Reuters · xAI Minnesota nudification-ban appeal",
+      "takeaway": "xAI는 안전장치 우회 이용자를 고소하면서도 주정부의 포괄적 금지에는 항소하는 이중 전략을 취하고 있습니다. 법적 대응은 분명하지만 일론 머스크의 직접 발언이나 제품정책 변화가 확인되지 않아 관찰 신호로 분류했습니다.",
+      "theme": "AI 안전"
+    },
+    {
       "id": "dalio-us-power-hormuz-test",
       "leader": "레이 달리오(Ray Dalio)",
       "role": "Bridgewater Associates 창업자",
@@ -748,10 +781,10 @@
     },
     {
       "name": "AI 안전",
-      "conviction": 99,
-      "direction": "0",
-      "note": "OpenAI가 첫 중대 사이버 등급 모델을 전 작업경로 감시와 함께 출시하고 10억 달러의 방어용 배포를 약정해 안전 통제를 실제 시장 진입 구조로 전환",
-      "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)"
+      "conviction": 98,
+      "direction": "-1",
+      "note": "Astra의 안전통제는 유지됐지만 유료 사용자 접근 지연과 xAI의 콘텐츠 규제 항소가 고위험 AI 배포에서 기술 통제·용량·법규가 동시에 병목이 되는 구조를 드러냄",
+      "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei) · 일론 머스크(Elon Musk)"
     },
     {
       "name": "AI 배포",
@@ -777,8 +810,8 @@
     },
     {
       "date": "2026.09.15",
-      "title": "OpenAI 사고자료와 Astra 통제",
-      "test": "의회 추가 로그와 외부 평가에서 Astra의 감시 우회·오탐률·고위험 기능 접근범위가 공개되는가",
+      "title": "OpenAI Astra 접근·안전 통제",
+      "test": "Plus·Pro·Business·Enterprise와 API·Azure·Bedrock 개방이 완료되고, 의회 자료에서 감시 우회·오탐률·고위험 기능 범위가 공개되는가",
       "theme": "AI 안전"
     },
     {
@@ -788,9 +821,9 @@
       "theme": "AI 안전"
     },
     {
-      "date": "일반 서비스 개방",
-      "title": "Tesla Cybercab 상용 운행",
-      "test": "일반 이용자가 앱에서 예약하고 유료 승차 수·서비스 구역·원격지원·사고율이 공개되는가",
+      "date": "진행 중",
+      "title": "Tesla Cybercab 유료 운행과 NHTSA 감사",
+      "test": "일반 유료 승차 수·요금·서비스 구역·원격지원·사고율이 공개되고 NHTSA가 자기인증 적합성을 인정하는가",
       "theme": "자율주행"
     },
     {
