@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.06",
+  "asOfDate": "2026.09.07",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -93,12 +93,202 @@
     }
   ],
   "currentObservationIds": [
-    "openai-pacing"
+    "xai-grok-bot-enterprise",
+    "ge-venezuela-grid-agreement"
   ],
-  "currentSignalIds": [],
-  "dailyThesis": "사고 공개의 필요성 인정은 확인됐지만 실제 제도 시행은 미확인으로, AI 안전의 약속과 실행을 나누어 판단합니다.",
-  "lastSuccessfulRun": "2026-09-06T07:34:18+09:00",
+  "currentSignalIds": [
+    "openai-research-metrics"
+  ],
+  "dailyThesis": "연구 자동화의 실제 운영과 기업용 통제 기능은 진전됐지만, 연산 사용량·협약 서명·무료 배포를 생산성·매출·가동 성과와 구분해야 한다.",
+  "lastSuccessfulRun": "2026-09-07T07:41:34+09:00",
   "observations": [
+    {
+      "action": "확인된 행동은 기업용 제품 배포다. 유료 전환율·신규 계약 금액·통제 효과의 외부 검증은 확인되지 않았다.",
+      "assessment": {
+        "assessedAt": "2026-09-07T07:41:34+09:00",
+        "attribution": "company_action",
+        "baseline": {
+          "date": "2026-08-26",
+          "evidenceIds": [
+            "xai-bot-plans-20260826"
+          ],
+          "statement": "개인·Teams 접근은 확대했으나 기업 고객은 대기 명단이었다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "기업 접근권과 관리 기능의 출시를 확인했다. 자본 집행·유료 성과는 미확인이다.",
+            "score": 22
+          },
+          "change": {
+            "reason": "8월 26일 대기 명단에서 기업 이용으로 이동했으나 기존 제품 확대다.",
+            "score": 12
+          },
+          "impact": {
+            "reason": "기업 소프트웨어 배포와 감사 수요에 연결되지만 시장 파급 규모는 미확정이다.",
+            "score": 16
+          },
+          "source": {
+            "reason": "공식 출시문과 이전 접근 조건을 직접 대조했다. 고객 성과는 독립 검증 전이다.",
+            "score": 9
+          },
+          "verification": {
+            "reason": "무료 기간과 유료 전환을 추적할 수 있으나 수치 목표·공개 약속은 없다.",
+            "score": 12
+          }
+        },
+        "evidenceIds": [
+          "xai-enterprise-launch-20260903"
+        ],
+        "impactDirection": "mixed",
+        "note": "22+12+16+12+9=71. 출시 실행은 확인됐지만 변화량·수익 증거가 제한돼 관찰로 기록한다. 머스크 직접 발언이 아닌 회사 행동이다.",
+        "rubricVersion": 1,
+        "stage": "execution",
+        "status": "reviewed"
+      },
+      "before": "8월 26일 개인·Teams 요금제로 확대했지만 Enterprise 고객은 대기 명단으로 안내했다.",
+      "counter": "기존 제품의 배포 범위 확대다. 회사의 도입 사례만으로 수익성과 안전성을 확정할 수 없다.",
+      "date": "2026.09.03",
+      "eventId": "xai-grok-bot-enterprise",
+      "facts": [
+        "Grok·Cursor Enterprise 고객이 이용할 수 있다고 발표했다.",
+        "기존 좌석이 없는 직원도 2주 무료 이용 대상에 포함했다.",
+        "접근·네트워크·감사 통제를 출시했다."
+      ],
+      "headline": "xAI가 Grok Bot을 기업 고객에 개방하고 접근·네트워크·감사 통제를 추가했다",
+      "hypothesisId": "enterprise-agent-governance",
+      "id": "xai-grok-bot-enterprise",
+      "impact": "해석: 기업용 에이전트의 경쟁 기준에 관리·감사 기능이 더해진다. 무료 체험이 반복 매출로 이어지는지는 별도 문제다.",
+      "impactPath": [
+        "기업용 관리 기능 추가",
+        "조직 단위 체험 확대",
+        "유료 채택·운영 통제 경쟁"
+      ],
+      "industryLinks": [
+        {
+          "evidenceIds": [
+            "xai-enterprise-launch-20260903"
+          ],
+          "relationship": "indirect",
+          "sector": "기업 AI 에이전트·감사",
+          "text": "통제 기능이 기업 도입 요건으로 중요해질 수 있으나 다른 회사의 수혜 계약은 확인하지 못했다."
+        }
+      ],
+      "initials": "EM",
+      "kind": "실행",
+      "leader": "일론 머스크(Elon Musk)",
+      "next": "2주 무료 기간 이후 유료 전환·유지율과 감사 통제의 실제 운용 사례를 확인한다. 성과 공개 일정은 없다.",
+      "now": "9월 3일 기업 고객을 개방하고 조직 전체에 2주 무료 이용을 제공했다.",
+      "reportDate": "2026.09.07",
+      "role": "Tesla · SpaceX · xAI",
+      "score": 71,
+      "source": "https://x.ai/news/grok-bot-for-enterprise",
+      "sourceGrade": "A",
+      "sourceLabel": "xAI 공식 발표 · 2026.09.03",
+      "takeaway": "개인·팀 중심 배포에서 기업 관리자가 통제하는 이용 단계로 확대됐다. 매출 검증은 남아 있다.",
+      "theme": "AI 배포",
+      "timing": {
+        "firstSeenAt": "2026-09-07T07:41:34+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "72시간 겹침 수집에서 기존 카드에 없는 기업용 출시 원문을 처음 검증했다. 오늘 발생한 사건으로 재날짜화하지 않았다.",
+        "occurredAt": "2026-09-03",
+        "publishedAt": "2026-09-03",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      }
+    },
+    {
+      "action": "확인된 행동은 후속 협약 서명이다. 공개 자료로 투자액·착공·신규 가동을 확인하지 못했다.",
+      "assessment": {
+        "assessedAt": "2026-09-07T07:41:34+09:00",
+        "attribution": "company_action",
+        "baseline": {
+          "date": "2026-06-15",
+          "evidenceIds": [
+            "ge-venezuela-mou-20260615"
+          ],
+          "statement": "양해각서와 1GW·24개월 및 5GW 규모의 후속 목표가 제시됐으나 계약 구체화가 요청됐다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "정부 공식 자료가 후속 협약 서명을 확인한다. 현장 집행·매출 성과는 미확인이다.",
+            "score": 21
+          },
+          "change": {
+            "reason": "6월 양해각서 이후 후속 서명이나 발전 규모의 근본 변화는 확인되지 않는다.",
+            "score": 10
+          },
+          "impact": {
+            "reason": "전력망 복구가 발전·송배전·정비 공급망에 영향을 줄 수 있다.",
+            "score": 17
+          },
+          "source": {
+            "reason": "서명 참여 정부의 원문과 직접 보도를 대조했다. 계약 전문·기업 재무 공시는 없다.",
+            "score": 9
+          },
+          "verification": {
+            "reason": "GW와 기간 목표는 있으나 자금·착공 일정과 측정 기준이 불완전하다.",
+            "score": 13
+          }
+        },
+        "evidenceIds": [
+          "ge-venezuela-doe-20260902",
+          "ge-venezuela-agreements-20260903"
+        ],
+        "impactDirection": "mixed",
+        "note": "21+10+17+13+9=70. 협약 체결과 발전 실행을 분리한다. 스트라직 직접 발언으로 귀속하지 않는다.",
+        "rubricVersion": 1,
+        "stage": "execution",
+        "status": "reviewed"
+      },
+      "before": "6월 15일 양해각서와 발전 목표가 발표됐고 계약 구체화가 요청됐다.",
+      "counter": "발전 목표의 큰 틀은 6월에도 제시됐다. 협약을 확정 매출이나 가동 성과로 환산할 수 없다.",
+      "date": "2026.09.02",
+      "eventId": "ge-venezuela-grid-agreement",
+      "facts": [
+        "미 에너지부는 GE Vernova 협약의 서명을 확인했다.",
+        "범위는 화력·수력 발전과 송배전·변전소를 포함한다.",
+        "24개월 내 1GW와 이후 4년간 5GW를 계획으로 제시했다. 발전량 달성 증거는 아니다."
+      ],
+      "headline": "GE Vernova가 베네수엘라 전력망 후속 협약에 서명했다 — 발전 실적은 아직 미확인",
+      "hypothesisId": "ge-venezuela-grid-execution",
+      "id": "ge-venezuela-grid-agreement",
+      "impact": "해석: 전력 설비·정비 사업 기회가 구체화될 수 있다. 실제 발주와 대금 회수 조건이 매출 전환을 좌우한다.",
+      "impactPath": [
+        "후속 협약 서명",
+        "발주·현장 공정 확인 필요",
+        "전력 설비·정비 매출 가능성"
+      ],
+      "industryLinks": [
+        {
+          "evidenceIds": [
+            "ge-venezuela-doe-20260902"
+          ],
+          "relationship": "confirmed",
+          "sector": "발전·송배전 설비",
+          "text": "GE Vernova와 베네수엘라 전력망의 협약 관계는 공식 확인됐다. 다른 공급업체·계약 금액은 미확인이다."
+        }
+      ],
+      "initials": "SS",
+      "kind": "실행",
+      "leader": "스콧 스트라직(Scott Strazik)",
+      "next": "계약 금액·자금 조달·장비 발주·복구 가동량과 24개월 목표의 기준 시점을 확인한다.",
+      "now": "미 에너지부가 9월 2일 전력망 현대화·확장 협약 서명을 확인했다.",
+      "reportDate": "2026.09.07",
+      "role": "GE Vernova",
+      "score": 70,
+      "source": "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united",
+      "sourceGrade": "A",
+      "sourceLabel": "미국 에너지부 공식 자료 · 2026.09.02",
+      "takeaway": "6월 협력 틀에서 후속 협약 서명으로 진전됐다. 제시된 발전 목표를 신규 상향이나 가동 실적으로 보지는 않는다.",
+      "theme": "전력 인프라",
+      "timing": {
+        "firstSeenAt": "2026-09-07T07:41:34+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "이전 조사에서 시간 경계로 제외됐던 관련 보도를 재점검하면서 9월 2일 공식 서명 자료와 6월 기준선을 처음 대조했다. 보충 구간 밖의 누락 원사건임을 명시한다.",
+        "occurredAt": "2026-09-02",
+        "publishedAt": "2026-09-02",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      }
+    },
     {
       "action": "확인된 행동은 회사 입장 발표입니다. 새 보고제도 시행·전체 로그 공개는 확인되지 않았습니다.",
       "assessment": {
@@ -418,167 +608,313 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-05T07:36:28+09:00",
-      "end": "2026-09-06T07:34:18+09:00",
-      "overlapHours": 0
+      "start": "2026-09-03T07:34:18+09:00",
+      "end": "2026-09-07T07:41:34+09:00",
+      "overlapHours": 72
     },
     "coverage": [
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "일론 머스크(Elon Musk)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "xAI 출시·조달 사례와 Tesla 공식 채널 및 최신 관련 검색을 대조했다. 기업용 출시는 지연 발견으로 선별하고 조달 절감 사례는 실현 성과 미확인으로 제외했다.",
+        "status": "checked",
+        "urls": [
+          "https://x.ai/news",
+          "https://x.ai/news/grok-bot-for-enterprise",
+          "https://x.ai/news/grok-bot-more-plans",
+          "https://x.ai/news/grok-bot-procurement",
+          "https://www.tesla.com/blog"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "젠슨 황(Jensen Huang)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 최신 발표 목록과 조사 구간 검색을 대조했다. 기존 Hugging Face 인수·MediaTek 발표 이후 별도 종결·추가 투자 증거를 찾지 못했다.",
+        "status": "checked",
+        "urls": [
+          "https://nvidianews.nvidia.com/"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "샘 알트만(Sam Altman)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "9월 6일 공식 연구 측정 공개와 8월 제한 원문을 대조했다. 6월 8일 장기 목표 글은 참고에만 사용하고 90일 기준선은 8월 18일로 삼았다. 연구책임자 발언은 알트만 직접 발언과 구분했다.",
+        "status": "checked",
+        "urls": [
+          "https://openai.com/news/",
+          "https://openai.com/index/research-acceleration-view-inside-openai/",
+          "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+          "https://openai.com/index/an-alien-mind/",
+          "https://openai.com/index/built-to-benefit-everyone-our-plan/"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "다리오 아모데이(Dario Amodei)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 발표 목록과 구간별 검색을 대조했다. 기존 Fable·기업 안전 기능 이후 별도 실행 근거를 확인하지 못했고 익명 IPO 추측은 사용하지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://www.anthropic.com/news"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "데미스 허사비스(Demis Hassabis)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 DeepMind 목록과 최신 검색을 대조했다. WeatherNext 발표 이후 독립 성과·신규 자본배분은 확인되지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "사티아 나델라(Satya Nadella)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "본인 새 게시물과 연결된 원문을 열었다. Opal 원문은 2025년 11월 18일 발표이고 새 게시물만으로 신규 일반 출시·정량 성과가 확인되지 않아 제외했다.",
+        "status": "checked",
+        "urls": [
+          "https://blogs.microsoft.com/",
+          "https://www.linkedin.com/posts/satyanadella_it-was-a-great-week-for-innovation-across-activity-7502385664945111040-uGka",
+          "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-project-opal-a-new-way-to-get-task-based-work-done/4470999"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "마크 저커버그(Mark Zuckerberg)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 뉴스룸과 관련 보도를 대조했다. 규제 반대 보도는 8월 사건·익명 내용이고 신규 직접 결정으로 보지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://about.fb.com/news/",
+          "https://www.thestreet.com/technology/mark-zuckerberg-opposes-ai-regulator"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "리사 수(Lisa Su)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "데이터센터 공식 최신 목록과 리사 수 관련 구간 검색을 확인했다. 최근 설명·기존 HUMAIN 관련 내용과 별개인 신규 전략 행동을 확인하지 못했다.",
+        "status": "checked",
+        "urls": [
+          "https://newsroom.amd.com/category/data-center/"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "웨이저자(C.C. Wei)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 IR·뉴스 발표 목록과 웨이저자 최신 검색을 대조했다. 7월 실적·CAPEX 재인용은 신규화하지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://pr.tsmc.com/english"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "손정의(Masayoshi Son)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "9월 4일 채권 조건 확정 자료를 확인했다. AI 투자용 자금 집행이나 새로운 용도 근거 없이 채권 조건 확정만으로 승격하지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://group.softbank/en/news/press",
+          "https://group.softbank/en/news/press/20260904"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "쩡위췬(Robin Zeng)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 뉴스와 9월 3일 쩡위췬 품질 기고를 읽었다. 창업 초기부터의 품질·안전 기조 설명이며 새 투자·시행 일정은 없어 제외했다.",
+        "status": "checked",
+        "urls": [
+          "https://www.catl.com/en/news/",
+          "https://www.linkedin.com/pulse/dr-robin-zeng-catl-standard-means-three-kxsse"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "스콧 스트라직(Scott Strazik)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 발표와 정부 서명 확인, 6월 양해각서 원보도를 대조했다. 후속 협약은 누락 보충하되 발전 목표 반복·금액 미공개를 점수에 반영했다.",
+        "status": "checked",
+        "urls": [
+          "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release",
+          "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united",
+          "https://www.reuters.com/business/energy/venezuela-general-electric-sign-cooperation-agreement-power-supply-2026-06-15/",
+          "https://www.turbomachinerymag.com/view/ge-vernova-venezuela-power-agreements-pdvsa-corpoelec"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "알렉스 카프(Alex Karp)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "최신 검색의 우크라이나 투자 후속 보도를 9월 1일 직접 인용 원문과 대조했다. 새 투자액·종결 증거가 없으며 과거 미검토 카드 점수는 임의 수정하지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://www.reuters.com/business/aerospace-defense/ukraines-fedorov-says-palantir-ceo-will-be-first-major-investor-new-defence-2026-09-01/"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "누바 아페얀(Noubar Afeyan)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 뉴스 목록과 아페얀의 구간별 검색을 대조했다. 기존 경영진 인사·투자 발표 이후 선별할 신규 근거를 확인하지 못했다.",
+        "status": "checked",
+        "urls": [
+          "https://www.flagshippioneering.com/news"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "브라이언 체스키(Brian Chesky)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 뉴스룸과 체스키 관련 검색을 확인했다. 기존 인사·기부 소식 및 외부 규제 기사와 구분되는 새 전략 행동은 확인되지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://news.airbnb.com/"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "최신 검색 결과를 본인 기고와 대조했다. 국채 바이백 견해 반복과 과거 거래 회고를 신규 판단·포지션으로 보지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://www.wsj.com/opinion/let-the-bond-market-speak-81529d74"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "피터 틸(Peter Thiel)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "구간 검색과 직접 취재 보도를 대조했다. 과거 주거 이전과 현지 반응은 신규 투자 행동으로 확인되지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://www.theguardian.com/technology/2026/sep/03/peter-thiel-argentina-javier-milei"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "하워드 막스(Howard Marks)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 메모 목록과 본인의 연휴 독서 추천을 확인했다. 구체적 투자 전망·포지션 변화가 아닌 책 추천은 제외했다.",
+        "status": "checked",
+        "urls": [
+          "https://www.oaktreecapital.com/insights/memos",
+          "https://www.linkedin.com/posts/howardmarksbook_if-youre-looking-for-some-good-books-to-activity-7501625369477709827-xctD"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "레이 달리오(Ray Dalio)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "본인 원문 아카이브와 구간 검색을 대조했다. 기존 8월 31일 호르무즈 판단 이후 새 검증 가능한 전망을 확인하지 못했다.",
+        "status": "checked",
+        "urls": [
+          "https://raydalio.substack.com/archive"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "마크 앤드리슨(Marc Andreessen)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "공식 발표·팟캐스트 목록과 공식 발언 소개를 확인했다. 호기심·일반적 학습 조언은 새 자본배분이나 검증 가능한 관점 변화가 아니다.",
+        "status": "checked",
+        "urls": [
+          "https://a16z.com/",
+          "https://a16z.com/podcasts/a16z-show/",
+          "https://www.linkedin.com/posts/a16z_marc-andreessen-on-being-intensely-curious-activity-7501644147741700096---Gx"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "타일러 코웬(Tyler Cowen)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "9월 6일 보험료 관련 글과 최신 게시물을 읽었다. 타인의 수치 소개 및 기한·폭이 없는 전망은 승격하지 않았다.",
+        "status": "checked",
+        "urls": [
+          "https://marginalrevolution.com/",
+          "https://marginalrevolution.com/marginalrevolution/2026/09/sentences-to-ponder-140.html"
+        ]
       },
       {
-        "checkedAt": null,
+        "checkedAt": "2026-09-07T07:41:34+09:00",
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
-        "note": "기존 보고서의 전원 조사 집계를 이관했습니다. 리더별 원문 확인 내역은 다음 조사부터 기록합니다.",
-        "status": "legacy",
-        "urls": []
+        "note": "개소식 공식 소개와 8월 재개 직접 보도를 대조했다. 9월 행사 자체를 신규 운영 개시로 보지 않았고 추가 규모·투자 조건은 미확인이다.",
+        "status": "checked",
+        "urls": [
+          "https://balajis.com/archive",
+          "https://www.linkedin.com/posts/solana-superteam-kz_network-school-has-officially-launched-in-activity-7501372882090987524-sKAh",
+          "https://www.businessinsider.com/balaji-srinivasan-network-school-reopen-kazakhstan-2026-8"
+        ]
       }
     ],
     "evidence": [
+      {
+        "claim": "회사는 자동 연구 인턴 목표 달성을 자체 측정으로 보고했다. 8월 중순 인간 작업일당 에이전트 가동량 3.1일, 장시간 성공 작업의 인간 개입, 제한 이후 모델 간 GPU 재배치를 공개했다. 이는 생산성 배수나 전체 시장 수요 측정이 아니다.",
+        "grade": "A",
+        "id": "openai-research-metrics-20260906",
+        "label": "OpenAI 연구 자동화 측정 공개",
+        "provenance": "official",
+        "publishedAt": "2026-09-06",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "배포용 최신 모델의 강화학습을 2주 중단하고 일부 작업은 강화된 통제 아래 재개했다고 밝혔다.",
+        "grade": "A",
+        "id": "openai-pause-official-20260818",
+        "label": "OpenAI 학습 속도 조절 발표",
+        "provenance": "official",
+        "publishedAt": "2026-08-18",
+        "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "Jakub Pachocki는 고도화된 모델에서 추론 감시의 신뢰성과 안전 평가가 병목이 될 수 있다고 설명했다. 샘 알트만의 직접 발언으로 귀속하지 않는다.",
+        "grade": "A",
+        "id": "openai-alien-mind-20260906",
+        "label": "OpenAI 연구책임자의 안전 측정 한계",
+        "provenance": "official",
+        "publishedAt": "2026-09-06",
+        "url": "https://openai.com/index/an-alien-mind/",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "Grok·Cursor Enterprise에 접근·네트워크·감사 통제를 추가하고 2주 무료 이용을 제공한다고 발표했다. 유료 전환율과 매출은 공개하지 않았다.",
+        "grade": "A",
+        "id": "xai-enterprise-launch-20260903",
+        "label": "xAI Grok Bot 기업용 출시",
+        "provenance": "official",
+        "publishedAt": "2026-09-03",
+        "url": "https://x.ai/news/grok-bot-for-enterprise",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "개인·Teams 요금제로 접근을 넓혔으나 Enterprise는 대기 명단으로 안내했다.",
+        "grade": "A",
+        "id": "xai-bot-plans-20260826",
+        "label": "xAI Grok Bot 요금제 확대 기준선",
+        "provenance": "official",
+        "publishedAt": "2026-08-26",
+        "url": "https://x.ai/news/grok-bot-more-plans",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "미 에너지부는 9월 2일 GE Vernova의 전력망 현대화·확장 협약 서명을 확인했다. 24개월 내 1GW와 이후 4년간 5GW를 계획하며 6월 협력 틀을 잇는다고 설명했다.",
+        "grade": "A",
+        "id": "ge-venezuela-doe-20260902",
+        "label": "미 에너지부 GE Vernova 협약 서명 확인",
+        "provenance": "official",
+        "publishedAt": "2026-09-02",
+        "url": "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "6월 15일 양해각서 체결 당시에도 1GW·24개월 및 5GW 규모의 후속 목표가 제시됐고 계약 구체화가 요청됐다. 투자액은 미공개였다.",
+        "grade": "B",
+        "id": "ge-venezuela-mou-20260615",
+        "label": "Reuters GE Vernova 6월 양해각서",
+        "provenance": "direct_report",
+        "publishedAt": "2026-06-16T07:05:00+09:00",
+        "url": "https://www.reuters.com/business/energy/venezuela-general-electric-sign-cooperation-agreement-power-supply-2026-06-15/",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
+      {
+        "claim": "9월 2일 PDVSA 및 CORPOELEC 관련 두 협약을 보도했다. 현장 감사·채용 계획 일부는 6월 기준선이어서 9월 신규 집행으로 보지 않는다.",
+        "grade": "B",
+        "id": "ge-venezuela-agreements-20260903",
+        "label": "Turbomachinery GE Vernova 후속 협약 보도",
+        "provenance": "direct_report",
+        "publishedAt": "2026-09-03",
+        "url": "https://www.turbomachinerymag.com/view/ge-vernova-venezuela-power-agreements-pdvsa-corpoelec",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      },
       {
         "claim": "OpenAI는 사건을 인정하고 공개 관행 확대 필요성과 규제기관 협력을 밝혔습니다. 새 보고제도의 시행은 확인되지 않았습니다.",
         "grade": "B",
@@ -601,6 +937,349 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20260907-openai-research-metrics-initial",
+        "signalId": "openai-research-metrics",
+        "eventId": "openai-research-metrics",
+        "hypothesisId": "openai-research-compute",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.07",
+        "recordedAt": "2026-09-07T07:41:34+09:00",
+        "tier": "signal",
+        "score": 79,
+        "headline": "OpenAI가 연구 자동화 실측을 공개하며 안전 제한 뒤의 연산 재배치를 확인했다",
+        "source": "https://openai.com/index/research-acceleration-view-inside-openai/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "24+15+18+13+9=79. 성과 단계는 회사가 공개한 내부 운영 측정에 한정한다. 기존 openai-pacing의 위키 사건과 분리했다.",
+        "evidenceIds": [
+          "openai-research-metrics-20260906",
+          "openai-alien-mind-20260906",
+          "openai-pause-official-20260818"
+        ],
+        "snapshot": {
+          "action": "내부 에이전트 운영 결과와 측정 방법을 공개했다. 새로운 학습 중단 사건은 아니다.",
+          "assessment": {
+            "assessedAt": "2026-09-07T07:41:34+09:00",
+            "attribution": "company_action",
+            "baseline": {
+              "date": "2026-08-18",
+              "evidenceIds": [
+                "openai-pause-official-20260818"
+              ],
+              "statement": "학습을 일시 중단하고 일부 작업을 강화된 통제 아래 재개한다고 설명했다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "내부 운영량과 측정 방법을 공개했으나 외부 재현은 없다.",
+                "score": 24
+              },
+              "change": {
+                "reason": "8월 18일 제한 설명에 실제 재배치 결과가 추가됐다. 모델 중단 자체는 반복이다.",
+                "score": 15
+              },
+              "impact": {
+                "reason": "연구 자동화와 컴퓨팅 재배치가 인프라 수요·안전 비용에 연결된다.",
+                "score": 18
+              },
+              "source": {
+                "reason": "날짜·본문·측정 한계를 공식 원문으로 확인했다. 자체 성과 주장이라는 한계로 만점은 아니다.",
+                "score": 9
+              },
+              "verification": {
+                "reason": "개입률·배분으로 검증 가능하나 후속 공개 기한과 독립 성과 기준은 없다.",
+                "score": 13
+              }
+            },
+            "evidenceIds": [
+              "openai-research-metrics-20260906",
+              "openai-alien-mind-20260906"
+            ],
+            "impactDirection": "mixed",
+            "note": "24+15+18+13+9=79. 성과 단계는 회사가 공개한 내부 운영 측정에 한정한다. 기존 openai-pacing의 위키 사건과 분리했다.",
+            "rubricVersion": 1,
+            "stage": "outcome",
+            "status": "reviewed"
+          },
+          "before": "8월 18일에는 학습 중단과 제한적 재개를 설명했지만 모델 간 연산 재배치 수치는 공개하지 않았다.",
+          "counter": "회사 자체 측정이며 독립 검증과 생산성 인과효과는 미확인이다. 인간 개입과 감시 신뢰성이 제약이다.",
+          "date": "2026.09.06",
+          "eventId": "openai-research-metrics",
+          "facts": [
+            "자체 측정으로 ‘자동 연구 인턴’ 목표 달성을 보고했다.",
+            "8월 중순 인간 작업일당 에이전트 가동량은 3.1일이었다. 생산성 3.1배를 뜻하지 않는다.",
+            "8월 제한 이후 다른 모델의 GPU 배분 증가가 Astra 감소분의 약 85%를 상쇄했다.",
+            "성공한 4~8시간 작업의 절반 넘게 인간 개입이 있었다."
+          ],
+          "headline": "OpenAI가 연구 자동화 실측을 공개하며 안전 제한 뒤의 연산 재배치를 확인했다",
+          "hypothesisId": "openai-research-compute",
+          "id": "openai-research-metrics",
+          "impact": "해석: 연구용 추론·연산 수요가 다른 작업으로 이동할 수 있다. 다만 회사 내부 사례를 산업 전체 수요 전망으로 일반화할 수 없다.",
+          "impactPath": [
+            "연구 에이전트 실제 활용",
+            "안전 제한 시 연산 재배치",
+            "컴퓨팅 수요·감시 비용에 영향"
+          ],
+          "industryLinks": [
+            {
+              "evidenceIds": [
+                "openai-research-metrics-20260906"
+              ],
+              "relationship": "indirect",
+              "sector": "AI 연산·연구 도구",
+              "text": "제한된 연산이 다른 실험으로 이동할 수 있다. 신규 장비 발주·특정 공급자 수혜는 확인하지 못했다."
+            }
+          ],
+          "initials": "SA",
+          "kind": "실행",
+          "leader": "샘 알트만(Sam Altman)",
+          "next": "후속 공개에서 같은 기준의 작업 성공률·인간 개입률·GPU 배분을 비교한다. 다음 보고 기한은 미공개다.",
+          "now": "9월 6일 연구 자동화와 제한 이후 GPU 배분을 함께 공개했다.",
+          "reportDate": "2026.09.07",
+          "role": "OpenAI",
+          "score": 79,
+          "source": "https://openai.com/index/research-acceleration-view-inside-openai/",
+          "sourceGrade": "A",
+          "sourceLabel": "OpenAI 공식 연구 공개 · 2026.09.06",
+          "takeaway": "연구 자동화가 실제 내부 운영 단계로 진전됐다. 특정 모델의 제한을 전체 연산 수요 감소로 해석하기는 어렵다.",
+          "theme": "AI 인프라",
+          "timing": {
+            "firstSeenAt": "2026-09-07T07:41:34+09:00",
+            "lateDiscovery": false,
+            "occurredAt": "2026-09-06",
+            "publishedAt": "2026-09-06",
+            "verifiedAt": "2026-09-07T07:41:34+09:00"
+          }
+        }
+      },
+      {
+        "id": "revision-20260907-xai-grok-bot-enterprise-initial",
+        "signalId": "xai-grok-bot-enterprise",
+        "eventId": "xai-grok-bot-enterprise",
+        "hypothesisId": "enterprise-agent-governance",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.07",
+        "recordedAt": "2026-09-07T07:41:34+09:00",
+        "tier": "observation",
+        "score": 71,
+        "headline": "xAI가 Grok Bot을 기업 고객에 개방하고 접근·네트워크·감사 통제를 추가했다",
+        "source": "https://x.ai/news/grok-bot-for-enterprise",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "22+12+16+12+9=71. 출시 실행은 확인됐지만 변화량·수익 증거가 제한돼 관찰로 기록한다. 머스크 직접 발언이 아닌 회사 행동이다.",
+        "evidenceIds": [
+          "xai-enterprise-launch-20260903",
+          "xai-bot-plans-20260826"
+        ],
+        "snapshot": {
+          "action": "확인된 행동은 기업용 제품 배포다. 유료 전환율·신규 계약 금액·통제 효과의 외부 검증은 확인되지 않았다.",
+          "assessment": {
+            "assessedAt": "2026-09-07T07:41:34+09:00",
+            "attribution": "company_action",
+            "baseline": {
+              "date": "2026-08-26",
+              "evidenceIds": [
+                "xai-bot-plans-20260826"
+              ],
+              "statement": "개인·Teams 접근은 확대했으나 기업 고객은 대기 명단이었다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "기업 접근권과 관리 기능의 출시를 확인했다. 자본 집행·유료 성과는 미확인이다.",
+                "score": 22
+              },
+              "change": {
+                "reason": "8월 26일 대기 명단에서 기업 이용으로 이동했으나 기존 제품 확대다.",
+                "score": 12
+              },
+              "impact": {
+                "reason": "기업 소프트웨어 배포와 감사 수요에 연결되지만 시장 파급 규모는 미확정이다.",
+                "score": 16
+              },
+              "source": {
+                "reason": "공식 출시문과 이전 접근 조건을 직접 대조했다. 고객 성과는 독립 검증 전이다.",
+                "score": 9
+              },
+              "verification": {
+                "reason": "무료 기간과 유료 전환을 추적할 수 있으나 수치 목표·공개 약속은 없다.",
+                "score": 12
+              }
+            },
+            "evidenceIds": [
+              "xai-enterprise-launch-20260903"
+            ],
+            "impactDirection": "mixed",
+            "note": "22+12+16+12+9=71. 출시 실행은 확인됐지만 변화량·수익 증거가 제한돼 관찰로 기록한다. 머스크 직접 발언이 아닌 회사 행동이다.",
+            "rubricVersion": 1,
+            "stage": "execution",
+            "status": "reviewed"
+          },
+          "before": "8월 26일 개인·Teams 요금제로 확대했지만 Enterprise 고객은 대기 명단으로 안내했다.",
+          "counter": "기존 제품의 배포 범위 확대다. 회사의 도입 사례만으로 수익성과 안전성을 확정할 수 없다.",
+          "date": "2026.09.03",
+          "eventId": "xai-grok-bot-enterprise",
+          "facts": [
+            "Grok·Cursor Enterprise 고객이 이용할 수 있다고 발표했다.",
+            "기존 좌석이 없는 직원도 2주 무료 이용 대상에 포함했다.",
+            "접근·네트워크·감사 통제를 출시했다."
+          ],
+          "headline": "xAI가 Grok Bot을 기업 고객에 개방하고 접근·네트워크·감사 통제를 추가했다",
+          "hypothesisId": "enterprise-agent-governance",
+          "id": "xai-grok-bot-enterprise",
+          "impact": "해석: 기업용 에이전트의 경쟁 기준에 관리·감사 기능이 더해진다. 무료 체험이 반복 매출로 이어지는지는 별도 문제다.",
+          "impactPath": [
+            "기업용 관리 기능 추가",
+            "조직 단위 체험 확대",
+            "유료 채택·운영 통제 경쟁"
+          ],
+          "industryLinks": [
+            {
+              "evidenceIds": [
+                "xai-enterprise-launch-20260903"
+              ],
+              "relationship": "indirect",
+              "sector": "기업 AI 에이전트·감사",
+              "text": "통제 기능이 기업 도입 요건으로 중요해질 수 있으나 다른 회사의 수혜 계약은 확인하지 못했다."
+            }
+          ],
+          "initials": "EM",
+          "kind": "실행",
+          "leader": "일론 머스크(Elon Musk)",
+          "next": "2주 무료 기간 이후 유료 전환·유지율과 감사 통제의 실제 운용 사례를 확인한다. 성과 공개 일정은 없다.",
+          "now": "9월 3일 기업 고객을 개방하고 조직 전체에 2주 무료 이용을 제공했다.",
+          "reportDate": "2026.09.07",
+          "role": "Tesla · SpaceX · xAI",
+          "score": 71,
+          "source": "https://x.ai/news/grok-bot-for-enterprise",
+          "sourceGrade": "A",
+          "sourceLabel": "xAI 공식 발표 · 2026.09.03",
+          "takeaway": "개인·팀 중심 배포에서 기업 관리자가 통제하는 이용 단계로 확대됐다. 매출 검증은 남아 있다.",
+          "theme": "AI 배포",
+          "timing": {
+            "firstSeenAt": "2026-09-07T07:41:34+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "72시간 겹침 수집에서 기존 카드에 없는 기업용 출시 원문을 처음 검증했다. 오늘 발생한 사건으로 재날짜화하지 않았다.",
+            "occurredAt": "2026-09-03",
+            "publishedAt": "2026-09-03",
+            "verifiedAt": "2026-09-07T07:41:34+09:00"
+          }
+        }
+      },
+      {
+        "id": "revision-20260907-ge-venezuela-grid-agreement-initial",
+        "signalId": "ge-venezuela-grid-agreement",
+        "eventId": "ge-venezuela-grid-agreement",
+        "hypothesisId": "ge-venezuela-grid-execution",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.07",
+        "recordedAt": "2026-09-07T07:41:34+09:00",
+        "tier": "observation",
+        "score": 70,
+        "headline": "GE Vernova가 베네수엘라 전력망 후속 협약에 서명했다 — 발전 실적은 아직 미확인",
+        "source": "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "21+10+17+13+9=70. 협약 체결과 발전 실행을 분리한다. 스트라직 직접 발언으로 귀속하지 않는다.",
+        "evidenceIds": [
+          "ge-venezuela-doe-20260902",
+          "ge-venezuela-agreements-20260903",
+          "ge-venezuela-mou-20260615"
+        ],
+        "snapshot": {
+          "action": "확인된 행동은 후속 협약 서명이다. 공개 자료로 투자액·착공·신규 가동을 확인하지 못했다.",
+          "assessment": {
+            "assessedAt": "2026-09-07T07:41:34+09:00",
+            "attribution": "company_action",
+            "baseline": {
+              "date": "2026-06-15",
+              "evidenceIds": [
+                "ge-venezuela-mou-20260615"
+              ],
+              "statement": "양해각서와 1GW·24개월 및 5GW 규모의 후속 목표가 제시됐으나 계약 구체화가 요청됐다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "정부 공식 자료가 후속 협약 서명을 확인한다. 현장 집행·매출 성과는 미확인이다.",
+                "score": 21
+              },
+              "change": {
+                "reason": "6월 양해각서 이후 후속 서명이나 발전 규모의 근본 변화는 확인되지 않는다.",
+                "score": 10
+              },
+              "impact": {
+                "reason": "전력망 복구가 발전·송배전·정비 공급망에 영향을 줄 수 있다.",
+                "score": 17
+              },
+              "source": {
+                "reason": "서명 참여 정부의 원문과 직접 보도를 대조했다. 계약 전문·기업 재무 공시는 없다.",
+                "score": 9
+              },
+              "verification": {
+                "reason": "GW와 기간 목표는 있으나 자금·착공 일정과 측정 기준이 불완전하다.",
+                "score": 13
+              }
+            },
+            "evidenceIds": [
+              "ge-venezuela-doe-20260902",
+              "ge-venezuela-agreements-20260903"
+            ],
+            "impactDirection": "mixed",
+            "note": "21+10+17+13+9=70. 협약 체결과 발전 실행을 분리한다. 스트라직 직접 발언으로 귀속하지 않는다.",
+            "rubricVersion": 1,
+            "stage": "execution",
+            "status": "reviewed"
+          },
+          "before": "6월 15일 양해각서와 발전 목표가 발표됐고 계약 구체화가 요청됐다.",
+          "counter": "발전 목표의 큰 틀은 6월에도 제시됐다. 협약을 확정 매출이나 가동 성과로 환산할 수 없다.",
+          "date": "2026.09.02",
+          "eventId": "ge-venezuela-grid-agreement",
+          "facts": [
+            "미 에너지부는 GE Vernova 협약의 서명을 확인했다.",
+            "범위는 화력·수력 발전과 송배전·변전소를 포함한다.",
+            "24개월 내 1GW와 이후 4년간 5GW를 계획으로 제시했다. 발전량 달성 증거는 아니다."
+          ],
+          "headline": "GE Vernova가 베네수엘라 전력망 후속 협약에 서명했다 — 발전 실적은 아직 미확인",
+          "hypothesisId": "ge-venezuela-grid-execution",
+          "id": "ge-venezuela-grid-agreement",
+          "impact": "해석: 전력 설비·정비 사업 기회가 구체화될 수 있다. 실제 발주와 대금 회수 조건이 매출 전환을 좌우한다.",
+          "impactPath": [
+            "후속 협약 서명",
+            "발주·현장 공정 확인 필요",
+            "전력 설비·정비 매출 가능성"
+          ],
+          "industryLinks": [
+            {
+              "evidenceIds": [
+                "ge-venezuela-doe-20260902"
+              ],
+              "relationship": "confirmed",
+              "sector": "발전·송배전 설비",
+              "text": "GE Vernova와 베네수엘라 전력망의 협약 관계는 공식 확인됐다. 다른 공급업체·계약 금액은 미확인이다."
+            }
+          ],
+          "initials": "SS",
+          "kind": "실행",
+          "leader": "스콧 스트라직(Scott Strazik)",
+          "next": "계약 금액·자금 조달·장비 발주·복구 가동량과 24개월 목표의 기준 시점을 확인한다.",
+          "now": "미 에너지부가 9월 2일 전력망 현대화·확장 협약 서명을 확인했다.",
+          "reportDate": "2026.09.07",
+          "role": "GE Vernova",
+          "score": 70,
+          "source": "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united",
+          "sourceGrade": "A",
+          "sourceLabel": "미국 에너지부 공식 자료 · 2026.09.02",
+          "takeaway": "6월 협력 틀에서 후속 협약 서명으로 진전됐다. 제시된 발전 목표를 신규 상향이나 가동 실적으로 보지는 않는다.",
+          "theme": "전력 인프라",
+          "timing": {
+            "firstSeenAt": "2026-09-07T07:41:34+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "이전 조사에서 시간 경계로 제외됐던 관련 보도를 재점검하면서 9월 2일 공식 서명 자료와 6월 기준선을 처음 대조했다. 보충 구간 밖의 누락 원사건임을 명시한다.",
+            "occurredAt": "2026-09-02",
+            "publishedAt": "2026-09-02",
+            "verifiedAt": "2026-09-07T07:41:34+09:00"
+          }
+        }
+      },
       {
         "eventId": "openai-wiki-disclosure",
         "evidenceIds": [
@@ -2435,6 +3114,30 @@
         ],
         "question": "재무부의 장기채 바이백 규모와 만기 구성, 10년·30년 국채 기간 프리미엄, 입찰 수요, 드러켄밀러의 후속 포지션 공개를 확인합니다.",
         "title": "드러켄밀러가 미 재무부의 장기채 바이백 확대를 ‘가격 관리’라고 비판했다"
+      },
+      {
+        "id": "openai-research-compute",
+        "title": "연구 자동화와 안전 제한 이후의 연산 수요",
+        "question": "인간 개입·안전 비용을 포함해 연구 자동화 성과가 재현되고, 제한된 모델의 연산이 다른 작업으로 이동하는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)"
+        ]
+      },
+      {
+        "id": "enterprise-agent-governance",
+        "title": "통제 가능한 기업용 에이전트의 유료 채택",
+        "question": "접근·네트워크·감사 통제의 배포가 지속적인 유료 이용과 검증 가능한 운영 성과로 이어지는가?",
+        "leaderNames": [
+          "일론 머스크(Elon Musk)"
+        ]
+      },
+      {
+        "id": "ge-venezuela-grid-execution",
+        "title": "베네수엘라 전력 협약의 실제 집행",
+        "question": "서명한 협약이 자금·발주·현장 공정·가동량으로 전환되는가?",
+        "leaderNames": [
+          "스콧 스트라직(Scott Strazik)"
+        ]
       }
     ],
     "migration": {
@@ -2449,17 +3152,111 @@
     "version": 1
   },
   "researchWindow": {
-    "end": "2026-09-06T07:34:18+09:00",
-    "start": "2026-09-05T07:36:28+09:00"
+    "start": "2026-09-06T07:34:18+09:00",
+    "end": "2026-09-07T07:41:34+09:00"
   },
   "runSummary": {
     "excludedCount": 6,
     "leadersChecked": 22,
-    "notes": "22명 전원의 공식 채널과 직접 발언·신뢰도 높은 보도를 확인했습니다. OpenAI가 독일 위키 사건을 공식 인정하고 오정렬 공개 관행 확대와 규제기관 협력을 밝힌 후속 행동을 기존 openai-pacing ID로 보강했습니다. 외부 저작권 소송, 과거 발언 재인용, 기존 인수·운행의 후속 보도, 일반 연구 소개와 시장가격 움직임은 제외했습니다. 개편 시 기존 조사 집계는 보존하고 위키 사건 한 건을 원문 재확인해 재평가했습니다. 다른 과거 점수는 새 기준 재평가 전이며 구성점수를 역산하지 않았습니다.",
-    "sourcesChecked": 30
+    "notes": "리더별 원문 확인 내역을 coverage에 기록했고 sourcesChecked는 그 목록의 중복 제거 URL 수다. 주요 제외 6건: 나델라 Opal 소개(연결 원문 2025.11.18, 새 일반 출시·성과 미확인), CATL 품질 기고(기존 기조 반복), SoftBank 채권 조건(새 전략 용도·투자 집행 미확인), xAI 조달 사례(절감 후보와 실현 절감액 구분), 타일러 코웬 보험 논평(기한·규모 없는 전망), Network School 개소식(8월 운영 재개와 별개인 행사). 일부 접속 실패는 접근 가능한 공식·직접 원문으로 보완했으며 실패 URL은 집계하지 않았다. 결정적 1건·관찰 2건은 별도 사건과 구성점수·기준선·원문을 기록했다. 지연 발견 2건이며 GE 협약은 72시간 수집 경계 밖 원사건을 누락 보충했다. 기존 카드 재평가·승격·반증·지연 변경은 없고 행동 전환 수는 0건이다. 신규 실행을 기존 사건의 발언→실행 전환으로 세지 않았다. 활성 확인 항목 6개는 재검토일 미도래·결과 증거 미확정으로 보존했다. 검증된 주간 비교 기준점이 없어 테마 수치와 방향은 보존했다.",
+    "sourcesChecked": 44
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "action": "내부 에이전트 운영 결과와 측정 방법을 공개했다. 새로운 학습 중단 사건은 아니다.",
+      "assessment": {
+        "assessedAt": "2026-09-07T07:41:34+09:00",
+        "attribution": "company_action",
+        "baseline": {
+          "date": "2026-08-18",
+          "evidenceIds": [
+            "openai-pause-official-20260818"
+          ],
+          "statement": "학습을 일시 중단하고 일부 작업을 강화된 통제 아래 재개한다고 설명했다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "내부 운영량과 측정 방법을 공개했으나 외부 재현은 없다.",
+            "score": 24
+          },
+          "change": {
+            "reason": "8월 18일 제한 설명에 실제 재배치 결과가 추가됐다. 모델 중단 자체는 반복이다.",
+            "score": 15
+          },
+          "impact": {
+            "reason": "연구 자동화와 컴퓨팅 재배치가 인프라 수요·안전 비용에 연결된다.",
+            "score": 18
+          },
+          "source": {
+            "reason": "날짜·본문·측정 한계를 공식 원문으로 확인했다. 자체 성과 주장이라는 한계로 만점은 아니다.",
+            "score": 9
+          },
+          "verification": {
+            "reason": "개입률·배분으로 검증 가능하나 후속 공개 기한과 독립 성과 기준은 없다.",
+            "score": 13
+          }
+        },
+        "evidenceIds": [
+          "openai-research-metrics-20260906",
+          "openai-alien-mind-20260906"
+        ],
+        "impactDirection": "mixed",
+        "note": "24+15+18+13+9=79. 성과 단계는 회사가 공개한 내부 운영 측정에 한정한다. 기존 openai-pacing의 위키 사건과 분리했다.",
+        "rubricVersion": 1,
+        "stage": "outcome",
+        "status": "reviewed"
+      },
+      "before": "8월 18일에는 학습 중단과 제한적 재개를 설명했지만 모델 간 연산 재배치 수치는 공개하지 않았다.",
+      "counter": "회사 자체 측정이며 독립 검증과 생산성 인과효과는 미확인이다. 인간 개입과 감시 신뢰성이 제약이다.",
+      "date": "2026.09.06",
+      "eventId": "openai-research-metrics",
+      "facts": [
+        "자체 측정으로 ‘자동 연구 인턴’ 목표 달성을 보고했다.",
+        "8월 중순 인간 작업일당 에이전트 가동량은 3.1일이었다. 생산성 3.1배를 뜻하지 않는다.",
+        "8월 제한 이후 다른 모델의 GPU 배분 증가가 Astra 감소분의 약 85%를 상쇄했다.",
+        "성공한 4~8시간 작업의 절반 넘게 인간 개입이 있었다."
+      ],
+      "headline": "OpenAI가 연구 자동화 실측을 공개하며 안전 제한 뒤의 연산 재배치를 확인했다",
+      "hypothesisId": "openai-research-compute",
+      "id": "openai-research-metrics",
+      "impact": "해석: 연구용 추론·연산 수요가 다른 작업으로 이동할 수 있다. 다만 회사 내부 사례를 산업 전체 수요 전망으로 일반화할 수 없다.",
+      "impactPath": [
+        "연구 에이전트 실제 활용",
+        "안전 제한 시 연산 재배치",
+        "컴퓨팅 수요·감시 비용에 영향"
+      ],
+      "industryLinks": [
+        {
+          "evidenceIds": [
+            "openai-research-metrics-20260906"
+          ],
+          "relationship": "indirect",
+          "sector": "AI 연산·연구 도구",
+          "text": "제한된 연산이 다른 실험으로 이동할 수 있다. 신규 장비 발주·특정 공급자 수혜는 확인하지 못했다."
+        }
+      ],
+      "initials": "SA",
+      "kind": "실행",
+      "leader": "샘 알트만(Sam Altman)",
+      "next": "후속 공개에서 같은 기준의 작업 성공률·인간 개입률·GPU 배분을 비교한다. 다음 보고 기한은 미공개다.",
+      "now": "9월 6일 연구 자동화와 제한 이후 GPU 배분을 함께 공개했다.",
+      "reportDate": "2026.09.07",
+      "role": "OpenAI",
+      "score": 79,
+      "source": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "sourceGrade": "A",
+      "sourceLabel": "OpenAI 공식 연구 공개 · 2026.09.06",
+      "takeaway": "연구 자동화가 실제 내부 운영 단계로 진전됐다. 특정 모델의 제한을 전체 연산 수요 감소로 해석하기는 어렵다.",
+      "theme": "AI 인프라",
+      "timing": {
+        "firstSeenAt": "2026-09-07T07:41:34+09:00",
+        "lateDiscovery": false,
+        "occurredAt": "2026-09-06",
+        "publishedAt": "2026-09-06",
+        "verifiedAt": "2026-09-07T07:41:34+09:00"
+      }
+    },
     {
       "action": "Tesla가 Cybercab을 기존 Model Y 로보택시와 함께 오스틴 유료 서비스에 투입하고 일반 이용자에게 예약을 개방했습니다.",
       "assessment": {
@@ -3410,8 +4207,8 @@
       }
     }
   ],
-  "status": "observations",
-  "statusMessage": "오늘 결정적 신호 0건·관찰 신호 1건이며, 위키 사건 공개 입장을 63점 관찰 신호로 재평가했습니다.",
+  "status": "signals",
+  "statusMessage": "22명 조사 결과 결정적 신호 1건과 관찰 신호 2건을 확인했으며, 관찰 2건은 원문 대조로 보충한 지연 발견입니다.",
   "themes": [
     {
       "conviction": 99,
@@ -3447,9 +4244,24 @@
             ],
             "id": "a16z-machine-age-fund",
             "note": "같은 거래의 참여 리더·반복 보도는 한 사건으로 집계"
+          },
+          {
+            "id": "openai-research-metrics",
+            "eventIds": [
+              "openai-research-metrics"
+            ],
+            "note": "하나의 회사 사건으로 집계하며 여러 독립 리더의 검증된 합의로 확대하지 않는다."
           }
         ],
         "opposing": [
+          {
+            "eventId": "openai-research-metrics",
+            "text": "연구 가동량은 생산성 배수가 아니며 회사 자체 측정이다. 인간 개입과 안전 감시가 병목으로 남는다.",
+            "evidenceIds": [
+              "openai-research-metrics-20260906"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "ports-pike",
             "evidenceIds": [],
@@ -3464,6 +4276,14 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "openai-research-metrics",
+            "text": "회사 내부에서 제한된 모델의 연산 감소분이 다른 모델 실험으로 상당 부분 재배치됐다. 신규 설비 발주나 산업 전체 수요를 뜻하지 않는다.",
+            "evidenceIds": [
+              "openai-research-metrics-20260906"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "ports-pike",
             "evidenceIds": [],
@@ -3500,10 +4320,10 @@
         },
         "independentEventGroups": [
           {
-            "id": "openai-wiki-disclosure",
             "eventIds": [
               "openai-wiki-disclosure"
             ],
+            "id": "openai-wiki-disclosure",
             "note": "같은 회사 입장에 대한 지지·한계를 한 사건으로 집계"
           },
           {
@@ -3621,9 +4441,24 @@
             ],
             "id": "google-weathernext-3",
             "note": "같은 거래의 참여 리더·반복 보도는 한 사건으로 집계"
+          },
+          {
+            "id": "xai-grok-bot-enterprise",
+            "eventIds": [
+              "xai-grok-bot-enterprise"
+            ],
+            "note": "하나의 회사 사건으로 집계하며 여러 독립 리더의 검증된 합의로 확대하지 않는다."
           }
         ],
         "opposing": [
+          {
+            "eventId": "xai-grok-bot-enterprise",
+            "text": "무료 이용 확대이며 유료 전환·수익성·독립 통제 효과는 아직 검증되지 않았다.",
+            "evidenceIds": [
+              "xai-enterprise-launch-20260903"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-hugging-face-acquisition",
             "evidenceIds": [],
@@ -3638,6 +4473,14 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "xai-grok-bot-enterprise",
+            "text": "기업용 접근·네트워크·감사 통제와 조직 단위 이용을 출시했다.",
+            "evidenceIds": [
+              "xai-enterprise-launch-20260903"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-hugging-face-acquisition",
             "evidenceIds": [],
@@ -3725,5 +4568,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-06T17:59:30+09:00"
+  "updatedAt": "2026-09-07T07:41:34+09:00"
 }
