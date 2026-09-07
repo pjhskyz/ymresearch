@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.07",
+  "asOfDate": "2026.09.08",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -92,15 +92,12 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [
-    "xai-grok-bot-enterprise",
-    "ge-venezuela-grid-agreement"
-  ],
+  "currentObservationIds": [],
   "currentSignalIds": [
-    "openai-research-metrics"
+    "anthropic-fermat-formalization"
   ],
-  "dailyThesis": "연구 자동화의 실제 운영과 기업용 통제 기능은 진전됐지만, 연산 사용량·협약 서명·무료 배포를 생산성·매출·가동 성과와 구분해야 한다.",
-  "lastSuccessfulRun": "2026-09-07T07:41:34+09:00",
+  "dailyThesis": "AI 연구 경쟁은 모델의 주장을 넘어, 공개 코드와 기계 검증으로 다시 확인할 수 있는 산출물을 실제로 완주하는 단계로 이동하고 있다.",
+  "lastSuccessfulRun": "2026-09-08T07:39:35+09:00",
   "observations": [
     {
       "action": "확인된 행동은 기업용 제품 배포다. 유료 전환율·신규 계약 금액·통제 효과의 외부 검증은 확인되지 않았다.",
@@ -608,233 +605,251 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-03T07:34:18+09:00",
-      "end": "2026-09-07T07:41:34+09:00",
-      "overlapHours": 72
+      "end": "2026-09-08T07:39:35+09:00",
+      "overlapHours": 72,
+      "start": "2026-09-04T07:41:34+09:00"
     },
     "coverage": [
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "일론 머스크(Elon Musk)",
-        "note": "xAI 출시·조달 사례와 Tesla 공식 채널 및 최신 관련 검색을 대조했다. 기업용 출시는 지연 발견으로 선별하고 조달 절감 사례는 실현 성과 미확인으로 제외했다.",
+        "note": "xAI와 Tesla 공식 채널의 최신 항목을 대조했다. 9월 7일 이후 승격할 신규 행동은 확인되지 않았다.",
         "status": "checked",
         "urls": [
           "https://x.ai/news",
-          "https://x.ai/news/grok-bot-for-enterprise",
-          "https://x.ai/news/grok-bot-more-plans",
-          "https://x.ai/news/grok-bot-procurement",
           "https://www.tesla.com/blog"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "젠슨 황(Jensen Huang)",
-        "note": "공식 최신 발표 목록과 조사 구간 검색을 대조했다. 기존 Hugging Face 인수·MediaTek 발표 이후 별도 종결·추가 투자 증거를 찾지 못했다.",
+        "note": "NVIDIA 공식 뉴스룸을 확인했다. Hugging Face 인수 후속의 새 거래 조건·종결 증거는 없었다.",
         "status": "checked",
         "urls": [
           "https://nvidianews.nvidia.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "샘 알트만(Sam Altman)",
-        "note": "9월 6일 공식 연구 측정 공개와 8월 제한 원문을 대조했다. 6월 8일 장기 목표 글은 참고에만 사용하고 90일 기준선은 8월 18일로 삼았다. 연구책임자 발언은 알트만 직접 발언과 구분했다.",
+        "note": "공식 뉴스와 직접 인터뷰를 대조했다. 우크라이나 언론 지원은 규모가 제한적이고, 창업자 발언은 기존 봄 발언의 반복이라 제외했다.",
         "status": "checked",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/research-acceleration-view-inside-openai/",
-          "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+          "https://openai.com/index/supporting-independent-journalism-in-ukraine/",
           "https://openai.com/index/an-alien-mind/",
-          "https://openai.com/index/built-to-benefit-everyone-our-plan/"
+          "https://www.axios.com/2026/09/07/axios-interview-altman-touts-revenge-of-ideas-guy"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "다리오 아모데이(Dario Amodei)",
-        "note": "공식 발표 목록과 구간별 검색을 대조했다. 기존 Fable·기업 안전 기능 이후 별도 실행 근거를 확인하지 못했고 익명 IPO 추측은 사용하지 않았다.",
+        "note": "공식 발표·공개 증명 저장소·6월 기준선과 Nature의 9월 7일 보도 목록을 대조해 형식화 성과를 지연 발견 신호로 선별했다.",
         "status": "checked",
         "urls": [
-          "https://www.anthropic.com/news"
+          "https://www.anthropic.com/news",
+          "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
+          "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "https://github.com/anthropics/fermats-last-theorem",
+          "https://www.nature.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "데미스 허사비스(Demis Hassabis)",
-        "note": "공식 DeepMind 목록과 최신 검색을 대조했다. WeatherNext 발표 이후 독립 성과·신규 자본배분은 확인되지 않았다.",
+        "note": "Google DeepMind 공식 채널을 확인했다. WeatherNext 3 이후 별도 신규 행동은 없었다.",
         "status": "checked",
         "urls": [
           "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "사티아 나델라(Satya Nadella)",
-        "note": "본인 새 게시물과 연결된 원문을 열었다. Opal 원문은 2025년 11월 18일 발표이고 새 게시물만으로 신규 일반 출시·정량 성과가 확인되지 않아 제외했다.",
+        "note": "Microsoft 공식 블로그를 확인했다. 최근 조직·공시 변화의 새 후속 증거는 없었다.",
         "status": "checked",
         "urls": [
-          "https://blogs.microsoft.com/",
-          "https://www.linkedin.com/posts/satyanadella_it-was-a-great-week-for-innovation-across-activity-7502385664945111040-uGka",
-          "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-project-opal-a-new-way-to-get-task-based-work-done/4470999"
+          "https://blogs.microsoft.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "마크 저커버그(Mark Zuckerberg)",
-        "note": "공식 뉴스룸과 관련 보도를 대조했다. 규제 반대 보도는 8월 사건·익명 내용이고 신규 직접 결정으로 보지 않았다.",
+        "note": "Meta 공식 뉴스룸을 확인했다. 저커버그의 신규 전략 행동은 없었다.",
         "status": "checked",
         "urls": [
-          "https://about.fb.com/news/",
-          "https://www.thestreet.com/technology/mark-zuckerberg-opposes-ai-regulator"
+          "https://about.fb.com/news/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "리사 수(Lisa Su)",
-        "note": "데이터센터 공식 최신 목록과 리사 수 관련 구간 검색을 확인했다. 최근 설명·기존 HUMAIN 관련 내용과 별개인 신규 전략 행동을 확인하지 못했다.",
+        "note": "AMD 데이터센터 뉴스룸을 확인했다. 9월 2일 이후 새로운 계약·출시는 없었다.",
         "status": "checked",
         "urls": [
           "https://newsroom.amd.com/category/data-center/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "웨이저자(C.C. Wei)",
-        "note": "공식 IR·뉴스 발표 목록과 웨이저자 최신 검색을 대조했다. 7월 실적·CAPEX 재인용은 신규화하지 않았다.",
+        "note": "TSMC 공식 보도자료 목록을 확인했다. 조사 구간의 신규 발표는 없었다.",
         "status": "checked",
         "urls": [
           "https://pr.tsmc.com/english"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "손정의(Masayoshi Son)",
-        "note": "9월 4일 채권 조건 확정 자료를 확인했다. AI 투자용 자금 집행이나 새로운 용도 근거 없이 채권 조건 확정만으로 승격하지 않았다.",
+        "note": "SoftBank Group 공식 보도자료를 확인했다. 조사 구간의 새 자본배분 행동은 없었다.",
         "status": "checked",
         "urls": [
-          "https://group.softbank/en/news/press",
-          "https://group.softbank/en/news/press/20260904"
+          "https://group.softbank/en/news/press"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "쩡위췬(Robin Zeng)",
-        "note": "공식 뉴스와 9월 3일 쩡위췬 품질 기고를 읽었다. 창업 초기부터의 품질·안전 기조 설명이며 새 투자·시행 일정은 없어 제외했다.",
+        "note": "CATL 공식 뉴스룸을 확인했다. 쩡위췬의 신규 투자·제품 결정은 없었다.",
         "status": "checked",
         "urls": [
-          "https://www.catl.com/en/news/",
-          "https://www.linkedin.com/pulse/dr-robin-zeng-catl-standard-means-three-kxsse"
+          "https://www.catl.com/en/news/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "스콧 스트라직(Scott Strazik)",
-        "note": "공식 발표와 정부 서명 확인, 6월 양해각서 원보도를 대조했다. 후속 협약은 누락 보충하되 발전 목표 반복·금액 미공개를 점수에 반영했다.",
+        "note": "GE Vernova 공식 채널을 확인했다. 베네수엘라 협약 이후 발전 가동 증거는 없었다.",
         "status": "checked",
         "urls": [
-          "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release",
-          "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united",
-          "https://www.reuters.com/business/energy/venezuela-general-electric-sign-cooperation-agreement-power-supply-2026-06-15/",
-          "https://www.turbomachinerymag.com/view/ge-vernova-venezuela-power-agreements-pdvsa-corpoelec"
+          "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "알렉스 카프(Alex Karp)",
-        "note": "최신 검색의 우크라이나 투자 후속 보도를 9월 1일 직접 인용 원문과 대조했다. 새 투자액·종결 증거가 없으며 과거 미검토 카드 점수는 임의 수정하지 않았다.",
+        "note": "Palantir IR 보도자료를 확인했다. 우크라이나 투자 건의 금액·종결 후속은 없었다.",
         "status": "checked",
         "urls": [
-          "https://www.reuters.com/business/aerospace-defense/ukraines-fedorov-says-palantir-ceo-will-be-first-major-investor-new-defence-2026-09-01/"
+          "https://investors.palantir.com/news-events/press-releases"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "누바 아페얀(Noubar Afeyan)",
-        "note": "공식 뉴스 목록과 아페얀의 구간별 검색을 대조했다. 기존 경영진 인사·투자 발표 이후 선별할 신규 근거를 확인하지 못했다.",
+        "note": "Flagship Pioneering 공식 뉴스 목록을 확인했다. 신규 투자·회사 설립 행동은 없었다.",
         "status": "checked",
         "urls": [
           "https://www.flagshippioneering.com/news"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "브라이언 체스키(Brian Chesky)",
-        "note": "공식 뉴스룸과 체스키 관련 검색을 확인했다. 기존 인사·기부 소식 및 외부 규제 기사와 구분되는 새 전략 행동은 확인되지 않았다.",
+        "note": "Airbnb 공식 뉴스룸을 확인했다. 최근 조직개편 이후 전략 변화 증거는 없었다.",
         "status": "checked",
         "urls": [
           "https://news.airbnb.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
-        "note": "최신 검색 결과를 본인 기고와 대조했다. 국채 바이백 견해 반복과 과거 거래 회고를 신규 판단·포지션으로 보지 않았다.",
+        "note": "직전 채권시장 기고 원문과 최신 검색을 대조했다. 새 포지션·판단 변화는 없었다.",
         "status": "checked",
         "urls": [
           "https://www.wsj.com/opinion/let-the-bond-market-speak-81529d74"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "피터 틸(Peter Thiel)",
-        "note": "구간 검색과 직접 취재 보도를 대조했다. 과거 주거 이전과 현지 반응은 신규 투자 행동으로 확인되지 않았다.",
+        "note": "최근 이주 보도와 최신 검색을 확인했다. 직접 발언·투자 조건이 없는 추정 중심이라 새 신호로 보지 않았다.",
         "status": "checked",
         "urls": [
           "https://www.theguardian.com/technology/2026/sep/03/peter-thiel-argentina-javier-milei"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "하워드 막스(Howard Marks)",
-        "note": "공식 메모 목록과 본인의 연휴 독서 추천을 확인했다. 구체적 투자 전망·포지션 변화가 아닌 책 추천은 제외했다.",
+        "note": "Oaktree 메모 목록을 확인했다. 4월 9일 이후 새 메모는 없었다.",
         "status": "checked",
         "urls": [
-          "https://www.oaktreecapital.com/insights/memos",
-          "https://www.linkedin.com/posts/howardmarksbook_if-youre-looking-for-some-good-books-to-activity-7501625369477709827-xctD"
+          "https://www.oaktreecapital.com/insights/memos"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "레이 달리오(Ray Dalio)",
-        "note": "본인 원문 아카이브와 구간 검색을 대조했다. 기존 8월 31일 호르무즈 판단 이후 새 검증 가능한 전망을 확인하지 못했다.",
+        "note": "공식 아카이브를 확인했다. 최근 호르무즈 관점 이후 새로운 글·행동은 없었다.",
         "status": "checked",
         "urls": [
           "https://raydalio.substack.com/archive"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "마크 앤드리슨(Marc Andreessen)",
-        "note": "공식 발표·팟캐스트 목록과 공식 발언 소개를 확인했다. 호기심·일반적 학습 조언은 새 자본배분이나 검증 가능한 관점 변화가 아니다.",
+        "note": "a16z 공식 사이트를 확인했다. 첫 하드웨어 펀드 이후 앤드리슨의 신규 판단·자본배분은 없었다.",
         "status": "checked",
         "urls": [
-          "https://a16z.com/",
-          "https://a16z.com/podcasts/a16z-show/",
-          "https://www.linkedin.com/posts/a16z_marc-andreessen-on-being-intensely-curious-activity-7501644147741700096---Gx"
+          "https://a16z.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "타일러 코웬(Tyler Cowen)",
-        "note": "9월 6일 보험료 관련 글과 최신 게시물을 읽었다. 타인의 수치 소개 및 기한·폭이 없는 전망은 승격하지 않았다.",
+        "note": "신규 글과 Emergent Ventures 59기 지원 대상을 확인했다. 지원 규모·기준선 변화가 없어 승격하지 않았다.",
         "status": "checked",
         "urls": [
           "https://marginalrevolution.com/",
-          "https://marginalrevolution.com/marginalrevolution/2026/09/sentences-to-ponder-140.html"
+          "https://marginalrevolution.com/marginalrevolution/2026/09/emergent-ventures-winners-59th-cohort.html",
+          "https://marginalrevolution.com/marginalrevolution/2026/09/capital-gains-vs-wealth-taxes.html"
         ]
       },
       {
-        "checkedAt": "2026-09-07T07:41:34+09:00",
+        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
-        "note": "개소식 공식 소개와 8월 재개 직접 보도를 대조했다. 9월 행사 자체를 신규 운영 개시로 보지 않았고 추가 규모·투자 조건은 미확인이다.",
+        "note": "공식 아카이브와 최신 검색을 확인했다. 신규 원문·실행은 없었다.",
         "status": "checked",
         "urls": [
-          "https://balajis.com/archive",
-          "https://www.linkedin.com/posts/solana-superteam-kz_network-school-has-officially-launched-in-activity-7501372882090987524-sKAh",
-          "https://www.businessinsider.com/balaji-srinivasan-network-school-reopen-kazakhstan-2026-8"
+          "https://balajis.com/archive"
         ]
       }
     ],
     "evidence": [
+      {
+        "claim": "Anthropic은 Claude가 11일 동안 거의 자율적으로 작업해 페르마의 마지막 정리의 전체 Lean 형식화를 완성했다고 발표했다. 약 1,300만 줄, 30,300개 정리, 약 60억 출력 토큰을 공개했으며 새로운 수학 증명이 아니라 기존 증명의 형식화라고 구분했다.",
+        "grade": "A",
+        "id": "anthropic-fermat-official-20260904",
+        "label": "Anthropic 페르마 정리 형식화 공식 발표",
+        "provenance": "official",
+        "publishedAt": "2026-09-04",
+        "url": "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
+        "verifiedAt": "2026-09-08T07:39:35+09:00"
+      },
+      {
+        "claim": "Anthropic 공개 저장소는 Lean 4.33.1과 Mathlib v4.33.0에 고정된 전체 증명, 60,475개 모듈 빌드와 comparator·별도 Rust 커널 검증 설명, 재실행 명령을 제공한다.",
+        "grade": "A",
+        "id": "anthropic-fermat-repo-20260904",
+        "label": "Anthropic 페르마 정리 Lean 저장소",
+        "provenance": "official",
+        "publishedAt": "2026-09-04T23:21:04+09:00",
+        "url": "https://github.com/anthropics/fermats-last-theorem",
+        "verifiedAt": "2026-09-08T07:39:35+09:00"
+      },
+      {
+        "claim": "Anthropic은 Claude Science를 과학자가 데이터베이스·코드·계산 자원을 연결하고 감사 가능한 산출물을 만드는 연구 작업대로 출시했다.",
+        "grade": "A",
+        "id": "anthropic-science-workbench-20260630",
+        "label": "Anthropic Claude Science 출시",
+        "provenance": "official",
+        "publishedAt": "2026-06-30",
+        "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+        "verifiedAt": "2026-09-08T07:39:35+09:00"
+      },
       {
         "claim": "회사는 자동 연구 인턴 목표 달성을 자체 측정으로 보고했다. 8월 중순 인간 작업일당 에이전트 가동량 3.1일, 장시간 성공 작업의 인간 개입, 제한 이후 모델 간 GPU 재배치를 공개했다. 이는 생산성 배수나 전체 시장 수요 측정이 아니다.",
         "grade": "A",
@@ -937,6 +952,123 @@
       }
     ],
     "history": [
+      {
+        "eventId": "anthropic-fermat-formalization",
+        "evidenceIds": [
+          "anthropic-fermat-official-20260904",
+          "anthropic-fermat-repo-20260904",
+          "anthropic-science-workbench-20260630"
+        ],
+        "headline": "Anthropic이 Claude로 페르마의 마지막 정리 기존 증명을 11일 만에 Lean으로 형식화해 공개했다",
+        "hypothesisId": "ai-science-verifiable-output",
+        "id": "revision-20260908-anthropic-fermat-formalization-initial",
+        "previousRevisionId": null,
+        "reason": "28+17+17+15+9=86. 알려진 증명의 형식화와 새로운 수학적 증명을 구분한다. 9월 4일 공개를 72시간 겹침 수집에서 처음 원문 검증한 지연 발견이다.",
+        "recordedAt": "2026-09-08T07:39:35+09:00",
+        "reportDate": "2026.09.08",
+        "score": 86,
+        "signalId": "anthropic-fermat-formalization",
+        "snapshot": {
+          "action": "Claude 다중 에이전트가 만든 전체 Lean 증명·의존성·검증 스크립트를 공개했다. 독립 기관의 처음부터 끝까지 재실행 결과는 아직 확인되지 않았다.",
+          "assessment": {
+            "assessedAt": "2026-09-08T07:39:35+09:00",
+            "attribution": "company_action",
+            "baseline": {
+              "date": "2026-06-30",
+              "evidenceIds": [
+                "anthropic-science-workbench-20260630"
+              ],
+              "statement": "Claude Science를 출시하며 과학자가 여러 도구를 연결하고 감사 가능한 결과물을 만들 수 있는 연구 작업대로 제시했다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "실제 형식화 결과와 13백만 줄 규모의 Lean 저장소·검증 절차를 공개했다.",
+                "score": 28
+              },
+              "change": {
+                "reason": "과학 연구 작업대 제공에서 대규모 수학 증명을 거의 자율적으로 완주한 성과로 범위가 확장됐다.",
+                "score": 17
+              },
+              "impact": {
+                "reason": "AI가 만든 수학 결과를 기계적으로 검증하는 연구 방식에 영향을 주지만 알려진 증명 한 건의 형식화다.",
+                "score": 17
+              },
+              "source": {
+                "reason": "회사 원문과 공개 저장소를 직접 확인했다. 독립 재실행은 아직 확인되지 않아 만점은 부여하지 않았다.",
+                "score": 9
+              },
+              "verification": {
+                "reason": "고정된 Lean·Mathlib 버전, 두 검증 경로와 재실행 명령이 공개돼 판별 조건이 매우 구체적이다.",
+                "score": 15
+              }
+            },
+            "evidenceIds": [
+              "anthropic-fermat-official-20260904",
+              "anthropic-fermat-repo-20260904"
+            ],
+            "impactDirection": "mixed",
+            "note": "28+17+17+15+9=86. 알려진 증명의 형식화와 새로운 수학적 증명을 구분한다. 9월 4일 공개를 72시간 겹침 수집에서 처음 원문 검증한 지연 발견이다.",
+            "rubricVersion": 1,
+            "stage": "outcome",
+            "status": "reviewed"
+          },
+          "before": "6월 30일 Anthropic은 Claude Science를 감사 가능한 연구 산출물을 만드는 작업대로 출시했지만, 대규모 수학 형식화의 완주 성과는 제시하지 않았다.",
+          "counter": "페르마의 마지막 정리를 새로 증명한 것이 아니라 와일스 계열의 알려진 증명을 형식 언어로 옮긴 결과다. 전체 재실행에는 매우 큰 연산·메모리가 필요하고 독립 기관의 재현은 아직 확인되지 않았다.",
+          "date": "2026.08.18",
+          "eventId": "anthropic-fermat-formalization",
+          "facts": [
+            "Anthropic은 Claude가 11일 동안 거의 자율적으로 작업해 페르마의 마지막 정리의 전체 Lean 형식화를 완성했다고 9월 4일 발표했다.",
+            "회사가 공개한 결과는 약 1,300만 줄의 Lean 코드와 30,300개 정리로 구성되며, 이 가운데 약 29,500개가 최종 증명에 사용됐다.",
+            "공개 저장소는 Lean 커널과 별도 comparator, Rust로 작성된 두 번째 커널의 검증 절차와 고정 버전을 제공한다.",
+            "프로젝트는 일반 연구 모델의 출력 토큰 약 60억 개를 사용했으며, 인간은 간헐적인 상위 수준 지시를 제공했다."
+          ],
+          "headline": "Anthropic이 Claude로 페르마의 마지막 정리 기존 증명을 11일 만에 Lean으로 형식화해 공개했다",
+          "hypothesisId": "ai-science-verifiable-output",
+          "id": "anthropic-fermat-formalization",
+          "impact": "해석: AI 연구 에이전트의 경쟁 기준이 답변 생성에서 기계가 다시 확인할 수 있는 연구 산출물로 이동할 수 있다. 수학·과학 소프트웨어와 검증 연산 수요에는 긍정적이지만 일반 연구 생산성으로의 확장은 미확인이다.",
+          "impactPath": [
+            "다중 에이전트가 대규모 형식 증명 생성",
+            "증명 보조기·별도 커널로 결과 검증",
+            "수학·과학 연구의 검토 비용과 도구 수요 변화"
+          ],
+          "industryLinks": [
+            {
+              "evidenceIds": [
+                "anthropic-fermat-official-20260904",
+                "anthropic-fermat-repo-20260904"
+              ],
+              "relationship": "indirect",
+              "sector": "AI 과학 연구·형식 검증",
+              "text": "공개된 형식 증명은 연구 에이전트와 증명 보조기 수요를 보여준다. 특정 상장사 수혜나 상업 매출은 확인되지 않았다."
+            }
+          ],
+          "initials": "DA",
+          "kind": "실행",
+          "leader": "다리오 아모데이(Dario Amodei)",
+          "next": "독립 연구팀의 전체 빌드·커널 재검증 결과, 다른 대형 정리에서의 재현성과 작업당 연산비용을 확인한다. 공개된 외부 검증 기한은 없다.",
+          "now": "8월 18일 완주한 형식화의 전체 코드와 재현 절차를 9월 4일 공개해 실제 성과를 검증 가능한 형태로 전환했다.",
+          "reportDate": "2026.09.08",
+          "role": "Anthropic",
+          "score": 86,
+          "source": "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
+          "sourceGrade": "A",
+          "sourceLabel": "Anthropic 공식 연구 공개 · 2026.09.04",
+          "takeaway": "Claude의 과학 활용이 작업대 제공에서 대규모 형식 증명의 완주·공개로 진전됐다. 다만 새로운 수학적 증명 발견이 아니라 기존 증명의 기계 검증 가능 형식화다.",
+          "theme": "AI 배포",
+          "timing": {
+            "firstSeenAt": "2026-09-08T07:39:35+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "9월 4일 공개는 기본 조사 구간 전이지만, 72시간 겹침 수집에서 기존 카드에 없는 공식 원문과 증명 저장소를 처음 검증했다. 사건일을 오늘로 다시 날짜화하지 않았다.",
+            "occurredAt": "2026-08-18T11:00:57+09:00",
+            "publishedAt": "2026-09-04",
+            "verifiedAt": "2026-09-08T07:39:35+09:00"
+          }
+        },
+        "source": "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
+        "stage": "outcome",
+        "status": "reviewed",
+        "tier": "signal"
+      },
       {
         "id": "revision-20260907-openai-research-metrics-initial",
         "signalId": "openai-research-metrics",
@@ -2937,6 +3069,15 @@
     ],
     "hypotheses": [
       {
+        "id": "ai-science-verifiable-output",
+        "leaderNames": [
+          "다리오 아모데이(Dario Amodei)",
+          "샘 알트만(Sam Altman)"
+        ],
+        "question": "AI 연구 에이전트가 다른 대형 수학·과학 과제에서도 공개 코드와 독립 재현이 가능한 성과를 반복하고, 검토 비용과 연구 생산성을 실제로 낮추는가?",
+        "title": "AI 연구의 기계 검증 가능한 산출물 전환"
+      },
+      {
         "id": "openai-safety-governance",
         "leaderNames": [
           "샘 알트만(Sam Altman)"
@@ -3117,27 +3258,27 @@
       },
       {
         "id": "openai-research-compute",
-        "title": "연구 자동화와 안전 제한 이후의 연산 수요",
-        "question": "인간 개입·안전 비용을 포함해 연구 자동화 성과가 재현되고, 제한된 모델의 연산이 다른 작업으로 이동하는가?",
         "leaderNames": [
           "샘 알트만(Sam Altman)"
-        ]
+        ],
+        "question": "인간 개입·안전 비용을 포함해 연구 자동화 성과가 재현되고, 제한된 모델의 연산이 다른 작업으로 이동하는가?",
+        "title": "연구 자동화와 안전 제한 이후의 연산 수요"
       },
       {
         "id": "enterprise-agent-governance",
-        "title": "통제 가능한 기업용 에이전트의 유료 채택",
-        "question": "접근·네트워크·감사 통제의 배포가 지속적인 유료 이용과 검증 가능한 운영 성과로 이어지는가?",
         "leaderNames": [
           "일론 머스크(Elon Musk)"
-        ]
+        ],
+        "question": "접근·네트워크·감사 통제의 배포가 지속적인 유료 이용과 검증 가능한 운영 성과로 이어지는가?",
+        "title": "통제 가능한 기업용 에이전트의 유료 채택"
       },
       {
         "id": "ge-venezuela-grid-execution",
-        "title": "베네수엘라 전력 협약의 실제 집행",
-        "question": "서명한 협약이 자금·발주·현장 공정·가동량으로 전환되는가?",
         "leaderNames": [
           "스콧 스트라직(Scott Strazik)"
-        ]
+        ],
+        "question": "서명한 협약이 자금·발주·현장 공정·가동량으로 전환되는가?",
+        "title": "베네수엘라 전력 협약의 실제 집행"
       }
     ],
     "migration": {
@@ -3152,17 +3293,113 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-09-06T07:34:18+09:00",
-    "end": "2026-09-07T07:41:34+09:00"
+    "end": "2026-09-08T07:39:35+09:00",
+    "start": "2026-09-07T07:41:34+09:00"
   },
   "runSummary": {
-    "excludedCount": 6,
+    "excludedCount": 4,
     "leadersChecked": 22,
-    "notes": "리더별 원문 확인 내역을 coverage에 기록했고 sourcesChecked는 그 목록의 중복 제거 URL 수다. 주요 제외 6건: 나델라 Opal 소개(연결 원문 2025.11.18, 새 일반 출시·성과 미확인), CATL 품질 기고(기존 기조 반복), SoftBank 채권 조건(새 전략 용도·투자 집행 미확인), xAI 조달 사례(절감 후보와 실현 절감액 구분), 타일러 코웬 보험 논평(기한·규모 없는 전망), Network School 개소식(8월 운영 재개와 별개인 행사). 일부 접속 실패는 접근 가능한 공식·직접 원문으로 보완했으며 실패 URL은 집계하지 않았다. 결정적 1건·관찰 2건은 별도 사건과 구성점수·기준선·원문을 기록했다. 지연 발견 2건이며 GE 협약은 72시간 수집 경계 밖 원사건을 누락 보충했다. 기존 카드 재평가·승격·반증·지연 변경은 없고 행동 전환 수는 0건이다. 신규 실행을 기존 사건의 발언→실행 전환으로 세지 않았다. 활성 확인 항목 6개는 재검토일 미도래·결과 증거 미확정으로 보존했다. 검증된 주간 비교 기준점이 없어 테마 수치와 방향은 보존했다.",
-    "sourcesChecked": 44
+    "notes": "22명 전원의 공식 채널과 직접 보도를 확인했다. 72시간 겹침 수집에서 Anthropic의 9월 4일 공개를 지연 발견해 사건일을 유지한 채 결정적 신호로 기록했다. 기존 카드의 재평가·승격·반증·지연 상태 변경은 없다.",
+    "sourcesChecked": 32
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "action": "Claude 다중 에이전트가 만든 전체 Lean 증명·의존성·검증 스크립트를 공개했다. 독립 기관의 처음부터 끝까지 재실행 결과는 아직 확인되지 않았다.",
+      "assessment": {
+        "assessedAt": "2026-09-08T07:39:35+09:00",
+        "attribution": "company_action",
+        "baseline": {
+          "date": "2026-06-30",
+          "evidenceIds": [
+            "anthropic-science-workbench-20260630"
+          ],
+          "statement": "Claude Science를 출시하며 과학자가 여러 도구를 연결하고 감사 가능한 결과물을 만들 수 있는 연구 작업대로 제시했다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "실제 형식화 결과와 13백만 줄 규모의 Lean 저장소·검증 절차를 공개했다.",
+            "score": 28
+          },
+          "change": {
+            "reason": "과학 연구 작업대 제공에서 대규모 수학 증명을 거의 자율적으로 완주한 성과로 범위가 확장됐다.",
+            "score": 17
+          },
+          "impact": {
+            "reason": "AI가 만든 수학 결과를 기계적으로 검증하는 연구 방식에 영향을 주지만 알려진 증명 한 건의 형식화다.",
+            "score": 17
+          },
+          "source": {
+            "reason": "회사 원문과 공개 저장소를 직접 확인했다. 독립 재실행은 아직 확인되지 않아 만점은 부여하지 않았다.",
+            "score": 9
+          },
+          "verification": {
+            "reason": "고정된 Lean·Mathlib 버전, 두 검증 경로와 재실행 명령이 공개돼 판별 조건이 매우 구체적이다.",
+            "score": 15
+          }
+        },
+        "evidenceIds": [
+          "anthropic-fermat-official-20260904",
+          "anthropic-fermat-repo-20260904"
+        ],
+        "impactDirection": "mixed",
+        "note": "28+17+17+15+9=86. 알려진 증명의 형식화와 새로운 수학적 증명을 구분한다. 9월 4일 공개를 72시간 겹침 수집에서 처음 원문 검증한 지연 발견이다.",
+        "rubricVersion": 1,
+        "stage": "outcome",
+        "status": "reviewed"
+      },
+      "before": "6월 30일 Anthropic은 Claude Science를 감사 가능한 연구 산출물을 만드는 작업대로 출시했지만, 대규모 수학 형식화의 완주 성과는 제시하지 않았다.",
+      "counter": "페르마의 마지막 정리를 새로 증명한 것이 아니라 와일스 계열의 알려진 증명을 형식 언어로 옮긴 결과다. 전체 재실행에는 매우 큰 연산·메모리가 필요하고 독립 기관의 재현은 아직 확인되지 않았다.",
+      "date": "2026.08.18",
+      "eventId": "anthropic-fermat-formalization",
+      "facts": [
+        "Anthropic은 Claude가 11일 동안 거의 자율적으로 작업해 페르마의 마지막 정리의 전체 Lean 형식화를 완성했다고 9월 4일 발표했다.",
+        "회사가 공개한 결과는 약 1,300만 줄의 Lean 코드와 30,300개 정리로 구성되며, 이 가운데 약 29,500개가 최종 증명에 사용됐다.",
+        "공개 저장소는 Lean 커널과 별도 comparator, Rust로 작성된 두 번째 커널의 검증 절차와 고정 버전을 제공한다.",
+        "프로젝트는 일반 연구 모델의 출력 토큰 약 60억 개를 사용했으며, 인간은 간헐적인 상위 수준 지시를 제공했다."
+      ],
+      "headline": "Anthropic이 Claude로 페르마의 마지막 정리 기존 증명을 11일 만에 Lean으로 형식화해 공개했다",
+      "hypothesisId": "ai-science-verifiable-output",
+      "id": "anthropic-fermat-formalization",
+      "impact": "해석: AI 연구 에이전트의 경쟁 기준이 답변 생성에서 기계가 다시 확인할 수 있는 연구 산출물로 이동할 수 있다. 수학·과학 소프트웨어와 검증 연산 수요에는 긍정적이지만 일반 연구 생산성으로의 확장은 미확인이다.",
+      "impactPath": [
+        "다중 에이전트가 대규모 형식 증명 생성",
+        "증명 보조기·별도 커널로 결과 검증",
+        "수학·과학 연구의 검토 비용과 도구 수요 변화"
+      ],
+      "industryLinks": [
+        {
+          "evidenceIds": [
+            "anthropic-fermat-official-20260904",
+            "anthropic-fermat-repo-20260904"
+          ],
+          "relationship": "indirect",
+          "sector": "AI 과학 연구·형식 검증",
+          "text": "공개된 형식 증명은 연구 에이전트와 증명 보조기 수요를 보여준다. 특정 상장사 수혜나 상업 매출은 확인되지 않았다."
+        }
+      ],
+      "initials": "DA",
+      "kind": "실행",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "next": "독립 연구팀의 전체 빌드·커널 재검증 결과, 다른 대형 정리에서의 재현성과 작업당 연산비용을 확인한다. 공개된 외부 검증 기한은 없다.",
+      "now": "8월 18일 완주한 형식화의 전체 코드와 재현 절차를 9월 4일 공개해 실제 성과를 검증 가능한 형태로 전환했다.",
+      "reportDate": "2026.09.08",
+      "role": "Anthropic",
+      "score": 86,
+      "source": "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
+      "sourceGrade": "A",
+      "sourceLabel": "Anthropic 공식 연구 공개 · 2026.09.04",
+      "takeaway": "Claude의 과학 활용이 작업대 제공에서 대규모 형식 증명의 완주·공개로 진전됐다. 다만 새로운 수학적 증명 발견이 아니라 기존 증명의 기계 검증 가능 형식화다.",
+      "theme": "AI 배포",
+      "timing": {
+        "firstSeenAt": "2026-09-08T07:39:35+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "9월 4일 공개는 기본 조사 구간 전이지만, 72시간 겹침 수집에서 기존 카드에 없는 공식 원문과 증명 저장소를 처음 검증했다. 사건일을 오늘로 다시 날짜화하지 않았다.",
+        "occurredAt": "2026-08-18T11:00:57+09:00",
+        "publishedAt": "2026-09-04",
+        "verifiedAt": "2026-09-08T07:39:35+09:00"
+      }
+    },
     {
       "action": "내부 에이전트 운영 결과와 측정 방법을 공개했다. 새로운 학습 중단 사건은 아니다.",
       "assessment": {
@@ -4208,7 +4445,7 @@
     }
   ],
   "status": "signals",
-  "statusMessage": "22명 조사 결과 결정적 신호 1건과 관찰 신호 2건을 확인했으며, 관찰 2건은 원문 대조로 보충한 지연 발견입니다.",
+  "statusMessage": "오늘 새로 확인한 결정적 신호 1건, 관찰 신호 0건입니다.",
   "themes": [
     {
       "conviction": 99,
@@ -4246,21 +4483,21 @@
             "note": "같은 거래의 참여 리더·반복 보도는 한 사건으로 집계"
           },
           {
-            "id": "openai-research-metrics",
             "eventIds": [
               "openai-research-metrics"
             ],
+            "id": "openai-research-metrics",
             "note": "하나의 회사 사건으로 집계하며 여러 독립 리더의 검증된 합의로 확대하지 않는다."
           }
         ],
         "opposing": [
           {
             "eventId": "openai-research-metrics",
-            "text": "연구 가동량은 생산성 배수가 아니며 회사 자체 측정이다. 인간 개입과 안전 감시가 병목으로 남는다.",
             "evidenceIds": [
               "openai-research-metrics-20260906"
             ],
-            "status": "verified"
+            "status": "verified",
+            "text": "연구 가동량은 생산성 배수가 아니며 회사 자체 측정이다. 인간 개입과 안전 감시가 병목으로 남는다."
           },
           {
             "eventId": "ports-pike",
@@ -4278,11 +4515,11 @@
         "supporting": [
           {
             "eventId": "openai-research-metrics",
-            "text": "회사 내부에서 제한된 모델의 연산 감소분이 다른 모델 실험으로 상당 부분 재배치됐다. 신규 설비 발주나 산업 전체 수요를 뜻하지 않는다.",
             "evidenceIds": [
               "openai-research-metrics-20260906"
             ],
-            "status": "verified"
+            "status": "verified",
+            "text": "회사 내부에서 제한된 모델의 연산 감소분이 다른 모델 실험으로 상당 부분 재배치됐다. 신규 설비 발주나 산업 전체 수요를 뜻하지 않는다."
           },
           {
             "eventId": "ports-pike",
@@ -4405,7 +4642,7 @@
       "direction": "0",
       "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 데미스 허사비스(Demis Hassabis) · 마크 저커버그(Mark Zuckerberg) · 다리오 아모데이(Dario Amodei) · 사티아 나델라(Satya Nadella)",
       "name": "AI 배포",
-      "note": "NVIDIA가 오픈모델 개발자 관문을 인수하고 OpenAI·Google이 고위험 모델과 기상 AI를 통제형 제품·클라우드·소비자 서비스에 동시 배포",
+      "note": "OpenAI·Google·Meta·xAI의 제품 배포에 더해 Anthropic이 기계 검증 가능한 대규모 연구 산출물까지 공개하며 에이전트 배포 범위가 확장",
       "research": {
         "comparison": {
           "from": null,
@@ -4414,6 +4651,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "eventIds": [
+              "anthropic-fermat-formalization"
+            ],
+            "id": "anthropic-fermat-formalization",
+            "note": "하나의 회사 연구 사건으로 집계하며 기존 Anthropic 제품 출시와 중복 집계하지 않는다."
+          },
           {
             "eventIds": [
               "nvidia-hugging-face-acquisition"
@@ -4443,21 +4687,30 @@
             "note": "같은 거래의 참여 리더·반복 보도는 한 사건으로 집계"
           },
           {
-            "id": "xai-grok-bot-enterprise",
             "eventIds": [
               "xai-grok-bot-enterprise"
             ],
+            "id": "xai-grok-bot-enterprise",
             "note": "하나의 회사 사건으로 집계하며 여러 독립 리더의 검증된 합의로 확대하지 않는다."
           }
         ],
         "opposing": [
           {
+            "eventId": "anthropic-fermat-formalization",
+            "evidenceIds": [
+              "anthropic-fermat-official-20260904",
+              "anthropic-fermat-repo-20260904"
+            ],
+            "status": "verified",
+            "text": "알려진 증명의 형식화 한 건이며 독립 재현과 상업적 성과는 미확인이다. 전체 검증에는 매우 큰 연산 자원이 필요하다."
+          },
+          {
             "eventId": "xai-grok-bot-enterprise",
-            "text": "무료 이용 확대이며 유료 전환·수익성·독립 통제 효과는 아직 검증되지 않았다.",
             "evidenceIds": [
               "xai-enterprise-launch-20260903"
             ],
-            "status": "verified"
+            "status": "verified",
+            "text": "무료 이용 확대이며 유료 전환·수익성·독립 통제 효과는 아직 검증되지 않았다."
           },
           {
             "eventId": "nvidia-hugging-face-acquisition",
@@ -4474,12 +4727,21 @@
         ],
         "supporting": [
           {
+            "eventId": "anthropic-fermat-formalization",
+            "evidenceIds": [
+              "anthropic-fermat-official-20260904",
+              "anthropic-fermat-repo-20260904"
+            ],
+            "status": "verified",
+            "text": "Claude 다중 에이전트가 11일간 수행한 대규모 Lean 형식 증명과 검증 가능한 공개 저장소를 제공했다."
+          },
+          {
             "eventId": "xai-grok-bot-enterprise",
-            "text": "기업용 접근·네트워크·감사 통제와 조직 단위 이용을 출시했다.",
             "evidenceIds": [
               "xai-enterprise-launch-20260903"
             ],
-            "status": "verified"
+            "status": "verified",
+            "text": "기업용 접근·네트워크·감사 통제와 조직 단위 이용을 출시했다."
           },
           {
             "eventId": "nvidia-hugging-face-acquisition",
@@ -4568,5 +4830,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-07T07:41:34+09:00"
+  "updatedAt": "2026-09-08T07:39:35+09:00"
 }
