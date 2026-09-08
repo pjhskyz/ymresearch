@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.08",
+  "asOfDate": "2026.09.09",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -92,13 +92,208 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [],
-  "currentSignalIds": [
-    "anthropic-fermat-formalization"
+  "currentObservationIds": [
+    "tsmc-highna-euv-roadmap",
+    "openai-quantum-lab-agent"
   ],
-  "dailyThesis": "AI 연구 경쟁은 모델의 주장을 넘어, 공개 코드와 기계 검증으로 다시 확인할 수 있는 산출물을 실제로 완주하는 단계로 이동하고 있다.",
-  "lastSuccessfulRun": "2026-09-08T07:39:35+09:00",
+  "currentSignalIds": [
+    "openai-navier-stokes-solution",
+    "meta-muse-personal-agent"
+  ],
+  "dailyThesis": "AI 에이전트의 경쟁이 대화형 답변에서 검증 가능한 수학 산출물·실험실 운영·소비자 거래 실행으로 넓어지는 가운데, 반도체 생산기술은 장기 확약과 실제 자본 집행을 구분해야 한다.",
+  "lastSuccessfulRun": "2026-09-09T08:04:29+09:00",
   "observations": [
+    {
+      "id": "tsmc-highna-euv-roadmap",
+      "eventId": "tsmc-highna-euv-roadmap",
+      "hypothesisId": "high-na-euv-large-mask-transition",
+      "leader": "웨이저자(C.C. Wei)",
+      "role": "TSMC Chairman & CEO",
+      "initials": "CW",
+      "score": 74,
+      "kind": "강화",
+      "date": "2026.09.07",
+      "reportDate": "2026.09.09",
+      "theme": "AI 인프라",
+      "headline": "TSMC가 ASML과 12인치 High-NA 마스크 이니셔티브를 만들고 2030~2033년 생산 로드맵을 제시했다",
+      "takeaway": "6월의 ‘경제성이 맞을 때 생산 도입’ 원칙을 철회한 것은 아니지만, 연구장비 보유에서 양산·대형 마스크 전환 일정이 있는 공동 확약으로 진전됐다. 장비 발주·자본지출·참여사 공개 전이므로 관찰 단계다.",
+      "before": "6월 4일 웨이저자는 High-NA 장비를 연구개발용으로 샀지만 높은 비용 때문에 당시 생산에는 필요하지 않으며 경제성이 맞을 때 채택하겠다고 말했다.",
+      "now": "9월 7일 ASML과 12인치 마스크 이니셔티브를 만들고 2030년 High-NA 양산, 2031년 시험선, 2033년 전체 시스템 준비 목표를 제시했다.",
+      "facts": [
+        "TSMC와 ASML은 기존 6인치 마스크보다 면적이 네 배인 12인치 High-NA 마스크 생태계 이니셔티브를 9월 7일 구성했다.",
+        "TSMC는 2030년 High-NA를 이용한 양산, 2031년 12인치 마스크 시험선, 2033년 첨단 공정 생산을 위한 전체 시스템 준비를 목표로 제시했다.",
+        "ASML은 전환이 성공하면 생산성이 약 40% 높아질 수 있다고 Reuters에 밝혔지만 이는 예상치이며 실측 성과가 아니다.",
+        "다른 주요 칩 제조사와 공급망 기업의 관심은 언급됐으나 참여 회사명과 발주·투자액은 공개되지 않았다."
+      ],
+      "action": "확인된 행동은 TSMC·ASML의 공동 이니셔티브 구성과 장기 일정 확약이다. 12인치 시험선 구축, High-NA 양산 장비 발주와 실제 생산성 개선은 아직 실행되지 않았다.",
+      "impact": "해석: 대형 마스크가 현실화하면 High-NA 노광의 처리량·비용 구조와 첨단 파운드리 공급망이 바뀔 수 있다. 일정이 길고 투자 규모가 미공개라 현재 수혜 기업이나 수익을 단정할 수 없다.",
+      "impactPath": [
+        "TSMC·ASML이 12인치 마스크 규격과 생태계 공동 개발",
+        "High-NA 노광의 처리량·원가 개선 가능성 시험",
+        "첨단 파운드리 장비·마스크 공급망과 자본지출 구조 변화"
+      ],
+      "counter": "2030~2033년의 장기 목표이며 자본지출·장비 발주·참여사·생산 수율이 공개되지 않았다. 40% 생산성은 ASML의 예상치이고 TSMC의 6월 경제성 조건도 유지된다.",
+      "next": "참여 기업 명단과 표준 확정, TSMC의 High-NA 장비 발주·자본지출, 2030년 첫 양산 공정, 2031년 시험선 가동과 실측 처리량·수율을 확인한다.",
+      "source": "https://pr.tsmc.com/english/news/3338",
+      "sourceLabel": "TSMC·ASML 공식 발표 · 2026.09.08",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-09T08:04:29+09:00",
+        "stage": "commitment",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 13,
+            "reason": "공동 이니셔티브와 일정은 확약했지만 장비 발주·시험선·양산 실행은 아직 없다."
+          },
+          "change": {
+            "score": 20,
+            "reason": "연구개발용 보유와 조건부 채택에서 양산·대형 마스크 전환의 구체적 장기 일정으로 진전됐다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "High-NA 처리량과 첨단 파운드리 장비·마스크 공급망을 바꿀 잠재력이 크다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "2030·2031·2033년 이정표와 향후 발주·수율로 판별 가능하지만 기한이 멀다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "TSMC 공식 발표과 웨이저자 기준선·Reuters 보도를 대조했다. 경제성 수치는 아직 예상치다."
+          }
+        },
+        "baseline": {
+          "date": "2026-06-04",
+          "statement": "웨이저자는 High-NA 장비를 연구개발용으로 보유했지만 당시 생산에는 필요하지 않으며 경제성이 맞을 때 채택하겠다고 말했다.",
+          "evidenceIds": [
+            "tsmc-highna-baseline-reuters-20260604"
+          ]
+        },
+        "evidenceIds": [
+          "tsmc-highna-mask-initiative-20260908",
+          "tsmc-highna-reuters-20260908"
+        ],
+        "note": "13+20+19+13+9=74. 기업의 장기 확약 단계이며 양산 실행 전이므로 결정적 신호로 승격하지 않는다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-07",
+        "publishedAt": "2026-09-08",
+        "firstSeenAt": "2026-09-09T08:04:29+09:00",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "첨단 반도체·EUV 노광·포토마스크",
+          "relationship": "confirmed",
+          "text": "TSMC와 ASML이 12인치 High-NA 마스크 공동 이니셔티브를 구성했다. 다른 참여사와 발주 규모는 미공개다.",
+          "evidenceIds": [
+            "tsmc-highna-mask-initiative-20260908"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "openai-quantum-lab-agent",
+      "eventId": "openai-quantum-lab-agent",
+      "hypothesisId": "ai-science-verifiable-output",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI",
+      "initials": "SA",
+      "score": 70,
+      "kind": "실행",
+      "date": "2026.09.04",
+      "reportDate": "2026.09.09",
+      "theme": "AI 배포",
+      "headline": "OpenAI가 GPT-5.6 Sol을 실제 양자칩 측정 소프트웨어에 연결해 반복 보정을 수행한 결과를 공개했다",
+      "takeaway": "과학 보조가 텍스트 가설 생성에서 실제 실험 하드웨어의 반복 측정·분석·조정으로 확장됐다. 한 연구실의 정형 작업 사례이고 약한 신호에는 전문가 개입이 필요해 관찰 단계다.",
+      "before": "6월 면역학 사례에서 GPT-5는 기존 데이터를 해석하고 실험 가설을 제안했지만 실험 수행과 판정은 연구자가 담당했다.",
+      "now": "MIT EQuS가 GPT-5.6 Sol을 실험실 제어 소프트웨어에 연결해 측정 매개변수 선택, 양자칩 작동, 분석과 다음 측정을 반복 수행했다.",
+      "facts": [
+        "GPT-5.6 Sol은 측정되지 않은 6큐비트 칩에서 설계 목표를 바탕으로 매개변수를 고르고 하드웨어를 작동하며 결과를 분석·조정했다.",
+        "기술 사례는 6개 공진기를 모두 찾았고, 고정 주파수 큐비트 4개에 대한 40개 목표 측정 중 4개에서 연구자 개입이 필요했다고 보고했다.",
+        "MIT EQuS는 표준 칩의 일상 측정에 에이전트를 정기적으로 사용하고 있다고 밝혔다.",
+        "신호가 약하거나 잡음이 많은 경우에는 더 오래 걸리거나 숙련 연구자의 안내가 필요했다."
+      ],
+      "action": "확인된 행동은 에이전트를 실제 양자 실험 제어 소프트웨어에 연결하고 한 칩의 반복 측정을 수행한 것이다. 여러 연구실·칩에서의 재현성과 비용 절감은 아직 확인되지 않았다.",
+      "impact": "해석: AI 에이전트가 정형화된 실험실 운영 시간을 줄이면 양자컴퓨팅·과학 장비의 소프트웨어 가치가 커질 수 있다. 현재는 제한된 사례라 산업 생산성으로 일반화할 수 없다.",
+      "impactPath": [
+        "AI 에이전트가 실험 제어·분석 루프에 직접 연결",
+        "정형 측정의 무인 운영 시간 확대",
+        "과학 장비 소프트웨어와 실험 처리량의 경제성 변화"
+      ],
+      "counter": "한 연구실·표준 칩의 회사 협력 사례이며 총 시간·비용 절감률과 오류율이 비교군과 함께 공개되지 않았다. 약한 신호 해석은 여전히 전문가 병목이다.",
+      "next": "다른 칩·연구실의 반복 재현, 전체 측정 시간·비용 절감률, 실패·인간 개입률, 비정형 실험에서의 성능과 동료검토 결과를 확인한다.",
+      "source": "https://openai.com/index/codex-quantum-computing-experiments/",
+      "sourceLabel": "OpenAI 공식 적용 사례 · 2026.09.08",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-09T08:04:29+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 23,
+            "reason": "실제 양자칩 제어 소프트웨어에 연결해 측정·분석·조정 루프를 수행했다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "텍스트 기반 가설 보조에서 실험 하드웨어 운영으로 범위가 확장됐지만 한 연구실 사례다."
+          },
+          "impact": {
+            "score": 12,
+            "reason": "과학 장비 운영 자동화 가능성을 보여주나 양자컴퓨팅 산업 전체의 생산성 증거는 제한적이다."
+          },
+          "verification": {
+            "score": 12,
+            "reason": "측정 대상과 인간 개입 수가 공개됐으나 시간·비용·오류 비교와 외부 재현 기한은 없다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "공식 사례와 기술 문서를 직접 확인했다. 독립 연구실 재현은 아직 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-06-23",
+          "statement": "GPT-5가 면역학 데이터에서 가설과 실험 방향을 제안했지만 실제 실험 수행과 판정은 연구자가 담당했다.",
+          "evidenceIds": [
+            "openai-gpt5-immunology-20260623"
+          ]
+        },
+        "evidenceIds": [
+          "openai-quantum-lab-agent-20260908",
+          "openai-quantum-lab-case-20260904"
+        ],
+        "note": "23+14+12+12+9=70. 실제 하드웨어 운영은 확인됐지만 제한된 연구실 사례와 전문가 개입 때문에 관찰로 둔다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-04",
+        "publishedAt": "2026-09-08",
+        "firstSeenAt": "2026-09-09T08:04:29+09:00",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "양자컴퓨팅·과학 장비 자동화",
+          "relationship": "indirect",
+          "text": "실험 제어·분석 루프의 자동화 가능성을 보여주지만 특정 장비 회사의 계약·매출은 확인되지 않았다.",
+          "evidenceIds": [
+            "openai-quantum-lab-agent-20260908",
+            "openai-quantum-lab-case-20260904"
+          ]
+        }
+      ]
+    },
     {
       "action": "확인된 행동은 기업용 제품 배포다. 유료 전환율·신규 계약 금액·통제 효과의 외부 검증은 확인되지 않았다.",
       "assessment": {
@@ -605,221 +800,339 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "end": "2026-09-08T07:39:35+09:00",
-      "overlapHours": 72,
-      "start": "2026-09-04T07:41:34+09:00"
+      "start": "2026-09-05T07:39:35+09:00",
+      "end": "2026-09-09T08:04:29+09:00",
+      "overlapHours": 72
     },
     "coverage": [
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "일론 머스크(Elon Musk)",
-        "note": "xAI와 Tesla 공식 채널의 최신 항목을 대조했다. 9월 7일 이후 승격할 신규 행동은 확인되지 않았다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://x.ai/news",
           "https://www.tesla.com/blog"
-        ]
+        ],
+        "note": "xAI·Tesla 공식 채널을 확인했다. 새 제품·계약·자본 집행은 확인되지 않았다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "젠슨 황(Jensen Huang)",
-        "note": "NVIDIA 공식 뉴스룸을 확인했다. Hugging Face 인수 후속의 새 거래 조건·종결 증거는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://nvidianews.nvidia.com/"
-        ]
+        ],
+        "note": "NVIDIA 공식 뉴스룸을 확인했다. 기존 인수·투자 카드에 추가될 확정 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "샘 알트만(Sam Altman)",
-        "note": "공식 뉴스와 직접 인터뷰를 대조했다. 우크라이나 언론 지원은 규모가 제한적이고, 창업자 발언은 기존 봄 발언의 반복이라 제외했다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://openai.com/news/",
+          "https://openai.com/index/navier-stokes-solution/",
+          "https://openai.com/index/codex-quantum-computing-experiments/",
+          "https://openai.com/index/teen-development-research-grants/",
           "https://openai.com/index/supporting-independent-journalism-in-ukraine/",
-          "https://openai.com/index/an-alien-mind/",
-          "https://www.axios.com/2026/09/07/axios-interview-altman-touts-revenge-of-ideas-guy"
-        ]
+          "https://openai.com/index/chatgpt-images-2-5/"
+        ],
+        "note": "나비에–스토크스 성과와 양자 실험 사례를 선별하고 보조금·언론 지원·이미지 모델은 제외했다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "다리오 아모데이(Dario Amodei)",
-        "note": "공식 발표·공개 증명 저장소·6월 기준선과 Nature의 9월 7일 보도 목록을 대조해 형식화 성과를 지연 발견 신호로 선별했다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://www.anthropic.com/news",
-          "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
-          "https://www.anthropic.com/news/claude-science-ai-workbench",
-          "https://github.com/anthropics/fermats-last-theorem",
-          "https://www.nature.com/"
-        ]
+          "https://www.anthropic.com/news"
+        ],
+        "note": "Anthropic 공식 뉴스룸을 확인했다. 기존 사건의 새 증거는 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "데미스 허사비스(Demis Hassabis)",
-        "note": "Google DeepMind 공식 채널을 확인했다. WeatherNext 3 이후 별도 신규 행동은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/"
-        ]
+        ],
+        "note": "Google DeepMind 공식 최신 연구를 확인했다. 신규 승격 사건은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "사티아 나델라(Satya Nadella)",
-        "note": "Microsoft 공식 블로그를 확인했다. 최근 조직·공시 변화의 새 후속 증거는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://blogs.microsoft.com/"
-        ]
+        ],
+        "note": "Microsoft 공식 블로그를 확인했다. 신규 전략·조직·계약 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "마크 저커버그(Mark Zuckerberg)",
-        "note": "Meta 공식 뉴스룸을 확인했다. 저커버그의 신규 전략 행동은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://about.fb.com/news/"
-        ]
+          "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "https://about.fb.com/news/2026/08/the-future-is-for-everyone/"
+        ],
+        "note": "8월 비전 원문과 Muse 실제 출시를 대조해 별도 실행 사건으로 기록했다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "리사 수(Lisa Su)",
-        "note": "AMD 데이터센터 뉴스룸을 확인했다. 9월 2일 이후 새로운 계약·출시는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://newsroom.amd.com/category/data-center/"
-        ]
+        ],
+        "note": "AMD 데이터센터 뉴스룸을 확인했다. 신규 확정 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "웨이저자(C.C. Wei)",
-        "note": "TSMC 공식 보도자료 목록을 확인했다. 조사 구간의 신규 발표는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://pr.tsmc.com/english"
-        ]
+          "https://pr.tsmc.com/english/news/3338",
+          "https://www.reuters.com/world/china/tsmc-boss-upbeat-outlook-ai-boom-shows-no-sign-easing-2026-06-04/",
+          "https://www.reuters.com/world/asia-pacific/asml-work-with-major-chipmakers-to-use-latest-tools-larger-chips-2026-09-08/"
+        ],
+        "note": "공식 발표와 6월 기준선을 대조해 장기 확약을 관찰로 기록했다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "손정의(Masayoshi Son)",
-        "note": "SoftBank Group 공식 보도자료를 확인했다. 조사 구간의 새 자본배분 행동은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://group.softbank/en/news/press"
-        ]
+        ],
+        "note": "SoftBank 공식 보도자료를 확인했다. 신규 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "쩡위췬(Robin Zeng)",
-        "note": "CATL 공식 뉴스룸을 확인했다. 쩡위췬의 신규 투자·제품 결정은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
-        ]
+        ],
+        "note": "CATL 공식 뉴스룸을 확인했다. 신규 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "스콧 스트라직(Scott Strazik)",
-        "note": "GE Vernova 공식 채널을 확인했다. 베네수엘라 협약 이후 발전 가동 증거는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release"
-        ]
+        ],
+        "note": "GE Vernova 미디어 허브를 확인했다. 기존 협약의 실행 성과는 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "알렉스 카프(Alex Karp)",
-        "note": "Palantir IR 보도자료를 확인했다. 우크라이나 투자 건의 금액·종결 후속은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://investors.palantir.com/news-events/press-releases"
-        ]
+        ],
+        "note": "Palantir 공식 보도자료를 확인했다. 기존 투자 후속은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "누바 아페얀(Noubar Afeyan)",
-        "note": "Flagship Pioneering 공식 뉴스 목록을 확인했다. 신규 투자·회사 설립 행동은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news"
-        ]
+        ],
+        "note": "Flagship Pioneering 뉴스룸을 확인했다. 신규 자본 배치는 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "브라이언 체스키(Brian Chesky)",
-        "note": "Airbnb 공식 뉴스룸을 확인했다. 최근 조직개편 이후 전략 변화 증거는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://news.airbnb.com/"
-        ]
+        ],
+        "note": "Airbnb 뉴스룸을 확인했다. 신규 제품·규제 대응·자본 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
-        "note": "직전 채권시장 기고 원문과 최신 검색을 대조했다. 새 포지션·판단 변화는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://www.wsj.com/opinion/let-the-bond-market-speak-81529d74"
-        ]
+          "https://www.wsj.com/opinion/the-treasurys-next-innovation-debt-buybacks-3a6f7abc"
+        ],
+        "note": "공개 기고 기준선을 재확인했다. 새 포지션이나 관점 변화는 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "피터 틸(Peter Thiel)",
-        "note": "최근 이주 보도와 최신 검색을 확인했다. 직접 발언·투자 조건이 없는 추정 중심이라 새 신호로 보지 않았다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://www.theguardian.com/technology/2026/sep/03/peter-thiel-argentina-javier-milei"
-        ]
+          "https://www.theguardian.com/technology/2026/sep/06/peter-thiel-ai-interview"
+        ],
+        "note": "최근 직접 인용 보도를 확인했다. 새 투자 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "하워드 막스(Howard Marks)",
-        "note": "Oaktree 메모 목록을 확인했다. 4월 9일 이후 새 메모는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://www.oaktreecapital.com/insights/memos"
-        ]
+          "https://www.oaktreecapital.com/insights/memo"
+        ],
+        "note": "Oaktree 공식 메모 목록을 확인했다. 새 메모나 관점 변화는 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "레이 달리오(Ray Dalio)",
-        "note": "공식 아카이브를 확인했다. 최근 호르무즈 관점 이후 새로운 글·행동은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://raydalio.substack.com/archive"
-        ]
+          "https://www.linkedin.com/in/raydalio/recent-activity/all/"
+        ],
+        "note": "공개 원문 목록을 확인했다. 신규 행동은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "마크 앤드리슨(Marc Andreessen)",
-        "note": "a16z 공식 사이트를 확인했다. 첫 하드웨어 펀드 이후 앤드리슨의 신규 판단·자본배분은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://a16z.com/"
-        ]
+          "https://a16z.com/news-content/"
+        ],
+        "note": "a16z 공식 최신 콘텐츠를 확인했다. 새 독립 사건은 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "타일러 코웬(Tyler Cowen)",
-        "note": "신규 글과 Emergent Ventures 59기 지원 대상을 확인했다. 지원 규모·기준선 변화가 없어 승격하지 않았다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
-          "https://marginalrevolution.com/",
-          "https://marginalrevolution.com/marginalrevolution/2026/09/emergent-ventures-winners-59th-cohort.html",
-          "https://marginalrevolution.com/marginalrevolution/2026/09/capital-gains-vs-wealth-taxes.html"
-        ]
+          "https://marginalrevolution.com/"
+        ],
+        "note": "최신 게시물을 확인했다. 반증 가능한 관점 변화는 없었다."
       },
       {
-        "checkedAt": "2026-09-08T07:39:35+09:00",
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
-        "note": "공식 아카이브와 최신 검색을 확인했다. 신규 원문·실행은 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-09T08:04:29+09:00",
         "urls": [
           "https://balajis.com/archive"
-        ]
+        ],
+        "note": "공식 아카이브를 확인했다. 신규 원문·행동은 없었다."
       }
     ],
     "evidence": [
+      {
+        "id": "openai-navier-stokes-official-20260908",
+        "url": "https://openai.com/index/navier-stokes-solution/",
+        "label": "OpenAI 나비에–스토크스 결과 공식 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "OpenAI는 내부 모델과 약 1만 개의 협업 에이전트가 강제된 3차원 비압축성 나비에–스토크스 방정식의 유한시간 특이점 해법을 만들고 논문과 Lean 형식화를 공개했다고 발표했다. 전체 프로젝트는 9월 6일 검증까지 완료됐으며 상금을 청구하지 않겠다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-navier-stokes-paper-20260908",
+        "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "label": "OpenAI 나비에–스토크스 해법 논문",
+        "grade": "A",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "공개 논문은 매끄러운 외력이 작용하고 초기 속도가 0인 3차원 비압축성 나비에–스토크스 해가 유한시간에 특이점을 만든다는 구성과 추정식을 제시한다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-navier-stokes-lean-20260908",
+        "url": "https://github.com/openai/NavierStokesAndEuler",
+        "label": "OpenAI 나비에–스토크스·오일러 Lean 형식화 저장소",
+        "grade": "A",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "OpenAI는 나비에–스토크스 및 오일러 결과의 Lean 형식화와 검증 가능한 코드를 공개 저장소에 게시했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "clay-millennium-rules-20180926",
+        "url": "https://www.claymath.org/millennium-problems/rules/",
+        "label": "Clay 수학연구소 밀레니엄 문제 상금 규칙",
+        "grade": "A",
+        "publishedAt": "2018-09-26",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "Clay 수학연구소 규칙은 해법이 적격 출판물에 게재되고 최소 2년이 지나며 세계 수학계에서 일반적으로 인정돼야 상금 심사를 고려한다고 명시한다.",
+        "provenance": "official"
+      },
+      {
+        "id": "meta-personal-superintelligence-letter-20260810",
+        "url": "https://about.fb.com/news/2026/08/the-future-is-for-everyone/",
+        "label": "마크 저커버그 개인용 초지능 비전 원문",
+        "grade": "A",
+        "publishedAt": "2026-08-10",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "마크 저커버그는 개인이 목표를 달성하도록 돕는 개인용 초지능을 광범위하게 제공하겠다는 방향을 제시했지만 당시 소비자용 행동 에이전트의 배포 성과는 제시하지 않았다.",
+        "provenance": "official"
+      },
+      {
+        "id": "meta-muse-personal-agent-20260908",
+        "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "label": "Meta Muse 개인용 AI 에이전트 공식 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "Meta는 미국에서 Muse를 iOS·Android·웹에 배포하고 전용 가상 컴퓨터, 인터넷 행동 승인, 감사 기록과 결제 전 사용자 확인을 적용했다. 대부분의 사용은 무료이며 구독 요금제를 함께 제공한다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tsmc-highna-baseline-reuters-20260604",
+        "url": "https://www.reuters.com/world/china/tsmc-boss-upbeat-outlook-ai-boom-shows-no-sign-easing-2026-06-04/",
+        "label": "TSMC High-NA 생산 도입 기준 관련 웨이저자 발언 보도",
+        "grade": "B",
+        "publishedAt": "2026-06-04",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "웨이저자는 TSMC가 High-NA 노광 장비를 연구개발용으로 샀지만 비용 때문에 당시 생산에는 필요하지 않으며 경제성이 맞을 때 채택하겠다고 말했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tsmc-highna-mask-initiative-20260908",
+        "url": "https://pr.tsmc.com/english/news/3338",
+        "label": "TSMC·ASML 12인치 High-NA 마스크 이니셔티브 공식 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "TSMC와 ASML은 9월 7일 12인치 High-NA 마스크 공동 이니셔티브를 만들고 TSMC의 2030년 High-NA 양산 계획과 2031년 마스크 시험선·2033년 전체 시스템 준비 목표를 제시했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tsmc-highna-reuters-20260908",
+        "url": "https://www.reuters.com/world/asia-pacific/asml-work-with-major-chipmakers-to-use-latest-tools-larger-chips-2026-09-08/",
+        "label": "TSMC·ASML High-NA 마스크 협력 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "Reuters는 TSMC와 ASML의 이니셔티브, 기존 6인치에서 12인치 마스크로의 전환 목표와 ASML이 제시한 약 40% 생산성 개선 가능성을 보도했다. 참여 의향을 보인 다른 기업의 이름은 공개되지 않았다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "openai-gpt5-immunology-20260623",
+        "url": "https://openai.com/index/gpt-5-immunology-mystery/",
+        "label": "OpenAI GPT-5 면역학 연구 지원 사례",
+        "grade": "A",
+        "publishedAt": "2026-06-23",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "OpenAI는 GPT-5 Pro가 면역학자의 기존 데이터에서 실험 가능한 기전을 제안하고 후속 실험 판단을 도운 사례를 공개했다. 실제 실험 수행과 판정은 연구자가 담당했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-quantum-lab-agent-20260908",
+        "url": "https://openai.com/index/codex-quantum-computing-experiments/",
+        "label": "OpenAI GPT-5.6 Sol 양자 실험 운영 공식 사례",
+        "grade": "A",
+        "publishedAt": "2026-09-08",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "MIT EQuS 연구팀은 GPT-5.6 Sol을 Codex와 실험실 소프트웨어에 연결해 6큐비트 칩의 측정 매개변수 선택, 하드웨어 작동, 결과 분석과 반복 조정을 수행했다. 신호가 약하거나 잡음이 많은 경우에는 전문가 개입이 필요했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-quantum-lab-case-20260904",
+        "url": "https://cdn.openai.com/pdf/case-study-agentic-calibration-of-superconducting-qubits.pdf",
+        "label": "초전도 큐비트 에이전트 보정 기술 사례",
+        "grade": "A",
+        "publishedAt": "2026-09-04",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "claim": "기술 사례는 측정되지 않은 6큐비트 칩에서 6개 공진기를 찾았고 고정 주파수 큐비트 4개에 대한 40개 목표 측정 중 연구자 개입이 4개에서 필요했다고 보고한다.",
+        "provenance": "official"
+      },
       {
         "claim": "Anthropic은 Claude가 11일 동안 거의 자율적으로 작업해 페르마의 마지막 정리의 전체 Lean 형식화를 완성했다고 발표했다. 약 1,300만 줄, 30,300개 정리, 약 60억 출력 토큰을 공개했으며 새로운 수학 증명이 아니라 기존 증명의 형식화라고 구분했다.",
         "grade": "A",
@@ -952,6 +1265,483 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20260909-openai-navier-stokes-solution-initial",
+        "signalId": "openai-navier-stokes-solution",
+        "eventId": "openai-navier-stokes-solution",
+        "hypothesisId": "ai-science-verifiable-output",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.09",
+        "recordedAt": "2026-09-09T08:04:29+09:00",
+        "tier": "signal",
+        "score": 93,
+        "headline": "OpenAI가 나비에–스토크스 밀레니엄 문제 해법과 Lean 형식화를 공개했지만 수학계의 해결 인정은 남아 있다",
+        "source": "https://openai.com/index/navier-stokes-solution/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "29+20+20+15+9=93. 공개 산출물이라는 성과와 수학계의 최종 해결 인정을 분리한다.",
+        "evidenceIds": [
+          "openai-navier-stokes-official-20260908",
+          "openai-navier-stokes-paper-20260908",
+          "openai-navier-stokes-lean-20260908",
+          "clay-millennium-rules-20180926",
+          "openai-gpt5-immunology-20260623"
+        ],
+        "snapshot": {
+          "id": "openai-navier-stokes-solution",
+          "eventId": "openai-navier-stokes-solution",
+          "hypothesisId": "ai-science-verifiable-output",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI",
+          "initials": "SA",
+          "score": 93,
+          "kind": "실행",
+          "date": "2026.09.06",
+          "reportDate": "2026.09.09",
+          "theme": "AI 배포",
+          "headline": "OpenAI가 나비에–스토크스 밀레니엄 문제 해법과 Lean 형식화를 공개했지만 수학계의 해결 인정은 남아 있다",
+          "takeaway": "약 1만 개의 에이전트가 만든 해법을 논문과 기계 검증 코드로 공개해 AI 과학 연구가 제안에서 검증 가능한 산출물로 이동했다. 다만 OpenAI의 발표와 Clay 수학연구소의 공식 해결 인정은 별개다.",
+          "before": "6월 면역학 사례와 9월 6일 내부 연구 지표는 AI가 연구자의 가설 생성과 실험량을 보조한다는 단계였고, 공개된 밀레니엄 문제 수준의 형식 증명은 없었다.",
+          "now": "9월 6일까지 나비에–스토크스 해법의 논문과 Lean 검증을 완성하고 9월 8일 전체 산출물을 공개했다.",
+          "facts": [
+            "OpenAI는 매끄러운 외력이 작용하고 초기 속도가 0인 3차원 비압축성 유체가 유한시간에 특이점을 만든다는 해법을 제시했다.",
+            "약 1만 개의 에이전트가 약 88시간 작업했고 GPT-6 Astra를 이용한 Lean 형식화·검증에 17시간이 더 걸렸으며, 나비에–스토크스 작업에는 약 1,300억 출력 토큰이 쓰였다.",
+            "해법 논문과 Lean 저장소가 공개돼 명제와 형식 코드의 검토가 가능하다.",
+            "OpenAI는 상금을 청구하지 않겠다고 밝혔고, Clay 수학연구소는 적격 출판·2년 경과·수학계의 일반적 인정을 상금 심사 조건으로 둔다."
+          ],
+          "action": "확인된 행동은 대규모 다중 에이전트 연산 집행과 해법 논문·Lean 형식 코드 공개다. 외부 동료검토와 Clay 수학연구소의 해결 인정은 아직 확인되지 않았다.",
+          "impact": "해석: AI 모델 경쟁의 증거가 벤치마크에서 외부가 검토할 수 있는 수학·과학 산출물로 이동할 수 있다. 연구 연산·형식 검증 수요에는 긍정적이지만 한 결과의 최종 인정 전까지 일반 연구 생산성을 확정할 수 없다.",
+          "impactPath": [
+            "대규모 다중 에이전트가 공개 난제의 해법 생성",
+            "논문·Lean 코드로 검토 가능한 산출물 전환",
+            "과학 연구 연산·형식 검증 도구의 수요와 검토 병목 변화"
+          ],
+          "counter": "회사가 만든 결과를 회사가 발표한 단계이며 독립 수학자의 동료검토와 전체 Lean 재실행은 아직 확인되지 않았다. Clay 연구소의 현재 목록과 공식 인정 절차를 건너뛰어 ‘해결 확정’으로 표현할 수 없다.",
+          "next": "독립 수학자·저널의 오류 검토, 공개 저장소의 전체 재실행, 적격 출판 여부와 Clay 수학연구소의 공식 상태 변경을 확인한다.",
+          "source": "https://openai.com/index/navier-stokes-solution/",
+          "sourceLabel": "OpenAI 공식 연구 공개 · 2026.09.08",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-09T08:04:29+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 29,
+                "reason": "약 1만 에이전트의 연산을 집행하고 해법 논문과 Lean 형식 코드를 공개했다."
+              },
+              "change": {
+                "score": 20,
+                "reason": "연구 보조·내부 가동량 공개에서 공개 난제의 검증 가능한 전체 산출물로 범위가 크게 확장됐다."
+              },
+              "impact": {
+                "score": 20,
+                "reason": "AI 과학 연구와 형식 검증의 경쟁 기준을 바꿀 수 있으나 단일 결과의 외부 인정은 남아 있다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "논문·Lean 코드·Clay의 공식 인정 조건으로 맞고 틀림을 판별할 절차가 구체적이다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "회사 원문·논문·저장소와 Clay 공식 규칙을 직접 확인했다. 독립 동료검토 전이라 만점은 부여하지 않았다."
+              }
+            },
+            "baseline": {
+              "date": "2026-06-23",
+              "statement": "OpenAI는 GPT-5가 면역학자의 기존 데이터에서 실험 가능한 기전을 제안한 사례를 공개했지만 실제 실험 수행과 판정은 연구자가 맡았다.",
+              "evidenceIds": [
+                "openai-gpt5-immunology-20260623"
+              ]
+            },
+            "evidenceIds": [
+              "openai-navier-stokes-official-20260908",
+              "openai-navier-stokes-paper-20260908",
+              "openai-navier-stokes-lean-20260908",
+              "clay-millennium-rules-20180926"
+            ],
+            "note": "29+20+20+15+9=93. 공개 산출물이라는 성과와 수학계의 최종 해결 인정을 분리한다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-06",
+            "publishedAt": "2026-09-08",
+            "firstSeenAt": "2026-09-09T08:04:29+09:00",
+            "verifiedAt": "2026-09-09T08:04:29+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 과학 연구·형식 검증",
+              "relationship": "indirect",
+              "text": "공개 난제의 논문과 Lean 코드가 모델 성능의 외부 검토 가능한 산출물이 됐다. 특정 상장사 수혜나 매출은 확인되지 않았다.",
+              "evidenceIds": [
+                "openai-navier-stokes-official-20260908",
+                "openai-navier-stokes-paper-20260908",
+                "openai-navier-stokes-lean-20260908"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260909-meta-muse-personal-agent-initial",
+        "signalId": "meta-muse-personal-agent",
+        "eventId": "meta-muse-personal-agent",
+        "hypothesisId": "consumer-personal-agent-platform",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.09",
+        "recordedAt": "2026-09-09T08:04:29+09:00",
+        "tier": "signal",
+        "score": 89,
+        "headline": "Meta가 결제·웹 작업을 수행하는 개인용 AI 에이전트 Muse를 미국에 실제 배포했다",
+        "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "27+19+20+14+9=89. 비전의 제품 실행은 확인됐지만 채택·수익·안전 결과는 분리해 추적한다.",
+        "evidenceIds": [
+          "meta-muse-personal-agent-20260908",
+          "meta-personal-superintelligence-letter-20260810"
+        ],
+        "snapshot": {
+          "id": "meta-muse-personal-agent",
+          "eventId": "meta-muse-personal-agent",
+          "hypothesisId": "consumer-personal-agent-platform",
+          "leader": "마크 저커버그(Mark Zuckerberg)",
+          "role": "Meta Founder & CEO",
+          "initials": "MZ",
+          "score": 89,
+          "kind": "실행",
+          "date": "2026.09.08",
+          "reportDate": "2026.09.09",
+          "theme": "AI 배포",
+          "headline": "Meta가 결제·웹 작업을 수행하는 개인용 AI 에이전트 Muse를 미국에 실제 배포했다",
+          "takeaway": "저커버그의 개인용 초지능 구상이 웹 탐색·양식 작성·결제를 수행하는 소비자 제품으로 전환됐다. 무료 이용과 구독을 함께 시작했지만 반복 사용·유료 전환·안전 성과는 아직 미확인이다.",
+          "before": "8월 10일 저커버그는 개인의 목표를 돕는 초지능을 널리 제공하겠다는 방향을 제시했지만, 외부 웹과 결제를 실제로 수행하는 소비자용 제품은 제시하지 않았다.",
+          "now": "9월 8일 미국에서 iOS·Android·웹용 Muse를 배포하고 유료 구독, 가상 컴퓨터, 인터넷 행동 승인·감사와 결제 전 확인을 적용했다.",
+          "facts": [
+            "Meta는 미국 이용자를 대상으로 Muse를 iOS·Android와 muse.ai에 배포했으며 AI 안경 지원도 예고했다.",
+            "Muse는 전용 가상 컴퓨터와 브라우저에서 웹 탐색·양식 작성·협상·예약 같은 장기 작업을 수행하고 앱을 닫은 뒤에도 계속할 수 있다.",
+            "인터넷 행동을 승인하는 Sentinel, 감사 기록, 이메일 전송·결제 전 사용자 확인과 자격증명 비공개 구조를 적용했다.",
+            "대부분의 이용은 무료이며 구독 요금제를 제공하고 Stripe Link의 일회용 카드 결제를 우선 연결했다."
+          ],
+          "action": "확인된 행동은 미국 내 다중 플랫폼 출시와 무료·구독 요금제, 웹 작업·결제·감사 통제의 실제 배포다. 반복 이용률·유료 전환·거래 성공률과 사고율은 아직 공개되지 않았다.",
+          "impact": "해석: 소비자 AI 경쟁이 대화형 답변에서 실제 거래와 장기 작업을 수행하는 운영 계층으로 이동한다. 결제·신원·보안 인프라 수요는 늘 수 있지만 Meta의 수익화와 사고 비용은 함께 검증해야 한다.",
+          "impactPath": [
+            "개인 에이전트가 웹 작업과 결제까지 실행",
+            "결제·신원·감사 통제가 제품 채택의 핵심 요건으로 이동",
+            "소비자 플랫폼의 이용시간·구독·거래 경쟁 변화"
+          ],
+          "counter": "미국 초기 배포이며 회사가 제시한 기능과 통제의 실제 성공률은 공개되지 않았다. 사용자 승인 절차가 사고를 완전히 막는지, 무료 사용자가 구독과 거래로 전환하는지는 미확인이다.",
+          "next": "월간 활성 사용자, 작업 완료율·취소율, 유료 전환율, 결제 거래량과 보안 사고·인간 승인 개입률을 확인한다. 미국 밖과 AI 안경 배포 일정도 추적한다.",
+          "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "sourceLabel": "Meta 공식 출시 발표 · 2026.09.08",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-09T08:04:29+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 27,
+                "reason": "미국에서 앱·웹 제품, 구독과 웹 작업·결제 통제를 실제 배포했다."
+              },
+              "change": {
+                "score": 19,
+                "reason": "개인용 초지능 비전을 외부 행동과 결제를 수행하는 소비자 제품으로 전환했다."
+              },
+              "impact": {
+                "score": 20,
+                "reason": "소비자 플랫폼·결제·신원·보안의 경쟁 구조에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "사용자·유료 전환·완료율·거래량·사고율로 판별할 수 있으나 공개 성과 기한은 없다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "저커버그의 기준선 원문과 Meta의 상세 출시문을 직접 대조했다. 성과 수치는 회사 밖에서 아직 확인되지 않았다."
+              }
+            },
+            "baseline": {
+              "date": "2026-08-10",
+              "statement": "저커버그는 개인의 목표를 돕는 개인용 초지능을 광범위하게 제공하겠다고 밝혔지만 소비자용 행동 에이전트의 배포는 없었다.",
+              "evidenceIds": [
+                "meta-personal-superintelligence-letter-20260810"
+              ]
+            },
+            "evidenceIds": [
+              "meta-muse-personal-agent-20260908"
+            ],
+            "note": "27+19+20+14+9=89. 비전의 제품 실행은 확인됐지만 채택·수익·안전 결과는 분리해 추적한다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-08",
+            "publishedAt": "2026-09-08",
+            "firstSeenAt": "2026-09-09T08:04:29+09:00",
+            "verifiedAt": "2026-09-09T08:04:29+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "소비자 AI 에이전트·결제·신원",
+              "relationship": "confirmed",
+              "text": "Muse는 Stripe Link의 일회용 카드 결제를 실제 연결했고 다른 결제·자격증명 통합을 예고했다.",
+              "evidenceIds": [
+                "meta-muse-personal-agent-20260908"
+              ]
+            },
+            {
+              "sector": "소비자 플랫폼·에이전트 보안",
+              "relationship": "indirect",
+              "text": "장기 웹 작업을 수행하는 에이전트는 승인·감사·격리 인프라를 제품 경쟁 요소로 만든다.",
+              "evidenceIds": [
+                "meta-muse-personal-agent-20260908"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260909-tsmc-highna-euv-roadmap-initial",
+        "signalId": "tsmc-highna-euv-roadmap",
+        "eventId": "tsmc-highna-euv-roadmap",
+        "hypothesisId": "high-na-euv-large-mask-transition",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.09",
+        "recordedAt": "2026-09-09T08:04:29+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "TSMC가 ASML과 12인치 High-NA 마스크 이니셔티브를 만들고 2030~2033년 생산 로드맵을 제시했다",
+        "source": "https://pr.tsmc.com/english/news/3338",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "13+20+19+13+9=74. 기업의 장기 확약 단계이며 양산 실행 전이므로 결정적 신호로 승격하지 않는다.",
+        "evidenceIds": [
+          "tsmc-highna-mask-initiative-20260908",
+          "tsmc-highna-reuters-20260908",
+          "tsmc-highna-baseline-reuters-20260604"
+        ],
+        "snapshot": {
+          "id": "tsmc-highna-euv-roadmap",
+          "eventId": "tsmc-highna-euv-roadmap",
+          "hypothesisId": "high-na-euv-large-mask-transition",
+          "leader": "웨이저자(C.C. Wei)",
+          "role": "TSMC Chairman & CEO",
+          "initials": "CW",
+          "score": 74,
+          "kind": "강화",
+          "date": "2026.09.07",
+          "reportDate": "2026.09.09",
+          "theme": "AI 인프라",
+          "headline": "TSMC가 ASML과 12인치 High-NA 마스크 이니셔티브를 만들고 2030~2033년 생산 로드맵을 제시했다",
+          "takeaway": "6월의 ‘경제성이 맞을 때 생산 도입’ 원칙을 철회한 것은 아니지만, 연구장비 보유에서 양산·대형 마스크 전환 일정이 있는 공동 확약으로 진전됐다. 장비 발주·자본지출·참여사 공개 전이므로 관찰 단계다.",
+          "before": "6월 4일 웨이저자는 High-NA 장비를 연구개발용으로 샀지만 높은 비용 때문에 당시 생산에는 필요하지 않으며 경제성이 맞을 때 채택하겠다고 말했다.",
+          "now": "9월 7일 ASML과 12인치 마스크 이니셔티브를 만들고 2030년 High-NA 양산, 2031년 시험선, 2033년 전체 시스템 준비 목표를 제시했다.",
+          "facts": [
+            "TSMC와 ASML은 기존 6인치 마스크보다 면적이 네 배인 12인치 High-NA 마스크 생태계 이니셔티브를 9월 7일 구성했다.",
+            "TSMC는 2030년 High-NA를 이용한 양산, 2031년 12인치 마스크 시험선, 2033년 첨단 공정 생산을 위한 전체 시스템 준비를 목표로 제시했다.",
+            "ASML은 전환이 성공하면 생산성이 약 40% 높아질 수 있다고 Reuters에 밝혔지만 이는 예상치이며 실측 성과가 아니다.",
+            "다른 주요 칩 제조사와 공급망 기업의 관심은 언급됐으나 참여 회사명과 발주·투자액은 공개되지 않았다."
+          ],
+          "action": "확인된 행동은 TSMC·ASML의 공동 이니셔티브 구성과 장기 일정 확약이다. 12인치 시험선 구축, High-NA 양산 장비 발주와 실제 생산성 개선은 아직 실행되지 않았다.",
+          "impact": "해석: 대형 마스크가 현실화하면 High-NA 노광의 처리량·비용 구조와 첨단 파운드리 공급망이 바뀔 수 있다. 일정이 길고 투자 규모가 미공개라 현재 수혜 기업이나 수익을 단정할 수 없다.",
+          "impactPath": [
+            "TSMC·ASML이 12인치 마스크 규격과 생태계 공동 개발",
+            "High-NA 노광의 처리량·원가 개선 가능성 시험",
+            "첨단 파운드리 장비·마스크 공급망과 자본지출 구조 변화"
+          ],
+          "counter": "2030~2033년의 장기 목표이며 자본지출·장비 발주·참여사·생산 수율이 공개되지 않았다. 40% 생산성은 ASML의 예상치이고 TSMC의 6월 경제성 조건도 유지된다.",
+          "next": "참여 기업 명단과 표준 확정, TSMC의 High-NA 장비 발주·자본지출, 2030년 첫 양산 공정, 2031년 시험선 가동과 실측 처리량·수율을 확인한다.",
+          "source": "https://pr.tsmc.com/english/news/3338",
+          "sourceLabel": "TSMC·ASML 공식 발표 · 2026.09.08",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-09T08:04:29+09:00",
+            "stage": "commitment",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 13,
+                "reason": "공동 이니셔티브와 일정은 확약했지만 장비 발주·시험선·양산 실행은 아직 없다."
+              },
+              "change": {
+                "score": 20,
+                "reason": "연구개발용 보유와 조건부 채택에서 양산·대형 마스크 전환의 구체적 장기 일정으로 진전됐다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "High-NA 처리량과 첨단 파운드리 장비·마스크 공급망을 바꿀 잠재력이 크다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "2030·2031·2033년 이정표와 향후 발주·수율로 판별 가능하지만 기한이 멀다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "TSMC 공식 발표과 웨이저자 기준선·Reuters 보도를 대조했다. 경제성 수치는 아직 예상치다."
+              }
+            },
+            "baseline": {
+              "date": "2026-06-04",
+              "statement": "웨이저자는 High-NA 장비를 연구개발용으로 보유했지만 당시 생산에는 필요하지 않으며 경제성이 맞을 때 채택하겠다고 말했다.",
+              "evidenceIds": [
+                "tsmc-highna-baseline-reuters-20260604"
+              ]
+            },
+            "evidenceIds": [
+              "tsmc-highna-mask-initiative-20260908",
+              "tsmc-highna-reuters-20260908"
+            ],
+            "note": "13+20+19+13+9=74. 기업의 장기 확약 단계이며 양산 실행 전이므로 결정적 신호로 승격하지 않는다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-07",
+            "publishedAt": "2026-09-08",
+            "firstSeenAt": "2026-09-09T08:04:29+09:00",
+            "verifiedAt": "2026-09-09T08:04:29+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "첨단 반도체·EUV 노광·포토마스크",
+              "relationship": "confirmed",
+              "text": "TSMC와 ASML이 12인치 High-NA 마스크 공동 이니셔티브를 구성했다. 다른 참여사와 발주 규모는 미공개다.",
+              "evidenceIds": [
+                "tsmc-highna-mask-initiative-20260908"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260909-openai-quantum-lab-agent-initial",
+        "signalId": "openai-quantum-lab-agent",
+        "eventId": "openai-quantum-lab-agent",
+        "hypothesisId": "ai-science-verifiable-output",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.09",
+        "recordedAt": "2026-09-09T08:04:29+09:00",
+        "tier": "observation",
+        "score": 70,
+        "headline": "OpenAI가 GPT-5.6 Sol을 실제 양자칩 측정 소프트웨어에 연결해 반복 보정을 수행한 결과를 공개했다",
+        "source": "https://openai.com/index/codex-quantum-computing-experiments/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "23+14+12+12+9=70. 실제 하드웨어 운영은 확인됐지만 제한된 연구실 사례와 전문가 개입 때문에 관찰로 둔다.",
+        "evidenceIds": [
+          "openai-quantum-lab-agent-20260908",
+          "openai-quantum-lab-case-20260904",
+          "openai-gpt5-immunology-20260623"
+        ],
+        "snapshot": {
+          "id": "openai-quantum-lab-agent",
+          "eventId": "openai-quantum-lab-agent",
+          "hypothesisId": "ai-science-verifiable-output",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI",
+          "initials": "SA",
+          "score": 70,
+          "kind": "실행",
+          "date": "2026.09.04",
+          "reportDate": "2026.09.09",
+          "theme": "AI 배포",
+          "headline": "OpenAI가 GPT-5.6 Sol을 실제 양자칩 측정 소프트웨어에 연결해 반복 보정을 수행한 결과를 공개했다",
+          "takeaway": "과학 보조가 텍스트 가설 생성에서 실제 실험 하드웨어의 반복 측정·분석·조정으로 확장됐다. 한 연구실의 정형 작업 사례이고 약한 신호에는 전문가 개입이 필요해 관찰 단계다.",
+          "before": "6월 면역학 사례에서 GPT-5는 기존 데이터를 해석하고 실험 가설을 제안했지만 실험 수행과 판정은 연구자가 담당했다.",
+          "now": "MIT EQuS가 GPT-5.6 Sol을 실험실 제어 소프트웨어에 연결해 측정 매개변수 선택, 양자칩 작동, 분석과 다음 측정을 반복 수행했다.",
+          "facts": [
+            "GPT-5.6 Sol은 측정되지 않은 6큐비트 칩에서 설계 목표를 바탕으로 매개변수를 고르고 하드웨어를 작동하며 결과를 분석·조정했다.",
+            "기술 사례는 6개 공진기를 모두 찾았고, 고정 주파수 큐비트 4개에 대한 40개 목표 측정 중 4개에서 연구자 개입이 필요했다고 보고했다.",
+            "MIT EQuS는 표준 칩의 일상 측정에 에이전트를 정기적으로 사용하고 있다고 밝혔다.",
+            "신호가 약하거나 잡음이 많은 경우에는 더 오래 걸리거나 숙련 연구자의 안내가 필요했다."
+          ],
+          "action": "확인된 행동은 에이전트를 실제 양자 실험 제어 소프트웨어에 연결하고 한 칩의 반복 측정을 수행한 것이다. 여러 연구실·칩에서의 재현성과 비용 절감은 아직 확인되지 않았다.",
+          "impact": "해석: AI 에이전트가 정형화된 실험실 운영 시간을 줄이면 양자컴퓨팅·과학 장비의 소프트웨어 가치가 커질 수 있다. 현재는 제한된 사례라 산업 생산성으로 일반화할 수 없다.",
+          "impactPath": [
+            "AI 에이전트가 실험 제어·분석 루프에 직접 연결",
+            "정형 측정의 무인 운영 시간 확대",
+            "과학 장비 소프트웨어와 실험 처리량의 경제성 변화"
+          ],
+          "counter": "한 연구실·표준 칩의 회사 협력 사례이며 총 시간·비용 절감률과 오류율이 비교군과 함께 공개되지 않았다. 약한 신호 해석은 여전히 전문가 병목이다.",
+          "next": "다른 칩·연구실의 반복 재현, 전체 측정 시간·비용 절감률, 실패·인간 개입률, 비정형 실험에서의 성능과 동료검토 결과를 확인한다.",
+          "source": "https://openai.com/index/codex-quantum-computing-experiments/",
+          "sourceLabel": "OpenAI 공식 적용 사례 · 2026.09.08",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-09T08:04:29+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 23,
+                "reason": "실제 양자칩 제어 소프트웨어에 연결해 측정·분석·조정 루프를 수행했다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "텍스트 기반 가설 보조에서 실험 하드웨어 운영으로 범위가 확장됐지만 한 연구실 사례다."
+              },
+              "impact": {
+                "score": 12,
+                "reason": "과학 장비 운영 자동화 가능성을 보여주나 양자컴퓨팅 산업 전체의 생산성 증거는 제한적이다."
+              },
+              "verification": {
+                "score": 12,
+                "reason": "측정 대상과 인간 개입 수가 공개됐으나 시간·비용·오류 비교와 외부 재현 기한은 없다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "공식 사례와 기술 문서를 직접 확인했다. 독립 연구실 재현은 아직 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-06-23",
+              "statement": "GPT-5가 면역학 데이터에서 가설과 실험 방향을 제안했지만 실제 실험 수행과 판정은 연구자가 담당했다.",
+              "evidenceIds": [
+                "openai-gpt5-immunology-20260623"
+              ]
+            },
+            "evidenceIds": [
+              "openai-quantum-lab-agent-20260908",
+              "openai-quantum-lab-case-20260904"
+            ],
+            "note": "23+14+12+12+9=70. 실제 하드웨어 운영은 확인됐지만 제한된 연구실 사례와 전문가 개입 때문에 관찰로 둔다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-04",
+            "publishedAt": "2026-09-08",
+            "firstSeenAt": "2026-09-09T08:04:29+09:00",
+            "verifiedAt": "2026-09-09T08:04:29+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "양자컴퓨팅·과학 장비 자동화",
+              "relationship": "indirect",
+              "text": "실험 제어·분석 루프의 자동화 가능성을 보여주지만 특정 장비 회사의 계약·매출은 확인되지 않았다.",
+              "evidenceIds": [
+                "openai-quantum-lab-agent-20260908",
+                "openai-quantum-lab-case-20260904"
+              ]
+            }
+          ]
+        }
+      },
       {
         "eventId": "anthropic-fermat-formalization",
         "evidenceIds": [
@@ -3069,6 +3859,22 @@
     ],
     "hypotheses": [
       {
+        "id": "consumer-personal-agent-platform",
+        "title": "개인용 AI 에이전트의 안전한 대규모 상용화",
+        "question": "개인용 행동 에이전트가 반복 사용·유료 구독·거래를 만들면서 승인·감사·격리 통제로 사고율을 관리하는가?",
+        "leaderNames": [
+          "마크 저커버그(Mark Zuckerberg)"
+        ]
+      },
+      {
+        "id": "high-na-euv-large-mask-transition",
+        "title": "High-NA EUV의 대형 마스크 전환",
+        "question": "12인치 마스크와 High-NA 양산 로드맵이 실제 장비 발주·시험선·수율·처리량 개선으로 이어지는가?",
+        "leaderNames": [
+          "웨이저자(C.C. Wei)"
+        ]
+      },
+      {
         "id": "ai-science-verifiable-output",
         "leaderNames": [
           "다리오 아모데이(Dario Amodei)",
@@ -3293,17 +4099,218 @@
     "version": 1
   },
   "researchWindow": {
-    "end": "2026-09-08T07:39:35+09:00",
-    "start": "2026-09-07T07:41:34+09:00"
+    "start": "2026-09-08T07:39:35+09:00",
+    "end": "2026-09-09T08:04:29+09:00"
   },
   "runSummary": {
-    "excludedCount": 4,
     "leadersChecked": 22,
-    "notes": "22명 전원의 공식 채널과 직접 보도를 확인했다. 72시간 겹침 수집에서 Anthropic의 9월 4일 공개를 지연 발견해 사건일을 유지한 채 결정적 신호로 기록했다. 기존 카드의 재평가·승격·반증·지연 상태 변경은 없다.",
-    "sourcesChecked": 32
+    "sourcesChecked": 30,
+    "excludedCount": 3,
+    "notes": "22명 전원을 확인했다. 결정적 신호 2건과 관찰 신호 2건을 신규 기록했고 재평가·승격·반증·지연 상태 변경은 없다. OpenAI의 청소년 연구 보조금·언론 지원·Images 2.5는 확약 규모·성과 또는 전략 변화가 부족해 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "openai-navier-stokes-solution",
+      "eventId": "openai-navier-stokes-solution",
+      "hypothesisId": "ai-science-verifiable-output",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI",
+      "initials": "SA",
+      "score": 93,
+      "kind": "실행",
+      "date": "2026.09.06",
+      "reportDate": "2026.09.09",
+      "theme": "AI 배포",
+      "headline": "OpenAI가 나비에–스토크스 밀레니엄 문제 해법과 Lean 형식화를 공개했지만 수학계의 해결 인정은 남아 있다",
+      "takeaway": "약 1만 개의 에이전트가 만든 해법을 논문과 기계 검증 코드로 공개해 AI 과학 연구가 제안에서 검증 가능한 산출물로 이동했다. 다만 OpenAI의 발표와 Clay 수학연구소의 공식 해결 인정은 별개다.",
+      "before": "6월 면역학 사례와 9월 6일 내부 연구 지표는 AI가 연구자의 가설 생성과 실험량을 보조한다는 단계였고, 공개된 밀레니엄 문제 수준의 형식 증명은 없었다.",
+      "now": "9월 6일까지 나비에–스토크스 해법의 논문과 Lean 검증을 완성하고 9월 8일 전체 산출물을 공개했다.",
+      "facts": [
+        "OpenAI는 매끄러운 외력이 작용하고 초기 속도가 0인 3차원 비압축성 유체가 유한시간에 특이점을 만든다는 해법을 제시했다.",
+        "약 1만 개의 에이전트가 약 88시간 작업했고 GPT-6 Astra를 이용한 Lean 형식화·검증에 17시간이 더 걸렸으며, 나비에–스토크스 작업에는 약 1,300억 출력 토큰이 쓰였다.",
+        "해법 논문과 Lean 저장소가 공개돼 명제와 형식 코드의 검토가 가능하다.",
+        "OpenAI는 상금을 청구하지 않겠다고 밝혔고, Clay 수학연구소는 적격 출판·2년 경과·수학계의 일반적 인정을 상금 심사 조건으로 둔다."
+      ],
+      "action": "확인된 행동은 대규모 다중 에이전트 연산 집행과 해법 논문·Lean 형식 코드 공개다. 외부 동료검토와 Clay 수학연구소의 해결 인정은 아직 확인되지 않았다.",
+      "impact": "해석: AI 모델 경쟁의 증거가 벤치마크에서 외부가 검토할 수 있는 수학·과학 산출물로 이동할 수 있다. 연구 연산·형식 검증 수요에는 긍정적이지만 한 결과의 최종 인정 전까지 일반 연구 생산성을 확정할 수 없다.",
+      "impactPath": [
+        "대규모 다중 에이전트가 공개 난제의 해법 생성",
+        "논문·Lean 코드로 검토 가능한 산출물 전환",
+        "과학 연구 연산·형식 검증 도구의 수요와 검토 병목 변화"
+      ],
+      "counter": "회사가 만든 결과를 회사가 발표한 단계이며 독립 수학자의 동료검토와 전체 Lean 재실행은 아직 확인되지 않았다. Clay 연구소의 현재 목록과 공식 인정 절차를 건너뛰어 ‘해결 확정’으로 표현할 수 없다.",
+      "next": "독립 수학자·저널의 오류 검토, 공개 저장소의 전체 재실행, 적격 출판 여부와 Clay 수학연구소의 공식 상태 변경을 확인한다.",
+      "source": "https://openai.com/index/navier-stokes-solution/",
+      "sourceLabel": "OpenAI 공식 연구 공개 · 2026.09.08",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-09T08:04:29+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 29,
+            "reason": "약 1만 에이전트의 연산을 집행하고 해법 논문과 Lean 형식 코드를 공개했다."
+          },
+          "change": {
+            "score": 20,
+            "reason": "연구 보조·내부 가동량 공개에서 공개 난제의 검증 가능한 전체 산출물로 범위가 크게 확장됐다."
+          },
+          "impact": {
+            "score": 20,
+            "reason": "AI 과학 연구와 형식 검증의 경쟁 기준을 바꿀 수 있으나 단일 결과의 외부 인정은 남아 있다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "논문·Lean 코드·Clay의 공식 인정 조건으로 맞고 틀림을 판별할 절차가 구체적이다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "회사 원문·논문·저장소와 Clay 공식 규칙을 직접 확인했다. 독립 동료검토 전이라 만점은 부여하지 않았다."
+          }
+        },
+        "baseline": {
+          "date": "2026-06-23",
+          "statement": "OpenAI는 GPT-5가 면역학자의 기존 데이터에서 실험 가능한 기전을 제안한 사례를 공개했지만 실제 실험 수행과 판정은 연구자가 맡았다.",
+          "evidenceIds": [
+            "openai-gpt5-immunology-20260623"
+          ]
+        },
+        "evidenceIds": [
+          "openai-navier-stokes-official-20260908",
+          "openai-navier-stokes-paper-20260908",
+          "openai-navier-stokes-lean-20260908",
+          "clay-millennium-rules-20180926"
+        ],
+        "note": "29+20+20+15+9=93. 공개 산출물이라는 성과와 수학계의 최종 해결 인정을 분리한다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-06",
+        "publishedAt": "2026-09-08",
+        "firstSeenAt": "2026-09-09T08:04:29+09:00",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 과학 연구·형식 검증",
+          "relationship": "indirect",
+          "text": "공개 난제의 논문과 Lean 코드가 모델 성능의 외부 검토 가능한 산출물이 됐다. 특정 상장사 수혜나 매출은 확인되지 않았다.",
+          "evidenceIds": [
+            "openai-navier-stokes-official-20260908",
+            "openai-navier-stokes-paper-20260908",
+            "openai-navier-stokes-lean-20260908"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-personal-agent",
+      "eventId": "meta-muse-personal-agent",
+      "hypothesisId": "consumer-personal-agent-platform",
+      "leader": "마크 저커버그(Mark Zuckerberg)",
+      "role": "Meta Founder & CEO",
+      "initials": "MZ",
+      "score": 89,
+      "kind": "실행",
+      "date": "2026.09.08",
+      "reportDate": "2026.09.09",
+      "theme": "AI 배포",
+      "headline": "Meta가 결제·웹 작업을 수행하는 개인용 AI 에이전트 Muse를 미국에 실제 배포했다",
+      "takeaway": "저커버그의 개인용 초지능 구상이 웹 탐색·양식 작성·결제를 수행하는 소비자 제품으로 전환됐다. 무료 이용과 구독을 함께 시작했지만 반복 사용·유료 전환·안전 성과는 아직 미확인이다.",
+      "before": "8월 10일 저커버그는 개인의 목표를 돕는 초지능을 널리 제공하겠다는 방향을 제시했지만, 외부 웹과 결제를 실제로 수행하는 소비자용 제품은 제시하지 않았다.",
+      "now": "9월 8일 미국에서 iOS·Android·웹용 Muse를 배포하고 유료 구독, 가상 컴퓨터, 인터넷 행동 승인·감사와 결제 전 확인을 적용했다.",
+      "facts": [
+        "Meta는 미국 이용자를 대상으로 Muse를 iOS·Android와 muse.ai에 배포했으며 AI 안경 지원도 예고했다.",
+        "Muse는 전용 가상 컴퓨터와 브라우저에서 웹 탐색·양식 작성·협상·예약 같은 장기 작업을 수행하고 앱을 닫은 뒤에도 계속할 수 있다.",
+        "인터넷 행동을 승인하는 Sentinel, 감사 기록, 이메일 전송·결제 전 사용자 확인과 자격증명 비공개 구조를 적용했다.",
+        "대부분의 이용은 무료이며 구독 요금제를 제공하고 Stripe Link의 일회용 카드 결제를 우선 연결했다."
+      ],
+      "action": "확인된 행동은 미국 내 다중 플랫폼 출시와 무료·구독 요금제, 웹 작업·결제·감사 통제의 실제 배포다. 반복 이용률·유료 전환·거래 성공률과 사고율은 아직 공개되지 않았다.",
+      "impact": "해석: 소비자 AI 경쟁이 대화형 답변에서 실제 거래와 장기 작업을 수행하는 운영 계층으로 이동한다. 결제·신원·보안 인프라 수요는 늘 수 있지만 Meta의 수익화와 사고 비용은 함께 검증해야 한다.",
+      "impactPath": [
+        "개인 에이전트가 웹 작업과 결제까지 실행",
+        "결제·신원·감사 통제가 제품 채택의 핵심 요건으로 이동",
+        "소비자 플랫폼의 이용시간·구독·거래 경쟁 변화"
+      ],
+      "counter": "미국 초기 배포이며 회사가 제시한 기능과 통제의 실제 성공률은 공개되지 않았다. 사용자 승인 절차가 사고를 완전히 막는지, 무료 사용자가 구독과 거래로 전환하는지는 미확인이다.",
+      "next": "월간 활성 사용자, 작업 완료율·취소율, 유료 전환율, 결제 거래량과 보안 사고·인간 승인 개입률을 확인한다. 미국 밖과 AI 안경 배포 일정도 추적한다.",
+      "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "sourceLabel": "Meta 공식 출시 발표 · 2026.09.08",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-09T08:04:29+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 27,
+            "reason": "미국에서 앱·웹 제품, 구독과 웹 작업·결제 통제를 실제 배포했다."
+          },
+          "change": {
+            "score": 19,
+            "reason": "개인용 초지능 비전을 외부 행동과 결제를 수행하는 소비자 제품으로 전환했다."
+          },
+          "impact": {
+            "score": 20,
+            "reason": "소비자 플랫폼·결제·신원·보안의 경쟁 구조에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "사용자·유료 전환·완료율·거래량·사고율로 판별할 수 있으나 공개 성과 기한은 없다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "저커버그의 기준선 원문과 Meta의 상세 출시문을 직접 대조했다. 성과 수치는 회사 밖에서 아직 확인되지 않았다."
+          }
+        },
+        "baseline": {
+          "date": "2026-08-10",
+          "statement": "저커버그는 개인의 목표를 돕는 개인용 초지능을 광범위하게 제공하겠다고 밝혔지만 소비자용 행동 에이전트의 배포는 없었다.",
+          "evidenceIds": [
+            "meta-personal-superintelligence-letter-20260810"
+          ]
+        },
+        "evidenceIds": [
+          "meta-muse-personal-agent-20260908"
+        ],
+        "note": "27+19+20+14+9=89. 비전의 제품 실행은 확인됐지만 채택·수익·안전 결과는 분리해 추적한다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-08",
+        "publishedAt": "2026-09-08",
+        "firstSeenAt": "2026-09-09T08:04:29+09:00",
+        "verifiedAt": "2026-09-09T08:04:29+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "소비자 AI 에이전트·결제·신원",
+          "relationship": "confirmed",
+          "text": "Muse는 Stripe Link의 일회용 카드 결제를 실제 연결했고 다른 결제·자격증명 통합을 예고했다.",
+          "evidenceIds": [
+            "meta-muse-personal-agent-20260908"
+          ]
+        },
+        {
+          "sector": "소비자 플랫폼·에이전트 보안",
+          "relationship": "indirect",
+          "text": "장기 웹 작업을 수행하는 에이전트는 승인·감사·격리 인프라를 제품 경쟁 요소로 만든다.",
+          "evidenceIds": [
+            "meta-muse-personal-agent-20260908"
+          ]
+        }
+      ]
+    },
     {
       "action": "Claude 다중 에이전트가 만든 전체 Lean 증명·의존성·검증 스크립트를 공개했다. 독립 기관의 처음부터 끝까지 재실행 결과는 아직 확인되지 않았다.",
       "assessment": {
@@ -4445,14 +5452,14 @@
     }
   ],
   "status": "signals",
-  "statusMessage": "오늘 새로 확인한 결정적 신호 1건, 관찰 신호 0건입니다.",
+  "statusMessage": "오늘 신규 결정적 신호 2건과 신규 관찰 신호 2건을 확인했습니다.",
   "themes": [
     {
       "conviction": 99,
       "direction": "0",
       "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son) · 웨이저자(C.C. Wei) · 마크 앤드리슨(Marc Andreessen)",
       "name": "AI 인프라",
-      "note": "SB Energy의 8.8GW 계약·IPO 검증과 NVIDIA의 대형 생태계 인수로 컴퓨팅·전력·개발자 배포망을 함께 장악하려는 자본 배치가 지속",
+      "note": "TSMC·ASML이 High-NA 양산과 12인치 마스크 전환의 장기 일정을 제시해 AI 인프라 경쟁이 연산·전력뿐 아니라 첨단 노광 처리량과 원가 구조로 확장",
       "research": {
         "comparison": {
           "from": null,
@@ -4461,6 +5468,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "tsmc-highna-euv-roadmap",
+            "eventIds": [
+              "tsmc-highna-euv-roadmap"
+            ],
+            "note": "하나의 회사 사건으로 집계하며 반복 보도나 같은 거래 참여자를 독립 사건으로 늘리지 않는다."
+          },
           {
             "eventIds": [
               "ports-pike"
@@ -4492,6 +5506,15 @@
         ],
         "opposing": [
           {
+            "eventId": "tsmc-highna-euv-roadmap",
+            "text": "2030~2033년의 장기 목표이며 자본지출·장비 발주·참여사·생산 수율이 공개되지 않았다. 40% 생산성은 ASML의 예상치이고 TSMC의 6월 경제성 조건도 유지된다.",
+            "evidenceIds": [
+              "tsmc-highna-mask-initiative-20260908",
+              "tsmc-highna-reuters-20260908"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "openai-research-metrics",
             "evidenceIds": [
               "openai-research-metrics-20260906"
@@ -4513,6 +5536,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "tsmc-highna-euv-roadmap",
+            "text": "6월의 ‘경제성이 맞을 때 생산 도입’ 원칙을 철회한 것은 아니지만, 연구장비 보유에서 양산·대형 마스크 전환 일정이 있는 공동 확약으로 진전됐다. 장비 발주·자본지출·참여사 공개 전이므로 관찰 단계다.",
+            "evidenceIds": [
+              "tsmc-highna-mask-initiative-20260908",
+              "tsmc-highna-reuters-20260908"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "openai-research-metrics",
             "evidenceIds": [
@@ -4642,7 +5674,7 @@
       "direction": "0",
       "leaders": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 데미스 허사비스(Demis Hassabis) · 마크 저커버그(Mark Zuckerberg) · 다리오 아모데이(Dario Amodei) · 사티아 나델라(Satya Nadella)",
       "name": "AI 배포",
-      "note": "OpenAI·Google·Meta·xAI의 제품 배포에 더해 Anthropic이 기계 검증 가능한 대규모 연구 산출물까지 공개하며 에이전트 배포 범위가 확장",
+      "note": "OpenAI의 검증 가능한 수학 산출물·실험실 운영과 Meta의 소비자 거래형 에이전트 출시가 더해져 AI 배포가 답변에서 연구·하드웨어·결제 실행으로 확장",
       "research": {
         "comparison": {
           "from": null,
@@ -4651,6 +5683,27 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "openai-quantum-lab-agent",
+            "eventIds": [
+              "openai-quantum-lab-agent"
+            ],
+            "note": "하나의 회사 사건으로 집계하며 반복 보도나 같은 거래 참여자를 독립 사건으로 늘리지 않는다."
+          },
+          {
+            "id": "meta-muse-personal-agent",
+            "eventIds": [
+              "meta-muse-personal-agent"
+            ],
+            "note": "하나의 회사 사건으로 집계하며 반복 보도나 같은 거래 참여자를 독립 사건으로 늘리지 않는다."
+          },
+          {
+            "id": "openai-navier-stokes-solution",
+            "eventIds": [
+              "openai-navier-stokes-solution"
+            ],
+            "note": "하나의 회사 사건으로 집계하며 반복 보도나 같은 거래 참여자를 독립 사건으로 늘리지 않는다."
+          },
           {
             "eventIds": [
               "anthropic-fermat-formalization"
@@ -4696,6 +5749,34 @@
         ],
         "opposing": [
           {
+            "eventId": "openai-quantum-lab-agent",
+            "text": "한 연구실·표준 칩의 회사 협력 사례이며 총 시간·비용 절감률과 오류율이 비교군과 함께 공개되지 않았다. 약한 신호 해석은 여전히 전문가 병목이다.",
+            "evidenceIds": [
+              "openai-quantum-lab-agent-20260908",
+              "openai-quantum-lab-case-20260904"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "meta-muse-personal-agent",
+            "text": "미국 초기 배포이며 회사가 제시한 기능과 통제의 실제 성공률은 공개되지 않았다. 사용자 승인 절차가 사고를 완전히 막는지, 무료 사용자가 구독과 거래로 전환하는지는 미확인이다.",
+            "evidenceIds": [
+              "meta-muse-personal-agent-20260908"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-navier-stokes-solution",
+            "text": "회사가 만든 결과를 회사가 발표한 단계이며 독립 수학자의 동료검토와 전체 Lean 재실행은 아직 확인되지 않았다. Clay 연구소의 현재 목록과 공식 인정 절차를 건너뛰어 ‘해결 확정’으로 표현할 수 없다.",
+            "evidenceIds": [
+              "openai-navier-stokes-official-20260908",
+              "openai-navier-stokes-paper-20260908",
+              "openai-navier-stokes-lean-20260908",
+              "clay-millennium-rules-20180926"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "anthropic-fermat-formalization",
             "evidenceIds": [
               "anthropic-fermat-official-20260904",
@@ -4726,6 +5807,34 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "openai-quantum-lab-agent",
+            "text": "과학 보조가 텍스트 가설 생성에서 실제 실험 하드웨어의 반복 측정·분석·조정으로 확장됐다. 한 연구실의 정형 작업 사례이고 약한 신호에는 전문가 개입이 필요해 관찰 단계다.",
+            "evidenceIds": [
+              "openai-quantum-lab-agent-20260908",
+              "openai-quantum-lab-case-20260904"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "meta-muse-personal-agent",
+            "text": "저커버그의 개인용 초지능 구상이 웹 탐색·양식 작성·결제를 수행하는 소비자 제품으로 전환됐다. 무료 이용과 구독을 함께 시작했지만 반복 사용·유료 전환·안전 성과는 아직 미확인이다.",
+            "evidenceIds": [
+              "meta-muse-personal-agent-20260908"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-navier-stokes-solution",
+            "text": "약 1만 개의 에이전트가 만든 해법을 논문과 기계 검증 코드로 공개해 AI 과학 연구가 제안에서 검증 가능한 산출물로 이동했다. 다만 OpenAI의 발표와 Clay 수학연구소의 공식 해결 인정은 별개다.",
+            "evidenceIds": [
+              "openai-navier-stokes-official-20260908",
+              "openai-navier-stokes-paper-20260908",
+              "openai-navier-stokes-lean-20260908",
+              "clay-millennium-rules-20180926"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "anthropic-fermat-formalization",
             "evidenceIds": [
@@ -4830,5 +5939,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-08T07:39:35+09:00"
+  "updatedAt": "2026-09-09T08:04:29+09:00"
 }
