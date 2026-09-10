@@ -1,10 +1,12 @@
-name: Deploy K-Ramen Dashboard
+name: Deploy YM Research Website
 
 on:
   push:
     branches:
       - main
     paths:
+      - 'index.html'
+      - 'homepage/**'
       - 'k-ramen-dashboard/**'
       - 'leader-signal-radar/**'
       - '.github/workflows/deploy-k-ramen-dashboard.yml'

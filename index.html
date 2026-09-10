@@ -1,385 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>YM Research — 돈 되는 고민만을 담아내겠습니다</title>
-<meta name="description" content="YM Research — 서울대학교 투자동아리 출신이 설립한 독립 투자 리서치 회사." />
-<link rel="icon" type="image/png" href="logo-mark.png" />
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          ink: '#0a0a0b',     /* 거의 검정 */
-          navy: '#111113',    /* 딥 차콜 (로고 블랙) */
-          slate: '#26262b',
-          gold: '#c89a47',     /* 로고 골드 */
-          goldlt: '#e7c87d',   /* 밝은 골드 */
-          mist: '#f6f3ec',     /* 웜 오프화이트 */
-        },
-        fontFamily: {
-          sans: ['Inter', 'Noto Sans KR', 'sans-serif'],
-        },
-      },
-    },
-  };
-</script>
-<style>
-  html { scroll-behavior: smooth; }
-  .grid-bg {
-    background-image:
-      linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-    background-size: 48px 48px;
-  }
-  .glass { backdrop-filter: blur(10px); }
-  .fade-up { animation: fadeUp .8s ease both; }
-  @keyframes fadeUp { from { opacity:0; transform: translateY(16px);} to {opacity:1; transform:none;} }
-  .gold-text {
-    background: linear-gradient(120deg,#e7c87d,#c89a47 55%,#a9762f);
-    -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#141716">
+  <title>YM Research — 돈 되는 고민만을 담아내겠습니다</title>
+  <meta name="description" content="YM Research는 독립 투자 리서치 회사입니다. 산업의 변화와 현장의 목소리, 데이터와 토론으로 투자 논리를 깊이 있게 검증합니다.">
+  <link rel="icon" type="image/png" href="homepage/assets/logo-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="homepage/styles.css">
+  <script src="homepage/app.js" defer></script>
 </head>
-<body class="font-sans bg-white text-ink antialiased">
-
-  <!-- ===== NAV ===== -->
-  <header class="fixed top-0 inset-x-0 z-50 bg-navy/90 glass border-b border-white/10">
-    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3 text-white">
-        <span class="w-10 h-10 rounded-lg bg-mist flex items-center justify-center p-1.5">
-          <img src="logo-mark.png" alt="YM Research 로고" class="w-full h-full object-contain"/>
-        </span>
-        <span class="font-bold tracking-tight text-lg">YM <span class="gold-text font-extrabold">Research</span></span>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header" id="site-header">
+    <div class="shell header-inner">
+      <a href="#home" class="brand" aria-label="YM Research 홈">
+        <span class="brand-mark" aria-hidden="true"><img src="homepage/assets/logo-mark.png" alt="" width="70" height="70"></span>
+        <span>YM <b>Research</b></span>
       </a>
-      <nav class="hidden md:flex items-center gap-8 text-sm text-white/70">
-        <a href="#research" class="hover:text-white transition">리서치</a>
-        <a href="#approach" class="hover:text-white transition">투자 철학</a>
-        <a href="#insights" class="hover:text-white transition">인사이트</a>
-        <a href="#team" class="hover:text-white transition">팀</a>
+      <nav class="desktop-nav" aria-label="주 메뉴">
+        <a href="#research">리서치</a><a href="#approach">투자 철학</a><a href="#insights">인사이트</a><a href="#team">팀 소개</a>
       </nav>
-      <a href="https://t.me/ym_research" target="_blank" rel="noopener"
-         class="text-sm font-semibold bg-gold text-ink px-4 py-2 rounded-md hover:bg-goldlt transition">텔레그램 채널</a>
+      <a class="header-cta" href="https://t.me/ym_research" target="_blank" rel="noopener noreferrer">텔레그램 채널 <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
     </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="모바일 메뉴" hidden>
+      <a href="#research">리서치 <span>01</span></a><a href="#approach">투자 철학 <span>02</span></a><a href="#insights">인사이트 <span>03</span></a><a href="#team">팀 소개 <span>04</span></a>
+      <a href="https://t.me/ym_research" target="_blank" rel="noopener noreferrer">텔레그램 채널 <span>↗</span></a>
+    </nav>
   </header>
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="shell hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span class="short-rule"></span> INDEPENDENT INVESTMENT RESEARCH</p>
+          <h1>돈 되는 고민<span class="gold">만을</span><br>담아내겠습니다<span class="gold">.</span></h1>
+          <p class="hero-description">시장을 읽고, 현장에서 확인하고, 끝까지 질문합니다.<br>깊이 있는 고민이 더 나은 투자 판단으로 이어지도록.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#insights">리서치 읽어보기 <span aria-hidden="true">↗</span></a>
+            <a class="text-link light" href="#approach">우리가 고민하는 방식 <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <p>좋은 투자는,<br><strong>좋은 질문에서 시작됩니다.</strong></p>
+          <span class="hero-signature">Independent minds.<br><i>Lasting conviction.</i></span>
+          <a href="#research" class="scroll-link" aria-label="리서치 커버리지로 이동"><span>EXPLORE</span><span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
 
-  <!-- ===== HERO ===== -->
-  <section class="relative bg-navy grid-bg pt-32 pb-24 overflow-hidden">
-    <div class="absolute -top-24 -right-24 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
-    <div class="max-w-7xl mx-auto px-6 relative">
-      <div class="max-w-3xl fade-up">
-        <span class="inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-gold uppercase mb-5">
-          <span class="w-6 h-px bg-gold"></span> YM Research · Independent Investment Research
-        </span>
-        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-[1.15] tracking-tight">
-          <span class="gold-text">돈 되는 고민</span>만을<br>담아내겠습니다.
-        </h1>
-        <p class="mt-6 text-lg text-white/70 leading-relaxed max-w-2xl">
-          YM Research는 <strong class="text-white">서울대학교 투자동아리 출신</strong>이 설립한 독립 투자 리서치 회사입니다.
-          화려한 전망이 아니라, 실제 수익으로 이어지는 질문에 집중합니다.
-          정량 모델과 현장 리서치로 교차 검증한 편향 없는 의사결정 근거를 제공합니다.
-        </p>
-        <div class="mt-9 flex flex-wrap gap-4">
-          <a href="#research" class="bg-gold text-ink font-semibold px-6 py-3 rounded-md hover:bg-goldlt transition">리서치 둘러보기</a>
-          <a href="https://t.me/ym_research" target="_blank" rel="noopener"
-             class="border border-white/25 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition flex items-center gap-2">
-            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.12-3.04-1.98 1.93c-.23.23-.42.42-.84.42z"/></svg>
-            리서치 받아보기
-          </a>
-        </div>
+    <section class="intro-strip">
+      <div class="shell intro-grid">
+        <p class="intro-heading">독립적인 시각.<br><span>치열한 리서치.</span></p>
+        <p class="intro-description">서울대학교 투자동아리 출신이 설립한<br class="desktop-break"> 독립 투자 리서치 회사, <strong>YM Research.</strong><br>데이터와 현장의 목소리를 함께 읽습니다.</p>
+        <div class="intro-note"><span>OUR FOCUS</span><p>산업의 변화에서<br>기업의 가치까지</p></div>
       </div>
+    </section>
 
-      <!-- stat strip -->
-      <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 rounded-xl overflow-hidden border border-white/10">
-        <div class="bg-navy p-6">
-          <div class="text-3xl font-extrabold text-white">서울대</div>
-          <div class="text-sm text-white/50 mt-1">투자동아리 출신 설립</div>
+    <section id="research" class="section coverage">
+      <div class="shell">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="section-number">01</span> OUR COVERAGE</p><h2>기회가 있는 곳에,<br>우리의 질문이 있습니다.</h2></div>
+          <p class="section-description">특정 섹터에 얽매이지 않습니다.<br>산업의 경계를 넘나들며 변화의 본질을 찾습니다.</p>
         </div>
-        <div class="bg-navy p-6">
-          <div class="text-3xl font-extrabold text-white">TOP <span class="text-gold">10</span></div>
-          <div class="text-sm text-white/50 mt-1">대한민국 투자 채널</div>
-        </div>
-        <div class="bg-navy p-6">
-          <div class="text-3xl font-extrabold text-white">90<span class="text-gold">%+</span></div>
-          <div class="text-sm text-white/50 mt-1">Premier 유료구독자 유지율</div>
-        </div>
-        <div class="bg-navy p-6">
-          <div class="text-3xl font-extrabold text-white">100<span class="text-gold">%</span></div>
-          <div class="text-sm text-white/50 mt-1">돈 되는 고민에 집중</div>
+        <div class="coverage-grid">
+          <article class="coverage-item"><div class="coverage-meta"><span>01 / MACRO & STRATEGY</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 25V7m0 18h24M9 20l6-7 5 3 8-10"/></svg></div><h3>거시 · 전략</h3><p>금리·환율·유동성 사이클을 바탕으로<br>시장의 큰 방향을 읽습니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>02 / TECH & SEMICONDUCTOR</span><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="8" width="16" height="16" rx="1"/><path d="M12 3v5m8-5v5M12 24v5m8-5v5M3 12h5m-5 8h5m16-8h5m-5 8h5"/><rect x="12" y="12" width="8" height="8"/></svg></div><h3>테크 · 반도체</h3><p>AI 수요와 공급망의 변화를 추적하고<br>실적의 연결고리를 분석합니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>03 / BIO & HEALTHCARE</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M12 5h8v7h7v8h-7v7h-8v-7H5v-8h7z"/></svg></div><h3>바이오 · 헬스케어</h3><p>파이프라인과 임상 단계별로<br>기업의 가능성과 리스크를 살핍니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>04 / ENERGY & INDUSTRIALS</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19 3 7 18h9l-3 11 12-16h-9z"/></svg></div><h3>에너지 · 산업재</h3><p>원자재·전력·인프라의 변화가<br>밸류체인에 미치는 영향을 분석합니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>05 / CONSUMER</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 11h20l2 17H4zm6 0V8a4 4 0 0 1 8 0v3"/></svg></div><h3>소비재</h3><p>브랜드·유통·소비 트렌드에서<br>지속 가능한 성장의 단서를 찾습니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>06 / SHIPBUILDING & DEFENSE</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m16 3 11 4v8c0 7-11 14-11 14S5 22 5 15V7zm-5 12 4 4 7-8"/></svg></div><h3>조선 · 방산</h3><p>수주 사이클과 정책의 변화를<br>기업의 경쟁력과 함께 봅니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>07 / SPACE & ROBOTICS</span><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="4"/><ellipse cx="16" cy="16" rx="14" ry="7" transform="rotate(-35 16 16)"/><path d="M13 4c6 2 13 14 12 20M7 9c-1 6 6 18 12 19"/></svg></div><h3>우주 · 로봇</h3><p>기술의 진보가 만드는<br>새로운 산업과 투자 기회를 탐구합니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>08 / QUANT & FACTOR</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 27V17h4v10m4 0V6h4v21m4 0V12h4v15M3 28h26"/></svg></div><h3>퀀트 · 팩터</h3><p>데이터와 모델로 투자 가설을 점검하고<br>포트폴리오의 위험을 살핍니다.</p></article>
+          <article class="coverage-item"><div class="coverage-meta"><span>09 / FINANCE & POLICY</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m3 11 13-8 13 8zM7 14v11m9-11v11m9-11v11M3 28h26"/></svg></div><h3>금융 · 정책</h3><p>자본비용과 규제의 변화가<br>시장의 기회를 어떻게 바꾸는지 봅니다.</p></article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== RESEARCH AREAS ===== -->
-  <section id="research" class="py-24 bg-mist">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
-        <div>
-          <span class="text-xs font-semibold tracking-widest text-gold uppercase">Coverage</span>
-          <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">리서치 커버리지</h2>
-        </div>
-        <p class="text-slate/70 max-w-md text-sm">특정 섹터에 얽매이지 않고, 전 산업에 걸쳐 <strong class="text-ink">모든 섹터</strong>를 커버합니다.</p>
-      </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">▦</div>
-          <h3 class="text-lg font-bold">거시 · 전략</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">금리·환율·유동성 사이클을 기반으로 자산배분 프레임을 제시합니다.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">⌬</div>
-          <h3 class="text-lg font-bold">테크 · 반도체</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">AI 수요 사이클과 캐파 증설을 추적하는 분기 모델.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">✚</div>
-          <h3 class="text-lg font-bold">바이오 · 헬스케어</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">파이프라인과 임상 단계별 가치를 정밀 평가합니다.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">⚡</div>
-          <h3 class="text-lg font-bold">에너지 · 산업재</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">원자재·전력·인프라 밸류체인을 심층 분석합니다.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">◍</div>
-          <h3 class="text-lg font-bold">소비재</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">브랜드·유통·소비 트렌드 변화를 추적합니다.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">⚓</div>
-          <h3 class="text-lg font-bold">조선 · 방산</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">수주 사이클과 정책 모멘텀을 함께 봅니다.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">✦</div>
-          <h3 class="text-lg font-bold">우주 · 로봇</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">차세대 성장 테마를 선제적으로 발굴합니다.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">◷</div>
-          <h3 class="text-lg font-bold">퀀트 · 팩터</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">멀티팩터 백테스트와 리스크 패리티 기반 포트폴리오.</p>
-        </div>
-        <div class="group bg-white rounded-xl p-7 border border-slate/10 hover:border-gold/50 hover:shadow-xl transition">
-          <div class="w-11 h-11 rounded-lg bg-navy text-gold flex items-center justify-center text-lg font-bold mb-5">$</div>
-          <h3 class="text-lg font-bold">금융 · 정책</h3>
-          <p class="text-sm text-slate/70 mt-2 leading-relaxed">자본비용과 규제 변화가 미치는 영향을 분석합니다.</p>
+    <section id="approach" class="section approach">
+      <div class="shell approach-grid">
+        <div class="approach-intro"><p class="eyebrow"><span class="section-number">02</span> OUR APPROACH</p><h2>확신보다 먼저,<br>검증이 있습니다.</h2><p>목표가보다 투자 논리에 집중합니다.<br>아이디어를 발견하는 순간부터 공유한 이후까지,<br>그 전제가 여전히 유효한지 질문합니다.</p><div class="approach-motto">Question.<br>Verify.<br><i>Repeat.</i></div></div>
+        <div class="process-list">
+          <details class="process-step" open><summary><span class="process-number">01</span><span><small>DISCOVER</small><strong>아이디어 발굴</strong></span><span class="expand-icon" aria-hidden="true"></span></summary><div class="process-body"><p>산업 변화와 현장에서 ‘돈 되는 고민’의 후보를 찾습니다. 변화의 시작점과 그 변화가 기업에 미치는 영향을 연결합니다.</p><span class="process-question">무엇이 달라지고 있는가?</span></div></details>
+          <details class="process-step"><summary><span class="process-number">02</span><span><small>VERIFY</small><strong>현장 · 채널 체크</strong></span><span class="expand-icon" aria-hidden="true"></span></summary><div class="process-body"><p>기업 관계자를 직접 만나고 공급망을 점검합니다. 숫자로 세운 가설이 실제 현장에서도 성립하는지 교차 검증합니다.</p><span class="process-question">데이터와 현장은 같은 이야기를 하는가?</span></div></details>
+          <details class="process-step"><summary><span class="process-number">03</span><span><small>CHALLENGE</small><strong>치열한 내부 토론</strong></span><span class="expand-icon" aria-hidden="true"></span></summary><div class="process-body"><p>팀원이 서로 논리의 약점을 짚고 반증합니다. 보고 싶은 근거만 모으지 않도록 다른 관점과 불리한 시나리오도 함께 살핍니다.</p><span class="process-question">우리의 생각이 틀렸다면, 무엇 때문인가?</span></div></details>
+          <details class="process-step"><summary><span class="process-number">04</span><span><small>SHARE & TRACK</small><strong>투자 논리 공유 · 추적</strong></span><span class="expand-icon" aria-hidden="true"></span></summary><div class="process-body"><p>투자 논리를 이해할 수 있는 언어로 전달합니다. 공유한 뒤에도 새로운 정보와 실적을 확인하며 전제의 변화를 추적합니다.</p><span class="process-question">투자 논리는 지금도 유효한가?</span></div></details>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== APPROACH ===== -->
-  <section id="approach" class="py-24 bg-navy grid-bg">
-    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
-      <div>
-        <span class="text-xs font-semibold tracking-widest text-gold uppercase">Our Process</span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-3 tracking-tight">검증 가능한 리서치 프로세스</h2>
-        <p class="text-white/60 mt-5 leading-relaxed">모든 리서치는 아이디어 → 검증 → 반증 → 공유의 단계를 거칩니다. 우리는 목표가를 맞히기보다, <span class="text-gold">돈 되는 투자 논리</span>가 끝까지 유효한지를 검증합니다.</p>
-        <div class="mt-8 space-y-5">
-          <div class="flex gap-4">
-            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">01</span>
-            <div><h4 class="text-white font-semibold">아이디어 발굴</h4><p class="text-sm text-white/55 mt-1">산업 변화와 현장에서 '돈 되는 고민'의 후보를 찾습니다.</p></div>
-          </div>
-          <div class="flex gap-4">
-            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">02</span>
-            <div><h4 class="text-white font-semibold">현장 · 채널 체크</h4><p class="text-sm text-white/55 mt-1">기업 관계자 미팅과 공급망 점검으로 가설을 검증합니다.</p></div>
-          </div>
-          <div class="flex gap-4">
-            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">03</span>
-            <div><h4 class="text-white font-semibold">치열한 내부 토론</h4><p class="text-sm text-white/55 mt-1">팀원이 서로 논리의 약점을 공격하며 끝까지 반증합니다.</p></div>
-          </div>
-          <div class="flex gap-4">
-            <span class="shrink-0 w-9 h-9 rounded-full border border-gold/40 text-gold flex items-center justify-center text-sm font-bold">04</span>
-            <div><h4 class="text-white font-semibold">투자 논리 공유 · 추적</h4><p class="text-sm text-white/55 mt-1">목표가가 아닌 '투자 논리'를 전달하고, 전제가 유효한지 계속 추적합니다.</p></div>
+    <section id="insights" class="section insights">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">03</span> SELECTED INSIGHTS</p><h2>생각의 깊이를,<br>리서치로 만나보세요.</h2></div><a href="https://t.me/ym_research" target="_blank" rel="noopener noreferrer" class="text-link">채널에서 더 읽기 <span aria-hidden="true">↗</span></a></div>
+        <div class="insights-grid">
+          <a class="insight-card insight-feature" href="https://t.me/ym_research/6238" target="_blank" rel="noopener noreferrer"><div class="insight-image"><img src="homepage/assets/insight-3.jpg" alt="마이크론 메모리 관련 리서치 자료" width="900" height="540" loading="lazy"><span class="image-label">SEMICONDUCTOR</span><span class="image-arrow" aria-hidden="true">↗</span></div><div class="article-meta"><span>테크 · 반도체</span><time datetime="2026-06-25">2026.06.25</time></div><h3>마이크론 어닝콜 —<br>자동차·로봇이 키우는 메모리</h3><p>자동차와 휴머노이드 로봇의 확산.<br>새로운 수요처가 만들어갈 메모리의 다음 사이클을 살펴봅니다.</p><span class="article-link">인사이트 읽기 <span aria-hidden="true">↗</span></span></a>
+          <div class="insights-side">
+            <a class="insight-card insight-compact" href="https://t.me/ym_research/6227" target="_blank" rel="noopener noreferrer"><div class="compact-copy"><div class="article-meta"><span>우주 · 로봇</span><time datetime="2026-06-22">2026.06.22</time></div><h3>JPM 휴머노이드<br>생산량 전망</h3><p>생산 전망의 기울기에서 읽는<br>로봇 산업의 성장 경로.</p><span class="article-link">인사이트 읽기 <span aria-hidden="true">↗</span></span></div><div class="compact-image"><img src="homepage/assets/insight-2.jpg" alt="휴머노이드 로봇 생산량 전망 자료" width="400" height="480" loading="lazy"></div></a>
+            <a class="insight-card insight-compact" href="https://t.me/ym_research/6147" target="_blank" rel="noopener noreferrer"><div class="compact-copy"><div class="article-meta"><span>테크 · 반도체</span><time datetime="2026-05-15">2026.05.15</time></div><h3>노무라 ‘AI 메모리’<br>핵심 리스크 3가지</h3><p>AI 수요의 지속성, 전력 병목, 금리.<br>성장의 이면에 놓인 질문들.</p><span class="article-link">인사이트 읽기 <span aria-hidden="true">↗</span></span></div><div class="compact-image"><img src="homepage/assets/insight-1.jpg" alt="AI 메모리 리서치 자료" width="400" height="480" loading="lazy"></div></a>
           </div>
         </div>
       </div>
-      <!-- mock report card -->
-      <div class="bg-white rounded-2xl shadow-2xl p-7 rotate-1 hover:rotate-0 transition">
-        <div class="flex items-center justify-between border-b border-slate/10 pb-4">
-          <div>
-            <div class="text-xs text-slate/50">COMPANY REPORT · 2025.10 · Premier</div>
-            <div class="font-bold text-lg">삼성전기 — AI로 레벨업 진행 중</div>
-          </div>
-          <span class="text-xs font-bold bg-green-100 text-green-700 px-2 py-1 rounded">BUY</span>
-        </div>
-        <div class="mt-5">
-          <div class="text-xs font-semibold tracking-widest text-gold uppercase mb-3">Investment Thesis</div>
-          <div class="space-y-3">
-            <div class="flex gap-2.5">
-              <span class="shrink-0 text-gold font-bold text-sm">01</span>
-              <p class="text-sm text-slate/70 leading-relaxed"><strong class="text-ink">사업구조 전환.</strong> 모바일에서 산업·전장으로, 이제 AI 인프라 수혜가 더해지며 밸류에이션 리레이팅이 진행 중.</p>
-            </div>
-            <div class="flex gap-2.5">
-              <span class="shrink-0 text-gold font-bold text-sm">02</span>
-              <p class="text-sm text-slate/70 leading-relaxed"><strong class="text-ink">MLCC 수요 폭증.</strong> AI 서버(GB200/GB300 랙스케일)는 고전압·고밀도 설계로 단위당 MLCC 탑재량이 급증.</p>
-            </div>
-            <div class="flex gap-2.5">
-              <span class="shrink-0 text-gold font-bold text-sm">03</span>
-              <p class="text-sm text-slate/70 leading-relaxed"><strong class="text-ink">과점 공급구조.</strong> 하이엔드 MLCC는 무라타·삼성전기로 제한적. 8월부터 주문 가속, 상반기 가동률 98% 도달.</p>
-            </div>
-          </div>
-        </div>
-        <div class="bg-mist rounded-lg p-3.5 mt-4 text-xs text-slate/70 leading-relaxed">
-          <span class="font-bold text-ink">✅ 결론.</span> 하반기 고부가 제품 믹스 개선이 본격화되며 실적 레벨업. AI 인프라 사이클의 직접 수혜주로 가격 협상력 우위.
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== INSIGHTS ===== -->
-  <section id="insights" class="py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
-        <div>
-          <span class="text-xs font-semibold tracking-widest text-gold uppercase">Latest</span>
-          <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">최신 인사이트</h2>
+    <section id="team" class="section team">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">04</span> THE PEOPLE BEHIND THE RESEARCH</p><h2>다른 관점이 모여,<br>더 깊은 생각이 됩니다.</h2></div><p class="section-description">매일 치열하게 토론하고, 현장에서 답을 찾는 사람들.<br>좋은 투자 기회를 함께 고민합니다.</p></div>
+        <div class="team-grid">
+          <article class="team-card"><div class="portrait"><img src="homepage/assets/team-pepelu.jpg" alt="페펠루 프로필" width="500" height="560" loading="lazy"><span>01</span></div><div class="team-name"><h3>페펠루</h3><span>Co-Founder</span></div><p>Generalist<br>매크로부터 개별 기업까지</p></article>
+          <article class="team-card"><div class="portrait"><img src="homepage/assets/team-roy.jpg" alt="로이 프로필" width="500" height="560" loading="lazy"><span>02</span></div><div class="team-name"><h3>로이</h3><span>Co-Founder</span></div><p>바이오 섹터<br>산업 전반 커버</p></article>
+          <article class="team-card"><div class="portrait"><img src="homepage/assets/team-cloud.webp" alt="구름 프로필" width="500" height="560" loading="lazy"><span>03</span></div><div class="team-name"><h3>구름</h3><span>Co-Founder</span></div><p>데이터 · 퀀트<br>모델 설계</p></article>
+          <article class="team-card"><div class="portrait"><img src="homepage/assets/team-churit.jpg" alt="춰릿 프로필" width="500" height="560" loading="lazy"><span>04</span></div><div class="team-name"><h3>춰릿</h3><span>Co-Founder</span></div><p>크로스섹터<br>산업 전반 커버</p></article>
         </div>
-        <a href="https://t.me/ym_research" target="_blank" rel="noopener" class="text-sm font-semibold text-ink hover:text-gold transition">전체 리포트 →</a>
       </div>
-      <div class="grid md:grid-cols-3 gap-8">
-        <a href="https://t.me/ym_research/6147" target="_blank" rel="noopener" class="group block">
-          <div class="aspect-video rounded-xl overflow-hidden mb-4 relative bg-gradient-to-br from-ink to-slate">
-            <img src="insight-1.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='insight-1.png'}else{this.style.display='none'}"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
-            <span class="absolute bottom-0 left-0 p-5 text-white/90 text-sm font-medium">MEMORY</span>
-          </div>
-          <div class="text-xs text-slate/50">2026.05.15 · 텔레그램</div>
-          <h3 class="font-bold text-lg mt-1 group-hover:text-gold transition">노무라 'AI 메모리' 리포트 — 핵심 리스크 3가지</h3>
-          <p class="text-sm text-slate/60 mt-2">AI 수요 지속성, 미국 전력·데이터센터 병목, 장기금리 상승. 노무라가 짚은 메모리 사이클의 3대 리스크를 정리했습니다.</p>
-        </a>
-        <a href="https://t.me/ym_research/6227" target="_blank" rel="noopener" class="group block">
-          <div class="aspect-video rounded-xl overflow-hidden mb-4 relative bg-gradient-to-br from-slate to-gold/70">
-            <img src="insight-2.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='insight-2.png'}else{this.style.display='none'}"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
-            <span class="absolute bottom-0 left-0 p-5 text-white/90 text-sm font-medium">ROBOT</span>
-          </div>
-          <div class="text-xs text-slate/50">2026.06.22 · 텔레그램</div>
-          <h3 class="font-bold text-lg mt-1 group-hover:text-gold transition">JPM 휴머노이드 생산량 전망 — 2035년 7,600만 대</h3>
-          <p class="text-sm text-slate/60 mt-2">로그스케일 그래프가 포인트. 2025년 1.2만 대 → 2030년 400만 대 → 2035년 7,600만 대로 보는 생산 곡선.</p>
-        </a>
-        <a href="https://t.me/ym_research/6238" target="_blank" rel="noopener" class="group block">
-          <div class="aspect-video rounded-xl overflow-hidden mb-4 relative bg-gradient-to-br from-ink to-slate">
-            <img src="insight-3.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='insight-3.png'}else{this.style.display='none'}"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
-            <span class="absolute bottom-0 left-0 p-5 text-white/90 text-sm font-medium">SEMICON</span>
-          </div>
-          <div class="text-xs text-slate/50">2026.06.25 · 텔레그램</div>
-          <h3 class="font-bold text-lg mt-1 group-hover:text-gold transition">마이크론 어닝콜 — 자동차·로봇이 키우는 메모리</h3>
-          <p class="text-sm text-slate/60 mt-2">L2+ 차량은 메모리 탑재량 5배, 휴머노이드 로봇은 10배. 다년간 이어질 메모리 수요 사이클.</p>
-        </a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== TEAM ===== -->
-  <section id="team" class="py-24 bg-mist">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center mb-14">
-        <span class="text-xs font-semibold tracking-widest text-gold uppercase">People</span>
-        <h2 class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight">리서치 팀</h2>
-        <p class="text-slate/60 mt-3 max-w-xl mx-auto text-sm">매일 치열하게 회의하고, 기업 관계자들을 직접 만나며, 좋은 투자 기회를 찾기 위해 고민합니다.</p>
-      </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-24 h-24 rounded-full bg-navy mx-auto mb-4 overflow-hidden relative flex items-center justify-center text-goldlt text-2xl font-extrabold">
-            페
-            <img src="페펠루.jpg" alt="페펠루" class="absolute inset-0 w-full h-full object-cover"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='페펠루.png'}else{this.style.display='none'}"/>
-          </div>
-          <h4 class="font-bold">페펠루</h4>
-          <p class="text-sm text-gold">Co-Founder</p>
-          <p class="text-xs text-slate/50 mt-2">Generalist · 매크로부터 개별 기업까지</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-24 h-24 rounded-full bg-slate mx-auto mb-4 overflow-hidden relative flex items-center justify-center text-goldlt text-2xl font-extrabold">
-            로
-            <img src="로이.jpg" alt="로이" class="absolute inset-0 w-full h-full object-cover"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='로이.png'}else{this.style.display='none'}"/>
-          </div>
-          <h4 class="font-bold">로이</h4>
-          <p class="text-sm text-gold">Co-Founder</p>
-          <p class="text-xs text-slate/50 mt-2">바이오 섹터 · 산업 전반 커버</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-24 h-24 rounded-full bg-ink mx-auto mb-4 overflow-hidden relative flex items-center justify-center text-goldlt text-2xl font-extrabold">
-            구
-            <img src="구름.jpg" alt="구름" class="absolute inset-0 w-full h-full object-cover"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='구름.png'}else{this.style.display='none'}"/>
-          </div>
-          <h4 class="font-bold">구름</h4>
-          <p class="text-sm text-gold">Co-Founder</p>
-          <p class="text-xs text-slate/50 mt-2">데이터 · 퀀트 모델 설계</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 text-center border border-slate/10">
-          <div class="w-24 h-24 rounded-full bg-gold/80 mx-auto mb-4 overflow-hidden relative flex items-center justify-center text-ink text-2xl font-extrabold">
-            춰
-            <img src="춰릿.jpg" alt="춰릿" class="absolute inset-0 w-full h-full object-cover"
-                 onerror="if(!this.dataset.f){this.dataset.f=1;this.src='춰릿.png'}else{this.style.display='none'}"/>
-          </div>
-          <h4 class="font-bold">춰릿</h4>
-          <p class="text-sm text-gold">Co-Founder</p>
-          <p class="text-xs text-slate/50 mt-2">크로스섹터 · 산업 전반 커버</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CTA / TELEGRAM ===== -->
-  <section id="contact" class="py-24 bg-navy grid-bg relative overflow-hidden">
-    <div class="absolute -bottom-32 -left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
-    <div class="max-w-3xl mx-auto px-6 text-center relative">
-      <div class="mx-auto mb-6 w-24 h-24 rounded-2xl bg-mist flex items-center justify-center p-4">
-        <img src="logo-mark.png" alt="YM Research 로고" class="w-full h-full object-contain"/>
-      </div>
-      <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">YM리서치의 인사이트를<br class="sm:hidden"> 구독하세요</h2>
-      <p class="text-white/60 mt-4">돈 되는 고민만을 담아 텔레그램 채널에서 전해드립니다.</p>
-      <div class="mt-8">
-        <a href="https://t.me/ym_research" target="_blank" rel="noopener"
-           class="inline-flex items-center gap-3 bg-gold text-ink font-bold px-8 py-4 rounded-xl hover:bg-goldlt transition text-lg shadow-lg shadow-gold/20">
-          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.12-3.04-1.98 1.93c-.23.23-.42.42-.84.42z"/></svg>
-          텔레그램 채널 입장하기
-        </a>
-      </div>
-      <p class="text-xs text-white/40 mt-5">@ym_research · 본 페이지는 정보 제공 목적이며 실제 투자 자문이 아닙니다.</p>
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="bg-ink text-white/50 py-12">
-    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-sm">
-      <div>
-        <div class="flex items-center gap-3 mb-3 text-white">
-          <span class="w-9 h-9 rounded-lg bg-mist flex items-center justify-center p-1.5">
-            <img src="logo-mark.png" alt="YM Research 로고" class="w-full h-full object-contain"/>
-          </span>
-          <span class="font-bold">YM Research</span>
-        </div>
-        <p class="text-xs leading-relaxed">서울대학교 투자동아리 출신이 설립한<br>독립 투자 리서치 회사.<br><span class="text-gold">"돈 되는 고민만을 담아내겠습니다."</span></p>
-      </div>
-      <div><h5 class="text-white font-semibold mb-3">리서치</h5><ul class="space-y-2 text-xs"><li>거시·전략</li><li>2차전지</li><li>반도체</li><li>퀀트</li></ul></div>
-      <div><h5 class="text-white font-semibold mb-3">회사</h5><ul class="space-y-2 text-xs"><li>소개</li><li>팀</li><li>채용</li><li><a href="https://t.me/ym_research" target="_blank" rel="noopener" class="hover:text-gold">텔레그램 문의</a></li></ul></div>
-      <div><h5 class="text-white font-semibold mb-3">법적 고지</h5><ul class="space-y-2 text-xs"><li>이용약관</li><li>개인정보처리방침</li><li>투자유의사항</li></ul></div>
-    </div>
-    <div class="max-w-7xl mx-auto px-6 mt-10 pt-6 border-t border-white/10 text-xs flex flex-wrap justify-between gap-3">
-      <span>© 2026 YM Research. All rights reserved.</span>
-      <span>본 자료는 정보 제공 목적이며 투자 권유가 아닙니다.</span>
-    </div>
-    <div class="max-w-7xl mx-auto px-6 mt-3 text-xs text-white/40 leading-relaxed">
-      당사는 유한회사 와이엠코퍼레이션 상호로 유사투자자문업 신고 절차가 완료되어 있습니다.
-    </div>
-  </footer>
-
+    <section id="contact" class="contact">
+      <div class="shell contact-inner"><div><p class="eyebrow">STAY CURIOUS. STAY CONNECTED.</p><h2>다음 투자 아이디어를,<br><span>함께 고민합니다.</span></h2><p>YM리서치의 인사이트를 텔레그램에서 만나보세요.</p></div><a class="contact-circle" href="https://t.me/ym_research" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span><strong>채널 바로가기</strong><small>@ym_research</small></a></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="shell"><div class="footer-top"><a href="#home" class="brand"><span class="brand-mark" aria-hidden="true"><img src="homepage/assets/logo-mark.png" alt="" width="70" height="70"></span><span>YM <b>Research</b></span></a><p>돈 되는 고민만을 담아내겠습니다.</p><a href="#home" class="back-top">BACK TO TOP <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><div><p>유한회사 와이엠코퍼레이션</p><p class="legal">당사는 유한회사 와이엠코퍼레이션 상호로 유사투자자문업 신고 절차가 완료되어 있습니다.<br>본 자료는 정보 제공 목적이며 투자 권유가 아닙니다.</p></div><span class="copyright">© 2026 YM Research.<br>All rights reserved.</span></div></div></footer>
 </body>
 </html>
