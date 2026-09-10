@@ -55,7 +55,7 @@
           "status": "unverified",
           "nextReviewDate": "2026-09-11",
           "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-          "recordedAt": "2026-09-11T07:53:00+09:00"
+          "reviewedAt": "2026-09-11T07:53:00+09:00"
         }
       ],
       "hypothesisId": "hyp-tesla-cybercab-austin-launch",
