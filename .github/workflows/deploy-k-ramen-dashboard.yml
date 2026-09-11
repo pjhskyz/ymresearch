@@ -53,17 +53,17 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = 'f3d4fff0dff681cd71c27ceba20c520134a2441fa599982b94c1802821e7e042'
+          expected = 'dae22a47ede4ca4d8044862b755514e47445b256b308efd4c9bdbd302a558da4'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
           path.write_bytes(html)
           PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
-          grep -q '2026.08' k-ramen-dashboard/index.html
-          grep -q 'period:"full"' k-ramen-dashboard/index.html
-          grep -q 'releaseDate:"2026-09-01"' k-ramen-dashboard/index.html
-          grep -q 'total:156.627873' k-ramen-dashboard/index.html
+          grep -q '2026.09' k-ramen-dashboard/index.html
+          grep -q 'period:"1-10"' k-ramen-dashboard/index.html
+          grep -q 'releaseDate:"2026-09-11"' k-ramen-dashboard/index.html
+          grep -q 'total:64.672742' k-ramen-dashboard/index.html
           grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
           grep -q '진행 중 분기 추정' k-ramen-dashboard/index.html
           grep -q 'buildCurrentQuarterEstimate' k-ramen-dashboard/index.html
@@ -156,3 +156,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
