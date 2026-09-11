@@ -6,6 +6,9 @@ on:
       - main
     paths:
       - 'index.html'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - '51e4c16e02c84c28b2f495f79552cd33.txt'
       - 'homepage/**'
       - 'k-ramen-dashboard/**'
       - 'leader-signal-radar/**'
