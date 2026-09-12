@@ -1,16 +1,25 @@
 {
-  "asOfDate": "2026.09.12",
+  "asOfDate": "2026.09.13",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
       "dueDate": null,
-      "evidenceIds": [],
-      "history": [],
+      "evidenceIds": [
+        "nvidia-hf-acquisition-review-20260913"
+      ],
+      "history": [
+        {
+          "nextReviewDate": "2026-09-13",
+          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
+          "reviewedAt": null,
+          "status": "unverified"
+        }
+      ],
       "hypothesisId": "hyp-nvidia-hugging-face-acquisition",
       "id": "hf-neutrality",
-      "nextReviewDate": "2026-09-13",
-      "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-      "reviewedAt": null,
+      "nextReviewDate": "2026-09-20",
+      "result": "2026년 9월 13일 NVIDIA 최신 뉴스룸과 9월 3일 원문을 재검토했다. 인수 합의와 멀티클라우드·멀티가속기 지원 약속 외 거래 종결·규제 승인·인수 후 중립성 성과는 확인되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-09-13T07:38:56+09:00",
       "status": "unverified",
       "test": "규제 승인을 거쳐 거래가 종결되고 경쟁 GPU·클라우드의 지원·추천·가격 조건이 실제로 동일하게 유지되는가",
       "theme": "AI 배포",
@@ -19,13 +28,23 @@
     {
       "date": "2026.09.15",
       "dueDate": "2026-09-15",
-      "evidenceIds": [],
-      "history": [],
+      "evidenceIds": [
+        "openai-astra-safety-review-20260913",
+        "openai-ipo-safety-fortune-20260912"
+      ],
+      "history": [
+        {
+          "nextReviewDate": "2026-09-13",
+          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
+          "reviewedAt": null,
+          "status": "unverified"
+        }
+      ],
       "hypothesisId": "openai-safety-governance",
       "id": "openai-safety-review",
-      "nextReviewDate": "2026-09-13",
-      "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-      "reviewedAt": null,
+      "nextReviewDate": "2026-09-15",
+      "result": "2026년 9월 13일 Astra 안전 개요와 알트만 인터뷰를 재검토했다. 직원급 독립 평가자 확약은 추가됐지만 계약, 전체 고객군 접근 완료, 9월 15일 의회 자료와 위키 사고 로그는 확인되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-09-13T07:38:56+09:00",
       "status": "unverified",
       "test": "Plus·Pro·Business·Enterprise와 API·Azure·Bedrock 개방 완료 여부, 의회 자료의 감시 우회·오탐률, 독일 위키 사건 로그와 오정렬 공개 기준·기한이 확인되는가",
       "theme": "AI 안전",
@@ -100,38 +119,261 @@
     }
   ],
   "currentObservationIds": [
-    "nvidia-dmatrix-nvlink-fusion"
+    "dario-frontier-pacing",
+    "openai-ipo-safety-pacing"
   ],
-  "currentSignalIds": [
-    "a16z-cognition-series-e",
-    "nvidia-skild-s1-robotics"
-  ],
-  "dailyThesis": "AI의 가치축이 코딩 에이전트의 대규모 매출·자본조달과 로봇의 실제 공장 배치로 이동하는 가운데, NVIDIA는 경쟁 추론칩까지 자사 랙·네트워크 표준으로 흡수하려 하고 있다.",
-  "lastSuccessfulRun": "2026-09-12T07:36:00+09:00",
+  "currentSignalIds": [],
+  "dailyThesis": "프런티어 AI 안전이 사고 대응을 넘어 모델 능력 향상 속도와 IPO 일정의 선행 조건으로 이동했지만 외부 평가자 계약과 실제 감속이 확인되기 전까지는 관찰 단계입니다.",
+  "lastSuccessfulRun": "2026-09-13T07:38:56+09:00",
   "observations": [
     {
-      "id": "nvidia-dmatrix-nvlink-fusion",
-      "eventId": "nvidia-dmatrix-nvlink-fusion",
-      "hypothesisId": "nvlink-custom-silicon-platform",
-      "leader": "젠슨 황(Jensen Huang)",
-      "role": "NVIDIA CEO",
-      "initials": "JH",
-      "score": 70,
-      "kind": "강화",
-      "date": "2026.09.10",
-      "reportDate": "2026.09.12",
-      "theme": "AI 인프라",
-      "headline": "d-Matrix가 차세대 Raptor 추론칩을 NVIDIA NVLink·MGX 랙 표준에 통합하기로 했다",
-      "takeaway": "NVIDIA가 경쟁 가능성이 있는 특화 추론칩까지 자사 네트워크·랙·전력·냉각 생태계 안으로 끌어들이는 전략을 강화했다. 아직 계획 단계라 실제 제품·고객·성능은 확인되지 않았다.",
+      "action": "확인된 행동은 Anthropic이 직원급 접근권과 독립 발표권을 가진 상주형 외부 평가자 도입을 공개 확약한 것이다. 평가기관 선정·계약 체결·상주 시작과 실제 모델 훈련 속도 조절은 아직 확인되지 않았다.",
+      "assessment": {
+        "assessedAt": "2026-09-13T07:38:56+09:00",
+        "attribution": "leader_direct",
+        "baseline": {
+          "date": "2026-09-10",
+          "evidenceIds": [
+            "anthropic-fourth-cyber-reuters-20260909"
+          ],
+          "statement": "Anthropic은 개별 외부침입 사고에 대해 METR에 8주 독립조사를 맡겼지만 회사 전반의 상시 접근이나 모델 능력 향상 속도 제한은 약속하지 않았다."
+        },
+        "breakdown": {
+          "action": {
+            "score": 14,
+            "reason": "상주형 외부 평가자에 대한 일방적 회사 확약은 구체적이지만 선임·계약·운영은 시작 전이다."
+          },
+          "change": {
+            "score": 19,
+            "reason": "2023년에는 감속론이 이르다고 봤던 입장에서 최근 몇 달의 증거로 능력 향상 속도 자체를 늦춰야 한다는 전략 변화가 명시됐다."
+          },
+          "impact": {
+            "score": 17,
+            "reason": "프런티어 연구 일정·연산 투자·출시 경쟁과 산업 안전감사의 구조를 바꿀 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "평가기관·계약·접근 범위·독립 보고서와 모델 훈련·출시 간격으로 판별 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "리더 본인의 장문 원문과 Reuters 직접 인용 보도를 함께 확인했다."
+          }
+        },
+        "evidenceIds": [
+          "dario-frontier-pacing-essay-20260912",
+          "anthropic-frontier-pacing-reuters-20260912"
+        ],
+        "impactDirection": "mixed",
+        "note": "14+19+17+14+10=74. 방향 전환과 공개 확약은 크지만 기업의 commitment 단계이므로 관찰 신호로 제한한다.",
+        "rubricVersion": 1,
+        "stage": "commitment",
+        "status": "reviewed"
+      },
+      "before": "아모데이는 안전 연구와 규제를 강화하되 기술 발전을 계속하는 ‘신중한 경쟁’을 주장했고 2023년식 감속론은 위험을 연구할 모델 능력이 부족해 실효성이 작다고 봤다.",
+      "counter": "확약은 아직 평가기관 선정·계약·상주 개시로 이어지지 않았다. Anthropic은 대규모 자금조달과 모델 경쟁도 계속하고 있어 실제 훈련 연산·출시 속도가 느려지는지는 별도 확인이 필요하다.",
+      "date": "2026.09.12",
+      "eventId": "dario-frontier-pacing",
+      "facts": [
+        "아모데이는 지난 몇 달 동안 재귀적 자기개선이 빨라졌고 외부침입 사고가 반복돼 안전투자만으로 부족하다고 판단했다고 썼다.",
+        "Anthropic은 외부 평가자에게 사무실·출입증·회사 노트북과 내부 위험평가팀에 준하는 도구·권한을 제공하겠다고 확약했다.",
+        "외부 평가자는 위험·사고·접근 제한에 관한 핵심 결과를 Anthropic의 편집 통제 없이 발표할 권리를 갖도록 계약할 계획이다.",
+        "아모데이는 산업 공통 기준과 국제 협력을 제안했지만 모델 훈련 중단이나 기술 진보의 전면 정지는 요구하지 않았다."
+      ],
+      "headline": "아모데이가 모델 능력 향상 속도를 늦추는 쪽으로 입장을 바꾸고 Anthropic에 상주형 외부 평가자의 직원급 접근을 확약했다",
+      "hypothesisId": "frontier-ai-pacing-audit",
+      "id": "dario-frontier-pacing",
+      "impact": "해석: 안전이 출시 후 점검이 아니라 훈련 속도와 자본 배치의 선행 조건으로 이동할 가능성이 커졌다. 다만 실제 감속과 상주 감사가 확인되기 전에는 프런티어 모델 공급·연산 수요의 변화로 단정할 수 없다.",
+      "impactPath": [
+        "외부침입·재귀적 자기개선 위험 확대",
+        "상주형 독립 평가자와 능력 기반 체크포인트 확약",
+        "훈련·출시 일정과 연산 배분에 안전 조건 부과 가능",
+        "AI 연구 경쟁·감사산업·인프라 수요의 속도와 비용 변화"
+      ],
+      "industryLinks": [
+        {
+          "evidenceIds": [
+            "dario-frontier-pacing-essay-20260912"
+          ],
+          "relationship": "hypothesis",
+          "sector": "프런티어 AI·안전 감사",
+          "text": "상주형 외부 평가와 능력 기반 속도조절이 시행되면 모델 출시·연산 투자·감사 비용에 영향을 줄 수 있으나 실제 계약과 감속은 미확인이다."
+        }
+      ],
+      "initials": "DA",
+      "kind": "반전",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "next": "외부 평가기관 선정·계약일, 사무실·도구 접근 개시, 독립 보고서와 편집권 조항, 모델 훈련 연산·출시 간격의 전후 변화를 확인한다.",
+      "now": "아모데이는 모델 능력 향상 속도 자체를 늦춰 안전 연구가 따라잡을 시간을 확보해야 한다고 했고 Anthropic이 상주형 외부 평가자를 먼저 받아들이겠다고 확약했다.",
+      "reportDate": "2026.09.13",
+      "role": "Anthropic 공동창업자·CEO",
+      "score": 74,
+      "source": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "sourceGrade": "A",
+      "sourceLabel": "Dario Amodei 원문 · 2026.09.12",
+      "takeaway": "안전 우선이 ‘더 많은 안전 연구’에서 ‘모델 능력 향상 속도 조절’로 바뀌었다. 다만 실제로 시작된 것은 상주형 외부 평가자에 대한 공개 확약이며 선임·계약·감속 결과는 아직 없다.",
+      "theme": "AI 안전",
+      "timing": {
+        "firstSeenAt": "2026-09-13T07:38:56+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null,
+        "occurredAt": "2026-09-12",
+        "publishedAt": "2026-09-12",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      }
+    },
+    {
+      "action": "확인된 행동은 알트만이 2026년 IPO를 배제하고 독립 평가자에게 직원급 접근을 제공하겠다고 공개 확약한 것이다. 공모 신청 철회·평가자 계약·공동 감속 협약 체결은 확인되지 않았다.",
+      "assessment": {
+        "assessedAt": "2026-09-13T07:38:56+09:00",
+        "attribution": "leader_direct",
+        "baseline": {
+          "date": "2026-09-10",
+          "evidenceIds": [
+            "openai-mandatory-safety-reuters-20260909"
+          ],
+          "statement": "OpenAI는 능력 기반 시험·독립평가·사고보고를 포함한 의무적 국가 안전규칙을 요구했지만 자사 IPO 일정이나 모델 능력 향상 속도를 안전 진전과 직접 연동하지 않았다."
+        },
+        "breakdown": {
+          "action": {
+            "score": 14,
+            "reason": "2026년 IPO 배제와 직원급 독립 평가자 접근은 구체적 공개 확약이지만 공모 철회나 계약 집행은 아니다."
+          },
+          "change": {
+            "score": 19,
+            "reason": "IPO 기대와 능력 경쟁이 이어진 기준선에서 안전 진전을 자본시장 진입과 추가 능력 향상의 선행 조건으로 격상했다."
+          },
+          "impact": {
+            "score": 17,
+            "reason": "대규모 자금조달 일정, AI 기업 가치평가와 프런티어 모델 출시 경쟁에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "2026년 공모 여부, 평가자 계약·접근권, 공동 협약과 이후 모델 출시 일정으로 판별 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Fortune의 직접 영상 인터뷰와 Reuters 교차 보도를 확인했다."
+          }
+        },
+        "evidenceIds": [
+          "openai-ipo-safety-fortune-20260912",
+          "openai-ipo-safety-reuters-20260912"
+        ],
+        "impactDirection": "mixed",
+        "note": "14+19+17+14+10=74. 자본시장 일정과 안전을 연결한 변화는 크지만 공개 확약 단계이며 공식 공모 철회 문서는 없다.",
+        "rubricVersion": 1,
+        "stage": "commitment",
+        "status": "reviewed"
+      },
+      "before": "OpenAI는 안전 사고 대응과 의무 규칙을 강화하면서도 대규모 자금조달과 2026년 IPO 가능성이 시장의 주요 기준선으로 남아 있었다.",
+      "counter": "OpenAI가 2026년 공모 신청을 제출했다가 철회한 것은 아니며 과거에도 IPO를 서두르지 않는다고 말했다. 독립 평가자·공동 감속 협약의 상대방, 계약, 감속 지표와 시행일도 공개되지 않았다.",
+      "date": "2026.09.12",
+      "eventId": "openai-ipo-safety-pacing",
+      "facts": [
+        "알트만은 Fortune 인터뷰에서 안전·정렬 과제가 남아 있어 OpenAI가 2026년에는 상장하지 않을 것이라고 밝혔다.",
+        "그는 감시 가능성·정렬·모델 이해가 더 진전되기 전에는 모델 능력을 훨씬 더 밀어붙일 수 있는 단계가 아니라고 말했다.",
+        "알트만은 Anthropic의 상주형 독립 평가자 제안을 따르겠다고 밝혔고 추가 내용을 곧 공개하겠다고 했다.",
+        "AI 기업 간 공동 감속 논의는 진행 가능성을 언급한 수준이며 참여사·조건·감시 방식은 발표되지 않았다."
+      ],
+      "headline": "샘 알트만이 OpenAI의 2026년 IPO를 배제하고 안전 진전 전 추가 능력 확대를 늦추며 독립 평가자의 직원급 접근을 약속했다",
+      "hypothesisId": "frontier-ai-pacing-audit",
+      "id": "openai-ipo-safety-pacing",
+      "impact": "해석: 프런티어 AI의 안전 문제가 제품 출시뿐 아니라 IPO 시점과 자본조달 조건을 바꾸기 시작했다. 실제 감속 협약이 성립하면 모델 출시 주기와 연산투자 회수 시점이 늦어질 수 있지만 현재는 공개 확약 단계다.",
+      "impactPath": [
+        "AI 에이전트 사고와 감시 한계 확대",
+        "안전 진전을 IPO·추가 능력 향상의 선행 조건으로 설정",
+        "독립 평가자와 업계 공동 속도조절 협약 가능성",
+        "AI 기업 자금조달·가치평가·모델 출시 일정 재조정 가능"
+      ],
+      "industryLinks": [
+        {
+          "evidenceIds": [
+            "openai-ipo-safety-fortune-20260912"
+          ],
+          "relationship": "indirect",
+          "sector": "프런티어 AI·비상장 자본시장",
+          "text": "2026년 IPO 배제는 OpenAI의 자본시장 진입 시점을 미루지만 공식 공모 철회나 대체 자금조달 규모는 확인되지 않았다."
+        }
+      ],
+      "initials": "SA",
+      "kind": "약화",
+      "leader": "샘 알트만(Sam Altman)",
+      "next": "2026년 공모 신청 여부, 독립 평가자 선정·계약·접근 범위, 업계 공동 협약 참여사·감속 기준, 9월 15일 의회 자료와 이후 모델 출시 간격을 확인한다.",
+      "now": "알트만은 안전 진전이 부족한 현 시점에서 2026년 IPO를 하지 않겠다고 했고 직원급 접근을 받는 독립 평가자와 업계 공동 속도조절 논의를 공개 확약했다.",
+      "reportDate": "2026.09.13",
+      "role": "OpenAI 공동창업자·CEO",
+      "score": 74,
+      "source": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+      "sourceGrade": "B",
+      "sourceLabel": "Fortune 샘 알트만 직접 인터뷰 · 2026.09.12",
+      "takeaway": "안전 문제가 OpenAI의 제품 통제에서 자본시장 일정으로 번졌다. 그러나 IPO는 정식 철회가 아니라 공개 배제 발언이고 독립 평가자와 공동 감속 협약도 아직 시행 전이다.",
+      "theme": "AI 안전",
+      "timing": {
+        "firstSeenAt": "2026-09-13T07:38:56+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null,
+        "occurredAt": "2026-09-12",
+        "publishedAt": "2026-09-12",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      }
+    },
+    {
+      "action": "확인된 행동은 양사의 통합 계획 공식화다. Raptor 양산, NVLink 기반 랙 인증·설치, 고객 주문과 성능·전력 수치는 아직 확인되지 않았다.",
+      "assessment": {
+        "assessedAt": "2026-09-12T07:36:00+09:00",
+        "attribution": "company_action",
+        "baseline": {
+          "date": "2026-08-24",
+          "evidenceIds": [
+            "nvidia-nvlink-xpu-baseline-20260824"
+          ],
+          "statement": "NVIDIA는 NVLink Fusion을 맞춤형 XPU와 자사 랙·네트워크·공급망을 잇는 개방형 AI 공장 플랫폼으로 제시했다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "차세대 칩과 랙·네트워크 통합을 공식 확약했지만 제품 배치는 아직 없다.",
+            "score": 18
+          },
+          "change": {
+            "reason": "NVLink Fusion의 일반 전략에서 구체적인 특화 추론칩 참여로 범위가 확대됐다.",
+            "score": 10
+          },
+          "impact": {
+            "reason": "GPU·맞춤형 칩·네트워크·랙 공급망의 경쟁구도에 영향을 줄 수 있다.",
+            "score": 18
+          },
+          "source": {
+            "reason": "NVIDIA 공식 발표에서 통합 범위·계획과 발표일을 직접 확인했다.",
+            "score": 10
+          },
+          "verification": {
+            "reason": "양산·인증·주문과 성능·전력·총소유비용으로 판별 가능하다.",
+            "score": 14
+          }
+        },
+        "evidenceIds": [
+          "nvidia-dmatrix-nvlink-official-20260910"
+        ],
+        "impactDirection": "positive",
+        "note": "18+10+18+14+10=70. 구체적인 통합 확약은 인정하되 기업의 commitment 단계이므로 관찰로 제한한다.",
+        "rubricVersion": 1,
+        "stage": "commitment",
+        "status": "reviewed"
+      },
       "before": "8월 NVIDIA는 NVLink Fusion을 맞춤형 XPU와 자사 AI 공장을 연결하는 개방형 랙 플랫폼으로 제시했지만 개별 신규 추론칩의 통합 성과는 제한적이었다.",
-      "now": "d-Matrix는 차세대 Raptor XPU를 NVLink, Spectrum-X, MGX, Vera CPU와 NVIDIA 네트워크·DPU 구성에 통합하겠다고 공식 발표했다.",
+      "counter": "출시·인증·주문이 없는 공식 확약 단계다. d-Matrix가 독자 랙이나 다른 연결망을 병행하거나 비용·성능이 목표에 못 미치면 NVLink 생태계 확장 효과는 제한된다.",
+      "date": "2026.09.10",
+      "eventId": "nvidia-dmatrix-nvlink-fusion",
       "facts": [
         "d-Matrix는 Raptor XPU를 NVIDIA NVLink 스케일업과 Spectrum-X 스케일아웃 네트워크에 연결할 계획이다.",
         "동일 랙에서 Raptor와 NVIDIA Vera Rubin NVL72를 분리형 추론에 함께 운영하는 구성을 제시했다.",
         "Vera CPU, ConnectX-9 SuperNIC, BlueField-4 DPU와 Spectrum-X 통합도 계획에 포함됐다.",
         "NVIDIA는 공통 MGX 랙을 사용하면 칩별로 별도 전력·냉각·공급망 설계를 반복하지 않아도 된다고 설명했다."
       ],
-      "action": "확인된 행동은 양사의 통합 계획 공식화다. Raptor 양산, NVLink 기반 랙 인증·설치, 고객 주문과 성능·전력 수치는 아직 확인되지 않았다.",
+      "headline": "d-Matrix가 차세대 Raptor 추론칩을 NVIDIA NVLink·MGX 랙 표준에 통합하기로 했다",
+      "hypothesisId": "nvlink-custom-silicon-platform",
+      "id": "nvidia-dmatrix-nvlink-fusion",
       "impact": "해석: 맞춤형 칩 경쟁이 NVIDIA GPU를 완전히 대체하기보다 NVIDIA의 연결망·랙·관리 소프트웨어에 종속되는 혼합 구조로 전개될 수 있다. 실제 채택 전에는 플랫폼 지배력 확대로 단정할 수 없다.",
       "impactPath": [
         "특화 추론 XPU의 NVLink 채택 확약",
@@ -139,69 +381,36 @@
         "이기종 AI 공장 구축 위험 감소 가능",
         "NVIDIA 인프라 표준의 범위 확대 가능"
       ],
-      "counter": "출시·인증·주문이 없는 공식 확약 단계다. d-Matrix가 독자 랙이나 다른 연결망을 병행하거나 비용·성능이 목표에 못 미치면 NVLink 생태계 확장 효과는 제한된다.",
-      "next": "Raptor 테이프아웃·양산일, NVLink 랙 인증과 첫 고객 주문, Vera Rubin 병행 운용 성능·전력·총소유비용을 확인한다.",
-      "source": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "sourceLabel": "NVIDIA–d-Matrix NVLink Fusion 공식 발표 · 2026.09.10",
-      "sourceGrade": "A",
-      "timing": {
-        "occurredAt": "2026-09-10",
-        "publishedAt": "2026-09-10",
-        "firstSeenAt": "2026-09-12T07:36:00+09:00",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
-        "lateDiscovery": true,
-        "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 통합 확약 원문을 확인했다."
-      },
       "industryLinks": [
         {
-          "sector": "AI 추론칩·데이터센터 네트워크",
-          "relationship": "confirmed",
-          "text": "d-Matrix와 NVIDIA는 Raptor XPU의 NVLink Fusion·MGX 통합 계획을 공식화했다. 양산·고객 배치는 미확인이다.",
           "evidenceIds": [
             "nvidia-dmatrix-nvlink-official-20260910"
-          ]
+          ],
+          "relationship": "confirmed",
+          "sector": "AI 추론칩·데이터센터 네트워크",
+          "text": "d-Matrix와 NVIDIA는 Raptor XPU의 NVLink Fusion·MGX 통합 계획을 공식화했다. 양산·고객 배치는 미확인이다."
         }
       ],
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-12T07:36:00+09:00",
-        "stage": "commitment",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 18,
-            "reason": "차세대 칩과 랙·네트워크 통합을 공식 확약했지만 제품 배치는 아직 없다."
-          },
-          "change": {
-            "score": 10,
-            "reason": "NVLink Fusion의 일반 전략에서 구체적인 특화 추론칩 참여로 범위가 확대됐다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "GPU·맞춤형 칩·네트워크·랙 공급망의 경쟁구도에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "양산·인증·주문과 성능·전력·총소유비용으로 판별 가능하다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "NVIDIA 공식 발표에서 통합 범위·계획과 발표일을 직접 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-08-24",
-          "statement": "NVIDIA는 NVLink Fusion을 맞춤형 XPU와 자사 랙·네트워크·공급망을 잇는 개방형 AI 공장 플랫폼으로 제시했다.",
-          "evidenceIds": [
-            "nvidia-nvlink-xpu-baseline-20260824"
-          ]
-        },
-        "evidenceIds": [
-          "nvidia-dmatrix-nvlink-official-20260910"
-        ],
-        "note": "18+10+18+14+10=70. 구체적인 통합 확약은 인정하되 기업의 commitment 단계이므로 관찰로 제한한다."
+      "initials": "JH",
+      "kind": "강화",
+      "leader": "젠슨 황(Jensen Huang)",
+      "next": "Raptor 테이프아웃·양산일, NVLink 랙 인증과 첫 고객 주문, Vera Rubin 병행 운용 성능·전력·총소유비용을 확인한다.",
+      "now": "d-Matrix는 차세대 Raptor XPU를 NVLink, Spectrum-X, MGX, Vera CPU와 NVIDIA 네트워크·DPU 구성에 통합하겠다고 공식 발표했다.",
+      "reportDate": "2026.09.12",
+      "role": "NVIDIA CEO",
+      "score": 70,
+      "source": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "sourceGrade": "A",
+      "sourceLabel": "NVIDIA–d-Matrix NVLink Fusion 공식 발표 · 2026.09.10",
+      "takeaway": "NVIDIA가 경쟁 가능성이 있는 특화 추론칩까지 자사 네트워크·랙·전력·냉각 생태계 안으로 끌어들이는 전략을 강화했다. 아직 계획 단계라 실제 제품·고객·성능은 확인되지 않았다.",
+      "theme": "AI 인프라",
+      "timing": {
+        "firstSeenAt": "2026-09-12T07:36:00+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 통합 확약 원문을 확인했다.",
+        "occurredAt": "2026-09-10",
+        "publishedAt": "2026-09-10",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       }
     },
     {
@@ -1198,290 +1407,351 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-08T07:53:00+09:00",
-      "end": "2026-09-12T07:36:00+09:00"
+      "start": "2026-09-09T07:36:00+09:00",
+      "end": "2026-09-13T07:38:56+09:00"
     },
     "coverage": [
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "일론 머스크(Elon Musk)",
+        "note": "공식 채널과 아모데이 제안 동의 보도를 확인했다. 한 줄 동의 외 제품·투자·운영 행동은 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://x.ai/news",
           "https://www.tesla.com/blog",
-          "https://www.reuters.com/business/autos-transportation/tesla-eyes-european-freight-market-with-long-delayed-semi-truck-2026-09-11/"
-        ],
-        "note": "xAI·Tesla 공식 채널과 Tesla Semi 유럽 예고 보도를 확인했다. 발표 전 확약과 반복 지연이어서 승격하지 않았다."
+          "https://www.spacex.com/updates/",
+          "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "젠슨 황(Jensen Huang)",
+        "note": "Hugging Face 인수 약속을 재검토했다. 종결·중립성 성과는 없고 Anthropic 투자 협상은 익명 출처였다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news",
-          "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-          "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-          "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
-          "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/"
-        ],
-        "note": "NVIDIA 공식 채널에서 Skild 상용 배치와 d-Matrix NVLink 확약을 원문 검증했다."
+          "https://nvidianews.nvidia.com/news/latest",
+          "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "샘 알트만(Sam Altman)",
+        "note": "IPO 배제·속도조절·외부 평가자 확약을 기록했다. 5월 RubyGems 사고 공개는 별도 전략 행동이 없어 제외했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://openai.com/news/",
-          "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/"
-        ],
-        "note": "OpenAI 공식 채널과 개발 속도 조절 보도를 확인했다. 익명 소식통의 2차 보도이며 7월 기준선 반복이라 제외했다."
+          "https://openai.com/index/safety-overview-gpt-6-astra/",
+          "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+          "https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12/",
+          "https://www.reuters.com/legal/litigation/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-2026-09-11/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "다리오 아모데이(Dario Amodei)",
+        "note": "원문과 직접 보도에서 속도조절과 상주형 외부 평가자 확약을 검증했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://www.anthropic.com/news"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+          "https://www.anthropic.com/news",
+          "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "데미스 허사비스(Demis Hassabis)",
+        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "사티아 나델라(Satya Nadella)",
+        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "마크 저커버그(Mark Zuckerberg)",
+        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://about.fb.com/news/",
-          "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
-        ],
-        "note": "Meta 공식 채널과 AI 추천 기능 수정 보도를 확인했다. 좁은 기능 수정으로 60점에 미달했다."
+          "https://about.fb.com/news/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "리사 수(Lisa Su)",
+        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://newsroom.amd.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "웨이저자(C.C. Wei)",
+        "note": "High-NA 로드맵 이후 CAPEX·장비 주문·생산 진전은 확인되지 않았다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://investor.tsmc.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+          "https://pr.tsmc.com/english/news/3338"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "손정의(Masayoshi Son)",
+        "note": "9월 15일 브리지론 상환 확약을 재확인했고 실제 상환 전 추가 변화는 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://group.softbank/en/news"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "쩡위췬(Robin Zeng)",
+        "note": "9월 3일 기고 이후 신규 투자·계약·운영 변화는 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "스콧 스트라직(Scott Strazik)",
+        "note": "베네수엘라 협약 이후 발주·공정·가동 증거는 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://www.gevernova.com/news/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "알렉스 카프(Alex Karp)",
+        "note": "9월 10일 공급망 배치 이후 신규 행동은 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "누바 아페얀(Noubar Afeyan)",
+        "note": "최신 공개는 8월 3일로 조사 구간 내 신규 신호가 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "브라이언 체스키(Brian Chesky)",
+        "note": "조사 구간 내 신규 전략·운영 행동은 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://news.airbnb.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
+        "note": "이미 기록된 AI 익스포저 축소와 금리 판단의 반복이며 추가 포지션 증거는 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://www.morganstanley.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+          "https://www.morganstanley.com/",
+          "https://www.ft.com/content/7410c56e-5350-48f8-a5e6-24f37c1581e9"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "피터 틸(Peter Thiel)",
+        "note": "공개 채널에서 신규 발언·투자 행동을 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://www.foundersfund.com/team/peter-thiel"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+          "https://foundersfund.com/team/peter-thiel/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "하워드 막스(Howard Marks)",
+        "note": "공식 인사이트에서 신규 메모·관점 변화를 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "레이 달리오(Ray Dalio)",
+        "note": "공식 원문 채널에서 신규 투자 판단·행동을 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://raydalio.substack.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "마크 앤드리슨(Marc Andreessen)",
+        "note": "Cognition 투자 후속 재게시 외 별도 신규 사건은 없었다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
-          "https://a16z.com/author/marc-andreessen/",
-          "https://a16z.com/announcement/investing-in-cognition/",
-          "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
-          "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/"
-        ],
-        "note": "a16z 공식 투자 글과 Reuters 거래 보도에서 Cognition의 투자·매출 성과를 교차 검증했다."
+          "https://a16z.com/author/marc-andreessen/"
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "타일러 코웬(Tyler Cowen)",
+        "note": "9월 11일 연구·시장 링크 소개는 독립적인 관점 변화와 실행이 부족했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://marginalrevolution.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       },
       {
+        "checkedAt": "2026-09-13T07:38:56+09:00",
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
+        "note": "공식 원문 채널에서 신규 구체 판단·행동을 확인하지 못했다.",
         "status": "checked",
-        "checkedAt": "2026-09-12T07:36:00+09:00",
         "urls": [
           "https://balajis.com/"
-        ],
-        "note": "공식 뉴스·투자자·원문 채널을 확인했으며 조사 구간 내 승격 가능한 신규 행동·관점 변화는 확인되지 않았다."
+        ]
       }
     ],
     "evidence": [
       {
-        "id": "a16z-cognition-official-20260909",
-        "url": "https://a16z.com/announcement/investing-in-cognition/",
-        "label": "Marc Andreessen의 Cognition 투자 발표",
+        "claim": "다리오 아모데이는 최근 몇 달의 재귀적 자기개선 가속과 외부침입 사고를 근거로 모델 능력 향상 속도를 늦춰야 한다고 입장을 바꾸고, Anthropic에 직원급 접근권을 가진 상주형 외부 평가자를 도입하겠다고 일방적으로 확약했다.",
         "grade": "A",
-        "publishedAt": "2026-09-09",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
-        "claim": "a16z가 Cognition을 두 번째로 지원했으며 Devin의 생산 코드 비중이 13%에서 90% 이상으로 높아지고 다수 기업의 개발 업무 성과가 공개됐다.",
-        "provenance": "official"
+        "id": "dario-frontier-pacing-essay-20260912",
+        "label": "Dario Amodei의 We Must Pace the Frontier",
+        "provenance": "official",
+        "publishedAt": "2026-09-12",
+        "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
       },
       {
-        "id": "cognition-series-e-reuters-20260908",
-        "url": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
-        "label": "Reuters Cognition Series E 보도",
+        "claim": "Reuters는 아모데이의 3단계 속도조절안과 Anthropic의 상주형 독립 평가자 확약, 6~12개월 내 인터넷 장악 위험 전망을 직접 인용해 보도했다.",
         "grade": "B",
-        "publishedAt": "2026-09-08",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
+        "id": "anthropic-frontier-pacing-reuters-20260912",
+        "label": "Reuters 아모데이 속도조절안 보도",
+        "provenance": "direct_report",
+        "publishedAt": "2026-09-12",
+        "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      },
+      {
+        "claim": "Fortune의 직접 인터뷰에서 샘 알트만은 안전·정렬 과제를 이유로 2026년 OpenAI IPO를 배제하고, 현 수준에서 안전 진전 없이 모델 능력을 더 밀어붙이기 어렵다고 밝혔다.",
+        "grade": "B",
+        "id": "openai-ipo-safety-fortune-20260912",
+        "label": "Fortune 샘 알트만 직접 인터뷰",
+        "provenance": "direct_report",
+        "publishedAt": "2026-09-12",
+        "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      },
+      {
+        "claim": "Reuters는 알트만이 2026년 IPO를 하지 않겠다고 밝히고 OpenAI가 독립 평가자에게 직원급 접근을 제공하겠다는 아모데이의 제안을 따르겠다고 한 점을 확인 보도했다.",
+        "grade": "B",
+        "id": "openai-ipo-safety-reuters-20260912",
+        "label": "Reuters OpenAI IPO·안전 속도조절 보도",
+        "provenance": "direct_report",
+        "publishedAt": "2026-09-12",
+        "url": "https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12/",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      },
+      {
+        "claim": "NVIDIA의 9월 3일 발표는 Hugging Face 인수 합의와 멀티클라우드·멀티가속기 지원 약속을 제시하지만 거래 종결이나 인수 후 중립성 성과는 제시하지 않는다.",
+        "grade": "A",
+        "id": "nvidia-hf-acquisition-review-20260913",
+        "label": "NVIDIA Hugging Face 인수 발표 재검토",
+        "provenance": "official",
+        "publishedAt": "2026-09-03",
+        "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      },
+      {
+        "claim": "OpenAI의 9월 3일 Astra 안전 개요는 모든 도구 사용 추론 감시와 모델의 감시 회피 가능성을 공개하지만 9월 15일 제출 예정 자료와 전 고객군 접근 완료 결과는 포함하지 않는다.",
+        "grade": "A",
+        "id": "openai-astra-safety-review-20260913",
+        "label": "OpenAI GPT-6 Astra 안전 개요 재검토",
+        "provenance": "official",
+        "publishedAt": "2026-09-03",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+        "verifiedAt": "2026-09-13T07:38:56+09:00"
+      },
+      {
+        "claim": "a16z가 Cognition을 두 번째로 지원했으며 Devin의 생산 코드 비중이 13%에서 90% 이상으로 높아지고 다수 기업의 개발 업무 성과가 공개됐다.",
+        "grade": "A",
+        "id": "a16z-cognition-official-20260909",
+        "label": "Marc Andreessen의 Cognition 투자 발표",
+        "provenance": "official",
+        "publishedAt": "2026-09-09",
+        "url": "https://a16z.com/announcement/investing-in-cognition/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
+      },
+      {
         "claim": "Cognition이 a16z·Accel 주도의 20억 달러 라운드에서 480억 달러 가치를 인정받았고 연환산 매출이 5월 4억9,200만 달러에서 약 9억 달러로 증가했다.",
-        "provenance": "direct_report"
+        "grade": "B",
+        "id": "cognition-series-e-reuters-20260908",
+        "label": "Reuters Cognition Series E 보도",
+        "provenance": "direct_report",
+        "publishedAt": "2026-09-08",
+        "url": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       },
       {
-        "id": "a16z-agent-production-baseline-20260810",
-        "url": "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/",
-        "label": "a16z 컴퓨터 사용 에이전트 생산 배치 분석",
-        "grade": "A",
-        "publishedAt": "2026-08-10",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
         "claim": "a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서 생산 배치되기 시작했으나 정확도·지연·비용과 검증 체계가 병목이라고 평가했다.",
-        "provenance": "official"
+        "grade": "A",
+        "id": "a16z-agent-production-baseline-20260810",
+        "label": "a16z 컴퓨터 사용 에이전트 생산 배치 분석",
+        "provenance": "official",
+        "publishedAt": "2026-08-10",
+        "url": "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       },
       {
-        "id": "nvidia-skild-s1-official-20260910",
-        "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-        "label": "NVIDIA–Skild S1 상용 배치 공식 사례",
-        "grade": "A",
-        "publishedAt": "2026-09-10",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
         "claim": "Skild가 NVIDIA 피지컬 AI 스택으로 60개 이상 배치 파트너와 1억 달러 연환산 매출을 제시하고 Foxconn의 Blackwell 조립 작업에 S1을 적용했다.",
-        "provenance": "official"
-      },
-      {
-        "id": "nvidia-physical-ai-baseline-20260806",
-        "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
-        "label": "NVIDIA Cosmos 3·Omniverse 피지컬 AI 기준선",
         "grade": "A",
-        "publishedAt": "2026-08-06",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
-        "claim": "NVIDIA는 Cosmos 3와 Omniverse를 데이터 생성·시뮬레이션·특화의 개방형 피지컬 AI 기반으로 제시하고 로봇 기업들의 채택을 공개했다.",
-        "provenance": "official"
-      },
-      {
-        "id": "nvidia-dmatrix-nvlink-official-20260910",
-        "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-        "label": "NVIDIA–d-Matrix NVLink Fusion 공식 발표",
-        "grade": "A",
+        "id": "nvidia-skild-s1-official-20260910",
+        "label": "NVIDIA–Skild S1 상용 배치 공식 사례",
+        "provenance": "official",
         "publishedAt": "2026-09-10",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
-        "claim": "d-Matrix가 차세대 Raptor XPU를 NVLink·Spectrum-X·MGX와 NVIDIA의 CPU·네트워크·DPU 구성에 통합할 계획을 발표했다.",
-        "provenance": "official"
+        "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       },
       {
-        "id": "nvidia-nvlink-xpu-baseline-20260824",
-        "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-        "label": "NVIDIA NVLink Fusion XPU 플랫폼 기준선",
+        "claim": "NVIDIA는 Cosmos 3와 Omniverse를 데이터 생성·시뮬레이션·특화의 개방형 피지컬 AI 기반으로 제시하고 로봇 기업들의 채택을 공개했다.",
         "grade": "A",
-        "publishedAt": "2026-08-24",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
+        "id": "nvidia-physical-ai-baseline-20260806",
+        "label": "NVIDIA Cosmos 3·Omniverse 피지컬 AI 기준선",
+        "provenance": "official",
+        "publishedAt": "2026-08-06",
+        "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
+      },
+      {
+        "claim": "d-Matrix가 차세대 Raptor XPU를 NVLink·Spectrum-X·MGX와 NVIDIA의 CPU·네트워크·DPU 구성에 통합할 계획을 발표했다.",
+        "grade": "A",
+        "id": "nvidia-dmatrix-nvlink-official-20260910",
+        "label": "NVIDIA–d-Matrix NVLink Fusion 공식 발표",
+        "provenance": "official",
+        "publishedAt": "2026-09-10",
+        "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
+      },
+      {
         "claim": "NVIDIA는 NVLink Fusion을 맞춤형 XPU가 자사 랙·네트워크·전력·냉각·공급망을 이용하는 개방형 AI 공장 플랫폼으로 제시했다.",
-        "provenance": "official"
+        "grade": "A",
+        "id": "nvidia-nvlink-xpu-baseline-20260824",
+        "label": "NVIDIA NVLink Fusion XPU 플랫폼 기준선",
+        "provenance": "official",
+        "publishedAt": "2026-08-24",
+        "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       },
       {
         "claim": "OpenAI가 Codex 실행 구조, 관리형 샌드박스, 장기 세션 자동 압축, 도구 검색·프로그램 호출과 멀티에이전트를 묶은 Agents API를 공개 베타로 모든 개발자에게 제공했다.",
@@ -1936,47 +2206,309 @@
     ],
     "history": [
       {
-        "id": "revision-20260912-a16z-cognition-series-e-initial",
-        "eventId": "a16z-cognition-series-e",
-        "signalId": "a16z-cognition-series-e",
-        "hypothesisId": "ai-coding-agent-economics",
+        "eventId": "openai-ipo-safety-pacing",
+        "evidenceIds": [
+          "openai-ipo-safety-fortune-20260912",
+          "openai-ipo-safety-reuters-20260912"
+        ],
+        "headline": "샘 알트만이 OpenAI의 2026년 IPO를 배제하고 안전 진전 전 추가 능력 확대를 늦추며 독립 평가자의 직원급 접근을 약속했다",
+        "hypothesisId": "frontier-ai-pacing-audit",
+        "id": "revision-20260913-openai-ipo-safety-pacing-initial",
         "previousRevisionId": null,
-        "reportDate": "2026.09.12",
-        "recordedAt": "2026-09-12T07:36:00+09:00",
-        "tier": "signal",
-        "score": 86,
-        "headline": "a16z가 Cognition의 20억 달러 투자 라운드를 공동 주도했고 Devin 연환산 매출은 4개월 만에 4억9,200만→약 9억 달러로 증가했다",
-        "source": "https://a16z.com/announcement/investing-in-cognition/",
+        "reason": "14+19+17+14+10=74. 자본시장 일정과 안전을 연결한 변화는 크지만 공개 확약 단계이며 공식 공모 철회 문서는 없다.",
+        "recordedAt": "2026-09-13T07:38:56+09:00",
+        "reportDate": "2026.09.13",
+        "score": 74,
+        "signalId": "openai-ipo-safety-pacing",
+        "snapshot": {
+          "action": "확인된 행동은 알트만이 2026년 IPO를 배제하고 독립 평가자에게 직원급 접근을 제공하겠다고 공개 확약한 것이다. 공모 신청 철회·평가자 계약·공동 감속 협약 체결은 확인되지 않았다.",
+          "assessment": {
+            "assessedAt": "2026-09-13T07:38:56+09:00",
+            "attribution": "leader_direct",
+            "baseline": {
+              "date": "2026-09-10",
+              "evidenceIds": [
+                "openai-mandatory-safety-reuters-20260909"
+              ],
+              "statement": "OpenAI는 능력 기반 시험·독립평가·사고보고를 포함한 의무적 국가 안전규칙을 요구했지만 자사 IPO 일정이나 모델 능력 향상 속도를 안전 진전과 직접 연동하지 않았다."
+            },
+            "breakdown": {
+              "action": {
+                "score": 14,
+                "reason": "2026년 IPO 배제와 직원급 독립 평가자 접근은 구체적 공개 확약이지만 공모 철회나 계약 집행은 아니다."
+              },
+              "change": {
+                "score": 19,
+                "reason": "IPO 기대와 능력 경쟁이 이어진 기준선에서 안전 진전을 자본시장 진입과 추가 능력 향상의 선행 조건으로 격상했다."
+              },
+              "impact": {
+                "score": 17,
+                "reason": "대규모 자금조달 일정, AI 기업 가치평가와 프런티어 모델 출시 경쟁에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "2026년 공모 여부, 평가자 계약·접근권, 공동 협약과 이후 모델 출시 일정으로 판별 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Fortune의 직접 영상 인터뷰와 Reuters 교차 보도를 확인했다."
+              }
+            },
+            "evidenceIds": [
+              "openai-ipo-safety-fortune-20260912",
+              "openai-ipo-safety-reuters-20260912"
+            ],
+            "impactDirection": "mixed",
+            "note": "14+19+17+14+10=74. 자본시장 일정과 안전을 연결한 변화는 크지만 공개 확약 단계이며 공식 공모 철회 문서는 없다.",
+            "rubricVersion": 1,
+            "stage": "commitment",
+            "status": "reviewed"
+          },
+          "before": "OpenAI는 안전 사고 대응과 의무 규칙을 강화하면서도 대규모 자금조달과 2026년 IPO 가능성이 시장의 주요 기준선으로 남아 있었다.",
+          "counter": "OpenAI가 2026년 공모 신청을 제출했다가 철회한 것은 아니며 과거에도 IPO를 서두르지 않는다고 말했다. 독립 평가자·공동 감속 협약의 상대방, 계약, 감속 지표와 시행일도 공개되지 않았다.",
+          "date": "2026.09.12",
+          "eventId": "openai-ipo-safety-pacing",
+          "facts": [
+            "알트만은 Fortune 인터뷰에서 안전·정렬 과제가 남아 있어 OpenAI가 2026년에는 상장하지 않을 것이라고 밝혔다.",
+            "그는 감시 가능성·정렬·모델 이해가 더 진전되기 전에는 모델 능력을 훨씬 더 밀어붙일 수 있는 단계가 아니라고 말했다.",
+            "알트만은 Anthropic의 상주형 독립 평가자 제안을 따르겠다고 밝혔고 추가 내용을 곧 공개하겠다고 했다.",
+            "AI 기업 간 공동 감속 논의는 진행 가능성을 언급한 수준이며 참여사·조건·감시 방식은 발표되지 않았다."
+          ],
+          "headline": "샘 알트만이 OpenAI의 2026년 IPO를 배제하고 안전 진전 전 추가 능력 확대를 늦추며 독립 평가자의 직원급 접근을 약속했다",
+          "hypothesisId": "frontier-ai-pacing-audit",
+          "id": "openai-ipo-safety-pacing",
+          "impact": "해석: 프런티어 AI의 안전 문제가 제품 출시뿐 아니라 IPO 시점과 자본조달 조건을 바꾸기 시작했다. 실제 감속 협약이 성립하면 모델 출시 주기와 연산투자 회수 시점이 늦어질 수 있지만 현재는 공개 확약 단계다.",
+          "impactPath": [
+            "AI 에이전트 사고와 감시 한계 확대",
+            "안전 진전을 IPO·추가 능력 향상의 선행 조건으로 설정",
+            "독립 평가자와 업계 공동 속도조절 협약 가능성",
+            "AI 기업 자금조달·가치평가·모델 출시 일정 재조정 가능"
+          ],
+          "industryLinks": [
+            {
+              "evidenceIds": [
+                "openai-ipo-safety-fortune-20260912"
+              ],
+              "relationship": "indirect",
+              "sector": "프런티어 AI·비상장 자본시장",
+              "text": "2026년 IPO 배제는 OpenAI의 자본시장 진입 시점을 미루지만 공식 공모 철회나 대체 자금조달 규모는 확인되지 않았다."
+            }
+          ],
+          "initials": "SA",
+          "kind": "약화",
+          "leader": "샘 알트만(Sam Altman)",
+          "next": "2026년 공모 신청 여부, 독립 평가자 선정·계약·접근 범위, 업계 공동 협약 참여사·감속 기준, 9월 15일 의회 자료와 이후 모델 출시 간격을 확인한다.",
+          "now": "알트만은 안전 진전이 부족한 현 시점에서 2026년 IPO를 하지 않겠다고 했고 직원급 접근을 받는 독립 평가자와 업계 공동 속도조절 논의를 공개 확약했다.",
+          "reportDate": "2026.09.13",
+          "role": "OpenAI 공동창업자·CEO",
+          "score": 74,
+          "source": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+          "sourceGrade": "B",
+          "sourceLabel": "Fortune 샘 알트만 직접 인터뷰 · 2026.09.12",
+          "takeaway": "안전 문제가 OpenAI의 제품 통제에서 자본시장 일정으로 번졌다. 그러나 IPO는 정식 철회가 아니라 공개 배제 발언이고 독립 평가자와 공동 감속 협약도 아직 시행 전이다.",
+          "theme": "AI 안전",
+          "timing": {
+            "firstSeenAt": "2026-09-13T07:38:56+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null,
+            "occurredAt": "2026-09-12",
+            "publishedAt": "2026-09-12",
+            "verifiedAt": "2026-09-13T07:38:56+09:00"
+          }
+        },
+        "source": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+        "stage": "commitment",
         "status": "reviewed",
-        "stage": "outcome",
-        "reason": "28+14+19+15+10=86. 실제 자본 배치와 매출 확대를 성과로 보되 회사 제공 연환산 매출과 고객 사례를 감사 실적으로 간주하지 않는다.",
+        "tier": "observation"
+      },
+      {
+        "eventId": "dario-frontier-pacing",
+        "evidenceIds": [
+          "dario-frontier-pacing-essay-20260912",
+          "anthropic-frontier-pacing-reuters-20260912"
+        ],
+        "headline": "아모데이가 모델 능력 향상 속도를 늦추는 쪽으로 입장을 바꾸고 Anthropic에 상주형 외부 평가자의 직원급 접근을 확약했다",
+        "hypothesisId": "frontier-ai-pacing-audit",
+        "id": "revision-20260913-dario-frontier-pacing-initial",
+        "previousRevisionId": null,
+        "reason": "14+19+17+14+10=74. 방향 전환과 공개 확약은 크지만 기업의 commitment 단계이므로 관찰 신호로 제한한다.",
+        "recordedAt": "2026-09-13T07:38:56+09:00",
+        "reportDate": "2026.09.13",
+        "score": 74,
+        "signalId": "dario-frontier-pacing",
+        "snapshot": {
+          "action": "확인된 행동은 Anthropic이 직원급 접근권과 독립 발표권을 가진 상주형 외부 평가자 도입을 공개 확약한 것이다. 평가기관 선정·계약 체결·상주 시작과 실제 모델 훈련 속도 조절은 아직 확인되지 않았다.",
+          "assessment": {
+            "assessedAt": "2026-09-13T07:38:56+09:00",
+            "attribution": "leader_direct",
+            "baseline": {
+              "date": "2026-09-10",
+              "evidenceIds": [
+                "anthropic-fourth-cyber-reuters-20260909"
+              ],
+              "statement": "Anthropic은 개별 외부침입 사고에 대해 METR에 8주 독립조사를 맡겼지만 회사 전반의 상시 접근이나 모델 능력 향상 속도 제한은 약속하지 않았다."
+            },
+            "breakdown": {
+              "action": {
+                "score": 14,
+                "reason": "상주형 외부 평가자에 대한 일방적 회사 확약은 구체적이지만 선임·계약·운영은 시작 전이다."
+              },
+              "change": {
+                "score": 19,
+                "reason": "2023년에는 감속론이 이르다고 봤던 입장에서 최근 몇 달의 증거로 능력 향상 속도 자체를 늦춰야 한다는 전략 변화가 명시됐다."
+              },
+              "impact": {
+                "score": 17,
+                "reason": "프런티어 연구 일정·연산 투자·출시 경쟁과 산업 안전감사의 구조를 바꿀 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "평가기관·계약·접근 범위·독립 보고서와 모델 훈련·출시 간격으로 판별 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "리더 본인의 장문 원문과 Reuters 직접 인용 보도를 함께 확인했다."
+              }
+            },
+            "evidenceIds": [
+              "dario-frontier-pacing-essay-20260912",
+              "anthropic-frontier-pacing-reuters-20260912"
+            ],
+            "impactDirection": "mixed",
+            "note": "14+19+17+14+10=74. 방향 전환과 공개 확약은 크지만 기업의 commitment 단계이므로 관찰 신호로 제한한다.",
+            "rubricVersion": 1,
+            "stage": "commitment",
+            "status": "reviewed"
+          },
+          "before": "아모데이는 안전 연구와 규제를 강화하되 기술 발전을 계속하는 ‘신중한 경쟁’을 주장했고 2023년식 감속론은 위험을 연구할 모델 능력이 부족해 실효성이 작다고 봤다.",
+          "counter": "확약은 아직 평가기관 선정·계약·상주 개시로 이어지지 않았다. Anthropic은 대규모 자금조달과 모델 경쟁도 계속하고 있어 실제 훈련 연산·출시 속도가 느려지는지는 별도 확인이 필요하다.",
+          "date": "2026.09.12",
+          "eventId": "dario-frontier-pacing",
+          "facts": [
+            "아모데이는 지난 몇 달 동안 재귀적 자기개선이 빨라졌고 외부침입 사고가 반복돼 안전투자만으로 부족하다고 판단했다고 썼다.",
+            "Anthropic은 외부 평가자에게 사무실·출입증·회사 노트북과 내부 위험평가팀에 준하는 도구·권한을 제공하겠다고 확약했다.",
+            "외부 평가자는 위험·사고·접근 제한에 관한 핵심 결과를 Anthropic의 편집 통제 없이 발표할 권리를 갖도록 계약할 계획이다.",
+            "아모데이는 산업 공통 기준과 국제 협력을 제안했지만 모델 훈련 중단이나 기술 진보의 전면 정지는 요구하지 않았다."
+          ],
+          "headline": "아모데이가 모델 능력 향상 속도를 늦추는 쪽으로 입장을 바꾸고 Anthropic에 상주형 외부 평가자의 직원급 접근을 확약했다",
+          "hypothesisId": "frontier-ai-pacing-audit",
+          "id": "dario-frontier-pacing",
+          "impact": "해석: 안전이 출시 후 점검이 아니라 훈련 속도와 자본 배치의 선행 조건으로 이동할 가능성이 커졌다. 다만 실제 감속과 상주 감사가 확인되기 전에는 프런티어 모델 공급·연산 수요의 변화로 단정할 수 없다.",
+          "impactPath": [
+            "외부침입·재귀적 자기개선 위험 확대",
+            "상주형 독립 평가자와 능력 기반 체크포인트 확약",
+            "훈련·출시 일정과 연산 배분에 안전 조건 부과 가능",
+            "AI 연구 경쟁·감사산업·인프라 수요의 속도와 비용 변화"
+          ],
+          "industryLinks": [
+            {
+              "evidenceIds": [
+                "dario-frontier-pacing-essay-20260912"
+              ],
+              "relationship": "hypothesis",
+              "sector": "프런티어 AI·안전 감사",
+              "text": "상주형 외부 평가와 능력 기반 속도조절이 시행되면 모델 출시·연산 투자·감사 비용에 영향을 줄 수 있으나 실제 계약과 감속은 미확인이다."
+            }
+          ],
+          "initials": "DA",
+          "kind": "반전",
+          "leader": "다리오 아모데이(Dario Amodei)",
+          "next": "외부 평가기관 선정·계약일, 사무실·도구 접근 개시, 독립 보고서와 편집권 조항, 모델 훈련 연산·출시 간격의 전후 변화를 확인한다.",
+          "now": "아모데이는 모델 능력 향상 속도 자체를 늦춰 안전 연구가 따라잡을 시간을 확보해야 한다고 했고 Anthropic이 상주형 외부 평가자를 먼저 받아들이겠다고 확약했다.",
+          "reportDate": "2026.09.13",
+          "role": "Anthropic 공동창업자·CEO",
+          "score": 74,
+          "source": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "sourceGrade": "A",
+          "sourceLabel": "Dario Amodei 원문 · 2026.09.12",
+          "takeaway": "안전 우선이 ‘더 많은 안전 연구’에서 ‘모델 능력 향상 속도 조절’로 바뀌었다. 다만 실제로 시작된 것은 상주형 외부 평가자에 대한 공개 확약이며 선임·계약·감속 결과는 아직 없다.",
+          "theme": "AI 안전",
+          "timing": {
+            "firstSeenAt": "2026-09-13T07:38:56+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null,
+            "occurredAt": "2026-09-12",
+            "publishedAt": "2026-09-12",
+            "verifiedAt": "2026-09-13T07:38:56+09:00"
+          }
+        },
+        "source": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "stage": "commitment",
+        "status": "reviewed",
+        "tier": "observation"
+      },
+      {
+        "eventId": "a16z-cognition-series-e",
         "evidenceIds": [
           "a16z-cognition-official-20260909",
           "cognition-series-e-reuters-20260908"
         ],
+        "headline": "a16z가 Cognition의 20억 달러 투자 라운드를 공동 주도했고 Devin 연환산 매출은 4개월 만에 4억9,200만→약 9억 달러로 증가했다",
+        "hypothesisId": "ai-coding-agent-economics",
+        "id": "revision-20260912-a16z-cognition-series-e-initial",
+        "previousRevisionId": null,
+        "reason": "28+14+19+15+10=86. 실제 자본 배치와 매출 확대를 성과로 보되 회사 제공 연환산 매출과 고객 사례를 감사 실적으로 간주하지 않는다.",
+        "recordedAt": "2026-09-12T07:36:00+09:00",
+        "reportDate": "2026.09.12",
+        "score": 86,
+        "signalId": "a16z-cognition-series-e",
         "snapshot": {
-          "id": "a16z-cognition-series-e",
-          "eventId": "a16z-cognition-series-e",
-          "hypothesisId": "ai-coding-agent-economics",
-          "leader": "마크 앤드리슨(Marc Andreessen)",
-          "role": "Andreessen Horowitz 공동창업자·GP",
-          "initials": "MA",
-          "score": 86,
-          "kind": "실행",
-          "date": "2026.09.09",
-          "reportDate": "2026.09.12",
-          "theme": "AI 배포",
-          "headline": "a16z가 Cognition의 20억 달러 투자 라운드를 공동 주도했고 Devin 연환산 매출은 4개월 만에 4억9,200만→약 9억 달러로 증가했다",
-          "takeaway": "코딩 에이전트가 실험적 개발 도구에서 대규모 매출과 후기단계 자본을 끌어오는 소프트웨어 생산 기반으로 이동했다. 다만 480억 달러 평가는 매출의 질과 수익성이 검증되기 전에 확장된 기대도 함께 반영한다.",
+          "action": "확인된 행동은 a16z의 투자 라운드 공동 주도와 Cognition의 유료 매출 확대다. a16z의 실제 투자액, Cognition의 매출 인식 방식·총이익·순유지율은 공개되지 않았다.",
+          "assessment": {
+            "assessedAt": "2026-09-12T07:36:00+09:00",
+            "attribution": "leader_direct",
+            "baseline": {
+              "date": "2026-08-10",
+              "evidenceIds": [
+                "a16z-agent-production-baseline-20260810"
+              ],
+              "statement": "a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서 생산 배치되기 시작했지만 정확도·지연·비용과 검증 체계가 병목이라고 평가했다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "대규모 투자 라운드 공동 주도와 피투자사의 매출·생산 배치 성과가 함께 확인됐다.",
+                "score": 28
+              },
+              "change": {
+                "reason": "한 달 전의 좁은 반복업무 중심 에이전트 기준선에서 코딩 생산 공정과 후기단계 자본 배치로 확신의 범위가 확대됐다.",
+                "score": 14
+              },
+              "impact": {
+                "reason": "개발 인력·도구·모델·클라우드의 가치 배분을 바꿀 잠재력이 크다.",
+                "score": 19
+              },
+              "source": {
+                "reason": "리더 본인의 공식 투자 글과 Reuters의 거래·매출 확인 보도를 함께 검증했다.",
+                "score": 10
+              },
+              "verification": {
+                "reason": "라운드 종결, 감사 매출·마진·유지율과 코드 품질로 구체적으로 판별할 수 있다.",
+                "score": 15
+              }
+            },
+            "evidenceIds": [
+              "a16z-cognition-official-20260909",
+              "cognition-series-e-reuters-20260908"
+            ],
+            "impactDirection": "positive",
+            "note": "28+14+19+15+10=86. 실제 자본 배치와 매출 확대를 성과로 보되 회사 제공 연환산 매출과 고객 사례를 감사 실적으로 간주하지 않는다.",
+            "rubricVersion": 1,
+            "stage": "outcome",
+            "status": "reviewed"
+          },
           "before": "8월 a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서만 생산 배치되며 정확도·지연·비용과 검증 체계가 병목이라고 평가했다.",
-          "now": "a16z는 Cognition 투자 라운드를 공동 주도했고, 앤드리슨은 Devin이 Cognition 생산 코드의 90% 이상을 작성하며 소프트웨어 생산 속도가 사람의 손에서 연산으로 옮겨간다고 밝혔다.",
+          "counter": "매출은 회사·투자자 제공 수치이며 감사 여부와 반복 매출 비중이 확인되지 않았다. 480억 달러 가치는 약 9억 달러 연환산 매출 대비 높은 기대를 포함하고, 고객 생산성 사례의 대표성과 오류 비용도 독립 검증되지 않았다.",
+          "date": "2026.09.09",
+          "eventId": "a16z-cognition-series-e",
           "facts": [
             "Reuters가 확인한 Series E 규모는 20억 달러, 기업가치는 480억 달러이며 a16z와 Accel이 신규 투자자로 라운드를 이끌었다.",
             "Cognition의 연환산 매출은 5월 4억9,200만 달러에서 9월 약 9억 달러로 증가했다.",
             "a16z는 Devin이 Cognition 생산 코드에서 차지하는 비중이 1년 사이 13%에서 90% 이상으로 높아졌다고 밝혔다.",
             "a16z가 제시한 고객 사례에서 Mercedes-Benz의 COBOL 이전 기간은 8개월에서 8일로, Rivian의 테스트 생성 속도는 10배로 개선됐다."
           ],
-          "action": "확인된 행동은 a16z의 투자 라운드 공동 주도와 Cognition의 유료 매출 확대다. a16z의 실제 투자액, Cognition의 매출 인식 방식·총이익·순유지율은 공개되지 않았다.",
+          "headline": "a16z가 Cognition의 20억 달러 투자 라운드를 공동 주도했고 Devin 연환산 매출은 4개월 만에 4억9,200만→약 9억 달러로 증가했다",
+          "hypothesisId": "ai-coding-agent-economics",
+          "id": "a16z-cognition-series-e",
           "impact": "해석: 코딩 에이전트 시장의 가치가 모델 벤치마크보다 기업 배포·매출·개발 공정 장악력으로 이동하고 있다. 동시에 고평가와 소수 대기업 사례 의존은 후속 자금조달과 멀티플 압축 위험을 키운다.",
           "impactPath": [
             "코딩 에이전트의 생산 코드 비중 상승",
@@ -1984,115 +2516,114 @@
             "Cognition 매출과 후기단계 자본 유입",
             "개발도구·모델·클라우드 가치사슬 재편 가능"
           ],
-          "counter": "매출은 회사·투자자 제공 수치이며 감사 여부와 반복 매출 비중이 확인되지 않았다. 480억 달러 가치는 약 9억 달러 연환산 매출 대비 높은 기대를 포함하고, 고객 생산성 사례의 대표성과 오류 비용도 독립 검증되지 않았다.",
-          "next": "라운드 종결·a16z 투자액, 감사된 매출과 총이익률·순매출유지율, Devin 생성 코드의 결함·재작업률과 고객별 유료 확장을 확인한다.",
-          "source": "https://a16z.com/announcement/investing-in-cognition/",
-          "sourceLabel": "Marc Andreessen의 a16z 투자 발표 · 2026.09.09",
-          "sourceGrade": "A",
-          "timing": {
-            "occurredAt": "2026-09-09",
-            "publishedAt": "2026-09-09",
-            "firstSeenAt": "2026-09-12T07:36:00+09:00",
-            "verifiedAt": "2026-09-12T07:36:00+09:00",
-            "lateDiscovery": true,
-            "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 9일 투자·매출 사건의 원문을 처음 검증했다."
-          },
           "industryLinks": [
             {
-              "sector": "AI 코딩 에이전트·개발도구",
-              "relationship": "confirmed",
-              "text": "a16z가 Cognition 투자 라운드를 공동 주도했고 Cognition은 약 9억 달러의 연환산 매출을 제시했다. 특정 상장사의 수혜는 확인되지 않았다.",
               "evidenceIds": [
                 "a16z-cognition-official-20260909",
                 "cognition-series-e-reuters-20260908"
-              ]
+              ],
+              "relationship": "confirmed",
+              "sector": "AI 코딩 에이전트·개발도구",
+              "text": "a16z가 Cognition 투자 라운드를 공동 주도했고 Cognition은 약 9억 달러의 연환산 매출을 제시했다. 특정 상장사의 수혜는 확인되지 않았다."
             }
           ],
-          "assessment": {
-            "status": "reviewed",
-            "rubricVersion": 1,
-            "assessedAt": "2026-09-12T07:36:00+09:00",
-            "stage": "outcome",
-            "impactDirection": "positive",
-            "attribution": "leader_direct",
-            "breakdown": {
-              "action": {
-                "score": 28,
-                "reason": "대규모 투자 라운드 공동 주도와 피투자사의 매출·생산 배치 성과가 함께 확인됐다."
-              },
-              "change": {
-                "score": 14,
-                "reason": "한 달 전의 좁은 반복업무 중심 에이전트 기준선에서 코딩 생산 공정과 후기단계 자본 배치로 확신의 범위가 확대됐다."
-              },
-              "impact": {
-                "score": 19,
-                "reason": "개발 인력·도구·모델·클라우드의 가치 배분을 바꿀 잠재력이 크다."
-              },
-              "verification": {
-                "score": 15,
-                "reason": "라운드 종결, 감사 매출·마진·유지율과 코드 품질로 구체적으로 판별할 수 있다."
-              },
-              "source": {
-                "score": 10,
-                "reason": "리더 본인의 공식 투자 글과 Reuters의 거래·매출 확인 보도를 함께 검증했다."
-              }
-            },
-            "baseline": {
-              "date": "2026-08-10",
-              "statement": "a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서 생산 배치되기 시작했지만 정확도·지연·비용과 검증 체계가 병목이라고 평가했다.",
-              "evidenceIds": [
-                "a16z-agent-production-baseline-20260810"
-              ]
-            },
-            "evidenceIds": [
-              "a16z-cognition-official-20260909",
-              "cognition-series-e-reuters-20260908"
-            ],
-            "note": "28+14+19+15+10=86. 실제 자본 배치와 매출 확대를 성과로 보되 회사 제공 연환산 매출과 고객 사례를 감사 실적으로 간주하지 않는다."
+          "initials": "MA",
+          "kind": "실행",
+          "leader": "마크 앤드리슨(Marc Andreessen)",
+          "next": "라운드 종결·a16z 투자액, 감사된 매출과 총이익률·순매출유지율, Devin 생성 코드의 결함·재작업률과 고객별 유료 확장을 확인한다.",
+          "now": "a16z는 Cognition 투자 라운드를 공동 주도했고, 앤드리슨은 Devin이 Cognition 생산 코드의 90% 이상을 작성하며 소프트웨어 생산 속도가 사람의 손에서 연산으로 옮겨간다고 밝혔다.",
+          "reportDate": "2026.09.12",
+          "role": "Andreessen Horowitz 공동창업자·GP",
+          "score": 86,
+          "source": "https://a16z.com/announcement/investing-in-cognition/",
+          "sourceGrade": "A",
+          "sourceLabel": "Marc Andreessen의 a16z 투자 발표 · 2026.09.09",
+          "takeaway": "코딩 에이전트가 실험적 개발 도구에서 대규모 매출과 후기단계 자본을 끌어오는 소프트웨어 생산 기반으로 이동했다. 다만 480억 달러 평가는 매출의 질과 수익성이 검증되기 전에 확장된 기대도 함께 반영한다.",
+          "theme": "AI 배포",
+          "timing": {
+            "firstSeenAt": "2026-09-12T07:36:00+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 9일 투자·매출 사건의 원문을 처음 검증했다.",
+            "occurredAt": "2026-09-09",
+            "publishedAt": "2026-09-09",
+            "verifiedAt": "2026-09-12T07:36:00+09:00"
           }
-        }
+        },
+        "source": "https://a16z.com/announcement/investing-in-cognition/",
+        "stage": "outcome",
+        "status": "reviewed",
+        "tier": "signal"
       },
       {
-        "id": "revision-20260912-nvidia-skild-s1-robotics-initial",
         "eventId": "nvidia-skild-s1-robotics",
-        "signalId": "nvidia-skild-s1-robotics",
-        "hypothesisId": "physical-ai-commercialization",
-        "previousRevisionId": null,
-        "reportDate": "2026.09.12",
-        "recordedAt": "2026-09-12T07:36:00+09:00",
-        "tier": "signal",
-        "score": 84,
-        "headline": "NVIDIA–Skild 로봇 스택이 60여 배치 파트너·연환산 매출 1억 달러와 Foxconn의 Blackwell 조립 현장에 진입했다",
-        "source": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-        "status": "reviewed",
-        "stage": "outcome",
-        "reason": "27+15+18+14+10=84. 상용 배치와 파트너 성과를 outcome으로 보되 회사 발표 매출과 내부 시험을 감사·독립 성과로 확정하지 않는다.",
         "evidenceIds": [
           "nvidia-skild-s1-official-20260910"
         ],
+        "headline": "NVIDIA–Skild 로봇 스택이 60여 배치 파트너·연환산 매출 1억 달러와 Foxconn의 Blackwell 조립 현장에 진입했다",
+        "hypothesisId": "physical-ai-commercialization",
+        "id": "revision-20260912-nvidia-skild-s1-robotics-initial",
+        "previousRevisionId": null,
+        "reason": "27+15+18+14+10=84. 상용 배치와 파트너 성과를 outcome으로 보되 회사 발표 매출과 내부 시험을 감사·독립 성과로 확정하지 않는다.",
+        "recordedAt": "2026-09-12T07:36:00+09:00",
+        "reportDate": "2026.09.12",
+        "score": 84,
+        "signalId": "nvidia-skild-s1-robotics",
         "snapshot": {
-          "id": "nvidia-skild-s1-robotics",
-          "eventId": "nvidia-skild-s1-robotics",
-          "hypothesisId": "physical-ai-commercialization",
-          "leader": "젠슨 황(Jensen Huang)",
-          "role": "NVIDIA CEO",
-          "initials": "JH",
-          "score": 84,
-          "kind": "실행",
-          "date": "2026.09.10",
-          "reportDate": "2026.09.12",
-          "theme": "AI 배포",
-          "headline": "NVIDIA–Skild 로봇 스택이 60여 배치 파트너·연환산 매출 1억 달러와 Foxconn의 Blackwell 조립 현장에 진입했다",
-          "takeaway": "NVIDIA의 피지컬 AI 전략이 개방형 월드모델과 시뮬레이션 도구 제공에서 실제 공장 배치와 파트너 매출로 진전됐다. 한 기업의 내부 시험과 회사 발표 수치인 만큼 범용성과 안전성은 아직 별도 검증이 필요하다.",
+          "action": "확인된 행동은 NVIDIA 전 주기 스택을 사용한 상용 배치, Foxconn 공장 작업 적용과 공동 시뮬레이션 솔버 개발이다. 고객별 계약액·실제 완수율·사고율과 Newton 공개 일정은 미확인이다.",
+          "assessment": {
+            "assessedAt": "2026-09-12T07:36:00+09:00",
+            "attribution": "company_action",
+            "baseline": {
+              "date": "2026-08-06",
+              "evidenceIds": [
+                "nvidia-physical-ai-baseline-20260806"
+              ],
+              "statement": "NVIDIA는 Cosmos 3와 Omniverse를 피지컬 AI의 개방형 데이터·시뮬레이션 기반으로 제시하고 로봇 기업들의 채택을 공개했다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "NVIDIA 전 주기 스택의 상용 배치와 Foxconn 공장 적용, 파트너 매출 성과가 확인됐다.",
+                "score": 27
+              },
+              "change": {
+                "reason": "월드모델·시뮬레이션 채택에서 영상 기반 미경험 작업과 실제 조립 배치로 의미 있게 진전됐다.",
+                "score": 15
+              },
+              "impact": {
+                "reason": "로봇·제조·엣지 연산과 시뮬레이션 플랫폼에 파급력이 크다.",
+                "score": 18
+              },
+              "source": {
+                "reason": "NVIDIA 공식 사례에서 발표일·기술구조·수치와 현장 적용을 직접 확인했다.",
+                "score": 10
+              },
+              "verification": {
+                "reason": "매출·배치 수, 작업 성공률·개입률·가동률과 공개 솔버 일정으로 검증할 수 있다.",
+                "score": 14
+              }
+            },
+            "evidenceIds": [
+              "nvidia-skild-s1-official-20260910"
+            ],
+            "impactDirection": "positive",
+            "note": "27+15+18+14+10=84. 상용 배치와 파트너 성과를 outcome으로 보되 회사 발표 매출과 내부 시험을 감사·독립 성과로 확정하지 않는다.",
+            "rubricVersion": 1,
+            "stage": "outcome",
+            "status": "reviewed"
+          },
           "before": "8월 NVIDIA는 Cosmos 3·Omniverse를 통해 피지컬 AI용 데이터 생성·시뮬레이션·특화를 지원하고 여러 로봇 기업의 채택을 공개했지만 상용 배치 성과는 제한적이었다.",
-          "now": "Skild는 NVIDIA의 연산·Cosmos·Omniverse·Isaac 스택으로 학습한 S1을 60여 배치 파트너에 공급했고, NVIDIA·Foxconn과 Blackwell 시스템 조립 현장에 적용하고 있다.",
+          "counter": "1억 달러 연환산 매출과 성공률은 회사 발표·내부 시험이며 감사·독립 재현되지 않았다. 단계별 66%는 긴 작업 전체 성공률보다 높게 보일 수 있고, 안전 개입·가동률·유지비가 나쁘면 대량 배치가 제한된다.",
+          "date": "2026.09.10",
+          "eventId": "nvidia-skild-s1-robotics",
           "facts": [
             "Skild는 첫 상용 배치 10개월 만에 연환산 매출 1억 달러와 60개 이상의 배치 파트너를 제시했다.",
             "S1은 한 개 영상 시연 뒤 추가 가중치 학습 없이 최대 10분의 미경험 다단계 작업을 수행하도록 설계됐다.",
             "Skild 내부 시험에서 단계별 성공률은 66%로 비교 시스템의 9%보다 높았고, 화분 심기 시연에서 영상 기록부터 자율 실행까지 11분이 걸렸다.",
             "Skild·NVIDIA·Foxconn은 듀얼암 로봇으로 NVIDIA Blackwell 시스템의 버스바·제한 블록 설치와 16개 나사 체결 작업을 배치하고 있다."
           ],
-          "action": "확인된 행동은 NVIDIA 전 주기 스택을 사용한 상용 배치, Foxconn 공장 작업 적용과 공동 시뮬레이션 솔버 개발이다. 고객별 계약액·실제 완수율·사고율과 Newton 공개 일정은 미확인이다.",
+          "headline": "NVIDIA–Skild 로봇 스택이 60여 배치 파트너·연환산 매출 1억 달러와 Foxconn의 Blackwell 조립 현장에 진입했다",
+          "hypothesisId": "physical-ai-commercialization",
+          "id": "nvidia-skild-s1-robotics",
           "impact": "해석: 로봇 가치사슬의 병목이 개별 하드웨어에서 데이터·시뮬레이션·공통 두뇌·현장 피드백의 통합으로 이동할 수 있다. NVIDIA는 GPU뿐 아니라 피지컬 AI 개발·배포 전 주기의 표준을 확보할 기회를 얻는다.",
           "impactPath": [
             "영상 한 번으로 새 작업 지시",
@@ -2100,113 +2631,113 @@
             "공장·물류의 로봇 배치 확대",
             "NVIDIA 연산·시뮬레이션·엣지 스택 사용 증가 가능"
           ],
-          "counter": "1억 달러 연환산 매출과 성공률은 회사 발표·내부 시험이며 감사·독립 재현되지 않았다. 단계별 66%는 긴 작업 전체 성공률보다 높게 보일 수 있고, 안전 개입·가동률·유지비가 나쁘면 대량 배치가 제한된다.",
-          "next": "감사 매출과 고객 유지율, 작업 전체 성공률·사람 개입률·가동률·사고율, Foxconn 생산라인 확대 범위와 공동 Newton 솔버의 실제 공개를 확인한다.",
-          "source": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-          "sourceLabel": "NVIDIA–Skild S1 공식 배치 사례 · 2026.09.10",
-          "sourceGrade": "A",
-          "timing": {
-            "occurredAt": "2026-09-10",
-            "publishedAt": "2026-09-10",
-            "firstSeenAt": "2026-09-12T07:36:00+09:00",
-            "verifiedAt": "2026-09-12T07:36:00+09:00",
-            "lateDiscovery": true,
-            "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 상용 배치·매출 원문을 확인했다."
-          },
           "industryLinks": [
             {
-              "sector": "산업용 로봇·피지컬 AI",
-              "relationship": "confirmed",
-              "text": "NVIDIA와 Skild의 협업이 데이터·학습·시뮬레이션·실제 배치 전 과정과 Foxconn의 Blackwell 조립 작업에 적용됐다.",
               "evidenceIds": [
                 "nvidia-skild-s1-official-20260910"
-              ]
+              ],
+              "relationship": "confirmed",
+              "sector": "산업용 로봇·피지컬 AI",
+              "text": "NVIDIA와 Skild의 협업이 데이터·학습·시뮬레이션·실제 배치 전 과정과 Foxconn의 Blackwell 조립 작업에 적용됐다."
             }
           ],
-          "assessment": {
-            "status": "reviewed",
-            "rubricVersion": 1,
-            "assessedAt": "2026-09-12T07:36:00+09:00",
-            "stage": "outcome",
-            "impactDirection": "positive",
-            "attribution": "company_action",
-            "breakdown": {
-              "action": {
-                "score": 27,
-                "reason": "NVIDIA 전 주기 스택의 상용 배치와 Foxconn 공장 적용, 파트너 매출 성과가 확인됐다."
-              },
-              "change": {
-                "score": 15,
-                "reason": "월드모델·시뮬레이션 채택에서 영상 기반 미경험 작업과 실제 조립 배치로 의미 있게 진전됐다."
-              },
-              "impact": {
-                "score": 18,
-                "reason": "로봇·제조·엣지 연산과 시뮬레이션 플랫폼에 파급력이 크다."
-              },
-              "verification": {
-                "score": 14,
-                "reason": "매출·배치 수, 작업 성공률·개입률·가동률과 공개 솔버 일정으로 검증할 수 있다."
-              },
-              "source": {
-                "score": 10,
-                "reason": "NVIDIA 공식 사례에서 발표일·기술구조·수치와 현장 적용을 직접 확인했다."
-              }
-            },
-            "baseline": {
-              "date": "2026-08-06",
-              "statement": "NVIDIA는 Cosmos 3와 Omniverse를 피지컬 AI의 개방형 데이터·시뮬레이션 기반으로 제시하고 로봇 기업들의 채택을 공개했다.",
-              "evidenceIds": [
-                "nvidia-physical-ai-baseline-20260806"
-              ]
-            },
-            "evidenceIds": [
-              "nvidia-skild-s1-official-20260910"
-            ],
-            "note": "27+15+18+14+10=84. 상용 배치와 파트너 성과를 outcome으로 보되 회사 발표 매출과 내부 시험을 감사·독립 성과로 확정하지 않는다."
+          "initials": "JH",
+          "kind": "실행",
+          "leader": "젠슨 황(Jensen Huang)",
+          "next": "감사 매출과 고객 유지율, 작업 전체 성공률·사람 개입률·가동률·사고율, Foxconn 생산라인 확대 범위와 공동 Newton 솔버의 실제 공개를 확인한다.",
+          "now": "Skild는 NVIDIA의 연산·Cosmos·Omniverse·Isaac 스택으로 학습한 S1을 60여 배치 파트너에 공급했고, NVIDIA·Foxconn과 Blackwell 시스템 조립 현장에 적용하고 있다.",
+          "reportDate": "2026.09.12",
+          "role": "NVIDIA CEO",
+          "score": 84,
+          "source": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+          "sourceGrade": "A",
+          "sourceLabel": "NVIDIA–Skild S1 공식 배치 사례 · 2026.09.10",
+          "takeaway": "NVIDIA의 피지컬 AI 전략이 개방형 월드모델과 시뮬레이션 도구 제공에서 실제 공장 배치와 파트너 매출로 진전됐다. 한 기업의 내부 시험과 회사 발표 수치인 만큼 범용성과 안전성은 아직 별도 검증이 필요하다.",
+          "theme": "AI 배포",
+          "timing": {
+            "firstSeenAt": "2026-09-12T07:36:00+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 상용 배치·매출 원문을 확인했다.",
+            "occurredAt": "2026-09-10",
+            "publishedAt": "2026-09-10",
+            "verifiedAt": "2026-09-12T07:36:00+09:00"
           }
-        }
+        },
+        "source": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+        "stage": "outcome",
+        "status": "reviewed",
+        "tier": "signal"
       },
       {
-        "id": "revision-20260912-nvidia-dmatrix-nvlink-fusion-initial",
         "eventId": "nvidia-dmatrix-nvlink-fusion",
-        "signalId": "nvidia-dmatrix-nvlink-fusion",
-        "hypothesisId": "nvlink-custom-silicon-platform",
-        "previousRevisionId": null,
-        "reportDate": "2026.09.12",
-        "recordedAt": "2026-09-12T07:36:00+09:00",
-        "tier": "observation",
-        "score": 70,
-        "headline": "d-Matrix가 차세대 Raptor 추론칩을 NVIDIA NVLink·MGX 랙 표준에 통합하기로 했다",
-        "source": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-        "status": "reviewed",
-        "stage": "commitment",
-        "reason": "18+10+18+14+10=70. 구체적인 통합 확약은 인정하되 기업의 commitment 단계이므로 관찰로 제한한다.",
         "evidenceIds": [
           "nvidia-dmatrix-nvlink-official-20260910"
         ],
+        "headline": "d-Matrix가 차세대 Raptor 추론칩을 NVIDIA NVLink·MGX 랙 표준에 통합하기로 했다",
+        "hypothesisId": "nvlink-custom-silicon-platform",
+        "id": "revision-20260912-nvidia-dmatrix-nvlink-fusion-initial",
+        "previousRevisionId": null,
+        "reason": "18+10+18+14+10=70. 구체적인 통합 확약은 인정하되 기업의 commitment 단계이므로 관찰로 제한한다.",
+        "recordedAt": "2026-09-12T07:36:00+09:00",
+        "reportDate": "2026.09.12",
+        "score": 70,
+        "signalId": "nvidia-dmatrix-nvlink-fusion",
         "snapshot": {
-          "id": "nvidia-dmatrix-nvlink-fusion",
-          "eventId": "nvidia-dmatrix-nvlink-fusion",
-          "hypothesisId": "nvlink-custom-silicon-platform",
-          "leader": "젠슨 황(Jensen Huang)",
-          "role": "NVIDIA CEO",
-          "initials": "JH",
-          "score": 70,
-          "kind": "강화",
-          "date": "2026.09.10",
-          "reportDate": "2026.09.12",
-          "theme": "AI 인프라",
-          "headline": "d-Matrix가 차세대 Raptor 추론칩을 NVIDIA NVLink·MGX 랙 표준에 통합하기로 했다",
-          "takeaway": "NVIDIA가 경쟁 가능성이 있는 특화 추론칩까지 자사 네트워크·랙·전력·냉각 생태계 안으로 끌어들이는 전략을 강화했다. 아직 계획 단계라 실제 제품·고객·성능은 확인되지 않았다.",
+          "action": "확인된 행동은 양사의 통합 계획 공식화다. Raptor 양산, NVLink 기반 랙 인증·설치, 고객 주문과 성능·전력 수치는 아직 확인되지 않았다.",
+          "assessment": {
+            "assessedAt": "2026-09-12T07:36:00+09:00",
+            "attribution": "company_action",
+            "baseline": {
+              "date": "2026-08-24",
+              "evidenceIds": [
+                "nvidia-nvlink-xpu-baseline-20260824"
+              ],
+              "statement": "NVIDIA는 NVLink Fusion을 맞춤형 XPU와 자사 랙·네트워크·공급망을 잇는 개방형 AI 공장 플랫폼으로 제시했다."
+            },
+            "breakdown": {
+              "action": {
+                "reason": "차세대 칩과 랙·네트워크 통합을 공식 확약했지만 제품 배치는 아직 없다.",
+                "score": 18
+              },
+              "change": {
+                "reason": "NVLink Fusion의 일반 전략에서 구체적인 특화 추론칩 참여로 범위가 확대됐다.",
+                "score": 10
+              },
+              "impact": {
+                "reason": "GPU·맞춤형 칩·네트워크·랙 공급망의 경쟁구도에 영향을 줄 수 있다.",
+                "score": 18
+              },
+              "source": {
+                "reason": "NVIDIA 공식 발표에서 통합 범위·계획과 발표일을 직접 확인했다.",
+                "score": 10
+              },
+              "verification": {
+                "reason": "양산·인증·주문과 성능·전력·총소유비용으로 판별 가능하다.",
+                "score": 14
+              }
+            },
+            "evidenceIds": [
+              "nvidia-dmatrix-nvlink-official-20260910"
+            ],
+            "impactDirection": "positive",
+            "note": "18+10+18+14+10=70. 구체적인 통합 확약은 인정하되 기업의 commitment 단계이므로 관찰로 제한한다.",
+            "rubricVersion": 1,
+            "stage": "commitment",
+            "status": "reviewed"
+          },
           "before": "8월 NVIDIA는 NVLink Fusion을 맞춤형 XPU와 자사 AI 공장을 연결하는 개방형 랙 플랫폼으로 제시했지만 개별 신규 추론칩의 통합 성과는 제한적이었다.",
-          "now": "d-Matrix는 차세대 Raptor XPU를 NVLink, Spectrum-X, MGX, Vera CPU와 NVIDIA 네트워크·DPU 구성에 통합하겠다고 공식 발표했다.",
+          "counter": "출시·인증·주문이 없는 공식 확약 단계다. d-Matrix가 독자 랙이나 다른 연결망을 병행하거나 비용·성능이 목표에 못 미치면 NVLink 생태계 확장 효과는 제한된다.",
+          "date": "2026.09.10",
+          "eventId": "nvidia-dmatrix-nvlink-fusion",
           "facts": [
             "d-Matrix는 Raptor XPU를 NVIDIA NVLink 스케일업과 Spectrum-X 스케일아웃 네트워크에 연결할 계획이다.",
             "동일 랙에서 Raptor와 NVIDIA Vera Rubin NVL72를 분리형 추론에 함께 운영하는 구성을 제시했다.",
             "Vera CPU, ConnectX-9 SuperNIC, BlueField-4 DPU와 Spectrum-X 통합도 계획에 포함됐다.",
             "NVIDIA는 공통 MGX 랙을 사용하면 칩별로 별도 전력·냉각·공급망 설계를 반복하지 않아도 된다고 설명했다."
           ],
-          "action": "확인된 행동은 양사의 통합 계획 공식화다. Raptor 양산, NVLink 기반 랙 인증·설치, 고객 주문과 성능·전력 수치는 아직 확인되지 않았다.",
+          "headline": "d-Matrix가 차세대 Raptor 추론칩을 NVIDIA NVLink·MGX 랙 표준에 통합하기로 했다",
+          "hypothesisId": "nvlink-custom-silicon-platform",
+          "id": "nvidia-dmatrix-nvlink-fusion",
           "impact": "해석: 맞춤형 칩 경쟁이 NVIDIA GPU를 완전히 대체하기보다 NVIDIA의 연결망·랙·관리 소프트웨어에 종속되는 혼합 구조로 전개될 수 있다. 실제 채택 전에는 플랫폼 지배력 확대로 단정할 수 없다.",
           "impactPath": [
             "특화 추론 XPU의 NVLink 채택 확약",
@@ -2214,71 +2745,42 @@
             "이기종 AI 공장 구축 위험 감소 가능",
             "NVIDIA 인프라 표준의 범위 확대 가능"
           ],
-          "counter": "출시·인증·주문이 없는 공식 확약 단계다. d-Matrix가 독자 랙이나 다른 연결망을 병행하거나 비용·성능이 목표에 못 미치면 NVLink 생태계 확장 효과는 제한된다.",
-          "next": "Raptor 테이프아웃·양산일, NVLink 랙 인증과 첫 고객 주문, Vera Rubin 병행 운용 성능·전력·총소유비용을 확인한다.",
-          "source": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-          "sourceLabel": "NVIDIA–d-Matrix NVLink Fusion 공식 발표 · 2026.09.10",
-          "sourceGrade": "A",
-          "timing": {
-            "occurredAt": "2026-09-10",
-            "publishedAt": "2026-09-10",
-            "firstSeenAt": "2026-09-12T07:36:00+09:00",
-            "verifiedAt": "2026-09-12T07:36:00+09:00",
-            "lateDiscovery": true,
-            "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 통합 확약 원문을 확인했다."
-          },
           "industryLinks": [
             {
-              "sector": "AI 추론칩·데이터센터 네트워크",
-              "relationship": "confirmed",
-              "text": "d-Matrix와 NVIDIA는 Raptor XPU의 NVLink Fusion·MGX 통합 계획을 공식화했다. 양산·고객 배치는 미확인이다.",
               "evidenceIds": [
                 "nvidia-dmatrix-nvlink-official-20260910"
-              ]
+              ],
+              "relationship": "confirmed",
+              "sector": "AI 추론칩·데이터센터 네트워크",
+              "text": "d-Matrix와 NVIDIA는 Raptor XPU의 NVLink Fusion·MGX 통합 계획을 공식화했다. 양산·고객 배치는 미확인이다."
             }
           ],
-          "assessment": {
-            "status": "reviewed",
-            "rubricVersion": 1,
-            "assessedAt": "2026-09-12T07:36:00+09:00",
-            "stage": "commitment",
-            "impactDirection": "positive",
-            "attribution": "company_action",
-            "breakdown": {
-              "action": {
-                "score": 18,
-                "reason": "차세대 칩과 랙·네트워크 통합을 공식 확약했지만 제품 배치는 아직 없다."
-              },
-              "change": {
-                "score": 10,
-                "reason": "NVLink Fusion의 일반 전략에서 구체적인 특화 추론칩 참여로 범위가 확대됐다."
-              },
-              "impact": {
-                "score": 18,
-                "reason": "GPU·맞춤형 칩·네트워크·랙 공급망의 경쟁구도에 영향을 줄 수 있다."
-              },
-              "verification": {
-                "score": 14,
-                "reason": "양산·인증·주문과 성능·전력·총소유비용으로 판별 가능하다."
-              },
-              "source": {
-                "score": 10,
-                "reason": "NVIDIA 공식 발표에서 통합 범위·계획과 발표일을 직접 확인했다."
-              }
-            },
-            "baseline": {
-              "date": "2026-08-24",
-              "statement": "NVIDIA는 NVLink Fusion을 맞춤형 XPU와 자사 랙·네트워크·공급망을 잇는 개방형 AI 공장 플랫폼으로 제시했다.",
-              "evidenceIds": [
-                "nvidia-nvlink-xpu-baseline-20260824"
-              ]
-            },
-            "evidenceIds": [
-              "nvidia-dmatrix-nvlink-official-20260910"
-            ],
-            "note": "18+10+18+14+10=70. 구체적인 통합 확약은 인정하되 기업의 commitment 단계이므로 관찰로 제한한다."
+          "initials": "JH",
+          "kind": "강화",
+          "leader": "젠슨 황(Jensen Huang)",
+          "next": "Raptor 테이프아웃·양산일, NVLink 랙 인증과 첫 고객 주문, Vera Rubin 병행 운용 성능·전력·총소유비용을 확인한다.",
+          "now": "d-Matrix는 차세대 Raptor XPU를 NVLink, Spectrum-X, MGX, Vera CPU와 NVIDIA 네트워크·DPU 구성에 통합하겠다고 공식 발표했다.",
+          "reportDate": "2026.09.12",
+          "role": "NVIDIA CEO",
+          "score": 70,
+          "source": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+          "sourceGrade": "A",
+          "sourceLabel": "NVIDIA–d-Matrix NVLink Fusion 공식 발표 · 2026.09.10",
+          "takeaway": "NVIDIA가 경쟁 가능성이 있는 특화 추론칩까지 자사 네트워크·랙·전력·냉각 생태계 안으로 끌어들이는 전략을 강화했다. 아직 계획 단계라 실제 제품·고객·성능은 확인되지 않았다.",
+          "theme": "AI 인프라",
+          "timing": {
+            "firstSeenAt": "2026-09-12T07:36:00+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 통합 확약 원문을 확인했다.",
+            "occurredAt": "2026-09-10",
+            "publishedAt": "2026-09-10",
+            "verifiedAt": "2026-09-12T07:36:00+09:00"
           }
-        }
+        },
+        "source": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+        "stage": "commitment",
+        "status": "reviewed",
+        "tier": "observation"
       },
       {
         "eventId": "openai-agents-api",
@@ -6157,28 +6659,37 @@
     ],
     "hypotheses": [
       {
+        "id": "frontier-ai-pacing-audit",
+        "leaderNames": [
+          "다리오 아모데이(Dario Amodei)",
+          "샘 알트만(Sam Altman)"
+        ],
+        "question": "상주형 독립 평가자가 실제로 선임돼 훈련·사고·안전조치에 직원급 접근과 독립 발표권을 얻고, 모델 능력 향상 속도가 공개 지표와 검증 가능한 기준에 따라 조절되는가?",
+        "title": "프런티어 AI 속도조절과 상주형 독립 검증"
+      },
+      {
         "id": "ai-coding-agent-economics",
-        "title": "코딩 에이전트의 대규모 단위경제성",
-        "question": "Cognition의 빠른 연환산 매출 증가가 감사된 반복 매출·총이익·고객 유지와 코드 품질로 이어지는가?",
         "leaderNames": [
           "마크 앤드리슨(Marc Andreessen)"
-        ]
+        ],
+        "question": "Cognition의 빠른 연환산 매출 증가가 감사된 반복 매출·총이익·고객 유지와 코드 품질로 이어지는가?",
+        "title": "코딩 에이전트의 대규모 단위경제성"
       },
       {
         "id": "physical-ai-commercialization",
-        "title": "피지컬 AI의 상용 배치 전환",
-        "question": "NVIDIA–Skild의 공장 배치가 독립 검증된 작업 성공률·가동률·안전성과 반복 매출로 확장되는가?",
         "leaderNames": [
           "젠슨 황(Jensen Huang)"
-        ]
+        ],
+        "question": "NVIDIA–Skild의 공장 배치가 독립 검증된 작업 성공률·가동률·안전성과 반복 매출로 확장되는가?",
+        "title": "피지컬 AI의 상용 배치 전환"
       },
       {
         "id": "nvlink-custom-silicon-platform",
-        "title": "NVLink의 이기종 AI 공장 표준화",
-        "question": "d-Matrix 같은 특화 XPU의 NVLink 채택 확약이 양산·인증·고객 주문과 총소유비용 우위로 전환되는가?",
         "leaderNames": [
           "젠슨 황(Jensen Huang)"
-        ]
+        ],
+        "question": "d-Matrix 같은 특화 XPU의 NVLink 채택 확약이 양산·인증·고객 주문과 총소유비용 우위로 전환되는가?",
+        "title": "NVLink의 이기종 AI 공장 표준화"
       },
       {
         "id": "agent-infrastructure-platform",
@@ -6494,40 +7005,74 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-09-11T07:53:00+09:00",
-    "end": "2026-09-12T07:36:00+09:00"
+    "start": "2026-09-12T07:36:00+09:00",
+    "end": "2026-09-13T07:38:56+09:00"
   },
   "runSummary": {
+    "excludedCount": 5,
     "leadersChecked": 22,
-    "sourcesChecked": 33,
-    "excludedCount": 4,
-    "notes": "22명 전원을 정상 조사했다. 72시간 겹침 수집에서 결정적 신호 2건과 관찰 신호 1건을 지연 발견했으며, 익명 출처·출시 전 예고·과거 내부 사건·국소 기능 수정 4건은 제외했다."
+    "notes": "22명 전원을 정상 조사했다. 관찰 신호 2건을 기록하고 오래된 사고 공개·익명 투자협상·단순 동의·기존 포지션 반복·일반 링크 소개 5건은 승격하지 않았다. 오늘 재검토 대상 2건은 미검증 상태를 유지했다.",
+    "sourcesChecked": 33
   },
   "schemaVersion": 2,
   "signals": [
     {
-      "id": "a16z-cognition-series-e",
-      "eventId": "a16z-cognition-series-e",
-      "hypothesisId": "ai-coding-agent-economics",
-      "leader": "마크 앤드리슨(Marc Andreessen)",
-      "role": "Andreessen Horowitz 공동창업자·GP",
-      "initials": "MA",
-      "score": 86,
-      "kind": "실행",
-      "date": "2026.09.09",
-      "reportDate": "2026.09.12",
-      "theme": "AI 배포",
-      "headline": "a16z가 Cognition의 20억 달러 투자 라운드를 공동 주도했고 Devin 연환산 매출은 4개월 만에 4억9,200만→약 9억 달러로 증가했다",
-      "takeaway": "코딩 에이전트가 실험적 개발 도구에서 대규모 매출과 후기단계 자본을 끌어오는 소프트웨어 생산 기반으로 이동했다. 다만 480억 달러 평가는 매출의 질과 수익성이 검증되기 전에 확장된 기대도 함께 반영한다.",
+      "action": "확인된 행동은 a16z의 투자 라운드 공동 주도와 Cognition의 유료 매출 확대다. a16z의 실제 투자액, Cognition의 매출 인식 방식·총이익·순유지율은 공개되지 않았다.",
+      "assessment": {
+        "assessedAt": "2026-09-12T07:36:00+09:00",
+        "attribution": "leader_direct",
+        "baseline": {
+          "date": "2026-08-10",
+          "evidenceIds": [
+            "a16z-agent-production-baseline-20260810"
+          ],
+          "statement": "a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서 생산 배치되기 시작했지만 정확도·지연·비용과 검증 체계가 병목이라고 평가했다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "대규모 투자 라운드 공동 주도와 피투자사의 매출·생산 배치 성과가 함께 확인됐다.",
+            "score": 28
+          },
+          "change": {
+            "reason": "한 달 전의 좁은 반복업무 중심 에이전트 기준선에서 코딩 생산 공정과 후기단계 자본 배치로 확신의 범위가 확대됐다.",
+            "score": 14
+          },
+          "impact": {
+            "reason": "개발 인력·도구·모델·클라우드의 가치 배분을 바꿀 잠재력이 크다.",
+            "score": 19
+          },
+          "source": {
+            "reason": "리더 본인의 공식 투자 글과 Reuters의 거래·매출 확인 보도를 함께 검증했다.",
+            "score": 10
+          },
+          "verification": {
+            "reason": "라운드 종결, 감사 매출·마진·유지율과 코드 품질로 구체적으로 판별할 수 있다.",
+            "score": 15
+          }
+        },
+        "evidenceIds": [
+          "a16z-cognition-official-20260909",
+          "cognition-series-e-reuters-20260908"
+        ],
+        "impactDirection": "positive",
+        "note": "28+14+19+15+10=86. 실제 자본 배치와 매출 확대를 성과로 보되 회사 제공 연환산 매출과 고객 사례를 감사 실적으로 간주하지 않는다.",
+        "rubricVersion": 1,
+        "stage": "outcome",
+        "status": "reviewed"
+      },
       "before": "8월 a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서만 생산 배치되며 정확도·지연·비용과 검증 체계가 병목이라고 평가했다.",
-      "now": "a16z는 Cognition 투자 라운드를 공동 주도했고, 앤드리슨은 Devin이 Cognition 생산 코드의 90% 이상을 작성하며 소프트웨어 생산 속도가 사람의 손에서 연산으로 옮겨간다고 밝혔다.",
+      "counter": "매출은 회사·투자자 제공 수치이며 감사 여부와 반복 매출 비중이 확인되지 않았다. 480억 달러 가치는 약 9억 달러 연환산 매출 대비 높은 기대를 포함하고, 고객 생산성 사례의 대표성과 오류 비용도 독립 검증되지 않았다.",
+      "date": "2026.09.09",
+      "eventId": "a16z-cognition-series-e",
       "facts": [
         "Reuters가 확인한 Series E 규모는 20억 달러, 기업가치는 480억 달러이며 a16z와 Accel이 신규 투자자로 라운드를 이끌었다.",
         "Cognition의 연환산 매출은 5월 4억9,200만 달러에서 9월 약 9억 달러로 증가했다.",
         "a16z는 Devin이 Cognition 생산 코드에서 차지하는 비중이 1년 사이 13%에서 90% 이상으로 높아졌다고 밝혔다.",
         "a16z가 제시한 고객 사례에서 Mercedes-Benz의 COBOL 이전 기간은 8개월에서 8일로, Rivian의 테스트 생성 속도는 10배로 개선됐다."
       ],
-      "action": "확인된 행동은 a16z의 투자 라운드 공동 주도와 Cognition의 유료 매출 확대다. a16z의 실제 투자액, Cognition의 매출 인식 방식·총이익·순유지율은 공개되지 않았다.",
+      "headline": "a16z가 Cognition의 20억 달러 투자 라운드를 공동 주도했고 Devin 연환산 매출은 4개월 만에 4억9,200만→약 9억 달러로 증가했다",
+      "hypothesisId": "ai-coding-agent-economics",
+      "id": "a16z-cognition-series-e",
       "impact": "해석: 코딩 에이전트 시장의 가치가 모델 벤치마크보다 기업 배포·매출·개발 공정 장악력으로 이동하고 있다. 동시에 고평가와 소수 대기업 사례 의존은 후속 자금조달과 멀티플 압축 위험을 키운다.",
       "impactPath": [
         "코딩 에이전트의 생산 코드 비중 상승",
@@ -6535,96 +7080,95 @@
         "Cognition 매출과 후기단계 자본 유입",
         "개발도구·모델·클라우드 가치사슬 재편 가능"
       ],
-      "counter": "매출은 회사·투자자 제공 수치이며 감사 여부와 반복 매출 비중이 확인되지 않았다. 480억 달러 가치는 약 9억 달러 연환산 매출 대비 높은 기대를 포함하고, 고객 생산성 사례의 대표성과 오류 비용도 독립 검증되지 않았다.",
-      "next": "라운드 종결·a16z 투자액, 감사된 매출과 총이익률·순매출유지율, Devin 생성 코드의 결함·재작업률과 고객별 유료 확장을 확인한다.",
-      "source": "https://a16z.com/announcement/investing-in-cognition/",
-      "sourceLabel": "Marc Andreessen의 a16z 투자 발표 · 2026.09.09",
-      "sourceGrade": "A",
-      "timing": {
-        "occurredAt": "2026-09-09",
-        "publishedAt": "2026-09-09",
-        "firstSeenAt": "2026-09-12T07:36:00+09:00",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
-        "lateDiscovery": true,
-        "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 9일 투자·매출 사건의 원문을 처음 검증했다."
-      },
       "industryLinks": [
         {
-          "sector": "AI 코딩 에이전트·개발도구",
-          "relationship": "confirmed",
-          "text": "a16z가 Cognition 투자 라운드를 공동 주도했고 Cognition은 약 9억 달러의 연환산 매출을 제시했다. 특정 상장사의 수혜는 확인되지 않았다.",
           "evidenceIds": [
             "a16z-cognition-official-20260909",
             "cognition-series-e-reuters-20260908"
-          ]
+          ],
+          "relationship": "confirmed",
+          "sector": "AI 코딩 에이전트·개발도구",
+          "text": "a16z가 Cognition 투자 라운드를 공동 주도했고 Cognition은 약 9억 달러의 연환산 매출을 제시했다. 특정 상장사의 수혜는 확인되지 않았다."
         }
       ],
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-12T07:36:00+09:00",
-        "stage": "outcome",
-        "impactDirection": "positive",
-        "attribution": "leader_direct",
-        "breakdown": {
-          "action": {
-            "score": 28,
-            "reason": "대규모 투자 라운드 공동 주도와 피투자사의 매출·생산 배치 성과가 함께 확인됐다."
-          },
-          "change": {
-            "score": 14,
-            "reason": "한 달 전의 좁은 반복업무 중심 에이전트 기준선에서 코딩 생산 공정과 후기단계 자본 배치로 확신의 범위가 확대됐다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "개발 인력·도구·모델·클라우드의 가치 배분을 바꿀 잠재력이 크다."
-          },
-          "verification": {
-            "score": 15,
-            "reason": "라운드 종결, 감사 매출·마진·유지율과 코드 품질로 구체적으로 판별할 수 있다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "리더 본인의 공식 투자 글과 Reuters의 거래·매출 확인 보도를 함께 검증했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-08-10",
-          "statement": "a16z는 컴퓨터 사용 에이전트가 좁고 반복적인 업무에서 생산 배치되기 시작했지만 정확도·지연·비용과 검증 체계가 병목이라고 평가했다.",
-          "evidenceIds": [
-            "a16z-agent-production-baseline-20260810"
-          ]
-        },
-        "evidenceIds": [
-          "a16z-cognition-official-20260909",
-          "cognition-series-e-reuters-20260908"
-        ],
-        "note": "28+14+19+15+10=86. 실제 자본 배치와 매출 확대를 성과로 보되 회사 제공 연환산 매출과 고객 사례를 감사 실적으로 간주하지 않는다."
+      "initials": "MA",
+      "kind": "실행",
+      "leader": "마크 앤드리슨(Marc Andreessen)",
+      "next": "라운드 종결·a16z 투자액, 감사된 매출과 총이익률·순매출유지율, Devin 생성 코드의 결함·재작업률과 고객별 유료 확장을 확인한다.",
+      "now": "a16z는 Cognition 투자 라운드를 공동 주도했고, 앤드리슨은 Devin이 Cognition 생산 코드의 90% 이상을 작성하며 소프트웨어 생산 속도가 사람의 손에서 연산으로 옮겨간다고 밝혔다.",
+      "reportDate": "2026.09.12",
+      "role": "Andreessen Horowitz 공동창업자·GP",
+      "score": 86,
+      "source": "https://a16z.com/announcement/investing-in-cognition/",
+      "sourceGrade": "A",
+      "sourceLabel": "Marc Andreessen의 a16z 투자 발표 · 2026.09.09",
+      "takeaway": "코딩 에이전트가 실험적 개발 도구에서 대규모 매출과 후기단계 자본을 끌어오는 소프트웨어 생산 기반으로 이동했다. 다만 480억 달러 평가는 매출의 질과 수익성이 검증되기 전에 확장된 기대도 함께 반영한다.",
+      "theme": "AI 배포",
+      "timing": {
+        "firstSeenAt": "2026-09-12T07:36:00+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 9일 투자·매출 사건의 원문을 처음 검증했다.",
+        "occurredAt": "2026-09-09",
+        "publishedAt": "2026-09-09",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       }
     },
     {
-      "id": "nvidia-skild-s1-robotics",
-      "eventId": "nvidia-skild-s1-robotics",
-      "hypothesisId": "physical-ai-commercialization",
-      "leader": "젠슨 황(Jensen Huang)",
-      "role": "NVIDIA CEO",
-      "initials": "JH",
-      "score": 84,
-      "kind": "실행",
-      "date": "2026.09.10",
-      "reportDate": "2026.09.12",
-      "theme": "AI 배포",
-      "headline": "NVIDIA–Skild 로봇 스택이 60여 배치 파트너·연환산 매출 1억 달러와 Foxconn의 Blackwell 조립 현장에 진입했다",
-      "takeaway": "NVIDIA의 피지컬 AI 전략이 개방형 월드모델과 시뮬레이션 도구 제공에서 실제 공장 배치와 파트너 매출로 진전됐다. 한 기업의 내부 시험과 회사 발표 수치인 만큼 범용성과 안전성은 아직 별도 검증이 필요하다.",
+      "action": "확인된 행동은 NVIDIA 전 주기 스택을 사용한 상용 배치, Foxconn 공장 작업 적용과 공동 시뮬레이션 솔버 개발이다. 고객별 계약액·실제 완수율·사고율과 Newton 공개 일정은 미확인이다.",
+      "assessment": {
+        "assessedAt": "2026-09-12T07:36:00+09:00",
+        "attribution": "company_action",
+        "baseline": {
+          "date": "2026-08-06",
+          "evidenceIds": [
+            "nvidia-physical-ai-baseline-20260806"
+          ],
+          "statement": "NVIDIA는 Cosmos 3와 Omniverse를 피지컬 AI의 개방형 데이터·시뮬레이션 기반으로 제시하고 로봇 기업들의 채택을 공개했다."
+        },
+        "breakdown": {
+          "action": {
+            "reason": "NVIDIA 전 주기 스택의 상용 배치와 Foxconn 공장 적용, 파트너 매출 성과가 확인됐다.",
+            "score": 27
+          },
+          "change": {
+            "reason": "월드모델·시뮬레이션 채택에서 영상 기반 미경험 작업과 실제 조립 배치로 의미 있게 진전됐다.",
+            "score": 15
+          },
+          "impact": {
+            "reason": "로봇·제조·엣지 연산과 시뮬레이션 플랫폼에 파급력이 크다.",
+            "score": 18
+          },
+          "source": {
+            "reason": "NVIDIA 공식 사례에서 발표일·기술구조·수치와 현장 적용을 직접 확인했다.",
+            "score": 10
+          },
+          "verification": {
+            "reason": "매출·배치 수, 작업 성공률·개입률·가동률과 공개 솔버 일정으로 검증할 수 있다.",
+            "score": 14
+          }
+        },
+        "evidenceIds": [
+          "nvidia-skild-s1-official-20260910"
+        ],
+        "impactDirection": "positive",
+        "note": "27+15+18+14+10=84. 상용 배치와 파트너 성과를 outcome으로 보되 회사 발표 매출과 내부 시험을 감사·독립 성과로 확정하지 않는다.",
+        "rubricVersion": 1,
+        "stage": "outcome",
+        "status": "reviewed"
+      },
       "before": "8월 NVIDIA는 Cosmos 3·Omniverse를 통해 피지컬 AI용 데이터 생성·시뮬레이션·특화를 지원하고 여러 로봇 기업의 채택을 공개했지만 상용 배치 성과는 제한적이었다.",
-      "now": "Skild는 NVIDIA의 연산·Cosmos·Omniverse·Isaac 스택으로 학습한 S1을 60여 배치 파트너에 공급했고, NVIDIA·Foxconn과 Blackwell 시스템 조립 현장에 적용하고 있다.",
+      "counter": "1억 달러 연환산 매출과 성공률은 회사 발표·내부 시험이며 감사·독립 재현되지 않았다. 단계별 66%는 긴 작업 전체 성공률보다 높게 보일 수 있고, 안전 개입·가동률·유지비가 나쁘면 대량 배치가 제한된다.",
+      "date": "2026.09.10",
+      "eventId": "nvidia-skild-s1-robotics",
       "facts": [
         "Skild는 첫 상용 배치 10개월 만에 연환산 매출 1억 달러와 60개 이상의 배치 파트너를 제시했다.",
         "S1은 한 개 영상 시연 뒤 추가 가중치 학습 없이 최대 10분의 미경험 다단계 작업을 수행하도록 설계됐다.",
         "Skild 내부 시험에서 단계별 성공률은 66%로 비교 시스템의 9%보다 높았고, 화분 심기 시연에서 영상 기록부터 자율 실행까지 11분이 걸렸다.",
         "Skild·NVIDIA·Foxconn은 듀얼암 로봇으로 NVIDIA Blackwell 시스템의 버스바·제한 블록 설치와 16개 나사 체결 작업을 배치하고 있다."
       ],
-      "action": "확인된 행동은 NVIDIA 전 주기 스택을 사용한 상용 배치, Foxconn 공장 작업 적용과 공동 시뮬레이션 솔버 개발이다. 고객별 계약액·실제 완수율·사고율과 Newton 공개 일정은 미확인이다.",
+      "headline": "NVIDIA–Skild 로봇 스택이 60여 배치 파트너·연환산 매출 1억 달러와 Foxconn의 Blackwell 조립 현장에 진입했다",
+      "hypothesisId": "physical-ai-commercialization",
+      "id": "nvidia-skild-s1-robotics",
       "impact": "해석: 로봇 가치사슬의 병목이 개별 하드웨어에서 데이터·시뮬레이션·공통 두뇌·현장 피드백의 통합으로 이동할 수 있다. NVIDIA는 GPU뿐 아니라 피지컬 AI 개발·배포 전 주기의 표준을 확보할 기회를 얻는다.",
       "impactPath": [
         "영상 한 번으로 새 작업 지시",
@@ -6632,69 +7176,36 @@
         "공장·물류의 로봇 배치 확대",
         "NVIDIA 연산·시뮬레이션·엣지 스택 사용 증가 가능"
       ],
-      "counter": "1억 달러 연환산 매출과 성공률은 회사 발표·내부 시험이며 감사·독립 재현되지 않았다. 단계별 66%는 긴 작업 전체 성공률보다 높게 보일 수 있고, 안전 개입·가동률·유지비가 나쁘면 대량 배치가 제한된다.",
-      "next": "감사 매출과 고객 유지율, 작업 전체 성공률·사람 개입률·가동률·사고율, Foxconn 생산라인 확대 범위와 공동 Newton 솔버의 실제 공개를 확인한다.",
-      "source": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "sourceLabel": "NVIDIA–Skild S1 공식 배치 사례 · 2026.09.10",
-      "sourceGrade": "A",
-      "timing": {
-        "occurredAt": "2026-09-10",
-        "publishedAt": "2026-09-10",
-        "firstSeenAt": "2026-09-12T07:36:00+09:00",
-        "verifiedAt": "2026-09-12T07:36:00+09:00",
-        "lateDiscovery": true,
-        "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 상용 배치·매출 원문을 확인했다."
-      },
       "industryLinks": [
         {
-          "sector": "산업용 로봇·피지컬 AI",
-          "relationship": "confirmed",
-          "text": "NVIDIA와 Skild의 협업이 데이터·학습·시뮬레이션·실제 배치 전 과정과 Foxconn의 Blackwell 조립 작업에 적용됐다.",
           "evidenceIds": [
             "nvidia-skild-s1-official-20260910"
-          ]
+          ],
+          "relationship": "confirmed",
+          "sector": "산업용 로봇·피지컬 AI",
+          "text": "NVIDIA와 Skild의 협업이 데이터·학습·시뮬레이션·실제 배치 전 과정과 Foxconn의 Blackwell 조립 작업에 적용됐다."
         }
       ],
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-12T07:36:00+09:00",
-        "stage": "outcome",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 27,
-            "reason": "NVIDIA 전 주기 스택의 상용 배치와 Foxconn 공장 적용, 파트너 매출 성과가 확인됐다."
-          },
-          "change": {
-            "score": 15,
-            "reason": "월드모델·시뮬레이션 채택에서 영상 기반 미경험 작업과 실제 조립 배치로 의미 있게 진전됐다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "로봇·제조·엣지 연산과 시뮬레이션 플랫폼에 파급력이 크다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "매출·배치 수, 작업 성공률·개입률·가동률과 공개 솔버 일정으로 검증할 수 있다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "NVIDIA 공식 사례에서 발표일·기술구조·수치와 현장 적용을 직접 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-08-06",
-          "statement": "NVIDIA는 Cosmos 3와 Omniverse를 피지컬 AI의 개방형 데이터·시뮬레이션 기반으로 제시하고 로봇 기업들의 채택을 공개했다.",
-          "evidenceIds": [
-            "nvidia-physical-ai-baseline-20260806"
-          ]
-        },
-        "evidenceIds": [
-          "nvidia-skild-s1-official-20260910"
-        ],
-        "note": "27+15+18+14+10=84. 상용 배치와 파트너 성과를 outcome으로 보되 회사 발표 매출과 내부 시험을 감사·독립 성과로 확정하지 않는다."
+      "initials": "JH",
+      "kind": "실행",
+      "leader": "젠슨 황(Jensen Huang)",
+      "next": "감사 매출과 고객 유지율, 작업 전체 성공률·사람 개입률·가동률·사고율, Foxconn 생산라인 확대 범위와 공동 Newton 솔버의 실제 공개를 확인한다.",
+      "now": "Skild는 NVIDIA의 연산·Cosmos·Omniverse·Isaac 스택으로 학습한 S1을 60여 배치 파트너에 공급했고, NVIDIA·Foxconn과 Blackwell 시스템 조립 현장에 적용하고 있다.",
+      "reportDate": "2026.09.12",
+      "role": "NVIDIA CEO",
+      "score": 84,
+      "source": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "sourceGrade": "A",
+      "sourceLabel": "NVIDIA–Skild S1 공식 배치 사례 · 2026.09.10",
+      "takeaway": "NVIDIA의 피지컬 AI 전략이 개방형 월드모델과 시뮬레이션 도구 제공에서 실제 공장 배치와 파트너 매출로 진전됐다. 한 기업의 내부 시험과 회사 발표 수치인 만큼 범용성과 안전성은 아직 별도 검증이 필요하다.",
+      "theme": "AI 배포",
+      "timing": {
+        "firstSeenAt": "2026-09-12T07:36:00+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "72시간 겹침 수집에서 직전 조사에 포함되지 않은 9월 10일 상용 배치·매출 원문을 확인했다.",
+        "occurredAt": "2026-09-10",
+        "publishedAt": "2026-09-10",
+        "verifiedAt": "2026-09-12T07:36:00+09:00"
       }
     },
     {
@@ -8716,8 +9227,8 @@
       }
     }
   ],
-  "status": "signals",
-  "statusMessage": "오늘 새로 확인한 결정적 신호 2건과 관찰 신호 1건을 반영했습니다.",
+  "status": "observations",
+  "statusMessage": "오늘 신규 결정적 신호는 0건이며, 모델 능력 속도조절·상주형 독립 검증·IPO 연기를 다룬 관찰 신호 2건을 확인했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -8734,10 +9245,10 @@
         },
         "independentEventGroups": [
           {
-            "id": "nvidia-dmatrix-nvlink-fusion",
             "eventIds": [
               "nvidia-dmatrix-nvlink-fusion"
             ],
+            "id": "nvidia-dmatrix-nvlink-fusion",
             "note": "하나의 독립 사건으로 집계하며 같은 발표의 참여자·반복 보도를 늘리지 않는다."
           },
           {
@@ -8938,7 +9449,7 @@
       "direction": "0",
       "leaders": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei) · 사티아 나델라(Satya Nadella) · 일론 머스크(Elon Musk)",
       "name": "AI 안전",
-      "note": "안전 경쟁은 제품 통제에서 실제 위협 차단과 의무적 독립평가 요구로 확장됐지만, 자체 조사 의존과 미시행 정책이라는 검증 공백이 남아 있다.",
+      "note": "안전 경쟁이 사고별 조사와 규칙 제안에서 모델 능력 향상 속도·IPO 일정·상주형 외부 검증의 선행 조건으로 확대됐지만 평가자 계약과 실제 감속은 아직 확인되지 않았다.",
       "research": {
         "comparison": {
           "from": null,
@@ -8947,6 +9458,20 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "eventIds": [
+              "dario-frontier-pacing"
+            ],
+            "id": "dario-frontier-pacing",
+            "note": "Anthropic의 독립 사건으로 집계하며 OpenAI의 별도 확약과 중복하지 않는다."
+          },
+          {
+            "eventIds": [
+              "openai-ipo-safety-pacing"
+            ],
+            "id": "openai-ipo-safety-pacing",
+            "note": "OpenAI의 독립 사건으로 집계하며 Anthropic의 원 제안과 중복하지 않는다."
+          },
           {
             "eventIds": [
               "anthropic-threat-intel-sep2026"
@@ -9006,6 +9531,22 @@
         ],
         "opposing": [
           {
+            "eventId": "dario-frontier-pacing",
+            "evidenceIds": [
+              "dario-frontier-pacing-essay-20260912"
+            ],
+            "status": "verified",
+            "text": "평가기관 선정·계약·상주 시작과 실제 훈련 연산·출시 속도 조절은 아직 확인되지 않았다."
+          },
+          {
+            "eventId": "openai-ipo-safety-pacing",
+            "evidenceIds": [
+              "openai-ipo-safety-fortune-20260912"
+            ],
+            "status": "verified",
+            "text": "정식 공모 철회가 아니며 독립 평가자·공동 감속 협약의 조건·감시 방식·시행일은 공개되지 않았다."
+          },
+          {
             "eventId": "anthropic-threat-intel-sep2026",
             "evidenceIds": [
               "anthropic-threat-report-official-20260910",
@@ -9062,6 +9603,24 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "dario-frontier-pacing",
+            "evidenceIds": [
+              "dario-frontier-pacing-essay-20260912",
+              "anthropic-frontier-pacing-reuters-20260912"
+            ],
+            "status": "verified",
+            "text": "Anthropic은 모델 능력 향상 속도조절과 상주형 외부 평가자의 직원급 접근을 공개 확약했다."
+          },
+          {
+            "eventId": "openai-ipo-safety-pacing",
+            "evidenceIds": [
+              "openai-ipo-safety-fortune-20260912",
+              "openai-ipo-safety-reuters-20260912"
+            ],
+            "status": "verified",
+            "text": "OpenAI는 안전 진전을 2026년 IPO와 추가 능력 향상의 선행 조건으로 두고 상주형 독립 평가자 접근을 약속했다."
+          },
           {
             "eventId": "anthropic-threat-intel-sep2026",
             "evidenceIds": [
@@ -9140,17 +9699,17 @@
         },
         "independentEventGroups": [
           {
-            "id": "nvidia-skild-s1-robotics",
             "eventIds": [
               "nvidia-skild-s1-robotics"
             ],
+            "id": "nvidia-skild-s1-robotics",
             "note": "하나의 독립 사건으로 집계하며 같은 발표의 참여자·반복 보도를 늘리지 않는다."
           },
           {
-            "id": "a16z-cognition-series-e",
             "eventIds": [
               "a16z-cognition-series-e"
             ],
+            "id": "a16z-cognition-series-e",
             "note": "하나의 독립 사건으로 집계하며 같은 발표의 참여자·반복 보도를 늘리지 않는다."
           },
           {
@@ -9514,5 +10073,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-12T07:36:00+09:00"
+  "updatedAt": "2026-09-13T07:38:56+09:00"
 }
