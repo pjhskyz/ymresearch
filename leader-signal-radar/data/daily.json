@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.13",
+  "asOfDate": "2026.09.14",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -118,13 +118,10 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [
-    "dario-frontier-pacing",
-    "openai-ipo-safety-pacing"
-  ],
+  "currentObservationIds": [],
   "currentSignalIds": [],
-  "dailyThesis": "프런티어 AI 안전이 사고 대응을 넘어 모델 능력 향상 속도와 IPO 일정의 선행 조건으로 이동했지만 외부 평가자 계약과 실제 감속이 확인되기 전까지는 관찰 단계입니다.",
-  "lastSuccessfulRun": "2026-09-13T07:38:56+09:00",
+  "dailyThesis": "프런티어 AI 감속에 대한 업계 지지는 넓어졌지만, 외부 평가자 배치·모델 개발 일정 변경·공동 안전 기준 같은 실행 증거가 나올 때까지 전일 관찰 신호의 후속 검증이 핵심입니다.",
+  "lastSuccessfulRun": "2026-09-14T07:34:36+09:00",
   "observations": [
     {
       "action": "확인된 행동은 Anthropic이 직원급 접근권과 독립 발표권을 가진 상주형 외부 평가자 도입을 공개 확약한 것이다. 평가기관 선정·계약 체결·상주 시작과 실제 모델 훈련 속도 조절은 아직 확인되지 않았다.",
@@ -1407,215 +1404,211 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "end": "2026-09-13T07:38:56+09:00",
-      "start": "2026-09-09T07:36:00+09:00"
+      "start": "2026-09-10T07:38:56+09:00",
+      "end": "2026-09-14T07:34:36+09:00"
     },
     "coverage": [
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "일론 머스크(Elon Musk)",
-        "note": "공식 채널과 아모데이 제안 동의 보도를 확인했다. 한 줄 동의 외 제품·투자·운영 행동은 없었다.",
+        "note": "공식 채널과 후속 보도를 확인했다. ‘Dario is right’는 기존 AI 위험 경고의 반복이며 xAI 제품·개발 일정 변경은 없었다.",
         "status": "checked",
         "urls": [
-          "https://x.ai/news",
           "https://www.tesla.com/blog",
           "https://www.spacex.com/updates/",
-          "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+          "https://x.ai/news",
+          "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "젠슨 황(Jensen Huang)",
-        "note": "Hugging Face 인수 약속을 재검토했다. 종결·중립성 성과는 없고 Anthropic 투자 협상은 익명 출처였다.",
+        "note": "NVIDIA 최신 발표를 확인했으며 신규 자본배분·제품 실행·관점 변화는 없었다.",
         "status": "checked",
         "urls": [
-          "https://nvidianews.nvidia.com/news/latest",
-          "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-          "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/"
+          "https://nvidianews.nvidia.com/news/latest"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "샘 알트만(Sam Altman)",
-        "note": "IPO 배제·속도조절·외부 평가자 확약을 기록했다. 5월 RubyGems 사고 공개는 별도 전략 행동이 없어 제외했다.",
+        "note": "공식 채널과 후속 보도를 대조했다. 전일 속도조절·외부 평가자·IPO 발언의 반복이며 신규 실행은 없었다.",
         "status": "checked",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/safety-overview-gpt-6-astra/",
-          "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
-          "https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12/",
-          "https://www.reuters.com/legal/litigation/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-2026-09-11/"
+          "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+          "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "다리오 아모데이(Dario Amodei)",
-        "note": "원문과 직접 보도에서 속도조절과 상주형 외부 평가자 확약을 검증했다.",
+        "note": "Anthropic 공식 채널과 후속 보도를 확인했다. 전일 감속 제안 이후 외부 평가자 계약·배치 증거는 아직 없다.",
         "status": "checked",
         "urls": [
           "https://www.anthropic.com/news",
-          "https://darioamodei.com/post/we-must-pace-the-frontier",
-          "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+          "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
+          "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "데미스 허사비스(Demis Hassabis)",
-        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
+        "note": "공식 채널과 후속 보도를 확인했다. 방향에 대한 지지는 있었지만 구체적인 Google DeepMind 운영 조치는 없었다.",
         "status": "checked",
         "urls": [
-          "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/"
+          "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/",
+          "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "사티아 나델라(Satya Nadella)",
-        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://news.microsoft.com/source/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "마크 저커버그(Mark Zuckerberg)",
-        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://about.fb.com/news/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "리사 수(Lisa Su)",
-        "note": "공식 채널에서 신규 행동·관점 변화를 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://newsroom.amd.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "웨이저자(C.C. Wei)",
-        "note": "High-NA 로드맵 이후 CAPEX·장비 주문·생산 진전은 확인되지 않았다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
-          "https://pr.tsmc.com/english/news/3338"
+          "https://pr.tsmc.com/english"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "손정의(Masayoshi Son)",
-        "note": "9월 15일 브리지론 상환 확약을 재확인했고 실제 상환 전 추가 변화는 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://group.softbank/en/news"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "쩡위췬(Robin Zeng)",
-        "note": "9월 3일 기고 이후 신규 투자·계약·운영 변화는 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://www.catl.com/en/news/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "스콧 스트라직(Scott Strazik)",
-        "note": "베네수엘라 협약 이후 발주·공정·가동 증거는 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://www.gevernova.com/news/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "알렉스 카프(Alex Karp)",
-        "note": "9월 10일 공급망 배치 이후 신규 행동은 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "누바 아페얀(Noubar Afeyan)",
-        "note": "최신 공개는 8월 3일로 조사 구간 내 신규 신호가 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://www.flagshippioneering.com/news"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "브라이언 체스키(Brian Chesky)",
-        "note": "조사 구간 내 신규 전략·운영 행동은 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://news.airbnb.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
-        "note": "이미 기록된 AI 익스포저 축소와 금리 판단의 반복이며 추가 포지션 증거는 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
-          "https://www.morganstanley.com/",
-          "https://www.ft.com/content/7410c56e-5350-48f8-a5e6-24f37c1581e9"
+          "https://www.morganstanley.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "피터 틸(Peter Thiel)",
-        "note": "공개 채널에서 신규 발언·투자 행동을 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://foundersfund.com/team/peter-thiel/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "하워드 막스(Howard Marks)",
-        "note": "공식 인사이트에서 신규 메모·관점 변화를 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "레이 달리오(Ray Dalio)",
-        "note": "공식 원문 채널에서 신규 투자 판단·행동을 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://raydalio.substack.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "마크 앤드리슨(Marc Andreessen)",
-        "note": "Cognition 투자 후속 재게시 외 별도 신규 사건은 없었다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://a16z.com/author/marc-andreessen/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "타일러 코웬(Tyler Cowen)",
-        "note": "9월 11일 연구·시장 링크 소개는 독립적인 관점 변화와 실행이 부족했다.",
+        "note": "9월 13일 AI 성장 모형 글을 확인했다. 본인이 17세 때부터 논의한 틀이라고 밝혀 신규 관점 변화나 실행으로 보지 않았다.",
         "status": "checked",
         "urls": [
           "https://marginalrevolution.com/"
         ]
       },
       {
-        "checkedAt": "2026-09-13T07:38:56+09:00",
+        "checkedAt": "2026-09-14T07:34:36+09:00",
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
-        "note": "공식 원문 채널에서 신규 구체 판단·행동을 확인하지 못했다.",
+        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
         "urls": [
           "https://balajis.com/"
@@ -7005,14 +6998,14 @@
     "version": 1
   },
   "researchWindow": {
-    "end": "2026-09-13T07:38:56+09:00",
-    "start": "2026-09-12T07:36:00+09:00"
+    "start": "2026-09-13T07:38:56+09:00",
+    "end": "2026-09-14T07:34:36+09:00"
   },
   "runSummary": {
-    "excludedCount": 5,
+    "excludedCount": 4,
     "leadersChecked": 22,
-    "notes": "22명 전원을 정상 조사했다. 관찰 신호 2건을 기록하고 오래된 사고 공개·익명 투자협상·단순 동의·기존 포지션 반복·일반 링크 소개 5건은 승격하지 않았다. 오늘 재검토 대상 2건은 미검증 상태를 유지했다.",
-    "sourcesChecked": 33
+    "notes": "22명 전원을 정상 조사했다. 신규 60점 이상 사건은 없었다. 전일 감속 제안의 반복 보도, 머스크·허사비스의 실행 없는 지지, 타일러 코웬의 오래된 사고틀 재서술을 승격하지 않았다. 오늘 도래한 체크포인트는 없었다.",
+    "sourcesChecked": 27
   },
   "schemaVersion": 2,
   "signals": [
@@ -9227,8 +9220,8 @@
       }
     }
   ],
-  "status": "observations",
-  "statusMessage": "오늘 신규 결정적 신호는 0건이며, 모델 능력 속도조절·상주형 독립 검증·IPO 연기를 다룬 관찰 신호 2건을 확인했습니다.",
+  "status": "no_signal",
+  "statusMessage": "오늘 결정적·관찰 신호는 없었습니다. 전일 AI 감속 제안에 대한 추가 지지는 확인됐지만 구체적 운영 조치나 새 사건으로 이어지지 않았습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -10073,5 +10066,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-13T07:44:23.353+09:00"
+  "updatedAt": "2026-09-14T07:34:36.884+09:00"
 }
