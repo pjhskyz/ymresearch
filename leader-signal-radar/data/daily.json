@@ -114,14 +114,7 @@
       "evidenceIds": [
         "sb-energy-ipo-softbank-review-20260915"
       ],
-      "history": [
-        {
-          "nextReviewDate": "2026-09-15",
-          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-          "reviewedAt": null,
-          "status": "unverified"
-        }
-      ],
+      "history": [],
       "hypothesisId": "hyp-ports-pike",
       "id": "sb-energy-ipo",
       "nextReviewDate": "2026-09-22",
