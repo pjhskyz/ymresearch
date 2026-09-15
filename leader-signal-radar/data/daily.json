@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.15",
+  "asOfDate": "2026.09.16",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -126,13 +126,13 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [
-    "microsoft-mai-code-consultation",
-    "anthropic-claude-financial-advisors"
+  "currentObservationIds": [],
+  "currentSignalIds": [
+    "nvidia-dsx-power-validation",
+    "airbnb-housing-accelerator"
   ],
-  "currentSignalIds": [],
-  "dailyThesis": "AI 감속 논쟁이 Microsoft의 검증 가능한 모델 행동강령으로 구체화되는 동시에, Anthropic은 기존 모델을 규제 금융의 데이터·업무 흐름에 더 깊게 배치했습니다. 약속의 실제 적용과 배포의 오류·채택 성과를 분리해 추적해야 합니다.",
-  "lastSuccessfulRun": "2026-09-15T07:35:05+09:00",
+  "dailyThesis": "AI 인프라의 경쟁 단위가 설치 GPU에서 전력당 토큰·계통 반응으로 구체화되는 동시에, 플랫폼 기업의 주택난 대응이 정책 주장에서 직접 자본 투입으로 이동했습니다. 공급사 측정치의 독립 재현과 첫 주택사업의 준공·임대료를 다음 증거로 확인해야 합니다.",
+  "lastSuccessfulRun": "2026-09-16T07:38:00+09:00",
   "observations": [
     {
       "action": "확인된 행동은 행동강령 초안 공개와 6주 의견수렴 개시다. 실제 모델 훈련·배포 규칙 적용은 2027년 이후로 예고됐으며 현 모델의 통제 성과는 확인되지 않았다.",
@@ -1619,223 +1619,280 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "end": "2026-09-15T07:35:05+09:00",
-      "start": "2026-09-11T07:34:36+09:00"
+      "start": "2026-09-12T07:35:05+09:00",
+      "end": "2026-09-16T07:38:00+09:00"
     },
     "coverage": [
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "일론 머스크(Elon Musk)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://www.tesla.com/blog",
-          "https://www.spacex.com/updates/",
-          "https://x.ai/news"
-        ]
+          "https://x.ai/news",
+          "https://www.tesla.com/blog"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "젠슨 황(Jensen Huang)",
-        "note": "공식 채널과 Palantir·NVIDIA 내부 모델 제한 보도를 확인했다. 후자는 The Information 재전재이고 회사 답변이 없어 신규 행동으로 승격하지 않았다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news/latest",
-          "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/"
-        ]
+          "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+          "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e",
+          "https://nvidianews.nvidia.com/"
+        ],
+        "note": "공식 운영 결과와 직전 DSX 기준선, 직접 인터뷰를 확인해 전력·토큰 효율 사건을 결정적 신호로 선별했다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "샘 알트만(Sam Altman)",
-        "note": "OpenAI 뉴스와 Astra 안전 개요를 재검토했다. 오늘 약속된 접근·의회 자료·사고 로그와 독립 평가자 계약의 새 원문은 확인되지 않았다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/safety-overview-gpt-6-astra/"
-        ]
+          "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "다리오 아모데이(Dario Amodei)",
-        "note": "Anthropic 공식 채널과 금융 에이전트 기준선, Reuters 및 참여사 발표를 대조해 자문가용 커넥터 출시를 관찰 신호로 선별했다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://www.anthropic.com/news",
-          "https://www.anthropic.com/news/finance-agents",
-          "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/",
-          "https://www.financialcontent.com/article/bizwire-2026-9-14-charles-schwab-and-anthropic-to-bring-claude-to-independent-registered-investment-advisors",
-          "https://www.financialcontent.com/article/bizwire-2026-9-14-orion-expands-anthropic-collaboration-as-launch-partner-for-claude-for-financial-advisors"
-        ]
+          "https://www.anthropic.com/",
+          "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "데미스 허사비스(Demis Hassabis)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/"
-        ]
+          "https://deepmind.google/",
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "사티아 나델라(Satya Nadella)",
-        "note": "Microsoft와 Microsoft AI 원문, Axios 직접 인터뷰를 대조해 현 모델 미적용인 행동강령 초안을 관찰 신호로 선별했다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://news.microsoft.com/source/",
-          "https://microsoft.ai/news/mai-code-of-conduct/",
-          "https://microsoft.ai/code-of-conduct/",
-          "https://www.axios.com/2026/09/14/microsoft-ai-people-code"
-        ]
+          "https://microsoft.ai/news/",
+          "https://www.businessinsider.com/satya-nadella-says-one-rule-ai-companies-need-to-follow-2026-9"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "마크 저커버그(Mark Zuckerberg)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://about.fb.com/news/"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "리사 수(Lisa Su)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://newsroom.amd.com/"
-        ]
+          "https://ir.amd.com/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "웨이저자(C.C. Wei)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://pr.tsmc.com/english"
-        ]
+          "https://pr.tsmc.com/english/news"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "손정의(Masayoshi Son)",
-        "note": "SoftBank 최신 뉴스와 SB Energy IPO 공식 발표를 재검토했다. 공모 주식 수·가격과 상장 완료, 첫 데이터센터 매출은 확인되지 않았다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://group.softbank/en/news",
-          "https://group.softbank/en/news/press/20260902"
-        ]
+          "https://group.softbank/en/news"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "쩡위췬(Robin Zeng)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "스콧 스트라직(Scott Strazik)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://www.gevernova.com/news/"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "알렉스 카프(Alex Karp)",
-        "note": "공식 채널과 모델 사용 제한 보도를 확인했다. 후자는 2차 전재이고 Palantir의 직접 답변·정책 원문이 없어 제외했다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/",
           "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "누바 아페얀(Noubar Afeyan)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "브라이언 체스키(Brian Chesky)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://news.airbnb.com/"
-        ]
+          "https://news.airbnb.com/announcing-housing-accelerator",
+          "https://news.airbnb.com/housing-accelerator-austin-investment",
+          "https://www.axios.com/local/austin/2026/09/14/airbnb-austin-affordable-housing-st-john"
+        ],
+        "note": "공식 기금·첫 사업 원문과 현지·규제 기준선을 확인해 첫 자본 집행을 결정적 신호로 선별했다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://www.morganstanley.com/"
-        ]
+          "https://www.ft.com/content/7410c56e-5350-48f8-a5e6-24f37c1581e9"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "피터 틸(Peter Thiel)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://foundersfund.com/team/peter-thiel/"
-        ]
+          "https://www.foundersfund.com/team/peter-thiel/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "하워드 막스(Howard Marks)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "레이 달리오(Ray Dalio)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://raydalio.substack.com/"
-        ]
+          "https://www.linkedin.com/in/raydalio/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "마크 앤드리슨(Marc Andreessen)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://a16z.com/author/marc-andreessen/"
-        ]
+          "https://a16z.com/podcasts/a16z-show/"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "타일러 코웬(Tyler Cowen)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
           "https://marginalrevolution.com/"
-        ]
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
-        "checkedAt": "2026-09-15T07:35:05+09:00",
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
-        "note": "공식 채널과 최근 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다.",
         "status": "checked",
+        "checkedAt": "2026-09-16T07:38:00+09:00",
         "urls": [
-          "https://balajis.com/"
-        ]
+          "https://x.com/balajis?lang=en"
+        ],
+        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
       }
     ],
     "evidence": [
+      {
+        "id": "nvidia-ai-factory-power-validation-20260915",
+        "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+        "label": "NVIDIA AI 공장 전력·토큰 효율 실측 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-15",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "claim": "Lambda는 5랙·19개 노드를 16개 노드 전력으로 운영해 토큰 처리량을 24%, 와트당 성능을 23% 높였고 NVIDIA Eos의 Emerald AI Conductor는 200회가 넘는 계통 요청에 모두 반응해 소비전력을 4MW에서 3MW로 낮췄다. NVIDIA는 후자가 DSX Flex 설치가 아닌 상용 규모 개념검증이라고 명시했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "nvidia-australia-dsx-baseline-reuters-20260910",
+        "url": "https://www.reuters.com/world/asia-pacific/nvidia-teams-up-with-australian-partners-build-ai-factory-capacity-2026-09-10/",
+        "label": "NVIDIA 호주 DSX 2GW 구축 계획 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-10",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "claim": "NVIDIA와 호주 파트너들은 2027년까지 최대 2GW 규모의 DSX 기반 AI 인프라 구축 계획을 발표했지만 실제 전력당 토큰이나 계통 대응 성과는 제시하지 않았다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "airbnb-housing-accelerator-official-20260914",
+        "url": "https://news.airbnb.com/announcing-housing-accelerator",
+        "label": "Airbnb Housing Accelerator 출범 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-14",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "claim": "Airbnb는 10년간 2억5천만 달러의 후순위 자본으로 50억 달러가 넘는 주택개발 자금을 유발하는 Housing Accelerator를 출범하고 시장수익률보다 낮은 수익을 감수한다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "airbnb-st-john-investment-official-20260914",
+        "url": "https://news.airbnb.com/housing-accelerator-austin-investment",
+        "label": "Airbnb 오스틴 St. John 첫 투자 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-14",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "claim": "Airbnb는 Housing Accelerator의 첫 640만 달러를 오스틴 St. John 사업의 저렴주택 201가구에 투자해 5년간 멈춘 건설을 재개한다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "airbnb-eu-housing-baseline-reuters-20260909",
+        "url": "https://www.reuters.com/business/airbnb-set-face-more-restrictions-eu-proposes-rules-tackle-housing-crunch-2026-09-09/",
+        "label": "EU 주택난 규제와 Airbnb 공급 부족 주장 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-09",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "claim": "EU가 주택난 대응을 위해 단기임대 규제를 추진하는 가운데 Airbnb는 가격 문제의 근본 원인이 단기임대가 아니라 주택 공급 부족이라고 주장했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "airbnb-st-john-axios-20260914",
+        "url": "https://www.axios.com/local/austin/2026/09/14/airbnb-austin-affordable-housing-st-john",
+        "label": "Airbnb 오스틴 저렴주택 투자 현지 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-14",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "claim": "Axios는 Airbnb의 640만 달러 투자가 오스틴 St. John의 저렴주택 201가구 건설을 지원하며 장기간 멈춘 사업의 자금 공백을 메운다고 보도했다.",
+        "provenance": "direct_report"
+      },
       {
         "claim": "Microsoft AI는 MAI 모델의 개발·배포 원칙을 담은 첫 행동강령 초안을 공개하고 6주간 의견수렴을 시작했다. 현재 모델 훈련에는 사용하지 않으며 연말 개정본을 2027년 이후 모델 개발에 적용할 계획이라고 명시했다.",
         "grade": "A",
@@ -2498,6 +2555,243 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20260916-nvidia-dsx-power-validation-initial",
+        "signalId": "nvidia-dsx-power-validation",
+        "eventId": "nvidia-dsx-power-validation",
+        "hypothesisId": "nvidia-ai-factory-power-efficiency",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.16",
+        "recordedAt": "2026-09-16T07:38:00+09:00",
+        "tier": "signal",
+        "score": 80,
+        "headline": "NVIDIA가 두 AI 공장에서 전력 제어와 토큰 효율을 실측해 DSX 전략의 운영 근거를 냈다",
+        "source": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "26+14+18+14+8=80. 실제 운영 결과를 성과로 평가하되 공급사 측정치와 DSX Flex 미설치를 명확히 제한했다.",
+        "evidenceIds": [
+          "nvidia-ai-factory-power-validation-20260915",
+          "nvidia-australia-dsx-baseline-reuters-20260910"
+        ],
+        "snapshot": {
+          "id": "nvidia-dsx-power-validation",
+          "leader": "젠슨 황(Jensen Huang)",
+          "role": "NVIDIA Founder & CEO",
+          "initials": "JH",
+          "score": 80,
+          "kind": "실행",
+          "date": "2026.09.15",
+          "reportDate": "2026.09.16",
+          "theme": "AI 인프라",
+          "headline": "NVIDIA가 두 AI 공장에서 전력 제어와 토큰 효율을 실측해 DSX 전략의 운영 근거를 냈다",
+          "takeaway": "AI 공장 경쟁의 기준이 설치 GPU 수에서 전력당 토큰과 계통 반응 능력으로 이동했다. 다만 수치는 NVIDIA·파트너가 공개한 특정 환경의 결과이며 DSX Flex 자체의 상용 설치 성과는 아니다.",
+          "before": "9월 10일 NVIDIA와 호주 파트너들은 DSX 기반 최대 2GW AI 인프라 구축을 발표했지만 실제 토큰 처리량이나 전력망 수요반응 성과는 공개하지 않았다.",
+          "now": "NVIDIA는 Lambda의 5랙 환경에서 16개 노드 전력으로 19개를 운영해 토큰 처리량을 24% 높였고, Eos 생산 환경에서는 200회가 넘는 계통 요청에 자동 반응해 전력을 4MW에서 3MW로 낮췄다고 공개했다.",
+          "facts": [
+            "Lambda는 DSX MaxLPS 검증에서 5개 랙·19개 노드를 16개 노드에 해당하는 전력 예산 안에서 운영했다.",
+            "이 환경의 토큰 처리량은 초당 400만 개에서 500만 개로 24%, 와트당 성능은 23% 증가했다.",
+            "NVIDIA Eos의 Emerald AI Conductor는 200회가 넘는 전력망 요청에 모두 반응했고, 고우선 추론 작업을 유지하면서 소비전력을 4MW에서 3MW로 낮췄다.",
+            "NVIDIA는 Eos 사례가 DSX Flex 설치가 아니라 그 기능을 겨냥한 상용 규모 개념검증이라고 명시했고, Vera Rubin의 40% GPU 증가는 전망치로 제시했다."
+          ],
+          "action": "확인된 행동은 Lambda 5랙 환경의 실제 배치 검증과 NVIDIA Eos 생산 환경의 반복 수요반응 운영이다. 차세대 Vera Rubin의 40% 증설 가능성과 DSX Flex의 상용 성과는 아직 결과로 간주하지 않았다.",
+          "impact": "해석: 전력 연결이 AI 데이터센터의 제약으로 커지면서 GPU 공급뿐 아니라 동일 MW당 토큰과 계통 유연성이 설비 경제성을 좌우할 수 있다. 특정 워크로드의 공급사 측정치여서 일반화·독립 재현 전에는 산업 평균으로 볼 수 없다.",
+          "impactPath": [
+            "랙 단위 전력 배분과 계통 신호 자동 대응",
+            "동일 전력에서 가동 GPU·토큰 처리량 증가",
+            "AI 데이터센터의 전력 연결·유휴 예비용량 부담 완화 가능",
+            "GPU·네트워크·전력관리 소프트웨어의 통합 경쟁 강화"
+          ],
+          "counter": "Lambda 수치는 한 워크로드·5랙 검증이고 Eos 수치는 NVIDIA와 협력사가 공개했다. 장기간 실패율, 모델 품질, 냉각비·전력가격, 고객 절감액과 독립 재현은 없으며 수요반응이 총 전력소비를 줄인다는 보장도 없다.",
+          "next": "Lambda의 원자료·워크로드 구성과 독립 재현, DSX Flex의 실제 고객 설치, 계통 이벤트별 실패·복구 기록, 전력비·설비비 절감과 Vera Rubin 배치 후 동일 전력당 GPU 증가를 확인한다.",
+          "source": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+          "sourceLabel": "NVIDIA AI 공장 전력·토큰 효율 실측 발표 · 2026.09.15",
+          "sourceGrade": "A",
+          "eventId": "nvidia-dsx-power-validation",
+          "hypothesisId": "nvidia-ai-factory-power-efficiency",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-16T07:38:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 26,
+                "reason": "5랙 배치 검증과 생산 환경의 200회 이상 계통 반응이 실제 운영됐다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "용량 건설 계획에서 전력당 토큰과 수요반응의 측정 결과로 진전했지만 DSX Flex 자체의 상용 성과는 아니다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "AI 데이터센터의 핵심 제약인 전력 연결과 가동 GPU 경제성에 직접 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "노드·랙·MW·토큰 처리량·반응 횟수가 공개돼 재현 가능하지만 원자료와 장기 운영 기록은 없다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "NVIDIA 공식 원문과 최근 DSX 건설 기준선을 확인했으나 현재 성과의 독립 감사 자료는 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-10",
+              "statement": "NVIDIA와 호주 파트너들은 2027년까지 최대 2GW DSX 인프라 구축을 발표했지만 실제 전력당 토큰이나 계통 수요반응 성과는 공개하지 않았다.",
+              "evidenceIds": [
+                "nvidia-australia-dsx-baseline-reuters-20260910"
+              ]
+            },
+            "evidenceIds": [
+              "nvidia-ai-factory-power-validation-20260915",
+              "nvidia-australia-dsx-baseline-reuters-20260910"
+            ],
+            "note": "26+14+18+14+8=80. 실제 운영 결과를 성과로 평가하되 공급사 측정치와 DSX Flex 미설치를 명확히 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-15",
+            "publishedAt": "2026-09-15",
+            "firstSeenAt": "2026-09-16T07:38:00+09:00",
+            "verifiedAt": "2026-09-16T07:38:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·전력망",
+              "relationship": "confirmed",
+              "text": "Lambda 배치 검증과 NVIDIA Eos의 반복 계통 반응 운영이 확인됐다. 장기 경제성과 DSX Flex 상용 설치는 미확인이다.",
+              "evidenceIds": [
+                "nvidia-ai-factory-power-validation-20260915"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260916-airbnb-housing-accelerator-initial",
+        "signalId": "airbnb-housing-accelerator",
+        "eventId": "airbnb-housing-accelerator",
+        "hypothesisId": "airbnb-housing-supply-response",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.16",
+        "recordedAt": "2026-09-16T07:38:00+09:00",
+        "tier": "signal",
+        "score": 82,
+        "headline": "Airbnb가 2억5천만 달러 주택기금을 출범시키고 첫 640만 달러를 오스틴 201가구에 투입했다",
+        "source": "https://news.airbnb.com/announcing-housing-accelerator",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "24+17+17+14+10=82. 첫 투자 집행은 실행으로 평가하되 기금 전체와 50억 달러 유발 목표를 성과로 간주하지 않았다.",
+        "evidenceIds": [
+          "airbnb-housing-accelerator-official-20260914",
+          "airbnb-st-john-investment-official-20260914",
+          "airbnb-eu-housing-baseline-reuters-20260909",
+          "airbnb-st-john-axios-20260914"
+        ],
+        "snapshot": {
+          "id": "airbnb-housing-accelerator",
+          "leader": "브라이언 체스키(Brian Chesky)",
+          "role": "Airbnb Co-founder & CEO",
+          "initials": "BC",
+          "score": 82,
+          "kind": "실행",
+          "date": "2026.09.14",
+          "reportDate": "2026.09.16",
+          "theme": "주택 공급",
+          "headline": "Airbnb가 2억5천만 달러 주택기금을 출범시키고 첫 640만 달러를 오스틴 201가구에 투입했다",
+          "takeaway": "주택난 책임 논쟁에 공급 부족을 주장하던 데서 직접 후순위 자본을 넣어 멈춘 사업을 재개하는 단계로 이동했다. 50억 달러 유발 목표는 아직 전망이며 첫 사업의 준공·임대료가 핵심 검증점이다.",
+          "before": "9월 9일 EU 규제 논의에서 Airbnb는 단기임대보다 주택 공급 부족이 가격 문제의 근본 원인이라고 주장했지만 직접 주택개발 자본 집행은 확인되지 않았다.",
+          "now": "Airbnb는 표준 시장수익률보다 낮은 수익을 감수하는 2억5천만 달러 후순위 금융기금을 출범시키고, 첫 640만 달러를 오스틴 St. John 사업의 저렴주택 201가구에 투입해 5년간 멈춘 건설을 재개한다고 밝혔다.",
+          "facts": [
+            "Housing Accelerator는 10년간 2억5천만 달러의 Airbnb 자본으로 50억 달러가 넘는 주택개발 자금을 유발하는 것을 목표로 한다.",
+            "첫 640만 달러 투자는 오스틴 St. John 사업의 저렴주택 201가구 건설을 지원하며, 전체 사업은 500가구 이상을 포함한다.",
+            "Airbnb는 마지막 자금 공백을 메우는 후순위 금융으로 표준 시장수익률보다 낮은 수익을 받아들인다고 명시했다.",
+            "정책 개혁 지원, 연내 도시별 주택규제 지수와 각 100만 달러 규모의 혁신상 5개도 함께 예고했다."
+          ],
+          "action": "확인된 행동은 기금 출범과 첫 640만 달러 투자다. 2억5천만 달러 전액 집행과 50억 달러 외부자금 유발, 201가구의 준공·입주는 아직 결과가 아니다.",
+          "impact": "해석: 플랫폼 기업이 규제 방어를 넘어 공급 병목에 저수익·후순위 자본을 투입하는 모델을 시험한다. 성공하면 장기 지연 사업의 금융 공백을 줄일 수 있지만, 첫 사업 규모는 주택난 전체에 비해 작고 정책 영향은 불확실하다.",
+          "impactPath": [
+            "Airbnb 후순위 자본이 개발사업의 마지막 자금 공백을 보완",
+            "공공·민간 선순위 자금과 착공 재개 가능",
+            "저렴주택 공급과 지역 규제 논쟁의 검증 자료 축적",
+            "플랫폼 기업의 사회적 비용 대응·규제 협상 방식 변화 가능"
+          ],
+          "counter": "50억 달러는 유발 목표이고 첫 투자는 640만 달러에 그친다. 공사비·금리·인허가로 준공이 다시 지연될 수 있고, 임대료의 실제 부담 가능성·입주자 수·Airbnb의 수익과 규제 완화 효과는 확인되지 않았다.",
+          "next": "St. John 착공·준공·입주 일정과 201가구의 임대료 기준, 추가 투자 건수·민간자본 배수, 2억5천만 달러 실제 집행액, 도시 지수와 정책 변화의 이해상충·성과를 확인한다.",
+          "source": "https://news.airbnb.com/announcing-housing-accelerator",
+          "sourceLabel": "Airbnb Housing Accelerator 공식 발표 · 2026.09.14",
+          "sourceGrade": "A",
+          "eventId": "airbnb-housing-accelerator",
+          "hypothesisId": "airbnb-housing-supply-response",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-16T07:38:00+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 24,
+                "reason": "기금 출범과 첫 640만 달러 투자는 실제 자본 집행이지만 2억5천만 달러 전액은 아직 확약이다."
+              },
+              "change": {
+                "score": 17,
+                "reason": "주택 공급 부족을 주장하는 규제 대응에서 저수익 후순위 자본을 직접 투입하는 전략으로 의미 있게 전환했다."
+              },
+              "impact": {
+                "score": 17,
+                "reason": "장기 지연 주택사업의 금융 공백과 플랫폼 규제 대응 방식에 영향을 줄 수 있으나 첫 사업은 국소적이다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "투자액·가구 수·10년 목표와 첫 사업이 공개돼 집행·착공·준공·임대료로 판별할 수 있다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Airbnb 공식 기금·사업 원문과 Axios 현지 보도, Reuters의 직전 기준선을 교차 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-09",
+              "statement": "EU의 주택난 규제 논의에서 Airbnb는 문제의 근본 원인이 단기임대보다 주택 공급 부족이라고 주장했으나 직접 개발자금 집행은 확인되지 않았다.",
+              "evidenceIds": [
+                "airbnb-eu-housing-baseline-reuters-20260909"
+              ]
+            },
+            "evidenceIds": [
+              "airbnb-housing-accelerator-official-20260914",
+              "airbnb-st-john-investment-official-20260914",
+              "airbnb-eu-housing-baseline-reuters-20260909",
+              "airbnb-st-john-axios-20260914"
+            ],
+            "note": "24+17+17+14+10=82. 첫 투자 집행은 실행으로 평가하되 기금 전체와 50억 달러 유발 목표를 성과로 간주하지 않았다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-14",
+            "publishedAt": "2026-09-14",
+            "firstSeenAt": "2026-09-16T07:38:00+09:00",
+            "verifiedAt": "2026-09-16T07:38:00+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "9월 14일 공식 발표가 직전 조사 종료 전에 있었지만 카드화되지 않았다. 72시간 겹침 수집에서 첫 640만 달러 실제 투자와 201가구 사업을 처음 원문 검증했다."
+          },
+          "industryLinks": [
+            {
+              "sector": "저렴주택·부동산 금융",
+              "relationship": "confirmed",
+              "text": "Airbnb의 첫 640만 달러 후순위 투자가 오스틴 St. John의 저렴주택 201가구 건설에 배정됐다. 준공·입주는 미확인이다.",
+              "evidenceIds": [
+                "airbnb-st-john-investment-official-20260914",
+                "airbnb-st-john-axios-20260914"
+              ]
+            }
+          ]
+        }
+      },
       {
         "eventId": "microsoft-mai-code-consultation",
         "evidenceIds": [
@@ -7198,6 +7492,22 @@
     ],
     "hypotheses": [
       {
+        "id": "nvidia-ai-factory-power-efficiency",
+        "title": "NVIDIA AI 공장 전력당 토큰과 계통 유연성",
+        "question": "NVIDIA의 전력 관리가 다양한 고객 환경에서 동일 전력당 토큰과 계통 대응을 반복 재현하고 실제 총비용을 낮추는가",
+        "leaderNames": [
+          "젠슨 황(Jensen Huang)"
+        ]
+      },
+      {
+        "id": "airbnb-housing-supply-response",
+        "title": "Airbnb의 직접 주택공급 자본 투입",
+        "question": "Airbnb의 후순위 자본이 지연 주택사업을 실제 준공·입주로 연결하고 규제 갈등보다 공급 확대에 측정 가능한 효과를 내는가",
+        "leaderNames": [
+          "브라이언 체스키(Brian Chesky)"
+        ]
+      },
+      {
         "id": "microsoft-humanist-ai-model-governance",
         "leaderNames": [
           "사티아 나델라(Satya Nadella)"
@@ -7560,17 +7870,212 @@
     "version": 1
   },
   "researchWindow": {
-    "end": "2026-09-15T07:35:05+09:00",
-    "start": "2026-09-14T07:34:36+09:00"
+    "start": "2026-09-15T07:35:05+09:00",
+    "end": "2026-09-16T07:38:00+09:00"
   },
   "runSummary": {
-    "excludedCount": 4,
     "leadersChecked": 22,
-    "notes": "22명 전원을 정상 조사했다. Microsoft AI 행동강령 초안과 Anthropic 자문가용 Claude 출시를 관찰 신호로 선별했다. Palantir·NVIDIA 모델 제한 2차 보도, AI 감속에 따른 주가 반응, OpenAI 안전 약속일의 결과 자료 부재, SB Energy 공모가·매출 미확인을 승격하지 않았다. OpenAI 안전통제와 SB Energy IPO 체크포인트를 재검토해 미검증을 유지했다.",
-    "sourcesChecked": 34
+    "sourcesChecked": 31,
+    "excludedCount": 4,
+    "notes": "22명 전원을 정상 조사했다. NVIDIA의 AI 공장 전력·토큰 효율 실측과 Airbnb의 주택공급 기금 첫 자본 집행을 결정적 신호로 선별했다. 젠슨 황의 감속 반대 발언은 기존 입장 반복, OpenAI·Anthropic·Google 안전 협의는 미확정 대화, Gemini 3.8 Live는 점진적 제품 개선, 전 DeepMind 연구자의 경고는 추적 리더의 행동이 아니어서 제외했다. 기존 체크포인트의 승격·반증·지연 변경은 없다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "nvidia-dsx-power-validation",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA Founder & CEO",
+      "initials": "JH",
+      "score": 80,
+      "kind": "실행",
+      "date": "2026.09.15",
+      "reportDate": "2026.09.16",
+      "theme": "AI 인프라",
+      "headline": "NVIDIA가 두 AI 공장에서 전력 제어와 토큰 효율을 실측해 DSX 전략의 운영 근거를 냈다",
+      "takeaway": "AI 공장 경쟁의 기준이 설치 GPU 수에서 전력당 토큰과 계통 반응 능력으로 이동했다. 다만 수치는 NVIDIA·파트너가 공개한 특정 환경의 결과이며 DSX Flex 자체의 상용 설치 성과는 아니다.",
+      "before": "9월 10일 NVIDIA와 호주 파트너들은 DSX 기반 최대 2GW AI 인프라 구축을 발표했지만 실제 토큰 처리량이나 전력망 수요반응 성과는 공개하지 않았다.",
+      "now": "NVIDIA는 Lambda의 5랙 환경에서 16개 노드 전력으로 19개를 운영해 토큰 처리량을 24% 높였고, Eos 생산 환경에서는 200회가 넘는 계통 요청에 자동 반응해 전력을 4MW에서 3MW로 낮췄다고 공개했다.",
+      "facts": [
+        "Lambda는 DSX MaxLPS 검증에서 5개 랙·19개 노드를 16개 노드에 해당하는 전력 예산 안에서 운영했다.",
+        "이 환경의 토큰 처리량은 초당 400만 개에서 500만 개로 24%, 와트당 성능은 23% 증가했다.",
+        "NVIDIA Eos의 Emerald AI Conductor는 200회가 넘는 전력망 요청에 모두 반응했고, 고우선 추론 작업을 유지하면서 소비전력을 4MW에서 3MW로 낮췄다.",
+        "NVIDIA는 Eos 사례가 DSX Flex 설치가 아니라 그 기능을 겨냥한 상용 규모 개념검증이라고 명시했고, Vera Rubin의 40% GPU 증가는 전망치로 제시했다."
+      ],
+      "action": "확인된 행동은 Lambda 5랙 환경의 실제 배치 검증과 NVIDIA Eos 생산 환경의 반복 수요반응 운영이다. 차세대 Vera Rubin의 40% 증설 가능성과 DSX Flex의 상용 성과는 아직 결과로 간주하지 않았다.",
+      "impact": "해석: 전력 연결이 AI 데이터센터의 제약으로 커지면서 GPU 공급뿐 아니라 동일 MW당 토큰과 계통 유연성이 설비 경제성을 좌우할 수 있다. 특정 워크로드의 공급사 측정치여서 일반화·독립 재현 전에는 산업 평균으로 볼 수 없다.",
+      "impactPath": [
+        "랙 단위 전력 배분과 계통 신호 자동 대응",
+        "동일 전력에서 가동 GPU·토큰 처리량 증가",
+        "AI 데이터센터의 전력 연결·유휴 예비용량 부담 완화 가능",
+        "GPU·네트워크·전력관리 소프트웨어의 통합 경쟁 강화"
+      ],
+      "counter": "Lambda 수치는 한 워크로드·5랙 검증이고 Eos 수치는 NVIDIA와 협력사가 공개했다. 장기간 실패율, 모델 품질, 냉각비·전력가격, 고객 절감액과 독립 재현은 없으며 수요반응이 총 전력소비를 줄인다는 보장도 없다.",
+      "next": "Lambda의 원자료·워크로드 구성과 독립 재현, DSX Flex의 실제 고객 설치, 계통 이벤트별 실패·복구 기록, 전력비·설비비 절감과 Vera Rubin 배치 후 동일 전력당 GPU 증가를 확인한다.",
+      "source": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+      "sourceLabel": "NVIDIA AI 공장 전력·토큰 효율 실측 발표 · 2026.09.15",
+      "sourceGrade": "A",
+      "eventId": "nvidia-dsx-power-validation",
+      "hypothesisId": "nvidia-ai-factory-power-efficiency",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-16T07:38:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 26,
+            "reason": "5랙 배치 검증과 생산 환경의 200회 이상 계통 반응이 실제 운영됐다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "용량 건설 계획에서 전력당 토큰과 수요반응의 측정 결과로 진전했지만 DSX Flex 자체의 상용 성과는 아니다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "AI 데이터센터의 핵심 제약인 전력 연결과 가동 GPU 경제성에 직접 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "노드·랙·MW·토큰 처리량·반응 횟수가 공개돼 재현 가능하지만 원자료와 장기 운영 기록은 없다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "NVIDIA 공식 원문과 최근 DSX 건설 기준선을 확인했으나 현재 성과의 독립 감사 자료는 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-10",
+          "statement": "NVIDIA와 호주 파트너들은 2027년까지 최대 2GW DSX 인프라 구축을 발표했지만 실제 전력당 토큰이나 계통 수요반응 성과는 공개하지 않았다.",
+          "evidenceIds": [
+            "nvidia-australia-dsx-baseline-reuters-20260910"
+          ]
+        },
+        "evidenceIds": [
+          "nvidia-ai-factory-power-validation-20260915",
+          "nvidia-australia-dsx-baseline-reuters-20260910"
+        ],
+        "note": "26+14+18+14+8=80. 실제 운영 결과를 성과로 평가하되 공급사 측정치와 DSX Flex 미설치를 명확히 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-15",
+        "publishedAt": "2026-09-15",
+        "firstSeenAt": "2026-09-16T07:38:00+09:00",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·전력망",
+          "relationship": "confirmed",
+          "text": "Lambda 배치 검증과 NVIDIA Eos의 반복 계통 반응 운영이 확인됐다. 장기 경제성과 DSX Flex 상용 설치는 미확인이다.",
+          "evidenceIds": [
+            "nvidia-ai-factory-power-validation-20260915"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airbnb-housing-accelerator",
+      "leader": "브라이언 체스키(Brian Chesky)",
+      "role": "Airbnb Co-founder & CEO",
+      "initials": "BC",
+      "score": 82,
+      "kind": "실행",
+      "date": "2026.09.14",
+      "reportDate": "2026.09.16",
+      "theme": "주택 공급",
+      "headline": "Airbnb가 2억5천만 달러 주택기금을 출범시키고 첫 640만 달러를 오스틴 201가구에 투입했다",
+      "takeaway": "주택난 책임 논쟁에 공급 부족을 주장하던 데서 직접 후순위 자본을 넣어 멈춘 사업을 재개하는 단계로 이동했다. 50억 달러 유발 목표는 아직 전망이며 첫 사업의 준공·임대료가 핵심 검증점이다.",
+      "before": "9월 9일 EU 규제 논의에서 Airbnb는 단기임대보다 주택 공급 부족이 가격 문제의 근본 원인이라고 주장했지만 직접 주택개발 자본 집행은 확인되지 않았다.",
+      "now": "Airbnb는 표준 시장수익률보다 낮은 수익을 감수하는 2억5천만 달러 후순위 금융기금을 출범시키고, 첫 640만 달러를 오스틴 St. John 사업의 저렴주택 201가구에 투입해 5년간 멈춘 건설을 재개한다고 밝혔다.",
+      "facts": [
+        "Housing Accelerator는 10년간 2억5천만 달러의 Airbnb 자본으로 50억 달러가 넘는 주택개발 자금을 유발하는 것을 목표로 한다.",
+        "첫 640만 달러 투자는 오스틴 St. John 사업의 저렴주택 201가구 건설을 지원하며, 전체 사업은 500가구 이상을 포함한다.",
+        "Airbnb는 마지막 자금 공백을 메우는 후순위 금융으로 표준 시장수익률보다 낮은 수익을 받아들인다고 명시했다.",
+        "정책 개혁 지원, 연내 도시별 주택규제 지수와 각 100만 달러 규모의 혁신상 5개도 함께 예고했다."
+      ],
+      "action": "확인된 행동은 기금 출범과 첫 640만 달러 투자다. 2억5천만 달러 전액 집행과 50억 달러 외부자금 유발, 201가구의 준공·입주는 아직 결과가 아니다.",
+      "impact": "해석: 플랫폼 기업이 규제 방어를 넘어 공급 병목에 저수익·후순위 자본을 투입하는 모델을 시험한다. 성공하면 장기 지연 사업의 금융 공백을 줄일 수 있지만, 첫 사업 규모는 주택난 전체에 비해 작고 정책 영향은 불확실하다.",
+      "impactPath": [
+        "Airbnb 후순위 자본이 개발사업의 마지막 자금 공백을 보완",
+        "공공·민간 선순위 자금과 착공 재개 가능",
+        "저렴주택 공급과 지역 규제 논쟁의 검증 자료 축적",
+        "플랫폼 기업의 사회적 비용 대응·규제 협상 방식 변화 가능"
+      ],
+      "counter": "50억 달러는 유발 목표이고 첫 투자는 640만 달러에 그친다. 공사비·금리·인허가로 준공이 다시 지연될 수 있고, 임대료의 실제 부담 가능성·입주자 수·Airbnb의 수익과 규제 완화 효과는 확인되지 않았다.",
+      "next": "St. John 착공·준공·입주 일정과 201가구의 임대료 기준, 추가 투자 건수·민간자본 배수, 2억5천만 달러 실제 집행액, 도시 지수와 정책 변화의 이해상충·성과를 확인한다.",
+      "source": "https://news.airbnb.com/announcing-housing-accelerator",
+      "sourceLabel": "Airbnb Housing Accelerator 공식 발표 · 2026.09.14",
+      "sourceGrade": "A",
+      "eventId": "airbnb-housing-accelerator",
+      "hypothesisId": "airbnb-housing-supply-response",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-16T07:38:00+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 24,
+            "reason": "기금 출범과 첫 640만 달러 투자는 실제 자본 집행이지만 2억5천만 달러 전액은 아직 확약이다."
+          },
+          "change": {
+            "score": 17,
+            "reason": "주택 공급 부족을 주장하는 규제 대응에서 저수익 후순위 자본을 직접 투입하는 전략으로 의미 있게 전환했다."
+          },
+          "impact": {
+            "score": 17,
+            "reason": "장기 지연 주택사업의 금융 공백과 플랫폼 규제 대응 방식에 영향을 줄 수 있으나 첫 사업은 국소적이다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "투자액·가구 수·10년 목표와 첫 사업이 공개돼 집행·착공·준공·임대료로 판별할 수 있다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Airbnb 공식 기금·사업 원문과 Axios 현지 보도, Reuters의 직전 기준선을 교차 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-09",
+          "statement": "EU의 주택난 규제 논의에서 Airbnb는 문제의 근본 원인이 단기임대보다 주택 공급 부족이라고 주장했으나 직접 개발자금 집행은 확인되지 않았다.",
+          "evidenceIds": [
+            "airbnb-eu-housing-baseline-reuters-20260909"
+          ]
+        },
+        "evidenceIds": [
+          "airbnb-housing-accelerator-official-20260914",
+          "airbnb-st-john-investment-official-20260914",
+          "airbnb-eu-housing-baseline-reuters-20260909",
+          "airbnb-st-john-axios-20260914"
+        ],
+        "note": "24+17+17+14+10=82. 첫 투자 집행은 실행으로 평가하되 기금 전체와 50억 달러 유발 목표를 성과로 간주하지 않았다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-14",
+        "publishedAt": "2026-09-14",
+        "firstSeenAt": "2026-09-16T07:38:00+09:00",
+        "verifiedAt": "2026-09-16T07:38:00+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "9월 14일 공식 발표가 직전 조사 종료 전에 있었지만 카드화되지 않았다. 72시간 겹침 수집에서 첫 640만 달러 실제 투자와 201가구 사업을 처음 원문 검증했다."
+      },
+      "industryLinks": [
+        {
+          "sector": "저렴주택·부동산 금융",
+          "relationship": "confirmed",
+          "text": "Airbnb의 첫 640만 달러 후순위 투자가 오스틴 St. John의 저렴주택 201가구 건설에 배정됐다. 준공·입주는 미확인이다.",
+          "evidenceIds": [
+            "airbnb-st-john-investment-official-20260914",
+            "airbnb-st-john-axios-20260914"
+          ]
+        }
+      ]
+    },
     {
       "action": "확인된 행동은 a16z의 투자 라운드 공동 주도와 Cognition의 유료 매출 확대다. a16z의 실제 투자액, Cognition의 매출 인식 방식·총이익·순유지율은 공개되지 않았다.",
       "assessment": {
@@ -9782,8 +10287,8 @@
       }
     }
   ],
-  "status": "observations",
-  "statusMessage": "오늘 결정적 신호는 없고 관찰 신호 2건을 확인했습니다. Microsoft AI는 인간 통제 행동강령을 공개 확약했고 Anthropic은 자문가용 Claude 커넥터를 실제 출시했습니다.",
+  "status": "signals",
+  "statusMessage": "오늘 결정적 신호 2건을 확인했습니다. NVIDIA는 AI 공장의 전력·토큰 효율을 실제 운영에서 측정했고 Airbnb는 주택공급 기금의 첫 자본을 집행했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -9799,6 +10304,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "nvidia-dsx-power-validation",
+            "eventIds": [
+              "nvidia-dsx-power-validation"
+            ],
+            "note": "Lambda 배치 검증과 Eos 수요반응은 같은 NVIDIA AI 공장 전력관리 발표의 운영 검증으로 한 사건만 집계한다."
+          },
           {
             "eventIds": [
               "nvidia-dmatrix-nvlink-fusion"
@@ -9865,6 +10377,14 @@
         ],
         "opposing": [
           {
+            "eventId": "nvidia-dsx-power-validation",
+            "text": "현재 수치는 특정 워크로드의 공급사·파트너 측정이며 DSX Flex 자체의 상용 설치, 장기 실패율과 고객 비용 절감은 확인되지 않았다.",
+            "evidenceIds": [
+              "nvidia-ai-factory-power-validation-20260915"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "nvidia-dmatrix-nvlink-fusion",
             "evidenceIds": [
               "nvidia-dmatrix-nvlink-official-20260910"
@@ -9928,6 +10448,14 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "nvidia-dsx-power-validation",
+            "text": "Lambda의 5랙 검증과 NVIDIA Eos 생산 환경에서 동일 전력당 토큰 증가와 반복 계통 수요반응이 측정됐다.",
+            "evidenceIds": [
+              "nvidia-ai-factory-power-validation-20260915"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-dmatrix-nvlink-fusion",
             "evidenceIds": [
@@ -10682,5 +11210,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-15T07:35:05+09:00"
+  "updatedAt": "2026-09-16T07:38:00+09:00"
 }
