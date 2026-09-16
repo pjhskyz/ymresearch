@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.16",
+  "asOfDate": "2026.09.17",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -126,14 +126,210 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [],
-  "currentSignalIds": [
-    "nvidia-dsx-power-validation",
-    "airbnb-housing-accelerator"
+  "currentObservationIds": [
+    "anthropic-australia-data-centre-lease",
+    "ge-vineyard-wind-settlement"
   ],
-  "dailyThesis": "AI 인프라의 경쟁 단위가 설치 GPU에서 전력당 토큰·계통 반응으로 구체화되는 동시에, 플랫폼 기업의 주택난 대응이 정책 주장에서 직접 자본 투입으로 이동했습니다. 공급사 측정치의 독립 재현과 첫 주택사업의 준공·임대료를 다음 증거로 확인해야 합니다.",
-  "lastSuccessfulRun": "2026-09-16T07:38:00+09:00",
+  "currentSignalIds": [
+    "nvidia-vera-rubin-mlperf-v61"
+  ],
+  "dailyThesis": "차세대 AI 인프라 경쟁은 공급사 프리뷰에서 표준 벤치마크와 지역 전용 용량 계약으로 이동했다. 동시에 대형 해상풍력은 소송 철회로 이행 가능성을 회복했지만, 세 사건 모두 가격·승인·장기 운영 결과가 다음 검증 지점이다.",
+  "lastSuccessfulRun": "2026-09-17T07:40:00+09:00",
   "observations": [
+    {
+      "id": "anthropic-australia-data-centre-lease",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "role": "Anthropic Co-founder & CEO",
+      "initials": "DA",
+      "score": 74,
+      "kind": "실행",
+      "date": "2026.09.16",
+      "reportDate": "2026.09.17",
+      "theme": "AI 인프라",
+      "headline": "Anthropic이 호주 첫 데이터센터 임대 계약으로 2.16GW 추론 거점을 확보했다",
+      "takeaway": "Anthropic의 호주 진출이 정책 협의에서 전용 추론 인프라 계약으로 이동했다. 다만 당사자 확인과 임대료·단계별 용량은 없고 외국인투자·지역 의회 승인이 남아 관찰로 제한했다.",
+      "before": "계약 보도 직전까지 Anthropic의 호주 내 전용 데이터센터 임대 계약은 공개되지 않았고, 현지 활동은 정부 협력과 정책 논의 중심이었다.",
+      "now": "Reuters와 퀸즐랜드 주총리 발표를 인용한 Guardian 보도는 Anthropic이 Zerra DC의 서부 퀸즐랜드 2.16GW 캠퍼스 첫 단계에 참여하는 임대 계약을 맺었다고 확인했다.",
+      "facts": [
+        "Reuters는 Anthropic이 호주 첫 데이터센터 임대 계약을 체결했으며 전체 캠퍼스 계획 용량은 2.16GW라고 보도했다.",
+        "시설은 모델 학습이 아니라 추론에 쓰이고 첫 단계는 2027년 가동을 목표로 한다.",
+        "Guardian이 인용한 계획 문서상 전체 4단계 캠퍼스 총사업비는 A$319억이지만 이는 Anthropic의 지출액이나 계약가가 아니다.",
+        "외국인투자심사와 지역 의회 승인이 남아 있고 Anthropic과 개발사는 Reuters의 논평 요청에 응하지 않았다."
+      ],
+      "action": "확인된 행동은 호주 첫 데이터센터 임대 계약과 첫 단계 참여다. 전체 2.16GW 사용, A$319억 지출, 2027년 실제 가동은 아직 확정 성과로 보지 않았다.",
+      "impact": "해석: 추론 전용 대규모 거점은 Anthropic의 컴퓨트 조달을 미국 클라우드 중심에서 지역 전력·데이터 주권 인프라로 넓힐 수 있다. 승인·전력공급·건설이 지연되면 공급 효과는 발생하지 않는다.",
+      "impactPath": [
+        "서부 퀸즐랜드 데이터센터 임대 계약",
+        "2027년부터 지역 추론 용량 확보 가능",
+        "호주 고객의 지연시간·데이터 주권 요구 대응 가능",
+        "전력·계통·건설 자본 수요 증가와 지역 승인 위험 병존"
+      ],
+      "counter": "계약 조건과 단계별 Anthropic 사용량이 공개되지 않았고 당사자 공식 원문도 없다. 전체 캠퍼스 사업비를 Anthropic 투자액으로 볼 수 없으며 FIRB·지방의회 승인과 전력조달이 실패하면 계획은 축소되거나 지연될 수 있다.",
+      "next": "Anthropic·Zerra DC의 계약 원문, FIRB와 지방의회 승인, 단계별 MW·임대료·전력구매계약, 착공·통전과 실제 추론 가동을 확인한다.",
+      "source": "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/",
+      "sourceLabel": "Reuters Anthropic 호주 첫 데이터센터 계약 보도 · 2026.09.16",
+      "sourceGrade": "B",
+      "eventId": "anthropic-australia-data-centre-lease",
+      "hypothesisId": "anthropic-australia-inference-infrastructure",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-17T07:40:00+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 22,
+            "reason": "첫 호주 데이터센터 임대 계약과 1단계 참여가 복수 직접 보도로 확인됐다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "정책 협력에서 대규모 지역 추론 인프라 계약으로 이동했지만 승인 전이다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "2.16GW 계획은 호주 전력망·데이터 주권과 Anthropic의 지역 추론 공급에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 12,
+            "reason": "용량·용도·지역·목표연도와 승인 절차는 공개됐지만 계약가·단계별 사용량은 없다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "Reuters와 주총리 공개 발언을 인용한 Guardian을 교차확인했으나 당사자 공식 원문과 계약서는 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-15",
+          "statement": "보도 직전까지 Anthropic의 호주 전용 데이터센터 임대 계약은 공개되지 않았으며 이번 계약이 첫 사례로 확인됐다.",
+          "evidenceIds": [
+            "anthropic-australia-dc-lease-reuters-20260916"
+          ]
+        },
+        "evidenceIds": [
+          "anthropic-australia-dc-lease-reuters-20260916",
+          "anthropic-australia-dc-premier-guardian-20260916"
+        ],
+        "note": "22+14+18+12+8=74. 계약 실행은 확인했지만 당사자 미확인·규제 승인·계약조건 비공개를 반영해 관찰 단계로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-16",
+        "publishedAt": "2026-09-16",
+        "firstSeenAt": "2026-09-17T07:40:00+09:00",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·전력망",
+          "relationship": "confirmed",
+          "text": "Zerra DC 서부 퀸즐랜드 캠퍼스의 Anthropic 임대 계약이 보도됐다. 전체 2.16GW 사용량과 사업비 부담은 확정되지 않았다.",
+          "evidenceIds": [
+            "anthropic-australia-dc-lease-reuters-20260916",
+            "anthropic-australia-dc-premier-guardian-20260916"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ge-vineyard-wind-settlement",
+      "leader": "스콧 스트라직(Scott Strazik)",
+      "role": "GE Vernova CEO",
+      "initials": "SS",
+      "score": 72,
+      "kind": "반전",
+      "date": "2026.09.16",
+      "reportDate": "2026.09.17",
+      "theme": "에너지 전환",
+      "headline": "GE Vernova가 Vineyard Wind 계약 종료를 철회하고 소송을 합의했다",
+      "takeaway": "계약 파기와 항소로 번졌던 45억달러 해상풍력 사업이 이행 재개 조건을 확보했다. 합의금·책임 배분과 장기 터빈 가동률이 비공개라 프로젝트 정상화 성과로 보지는 않았다.",
+      "before": "합의 직전 GE Vernova는 13억달러 공급계약을 끝내려 했고 3억6000만달러 미지급을 주장하며 법원 금지명령에 항소하고 있었다.",
+      "now": "GE Vernova는 계약 종료 통지와 항소를 철회했고 양측은 모든 계류 중 청구를 취하하기로 합의했다.",
+      "facts": [
+        "GE Vernova와 Vineyard Wind는 모든 미해결 상업소송을 합의하고 청구를 취하하기로 했다.",
+        "GE Vernova는 공급계약 종료 통지와 법원 금지명령 항소를 철회했다.",
+        "Reuters가 인용한 사업비는 45억달러, GE Vernova 계약은 13억달러이며 회사가 주장한 미지급금은 3억6000만달러였다.",
+        "합의 조건은 비공개이고 회사가 제시한 발전·고용 수치는 당사자 발표다."
+      ],
+      "action": "확인된 행동은 종료 통지·항소 철회와 모든 청구 취하다. 합의금 지급, 잔여 작업 완료와 터빈의 장기 정상운영은 확인되지 않았다.",
+      "impact": "해석: 대형 해상풍력의 계약 파기 위험이 낮아져 뉴잉글랜드 전력공급과 GE Vernova 해상풍력 사업의 법적 불확실성이 줄었다. 비공개 합의 비용이 수익성에 미치는 영향은 남는다.",
+      "impactPath": [
+        "계약 종료·소송 위험 제거",
+        "잔여 설치·서비스 이행 가능성 회복",
+        "프로젝트 금융·전력공급 불확실성 완화 가능",
+        "비공개 합의 비용과 터빈 신뢰성이 최종 수익성 결정"
+      ],
+      "counter": "합의 조건과 현금 유출, 책임 배분이 공개되지 않았다. 2024년 블레이드 사고와 장기 가동률 문제는 법적 합의만으로 해결되지 않으며, 회사의 40만 가구·경제효과 수치는 독립 결과 감사가 아니다.",
+      "next": "법원 취하 문서, GE Vernova의 충당금·현금영향, 잔여 설치·서비스 완료, 블레이드 교체와 12개월 가동률·출력 자료를 확인한다.",
+      "source": "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation",
+      "sourceLabel": "GE Vernova·Vineyard Wind 소송 합의 발표 · 2026.09.16",
+      "sourceGrade": "A",
+      "eventId": "ge-vineyard-wind-settlement",
+      "hypothesisId": "ge-vineyard-wind-contract-completion",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-17T07:40:00+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 22,
+            "reason": "종료 통지와 항소를 철회하고 모든 청구를 취하하는 법적 합의를 실행했다."
+          },
+          "change": {
+            "score": 15,
+            "reason": "계약 종료·항소에서 사업 이행을 전제로 한 분쟁 해소로 방향이 바뀌었다."
+          },
+          "impact": {
+            "score": 15,
+            "reason": "대형 해상풍력 프로젝트의 완공·전력공급·GE 해상풍력 리스크에 영향을 주지만 단일 사업이다."
+          },
+          "verification": {
+            "score": 11,
+            "reason": "취하·철회는 법원 문서로 확인 가능하지만 합의금과 장기 운영 성과가 비공개다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "공동 공식 발표와 Reuters 직접 보도를 교차확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-15",
+          "statement": "합의 직전 GE Vernova는 계약 종료 통지와 항소를 유지했고 3억6000만달러 미지급을 주장하고 있었다.",
+          "evidenceIds": [
+            "ge-vineyard-wind-settlement-reuters-20260916"
+          ]
+        },
+        "evidenceIds": [
+          "ge-vineyard-wind-settlement-official-20260916",
+          "ge-vineyard-wind-settlement-reuters-20260916"
+        ],
+        "note": "22+15+15+11+9=72. 법적 반전은 실행됐지만 비공개 합의와 실제 운영 성과 부재로 관찰 단계다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-16",
+        "publishedAt": "2026-09-16",
+        "firstSeenAt": "2026-09-17T07:40:00+09:00",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "해상풍력·전력망",
+          "relationship": "confirmed",
+          "text": "GE Vernova와 Vineyard Wind가 계약 종료·소송을 철회했다. 합의 비용과 장기 터빈 가동 성과는 미확인이다.",
+          "evidenceIds": [
+            "ge-vineyard-wind-settlement-official-20260916",
+            "ge-vineyard-wind-settlement-reuters-20260916"
+          ]
+        }
+      ]
+    },
     {
       "action": "확인된 행동은 행동강령 초안 공개와 6주 의견수렴 개시다. 실제 모델 훈련·배포 규칙 적용은 2027년 이후로 예고됐으며 현 모델의 통제 성과는 확인되지 않았다.",
       "assessment": {
@@ -1619,220 +1815,282 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-12T07:35:05+09:00",
-      "end": "2026-09-16T07:38:00+09:00"
+      "start": "2026-09-13T07:38:00+09:00",
+      "end": "2026-09-17T07:40:00+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://x.ai/news",
-          "https://www.tesla.com/blog"
+          "https://x.ai/news/grok-build-memory",
+          "https://www.reuters.com/legal/legalindustry/tesla-spacex-sue-nanotech-company-over-terafab-name-2026-09-16/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "xAI의 프로젝트 메모리 출시와 Tesla·SpaceX 상표소송을 확인했지만 국소 기능·법적 방어로 전략 변화 점수가 60점에 미달했다."
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-          "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e",
-          "https://nvidianews.nvidia.com/"
+          "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+          "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+          "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
         ],
-        "note": "공식 운영 결과와 직전 DSX 기준선, 직접 인터뷰를 확인해 전력·토큰 효율 사건을 결정적 신호로 선별했다."
+        "note": "Vera Rubin의 기준선과 MLPerf 제출을 대조해 결정적 신호로 선별했고 에너지 관리 연합은 실행 전 확약으로 제외했다."
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://openai.com/news/",
           "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 채널과 안전 협의 후속을 확인했지만 당사자 공동 확약·계약·시행일이 없어 신규 카드로 만들지 않았다."
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://www.anthropic.com/",
-          "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+          "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/",
+          "https://www.theguardian.com/technology/2026/sep/16/anthropic-lands-31bn-datacentre-deal-in-western-queensland",
+          "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "호주 첫 데이터센터 임대 계약을 관찰 신호로 선별했고 통합 인터페이스·문서도구는 점진적 제품 확장으로 제외했다."
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://deepmind.google/",
-          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+          "https://www.reuters.com/business/energy/google-agrees-biggest-carbon-removal-deal-yet-aims-scale-new-model-2026-09-16/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 연구 채널과 Google 탄소제거 계약을 확인했으나 허사비스·DeepMind의 신규 결정으로 귀속하지 않았다."
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://microsoft.ai/news/",
-          "https://www.businessinsider.com/satya-nadella-says-one-rule-ai-companies-need-to-follow-2026-9"
+          "https://www.reuters.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-2026-09-16/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 채널과 Microsoft AI 책임자 발언을 확인했으나 나델라의 신규 행동이 아니며 운영 변화도 없어 제외했다."
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://about.fb.com/news/"
+          "https://about.fb.com/news/",
+          "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "저커버그의 감속 반대와 Muse 지연 설명을 확인했지만 이미 공개된 배포 안전조치의 반복이어서 신규 사건으로 만들지 않았다."
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://ir.amd.com/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "AMD 공식 IR·뉴스 채널을 확인했으며 조사 구간의 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://pr.tsmc.com/english/news"
+          "https://pr.tsmc.com/english/news/3338"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "TSMC 공식 보도자료를 재검토했으며 9월 8일 High-NA 로드맵 이후 신규 사건은 확인되지 않았다."
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://group.softbank/en/news"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "SoftBank 공식 뉴스 채널을 확인했으며 조사 구간의 신규 관점 변화·실행·성과 신호는 없었다."
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "CATL 공식 뉴스 채널을 확인했으며 TECTRANS 제품 업데이트 외 신규 전략 변화·자본 집행 신호는 없었다."
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://www.gevernova.com/news/"
+          "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation",
+          "https://www.reuters.com/business/energy/ge-vernova-vineyard-wind-settle-legal-battle-over-new-england-wind-farm-2026-09-16/",
+          "https://www.gevernova.com/news/press-releases/blue-energy-texas-gas-plus-nuclear-project-nrc-review"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "Vineyard Wind 소송 합의를 관찰 신호로 선별했다. Blue Energy의 원전 건설허가 1차 제출은 잔여 신청이 2027년이라 60점 미만으로 제외했다."
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/",
           "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 채널과 Claude 사용 제한 후속을 확인했으나 회사 정책 원문·신규 조치가 없어 제외했다."
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "Flagship 공식 뉴스 채널을 확인했으며 조사 구간의 신규 투자·회사 설립·관점 변화 신호는 없었다."
       },
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://news.airbnb.com/announcing-housing-accelerator",
-          "https://news.airbnb.com/housing-accelerator-austin-investment",
-          "https://www.axios.com/local/austin/2026/09/14/airbnb-austin-affordable-housing-st-john"
+          "https://news.airbnb.com/"
         ],
-        "note": "공식 기금·첫 사업 원문과 현지·규제 기준선을 확인해 첫 자본 집행을 결정적 신호로 선별했다."
+        "note": "Airbnb 공식 뉴스룸을 확인했으며 전일 주택기금 집행 이후 신규 사건은 없었다."
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://www.ft.com/content/7410c56e-5350-48f8-a5e6-24f37c1581e9"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "최근 직접 인터뷰 기준선을 재확인했으며 AI 익스포저 축소 이후 신규 관점·행동은 없었다."
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://www.foundersfund.com/team/peter-thiel/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 프로필과 최근 보도를 확인했으며 조사 구간의 신규 투자 판단·관점 변화는 없었다."
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "Oaktree 공식 인사이트를 확인했으며 새 메모·포트폴리오 판단 변화는 없었다."
       },
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://www.linkedin.com/in/raydalio/"
+          "https://www.principles.com/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 채널을 확인했으며 조사 구간의 신규 거시 관점·반증 조건·행동은 없었다."
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://a16z.com/podcasts/a16z-show/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "a16z 공식 채널을 확인했으며 Cognition 투자 이후 신규 투자·관점 변화는 없었다."
       },
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "9월 16일 게시물까지 확인했으나 링크 모음과 공동 필자의 글로, 코웬 자신의 신규 투자 관점 변화는 없었다."
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-09-16T07:38:00+09:00",
+        "checkedAt": "2026-09-17T07:40:00+09:00",
         "urls": [
-          "https://x.com/balajis?lang=en"
+          "https://balajis.com/"
         ],
-        "note": "공식 채널과 최근 원문·직접 보도를 확인했으며 신규 관점 변화·실행·성과 신호는 없었다."
+        "note": "공식 채널을 확인했으며 조사 구간의 신규 관점 변화·행동 신호는 없었다."
       }
     ],
     "evidence": [
+      {
+        "id": "nvidia-vera-rubin-mlperf-v61-20260916",
+        "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+        "label": "NVIDIA Vera Rubin MLPerf Inference v6.1 공식 결과",
+        "grade": "A",
+        "publishedAt": "2026-09-16",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "claim": "NVIDIA는 MLPerf Inference v6.1 프리뷰 제출에서 Vera Rubin NVL72가 Qwen3-VL 처리량을 GB300 NVL72 대비 최대 3.7배, DeepSeek-R1은 최대 2.5배 높였다고 공개했다. MLCommons 결과 번호는 6.1-0106과 6.1-0074이며, 제출 뒤 추가 결과는 아직 MLCommons 검증 전이라고 구분했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "nvidia-vera-rubin-agentx-baseline-20260824",
+        "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+        "label": "NVIDIA Vera Rubin AgentX 사전 성능 기준선",
+        "grade": "A",
+        "publishedAt": "2026-08-24",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "claim": "NVIDIA는 SemiAnalysis AgentX 프리뷰에서 Vera Rubin NVL72가 GB300 대비 메가와트당 처리량을 최대 30배 높였다고 발표했지만, 해당 워크로드는 표준 MLPerf 제출이 아니었다.",
+        "provenance": "official"
+      },
+      {
+        "id": "anthropic-australia-dc-lease-reuters-20260916",
+        "url": "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/",
+        "label": "Anthropic 호주 첫 데이터센터 임대 계약 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-16",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "claim": "Reuters는 Anthropic이 호주 첫 데이터센터 임대 계약을 체결했으며, 서부 퀸즐랜드 2.16GW 캠퍼스는 2027년 가동 목표·추론용이고 외국인투자심사 승인이 남았다고 보도했다. 당사자들은 논평을 거부해 계약 조건은 확인되지 않았다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "anthropic-australia-dc-premier-guardian-20260916",
+        "url": "https://www.theguardian.com/technology/2026/sep/16/anthropic-lands-31bn-datacentre-deal-in-western-queensland",
+        "label": "퀸즐랜드 주총리 발표와 서부 퀸즐랜드 데이터센터 계획 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-16",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "claim": "Guardian은 퀸즐랜드 주총리가 의회에서 Anthropic의 1단계 참여를 발표했고, 전체 4단계 캠퍼스의 계획서상 총사업비가 A$319억이며 첫 단계는 2027년 개장 목표라고 보도했다. 지역 의회 승인과 주민 의견수렴은 남아 있다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "ge-vineyard-wind-settlement-official-20260916",
+        "url": "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation",
+        "label": "GE Vernova·Vineyard Wind 상업소송 합의 공식 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-16",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "claim": "GE Vernova와 Vineyard Wind는 모든 미해결 소송에 합의했고, GE Vernova는 계약 종료 통지를 철회하며 양측은 계류 중 청구를 취하하기로 했다. 합의 조건은 비공개다.",
+        "provenance": "official"
+      },
+      {
+        "id": "ge-vineyard-wind-settlement-reuters-20260916",
+        "url": "https://www.reuters.com/business/energy/ge-vernova-vineyard-wind-settle-legal-battle-over-new-england-wind-farm-2026-09-16/",
+        "label": "GE Vernova·Vineyard Wind 소송 합의 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-16",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "claim": "Reuters는 45억달러 Vineyard Wind 사업에서 GE Vernova가 13억달러 계약 종료 통지와 항소를 철회하고 양측이 청구를 취하했다고 보도했다. GE가 주장했던 3억6000만달러 미지급금과 최종 합의 조건은 공개되지 않았다.",
+        "provenance": "direct_report"
+      },
       {
         "id": "nvidia-ai-factory-power-validation-20260915",
         "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
@@ -2555,6 +2813,356 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20260917-nvidia-vera-rubin-mlperf-v61-initial",
+        "signalId": "nvidia-vera-rubin-mlperf-v61",
+        "eventId": "nvidia-vera-rubin-mlperf-v61",
+        "hypothesisId": "nvidia-vera-rubin-inference-economics",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.17",
+        "recordedAt": "2026-09-17T07:40:00+09:00",
+        "tier": "signal",
+        "score": 76,
+        "headline": "Vera Rubin이 사전 효율 주장에 이어 MLPerf v6.1에서 GB300 대비 최대 3.7배 처리량을 제출했다",
+        "source": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "24+12+18+14+8=76. 표준 제출을 성과로 보되 프리뷰·무전력·무가격 조건을 반영해 결정적 문턱 바로 위로 제한했다.",
+        "evidenceIds": [
+          "nvidia-vera-rubin-mlperf-v61-20260916",
+          "nvidia-vera-rubin-agentx-baseline-20260824"
+        ],
+        "snapshot": {
+          "id": "nvidia-vera-rubin-mlperf-v61",
+          "leader": "젠슨 황(Jensen Huang)",
+          "role": "NVIDIA Founder & CEO",
+          "initials": "JH",
+          "score": 76,
+          "kind": "강화",
+          "date": "2026.09.16",
+          "reportDate": "2026.09.17",
+          "theme": "AI 인프라",
+          "headline": "Vera Rubin이 사전 효율 주장에 이어 MLPerf v6.1에서 GB300 대비 최대 3.7배 처리량을 제출했다",
+          "takeaway": "Vera Rubin의 추론 경제성 주장이 공급사 자체 AgentX 프리뷰에서 표준 벤치마크 제출로 한 단계 진전했다. 다만 새 하드웨어의 프리뷰 결과이며 전력·가격·실서비스 비용은 공개되지 않았다.",
+          "before": "8월 24일 NVIDIA는 SemiAnalysis AgentX에서 Vera Rubin이 GB300보다 메가와트당 처리량을 최대 30배 높인다고 발표했지만, 표준 MLPerf 제출은 아니었다.",
+          "now": "MLPerf Inference v6.1 프리뷰 제출에서 Vera Rubin NVL72는 Qwen3-VL 처리량을 최대 3.7배, DeepSeek-R1을 최대 2.5배 높였고 결과 번호와 비교 시스템이 공개됐다.",
+          "facts": [
+            "Vera Rubin NVL72의 첫 MLPerf Inference 프리뷰 제출은 Qwen3-VL 오프라인·서버·인터랙티브 시나리오에서 GB300 NVL72 대비 최대 3.7배 처리량을 기록했다.",
+            "DeepSeek-R1 처리량은 GB300 NVL72 대비 최대 2.5배였고 제출 결과 번호 6.1-0106과 6.1-0074가 제시됐다.",
+            "별도의 GB300 288-GPU·4랙 제출은 단일 랙 대비 99% 스케일링 효율을 기록했다.",
+            "NVIDIA는 제출 마감 뒤의 GPT-OSS-120B·DLRMv3 추가 성능은 아직 MLCommons가 검증하지 않았다고 명시했다."
+          ],
+          "action": "NVIDIA와 파트너는 차세대 Vera Rubin 시스템을 표준 MLPerf 절차에 프리뷰 제출하고 공개 결과 번호를 남겼다. 실제 고객 배치나 상용 서비스 원가를 확인한 것은 아니다.",
+          "impact": "해석: 차세대 랙의 처리량 우위가 반복되면 같은 수요를 처리하는 GPU·랙 수와 네트워크 투자량을 줄일 수 있다. 그러나 전력과 가격이 없는 처리량 비교만으로 토큰당 총비용 우위를 확정할 수는 없다.",
+          "impactPath": [
+            "표준 추론 벤치마크에서 랙당 처리량 상승",
+            "동일 사용자 수에 필요한 GPU·랙·네트워크 수 감소 가능",
+            "클라우드 사업자의 세대교체와 NVIDIA 플랫폼 잠금 효과 강화 가능",
+            "실제 전력·가격이 공개될 때 토큰당 총비용으로 검증"
+          ],
+          "counter": "프리뷰 제출은 실제 서비스 가동률·지연시간 분포·장애율을 대체하지 않는다. 비교 모델과 소프트웨어 스택이 제한돼 있고 전력·시스템 가격이 없어 3.7배 처리량을 같은 비율의 비용 개선으로 볼 수 없다.",
+          "next": "MLCommons의 최종 검증표, 전력 측정과 시스템 가격, 독립 파트너의 반복 제출, 상용 클라우드의 토큰당 원가·가동률을 확인한다.",
+          "source": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+          "sourceLabel": "NVIDIA Vera Rubin MLPerf Inference v6.1 결과 · 2026.09.16",
+          "sourceGrade": "A",
+          "eventId": "nvidia-vera-rubin-mlperf-v61",
+          "hypothesisId": "nvidia-vera-rubin-inference-economics",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-17T07:40:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 24,
+                "reason": "차세대 시스템을 MLPerf 절차에 실제 제출해 공개 결과 번호를 남겼다."
+              },
+              "change": {
+                "score": 12,
+                "reason": "자체 AgentX 프리뷰에서 표준 벤치마크 제출로 진전했지만 상용 배치까지는 아니다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "추론 랙의 처리량 격차는 GPU·랙·네트워크 수요와 클라우드 원가에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "모델·시나리오·비교 시스템·결과 번호가 공개됐지만 전력·가격과 최종 고객 운영은 없다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "공식 원문과 MLCommons 결과 번호를 확인했으나 해석은 공급사 중심이고 독립 비용 자료가 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-08-24",
+              "statement": "NVIDIA는 AgentX 프리뷰에서 Vera Rubin의 높은 메가와트당 처리량을 주장했지만 표준 MLPerf 제출은 없었다.",
+              "evidenceIds": [
+                "nvidia-vera-rubin-agentx-baseline-20260824"
+              ]
+            },
+            "evidenceIds": [
+              "nvidia-vera-rubin-mlperf-v61-20260916",
+              "nvidia-vera-rubin-agentx-baseline-20260824"
+            ],
+            "note": "24+12+18+14+8=76. 표준 제출을 성과로 보되 프리뷰·무전력·무가격 조건을 반영해 결정적 문턱 바로 위로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-16",
+            "publishedAt": "2026-09-16",
+            "firstSeenAt": "2026-09-17T07:40:00+09:00",
+            "verifiedAt": "2026-09-17T07:40:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 가속기·클라우드 인프라",
+              "relationship": "confirmed",
+              "text": "Vera Rubin과 GB300의 MLPerf 제출 결과가 공개됐다. 실제 가격·전력·고객 배치 경제성은 미확인이다.",
+              "evidenceIds": [
+                "nvidia-vera-rubin-mlperf-v61-20260916"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260917-anthropic-australia-data-centre-lease-initial",
+        "signalId": "anthropic-australia-data-centre-lease",
+        "eventId": "anthropic-australia-data-centre-lease",
+        "hypothesisId": "anthropic-australia-inference-infrastructure",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.17",
+        "recordedAt": "2026-09-17T07:40:00+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "Anthropic이 호주 첫 데이터센터 임대 계약으로 2.16GW 추론 거점을 확보했다",
+        "source": "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "22+14+18+12+8=74. 계약 실행은 확인했지만 당사자 미확인·규제 승인·계약조건 비공개를 반영해 관찰 단계로 제한했다.",
+        "evidenceIds": [
+          "anthropic-australia-dc-lease-reuters-20260916",
+          "anthropic-australia-dc-premier-guardian-20260916"
+        ],
+        "snapshot": {
+          "id": "anthropic-australia-data-centre-lease",
+          "leader": "다리오 아모데이(Dario Amodei)",
+          "role": "Anthropic Co-founder & CEO",
+          "initials": "DA",
+          "score": 74,
+          "kind": "실행",
+          "date": "2026.09.16",
+          "reportDate": "2026.09.17",
+          "theme": "AI 인프라",
+          "headline": "Anthropic이 호주 첫 데이터센터 임대 계약으로 2.16GW 추론 거점을 확보했다",
+          "takeaway": "Anthropic의 호주 진출이 정책 협의에서 전용 추론 인프라 계약으로 이동했다. 다만 당사자 확인과 임대료·단계별 용량은 없고 외국인투자·지역 의회 승인이 남아 관찰로 제한했다.",
+          "before": "계약 보도 직전까지 Anthropic의 호주 내 전용 데이터센터 임대 계약은 공개되지 않았고, 현지 활동은 정부 협력과 정책 논의 중심이었다.",
+          "now": "Reuters와 퀸즐랜드 주총리 발표를 인용한 Guardian 보도는 Anthropic이 Zerra DC의 서부 퀸즐랜드 2.16GW 캠퍼스 첫 단계에 참여하는 임대 계약을 맺었다고 확인했다.",
+          "facts": [
+            "Reuters는 Anthropic이 호주 첫 데이터센터 임대 계약을 체결했으며 전체 캠퍼스 계획 용량은 2.16GW라고 보도했다.",
+            "시설은 모델 학습이 아니라 추론에 쓰이고 첫 단계는 2027년 가동을 목표로 한다.",
+            "Guardian이 인용한 계획 문서상 전체 4단계 캠퍼스 총사업비는 A$319억이지만 이는 Anthropic의 지출액이나 계약가가 아니다.",
+            "외국인투자심사와 지역 의회 승인이 남아 있고 Anthropic과 개발사는 Reuters의 논평 요청에 응하지 않았다."
+          ],
+          "action": "확인된 행동은 호주 첫 데이터센터 임대 계약과 첫 단계 참여다. 전체 2.16GW 사용, A$319억 지출, 2027년 실제 가동은 아직 확정 성과로 보지 않았다.",
+          "impact": "해석: 추론 전용 대규모 거점은 Anthropic의 컴퓨트 조달을 미국 클라우드 중심에서 지역 전력·데이터 주권 인프라로 넓힐 수 있다. 승인·전력공급·건설이 지연되면 공급 효과는 발생하지 않는다.",
+          "impactPath": [
+            "서부 퀸즐랜드 데이터센터 임대 계약",
+            "2027년부터 지역 추론 용량 확보 가능",
+            "호주 고객의 지연시간·데이터 주권 요구 대응 가능",
+            "전력·계통·건설 자본 수요 증가와 지역 승인 위험 병존"
+          ],
+          "counter": "계약 조건과 단계별 Anthropic 사용량이 공개되지 않았고 당사자 공식 원문도 없다. 전체 캠퍼스 사업비를 Anthropic 투자액으로 볼 수 없으며 FIRB·지방의회 승인과 전력조달이 실패하면 계획은 축소되거나 지연될 수 있다.",
+          "next": "Anthropic·Zerra DC의 계약 원문, FIRB와 지방의회 승인, 단계별 MW·임대료·전력구매계약, 착공·통전과 실제 추론 가동을 확인한다.",
+          "source": "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/",
+          "sourceLabel": "Reuters Anthropic 호주 첫 데이터센터 계약 보도 · 2026.09.16",
+          "sourceGrade": "B",
+          "eventId": "anthropic-australia-data-centre-lease",
+          "hypothesisId": "anthropic-australia-inference-infrastructure",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-17T07:40:00+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 22,
+                "reason": "첫 호주 데이터센터 임대 계약과 1단계 참여가 복수 직접 보도로 확인됐다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "정책 협력에서 대규모 지역 추론 인프라 계약으로 이동했지만 승인 전이다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "2.16GW 계획은 호주 전력망·데이터 주권과 Anthropic의 지역 추론 공급에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 12,
+                "reason": "용량·용도·지역·목표연도와 승인 절차는 공개됐지만 계약가·단계별 사용량은 없다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "Reuters와 주총리 공개 발언을 인용한 Guardian을 교차확인했으나 당사자 공식 원문과 계약서는 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-15",
+              "statement": "보도 직전까지 Anthropic의 호주 전용 데이터센터 임대 계약은 공개되지 않았으며 이번 계약이 첫 사례로 확인됐다.",
+              "evidenceIds": [
+                "anthropic-australia-dc-lease-reuters-20260916"
+              ]
+            },
+            "evidenceIds": [
+              "anthropic-australia-dc-lease-reuters-20260916",
+              "anthropic-australia-dc-premier-guardian-20260916"
+            ],
+            "note": "22+14+18+12+8=74. 계약 실행은 확인했지만 당사자 미확인·규제 승인·계약조건 비공개를 반영해 관찰 단계로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-16",
+            "publishedAt": "2026-09-16",
+            "firstSeenAt": "2026-09-17T07:40:00+09:00",
+            "verifiedAt": "2026-09-17T07:40:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·전력망",
+              "relationship": "confirmed",
+              "text": "Zerra DC 서부 퀸즐랜드 캠퍼스의 Anthropic 임대 계약이 보도됐다. 전체 2.16GW 사용량과 사업비 부담은 확정되지 않았다.",
+              "evidenceIds": [
+                "anthropic-australia-dc-lease-reuters-20260916",
+                "anthropic-australia-dc-premier-guardian-20260916"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260917-ge-vineyard-wind-settlement-initial",
+        "signalId": "ge-vineyard-wind-settlement",
+        "eventId": "ge-vineyard-wind-settlement",
+        "hypothesisId": "ge-vineyard-wind-contract-completion",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.17",
+        "recordedAt": "2026-09-17T07:40:00+09:00",
+        "tier": "observation",
+        "score": 72,
+        "headline": "GE Vernova가 Vineyard Wind 계약 종료를 철회하고 소송을 합의했다",
+        "source": "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "22+15+15+11+9=72. 법적 반전은 실행됐지만 비공개 합의와 실제 운영 성과 부재로 관찰 단계다.",
+        "evidenceIds": [
+          "ge-vineyard-wind-settlement-official-20260916",
+          "ge-vineyard-wind-settlement-reuters-20260916"
+        ],
+        "snapshot": {
+          "id": "ge-vineyard-wind-settlement",
+          "leader": "스콧 스트라직(Scott Strazik)",
+          "role": "GE Vernova CEO",
+          "initials": "SS",
+          "score": 72,
+          "kind": "반전",
+          "date": "2026.09.16",
+          "reportDate": "2026.09.17",
+          "theme": "에너지 전환",
+          "headline": "GE Vernova가 Vineyard Wind 계약 종료를 철회하고 소송을 합의했다",
+          "takeaway": "계약 파기와 항소로 번졌던 45억달러 해상풍력 사업이 이행 재개 조건을 확보했다. 합의금·책임 배분과 장기 터빈 가동률이 비공개라 프로젝트 정상화 성과로 보지는 않았다.",
+          "before": "합의 직전 GE Vernova는 13억달러 공급계약을 끝내려 했고 3억6000만달러 미지급을 주장하며 법원 금지명령에 항소하고 있었다.",
+          "now": "GE Vernova는 계약 종료 통지와 항소를 철회했고 양측은 모든 계류 중 청구를 취하하기로 합의했다.",
+          "facts": [
+            "GE Vernova와 Vineyard Wind는 모든 미해결 상업소송을 합의하고 청구를 취하하기로 했다.",
+            "GE Vernova는 공급계약 종료 통지와 법원 금지명령 항소를 철회했다.",
+            "Reuters가 인용한 사업비는 45억달러, GE Vernova 계약은 13억달러이며 회사가 주장한 미지급금은 3억6000만달러였다.",
+            "합의 조건은 비공개이고 회사가 제시한 발전·고용 수치는 당사자 발표다."
+          ],
+          "action": "확인된 행동은 종료 통지·항소 철회와 모든 청구 취하다. 합의금 지급, 잔여 작업 완료와 터빈의 장기 정상운영은 확인되지 않았다.",
+          "impact": "해석: 대형 해상풍력의 계약 파기 위험이 낮아져 뉴잉글랜드 전력공급과 GE Vernova 해상풍력 사업의 법적 불확실성이 줄었다. 비공개 합의 비용이 수익성에 미치는 영향은 남는다.",
+          "impactPath": [
+            "계약 종료·소송 위험 제거",
+            "잔여 설치·서비스 이행 가능성 회복",
+            "프로젝트 금융·전력공급 불확실성 완화 가능",
+            "비공개 합의 비용과 터빈 신뢰성이 최종 수익성 결정"
+          ],
+          "counter": "합의 조건과 현금 유출, 책임 배분이 공개되지 않았다. 2024년 블레이드 사고와 장기 가동률 문제는 법적 합의만으로 해결되지 않으며, 회사의 40만 가구·경제효과 수치는 독립 결과 감사가 아니다.",
+          "next": "법원 취하 문서, GE Vernova의 충당금·현금영향, 잔여 설치·서비스 완료, 블레이드 교체와 12개월 가동률·출력 자료를 확인한다.",
+          "source": "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation",
+          "sourceLabel": "GE Vernova·Vineyard Wind 소송 합의 발표 · 2026.09.16",
+          "sourceGrade": "A",
+          "eventId": "ge-vineyard-wind-settlement",
+          "hypothesisId": "ge-vineyard-wind-contract-completion",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-17T07:40:00+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 22,
+                "reason": "종료 통지와 항소를 철회하고 모든 청구를 취하하는 법적 합의를 실행했다."
+              },
+              "change": {
+                "score": 15,
+                "reason": "계약 종료·항소에서 사업 이행을 전제로 한 분쟁 해소로 방향이 바뀌었다."
+              },
+              "impact": {
+                "score": 15,
+                "reason": "대형 해상풍력 프로젝트의 완공·전력공급·GE 해상풍력 리스크에 영향을 주지만 단일 사업이다."
+              },
+              "verification": {
+                "score": 11,
+                "reason": "취하·철회는 법원 문서로 확인 가능하지만 합의금과 장기 운영 성과가 비공개다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "공동 공식 발표와 Reuters 직접 보도를 교차확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-15",
+              "statement": "합의 직전 GE Vernova는 계약 종료 통지와 항소를 유지했고 3억6000만달러 미지급을 주장하고 있었다.",
+              "evidenceIds": [
+                "ge-vineyard-wind-settlement-reuters-20260916"
+              ]
+            },
+            "evidenceIds": [
+              "ge-vineyard-wind-settlement-official-20260916",
+              "ge-vineyard-wind-settlement-reuters-20260916"
+            ],
+            "note": "22+15+15+11+9=72. 법적 반전은 실행됐지만 비공개 합의와 실제 운영 성과 부재로 관찰 단계다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-16",
+            "publishedAt": "2026-09-16",
+            "firstSeenAt": "2026-09-17T07:40:00+09:00",
+            "verifiedAt": "2026-09-17T07:40:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "해상풍력·전력망",
+              "relationship": "confirmed",
+              "text": "GE Vernova와 Vineyard Wind가 계약 종료·소송을 철회했다. 합의 비용과 장기 터빈 가동 성과는 미확인이다.",
+              "evidenceIds": [
+                "ge-vineyard-wind-settlement-official-20260916",
+                "ge-vineyard-wind-settlement-reuters-20260916"
+              ]
+            }
+          ]
+        }
+      },
       {
         "id": "revision-20260916-nvidia-dsx-power-validation-initial",
         "signalId": "nvidia-dsx-power-validation",
@@ -7492,6 +8100,30 @@
     ],
     "hypotheses": [
       {
+        "id": "nvidia-vera-rubin-inference-economics",
+        "title": "Vera Rubin 추론 경제성",
+        "question": "Vera Rubin의 표준 벤치마크 우위가 실제 전력·가격·가동률을 반영한 토큰당 총비용 우위로 재현되는가",
+        "leaderNames": [
+          "젠슨 황(Jensen Huang)"
+        ]
+      },
+      {
+        "id": "anthropic-australia-inference-infrastructure",
+        "title": "Anthropic 호주 추론 인프라",
+        "question": "Anthropic의 호주 데이터센터 계약이 승인·통전·가동을 거쳐 지역 추론 용량과 고객 채택으로 이어지는가",
+        "leaderNames": [
+          "다리오 아모데이(Dario Amodei)"
+        ]
+      },
+      {
+        "id": "ge-vineyard-wind-contract-completion",
+        "title": "Vineyard Wind 계약 정상화",
+        "question": "소송 합의가 비공개 비용을 감안하고도 잔여 작업·장기 터빈 가동과 GE Vernova의 수익성 회복으로 이어지는가",
+        "leaderNames": [
+          "스콧 스트라직(Scott Strazik)"
+        ]
+      },
+      {
         "id": "nvidia-ai-factory-power-efficiency",
         "title": "NVIDIA AI 공장 전력당 토큰과 계통 유연성",
         "question": "NVIDIA의 전력 관리가 다양한 고객 환경에서 동일 전력당 토큰과 계통 대응을 반복 재현하고 실제 총비용을 낮추는가",
@@ -7870,17 +8502,118 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-09-15T07:35:05+09:00",
-    "end": "2026-09-16T07:38:00+09:00"
+    "start": "2026-09-16T07:38:00+09:00",
+    "end": "2026-09-17T07:40:00+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 31,
-    "excludedCount": 4,
-    "notes": "22명 전원을 정상 조사했다. NVIDIA의 AI 공장 전력·토큰 효율 실측과 Airbnb의 주택공급 기금 첫 자본 집행을 결정적 신호로 선별했다. 젠슨 황의 감속 반대 발언은 기존 입장 반복, OpenAI·Anthropic·Google 안전 협의는 미확정 대화, Gemini 3.8 Live는 점진적 제품 개선, 전 DeepMind 연구자의 경고는 추적 리더의 행동이 아니어서 제외했다. 기존 체크포인트의 승격·반증·지연 변경은 없다."
+    "sourcesChecked": 34,
+    "newSignals": 1,
+    "newObservations": 2,
+    "upgrades": 0,
+    "downgrades": 0,
+    "reversals": 1,
+    "actionTransitions": 0,
+    "note": "22명 전원을 확인했다. 결정적 신호는 Vera Rubin MLPerf 결과 1건, 관찰은 Anthropic 호주 데이터센터 계약과 GE Vernova 소송 합의 2건이다. xAI 메모리·NVIDIA 에너지연합·Blue Energy 부분 신청·Meta 반복 발언은 60점 미만으로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "nvidia-vera-rubin-mlperf-v61",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA Founder & CEO",
+      "initials": "JH",
+      "score": 76,
+      "kind": "강화",
+      "date": "2026.09.16",
+      "reportDate": "2026.09.17",
+      "theme": "AI 인프라",
+      "headline": "Vera Rubin이 사전 효율 주장에 이어 MLPerf v6.1에서 GB300 대비 최대 3.7배 처리량을 제출했다",
+      "takeaway": "Vera Rubin의 추론 경제성 주장이 공급사 자체 AgentX 프리뷰에서 표준 벤치마크 제출로 한 단계 진전했다. 다만 새 하드웨어의 프리뷰 결과이며 전력·가격·실서비스 비용은 공개되지 않았다.",
+      "before": "8월 24일 NVIDIA는 SemiAnalysis AgentX에서 Vera Rubin이 GB300보다 메가와트당 처리량을 최대 30배 높인다고 발표했지만, 표준 MLPerf 제출은 아니었다.",
+      "now": "MLPerf Inference v6.1 프리뷰 제출에서 Vera Rubin NVL72는 Qwen3-VL 처리량을 최대 3.7배, DeepSeek-R1을 최대 2.5배 높였고 결과 번호와 비교 시스템이 공개됐다.",
+      "facts": [
+        "Vera Rubin NVL72의 첫 MLPerf Inference 프리뷰 제출은 Qwen3-VL 오프라인·서버·인터랙티브 시나리오에서 GB300 NVL72 대비 최대 3.7배 처리량을 기록했다.",
+        "DeepSeek-R1 처리량은 GB300 NVL72 대비 최대 2.5배였고 제출 결과 번호 6.1-0106과 6.1-0074가 제시됐다.",
+        "별도의 GB300 288-GPU·4랙 제출은 단일 랙 대비 99% 스케일링 효율을 기록했다.",
+        "NVIDIA는 제출 마감 뒤의 GPT-OSS-120B·DLRMv3 추가 성능은 아직 MLCommons가 검증하지 않았다고 명시했다."
+      ],
+      "action": "NVIDIA와 파트너는 차세대 Vera Rubin 시스템을 표준 MLPerf 절차에 프리뷰 제출하고 공개 결과 번호를 남겼다. 실제 고객 배치나 상용 서비스 원가를 확인한 것은 아니다.",
+      "impact": "해석: 차세대 랙의 처리량 우위가 반복되면 같은 수요를 처리하는 GPU·랙 수와 네트워크 투자량을 줄일 수 있다. 그러나 전력과 가격이 없는 처리량 비교만으로 토큰당 총비용 우위를 확정할 수는 없다.",
+      "impactPath": [
+        "표준 추론 벤치마크에서 랙당 처리량 상승",
+        "동일 사용자 수에 필요한 GPU·랙·네트워크 수 감소 가능",
+        "클라우드 사업자의 세대교체와 NVIDIA 플랫폼 잠금 효과 강화 가능",
+        "실제 전력·가격이 공개될 때 토큰당 총비용으로 검증"
+      ],
+      "counter": "프리뷰 제출은 실제 서비스 가동률·지연시간 분포·장애율을 대체하지 않는다. 비교 모델과 소프트웨어 스택이 제한돼 있고 전력·시스템 가격이 없어 3.7배 처리량을 같은 비율의 비용 개선으로 볼 수 없다.",
+      "next": "MLCommons의 최종 검증표, 전력 측정과 시스템 가격, 독립 파트너의 반복 제출, 상용 클라우드의 토큰당 원가·가동률을 확인한다.",
+      "source": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "sourceLabel": "NVIDIA Vera Rubin MLPerf Inference v6.1 결과 · 2026.09.16",
+      "sourceGrade": "A",
+      "eventId": "nvidia-vera-rubin-mlperf-v61",
+      "hypothesisId": "nvidia-vera-rubin-inference-economics",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-17T07:40:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 24,
+            "reason": "차세대 시스템을 MLPerf 절차에 실제 제출해 공개 결과 번호를 남겼다."
+          },
+          "change": {
+            "score": 12,
+            "reason": "자체 AgentX 프리뷰에서 표준 벤치마크 제출로 진전했지만 상용 배치까지는 아니다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "추론 랙의 처리량 격차는 GPU·랙·네트워크 수요와 클라우드 원가에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "모델·시나리오·비교 시스템·결과 번호가 공개됐지만 전력·가격과 최종 고객 운영은 없다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "공식 원문과 MLCommons 결과 번호를 확인했으나 해석은 공급사 중심이고 독립 비용 자료가 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-08-24",
+          "statement": "NVIDIA는 AgentX 프리뷰에서 Vera Rubin의 높은 메가와트당 처리량을 주장했지만 표준 MLPerf 제출은 없었다.",
+          "evidenceIds": [
+            "nvidia-vera-rubin-agentx-baseline-20260824"
+          ]
+        },
+        "evidenceIds": [
+          "nvidia-vera-rubin-mlperf-v61-20260916",
+          "nvidia-vera-rubin-agentx-baseline-20260824"
+        ],
+        "note": "24+12+18+14+8=76. 표준 제출을 성과로 보되 프리뷰·무전력·무가격 조건을 반영해 결정적 문턱 바로 위로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-16",
+        "publishedAt": "2026-09-16",
+        "firstSeenAt": "2026-09-17T07:40:00+09:00",
+        "verifiedAt": "2026-09-17T07:40:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 가속기·클라우드 인프라",
+          "relationship": "confirmed",
+          "text": "Vera Rubin과 GB300의 MLPerf 제출 결과가 공개됐다. 실제 가격·전력·고객 배치 경제성은 미확인이다.",
+          "evidenceIds": [
+            "nvidia-vera-rubin-mlperf-v61-20260916"
+          ]
+        }
+      ]
+    },
     {
       "id": "nvidia-dsx-power-validation",
       "leader": "젠슨 황(Jensen Huang)",
@@ -10288,7 +11021,7 @@
     }
   ],
   "status": "signals",
-  "statusMessage": "오늘 결정적 신호 2건을 확인했습니다. NVIDIA는 AI 공장의 전력·토큰 효율을 실제 운영에서 측정했고 Airbnb는 주택공급 기금의 첫 자본을 집행했습니다.",
+  "statusMessage": "결정적 신호 1건과 관찰 신호 2건을 확인했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -10304,6 +11037,20 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "nvidia-vera-rubin-mlperf-v61",
+            "eventIds": [
+              "nvidia-vera-rubin-mlperf-v61"
+            ],
+            "note": "Vera Rubin MLPerf 제출과 반복 보도는 하나의 독립 벤치마크 사건으로 집계한다."
+          },
+          {
+            "id": "anthropic-australia-data-centre-lease",
+            "eventIds": [
+              "anthropic-australia-data-centre-lease"
+            ],
+            "note": "Anthropic과 Zerra DC의 같은 호주 임대 계약을 참여자별 독립 사건으로 늘리지 않는다."
+          },
           {
             "id": "nvidia-dsx-power-validation",
             "eventIds": [
@@ -10377,6 +11124,23 @@
         ],
         "opposing": [
           {
+            "eventId": "nvidia-vera-rubin-mlperf-v61",
+            "text": "프리뷰 제출에는 전력·가격·실서비스 가동률이 없어 처리량 우위를 토큰당 총비용 우위로 확정할 수 없다.",
+            "evidenceIds": [
+              "nvidia-vera-rubin-mlperf-v61-20260916"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "anthropic-australia-data-centre-lease",
+            "text": "당사자 계약 원문과 단계별 사용량이 없고 외국인투자·지역 의회 승인이 남아 전체 2.16GW나 A$319억을 Anthropic 확정 투자로 볼 수 없다.",
+            "evidenceIds": [
+              "anthropic-australia-dc-lease-reuters-20260916",
+              "anthropic-australia-dc-premier-guardian-20260916"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "nvidia-dsx-power-validation",
             "text": "현재 수치는 특정 워크로드의 공급사·파트너 측정이며 DSX Flex 자체의 상용 설치, 장기 실패율과 고객 비용 절감은 확인되지 않았다.",
             "evidenceIds": [
@@ -10448,6 +11212,23 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "nvidia-vera-rubin-mlperf-v61",
+            "text": "Vera Rubin의 MLPerf v6.1 프리뷰 제출이 GB300 대비 최대 3.7배 Qwen3-VL 처리량과 결과 번호를 공개했다.",
+            "evidenceIds": [
+              "nvidia-vera-rubin-mlperf-v61-20260916"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "anthropic-australia-data-centre-lease",
+            "text": "Anthropic의 호주 첫 데이터센터 임대 계약이 2.16GW 계획의 지역 추론 거점으로 확인됐다.",
+            "evidenceIds": [
+              "anthropic-australia-dc-lease-reuters-20260916",
+              "anthropic-australia-dc-premier-guardian-20260916"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-dsx-power-validation",
             "text": "Lambda의 5랙 검증과 NVIDIA Eos 생산 환경에서 동일 전력당 토큰 증가와 반복 계통 수요반응이 측정됐다.",
@@ -11165,6 +11946,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "ge-vineyard-wind-settlement",
+            "eventIds": [
+              "ge-vineyard-wind-settlement"
+            ],
+            "note": "같은 Vineyard Wind 합의의 공동 발표와 보도는 하나의 독립 사건으로 집계한다."
+          },
+          {
             "eventIds": [
               "catl-supply-chain"
             ],
@@ -11181,6 +11969,15 @@
         ],
         "opposing": [
           {
+            "eventId": "ge-vineyard-wind-settlement",
+            "text": "합의금·책임 배분이 비공개이고 블레이드 신뢰성과 장기 가동률은 법적 합의만으로 검증되지 않았다.",
+            "evidenceIds": [
+              "ge-vineyard-wind-settlement-official-20260916",
+              "ge-vineyard-wind-settlement-reuters-20260916"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "catl-supply-chain",
             "evidenceIds": [],
             "status": "legacy",
@@ -11194,6 +11991,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "ge-vineyard-wind-settlement",
+            "text": "GE Vernova가 Vineyard Wind 계약 종료 통지와 항소를 철회하고 양측이 모든 청구를 취하했다.",
+            "evidenceIds": [
+              "ge-vineyard-wind-settlement-official-20260916",
+              "ge-vineyard-wind-settlement-reuters-20260916"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "catl-supply-chain",
             "evidenceIds": [],
@@ -11210,5 +12016,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-16T07:38:00+09:00"
+  "updatedAt": "2026-09-17T07:40:00+09:00"
 }
