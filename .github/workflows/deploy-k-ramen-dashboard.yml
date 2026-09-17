@@ -53,7 +53,7 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = 'dae22a47ede4ca4d8044862b755514e47445b256b308efd4c9bdbd302a558da4'
+          expected = '35d8a66b41cdc7971bb9d9b5ab3787a89a188cdf1129586222fdcef6b4ff5258'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
@@ -64,6 +64,9 @@ jobs:
           grep -q 'period:"1-10"' k-ramen-dashboard/index.html
           grep -q 'releaseDate:"2026-09-11"' k-ramen-dashboard/index.html
           grep -q 'total:64.672742' k-ramen-dashboard/index.html
+          grep -q 'm:"2026.08",total:156.623983' k-ramen-dashboard/index.html
+          grep -q 'kg:37311905.90,krw:223264563685,countryCount:106,status:"final",period:"full",asOf:"2026-08-31",releaseDate:"2026-09-15"' k-ramen-dashboard/index.html
+          grep -q '최근 확정치' k-ramen-dashboard/index.html
           grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
           grep -q '진행 중 분기 추정' k-ramen-dashboard/index.html
           grep -q 'buildCurrentQuarterEstimate' k-ramen-dashboard/index.html
@@ -156,4 +159,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
