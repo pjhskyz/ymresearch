@@ -9614,6 +9614,8 @@
     "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 1,
+    "excludedCount": 2,
+    "notes": "22명 전원을 확인했다. 신규 결정적은 Meta One, Anthropic R&D 운영 측정, 생명과학 검증형 접근 3건이다. OpenAI 공개체계는 commitment→execution으로 관찰에서 결정적으로 승격했고 Cybercab은 규제 요구를 반영해 legacy를 재평가했다. Tesla Semi 충전망과 CATL Egypt 현지화는 관찰로 선별했다.",
     "note": "22명 전원을 확인했다. 신규 결정적은 Meta One, Anthropic R&D 운영 측정, 생명과학 검증형 접근 3건이다. OpenAI 공개체계는 commitment→execution으로 관찰에서 결정적으로 승격했고 Cybercab은 규제 요구를 반영해 legacy를 재평가했다. Tesla Semi 충전망과 CATL Egypt 현지화는 관찰로 선별했다."
   },
   "schemaVersion": 2,
