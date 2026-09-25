@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.25",
+  "asOfDate": "2026.09.26",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -167,19 +167,221 @@
     }
   ],
   "currentObservationIds": [
-    "meta-muse-charm-device",
-    "ge-egypt-rotor-life-extension"
+    "microsoft-copilot-autopilot-20260925",
+    "thiel-ai-stagnation-rethink"
   ],
-  "currentSignalIds": [
-    "anthropic-akamai-cloud-services",
-    "xai-grok-bot-enterprise",
-    "openai-medicare-agent-breach",
-    "softbank-openai-bridge-prepayment",
-    "flagship-dow-ontarget-contract"
-  ],
-  "dailyThesis": "연산·금융·바이오 플랫폼의 장기계약이 실제 자본 집행으로 이동하는 동시에, 에이전트 운영은 비용 성과와 공공 시스템 사고를 함께 드러냈다.",
-  "lastSuccessfulRun": "2026-09-25T07:31:00+09:00",
+  "currentSignalIds": [],
+  "dailyThesis": "기업 AI는 호출형 보조에서 지속형 업무 에이전트로 이동하려는 반면, 장기 정체론을 고수하던 투자자도 AI의 거시 성장 잠재력을 일부 상향하기 시작했다.",
+  "lastSuccessfulRun": "2026-09-26T07:32:00+09:00",
   "observations": [
+    {
+      "id": "microsoft-copilot-autopilot-20260925",
+      "leader": "사티아 나델라(Satya Nadella)",
+      "role": "Microsoft Chairman & CEO",
+      "initials": "SN",
+      "score": 74,
+      "kind": "강화",
+      "date": "2026.09.25",
+      "reportDate": "2026.09.26",
+      "theme": "AI 배포",
+      "eventId": "microsoft-copilot-autopilot-launch",
+      "hypothesisId": "microsoft-persistent-work-agent",
+      "headline": "Microsoft가 신원·메모리·컴퓨터를 가진 지속형 업무 에이전트 Autopilot의 월말 비공개 프리뷰를 예고했다",
+      "takeaway": "요청마다 돕는 Copilot에서 자율적으로 채널을 감시하고 반복 업무를 수행하는 상주형 에이전트로 범위를 넓혔다. 관리형 런타임은 이미 프리뷰지만 Autopilot 자체는 배포 전이라 관찰로 제한했다.",
+      "before": "Microsoft는 Copilot과 에이전트를 사람이 주도하는 문서·회의·개별 업무 및 워크플로 지원 수단으로 배포해 왔다.",
+      "now": "Autopilot에 독립 신원·메모리·컴퓨터·작업공간을 부여하고, 프롬프트를 기다리지 않고 채널 감시·후속조치·반복 업무를 계속 수행하도록 설계했다.",
+      "facts": [
+        "Autopilot은 이전 명칭 Scout이며 월말 비공개 프리뷰로 확대될 예정이다.",
+        "Teams·Outlook·문서에서 자체 신원·메모리·컴퓨터·작업공간을 사용하고 권한·감사·거버넌스를 적용한다.",
+        "기반인 Copilot Managed Runtime은 현재 프리뷰이며 Code는 월말 Frontier 출시 후 수주 내 확대 예정이다.",
+        "Cowork·Code·Autopilot과 장기 실행 에이전트는 사용량 기반 과금과 FinOps 통제 대상이다."
+      ],
+      "action": "지속형 에이전트의 제품 구조·권한·과금 방식을 공개하고 월말 비공개 프리뷰 일정을 확약했으며, 기반 관리형 런타임은 프리뷰로 열었다.",
+      "impact": "기업용 AI 경쟁이 대화형 보조에서 상주형 디지털 노동과 사용량 과금으로 이동할 수 있다. 다만 실제 고객 배포 전이라 생산성·비용·오작동 위험은 아직 판단할 수 없다.",
+      "impactPath": [
+        "관리형 런타임·독립 에이전트 신원",
+        "반복 업무의 비동기 자율 실행",
+        "사용량 기반 과금·FinOps 통제",
+        "기업 소프트웨어 지출·업무 재설계"
+      ],
+      "counter": "Autopilot은 아직 비공개 프리뷰 전이며 고객 수·완료율·오류·비용절감·보안사고가 없다. 장기 실행이 승인 병목과 사용량 비용을 키울 가능성도 남는다.",
+      "next": "월말 프리뷰 개시, 참여 고객·업무 범위, 인간 승인·중단 로그, 완료율·오류율·사고, 작업당 크레딧과 기존 인력·SaaS 비용 변화를 확인한다.",
+      "source": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "sourceLabel": "Microsoft 공식 발표 · 2026.09.25",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-26T07:32:00+09:00",
+        "stage": "commitment",
+        "impactDirection": "mixed",
+        "attribution": "company_statement",
+        "breakdown": {
+          "action": {
+            "score": 13,
+            "reason": "제품 구조와 월말 비공개 프리뷰를 구체적으로 확약했고 기반 런타임은 프리뷰지만 Autopilot 자체 운영은 아직 아니다."
+          },
+          "change": {
+            "score": 17,
+            "reason": "사람이 호출하는 보조 도구에서 자체 신원·메모리로 반복 업무를 지속 수행하는 상주형 에이전트로 범위를 넓혔다."
+          },
+          "impact": {
+            "score": 20,
+            "reason": "기업 업무·소프트웨어 제작·AI 과금·거버넌스를 함께 바꿀 수 있는 플랫폼 수준 변화다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "월말 프리뷰와 수주 내 확대 일정은 명확하지만 고객 수·성과·안전 기준은 공개되지 않았다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Microsoft 공식 원문에서 제품 구조·일정·과금·통제를 직접 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-17",
+          "statement": "Microsoft는 자체 AI 전환에서 에이전트를 사람이 책임지고 통제하는 워크플로 수단으로 설명했다.",
+          "evidenceIds": [
+            "microsoft-ai-transformation-baseline-20260917"
+          ]
+        },
+        "evidenceIds": [
+          "microsoft-copilot-autopilot-official-20260925"
+        ],
+        "note": "13+17+20+14+10=74. Autopilot은 배포 전 공식 확약이므로 기업 카드의 결정적 단계로 승격하지 않았다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-25T21:03:50+09:00",
+        "publishedAt": "2026-09-25T21:03:50+09:00",
+        "firstSeenAt": "2026-09-26T07:32:00+09:00",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "기업용 AI 에이전트",
+          "relationship": "hypothesis",
+          "text": "비동기 상주형 에이전트가 실제 업무 완료와 소프트웨어 지출 대체로 이어질지는 프리뷰 성과로 검증해야 한다.",
+          "evidenceIds": [
+            "microsoft-copilot-autopilot-official-20260925"
+          ]
+        },
+        {
+          "sector": "클라우드·AI 과금",
+          "relationship": "indirect",
+          "text": "장기 실행 에이전트를 사용량 기반 과금과 FinOps 통제에 묶어 기업 AI 비용관리 수요를 확대할 수 있다.",
+          "evidenceIds": [
+            "microsoft-copilot-autopilot-official-20260925"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thiel-ai-stagnation-rethink",
+      "leader": "피터 틸(Peter Thiel)",
+      "role": "Founders Fund Co-founder · Investor",
+      "initials": "PT",
+      "score": 64,
+      "kind": "반전",
+      "date": "2026.09.25",
+      "reportDate": "2026.09.26",
+      "theme": "AI 인프라",
+      "eventId": "thiel-ai-stagnation-rethink",
+      "hypothesisId": "thiel-ai-ends-stagnation",
+      "headline": "피터 틸이 AI가 인터넷보다 커져 기술 정체를 끝낼 잠재력이 있다는 쪽으로 기존 판단을 일부 바꿨다",
+      "takeaway": "2025년에는 AI만으로 장기 기술 정체를 끝낼지 회의적이었지만 이번에는 “어느 정도” 마음이 바뀌었고 성장 재가속 가능성을 인정했다. 직접 발언의 변화는 분명하나 투자·기한·수치 조건이 없어 관찰에 머문다.",
+      "before": "2025년 6월 틸은 AI가 기업과 GDP를 늘려도 사회 전체의 기술 정체를 끝내기에는 부족할 수 있고 정체론을 대체로 믿는다고 말했다.",
+      "now": "이번 인터뷰에서 기존 생각이 어느 정도 바뀌었다며 AI가 인터넷보다 더 클 수 있고 성장을 다시 가속할 잠재력이 있다고 평가했다.",
+      "facts": [
+        "진행자가 정체론에 대한 생각이 바뀌었느냐고 묻자 틸은 “어느 정도”라고 답했다.",
+        "AI가 인터넷보다 클 수 있고 성장을 다시 가속할 잠재력이 있다고 말했다.",
+        "AI 실존위험 확률을 단정하지 않았고, 감속에는 세계정부 수준의 협력이 필요해 처방이 더 나쁠 수 있다고 주장했다.",
+        "미국 기업은 AI 대응의 긴급성이 높지만 유럽은 크게 뒤처졌다고 평가했다."
+      ],
+      "action": "과거 정체론과 AI의 한계를 직접 대조하며 AI의 성장 효과에 대한 판단을 일부 수정했다.",
+      "impact": "유력 기술투자자의 기준선이 AI를 정체 속 예외에서 성장체제 전환 후보로 높였다는 신호다. 다만 포트폴리오 변경이나 반증 기준이 없어 자본 흐름 변화로 단정할 수 없다.",
+      "impactPath": [
+        "AI의 거시 성장 잠재력 재평가",
+        "미국·유럽 기업의 도입 격차 인식",
+        "AI 인프라·응용 자본 배분 기대",
+        "실제 생산성·GDP 및 투자행동 검증"
+      ],
+      "counter": "“잠재력”과 “어느 정도”라는 조건부 표현이며 원자 세계의 정체가 해소됐다고 말하지 않았다. 신규 투자, 경제성장 수치, 기한과 반증 조건도 없다.",
+      "next": "Founders Fund·Thiel Capital의 신규 AI 투자 비중, 유럽·미국 기업 도입 격차, AI 기여 생산성·GDP에 대한 수치 기준, 정체론을 더 수정하거나 되돌리는 후속 발언을 확인한다.",
+      "source": "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy",
+      "sourceLabel": "MD MEETS 인터뷰 전사 · 2026.09.24",
+      "sourceGrade": "B",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-26T07:32:00+09:00",
+        "stage": "statement",
+        "impactDirection": "mixed",
+        "attribution": "leader_direct",
+        "breakdown": {
+          "action": {
+            "score": 5,
+            "reason": "직접 인터뷰에서 관점을 수정했지만 신규 투자·조직·계약 행동은 확인되지 않았다."
+          },
+          "change": {
+            "score": 18,
+            "reason": "AI만으로 정체를 끝내기 어렵다는 2025년 판단에서 성장 재가속 가능성을 명시적으로 더 높였다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "기술투자자의 장기 성장 기준선 변화는 AI 자본배분과 미·유럽 격차 해석에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "후속 투자와 생산성·GDP로 방향은 검증할 수 있지만 수치·기한·반증 조건을 제시하지 않았다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "원본 에피소드와 공개 전사에서 직접 문답과 게시 시점을 대조했다."
+          }
+        },
+        "baseline": {
+          "date": "2025-06-27",
+          "statement": "틸은 AI가 기업과 GDP를 늘릴 수 있어도 장기 기술 정체를 끝내기에는 부족할 수 있고 정체론을 대체로 믿는다고 말했다.",
+          "evidenceIds": [
+            "thiel-ai-stagnation-baseline-20250627"
+          ]
+        },
+        "evidenceIds": [
+          "thiel-mdmeets-original-20260924",
+          "thiel-mdmeets-transcript-20260924"
+        ],
+        "note": "5+18+18+13+10=64. 명시적 관점 변화는 확인됐지만 행동·정량 조건이 없어 관찰로 제한한다."
+      },
+      "timing": {
+        "occurredAt": null,
+        "publishedAt": "2026-09-25T02:42:33+09:00",
+        "firstSeenAt": "2026-09-26T07:32:00+09:00",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "겹침 수집에서 직전 조사에 포함되지 않은 직접 인터뷰와 과거 기준선을 처음 대조했다."
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 투자·생산성",
+          "relationship": "hypothesis",
+          "text": "관점 변화가 실제 AI 투자 확대와 거시 생산성 개선으로 이어지는지는 아직 검증되지 않았다.",
+          "evidenceIds": [
+            "thiel-mdmeets-original-20260924",
+            "thiel-mdmeets-transcript-20260924"
+          ]
+        },
+        {
+          "sector": "미국·유럽 기업 AI 도입",
+          "relationship": "indirect",
+          "text": "미국의 기업 도입 긴급성과 유럽의 지연을 투자 기회·정책 격차로 해석했지만 정량 자료는 제시하지 않았다.",
+          "evidenceIds": [
+            "thiel-mdmeets-transcript-20260924"
+          ]
+        }
+      ]
+    },
     {
       "id": "ge-egypt-rotor-life-extension",
       "leader": "스콧 스트라직(Scott Strazik)",
@@ -1047,226 +1249,267 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-21T07:35:20+09:00",
-      "end": "2026-09-25T07:31:00+09:00"
+      "start": "2026-09-22T07:31:00+09:00",
+      "end": "2026-09-26T07:32:00+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://www.tesla.com/blog",
           "https://www.spacex.com/updates/",
-          "https://x.ai/news/grok-bot-customer-support",
-          "https://x.ai/news/grok-4-7"
+          "https://x.ai/news"
         ],
-        "note": "Tesla·SpaceX·xAI 공식 채널을 확인했고 Grok Bot 운영성과를 동일 사건의 보강으로 기록했다."
+        "note": "Tesla·SpaceX·xAI 공식 채널을 확인했으며 신규 자본집행·계약·성과는 확인하지 못했다."
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://blogs.nvidia.com/",
-          "https://nvidianews.nvidia.com/"
+          "https://blogs.nvidia.com/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "NVIDIA 공식 채널을 확인했으며 최근 DSX·추론 발표의 반복 외 신규 문턱 통과 사건은 없었다."
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://openai.com/news/",
-          "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/"
+          "https://openai.com/news/"
         ],
-        "note": "OpenAI 공식 채널과 호주 정부 침입 후속 직접 보도를 확인했다."
+        "note": "OpenAI 공식 채널을 확인했으며 기존 모델·안전 사건의 실질 보강은 확인하지 못했다."
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://www.anthropic.com/news",
-          "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/"
+          "https://www.anthropic.com/news"
         ],
-        "note": "Anthropic 공식 채널과 Akamai 장기 계약 직접 보도를 확인했다."
+        "note": "Anthropic 공식 채널을 확인했으며 전일 계약·모델 사건 이후 신규 문턱 통과 사건은 없었다."
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://deepmind.google/discover/blog/",
-          "https://www.reuters.com/business/media-telecom/google-plans-first-test-ai-chips-space-under-project-suncatcher-2026-09-24/"
+          "https://deepmind.google/discover/blog/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "Google DeepMind 공식 채널을 확인했으며 신규 실행·성과는 확인하지 못했다."
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://news.microsoft.com/source/"
+          "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "Autopilot 발표와 자체 AI 전환 기준선을 직접 대조해 관찰 카드로 기록했다."
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://about.fb.com/news/",
-          "https://www.reuters.com/business/media-telecom/metas-charm-gadget-carries-ceo-zuckerbergs-big-ai-ambitions-2026-09-24/"
+          "https://about.fb.com/news/"
         ],
-        "note": "Meta 공식 채널과 Muse Charm 현장 보도를 확인했다."
+        "note": "Meta 공식 채널을 확인했으며 전일 Charm 사건 이후 신규 실질 변화는 없었다."
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://newsroom.amd.com/",
-          "https://newsroom.amd.com/news/amd-perplexity-agentic-pcs/"
+          "https://newsroom.amd.com/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "AMD 공식 채널을 확인했으며 기존 파트너·제품 확대 외 신규 문턱 통과 사건은 없었다."
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://pr.tsmc.com/english/news"
+          "https://pr.tsmc.com/english/news/3338"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "TSMC 최신 공식 원문을 재확인했으며 신규 실행·성과는 없었다."
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://group.softbank/en/news",
           "https://group.softbank/en/news/press/20260924"
         ],
-        "note": "SoftBank 공식 채권 조건과 뉴스 목록을 확인했다."
+        "note": "SoftBank 공식 채널과 전일 채권 조건을 재확인했으며 별도 신규 사건은 없었다."
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://www.catl.com/en/news/"
+          "https://www.catl.com/en/news/6998.html"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "CATL 최신 공식 원문을 확인했으며 기존 현지화 계약 이후 신규 문턱 통과 사건은 없었다."
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release",
-          "https://www.gevernova.com/news/press-releases/ge-vernova-advances-asset-longevity-egypts-power-sector-rotor-life-extension",
-          "https://www.gevernova.com/news/press-releases/ge-vernova-secure-order-modernize-key-power-plants"
+          "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release"
         ],
-        "note": "GE Vernova 공식 계약·기준선 원문을 확인했다."
+        "note": "GE Vernova 공식 채널을 확인했으며 전일 계약 이후 신규 변화는 없었다."
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "Palantir 공식 채널을 확인했으며 신규 계약·관점 변화는 확인하지 못했다."
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://www.flagshippioneering.com/",
-          "https://www.flagshippioneering.com/news/press-release/flagship-pioneering-awarded-first-of-its-kind-contract-by-department-of-war-to-advance-next-generation-medical-countermeasure-technologies-against-evolving-biological-threats",
-          "https://www.flagshippioneering.com/news/press-release/sail-biomedicines-announces-strategic-collaboration-to-develop-new-class-of-medicines-for-in-vivo-car-t"
+          "https://www.flagshippioneering.com/news"
         ],
-        "note": "Flagship 공식 계약·기준선 원문을 확인했다."
+        "note": "Flagship 공식 채널을 확인했으며 전일 국방 계약 이후 신규 문턱 통과 사건은 없었다."
       },
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "Airbnb 공식 채널을 확인했으며 기존 AI·주택 사건 이후 신규 실질 변화는 없었다."
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://acquirersmultiple.com/2026/03/stanley-druckenmiller-massive-disruption-ahead/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "최근 공개 발언 기준선을 확인했으며 신규 직접 발언·포트폴리오 변화는 찾지 못했다."
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://www.theguardian.com/politics/2026/sep/19/george-osborne-peter-thiel-bayeux-tapestry-visit"
+          "https://shows.acast.com/md-meets/episodes/peter-thiel-the-ai-crisis-europes-decline-the-battle-for-ame",
+          "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy",
+          "https://www.businessinsider.com/peter-thiel-ai-tech-stagnation-2025-6"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "원본 에피소드·공개 전사·2025년 기준선을 대조해 관점 변화를 관찰 카드로 기록했다."
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://www.oaktreecapital.com/insights"
+          "https://www.oaktreecapital.com/insights",
+          "https://www.businessinsider.com/howard-marks-memo-stock-market-us-debt-deficit-gold-economy-2026-9"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "Oaktree 최신 글과 부채 관련 보도를 확인했으나 기존 분산·위험관리 관점의 반복으로 판단했다."
       },
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://x.com/RayDalio?lang=en",
           "https://www.principles.com/principles/e25fd729-9772-48e0-8768-973bf3207ded/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "공개 원문을 확인했으며 신규 관점 변화나 실행은 확인하지 못했다."
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
-          "https://a16z.com/",
-          "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy"
+          "https://a16z.com/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "a16z 공식 채널을 확인했으며 신규 리더 직접 행동·관점 변화는 없었다."
       },
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "최신 글을 확인했으나 제3자의 AI 성장 논지를 인용한 글로 본인의 새 관점·행동으로 보지 않았다."
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-09-25T07:31:00+09:00",
+        "checkedAt": "2026-09-26T07:32:00+09:00",
         "urls": [
           "https://balajis.com/"
         ],
-        "note": "공식 채널과 공개된 최신 직접 자료를 확인했으며 점수 문턱을 넘는 신규 관점·행동은 확인하지 못했다."
+        "note": "공식 사이트를 확인했으며 신규 검증 가능한 관점 변화·행동은 확인하지 못했다."
       }
     ],
     "evidence": [
+      {
+        "id": "microsoft-copilot-autopilot-official-20260925",
+        "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+        "label": "Microsoft · 새 Copilot Home·Code·Autopilot 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-25T21:03:50+09:00",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "claim": "Microsoft는 독립 신원·메모리·컴퓨터를 가진 Autopilot을 월말 비공개 프리뷰로 확대하고 장기 실행 에이전트에 사용량 기반 과금을 적용한다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "microsoft-ai-transformation-baseline-20260917",
+        "url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/",
+        "label": "Microsoft · 자체 AI 전환 기준선",
+        "grade": "A",
+        "publishedAt": "2026-09-17",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "claim": "Microsoft는 자체 AI 전환 사례에서 에이전트를 사람이 책임지고 통제하는 업무 흐름으로 설명했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "thiel-mdmeets-original-20260924",
+        "url": "https://shows.acast.com/md-meets/episodes/peter-thiel-the-ai-crisis-europes-decline-the-battle-for-ame",
+        "label": "MD MEETS · Peter Thiel 원본 인터뷰 에피소드",
+        "grade": "B",
+        "publishedAt": "2026-09-25T02:42:33+09:00",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "claim": "원본 에피소드는 틸이 AI의 규모, 기술 정체와 미·유럽 AI 격차를 논의한 직접 인터뷰임을 확인한다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "thiel-mdmeets-transcript-20260924",
+        "url": "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy",
+        "label": "MD MEETS · Peter Thiel 공개 인터뷰 전사",
+        "grade": "B",
+        "publishedAt": "2026-09-24",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "claim": "틸은 정체론에 대한 생각이 어느 정도 바뀌었고 AI가 인터넷보다 커져 성장을 재가속할 잠재력이 있다고 직접 말했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "thiel-ai-stagnation-baseline-20250627",
+        "url": "https://www.businessinsider.com/peter-thiel-ai-tech-stagnation-2025-6",
+        "label": "Business Insider · Peter Thiel AI 정체론 기준선",
+        "grade": "B",
+        "publishedAt": "2025-06-27",
+        "verifiedAt": "2026-09-26T07:32:00+09:00",
+        "claim": "틸은 AI가 기업과 GDP를 늘려도 기술 정체를 끝내기에는 부족할 수 있고 자신은 정체론을 대체로 믿는다고 말했다.",
+        "provenance": "direct_report"
+      },
       {
         "id": "ge-egypt-modernization-official-20260429",
         "url": "https://www.gevernova.com/news/press-releases/ge-vernova-secure-order-modernize-key-power-plants",
@@ -2469,6 +2712,253 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20260926-microsoft-copilot-autopilot-20260925",
+        "eventId": "microsoft-copilot-autopilot-launch",
+        "signalId": "microsoft-copilot-autopilot-20260925",
+        "hypothesisId": "microsoft-persistent-work-agent",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.26",
+        "recordedAt": "2026-09-26T07:32:00+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "Microsoft가 신원·메모리·컴퓨터를 가진 지속형 업무 에이전트 Autopilot의 월말 비공개 프리뷰를 예고했다",
+        "source": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "13+17+20+14+10=74. Autopilot은 배포 전 공식 확약이므로 기업 카드의 결정적 단계로 승격하지 않았다.",
+        "evidenceIds": [
+          "microsoft-copilot-autopilot-official-20260925"
+        ],
+        "snapshot": {
+          "id": "microsoft-copilot-autopilot-20260925",
+          "leader": "사티아 나델라(Satya Nadella)",
+          "role": "Microsoft Chairman & CEO",
+          "initials": "SN",
+          "score": 74,
+          "kind": "강화",
+          "date": "2026.09.25",
+          "reportDate": "2026.09.26",
+          "theme": "AI 배포",
+          "eventId": "microsoft-copilot-autopilot-launch",
+          "hypothesisId": "microsoft-persistent-work-agent",
+          "headline": "Microsoft가 신원·메모리·컴퓨터를 가진 지속형 업무 에이전트 Autopilot의 월말 비공개 프리뷰를 예고했다",
+          "takeaway": "요청마다 돕는 Copilot에서 자율적으로 채널을 감시하고 반복 업무를 수행하는 상주형 에이전트로 범위를 넓혔다. 관리형 런타임은 이미 프리뷰지만 Autopilot 자체는 배포 전이라 관찰로 제한했다.",
+          "before": "Microsoft는 Copilot과 에이전트를 사람이 주도하는 문서·회의·개별 업무 및 워크플로 지원 수단으로 배포해 왔다.",
+          "now": "Autopilot에 독립 신원·메모리·컴퓨터·작업공간을 부여하고, 프롬프트를 기다리지 않고 채널 감시·후속조치·반복 업무를 계속 수행하도록 설계했다.",
+          "facts": [
+            "Autopilot은 이전 명칭 Scout이며 월말 비공개 프리뷰로 확대될 예정이다.",
+            "Teams·Outlook·문서에서 자체 신원·메모리·컴퓨터·작업공간을 사용하고 권한·감사·거버넌스를 적용한다.",
+            "기반인 Copilot Managed Runtime은 현재 프리뷰이며 Code는 월말 Frontier 출시 후 수주 내 확대 예정이다.",
+            "Cowork·Code·Autopilot과 장기 실행 에이전트는 사용량 기반 과금과 FinOps 통제 대상이다."
+          ],
+          "action": "지속형 에이전트의 제품 구조·권한·과금 방식을 공개하고 월말 비공개 프리뷰 일정을 확약했으며, 기반 관리형 런타임은 프리뷰로 열었다.",
+          "impact": "기업용 AI 경쟁이 대화형 보조에서 상주형 디지털 노동과 사용량 과금으로 이동할 수 있다. 다만 실제 고객 배포 전이라 생산성·비용·오작동 위험은 아직 판단할 수 없다.",
+          "impactPath": [
+            "관리형 런타임·독립 에이전트 신원",
+            "반복 업무의 비동기 자율 실행",
+            "사용량 기반 과금·FinOps 통제",
+            "기업 소프트웨어 지출·업무 재설계"
+          ],
+          "counter": "Autopilot은 아직 비공개 프리뷰 전이며 고객 수·완료율·오류·비용절감·보안사고가 없다. 장기 실행이 승인 병목과 사용량 비용을 키울 가능성도 남는다.",
+          "next": "월말 프리뷰 개시, 참여 고객·업무 범위, 인간 승인·중단 로그, 완료율·오류율·사고, 작업당 크레딧과 기존 인력·SaaS 비용 변화를 확인한다.",
+          "source": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "sourceLabel": "Microsoft 공식 발표 · 2026.09.25",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-26T07:32:00+09:00",
+            "stage": "commitment",
+            "impactDirection": "mixed",
+            "attribution": "company_statement",
+            "breakdown": {
+              "action": {
+                "score": 13,
+                "reason": "제품 구조와 월말 비공개 프리뷰를 구체적으로 확약했고 기반 런타임은 프리뷰지만 Autopilot 자체 운영은 아직 아니다."
+              },
+              "change": {
+                "score": 17,
+                "reason": "사람이 호출하는 보조 도구에서 자체 신원·메모리로 반복 업무를 지속 수행하는 상주형 에이전트로 범위를 넓혔다."
+              },
+              "impact": {
+                "score": 20,
+                "reason": "기업 업무·소프트웨어 제작·AI 과금·거버넌스를 함께 바꿀 수 있는 플랫폼 수준 변화다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "월말 프리뷰와 수주 내 확대 일정은 명확하지만 고객 수·성과·안전 기준은 공개되지 않았다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Microsoft 공식 원문에서 제품 구조·일정·과금·통제를 직접 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-17",
+              "statement": "Microsoft는 자체 AI 전환에서 에이전트를 사람이 책임지고 통제하는 워크플로 수단으로 설명했다.",
+              "evidenceIds": [
+                "microsoft-ai-transformation-baseline-20260917"
+              ]
+            },
+            "evidenceIds": [
+              "microsoft-copilot-autopilot-official-20260925"
+            ],
+            "note": "13+17+20+14+10=74. Autopilot은 배포 전 공식 확약이므로 기업 카드의 결정적 단계로 승격하지 않았다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-25T21:03:50+09:00",
+            "publishedAt": "2026-09-25T21:03:50+09:00",
+            "firstSeenAt": "2026-09-26T07:32:00+09:00",
+            "verifiedAt": "2026-09-26T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "기업용 AI 에이전트",
+              "relationship": "hypothesis",
+              "text": "비동기 상주형 에이전트가 실제 업무 완료와 소프트웨어 지출 대체로 이어질지는 프리뷰 성과로 검증해야 한다.",
+              "evidenceIds": [
+                "microsoft-copilot-autopilot-official-20260925"
+              ]
+            },
+            {
+              "sector": "클라우드·AI 과금",
+              "relationship": "indirect",
+              "text": "장기 실행 에이전트를 사용량 기반 과금과 FinOps 통제에 묶어 기업 AI 비용관리 수요를 확대할 수 있다.",
+              "evidenceIds": [
+                "microsoft-copilot-autopilot-official-20260925"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20260926-thiel-ai-stagnation-rethink",
+        "eventId": "thiel-ai-stagnation-rethink",
+        "signalId": "thiel-ai-stagnation-rethink",
+        "hypothesisId": "thiel-ai-ends-stagnation",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.26",
+        "recordedAt": "2026-09-26T07:32:00+09:00",
+        "tier": "observation",
+        "score": 64,
+        "headline": "피터 틸이 AI가 인터넷보다 커져 기술 정체를 끝낼 잠재력이 있다는 쪽으로 기존 판단을 일부 바꿨다",
+        "source": "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy",
+        "status": "reviewed",
+        "stage": "statement",
+        "reason": "5+18+18+13+10=64. 명시적 관점 변화는 확인됐지만 행동·정량 조건이 없어 관찰로 제한한다.",
+        "evidenceIds": [
+          "thiel-mdmeets-original-20260924",
+          "thiel-mdmeets-transcript-20260924"
+        ],
+        "snapshot": {
+          "id": "thiel-ai-stagnation-rethink",
+          "leader": "피터 틸(Peter Thiel)",
+          "role": "Founders Fund Co-founder · Investor",
+          "initials": "PT",
+          "score": 64,
+          "kind": "반전",
+          "date": "2026.09.25",
+          "reportDate": "2026.09.26",
+          "theme": "AI 인프라",
+          "eventId": "thiel-ai-stagnation-rethink",
+          "hypothesisId": "thiel-ai-ends-stagnation",
+          "headline": "피터 틸이 AI가 인터넷보다 커져 기술 정체를 끝낼 잠재력이 있다는 쪽으로 기존 판단을 일부 바꿨다",
+          "takeaway": "2025년에는 AI만으로 장기 기술 정체를 끝낼지 회의적이었지만 이번에는 “어느 정도” 마음이 바뀌었고 성장 재가속 가능성을 인정했다. 직접 발언의 변화는 분명하나 투자·기한·수치 조건이 없어 관찰에 머문다.",
+          "before": "2025년 6월 틸은 AI가 기업과 GDP를 늘려도 사회 전체의 기술 정체를 끝내기에는 부족할 수 있고 정체론을 대체로 믿는다고 말했다.",
+          "now": "이번 인터뷰에서 기존 생각이 어느 정도 바뀌었다며 AI가 인터넷보다 더 클 수 있고 성장을 다시 가속할 잠재력이 있다고 평가했다.",
+          "facts": [
+            "진행자가 정체론에 대한 생각이 바뀌었느냐고 묻자 틸은 “어느 정도”라고 답했다.",
+            "AI가 인터넷보다 클 수 있고 성장을 다시 가속할 잠재력이 있다고 말했다.",
+            "AI 실존위험 확률을 단정하지 않았고, 감속에는 세계정부 수준의 협력이 필요해 처방이 더 나쁠 수 있다고 주장했다.",
+            "미국 기업은 AI 대응의 긴급성이 높지만 유럽은 크게 뒤처졌다고 평가했다."
+          ],
+          "action": "과거 정체론과 AI의 한계를 직접 대조하며 AI의 성장 효과에 대한 판단을 일부 수정했다.",
+          "impact": "유력 기술투자자의 기준선이 AI를 정체 속 예외에서 성장체제 전환 후보로 높였다는 신호다. 다만 포트폴리오 변경이나 반증 기준이 없어 자본 흐름 변화로 단정할 수 없다.",
+          "impactPath": [
+            "AI의 거시 성장 잠재력 재평가",
+            "미국·유럽 기업의 도입 격차 인식",
+            "AI 인프라·응용 자본 배분 기대",
+            "실제 생산성·GDP 및 투자행동 검증"
+          ],
+          "counter": "“잠재력”과 “어느 정도”라는 조건부 표현이며 원자 세계의 정체가 해소됐다고 말하지 않았다. 신규 투자, 경제성장 수치, 기한과 반증 조건도 없다.",
+          "next": "Founders Fund·Thiel Capital의 신규 AI 투자 비중, 유럽·미국 기업 도입 격차, AI 기여 생산성·GDP에 대한 수치 기준, 정체론을 더 수정하거나 되돌리는 후속 발언을 확인한다.",
+          "source": "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy",
+          "sourceLabel": "MD MEETS 인터뷰 전사 · 2026.09.24",
+          "sourceGrade": "B",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-26T07:32:00+09:00",
+            "stage": "statement",
+            "impactDirection": "mixed",
+            "attribution": "leader_direct",
+            "breakdown": {
+              "action": {
+                "score": 5,
+                "reason": "직접 인터뷰에서 관점을 수정했지만 신규 투자·조직·계약 행동은 확인되지 않았다."
+              },
+              "change": {
+                "score": 18,
+                "reason": "AI만으로 정체를 끝내기 어렵다는 2025년 판단에서 성장 재가속 가능성을 명시적으로 더 높였다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "기술투자자의 장기 성장 기준선 변화는 AI 자본배분과 미·유럽 격차 해석에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "후속 투자와 생산성·GDP로 방향은 검증할 수 있지만 수치·기한·반증 조건을 제시하지 않았다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "원본 에피소드와 공개 전사에서 직접 문답과 게시 시점을 대조했다."
+              }
+            },
+            "baseline": {
+              "date": "2025-06-27",
+              "statement": "틸은 AI가 기업과 GDP를 늘릴 수 있어도 장기 기술 정체를 끝내기에는 부족할 수 있고 정체론을 대체로 믿는다고 말했다.",
+              "evidenceIds": [
+                "thiel-ai-stagnation-baseline-20250627"
+              ]
+            },
+            "evidenceIds": [
+              "thiel-mdmeets-original-20260924",
+              "thiel-mdmeets-transcript-20260924"
+            ],
+            "note": "5+18+18+13+10=64. 명시적 관점 변화는 확인됐지만 행동·정량 조건이 없어 관찰로 제한한다."
+          },
+          "timing": {
+            "occurredAt": null,
+            "publishedAt": "2026-09-25T02:42:33+09:00",
+            "firstSeenAt": "2026-09-26T07:32:00+09:00",
+            "verifiedAt": "2026-09-26T07:32:00+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "겹침 수집에서 직전 조사에 포함되지 않은 직접 인터뷰와 과거 기준선을 처음 대조했다."
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 투자·생산성",
+              "relationship": "hypothesis",
+              "text": "관점 변화가 실제 AI 투자 확대와 거시 생산성 개선으로 이어지는지는 아직 검증되지 않았다.",
+              "evidenceIds": [
+                "thiel-mdmeets-original-20260924",
+                "thiel-mdmeets-transcript-20260924"
+              ]
+            },
+            {
+              "sector": "미국·유럽 기업 AI 도입",
+              "relationship": "indirect",
+              "text": "미국의 기업 도입 긴급성과 유럽의 지연을 투자 기회·정책 격차로 해석했지만 정량 자료는 제시하지 않았다.",
+              "evidenceIds": [
+                "thiel-mdmeets-transcript-20260924"
+              ]
+            }
+          ]
+        }
+      },
       {
         "id": "revision-20260925-ge-egypt-rotor-life-extension",
         "eventId": "ge-egypt-rotor-life-extension",
@@ -11143,6 +11633,22 @@
     ],
     "hypotheses": [
       {
+        "id": "microsoft-persistent-work-agent",
+        "title": "Microsoft의 지속형 업무 에이전트 전환",
+        "question": "Autopilot이 인간 통제 아래 반복 업무를 안정적으로 완료하고 비용 대비 생산성을 입증하는가?",
+        "leaderNames": [
+          "사티아 나델라(Satya Nadella)"
+        ]
+      },
+      {
+        "id": "thiel-ai-ends-stagnation",
+        "title": "피터 틸의 AI 정체론 수정",
+        "question": "AI가 인터넷을 넘어 생산성·GDP를 재가속하고 틸의 실제 자본배분 변화로 이어지는가?",
+        "leaderNames": [
+          "피터 틸(Peter Thiel)"
+        ]
+      },
+      {
         "id": "ge-egypt-fleet-life-extension",
         "title": "GE Vernova의 설치기반 장기 서비스 수익화",
         "question": "이집트 9F 수명연장이 일정·예산대로 실행돼 가동률·효율·수명 개선과 반복 서비스 매출을 입증하는가?",
@@ -11674,21 +12180,21 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-09-24T07:35:20+09:00",
-    "end": "2026-09-25T07:31:00+09:00"
+    "start": "2026-09-25T07:31:00+09:00",
+    "end": "2026-09-26T07:32:00+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 38,
-    "newSignals": 5,
+    "sourcesChecked": 29,
+    "newSignals": 0,
     "newObservations": 2,
-    "upgrades": 1,
+    "upgrades": 0,
     "downgrades": 0,
-    "reversals": 0,
+    "reversals": 1,
     "actionTransitions": 0,
-    "excludedCount": 6,
-    "notes": "22명 전원을 확인했다. xAI Grok Bot은 실행에서 공급사 내부 성과로 보강돼 관찰에서 결정적으로 승격했다. SoftBank 채권과 OpenAI 호주 침입은 같은 사건의 새 근거로 보강했다. 주요 제외는 Grok 4.7의 점진적 모델 개선, Google 우주 TPU의 발사 전 계획, AMD–Perplexity의 기존 칩 지원 확대, 백악관의 미확정 모델 접근 보도, UN 안전 발언의 기존 기조 반복, a16z 교육 프로그램의 리더 직접 행동·성과 부족이다.",
-    "note": "22명 전원을 확인했다. xAI Grok Bot은 실행에서 공급사 내부 성과로 보강돼 관찰에서 결정적으로 승격했다. SoftBank 채권과 OpenAI 호주 침입은 같은 사건의 새 근거로 보강했다. 주요 제외는 Grok 4.7의 점진적 모델 개선, Google 우주 TPU의 발사 전 계획, AMD–Perplexity의 기존 칩 지원 확대, 백악관의 미확정 모델 접근 보도, UN 안전 발언의 기존 기조 반복, a16z 교육 프로그램의 리더 직접 행동·성과 부족이다."
+    "excludedCount": 4,
+    "notes": "22명 전원을 확인했다. Microsoft Autopilot은 지속형 업무 에이전트로의 전략 확대지만 배포 전 확약이라 74점 관찰로 제한했다. 피터 틸은 AI가 기술 정체를 끝낼 잠재력을 과거보다 높인 직접 발언을 64점 반전 관찰로 기록했다. 주요 제외는 타일러 코웬의 제3자 견해 인용, 하워드 막스의 기존 분산·위험관리 반복, 추적 기업 공식 채널의 점진적 제품·후속 보도다.",
+    "note": "22명 전원을 확인했다. Microsoft Autopilot은 지속형 업무 에이전트로의 전략 확대지만 배포 전 확약이라 74점 관찰로 제한했다. 피터 틸은 AI가 기술 정체를 끝낼 잠재력을 과거보다 높인 직접 발언을 64점 반전 관찰로 기록했다. 주요 제외는 타일러 코웬의 제3자 견해 인용, 하워드 막스의 기존 분산·위험관리 반복, 추적 기업 공식 채널의 점진적 제품·후속 보도다."
   },
   "schemaVersion": 2,
   "signals": [
@@ -13555,205 +14061,10 @@
           ]
         }
       ]
-    },
-    {
-      "id": "nvidia-vera-rubin-mlperf-v61",
-      "leader": "젠슨 황(Jensen Huang)",
-      "role": "NVIDIA Founder & CEO",
-      "initials": "JH",
-      "score": 76,
-      "kind": "강화",
-      "date": "2026.09.16",
-      "reportDate": "2026.09.17",
-      "theme": "AI 인프라",
-      "headline": "Vera Rubin이 사전 효율 주장에 이어 MLPerf v6.1에서 GB300 대비 최대 3.7배 처리량을 제출했다",
-      "takeaway": "Vera Rubin의 추론 경제성 주장이 공급사 자체 AgentX 프리뷰에서 표준 벤치마크 제출로 한 단계 진전했다. 다만 새 하드웨어의 프리뷰 결과이며 전력·가격·실서비스 비용은 공개되지 않았다.",
-      "before": "8월 24일 NVIDIA는 SemiAnalysis AgentX에서 Vera Rubin이 GB300보다 메가와트당 처리량을 최대 30배 높인다고 발표했지만, 표준 MLPerf 제출은 아니었다.",
-      "now": "MLPerf Inference v6.1 프리뷰 제출에서 Vera Rubin NVL72는 Qwen3-VL 처리량을 최대 3.7배, DeepSeek-R1을 최대 2.5배 높였고 결과 번호와 비교 시스템이 공개됐다.",
-      "facts": [
-        "Vera Rubin NVL72의 첫 MLPerf Inference 프리뷰 제출은 Qwen3-VL 오프라인·서버·인터랙티브 시나리오에서 GB300 NVL72 대비 최대 3.7배 처리량을 기록했다.",
-        "DeepSeek-R1 처리량은 GB300 NVL72 대비 최대 2.5배였고 제출 결과 번호 6.1-0106과 6.1-0074가 제시됐다.",
-        "별도의 GB300 288-GPU·4랙 제출은 단일 랙 대비 99% 스케일링 효율을 기록했다.",
-        "NVIDIA는 제출 마감 뒤의 GPT-OSS-120B·DLRMv3 추가 성능은 아직 MLCommons가 검증하지 않았다고 명시했다."
-      ],
-      "action": "NVIDIA와 파트너는 차세대 Vera Rubin 시스템을 표준 MLPerf 절차에 프리뷰 제출하고 공개 결과 번호를 남겼다. 실제 고객 배치나 상용 서비스 원가를 확인한 것은 아니다.",
-      "impact": "해석: 차세대 랙의 처리량 우위가 반복되면 같은 수요를 처리하는 GPU·랙 수와 네트워크 투자량을 줄일 수 있다. 그러나 전력과 가격이 없는 처리량 비교만으로 토큰당 총비용 우위를 확정할 수는 없다.",
-      "impactPath": [
-        "표준 추론 벤치마크에서 랙당 처리량 상승",
-        "동일 사용자 수에 필요한 GPU·랙·네트워크 수 감소 가능",
-        "클라우드 사업자의 세대교체와 NVIDIA 플랫폼 잠금 효과 강화 가능",
-        "실제 전력·가격이 공개될 때 토큰당 총비용으로 검증"
-      ],
-      "counter": "프리뷰 제출은 실제 서비스 가동률·지연시간 분포·장애율을 대체하지 않는다. 비교 모델과 소프트웨어 스택이 제한돼 있고 전력·시스템 가격이 없어 3.7배 처리량을 같은 비율의 비용 개선으로 볼 수 없다.",
-      "next": "MLCommons의 최종 검증표, 전력 측정과 시스템 가격, 독립 파트너의 반복 제출, 상용 클라우드의 토큰당 원가·가동률을 확인한다.",
-      "source": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "sourceLabel": "NVIDIA Vera Rubin MLPerf Inference v6.1 결과 · 2026.09.16",
-      "sourceGrade": "A",
-      "eventId": "nvidia-vera-rubin-mlperf-v61",
-      "hypothesisId": "nvidia-vera-rubin-inference-economics",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-17T07:40:00+09:00",
-        "stage": "outcome",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 24,
-            "reason": "차세대 시스템을 MLPerf 절차에 실제 제출해 공개 결과 번호를 남겼다."
-          },
-          "change": {
-            "score": 12,
-            "reason": "자체 AgentX 프리뷰에서 표준 벤치마크 제출로 진전했지만 상용 배치까지는 아니다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "추론 랙의 처리량 격차는 GPU·랙·네트워크 수요와 클라우드 원가에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "모델·시나리오·비교 시스템·결과 번호가 공개됐지만 전력·가격과 최종 고객 운영은 없다."
-          },
-          "source": {
-            "score": 8,
-            "reason": "공식 원문과 MLCommons 결과 번호를 확인했으나 해석은 공급사 중심이고 독립 비용 자료가 없다."
-          }
-        },
-        "baseline": {
-          "date": "2026-08-24",
-          "statement": "NVIDIA는 AgentX 프리뷰에서 Vera Rubin의 높은 메가와트당 처리량을 주장했지만 표준 MLPerf 제출은 없었다.",
-          "evidenceIds": [
-            "nvidia-vera-rubin-agentx-baseline-20260824"
-          ]
-        },
-        "evidenceIds": [
-          "nvidia-vera-rubin-mlperf-v61-20260916",
-          "nvidia-vera-rubin-agentx-baseline-20260824"
-        ],
-        "note": "24+12+18+14+8=76. 표준 제출을 성과로 보되 프리뷰·무전력·무가격 조건을 반영해 결정적 문턱 바로 위로 제한했다."
-      },
-      "timing": {
-        "occurredAt": "2026-09-16",
-        "publishedAt": "2026-09-16",
-        "firstSeenAt": "2026-09-17T07:40:00+09:00",
-        "verifiedAt": "2026-09-17T07:40:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "AI 가속기·클라우드 인프라",
-          "relationship": "confirmed",
-          "text": "Vera Rubin과 GB300의 MLPerf 제출 결과가 공개됐다. 실제 가격·전력·고객 배치 경제성은 미확인이다.",
-          "evidenceIds": [
-            "nvidia-vera-rubin-mlperf-v61-20260916"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "airbnb-housing-accelerator",
-      "leader": "브라이언 체스키(Brian Chesky)",
-      "role": "Airbnb Co-founder & CEO",
-      "initials": "BC",
-      "score": 82,
-      "kind": "실행",
-      "date": "2026.09.14",
-      "reportDate": "2026.09.16",
-      "theme": "주택 공급",
-      "headline": "Airbnb가 2억5천만 달러 주택기금을 출범시키고 첫 640만 달러를 오스틴 201가구에 투입했다",
-      "takeaway": "주택난 책임 논쟁에 공급 부족을 주장하던 데서 직접 후순위 자본을 넣어 멈춘 사업을 재개하는 단계로 이동했다. 50억 달러 유발 목표는 아직 전망이며 첫 사업의 준공·임대료가 핵심 검증점이다.",
-      "before": "9월 9일 EU 규제 논의에서 Airbnb는 단기임대보다 주택 공급 부족이 가격 문제의 근본 원인이라고 주장했지만 직접 주택개발 자본 집행은 확인되지 않았다.",
-      "now": "Airbnb는 표준 시장수익률보다 낮은 수익을 감수하는 2억5천만 달러 후순위 금융기금을 출범시키고, 첫 640만 달러를 오스틴 St. John 사업의 저렴주택 201가구에 투입해 5년간 멈춘 건설을 재개한다고 밝혔다.",
-      "facts": [
-        "Housing Accelerator는 10년간 2억5천만 달러의 Airbnb 자본으로 50억 달러가 넘는 주택개발 자금을 유발하는 것을 목표로 한다.",
-        "첫 640만 달러 투자는 오스틴 St. John 사업의 저렴주택 201가구 건설을 지원하며, 전체 사업은 500가구 이상을 포함한다.",
-        "Airbnb는 마지막 자금 공백을 메우는 후순위 금융으로 표준 시장수익률보다 낮은 수익을 받아들인다고 명시했다.",
-        "정책 개혁 지원, 연내 도시별 주택규제 지수와 각 100만 달러 규모의 혁신상 5개도 함께 예고했다."
-      ],
-      "action": "확인된 행동은 기금 출범과 첫 640만 달러 투자다. 2억5천만 달러 전액 집행과 50억 달러 외부자금 유발, 201가구의 준공·입주는 아직 결과가 아니다.",
-      "impact": "해석: 플랫폼 기업이 규제 방어를 넘어 공급 병목에 저수익·후순위 자본을 투입하는 모델을 시험한다. 성공하면 장기 지연 사업의 금융 공백을 줄일 수 있지만, 첫 사업 규모는 주택난 전체에 비해 작고 정책 영향은 불확실하다.",
-      "impactPath": [
-        "Airbnb 후순위 자본이 개발사업의 마지막 자금 공백을 보완",
-        "공공·민간 선순위 자금과 착공 재개 가능",
-        "저렴주택 공급과 지역 규제 논쟁의 검증 자료 축적",
-        "플랫폼 기업의 사회적 비용 대응·규제 협상 방식 변화 가능"
-      ],
-      "counter": "50억 달러는 유발 목표이고 첫 투자는 640만 달러에 그친다. 공사비·금리·인허가로 준공이 다시 지연될 수 있고, 임대료의 실제 부담 가능성·입주자 수·Airbnb의 수익과 규제 완화 효과는 확인되지 않았다.",
-      "next": "St. John 착공·준공·입주 일정과 201가구의 임대료 기준, 추가 투자 건수·민간자본 배수, 2억5천만 달러 실제 집행액, 도시 지수와 정책 변화의 이해상충·성과를 확인한다.",
-      "source": "https://news.airbnb.com/announcing-housing-accelerator",
-      "sourceLabel": "Airbnb Housing Accelerator 공식 발표 · 2026.09.14",
-      "sourceGrade": "A",
-      "eventId": "airbnb-housing-accelerator",
-      "hypothesisId": "airbnb-housing-supply-response",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-16T07:38:00+09:00",
-        "stage": "execution",
-        "impactDirection": "mixed",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 24,
-            "reason": "기금 출범과 첫 640만 달러 투자는 실제 자본 집행이지만 2억5천만 달러 전액은 아직 확약이다."
-          },
-          "change": {
-            "score": 17,
-            "reason": "주택 공급 부족을 주장하는 규제 대응에서 저수익 후순위 자본을 직접 투입하는 전략으로 의미 있게 전환했다."
-          },
-          "impact": {
-            "score": 17,
-            "reason": "장기 지연 주택사업의 금융 공백과 플랫폼 규제 대응 방식에 영향을 줄 수 있으나 첫 사업은 국소적이다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "투자액·가구 수·10년 목표와 첫 사업이 공개돼 집행·착공·준공·임대료로 판별할 수 있다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "Airbnb 공식 기금·사업 원문과 Axios 현지 보도, Reuters의 직전 기준선을 교차 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-09",
-          "statement": "EU의 주택난 규제 논의에서 Airbnb는 문제의 근본 원인이 단기임대보다 주택 공급 부족이라고 주장했으나 직접 개발자금 집행은 확인되지 않았다.",
-          "evidenceIds": [
-            "airbnb-eu-housing-baseline-reuters-20260909"
-          ]
-        },
-        "evidenceIds": [
-          "airbnb-housing-accelerator-official-20260914",
-          "airbnb-st-john-investment-official-20260914",
-          "airbnb-eu-housing-baseline-reuters-20260909",
-          "airbnb-st-john-axios-20260914"
-        ],
-        "note": "24+17+17+14+10=82. 첫 투자 집행은 실행으로 평가하되 기금 전체와 50억 달러 유발 목표를 성과로 간주하지 않았다."
-      },
-      "timing": {
-        "occurredAt": "2026-09-14",
-        "publishedAt": "2026-09-14",
-        "firstSeenAt": "2026-09-16T07:38:00+09:00",
-        "verifiedAt": "2026-09-16T07:38:00+09:00",
-        "lateDiscovery": true,
-        "lateDiscoveryReason": "9월 14일 공식 발표가 직전 조사 종료 전에 있었지만 카드화되지 않았다. 72시간 겹침 수집에서 첫 640만 달러 실제 투자와 201가구 사업을 처음 원문 검증했다."
-      },
-      "industryLinks": [
-        {
-          "sector": "저렴주택·부동산 금융",
-          "relationship": "confirmed",
-          "text": "Airbnb의 첫 640만 달러 후순위 투자가 오스틴 St. John의 저렴주택 201가구 건설에 배정됐다. 준공·입주는 미확인이다.",
-          "evidenceIds": [
-            "airbnb-st-john-investment-official-20260914",
-            "airbnb-st-john-axios-20260914"
-          ]
-        }
-      ]
     }
   ],
-  "status": "signals",
-  "statusMessage": "결정적 신호 5건과 관찰 신호 2건을 확인했습니다.",
+  "status": "observations",
+  "statusMessage": "결정적 신호는 없고 관찰 신호 2건을 확인했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -13769,6 +14080,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "thiel-ai-stagnation-rethink",
+            "eventIds": [
+              "thiel-ai-stagnation-rethink"
+            ],
+            "note": "한 인터뷰의 관점 변화를 하나의 사건으로 집계하며 관련 포트폴리오를 별도 사건으로 늘리지 않는다."
+          },
           {
             "id": "anthropic-akamai-cloud-services",
             "eventIds": [
@@ -13876,6 +14194,15 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "thiel-ai-stagnation-rethink",
+            "text": "조건부 발언이며 신규 투자·수치·기한·반증 조건이 없어 자본배분 변화는 확인되지 않았다.",
+            "evidenceIds": [
+              "thiel-mdmeets-transcript-20260924",
+              "thiel-ai-stagnation-baseline-20250627"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "anthropic-akamai-cloud-services",
             "text": "실제 용량·사용률·토큰 원가와 장기 최소구매 부담은 공개되지 않았다.",
@@ -13989,6 +14316,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "thiel-ai-stagnation-rethink",
+            "text": "틸은 AI가 인터넷보다 커져 성장을 재가속할 잠재력이 있다고 과거보다 높은 평가를 제시했다.",
+            "evidenceIds": [
+              "thiel-mdmeets-original-20260924",
+              "thiel-mdmeets-transcript-20260924"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "anthropic-akamai-cloud-services",
             "text": "Anthropic이 Akamai와 7년·116억달러 클라우드 구매계약을 체결해 공급자의 설비·메모리 투자를 유발했다.",
@@ -14504,6 +14840,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "microsoft-copilot-autopilot-launch",
+            "eventIds": [
+              "microsoft-copilot-autopilot-launch"
+            ],
+            "note": "Home·Code·Autopilot과 관리형 런타임을 같은 Microsoft Copilot 발표의 한 사건으로 집계한다."
+          },
+          {
             "id": "meta-muse-charm-device",
             "eventIds": [
               "meta-muse-charm-device"
@@ -14666,6 +15009,14 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "microsoft-copilot-autopilot-launch",
+            "text": "Autopilot 자체는 배포 전이며 고객 수·완료율·오류·비용절감·보안 성과가 없다.",
+            "evidenceIds": [
+              "microsoft-copilot-autopilot-official-20260925"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "meta-muse-charm-device",
             "text": "가격·출시일·생산량·사용지표가 없어 시제품 공개를 시장 채택으로 볼 수 없다.",
@@ -14843,6 +15194,14 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "microsoft-copilot-autopilot-launch",
+            "text": "Microsoft가 지속형 에이전트의 제품 구조·월말 프리뷰·사용량 과금을 구체적으로 확약했다.",
+            "evidenceIds": [
+              "microsoft-copilot-autopilot-official-20260925"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "meta-muse-charm-device",
             "text": "Meta가 Muse 전용 5G 기기 시제품을 공개해 개인 에이전트를 하드웨어로 확장했다.",
@@ -15141,5 +15500,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T07:31:00+09:00"
+  "updatedAt": "2026-09-26T07:32:00+09:00"
 }
