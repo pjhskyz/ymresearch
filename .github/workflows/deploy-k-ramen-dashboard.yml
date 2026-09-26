@@ -53,7 +53,7 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '35d8a66b41cdc7971bb9d9b5ab3787a89a188cdf1129586222fdcef6b4ff5258'
+          expected = '7f8bfa373b41b37d658470e225295c18969352d975d85c5708fd6c26f7116786'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
@@ -61,9 +61,9 @@ jobs:
           PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
           grep -q '2026.09' k-ramen-dashboard/index.html
-          grep -q 'period:"1-10"' k-ramen-dashboard/index.html
-          grep -q 'releaseDate:"2026-09-11"' k-ramen-dashboard/index.html
-          grep -q 'total:64.672742' k-ramen-dashboard/index.html
+          grep -q 'period:"1-20"' k-ramen-dashboard/index.html
+          grep -q 'releaseDate:"2026-09-21"' k-ramen-dashboard/index.html
+          grep -q 'total:118.905931' k-ramen-dashboard/index.html
           grep -q 'm:"2026.08",total:156.623983' k-ramen-dashboard/index.html
           grep -q 'kg:37311905.90,krw:223264563685,countryCount:106,status:"final",period:"full",asOf:"2026-08-31",releaseDate:"2026-09-15"' k-ramen-dashboard/index.html
           grep -q '최근 확정치' k-ramen-dashboard/index.html
@@ -159,5 +159,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 
