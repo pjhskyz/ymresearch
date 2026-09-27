@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.27",
+  "asOfDate": "2026.09.28",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -172,11 +172,118 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [],
+  "currentObservationIds": [
+    "google-ai-science-productivity-study-20260915"
+  ],
   "currentSignalIds": [],
-  "dailyThesis": "공식 채널의 신규 발표가 제한된 가운데, 전일 사건의 반복과 추적 대상 밖의 움직임만 확인됐다. NVIDIA–Hugging Face 중립성도 거래 종결·규제 승인·경쟁 플랫폼 동등 조건 자료가 없어 미검증을 유지한다.",
-  "lastSuccessfulRun": "2026-09-27T07:30:00+09:00",
+  "dailyThesis": "과학 AI의 가치가 주당 시간 절감으로 보이기 시작했지만, 가설이 늘수록 물리 실험·데이터 수집·검증이 새 병목이 된다. 모델 성능보다 최종 연구 산출물과 검증 인프라의 처리량을 함께 봐야 한다.",
+  "lastSuccessfulRun": "2026-09-28T07:33:00+09:00",
   "observations": [
+    {
+      "id": "google-ai-science-productivity-study-20260915",
+      "leader": "데미스 허사비스(Demis Hassabis)",
+      "role": "Google DeepMind 의장 겸 Alphabet 수석 AI 과학자",
+      "initials": "DH",
+      "score": 74,
+      "kind": "강화",
+      "date": "2026.09.15",
+      "reportDate": "2026.09.28",
+      "theme": "AI 배포",
+      "eventId": "google-ai-science-productivity-study-20260915",
+      "hypothesisId": "ai-science-downstream-validation-bottleneck",
+      "headline": "Google·DeepMind가 과학자의 AI 사용을 측정해 주당 약 7시간 절감과 검증 병목 이동을 확인했다",
+      "takeaway": "AI가 과학자의 문헌·분석·코딩 시간을 줄이는 동시에 물리 실험과 결과 검증을 새 병목으로 만든다는 기존 전망이 대규모 사용 로그와 설문으로 정량화됐다. 자기보고와 표본 편향 때문에 실제 연구 성과 향상으로 확정하지는 않았다.",
+      "before": "Google DeepMind는 7월 AI 에이전트가 과학적 가설을 빠르게 늘려 실험·동료평가가 병목이 될 것이라고 정성적으로 전망하고 검증 인프라 투자를 촉구했다.",
+      "now": "Google·Google DeepMind·MIT FutureTech는 실제 Gemini 사용과 전문 모델, 과학자 설문을 결합해 시간 절감과 미검증 가설 적체, 하류 검증 병목을 수치로 확인했다.",
+      "facts": [
+        "연구는 약 1,500만 건의 Gemini 상호작용, 2,600개 이상의 전문 AI 모델, 과학자 637명 설문을 결합했다.",
+        "설문 응답자는 AI로 주당 약 7시간을 절감한다고 보고했고, 절감 시간은 주로 추가 연구에 재투자됐다고 답했다.",
+        "응답자의 43.5%는 지난 2년간 주요 병목이 실험·데이터 수집 같은 하류 단계로 이동했다고 답했고 40.5%는 미검증 가설 적체가 늘었다고 답했다.",
+        "표본은 전문 패널에서 모집돼 잦은 AI 사용자가 과대표집됐을 수 있으며, 시간 절감과 생산성은 자기보고 수치다."
+      ],
+      "action": "Google·DeepMind가 과학 AI의 사용·생산성·검증 비용을 여러 자료원으로 측정하고 방법과 결과를 공개해 기존 검증 병목 가설을 정량 시험했다.",
+      "impact": "과학 AI의 경제적 가치는 모델 성능만이 아니라 실험실·데이터 수집·검증·동료평가 처리량에 의해 제한될 가능성이 커졌다. 투자 판단에서는 추론 수요와 함께 자동화 실험실·계측·검증 인프라의 실제 가동률과 단위경제를 확인해야 한다.",
+      "impactPath": [
+        "문헌·분석·코딩의 AI 자동화",
+        "가설 생성과 연구 시도의 증가",
+        "물리 실험·데이터 수집·검증 적체",
+        "자동화 실험실·계측·동료평가 인프라 수요"
+      ],
+      "counter": "설문은 AI 고빈도 사용자를 과대표집했을 수 있고 시간 절감은 자기보고다. 논문은 동료평가 전이며 논문·특허·재현·임상 성과 같은 최종 산출물의 인과 개선을 보여주지 않는다.",
+      "next": "동료평가, 대표 표본의 재현 연구, AI 사용군과 대조군의 논문·특허·실험 성공률, 검증 시간·비용, 자동화 실험실의 실제 처리량과 활용률을 확인한다.",
+      "source": "https://arxiv.org/abs/2609.28504",
+      "sourceLabel": "Google·Google DeepMind·MIT FutureTech 연구 · 2026.09.15",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-09-28T07:33:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 22,
+            "reason": "대규모 사용 로그·전문 모델 목록·과학자 설문을 결합한 측정을 완료하고 방법과 결과를 공개했다."
+          },
+          "change": {
+            "score": 13,
+            "reason": "7월의 정성적 검증 병목 전망을 실제 사용·시간 절감·가설 적체 수치로 보강했다."
+          },
+          "impact": {
+            "score": 17,
+            "reason": "과학 AI의 병목과 자본 수요가 추론에서 실험·계측·검증 인프라로 이동할 가능성을 보여준다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "표본·방법·수치가 공개돼 재검토할 수 있지만 자기보고·선택편향과 동료평가 전이라는 한계가 있다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "공개 연구 원문과 직접 취재 해설을 확인했지만 최종 학술 동료평가는 아직 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-07-21",
+          "statement": "Google DeepMind는 AI 에이전트가 과학적 가설을 빠르게 늘려 물리 실험·검증·동료평가가 병목이 될 것이라고 전망했다.",
+          "evidenceIds": [
+            "google-science-validation-bottleneck-20260721"
+          ]
+        },
+        "evidenceIds": [
+          "google-ai-science-early-insights-arxiv-20260915",
+          "google-ai-science-sciam-20260918"
+        ],
+        "note": "22+13+17+13+9=74. 측정 결과는 나왔지만 자기보고·표본 편향과 동료평가 전 한계를 반영해 관찰 단계로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-15T12:50:51+09:00",
+        "publishedAt": "2026-09-15T12:50:51+09:00",
+        "firstSeenAt": "2026-09-28T07:33:00+09:00",
+        "verifiedAt": "2026-09-28T07:33:00+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "9월 27일 타일러 코웬의 원문 링크를 통해 수집 구간 이전 연구를 처음 확인했다. 9월 15일 공개된 독립 사건으로, 단순 재인용이 아니라 Google·DeepMind의 기존 검증 병목 전망을 정량 시험한 누락분이다."
+      },
+      "industryLinks": [
+        {
+          "sector": "과학 AI·연구 소프트웨어",
+          "relationship": "indirect",
+          "text": "연구자의 시간 절감은 AI 도구 수요를 지지하지만 최종 과학 성과의 인과 개선은 아직 검증되지 않았다.",
+          "evidenceIds": [
+            "google-ai-science-early-insights-arxiv-20260915"
+          ]
+        },
+        {
+          "sector": "실험실 자동화·계측·검증 인프라",
+          "relationship": "hypothesis",
+          "text": "가설 생성이 실험 처리량보다 빨라지면 자동화 실험실과 계측·검증 인프라가 다음 병목이 될 수 있다.",
+          "evidenceIds": [
+            "google-ai-science-early-insights-arxiv-20260915",
+            "google-science-validation-bottleneck-20260721"
+          ]
+        }
+      ]
+    },
     {
       "id": "microsoft-copilot-autopilot-20260925",
       "leader": "사티아 나델라(Satya Nadella)",
@@ -1150,116 +1257,19 @@
           ]
         }
       ]
-    },
-    {
-      "id": "ge-vineyard-wind-settlement",
-      "leader": "스콧 스트라직(Scott Strazik)",
-      "role": "GE Vernova CEO",
-      "initials": "SS",
-      "score": 72,
-      "kind": "반전",
-      "date": "2026.09.16",
-      "reportDate": "2026.09.17",
-      "theme": "에너지 전환",
-      "headline": "GE Vernova가 Vineyard Wind 계약 종료를 철회하고 소송을 합의했다",
-      "takeaway": "계약 파기와 항소로 번졌던 45억달러 해상풍력 사업이 이행 재개 조건을 확보했다. 합의금·책임 배분과 장기 터빈 가동률이 비공개라 프로젝트 정상화 성과로 보지는 않았다.",
-      "before": "합의 직전 GE Vernova는 13억달러 공급계약을 끝내려 했고 3억6000만달러 미지급을 주장하며 법원 금지명령에 항소하고 있었다.",
-      "now": "GE Vernova는 계약 종료 통지와 항소를 철회했고 양측은 모든 계류 중 청구를 취하하기로 합의했다.",
-      "facts": [
-        "GE Vernova와 Vineyard Wind는 모든 미해결 상업소송을 합의하고 청구를 취하하기로 했다.",
-        "GE Vernova는 공급계약 종료 통지와 법원 금지명령 항소를 철회했다.",
-        "Reuters가 인용한 사업비는 45억달러, GE Vernova 계약은 13억달러이며 회사가 주장한 미지급금은 3억6000만달러였다.",
-        "합의 조건은 비공개이고 회사가 제시한 발전·고용 수치는 당사자 발표다."
-      ],
-      "action": "확인된 행동은 종료 통지·항소 철회와 모든 청구 취하다. 합의금 지급, 잔여 작업 완료와 터빈의 장기 정상운영은 확인되지 않았다.",
-      "impact": "해석: 대형 해상풍력의 계약 파기 위험이 낮아져 뉴잉글랜드 전력공급과 GE Vernova 해상풍력 사업의 법적 불확실성이 줄었다. 비공개 합의 비용이 수익성에 미치는 영향은 남는다.",
-      "impactPath": [
-        "계약 종료·소송 위험 제거",
-        "잔여 설치·서비스 이행 가능성 회복",
-        "프로젝트 금융·전력공급 불확실성 완화 가능",
-        "비공개 합의 비용과 터빈 신뢰성이 최종 수익성 결정"
-      ],
-      "counter": "합의 조건과 현금 유출, 책임 배분이 공개되지 않았다. 2024년 블레이드 사고와 장기 가동률 문제는 법적 합의만으로 해결되지 않으며, 회사의 40만 가구·경제효과 수치는 독립 결과 감사가 아니다.",
-      "next": "법원 취하 문서, GE Vernova의 충당금·현금영향, 잔여 설치·서비스 완료, 블레이드 교체와 12개월 가동률·출력 자료를 확인한다.",
-      "source": "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation",
-      "sourceLabel": "GE Vernova·Vineyard Wind 소송 합의 발표 · 2026.09.16",
-      "sourceGrade": "A",
-      "eventId": "ge-vineyard-wind-settlement",
-      "hypothesisId": "ge-vineyard-wind-contract-completion",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-17T07:40:00+09:00",
-        "stage": "execution",
-        "impactDirection": "mixed",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 22,
-            "reason": "종료 통지와 항소를 철회하고 모든 청구를 취하하는 법적 합의를 실행했다."
-          },
-          "change": {
-            "score": 15,
-            "reason": "계약 종료·항소에서 사업 이행을 전제로 한 분쟁 해소로 방향이 바뀌었다."
-          },
-          "impact": {
-            "score": 15,
-            "reason": "대형 해상풍력 프로젝트의 완공·전력공급·GE 해상풍력 리스크에 영향을 주지만 단일 사업이다."
-          },
-          "verification": {
-            "score": 11,
-            "reason": "취하·철회는 법원 문서로 확인 가능하지만 합의금과 장기 운영 성과가 비공개다."
-          },
-          "source": {
-            "score": 9,
-            "reason": "공동 공식 발표와 Reuters 직접 보도를 교차확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-15",
-          "statement": "합의 직전 GE Vernova는 계약 종료 통지와 항소를 유지했고 3억6000만달러 미지급을 주장하고 있었다.",
-          "evidenceIds": [
-            "ge-vineyard-wind-settlement-reuters-20260916"
-          ]
-        },
-        "evidenceIds": [
-          "ge-vineyard-wind-settlement-official-20260916",
-          "ge-vineyard-wind-settlement-reuters-20260916"
-        ],
-        "note": "22+15+15+11+9=72. 법적 반전은 실행됐지만 비공개 합의와 실제 운영 성과 부재로 관찰 단계다."
-      },
-      "timing": {
-        "occurredAt": "2026-09-16",
-        "publishedAt": "2026-09-16",
-        "firstSeenAt": "2026-09-17T07:40:00+09:00",
-        "verifiedAt": "2026-09-17T07:40:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "해상풍력·전력망",
-          "relationship": "confirmed",
-          "text": "GE Vernova와 Vineyard Wind가 계약 종료·소송을 철회했다. 합의 비용과 장기 터빈 가동 성과는 미확인이다.",
-          "evidenceIds": [
-            "ge-vineyard-wind-settlement-official-20260916",
-            "ge-vineyard-wind-settlement-reuters-20260916"
-          ]
-        }
-      ]
     }
   ],
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-23T07:32:00+09:00",
-      "end": "2026-09-27T07:30:00+09:00"
+      "start": "2026-09-24T07:30:00+09:00",
+      "end": "2026-09-28T07:33:00+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.tesla.com/blog",
           "https://www.spacex.com/updates/",
@@ -1270,17 +1280,16 @@
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
-          "https://blogs.nvidia.com/",
-          "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/"
+          "https://blogs.nvidia.com/"
         ],
-        "note": "NVIDIA 공식 채널과 Hugging Face 인수 원문을 재확인했다. 거래 종결·규제 승인·경쟁 GPU 및 클라우드의 동등 조건 자료는 없어 별도 신규 신호와 체크포인트 확인 판정을 하지 않았다."
+        "note": "NVIDIA 공식 채널을 확인했으며 최근 AI 공장·생태계 사건의 신규 실행·성과 보강은 없었다."
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://openai.com/news/"
         ],
@@ -1289,7 +1298,7 @@
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.anthropic.com/news"
         ],
@@ -1298,25 +1307,30 @@
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
-          "https://deepmind.google/discover/blog/"
+          "https://deepmind.google/discover/blog/",
+          "https://ai.google/economy/",
+          "https://ai.google/economy/atlas/methodology/",
+          "https://arxiv.org/abs/2609.28504",
+          "https://www.scientificamerican.com/article/why-ai-is-speeding-up-scientific-research-but-not-lab-experiments/",
+          "https://deepmind.google/public-policy/conjecture-machines-ai-agents-and-the-new-validation-bottleneck-in-science/"
         ],
-        "note": "Google DeepMind 공식 채널을 확인했으며 신규 실행·성과는 확인하지 못했다."
+        "note": "공식 채널과 과학 AI 연구·방법론·직접 해설을 확인해 7월의 검증 병목 전망이 9월의 정량 측정으로 강화된 사건을 관찰로 선별했다."
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
         ],
-        "note": "Microsoft 공식 채널을 확인했으며 전일 Autopilot 확약의 배포·고객 성과 보강은 없었다."
+        "note": "Microsoft 공식 채널을 확인했으며 전일 Autopilot 확약의 실제 배포·고객 성과 보강은 없었다."
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://about.fb.com/news/"
         ],
@@ -1325,7 +1339,7 @@
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://newsroom.amd.com/"
         ],
@@ -1334,7 +1348,7 @@
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.tsmc.com/english"
         ],
@@ -1343,25 +1357,25 @@
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://group.softbank/en/news"
         ],
-        "note": "SoftBank 공식 채널을 확인했으며 전일 채권 조건 확정 이후 별도 신규 사건은 없었다."
+        "note": "SoftBank 공식 채널을 확인했으며 최근 채권 조건 확정 이후 별도 신규 사건은 없었다."
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.catl.com/en/news/6998.html"
         ],
-        "note": "CATL 공식 원문을 확인했으며 기존 현지화 계약 이후 신규 문턱 통과 사건은 없었다."
+        "note": "CATL 공식 채널을 확인했으며 기존 현지화 계약 이후 신규 문턱 통과 사건은 없었다."
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.gevernova.com/news/media-hub?type%5Bpress_release%5D=press_release"
         ],
@@ -1370,7 +1384,7 @@
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
@@ -1379,7 +1393,7 @@
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news"
         ],
@@ -1388,7 +1402,7 @@
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
@@ -1397,7 +1411,7 @@
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://acquirersmultiple.com/2026/03/stanley-druckenmiller-massive-disruption-ahead/"
         ],
@@ -1406,17 +1420,16 @@
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
-          "https://shows.acast.com/md-meets/episodes/peter-thiel-the-ai-crisis-europes-decline-the-battle-for-ame",
-          "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy"
+          "https://shows.acast.com/md-meets/episodes/peter-thiel-the-ai-crisis-europes-decline-the-battle-for-ame"
         ],
-        "note": "전일 기록한 원본 에피소드와 공개 전사를 재확인했으며 별도 신규 발언·행동은 없었다."
+        "note": "최근 원본 인터뷰를 재확인했으며 별도 신규 발언·행동은 없었다."
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
@@ -1425,7 +1438,7 @@
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://www.principles.com/principles/e25fd729-9772-48e0-8768-973bf3207ded/"
         ],
@@ -1434,7 +1447,7 @@
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://a16z.com/"
         ],
@@ -1443,16 +1456,16 @@
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "최신 글을 확인했으나 60점 이상으로 선별할 본인의 새 관점 변화나 행동은 없었다."
+        "note": "9월 27일 최신 글과 링크를 확인했다. Google·DeepMind 연구를 발굴했지만 코웬 본인의 새 관점 변화나 행동으로 중복 집계하지 않았다."
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-09-27T07:30:00+09:00",
+        "checkedAt": "2026-09-28T07:33:00+09:00",
         "urls": [
           "https://balajis.com/"
         ],
@@ -1460,6 +1473,36 @@
       }
     ],
     "evidence": [
+      {
+        "id": "google-ai-science-early-insights-arxiv-20260915",
+        "url": "https://arxiv.org/abs/2609.28504",
+        "label": "Google·Google DeepMind·MIT FutureTech · AI in Science: Early Insights",
+        "grade": "A",
+        "publishedAt": "2026-09-15T12:50:51+09:00",
+        "verifiedAt": "2026-09-28T07:33:00+09:00",
+        "claim": "Google·Google DeepMind·MIT FutureTech 연구진은 약 1,500만 건의 Gemini 상호작용, 2,600개 이상의 전문 AI 모델, 600명 이상의 과학자 설문을 결합해 과학자의 AI 사용과 생산성·검증 병목을 측정했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "google-ai-science-sciam-20260918",
+        "url": "https://www.scientificamerican.com/article/why-ai-is-speeding-up-scientific-research-but-not-lab-experiments/",
+        "label": "Scientific American · AI가 과학 아이디어를 시험보다 빠르게 늘린다는 연구 해설",
+        "grade": "B",
+        "publishedAt": "2026-09-18",
+        "verifiedAt": "2026-09-28T07:33:00+09:00",
+        "claim": "Scientific American은 637명 설문의 표본 편향 가능성을 지적하면서 병목의 하류 이동 43.5%, 미검증 가설 적체 증가 40.5%, 절감 시간 일부를 검증에 쓰는 비중을 보도했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "google-science-validation-bottleneck-20260721",
+        "url": "https://deepmind.google/public-policy/conjecture-machines-ai-agents-and-the-new-validation-bottleneck-in-science/",
+        "label": "Google DeepMind · Conjecture Machines와 과학 검증 병목",
+        "grade": "A",
+        "publishedAt": "2026-07-21",
+        "verifiedAt": "2026-09-28T07:33:00+09:00",
+        "claim": "Google DeepMind는 AI 에이전트가 과학적 가설 생성을 빠르게 만들지만 물리 실험과 동료평가는 같은 속도로 늘지 않아 검증 인프라 투자가 필요하다고 제시했다.",
+        "provenance": "official"
+      },
       {
         "id": "microsoft-copilot-autopilot-official-20260925",
         "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
@@ -2712,6 +2755,131 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20260928-google-ai-science-productivity-study-20260915",
+        "eventId": "google-ai-science-productivity-study-20260915",
+        "signalId": "google-ai-science-productivity-study-20260915",
+        "hypothesisId": "ai-science-downstream-validation-bottleneck",
+        "previousRevisionId": null,
+        "reportDate": "2026.09.28",
+        "recordedAt": "2026-09-28T07:33:00+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "Google·DeepMind가 과학자의 AI 사용을 측정해 주당 약 7시간 절감과 검증 병목 이동을 확인했다",
+        "source": "https://arxiv.org/abs/2609.28504",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "22+13+17+13+9=74. 측정 결과는 나왔지만 자기보고·표본 편향과 동료평가 전 한계를 반영해 관찰 단계로 제한했다.",
+        "evidenceIds": [
+          "google-ai-science-early-insights-arxiv-20260915",
+          "google-ai-science-sciam-20260918"
+        ],
+        "snapshot": {
+          "id": "google-ai-science-productivity-study-20260915",
+          "leader": "데미스 허사비스(Demis Hassabis)",
+          "role": "Google DeepMind 의장 겸 Alphabet 수석 AI 과학자",
+          "initials": "DH",
+          "score": 74,
+          "kind": "강화",
+          "date": "2026.09.15",
+          "reportDate": "2026.09.28",
+          "theme": "AI 배포",
+          "eventId": "google-ai-science-productivity-study-20260915",
+          "hypothesisId": "ai-science-downstream-validation-bottleneck",
+          "headline": "Google·DeepMind가 과학자의 AI 사용을 측정해 주당 약 7시간 절감과 검증 병목 이동을 확인했다",
+          "takeaway": "AI가 과학자의 문헌·분석·코딩 시간을 줄이는 동시에 물리 실험과 결과 검증을 새 병목으로 만든다는 기존 전망이 대규모 사용 로그와 설문으로 정량화됐다. 자기보고와 표본 편향 때문에 실제 연구 성과 향상으로 확정하지는 않았다.",
+          "before": "Google DeepMind는 7월 AI 에이전트가 과학적 가설을 빠르게 늘려 실험·동료평가가 병목이 될 것이라고 정성적으로 전망하고 검증 인프라 투자를 촉구했다.",
+          "now": "Google·Google DeepMind·MIT FutureTech는 실제 Gemini 사용과 전문 모델, 과학자 설문을 결합해 시간 절감과 미검증 가설 적체, 하류 검증 병목을 수치로 확인했다.",
+          "facts": [
+            "연구는 약 1,500만 건의 Gemini 상호작용, 2,600개 이상의 전문 AI 모델, 과학자 637명 설문을 결합했다.",
+            "설문 응답자는 AI로 주당 약 7시간을 절감한다고 보고했고, 절감 시간은 주로 추가 연구에 재투자됐다고 답했다.",
+            "응답자의 43.5%는 지난 2년간 주요 병목이 실험·데이터 수집 같은 하류 단계로 이동했다고 답했고 40.5%는 미검증 가설 적체가 늘었다고 답했다.",
+            "표본은 전문 패널에서 모집돼 잦은 AI 사용자가 과대표집됐을 수 있으며, 시간 절감과 생산성은 자기보고 수치다."
+          ],
+          "action": "Google·DeepMind가 과학 AI의 사용·생산성·검증 비용을 여러 자료원으로 측정하고 방법과 결과를 공개해 기존 검증 병목 가설을 정량 시험했다.",
+          "impact": "과학 AI의 경제적 가치는 모델 성능만이 아니라 실험실·데이터 수집·검증·동료평가 처리량에 의해 제한될 가능성이 커졌다. 투자 판단에서는 추론 수요와 함께 자동화 실험실·계측·검증 인프라의 실제 가동률과 단위경제를 확인해야 한다.",
+          "impactPath": [
+            "문헌·분석·코딩의 AI 자동화",
+            "가설 생성과 연구 시도의 증가",
+            "물리 실험·데이터 수집·검증 적체",
+            "자동화 실험실·계측·동료평가 인프라 수요"
+          ],
+          "counter": "설문은 AI 고빈도 사용자를 과대표집했을 수 있고 시간 절감은 자기보고다. 논문은 동료평가 전이며 논문·특허·재현·임상 성과 같은 최종 산출물의 인과 개선을 보여주지 않는다.",
+          "next": "동료평가, 대표 표본의 재현 연구, AI 사용군과 대조군의 논문·특허·실험 성공률, 검증 시간·비용, 자동화 실험실의 실제 처리량과 활용률을 확인한다.",
+          "source": "https://arxiv.org/abs/2609.28504",
+          "sourceLabel": "Google·Google DeepMind·MIT FutureTech 연구 · 2026.09.15",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-09-28T07:33:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 22,
+                "reason": "대규모 사용 로그·전문 모델 목록·과학자 설문을 결합한 측정을 완료하고 방법과 결과를 공개했다."
+              },
+              "change": {
+                "score": 13,
+                "reason": "7월의 정성적 검증 병목 전망을 실제 사용·시간 절감·가설 적체 수치로 보강했다."
+              },
+              "impact": {
+                "score": 17,
+                "reason": "과학 AI의 병목과 자본 수요가 추론에서 실험·계측·검증 인프라로 이동할 가능성을 보여준다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "표본·방법·수치가 공개돼 재검토할 수 있지만 자기보고·선택편향과 동료평가 전이라는 한계가 있다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "공개 연구 원문과 직접 취재 해설을 확인했지만 최종 학술 동료평가는 아직 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-07-21",
+              "statement": "Google DeepMind는 AI 에이전트가 과학적 가설을 빠르게 늘려 물리 실험·검증·동료평가가 병목이 될 것이라고 전망했다.",
+              "evidenceIds": [
+                "google-science-validation-bottleneck-20260721"
+              ]
+            },
+            "evidenceIds": [
+              "google-ai-science-early-insights-arxiv-20260915",
+              "google-ai-science-sciam-20260918"
+            ],
+            "note": "22+13+17+13+9=74. 측정 결과는 나왔지만 자기보고·표본 편향과 동료평가 전 한계를 반영해 관찰 단계로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-15T12:50:51+09:00",
+            "publishedAt": "2026-09-15T12:50:51+09:00",
+            "firstSeenAt": "2026-09-28T07:33:00+09:00",
+            "verifiedAt": "2026-09-28T07:33:00+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "9월 27일 타일러 코웬의 원문 링크를 통해 수집 구간 이전 연구를 처음 확인했다. 9월 15일 공개된 독립 사건으로, 단순 재인용이 아니라 Google·DeepMind의 기존 검증 병목 전망을 정량 시험한 누락분이다."
+          },
+          "industryLinks": [
+            {
+              "sector": "과학 AI·연구 소프트웨어",
+              "relationship": "indirect",
+              "text": "연구자의 시간 절감은 AI 도구 수요를 지지하지만 최종 과학 성과의 인과 개선은 아직 검증되지 않았다.",
+              "evidenceIds": [
+                "google-ai-science-early-insights-arxiv-20260915"
+              ]
+            },
+            {
+              "sector": "실험실 자동화·계측·검증 인프라",
+              "relationship": "hypothesis",
+              "text": "가설 생성이 실험 처리량보다 빨라지면 자동화 실험실과 계측·검증 인프라가 다음 병목이 될 수 있다.",
+              "evidenceIds": [
+                "google-ai-science-early-insights-arxiv-20260915",
+                "google-science-validation-bottleneck-20260721"
+              ]
+            }
+          ]
+        }
+      },
       {
         "id": "revision-20260926-microsoft-copilot-autopilot-20260925",
         "eventId": "microsoft-copilot-autopilot-launch",
@@ -11633,6 +11801,14 @@
     ],
     "hypotheses": [
       {
+        "id": "ai-science-downstream-validation-bottleneck",
+        "title": "과학 AI 생산성과 하류 검증 병목",
+        "question": "AI가 과학자의 시간을 줄이는 만큼 실제 연구 성과를 높이는가, 아니면 실험·검증 적체와 비용을 키우는가?",
+        "leaderNames": [
+          "데미스 허사비스(Demis Hassabis)"
+        ]
+      },
+      {
         "id": "microsoft-persistent-work-agent",
         "title": "Microsoft의 지속형 업무 에이전트 전환",
         "question": "Autopilot이 인간 통제 아래 반복 업무를 안정적으로 완료하고 비용 대비 생산성을 입증하는가?",
@@ -12180,21 +12356,21 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-09-26T07:32:00+09:00",
-    "end": "2026-09-27T07:30:00+09:00"
+    "start": "2026-09-27T07:30:00+09:00",
+    "end": "2026-09-28T07:33:00+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 26,
+    "sourcesChecked": 29,
     "newSignals": 0,
-    "newObservations": 0,
+    "newObservations": 1,
     "upgrades": 0,
     "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 0,
-    "excludedCount": 4,
-    "notes": "22명 전원을 확인했으나 신규 행동·관점 변화·검증 결과 가운데 60점 이상인 사건은 없었다. 공식 채널의 신규 발표가 제한됐고 확인된 내용은 전일 사건의 반복, 점진적 제품 업데이트, 추적 대상 밖의 움직임이었다. NVIDIA–Hugging Face 중립성 체크포인트는 거래 종결·규제 승인·경쟁 플랫폼 동등 조건 자료가 없어 미검증을 유지했다.",
-    "note": "22명 전원을 확인했으나 신규 행동·관점 변화·검증 결과 가운데 60점 이상인 사건은 없었다. 공식 채널의 신규 발표가 제한됐고 확인된 내용은 전일 사건의 반복, 점진적 제품 업데이트, 추적 대상 밖의 움직임이었다. NVIDIA–Hugging Face 중립성 체크포인트는 거래 종결·규제 승인·경쟁 플랫폼 동등 조건 자료가 없어 미검증을 유지했다."
+    "excludedCount": 3,
+    "notes": "22명 전원을 확인했다. Google·DeepMind의 과학 AI 연구 1건을 겹침 수집에서 지연 발견해 74점 관찰로 기록했다. 타일러 코웬은 연구를 링크했지만 본인의 새 관점 변화로 중복 카드화하지 않았고, 다른 공식 채널에서는 기존 사건 반복·점진적 업데이트 외 문턱 통과 사건이 없었다. 체크포인트 상태 변경은 없다.",
+    "note": "22명 전원을 확인했다. Google·DeepMind의 과학 AI 연구 1건을 겹침 수집에서 지연 발견해 74점 관찰로 기록했다. 타일러 코웬은 연구를 링크했지만 본인의 새 관점 변화로 중복 카드화하지 않았고, 다른 공식 채널에서는 기존 사건 반복·점진적 업데이트 외 문턱 통과 사건이 없었다. 체크포인트 상태 변경은 없다."
   },
   "schemaVersion": 2,
   "signals": [
@@ -14063,8 +14239,8 @@
       ]
     }
   ],
-  "status": "no_signal",
-  "statusMessage": "22명 전원을 확인했으나 기존 관점과 비교해 60점 이상으로 선별할 신규 행동·전략 변화·검증 결과는 확인되지 않았습니다.",
+  "status": "observations",
+  "statusMessage": "22명 전원을 확인했고, Google·DeepMind의 과학 AI 생산성·검증 병목 연구 1건을 관찰 신호로 선별했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -14840,6 +15016,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "google-ai-science-productivity-study-20260915",
+            "eventIds": [
+              "google-ai-science-productivity-study-20260915"
+            ],
+            "note": "같은 연구·후속 해설을 하나의 측정 사건으로 집계하며 타일러 코웬의 링크 공유를 독립 리더 사건으로 늘리지 않는다."
+          },
+          {
             "id": "microsoft-copilot-autopilot-launch",
             "eventIds": [
               "microsoft-copilot-autopilot-launch"
@@ -15009,6 +15192,15 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "google-ai-science-productivity-study-20260915",
+            "text": "시간 절감은 자기보고이고 AI 고빈도 사용자의 과대표집 가능성이 있으며 최종 연구 산출물의 인과 개선은 확인되지 않았다.",
+            "evidenceIds": [
+              "google-ai-science-early-insights-arxiv-20260915",
+              "google-ai-science-sciam-20260918"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "microsoft-copilot-autopilot-launch",
             "text": "Autopilot 자체는 배포 전이며 고객 수·완료율·오류·비용절감·보안 성과가 없다.",
@@ -15194,6 +15386,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "google-ai-science-productivity-study-20260915",
+            "text": "Google·DeepMind가 과학자의 AI 사용과 주당 시간 절감, 연구 단계별 병목을 대규모 로그와 설문으로 정량화했다.",
+            "evidenceIds": [
+              "google-ai-science-early-insights-arxiv-20260915",
+              "google-ai-science-sciam-20260918"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "microsoft-copilot-autopilot-launch",
             "text": "Microsoft가 지속형 에이전트의 제품 구조·월말 프리뷰·사용량 과금을 구체적으로 확약했다.",
@@ -15500,5 +15701,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T07:30:00+09:00"
+  "updatedAt": "2026-09-28T07:33:00+09:00"
 }
