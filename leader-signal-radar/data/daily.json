@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.09.30",
+  "asOfDate": "2026.10.01",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -46,9 +46,17 @@
         "openai-misalignment-framework-official-20260916",
         "openai-misalignment-framework-ap-20260917",
         "openai-third-party-assessment-official-20260922",
-        "openai-medicare-breach-reuters-20260923"
+        "openai-medicare-breach-reuters-20260923",
+        "openai-distillation-disruption-official-20260930",
+        "ftc-frontier-agent-probe-reuters-20260930"
       ],
       "history": [
+        {
+          "status": "unverified",
+          "result": "2026년 9월 22일 OpenAI가 제3자 평가 원칙과 수개월의 심층 접근 필요성을 공개했지만, 독립 평가자 계약·상주 배치·외부 감사권과 Astra 전 고객군 성과는 확인되지 않았다. 9월 24일 호주 Medicare 침입 공개는 통제 필요성을 강화했으나 시정 결과가 없어 전체 체크포인트는 미검증을 유지한다.",
+          "reviewedAt": "2026-09-24T07:35:20+09:00",
+          "nextReviewDate": "2026-10-01"
+        },
         {
           "status": "unverified",
           "result": "2026년 9월 18일 OpenAI가 오정렬 공개 기준과 세 개 조사 트랙, 첫 보고서 6건을 실제 공개해 보고체계 시행은 확인했다. 그러나 Astra 전 고객군 접근 완료, 의회 자료의 감시 우회·오탐률, 독립 평가자 계약과 외부 감사권은 확인되지 않아 전체 체크포인트는 미검증을 유지한다.",
@@ -76,9 +84,9 @@
       ],
       "hypothesisId": "openai-safety-governance",
       "id": "openai-safety-review",
-      "nextReviewDate": "2026-10-01",
-      "result": "2026년 9월 22일 OpenAI가 제3자 평가 원칙과 수개월의 심층 접근 필요성을 공개했지만, 독립 평가자 계약·상주 배치·외부 감사권과 Astra 전 고객군 성과는 확인되지 않았다. 9월 24일 호주 Medicare 침입 공개는 통제 필요성을 강화했으나 시정 결과가 없어 전체 체크포인트는 미검증을 유지한다.",
-      "reviewedAt": "2026-09-24T07:35:20+09:00",
+      "nextReviewDate": "2026-10-08",
+      "result": "2026년 9월 30일 대규모 모델 증류 캠페인 차단과 FTC 업계 조사 착수를 확인했다. 통제 집행과 외부 압력은 강화됐지만 독립 평가자의 상주 계약·외부 감사권, Astra 전 고객군 접근과 오탐·감시 우회 성과는 확인되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-01T07:32:00+09:00",
       "status": "unverified",
       "test": "Plus·Pro·Business·Enterprise와 API·Azure·Bedrock 개방 완료 여부, 의회 자료의 감시 우회·오탐률, 독일 위키 사건 로그와 오정렬 공개 기준·기한이 확인되는가",
       "theme": "AI 안전",
@@ -108,6 +116,12 @@
       ],
       "history": [
         {
+          "status": "unverified",
+          "result": "2026년 9월 30일 07:28 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 미국 현지의 9월 30일 제출 기한은 아직 끝나지 않았고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
+          "reviewedAt": "2026-09-30T07:28:00+09:00",
+          "nextReviewDate": "2026-10-01"
+        },
+        {
           "nextReviewDate": "2026-10-01",
           "result": "2026년 9월 29일 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 남아 있고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
           "reviewedAt": "2026-09-29T07:32:00+09:00",
@@ -134,9 +148,9 @@
       ],
       "hypothesisId": "hyp-tesla-cybercab-austin-launch",
       "id": "cybercab-safety",
-      "nextReviewDate": "2026-10-01",
-      "result": "2026년 9월 30일 07:28 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 미국 현지의 9월 30일 제출 기한은 아직 끝나지 않았고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
-      "reviewedAt": "2026-09-30T07:28:00+09:00",
+      "nextReviewDate": "2026-10-02",
+      "result": "2026년 10월 1일 07:32 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 지났지만 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표와 실제 지연 원문은 확인되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
+      "reviewedAt": "2026-10-01T07:32:00+09:00",
       "status": "unverified",
       "test": "일반 유료 승차 수·요금·서비스 구역·원격지원·사고율이 공개되고 NHTSA가 자기인증 적합성을 인정하는가",
       "theme": "자율주행",
@@ -146,12 +160,19 @@
       "date": "2026년 가을·겨울 극한기상",
       "dueDate": null,
       "evidenceIds": [],
-      "history": [],
+      "history": [
+        {
+          "status": "unverified",
+          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
+          "reviewedAt": null,
+          "nextReviewDate": "2026-10-01"
+        }
+      ],
       "hypothesisId": "hyp-google-weathernext-3",
       "id": "weather-validation",
-      "nextReviewDate": "2026-10-01",
-      "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-      "reviewedAt": null,
+      "nextReviewDate": "2026-10-08",
+      "result": "WeatherNext 3 공식 자료와 독립 평가 공개 여부를 재검토했다. 강수·극한기상 사례의 독립 재현, Cloud API 이용량과 산업 고객 성과를 확인하지 못해 미검증을 유지한다.",
+      "reviewedAt": "2026-10-01T07:32:00+09:00",
       "status": "unverified",
       "test": "독립 실시간 평가와 폭풍 사례에서 강수·풍력 예측 개선이 재현되고 Cloud API 이용량과 산업 고객 성과가 공개되는가",
       "theme": "AI 배포",
@@ -163,9 +184,16 @@
       "evidenceIds": [
         "sb-energy-ipo-softbank-review-20260915",
         "sb-energy-s1-sec-20260901",
-        "sb-energy-ipo-delay-ft-20260923"
+        "sb-energy-ipo-delay-ft-20260923",
+        "sb-energy-s1a-sec-20260921"
       ],
       "history": [
+        {
+          "status": "delayed",
+          "result": "2026년 9월 23일 Financial Times가 SB Energy의 IPO 진행 둔화를 보도했다. 공모가격·조달액·등록 효력과 첫 데이터센터 매출은 여전히 확인되지 않아 실제 지연으로 판정하고, 수정 S-1·대체자금·상장 재개를 10월 1일 다시 검토한다.",
+          "reviewedAt": "2026-09-24T07:35:20+09:00",
+          "nextReviewDate": "2026-10-01"
+        },
         {
           "status": "unverified",
           "result": "2026년 9월 15일 SoftBank Group의 공식 IPO 발표와 공개 등록 자료를 재검토했다. 공모 주식 수·가격 범위는 여전히 결정되지 않았고 등록 효력·상장 완료, NVIDIA 자금 납입과 803MW 공정률, 첫 데이터센터 매출의 새 원문은 확인되지 않아 미검증을 유지한다.",
@@ -175,9 +203,9 @@
       ],
       "hypothesisId": "hyp-ports-pike",
       "id": "sb-energy-ipo",
-      "nextReviewDate": "2026-10-01",
-      "result": "2026년 9월 23일 Financial Times가 SB Energy의 IPO 진행 둔화를 보도했다. 공모가격·조달액·등록 효력과 첫 데이터센터 매출은 여전히 확인되지 않아 실제 지연으로 판정하고, 수정 S-1·대체자금·상장 재개를 10월 1일 다시 검토한다.",
-      "reviewedAt": "2026-09-24T07:35:20+09:00",
+      "nextReviewDate": "2026-10-08",
+      "result": "9월 21일 수정 S-1 제출을 확인했지만 공모가격 범위·등록 효력·상장 완료와 첫 데이터센터 매출은 공개되지 않았다. 수정 등록은 절차 지속의 증거이나 실제 IPO 지연을 해소하지 못해 delayed를 유지한다.",
+      "reviewedAt": "2026-10-01T07:32:00+09:00",
       "status": "delayed",
       "test": "공모 가격·조달액, NVIDIA 자금 납입, 803MW 공정률과 첫 데이터센터 매출이 계획대로 확인되는가",
       "theme": "AI 인프라",
@@ -185,22 +213,113 @@
     }
   ],
   "currentObservationIds": [
-    "anthropic-founder-llc-control",
-    "meta-muse-small-business-connectors"
+    "amd-ross-embedded-agent"
   ],
   "currentSignalIds": [
-    "openai-ipo-safety-pacing",
-    "openai-dots-always-on-agent",
-    "microsoft-quine-wetlab-validation",
-    "anthropic-518b-compute-obligations",
-    "ge-bwrx300-us-construction-permit",
-    "amd-world-labs-acquisition",
-    "nvidia-open-agent-safety-platform",
-    "tesla-30b-credit-facilities"
+    "google-gemini4-argon-early-deployment",
+    "nvidia-coreweave-vera-rubin-production",
+    "openai-distillation-campaign-disruption",
+    "softbank-digitalbridge-acquisition-close",
+    "ftc-frontier-agent-probe"
   ],
-  "dailyThesis": "AI 리더의 말이 모델 철회·wet-lab 검증·장기 연산계약·원전 건설허가·대형 인수로 전환됐다. 다만 비취소 고정비, 미인출 신용한도, 독립 재현과 운영허가처럼 성과를 갈라놓을 후속 증거가 중요하다.",
-  "lastSuccessfulRun": "2026-09-30T07:28:00+09:00",
+  "dailyThesis": "프런티어 AI 경쟁은 새 모델 발표보다 제한 배포의 실전 성과, 생산 인프라 처리량, 사고 대응과 강제 규제라는 검증 단계로 이동했다. SoftBank는 디지털 인프라 운용 플랫폼 인수를 종결했고 AMD는 임베디드 설계 에이전트를 실제 제공했다.",
+  "lastSuccessfulRun": "2026-10-01T07:32:00+09:00",
   "observations": [
+    {
+      "id": "amd-ross-embedded-agent",
+      "leader": "리사 수(Lisa Su)",
+      "role": "AMD 회장 겸 CEO",
+      "initials": "LS",
+      "score": 72,
+      "kind": "실행",
+      "date": "2026.09.30",
+      "reportDate": "2026.10.01",
+      "theme": "AI 배포",
+      "eventId": "amd-ross-embedded-agent",
+      "hypothesisId": "amd-embedded-agent-platform",
+      "headline": "AMD가 임베디드 하드웨어·소프트웨어·보드 설계를 잇는 에이전트 Ross를 출시했다",
+      "takeaway": "칩 판매와 개발도구 제공에서 지식베이스·MCP·전문가 스킬을 묶는 설계 에이전트로 지원층을 확장했다. 실제 제공은 시작됐지만 개발기간·오류율·설계 채택의 정량 성과가 없다.",
+      "before": "AMD는 임베디드 칩과 개발도구·문서를 제공했지만 하드웨어·소프트웨어·보드 설계를 가로지르는 에이전트 지원층은 없었다.",
+      "now": "Ross를 즉시 제공하고 AMD 지식베이스·MCP 서버·전문가 스킬과 모델·IDE·CLI 독립 구조를 공개했다.",
+      "facts": [
+        "Ross는 현재 이용 가능하다.",
+        "AMD 임베디드 지식베이스와 MCP 서버·전문가 스킬을 연결한다.",
+        "모델·IDE·CLI에 종속되지 않는 구조로 발표됐다.",
+        "고객은 문제 식별·해결에 도움을 준다고 밝혔지만 정량 성과는 없다."
+      ],
+      "action": "AMD가 Ross 제품과 설계용 연결도구를 실제 공개·제공했다.",
+      "impact": "설계 지원층이 칩 선택·개발기간·지원비용을 바꾸면 임베디드 플랫폼 경쟁이 실리콘에서 워크플로로 확대될 수 있다.",
+      "impactPath": [
+        "설계 에이전트 제공",
+        "개발지원 자동화",
+        "설계기간·지원비용 변화",
+        "임베디드 플랫폼 채택 변화"
+      ],
+      "counter": "정량 결과·활성 고객·가격·오류율이 없고 고객 평가는 정성적이다. 타사 모델·도구 호환이 AMD 칩 채택으로 이어지는지도 미확인이다.",
+      "next": "활성 사용자·설계 프로젝트 수, 개발시간·오류·지원티켓 감소, 유료화와 AMD 부품 채택률을 확인한다.",
+      "source": "https://newsroom.amd.com/news/amd-ross-agentic-ai-embedded-design-development/",
+      "sourceLabel": "AMD 공식 출시 · 2026.09.30",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-01T07:32:00+09:00",
+        "stage": "execution",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 22,
+            "reason": "제품과 MCP·지식도구를 실제 제공했다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "칩·도구 판매에서 설계 워크플로 에이전트로 범위를 넓혔다."
+          },
+          "impact": {
+            "score": 14,
+            "reason": "임베디드 개발지원 경쟁에 영향을 줄 수 있으나 초기 제품이다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "사용량·개발시간·오류·채택률로 검증 가능하다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "AMD 공식 원문과 고객 인용을 확인했으나 정량 성과가 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-18",
+          "statement": "AMD는 모델·하드웨어 공동설계를 강조했지만 임베디드 설계 전반을 연결하는 에이전트 제품은 공개하지 않았다.",
+          "evidenceIds": [
+            "amd-agentic-stack-baseline-20260918"
+          ]
+        },
+        "evidenceIds": [
+          "amd-ross-official-20260930"
+        ],
+        "note": "22+14+14+13+9=72. 실제 출시를 인정하되 정량 성과와 변화량 한계를 반영해 관찰로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-09-30",
+        "firstSeenAt": "2026-10-01T07:32:00+09:00",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "임베디드 반도체·개발도구",
+          "relationship": "confirmed",
+          "text": "AMD가 Ross와 MCP·지식도구를 실제 제공했다.",
+          "evidenceIds": [
+            "amd-ross-official-20260930"
+          ]
+        }
+      ]
+    },
     {
       "id": "anthropic-founder-llc-control",
       "leader": "다리오 아모데이(Dario Amodei)",
@@ -996,17 +1115,16 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-09-26T07:32:00+09:00",
-      "end": "2026-09-30T07:28:00+09:00"
+      "start": "2026-09-27T07:28:00+09:00",
+      "end": "2026-10-01T07:32:00+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.tesla.com/blog",
-          "https://www.reuters.com/business/autos-transportation/tesla-lines-up-30-billion-credit-lines-capex-robotaxi-push-accelerate-2026-09-29/",
           "https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
@@ -1014,81 +1132,78 @@
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
-          "https://blogs.nvidia.com/"
+          "https://blogs.nvidia.com/",
+          "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/introducing-dots/",
-          "https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/",
-          "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/"
+          "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+          "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.anthropic.com/news",
-          "https://www.reuters.com/business/anthropics-518-billion-ai-buildout-hinges-largely-deals-that-cannot-be-canceled-2026-09-29/",
-          "https://www.reuters.com/world/anthropic-ipo-prospectus-lays-bare-deep-dependence-big-tech-partners-2026-09-29/",
-          "https://www.reuters.com/legal/transactional/anthropic-leaders-control-ai-lab-via-founder-llc-promote-public-good-over-market-2026-09-29/"
+          "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://deepmind.google/blog/"
+          "https://deepmind.google/blog/",
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://news.microsoft.com/source/",
-          "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/"
+          "https://www.microsoft.com/en-us/research/blog/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://about.fb.com/news/",
-          "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+          "https://about.fb.com/news/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://newsroom.amd.com/",
-          "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
-          "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm"
+          "https://newsroom.amd.com/news/amd-ross-agentic-ai-embedded-design-development/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://pr.tsmc.com/english"
         ],
@@ -1097,16 +1212,17 @@
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://group.softbank/en/news"
+          "https://group.softbank/en/news",
+          "https://group.softbank/en/news/press/20260930"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
@@ -1115,27 +1231,26 @@
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://www.gevernova.com/news/",
-          "https://www.gevernova.com/news/press-releases/nrc-issues-first-us-construction-permit-bwrx-300-small-modular-reactor-tva-clinch-river",
-          "https://www.reuters.com/business/energy/us-nrc-approves-construction-nations-first-small-modular-nuclear-reactor-2026-09-29/"
+          "https://www.gevernova.com/news/"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://www.palantir.com/newsroom/"
+          "https://www.palantir.com/newsroom/",
+          "https://www.theguardian.com/society/2026/sep/30/nhs-palantir-data-opt-out-objections"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news/press-release"
         ],
@@ -1144,16 +1259,17 @@
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
-          "https://news.airbnb.com/"
+          "https://news.airbnb.com/",
+          "https://news.airbnb.com/airbnb-2026-fall-update"
         ],
         "note": "공식 채널·직접 보도와 누락 보충 구간을 확인했다. 새 기준선 대비 문턱을 넘는 사건만 선별했다."
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.ft.com/content/7410c56e-5350-48f8-a5e6-24f37c1581e9"
         ],
@@ -1162,7 +1278,7 @@
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://shows.acast.com/md-meets/episodes/peter-thiel-the-ai-crisis-europes-decline-the-battle-for-ame"
         ],
@@ -1171,7 +1287,7 @@
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
@@ -1180,7 +1296,7 @@
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://www.linkedin.com/in/raydalio"
         ],
@@ -1189,7 +1305,7 @@
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://a16z.com/news-content/"
         ],
@@ -1198,7 +1314,7 @@
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
@@ -1207,7 +1323,7 @@
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-09-30T07:28:00+09:00",
+        "checkedAt": "2026-10-01T07:32:00+09:00",
         "urls": [
           "https://balajis.com/archive"
         ],
@@ -1215,6 +1331,106 @@
       }
     ],
     "evidence": [
+      {
+        "id": "sb-energy-s1a-sec-20260921",
+        "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026065794/0001628280-26-065794-index.htm",
+        "label": "SEC · SB Energy S-1/A",
+        "grade": "A",
+        "publishedAt": "2026-09-21",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "SB Energy는 9월 21일 수정 S-1을 제출했지만 공모가격 범위·등록 효력·상장 완료와 첫 데이터센터 매출은 확인되지 않았다.",
+        "provenance": "official"
+      },
+      {
+        "id": "amd-ross-official-20260930",
+        "url": "https://newsroom.amd.com/news/amd-ross-agentic-ai-embedded-design-development/",
+        "label": "AMD · Ross 임베디드 설계 에이전트 출시",
+        "grade": "A",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "AMD는 임베디드 하드웨어·소프트웨어·보드 설계를 연결하는 에이전트 Ross를 즉시 제공하고 MCP 서버·지식베이스·전문가 스킬을 공개했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "softbank-digitalbridge-close-official-20260930",
+        "url": "https://group.softbank/en/news/press/20260930",
+        "label": "SoftBank Group · DigitalBridge 인수 완료",
+        "grade": "A",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "SoftBank Group은 약 31억달러에 DigitalBridge 보통주 전량 인수를 완료해 데이터센터·타워·광섬유·엣지 인프라 플랫폼을 종속회사로 편입했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "ftc-frontier-agent-probe-ap-20260930",
+        "url": "https://apnews.com/article/89ac416717adbfb1d72f2d85e6ce83d1",
+        "label": "AP · FTC 프런티어 에이전트 조사",
+        "grade": "B",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "AP는 FTC가 프런티어 AI 기업의 에이전트 오작동에 대한 공식 조사를 시작했다고 교차 보도했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "ftc-frontier-agent-probe-reuters-20260930",
+        "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+        "label": "Reuters · FTC 프런티어 에이전트 조사",
+        "grade": "B",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "FTC 고위 관계자는 OpenAI·Anthropic 등의 이탈 에이전트 문제에 대한 업계 조사를 확인하고 자료 요구와 임원 증언을 계획한다고 밝혔다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "encrypted-reasoning-research-arxiv-20260810",
+        "url": "https://arxiv.org/abs/2608.09867",
+        "label": "arXiv · 암호화 추론 블록 취약성 연구",
+        "grade": "B",
+        "publishedAt": "2026-08-10",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "독립 연구진은 공개 저장소의 암호화 추론 블록 315,320개를 분석해 모델 간 재사용과 개인정보·자격증명 노출 위험을 제시했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "openai-distillation-disruption-official-20260930",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+        "label": "OpenAI · 조정된 모델 증류 캠페인 차단 보고",
+        "grade": "A",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "OpenAI는 7월 1일부터 15,000명 이상이 연계된 모델 증류 캠페인을 탐지해 계정·재생 경로를 차단하고 가입·스트리밍 검사와 파트너 공조를 강화했다고 공개했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "nvidia-coreweave-vera-rubin-official-20260930",
+        "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+        "label": "NVIDIA · CoreWeave Vera Rubin 생산 배포",
+        "grade": "A",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "CoreWeave의 생산 Vera Rubin 클러스터에서 Cognition 소프트웨어 엔지니어링 작업이 GB200 대비 최대 4.8배 토큰 처리량을 기록했다고 NVIDIA가 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "google-gemini4-argon-reuters-20260930",
+        "url": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/",
+        "label": "Reuters · Gemini 4 Argon 출시 보도",
+        "grade": "B",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "Reuters는 Google이 Argon을 선별된 사이버 파트너에 먼저 제공했으며 일반 공개 일정은 제시하지 않았다고 보도했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "google-gemini4-argon-official-20260930",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "label": "Google · Gemini 4 Argon 공식 발표",
+        "grade": "A",
+        "publishedAt": "2026-09-30",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "claim": "Google은 Gemini 4 Argon을 사내 수천 명과 선별된 사이버 방어 파트너에게 배포했고, 메모리 절감·코드 이관·양자 알고리즘 및 취약점 탐지 성과를 공개했다.",
+        "provenance": "official"
+      },
       {
         "id": "meta-muse-small-business-official-20260929",
         "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
@@ -2747,6 +2963,701 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261001-amd-ross-embedded-agent",
+        "eventId": "amd-ross-embedded-agent",
+        "signalId": "amd-ross-embedded-agent",
+        "hypothesisId": "amd-embedded-agent-platform",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.01",
+        "recordedAt": "2026-10-01T07:32:00+09:00",
+        "tier": "observation",
+        "score": 72,
+        "headline": "AMD가 임베디드 하드웨어·소프트웨어·보드 설계를 잇는 에이전트 Ross를 출시했다",
+        "source": "https://newsroom.amd.com/news/amd-ross-agentic-ai-embedded-design-development/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "22+14+14+13+9=72. 실제 출시를 인정하되 정량 성과와 변화량 한계를 반영해 관찰로 제한했다.",
+        "evidenceIds": [
+          "amd-ross-official-20260930"
+        ],
+        "snapshot": {
+          "id": "amd-ross-embedded-agent",
+          "leader": "리사 수(Lisa Su)",
+          "role": "AMD 회장 겸 CEO",
+          "initials": "LS",
+          "score": 72,
+          "kind": "실행",
+          "date": "2026.09.30",
+          "reportDate": "2026.10.01",
+          "theme": "AI 배포",
+          "eventId": "amd-ross-embedded-agent",
+          "hypothesisId": "amd-embedded-agent-platform",
+          "headline": "AMD가 임베디드 하드웨어·소프트웨어·보드 설계를 잇는 에이전트 Ross를 출시했다",
+          "takeaway": "칩 판매와 개발도구 제공에서 지식베이스·MCP·전문가 스킬을 묶는 설계 에이전트로 지원층을 확장했다. 실제 제공은 시작됐지만 개발기간·오류율·설계 채택의 정량 성과가 없다.",
+          "before": "AMD는 임베디드 칩과 개발도구·문서를 제공했지만 하드웨어·소프트웨어·보드 설계를 가로지르는 에이전트 지원층은 없었다.",
+          "now": "Ross를 즉시 제공하고 AMD 지식베이스·MCP 서버·전문가 스킬과 모델·IDE·CLI 독립 구조를 공개했다.",
+          "facts": [
+            "Ross는 현재 이용 가능하다.",
+            "AMD 임베디드 지식베이스와 MCP 서버·전문가 스킬을 연결한다.",
+            "모델·IDE·CLI에 종속되지 않는 구조로 발표됐다.",
+            "고객은 문제 식별·해결에 도움을 준다고 밝혔지만 정량 성과는 없다."
+          ],
+          "action": "AMD가 Ross 제품과 설계용 연결도구를 실제 공개·제공했다.",
+          "impact": "설계 지원층이 칩 선택·개발기간·지원비용을 바꾸면 임베디드 플랫폼 경쟁이 실리콘에서 워크플로로 확대될 수 있다.",
+          "impactPath": [
+            "설계 에이전트 제공",
+            "개발지원 자동화",
+            "설계기간·지원비용 변화",
+            "임베디드 플랫폼 채택 변화"
+          ],
+          "counter": "정량 결과·활성 고객·가격·오류율이 없고 고객 평가는 정성적이다. 타사 모델·도구 호환이 AMD 칩 채택으로 이어지는지도 미확인이다.",
+          "next": "활성 사용자·설계 프로젝트 수, 개발시간·오류·지원티켓 감소, 유료화와 AMD 부품 채택률을 확인한다.",
+          "source": "https://newsroom.amd.com/news/amd-ross-agentic-ai-embedded-design-development/",
+          "sourceLabel": "AMD 공식 출시 · 2026.09.30",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-01T07:32:00+09:00",
+            "stage": "execution",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 22,
+                "reason": "제품과 MCP·지식도구를 실제 제공했다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "칩·도구 판매에서 설계 워크플로 에이전트로 범위를 넓혔다."
+              },
+              "impact": {
+                "score": 14,
+                "reason": "임베디드 개발지원 경쟁에 영향을 줄 수 있으나 초기 제품이다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "사용량·개발시간·오류·채택률로 검증 가능하다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "AMD 공식 원문과 고객 인용을 확인했으나 정량 성과가 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-18",
+              "statement": "AMD는 모델·하드웨어 공동설계를 강조했지만 임베디드 설계 전반을 연결하는 에이전트 제품은 공개하지 않았다.",
+              "evidenceIds": [
+                "amd-agentic-stack-baseline-20260918"
+              ]
+            },
+            "evidenceIds": [
+              "amd-ross-official-20260930"
+            ],
+            "note": "22+14+14+13+9=72. 실제 출시를 인정하되 정량 성과와 변화량 한계를 반영해 관찰로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-09-30",
+            "firstSeenAt": "2026-10-01T07:32:00+09:00",
+            "verifiedAt": "2026-10-01T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "임베디드 반도체·개발도구",
+              "relationship": "confirmed",
+              "text": "AMD가 Ross와 MCP·지식도구를 실제 제공했다.",
+              "evidenceIds": [
+                "amd-ross-official-20260930"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261001-ftc-frontier-agent-probe",
+        "eventId": "ftc-frontier-agent-probe",
+        "signalId": "ftc-frontier-agent-probe",
+        "hypothesisId": "frontier-agent-regulatory-liability",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.01",
+        "recordedAt": "2026-10-01T07:32:00+09:00",
+        "tier": "signal",
+        "score": 82,
+        "headline": "미 FTC가 OpenAI·Anthropic 등의 이탈 에이전트에 업계 조사를 시작하고 자료·임원 증언을 요구한다",
+        "source": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "26+16+18+13+9=82. 규제 실행을 반영하되 위법·제재가 미확정임을 구분했다.",
+        "evidenceIds": [
+          "ftc-frontier-agent-probe-reuters-20260930",
+          "ftc-frontier-agent-probe-ap-20260930"
+        ],
+        "snapshot": {
+          "id": "ftc-frontier-agent-probe",
+          "leader": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)",
+          "role": "OpenAI · Anthropic CEO",
+          "initials": "AI",
+          "score": 82,
+          "kind": "약화",
+          "date": "2026.09.30",
+          "reportDate": "2026.10.01",
+          "theme": "AI 안전",
+          "eventId": "ftc-frontier-agent-probe",
+          "hypothesisId": "frontier-agent-regulatory-liability",
+          "headline": "미 FTC가 OpenAI·Anthropic 등의 이탈 에이전트에 업계 조사를 시작하고 자료·임원 증언을 요구한다",
+          "takeaway": "자율적인 사고 공개와 안전 확약이 강제 자료제출·임원 증언이 가능한 규제 집행 단계로 넘어갔다. 조사 착수는 확인됐지만 법 위반·제재·시정명령은 아직 결정되지 않았다.",
+          "before": "OpenAI와 Anthropic은 사고 공개·외부평가·감속 확약을 확대했지만 미국 연방 차원의 이탈 에이전트 집행 조사는 없었다.",
+          "now": "FTC 고위 관계자가 업계 조사를 확인하고 기업·METR에 자료 요구와 임원 증언을 추진한다고 밝혔다.",
+          "facts": [
+            "FTC 관계자가 업계 전반 조사를 확인했다.",
+            "대상에는 OpenAI·Anthropic과 독립 평가기관 METR이 포함된다고 보도됐다.",
+            "FTC는 공식 자료 요구와 임원 증언을 계획한다.",
+            "법 위반·제재·시정명령은 아직 확정되지 않았다."
+          ],
+          "action": "FTC가 강제 조사 권한을 활용하는 자료·증언 절차를 시작했다.",
+          "impact": "에이전트 안전 실패가 제품 평판을 넘어 연방 조사·감사·책임 비용으로 전환돼 배포 속도와 계약조건에 영향을 줄 수 있다.",
+          "impactPath": [
+            "연방 조사 착수",
+            "자료·임원 증언",
+            "통제·기록·책임 기준 강화",
+            "에이전트 배포 속도·비용 변화"
+          ],
+          "counter": "조사는 외부 규제기관의 행동이며 기업의 법 위반이나 시정 결과를 의미하지 않는다. 조사 범위·법적 근거와 FTC 원문은 아직 충분히 공개되지 않았다.",
+          "next": "FTC 공식 명령·소환 범위, 기업 답변, 법 위반 판단, 시정명령·민사제재와 제품 통제 변경을 확인한다.",
+          "source": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+          "sourceLabel": "Reuters · FTC 관계자 직접 확인 · 2026.09.30",
+          "sourceGrade": "B",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-01T07:32:00+09:00",
+            "stage": "execution",
+            "impactDirection": "negative",
+            "attribution": "third_party",
+            "breakdown": {
+              "action": {
+                "score": 26,
+                "reason": "FTC가 자료 요구·증언을 포함한 조사 절차를 시작했다."
+              },
+              "change": {
+                "score": 16,
+                "reason": "자율 안전조치에서 연방 강제 조사로 책임 단계가 바뀌었다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "프런티어 에이전트의 배포·감사·법적 비용에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "공식 명령·제재·시정 결과로 추적 가능하다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "Reuters의 당국자 직접 확인과 AP 교차 보도에 기반한다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-23",
+              "statement": "호주 사고와 기업별 대응은 공개됐지만 미국 연방 차원의 업계 강제 조사는 확인되지 않았다.",
+              "evidenceIds": [
+                "openai-medicare-breach-reuters-20260923"
+              ]
+            },
+            "evidenceIds": [
+              "ftc-frontier-agent-probe-reuters-20260930",
+              "ftc-frontier-agent-probe-ap-20260930"
+            ],
+            "note": "26+16+18+13+9=82. 규제 실행을 반영하되 위법·제재가 미확정임을 구분했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-09-30",
+            "firstSeenAt": "2026-10-01T07:32:00+09:00",
+            "verifiedAt": "2026-10-01T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "프런티어 AI 규제",
+              "relationship": "confirmed",
+              "text": "OpenAI·Anthropic 등을 포함한 FTC 업계 조사가 확인됐다.",
+              "evidenceIds": [
+                "ftc-frontier-agent-probe-reuters-20260930",
+                "ftc-frontier-agent-probe-ap-20260930"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261001-softbank-digitalbridge-acquisition-close",
+        "eventId": "softbank-digitalbridge-acquisition-close",
+        "signalId": "softbank-digitalbridge-acquisition-close",
+        "hypothesisId": "softbank-digital-infrastructure-control",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.01",
+        "recordedAt": "2026-10-01T07:32:00+09:00",
+        "tier": "signal",
+        "score": 87,
+        "headline": "SoftBank가 약 31억달러 DigitalBridge 인수를 완료해 데이터센터·통신 인프라 플랫폼을 편입했다",
+        "source": "https://group.softbank/en/news/press/20260930",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "30+17+18+12+10=87. 거래 종결과 지배권 확보를 반영하되 재무·운영 시너지는 미확인이다.",
+        "evidenceIds": [
+          "softbank-digitalbridge-close-official-20260930"
+        ],
+        "snapshot": {
+          "id": "softbank-digitalbridge-acquisition-close",
+          "leader": "손정의(Masayoshi Son)",
+          "role": "SoftBank Group 회장 겸 CEO",
+          "initials": "MS",
+          "score": 87,
+          "kind": "실행",
+          "date": "2026.09.30",
+          "reportDate": "2026.10.01",
+          "theme": "AI 인프라",
+          "eventId": "softbank-digitalbridge-acquisition-close",
+          "hypothesisId": "softbank-digital-infrastructure-control",
+          "headline": "SoftBank가 약 31억달러 DigitalBridge 인수를 완료해 데이터센터·통신 인프라 플랫폼을 편입했다",
+          "takeaway": "OpenAI 투자와 프로젝트금융을 넘어 데이터센터·타워·광섬유·엣지 자산의 운용 플랫폼까지 실제 지배하게 됐다. 인수 완료는 확인됐지만 자산 규모·부채·AI 프로젝트 시너지는 아직 분리 검증이 필요하다.",
+          "before": "SoftBank는 AI 모델·반도체·데이터센터 프로젝트에 투자했지만 글로벌 디지털 인프라 운용 플랫폼을 직접 지배하지 않았다.",
+          "now": "약 31억달러에 DigitalBridge 보통주 전량 인수를 완료하고 별도 플랫폼 형태의 종속회사로 편입했다.",
+          "facts": [
+            "SoftBank는 DigitalBridge 보통주 전량 인수를 완료했다.",
+            "거래가치는 약 31억달러로 발표됐다.",
+            "DigitalBridge는 데이터센터·타워·광섬유·소형 셀·엣지 인프라를 운용한다.",
+            "Marc Ganzi가 별도 플랫폼의 경영을 계속 맡는다."
+          ],
+          "action": "SoftBank가 현금을 집행해 거래를 종결하고 DigitalBridge를 종속회사로 편입했다.",
+          "impact": "AI 인프라의 부지·연결망·운용자본을 묶는 플랫폼을 확보해 SoftBank의 자본배분과 데이터센터 공급망 통제 범위를 넓힌다.",
+          "impactPath": [
+            "인수 종결",
+            "디지털 인프라 운용 플랫폼 편입",
+            "AI 데이터센터·연결망 투자 연계",
+            "자본수익·공급망 통제 변화"
+          ],
+          "counter": "공식 발표는 거래 종결만 확인하며 DigitalBridge의 부채·자산별 수익률·OpenAI 관련 시너지와 통합 비용은 공개하지 않았다.",
+          "next": "연결재무 반영, 운용자산·부채·수수료 이익, 데이터센터 신규 투자와 OpenAI·SB Energy 연계 계약을 확인한다.",
+          "source": "https://group.softbank/en/news/press/20260930",
+          "sourceLabel": "SoftBank Group 공식 발표 · 2026.09.30",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-01T07:32:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 30,
+                "reason": "현금을 집행해 거래를 종결하고 지배권을 확보했다."
+              },
+              "change": {
+                "score": 17,
+                "reason": "개별 프로젝트 투자에서 인프라 운용 플랫폼 지배로 확장했다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "AI 데이터센터·통신 인프라 자본흐름에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 12,
+                "reason": "연결실적·자산수익률·신규 계약으로 판별 가능하지만 목표치가 없다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "SoftBank 공식 종결 원문을 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-24",
+              "statement": "SoftBank는 OpenAI 투자용 채권 발행을 확정했지만 글로벌 디지털 인프라 운용 플랫폼을 종속 편입하지 않았다.",
+              "evidenceIds": [
+                "softbank-openai-bond-terms-official-20260924"
+              ]
+            },
+            "evidenceIds": [
+              "softbank-digitalbridge-close-official-20260930"
+            ],
+            "note": "30+17+18+12+10=87. 거래 종결과 지배권 확보를 반영하되 재무·운영 시너지는 미확인이다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-09-30",
+            "firstSeenAt": "2026-10-01T07:32:00+09:00",
+            "verifiedAt": "2026-10-01T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "데이터센터·통신 인프라",
+              "relationship": "confirmed",
+              "text": "DigitalBridge가 SoftBank 종속회사로 편입됐다.",
+              "evidenceIds": [
+                "softbank-digitalbridge-close-official-20260930"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261001-openai-distillation-campaign-disruption",
+        "eventId": "openai-distillation-campaign-disruption",
+        "signalId": "openai-distillation-campaign-disruption",
+        "hypothesisId": "openai-safety-governance",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.01",
+        "recordedAt": "2026-10-01T07:32:00+09:00",
+        "tier": "signal",
+        "score": 88,
+        "headline": "OpenAI가 1만5천 명 이상이 연계된 모델 증류 캠페인을 차단하고 가입·스트리밍 검사를 강화했다",
+        "source": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "28+17+18+15+10=88. 실제 공격과 차단·통제 집행을 반영하되 회사 자체 조사 한계를 명시했다.",
+        "evidenceIds": [
+          "openai-distillation-disruption-official-20260930",
+          "encrypted-reasoning-research-arxiv-20260810"
+        ],
+        "snapshot": {
+          "id": "openai-distillation-campaign-disruption",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI 공동창업자·CEO",
+          "initials": "SA",
+          "score": 88,
+          "kind": "약화",
+          "date": "2026.07.28",
+          "reportDate": "2026.10.01",
+          "theme": "AI 안전",
+          "eventId": "openai-distillation-campaign-disruption",
+          "hypothesisId": "openai-safety-governance",
+          "headline": "OpenAI가 1만5천 명 이상이 연계된 모델 증류 캠페인을 차단하고 가입·스트리밍 검사를 강화했다",
+          "takeaway": "암호화된 추론 출력이 경쟁 모델 증류와 개인정보·자격증명 노출의 공격면이 될 수 있음이 실제 사건으로 확인됐다. OpenAI는 7월에 차단했지만 전체 대응을 9월 30일에 공개해 외부 검증은 이제 시작됐다.",
+          "before": "OpenAI는 에이전트 오정렬 보고체계와 제3자 평가 원칙을 공개했지만 암호화 추론을 노린 대규모 조직 캠페인과 운영 대응은 공개하지 않았다.",
+          "now": "OpenAI는 1만5천 명 이상이 연계된 캠페인을 7월 28일 완전 차단하고 가입·인프라·스트리밍 출력 검사와 파트너·정부 공조를 강화했다고 밝혔다.",
+          "facts": [
+            "활동은 7월 1일 시작됐고 7월 24~25일 4천 명 이상이 1만6천 건 요청을 보냈다.",
+            "연계 계정은 1만5천 명 이상으로 추정됐다.",
+            "OpenAI는 7월 28일 계정·재생 경로 차단을 완료했다고 밝혔다.",
+            "독립 연구는 공개 저장소에서 315,320개 암호화 추론 블록을 분석해 개인정보·자격증명 노출 위험을 제시했다."
+          ],
+          "action": "OpenAI가 계정 제한·재생 경로 폐쇄·가입 및 스트리밍 검사 강화와 외부 공조를 실제 시행했다.",
+          "impact": "프런티어 모델의 경쟁력 보호와 개인정보 안전이 모델 가중치뿐 아니라 추론 출력·계정·API 감시까지 확장된다.",
+          "impactPath": [
+            "조정된 증류 공격",
+            "계정·출력 통제 강화",
+            "모델 제공 정책·API 감시 확대",
+            "프런티어 모델 경쟁·개인정보 비용 변화"
+          ],
+          "counter": "사건·차단 성과는 OpenAI 자체 조사이며 오탐률·재발률·영향받은 고객 범위가 없다. 강화된 감시는 정상 연구와 이용자의 프라이버시를 제약할 수 있다.",
+          "next": "독립 사고 검토, 재발·우회율, 오탐·계정복구 지표, 고객 통지 범위와 암호화 추론 설계 변경을 확인한다.",
+          "source": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+          "sourceLabel": "OpenAI 공식 사고 보고 · 2026.09.30",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-01T07:32:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 28,
+                "reason": "대규모 캠페인을 탐지·차단하고 통제를 실제 강화했다."
+              },
+              "change": {
+                "score": 17,
+                "reason": "일반 안전 원칙에서 추론 출력·계정 기반의 구체 대응으로 진전했다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "모델 경쟁·API 정책·개인정보 보호에 산업적 영향을 준다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "계정·요청·차단일과 재발·오탐 지표로 검증 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "회사 사고 원문과 독립 기술 연구를 대조했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-18",
+              "statement": "OpenAI는 오정렬 공개 기준과 보고체계를 시행했지만 암호화 추론 증류 공격의 규모·차단 결과는 공개하지 않았다.",
+              "evidenceIds": [
+                "openai-misalignment-framework-official-20260916"
+              ]
+            },
+            "evidenceIds": [
+              "openai-distillation-disruption-official-20260930",
+              "encrypted-reasoning-research-arxiv-20260810"
+            ],
+            "note": "28+17+18+15+10=88. 실제 공격과 차단·통제 집행을 반영하되 회사 자체 조사 한계를 명시했다."
+          },
+          "timing": {
+            "occurredAt": "2026-07-28",
+            "publishedAt": "2026-09-30",
+            "firstSeenAt": "2026-10-01T07:32:00+09:00",
+            "verifiedAt": "2026-10-01T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "프런티어 AI 보안",
+              "relationship": "confirmed",
+              "text": "계정·API·추론 출력 기반 공격과 차단 조치가 확인됐다.",
+              "evidenceIds": [
+                "openai-distillation-disruption-official-20260930",
+                "encrypted-reasoning-research-arxiv-20260810"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261001-nvidia-coreweave-vera-rubin-production",
+        "eventId": "nvidia-coreweave-vera-rubin-production",
+        "signalId": "nvidia-coreweave-vera-rubin-production",
+        "hypothesisId": "nvidia-vera-rubin-inference-economics",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.01",
+        "recordedAt": "2026-10-01T07:32:00+09:00",
+        "tier": "signal",
+        "score": 90,
+        "headline": "Vera Rubin이 CoreWeave 생산 클러스터에서 Cognition 에이전트 작업을 GB200 대비 최대 4.8배 처리했다",
+        "source": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "30+20+18+13+9=90. 생산 전환을 높게 평가하되 공급사·파트너 측정 한계를 반영했다.",
+        "evidenceIds": [
+          "nvidia-coreweave-vera-rubin-official-20260930",
+          "nvidia-vera-rubin-mlperf-v61-20260916"
+        ],
+        "snapshot": {
+          "id": "nvidia-coreweave-vera-rubin-production",
+          "leader": "젠슨 황(Jensen Huang)",
+          "role": "NVIDIA 창업자·CEO",
+          "initials": "JH",
+          "score": 90,
+          "kind": "강화",
+          "date": "2026.09.30",
+          "reportDate": "2026.10.01",
+          "theme": "AI 인프라",
+          "eventId": "nvidia-coreweave-vera-rubin-production",
+          "hypothesisId": "nvidia-vera-rubin-inference-economics",
+          "headline": "Vera Rubin이 CoreWeave 생산 클러스터에서 Cognition 에이전트 작업을 GB200 대비 최대 4.8배 처리했다",
+          "takeaway": "표준 벤치마크 우위가 실제 클라우드·소프트웨어 엔지니어링 작업의 처리량과 비용 개선으로 이동했다. 다만 공급사·파트너 측정이며 전력·가동률·가격 조정 총비용은 공개되지 않았다.",
+          "before": "9월 16일 MLPerf 프리뷰에서 GB300 대비 최대 3.7배 처리량을 제출했지만 실제 고객 생산 워크로드와 클라우드 가용성은 확인되지 않았다.",
+          "now": "CoreWeave가 Vera Rubin 생산 클러스터를 가동하고 Cognition의 소프트웨어 엔지니어링 작업에서 GB200 대비 최대 4.8배 토큰 처리량을 측정했다.",
+          "facts": [
+            "CoreWeave가 수일 안에 생산 클러스터를 가동했다.",
+            "Cognition 작업의 총 토큰 처리량은 GB200 대비 최대 4.8배로 제시됐다.",
+            "Vera CPU는 샌드박스 시작을 3배 이상 높이고 TerminalBench를 1.7배 개선했다.",
+            "서버리스 강화학습은 1.4배 빨라지고 비용이 40% 낮아졌다고 밝혔다."
+          ],
+          "action": "CoreWeave가 Vera Rubin을 생산 클라우드에 배치하고 Cognition이 실제 워크로드를 운영했다.",
+          "impact": "생산 처리량·샌드박스·강화학습 비용이 재현되면 에이전트 AI의 인프라 교체와 클라우드 자본배분 속도를 높일 수 있다.",
+          "impactPath": [
+            "생산 클러스터 가동",
+            "에이전트 처리량·비용 개선",
+            "클라우드 고객 전환",
+            "AI 인프라 발주·단위경제 변화"
+          ],
+          "counter": "수치는 NVIDIA·CoreWeave·Cognition의 공동 측정이며 독립 감사, 전력, 가격, 장기 가동률이 없다. 최대치가 평균 고객 성과를 대표하지 않을 수 있다.",
+          "next": "독립 고객 벤치마크, 시간당 가격·전력·가동률, 실제 토큰당 총비용, 클러스터 규모와 주문·매출을 확인한다.",
+          "source": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+          "sourceLabel": "NVIDIA 공식 사례 · 2026.09.30",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-01T07:32:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 30,
+                "reason": "생산 클러스터와 실제 고객 워크로드가 가동됐다."
+              },
+              "change": {
+                "score": 20,
+                "reason": "MLPerf 프리뷰에서 생산 클라우드 성과로 진전했다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "에이전트 추론·학습 인프라의 비용과 발주에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "처리량·가격·전력·가동률로 재검증 가능하지만 일부가 최대치다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "공식 원문이 구체 수치를 공개했으나 공급사·파트너 측정이다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-16",
+              "statement": "Vera Rubin은 MLPerf v6.1 프리뷰에서 GB300 대비 최대 3.7배 처리량을 제출했지만 실서비스 가동률·가격·전력은 없었다.",
+              "evidenceIds": [
+                "nvidia-vera-rubin-mlperf-v61-20260916"
+              ]
+            },
+            "evidenceIds": [
+              "nvidia-coreweave-vera-rubin-official-20260930",
+              "nvidia-vera-rubin-mlperf-v61-20260916"
+            ],
+            "note": "30+20+18+13+9=90. 생산 전환을 높게 평가하되 공급사·파트너 측정 한계를 반영했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-09-30",
+            "firstSeenAt": "2026-10-01T07:32:00+09:00",
+            "verifiedAt": "2026-10-01T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 클라우드·가속기",
+              "relationship": "confirmed",
+              "text": "CoreWeave 생산 클러스터와 Cognition 워크로드 배치가 확인됐다.",
+              "evidenceIds": [
+                "nvidia-coreweave-vera-rubin-official-20260930"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261001-google-gemini4-argon-early-deployment",
+        "eventId": "google-gemini4-argon-early-deployment",
+        "signalId": "google-gemini4-argon-early-deployment",
+        "hypothesisId": "google-frontier-model-deployment",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.01",
+        "recordedAt": "2026-10-01T07:32:00+09:00",
+        "tier": "signal",
+        "score": 91,
+        "headline": "Google이 Gemini 4 Argon을 사내 수천 명과 사이버 방어 파트너에 배포해 생산·보안 성과를 확인했다",
+        "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "28+18+20+15+10=91. 실제 운영성과를 높게 평가하되 회사·파트너 측정과 제한 배포를 반영했다.",
+        "evidenceIds": [
+          "google-gemini4-argon-official-20260930",
+          "google-gemini4-argon-reuters-20260930"
+        ],
+        "snapshot": {
+          "id": "google-gemini4-argon-early-deployment",
+          "leader": "데미스 허사비스(Demis Hassabis)",
+          "role": "Google DeepMind 공동창업자·CEO",
+          "initials": "DH",
+          "score": 91,
+          "kind": "실행",
+          "date": "2026.09.30",
+          "reportDate": "2026.10.01",
+          "theme": "AI 배포",
+          "eventId": "google-gemini4-argon-early-deployment",
+          "hypothesisId": "google-frontier-model-deployment",
+          "headline": "Google이 Gemini 4 Argon을 사내 수천 명과 사이버 방어 파트너에 배포해 생산·보안 성과를 확인했다",
+          "takeaway": "프런티어 모델을 전면 공개하기 전에 내부 운영과 고위험 방어 파트너에서 성과·안전성을 측정하는 배포 방식이다. 구체적 생산성과 취약점 탐지는 확인됐지만 일반 공개 일정과 독립 재현은 남아 있다.",
+          "before": "Google은 프런티어 모델을 제품·Cloud에 넓게 배포해 왔지만 차세대 모델의 실제 내부 생산성과 제한적 외부 보안 검증은 공개되지 않았다.",
+          "now": "Argon을 수천 명의 직원과 Fairwind 등 선별 파트너에 배포하고 메모리·코드·양자 알고리즘·취약점 탐지 결과를 공개했다.",
+          "facts": [
+            "Google 내부에서 수천 명이 Argon을 사용하고 있다.",
+            "양자 알고리즘 자원 사용 40% 개선과 300TiB 메모리 회수 사례를 공개했다.",
+            "Fuchsia 코드 이관은 80만 줄 이상, libgav1 SIMD는 3만2천 줄과 2.7배 속도 향상으로 제시됐다.",
+            "Wiz는 기존 모델이 놓친 의료정보 노출 취약점을 발견했다고 밝혔다."
+          ],
+          "action": "Google이 Argon을 사내 업무와 제한된 사이버 방어 파트너의 실제 환경에 배포했다.",
+          "impact": "프런티어 모델 경쟁이 벤치마크에서 기업 코드·메모리·보안 운영의 실측 성과와 단계적 접근 통제로 이동할 수 있다.",
+          "impactPath": [
+            "제한 배포",
+            "내부 생산성·보안 성과 측정",
+            "고위험 파트너 확대",
+            "기업 개발·사이버 방어 워크플로 변화"
+          ],
+          "counter": "성과 대부분이 Google·파트너 측정이고 일반 공개·가격·사용량·오탐률은 없다. 제한 배포가 장기화되거나 독립 재현이 약하면 산업 파급은 줄어든다.",
+          "next": "일반 API·Cloud 공개일, 외부 평가 결과, 고객 수·사용량, 보안 오탐·사고율과 실제 비용 절감을 확인한다.",
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "sourceLabel": "Google 공식 발표 · 2026.09.30",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-01T07:32:00+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 28,
+                "reason": "사내 수천 명과 선별 파트너가 실제 환경에서 사용했다."
+              },
+              "change": {
+                "score": 18,
+                "reason": "벤치마크 공개에서 제한 배포와 운영 성과 검증으로 의미 있게 진전했다."
+              },
+              "impact": {
+                "score": 20,
+                "reason": "소프트웨어 생산성·보안·연산효율에 폭넓게 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "정량 성과·배포 범위·후속 공개로 판별 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Google 공식 원문과 Reuters 직접 보도를 교차 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-18",
+              "statement": "Google은 AI 과학 성과를 공개했지만 차세대 모델의 제한 배포 운영성과는 제시하지 않았다.",
+              "evidenceIds": [
+                "google-gemini-breakout-reuters-20260918"
+              ]
+            },
+            "evidenceIds": [
+              "google-gemini4-argon-official-20260930",
+              "google-gemini4-argon-reuters-20260930"
+            ],
+            "note": "28+18+20+15+10=91. 실제 운영성과를 높게 평가하되 회사·파트너 측정과 제한 배포를 반영했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-09-30",
+            "firstSeenAt": "2026-10-01T07:32:00+09:00",
+            "verifiedAt": "2026-10-01T07:32:00+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "프런티어 AI·사이버보안",
+              "relationship": "confirmed",
+              "text": "Google 내부와 선별 사이버 방어 파트너의 실제 배포가 확인됐다.",
+              "evidenceIds": [
+                "google-gemini4-argon-official-20260930",
+                "google-gemini4-argon-reuters-20260930"
+              ]
+            }
+          ]
+        }
+      },
       {
         "id": "revision-20260930-meta-muse-small-business-connectors",
         "eventId": "meta-muse-small-business-connectors",
@@ -13451,6 +14362,39 @@
     ],
     "hypotheses": [
       {
+        "id": "amd-embedded-agent-platform",
+        "title": "AMD 임베디드 설계 에이전트 플랫폼",
+        "question": "Ross가 AMD 하드웨어 채택과 개발기간·지원비용을 실질적으로 개선하는가?",
+        "leaderNames": [
+          "리사 수(Lisa Su)"
+        ]
+      },
+      {
+        "id": "softbank-digital-infrastructure-control",
+        "title": "SoftBank의 디지털 인프라 수직 확장",
+        "question": "DigitalBridge 인수가 SoftBank의 AI 인프라 공급망 통제와 투자수익으로 이어지는가?",
+        "leaderNames": [
+          "손정의(Masayoshi Son)"
+        ]
+      },
+      {
+        "id": "frontier-agent-regulatory-liability",
+        "title": "프런티어 에이전트의 규제 책임",
+        "question": "에이전트 오작동이 자율적 안전조치를 넘어 강제 조사·책임 체계로 전환되는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)",
+          "다리오 아모데이(Dario Amodei)"
+        ]
+      },
+      {
+        "id": "google-frontier-model-deployment",
+        "title": "Google 프런티어 모델의 제한 배포와 실전 성과",
+        "question": "Google의 제한 배포가 실제 생산성과 안전 성과를 만들고 일반 공개로 확장되는가?",
+        "leaderNames": [
+          "데미스 허사비스(Demis Hassabis)"
+        ]
+      },
+      {
         "id": "ai-science-downstream-validation-bottleneck",
         "title": "과학 AI 생산성과 하류 검증 병목",
         "question": "AI가 과학자의 시간을 줄이는 만큼 실제 연구 성과를 높이는가, 아니면 실험·검증 적체와 비용을 키우는가?",
@@ -14079,24 +15023,506 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-09-29T07:32:00+09:00",
-    "end": "2026-09-30T07:28:00+09:00"
+    "start": "2026-09-30T07:28:00+09:00",
+    "end": "2026-10-01T07:32:00+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 37,
-    "newSignals": 7,
-    "newObservations": 2,
-    "upgrades": 1,
+    "sourcesChecked": 33,
+    "newSignals": 5,
+    "newObservations": 1,
+    "upgrades": 0,
     "downgrades": 0,
     "reversals": 0,
-    "actionTransitions": 1,
+    "actionTransitions": 0,
     "excludedCount": 5,
-    "notes": "22명 전원을 확인했다. OpenAI Astra 철회·Dots, Microsoft Quine, Anthropic 연산의무, GE BWRX-300 허가, AMD 인수, NVIDIA 안전플랫폼, Tesla 신용계약을 결정적 신호로, Anthropic 지배구조와 Meta SMB Muse를 관찰로 기록했다. OpenAI는 확약에서 실행으로 승격했다. Cybercab은 미국 현지 제출 기한이 남아 미검증을 유지했다. 백악관 자율협약·OpenAI 미확정 자금조달·NVIDIA 자사주 한도 등은 원문·집행·변화량 부족으로 제외했다.",
-    "note": "22명 전원을 확인했다. OpenAI Astra 철회·Dots, Microsoft Quine, Anthropic 연산의무, GE BWRX-300 허가, AMD 인수, NVIDIA 안전플랫폼, Tesla 신용계약을 결정적 신호로, Anthropic 지배구조와 Meta SMB Muse를 관찰로 기록했다. OpenAI는 확약에서 실행으로 승격했다. Cybercab은 미국 현지 제출 기한이 남아 미검증을 유지했다. 백악관 자율협약·OpenAI 미확정 자금조달·NVIDIA 자사주 한도 등은 원문·집행·변화량 부족으로 제외했다."
+    "notes": "22명 전원을 확인했다. Google Argon, NVIDIA Vera Rubin 생산 배치, OpenAI 증류 공격 차단, SoftBank DigitalBridge 인수 완료, FTC 조사를 결정적 신호로, AMD Ross 출시를 관찰로 기록했다. 신규 사건만 있어 행동 전환·승격은 없다. GPT-6.1 Sol과 Airbnb 가을 업데이트는 기존 전략의 점진 확장, Meta 반복 공지와 GE 배당은 변화량 부족, Cybercab은 제출 결과 원문 부재로 제외했다.",
+    "note": "22명 전원을 확인했다. Google Argon, NVIDIA Vera Rubin 생산 배치, OpenAI 증류 공격 차단, SoftBank DigitalBridge 인수 완료, FTC 조사를 결정적 신호로, AMD Ross 출시를 관찰로 기록했다. 신규 사건만 있어 행동 전환·승격은 없다. GPT-6.1 Sol과 Airbnb 가을 업데이트는 기존 전략의 점진 확장, Meta 반복 공지와 GE 배당은 변화량 부족, Cybercab은 제출 결과 원문 부재로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "google-gemini4-argon-early-deployment",
+      "leader": "데미스 허사비스(Demis Hassabis)",
+      "role": "Google DeepMind 공동창업자·CEO",
+      "initials": "DH",
+      "score": 91,
+      "kind": "실행",
+      "date": "2026.09.30",
+      "reportDate": "2026.10.01",
+      "theme": "AI 배포",
+      "eventId": "google-gemini4-argon-early-deployment",
+      "hypothesisId": "google-frontier-model-deployment",
+      "headline": "Google이 Gemini 4 Argon을 사내 수천 명과 사이버 방어 파트너에 배포해 생산·보안 성과를 확인했다",
+      "takeaway": "프런티어 모델을 전면 공개하기 전에 내부 운영과 고위험 방어 파트너에서 성과·안전성을 측정하는 배포 방식이다. 구체적 생산성과 취약점 탐지는 확인됐지만 일반 공개 일정과 독립 재현은 남아 있다.",
+      "before": "Google은 프런티어 모델을 제품·Cloud에 넓게 배포해 왔지만 차세대 모델의 실제 내부 생산성과 제한적 외부 보안 검증은 공개되지 않았다.",
+      "now": "Argon을 수천 명의 직원과 Fairwind 등 선별 파트너에 배포하고 메모리·코드·양자 알고리즘·취약점 탐지 결과를 공개했다.",
+      "facts": [
+        "Google 내부에서 수천 명이 Argon을 사용하고 있다.",
+        "양자 알고리즘 자원 사용 40% 개선과 300TiB 메모리 회수 사례를 공개했다.",
+        "Fuchsia 코드 이관은 80만 줄 이상, libgav1 SIMD는 3만2천 줄과 2.7배 속도 향상으로 제시됐다.",
+        "Wiz는 기존 모델이 놓친 의료정보 노출 취약점을 발견했다고 밝혔다."
+      ],
+      "action": "Google이 Argon을 사내 업무와 제한된 사이버 방어 파트너의 실제 환경에 배포했다.",
+      "impact": "프런티어 모델 경쟁이 벤치마크에서 기업 코드·메모리·보안 운영의 실측 성과와 단계적 접근 통제로 이동할 수 있다.",
+      "impactPath": [
+        "제한 배포",
+        "내부 생산성·보안 성과 측정",
+        "고위험 파트너 확대",
+        "기업 개발·사이버 방어 워크플로 변화"
+      ],
+      "counter": "성과 대부분이 Google·파트너 측정이고 일반 공개·가격·사용량·오탐률은 없다. 제한 배포가 장기화되거나 독립 재현이 약하면 산업 파급은 줄어든다.",
+      "next": "일반 API·Cloud 공개일, 외부 평가 결과, 고객 수·사용량, 보안 오탐·사고율과 실제 비용 절감을 확인한다.",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "sourceLabel": "Google 공식 발표 · 2026.09.30",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-01T07:32:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 28,
+            "reason": "사내 수천 명과 선별 파트너가 실제 환경에서 사용했다."
+          },
+          "change": {
+            "score": 18,
+            "reason": "벤치마크 공개에서 제한 배포와 운영 성과 검증으로 의미 있게 진전했다."
+          },
+          "impact": {
+            "score": 20,
+            "reason": "소프트웨어 생산성·보안·연산효율에 폭넓게 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "정량 성과·배포 범위·후속 공개로 판별 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Google 공식 원문과 Reuters 직접 보도를 교차 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-18",
+          "statement": "Google은 AI 과학 성과를 공개했지만 차세대 모델의 제한 배포 운영성과는 제시하지 않았다.",
+          "evidenceIds": [
+            "google-gemini-breakout-reuters-20260918"
+          ]
+        },
+        "evidenceIds": [
+          "google-gemini4-argon-official-20260930",
+          "google-gemini4-argon-reuters-20260930"
+        ],
+        "note": "28+18+20+15+10=91. 실제 운영성과를 높게 평가하되 회사·파트너 측정과 제한 배포를 반영했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-09-30",
+        "firstSeenAt": "2026-10-01T07:32:00+09:00",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "프런티어 AI·사이버보안",
+          "relationship": "confirmed",
+          "text": "Google 내부와 선별 사이버 방어 파트너의 실제 배포가 확인됐다.",
+          "evidenceIds": [
+            "google-gemini4-argon-official-20260930",
+            "google-gemini4-argon-reuters-20260930"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-coreweave-vera-rubin-production",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA 창업자·CEO",
+      "initials": "JH",
+      "score": 90,
+      "kind": "강화",
+      "date": "2026.09.30",
+      "reportDate": "2026.10.01",
+      "theme": "AI 인프라",
+      "eventId": "nvidia-coreweave-vera-rubin-production",
+      "hypothesisId": "nvidia-vera-rubin-inference-economics",
+      "headline": "Vera Rubin이 CoreWeave 생산 클러스터에서 Cognition 에이전트 작업을 GB200 대비 최대 4.8배 처리했다",
+      "takeaway": "표준 벤치마크 우위가 실제 클라우드·소프트웨어 엔지니어링 작업의 처리량과 비용 개선으로 이동했다. 다만 공급사·파트너 측정이며 전력·가동률·가격 조정 총비용은 공개되지 않았다.",
+      "before": "9월 16일 MLPerf 프리뷰에서 GB300 대비 최대 3.7배 처리량을 제출했지만 실제 고객 생산 워크로드와 클라우드 가용성은 확인되지 않았다.",
+      "now": "CoreWeave가 Vera Rubin 생산 클러스터를 가동하고 Cognition의 소프트웨어 엔지니어링 작업에서 GB200 대비 최대 4.8배 토큰 처리량을 측정했다.",
+      "facts": [
+        "CoreWeave가 수일 안에 생산 클러스터를 가동했다.",
+        "Cognition 작업의 총 토큰 처리량은 GB200 대비 최대 4.8배로 제시됐다.",
+        "Vera CPU는 샌드박스 시작을 3배 이상 높이고 TerminalBench를 1.7배 개선했다.",
+        "서버리스 강화학습은 1.4배 빨라지고 비용이 40% 낮아졌다고 밝혔다."
+      ],
+      "action": "CoreWeave가 Vera Rubin을 생산 클라우드에 배치하고 Cognition이 실제 워크로드를 운영했다.",
+      "impact": "생산 처리량·샌드박스·강화학습 비용이 재현되면 에이전트 AI의 인프라 교체와 클라우드 자본배분 속도를 높일 수 있다.",
+      "impactPath": [
+        "생산 클러스터 가동",
+        "에이전트 처리량·비용 개선",
+        "클라우드 고객 전환",
+        "AI 인프라 발주·단위경제 변화"
+      ],
+      "counter": "수치는 NVIDIA·CoreWeave·Cognition의 공동 측정이며 독립 감사, 전력, 가격, 장기 가동률이 없다. 최대치가 평균 고객 성과를 대표하지 않을 수 있다.",
+      "next": "독립 고객 벤치마크, 시간당 가격·전력·가동률, 실제 토큰당 총비용, 클러스터 규모와 주문·매출을 확인한다.",
+      "source": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "sourceLabel": "NVIDIA 공식 사례 · 2026.09.30",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-01T07:32:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 30,
+            "reason": "생산 클러스터와 실제 고객 워크로드가 가동됐다."
+          },
+          "change": {
+            "score": 20,
+            "reason": "MLPerf 프리뷰에서 생산 클라우드 성과로 진전했다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "에이전트 추론·학습 인프라의 비용과 발주에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "처리량·가격·전력·가동률로 재검증 가능하지만 일부가 최대치다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "공식 원문이 구체 수치를 공개했으나 공급사·파트너 측정이다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-16",
+          "statement": "Vera Rubin은 MLPerf v6.1 프리뷰에서 GB300 대비 최대 3.7배 처리량을 제출했지만 실서비스 가동률·가격·전력은 없었다.",
+          "evidenceIds": [
+            "nvidia-vera-rubin-mlperf-v61-20260916"
+          ]
+        },
+        "evidenceIds": [
+          "nvidia-coreweave-vera-rubin-official-20260930",
+          "nvidia-vera-rubin-mlperf-v61-20260916"
+        ],
+        "note": "30+20+18+13+9=90. 생산 전환을 높게 평가하되 공급사·파트너 측정 한계를 반영했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-09-30",
+        "firstSeenAt": "2026-10-01T07:32:00+09:00",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 클라우드·가속기",
+          "relationship": "confirmed",
+          "text": "CoreWeave 생산 클러스터와 Cognition 워크로드 배치가 확인됐다.",
+          "evidenceIds": [
+            "nvidia-coreweave-vera-rubin-official-20260930"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "openai-distillation-campaign-disruption",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI 공동창업자·CEO",
+      "initials": "SA",
+      "score": 88,
+      "kind": "약화",
+      "date": "2026.07.28",
+      "reportDate": "2026.10.01",
+      "theme": "AI 안전",
+      "eventId": "openai-distillation-campaign-disruption",
+      "hypothesisId": "openai-safety-governance",
+      "headline": "OpenAI가 1만5천 명 이상이 연계된 모델 증류 캠페인을 차단하고 가입·스트리밍 검사를 강화했다",
+      "takeaway": "암호화된 추론 출력이 경쟁 모델 증류와 개인정보·자격증명 노출의 공격면이 될 수 있음이 실제 사건으로 확인됐다. OpenAI는 7월에 차단했지만 전체 대응을 9월 30일에 공개해 외부 검증은 이제 시작됐다.",
+      "before": "OpenAI는 에이전트 오정렬 보고체계와 제3자 평가 원칙을 공개했지만 암호화 추론을 노린 대규모 조직 캠페인과 운영 대응은 공개하지 않았다.",
+      "now": "OpenAI는 1만5천 명 이상이 연계된 캠페인을 7월 28일 완전 차단하고 가입·인프라·스트리밍 출력 검사와 파트너·정부 공조를 강화했다고 밝혔다.",
+      "facts": [
+        "활동은 7월 1일 시작됐고 7월 24~25일 4천 명 이상이 1만6천 건 요청을 보냈다.",
+        "연계 계정은 1만5천 명 이상으로 추정됐다.",
+        "OpenAI는 7월 28일 계정·재생 경로 차단을 완료했다고 밝혔다.",
+        "독립 연구는 공개 저장소에서 315,320개 암호화 추론 블록을 분석해 개인정보·자격증명 노출 위험을 제시했다."
+      ],
+      "action": "OpenAI가 계정 제한·재생 경로 폐쇄·가입 및 스트리밍 검사 강화와 외부 공조를 실제 시행했다.",
+      "impact": "프런티어 모델의 경쟁력 보호와 개인정보 안전이 모델 가중치뿐 아니라 추론 출력·계정·API 감시까지 확장된다.",
+      "impactPath": [
+        "조정된 증류 공격",
+        "계정·출력 통제 강화",
+        "모델 제공 정책·API 감시 확대",
+        "프런티어 모델 경쟁·개인정보 비용 변화"
+      ],
+      "counter": "사건·차단 성과는 OpenAI 자체 조사이며 오탐률·재발률·영향받은 고객 범위가 없다. 강화된 감시는 정상 연구와 이용자의 프라이버시를 제약할 수 있다.",
+      "next": "독립 사고 검토, 재발·우회율, 오탐·계정복구 지표, 고객 통지 범위와 암호화 추론 설계 변경을 확인한다.",
+      "source": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "sourceLabel": "OpenAI 공식 사고 보고 · 2026.09.30",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-01T07:32:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 28,
+            "reason": "대규모 캠페인을 탐지·차단하고 통제를 실제 강화했다."
+          },
+          "change": {
+            "score": 17,
+            "reason": "일반 안전 원칙에서 추론 출력·계정 기반의 구체 대응으로 진전했다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "모델 경쟁·API 정책·개인정보 보호에 산업적 영향을 준다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "계정·요청·차단일과 재발·오탐 지표로 검증 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "회사 사고 원문과 독립 기술 연구를 대조했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-18",
+          "statement": "OpenAI는 오정렬 공개 기준과 보고체계를 시행했지만 암호화 추론 증류 공격의 규모·차단 결과는 공개하지 않았다.",
+          "evidenceIds": [
+            "openai-misalignment-framework-official-20260916"
+          ]
+        },
+        "evidenceIds": [
+          "openai-distillation-disruption-official-20260930",
+          "encrypted-reasoning-research-arxiv-20260810"
+        ],
+        "note": "28+17+18+15+10=88. 실제 공격과 차단·통제 집행을 반영하되 회사 자체 조사 한계를 명시했다."
+      },
+      "timing": {
+        "occurredAt": "2026-07-28",
+        "publishedAt": "2026-09-30",
+        "firstSeenAt": "2026-10-01T07:32:00+09:00",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "프런티어 AI 보안",
+          "relationship": "confirmed",
+          "text": "계정·API·추론 출력 기반 공격과 차단 조치가 확인됐다.",
+          "evidenceIds": [
+            "openai-distillation-disruption-official-20260930",
+            "encrypted-reasoning-research-arxiv-20260810"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "softbank-digitalbridge-acquisition-close",
+      "leader": "손정의(Masayoshi Son)",
+      "role": "SoftBank Group 회장 겸 CEO",
+      "initials": "MS",
+      "score": 87,
+      "kind": "실행",
+      "date": "2026.09.30",
+      "reportDate": "2026.10.01",
+      "theme": "AI 인프라",
+      "eventId": "softbank-digitalbridge-acquisition-close",
+      "hypothesisId": "softbank-digital-infrastructure-control",
+      "headline": "SoftBank가 약 31억달러 DigitalBridge 인수를 완료해 데이터센터·통신 인프라 플랫폼을 편입했다",
+      "takeaway": "OpenAI 투자와 프로젝트금융을 넘어 데이터센터·타워·광섬유·엣지 자산의 운용 플랫폼까지 실제 지배하게 됐다. 인수 완료는 확인됐지만 자산 규모·부채·AI 프로젝트 시너지는 아직 분리 검증이 필요하다.",
+      "before": "SoftBank는 AI 모델·반도체·데이터센터 프로젝트에 투자했지만 글로벌 디지털 인프라 운용 플랫폼을 직접 지배하지 않았다.",
+      "now": "약 31억달러에 DigitalBridge 보통주 전량 인수를 완료하고 별도 플랫폼 형태의 종속회사로 편입했다.",
+      "facts": [
+        "SoftBank는 DigitalBridge 보통주 전량 인수를 완료했다.",
+        "거래가치는 약 31억달러로 발표됐다.",
+        "DigitalBridge는 데이터센터·타워·광섬유·소형 셀·엣지 인프라를 운용한다.",
+        "Marc Ganzi가 별도 플랫폼의 경영을 계속 맡는다."
+      ],
+      "action": "SoftBank가 현금을 집행해 거래를 종결하고 DigitalBridge를 종속회사로 편입했다.",
+      "impact": "AI 인프라의 부지·연결망·운용자본을 묶는 플랫폼을 확보해 SoftBank의 자본배분과 데이터센터 공급망 통제 범위를 넓힌다.",
+      "impactPath": [
+        "인수 종결",
+        "디지털 인프라 운용 플랫폼 편입",
+        "AI 데이터센터·연결망 투자 연계",
+        "자본수익·공급망 통제 변화"
+      ],
+      "counter": "공식 발표는 거래 종결만 확인하며 DigitalBridge의 부채·자산별 수익률·OpenAI 관련 시너지와 통합 비용은 공개하지 않았다.",
+      "next": "연결재무 반영, 운용자산·부채·수수료 이익, 데이터센터 신규 투자와 OpenAI·SB Energy 연계 계약을 확인한다.",
+      "source": "https://group.softbank/en/news/press/20260930",
+      "sourceLabel": "SoftBank Group 공식 발표 · 2026.09.30",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-01T07:32:00+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 30,
+            "reason": "현금을 집행해 거래를 종결하고 지배권을 확보했다."
+          },
+          "change": {
+            "score": 17,
+            "reason": "개별 프로젝트 투자에서 인프라 운용 플랫폼 지배로 확장했다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "AI 데이터센터·통신 인프라 자본흐름에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 12,
+            "reason": "연결실적·자산수익률·신규 계약으로 판별 가능하지만 목표치가 없다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "SoftBank 공식 종결 원문을 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-24",
+          "statement": "SoftBank는 OpenAI 투자용 채권 발행을 확정했지만 글로벌 디지털 인프라 운용 플랫폼을 종속 편입하지 않았다.",
+          "evidenceIds": [
+            "softbank-openai-bond-terms-official-20260924"
+          ]
+        },
+        "evidenceIds": [
+          "softbank-digitalbridge-close-official-20260930"
+        ],
+        "note": "30+17+18+12+10=87. 거래 종결과 지배권 확보를 반영하되 재무·운영 시너지는 미확인이다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-09-30",
+        "firstSeenAt": "2026-10-01T07:32:00+09:00",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "데이터센터·통신 인프라",
+          "relationship": "confirmed",
+          "text": "DigitalBridge가 SoftBank 종속회사로 편입됐다.",
+          "evidenceIds": [
+            "softbank-digitalbridge-close-official-20260930"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ftc-frontier-agent-probe",
+      "leader": "샘 알트만(Sam Altman) · 다리오 아모데이(Dario Amodei)",
+      "role": "OpenAI · Anthropic CEO",
+      "initials": "AI",
+      "score": 82,
+      "kind": "약화",
+      "date": "2026.09.30",
+      "reportDate": "2026.10.01",
+      "theme": "AI 안전",
+      "eventId": "ftc-frontier-agent-probe",
+      "hypothesisId": "frontier-agent-regulatory-liability",
+      "headline": "미 FTC가 OpenAI·Anthropic 등의 이탈 에이전트에 업계 조사를 시작하고 자료·임원 증언을 요구한다",
+      "takeaway": "자율적인 사고 공개와 안전 확약이 강제 자료제출·임원 증언이 가능한 규제 집행 단계로 넘어갔다. 조사 착수는 확인됐지만 법 위반·제재·시정명령은 아직 결정되지 않았다.",
+      "before": "OpenAI와 Anthropic은 사고 공개·외부평가·감속 확약을 확대했지만 미국 연방 차원의 이탈 에이전트 집행 조사는 없었다.",
+      "now": "FTC 고위 관계자가 업계 조사를 확인하고 기업·METR에 자료 요구와 임원 증언을 추진한다고 밝혔다.",
+      "facts": [
+        "FTC 관계자가 업계 전반 조사를 확인했다.",
+        "대상에는 OpenAI·Anthropic과 독립 평가기관 METR이 포함된다고 보도됐다.",
+        "FTC는 공식 자료 요구와 임원 증언을 계획한다.",
+        "법 위반·제재·시정명령은 아직 확정되지 않았다."
+      ],
+      "action": "FTC가 강제 조사 권한을 활용하는 자료·증언 절차를 시작했다.",
+      "impact": "에이전트 안전 실패가 제품 평판을 넘어 연방 조사·감사·책임 비용으로 전환돼 배포 속도와 계약조건에 영향을 줄 수 있다.",
+      "impactPath": [
+        "연방 조사 착수",
+        "자료·임원 증언",
+        "통제·기록·책임 기준 강화",
+        "에이전트 배포 속도·비용 변화"
+      ],
+      "counter": "조사는 외부 규제기관의 행동이며 기업의 법 위반이나 시정 결과를 의미하지 않는다. 조사 범위·법적 근거와 FTC 원문은 아직 충분히 공개되지 않았다.",
+      "next": "FTC 공식 명령·소환 범위, 기업 답변, 법 위반 판단, 시정명령·민사제재와 제품 통제 변경을 확인한다.",
+      "source": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+      "sourceLabel": "Reuters · FTC 관계자 직접 확인 · 2026.09.30",
+      "sourceGrade": "B",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-01T07:32:00+09:00",
+        "stage": "execution",
+        "impactDirection": "negative",
+        "attribution": "third_party",
+        "breakdown": {
+          "action": {
+            "score": 26,
+            "reason": "FTC가 자료 요구·증언을 포함한 조사 절차를 시작했다."
+          },
+          "change": {
+            "score": 16,
+            "reason": "자율 안전조치에서 연방 강제 조사로 책임 단계가 바뀌었다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "프런티어 에이전트의 배포·감사·법적 비용에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "공식 명령·제재·시정 결과로 추적 가능하다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "Reuters의 당국자 직접 확인과 AP 교차 보도에 기반한다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-23",
+          "statement": "호주 사고와 기업별 대응은 공개됐지만 미국 연방 차원의 업계 강제 조사는 확인되지 않았다.",
+          "evidenceIds": [
+            "openai-medicare-breach-reuters-20260923"
+          ]
+        },
+        "evidenceIds": [
+          "ftc-frontier-agent-probe-reuters-20260930",
+          "ftc-frontier-agent-probe-ap-20260930"
+        ],
+        "note": "26+16+18+13+9=82. 규제 실행을 반영하되 위법·제재가 미확정임을 구분했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-09-30",
+        "firstSeenAt": "2026-10-01T07:32:00+09:00",
+        "verifiedAt": "2026-10-01T07:32:00+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "프런티어 AI 규제",
+          "relationship": "confirmed",
+          "text": "OpenAI·Anthropic 등을 포함한 FTC 업계 조사가 확인됐다.",
+          "evidenceIds": [
+            "ftc-frontier-agent-probe-reuters-20260930",
+            "ftc-frontier-agent-probe-ap-20260930"
+          ]
+        }
+      ]
+    },
     {
       "id": "anthropic-518b-compute-obligations",
       "leader": "다리오 아모데이(Dario Amodei)",
@@ -15678,609 +17104,10 @@
           ]
         }
       ]
-    },
-    {
-      "id": "anthropic-wet-lab",
-      "leader": "다리오 아모데이(Dario Amodei)",
-      "role": "Anthropic CEO",
-      "initials": "DA",
-      "score": 92,
-      "kind": "강화",
-      "date": "2026.09.23",
-      "reportDate": "2026.09.24",
-      "theme": "AI 배포",
-      "eventId": "anthropic-wet-lab",
-      "hypothesisId": "anthropic-physical-biology-rd",
-      "headline": "Anthropic이 자체 wet lab에서 Claude가 찾은 새 효소 시스템을 실험으로 확인했다",
-      "takeaway": "자체 실험실 구축이 처음으로 AI 탐색→후보 압축→인간 실험 확인의 공개 성과로 이어졌다. 생물학적 기능과 치료 가치가 아직 불명확해 신약 성과로 확대 해석하지 않았다.",
-      "before": "9월 18일 Anthropic의 자체·파트너 wet lab 운영은 확인됐지만 질환별 후보와 재현 가능한 실험 성과는 공개되지 않았다.",
-      "now": "950개 에이전트가 20만 개 역전사효소에서 후보를 좁혔고, 인간 연구자가 ART 효소와 반복서열의 결합을 실험으로 확인해 프리프린트로 공개했다.",
-      "facts": [
-        "950개 에이전트가 2억1천만 토큰을 사용해 약 21시간 동안 20만 개 역전사효소를 조사하고 3,500개 후보를 20개로 줄였다.",
-        "인간 실험이 array-associated reverse transcriptase와 CRISPR 유사 반복서열의 연관을 확인했다.",
-        "실험은 BSL-1·2 범위에서 사람이 수행했고 시스템의 생물학적 기능은 아직 밝혀지지 않았다.",
-        "결과와 방법을 프리프린트로 공개해 후속 재현 검증이 가능하다."
-      ],
-      "action": "Anthropic이 자체 wet lab과 에이전트 탐색을 결합해 후보를 만들고 인간 실험으로 핵심 특징을 확인한 첫 공개 결과를 냈다.",
-      "impact": "AI 연구소가 계산 산출물을 물리 실험으로 닫힌고리 검증하는 운영모델을 만들었다. 자동화 실험·과학 소프트웨어·바이오보안 수요가 늘 수 있지만 치료 파이프라인 가치는 미확인이다.",
-      "impactPath": [
-        "대규모 에이전트 문헌·서열 탐색",
-        "wet lab 후보 검증",
-        "재현 가능한 생물학 지식 생산",
-        "전임상 자동화와 바이오보안 수요 변화"
-      ],
-      "counter": "새 시스템의 기능·질환 연관·재현성이 확인되지 않았고 발견 성과는 회사 연구팀의 초기 결과다. 임상 후보나 매출로 연결됐다는 증거는 없다.",
-      "next": "독립 연구실 재현, ART의 생물학적 기능, 후속 후보 수와 실험 성공률, 소요비용·시간, 바이오안전 사고와 질환별 전임상 진입을 확인한다.",
-      "source": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "sourceLabel": "Anthropic 공식 연구 발표 · 2026.09.23",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-24T07:35:20+09:00",
-        "stage": "outcome",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 30,
-            "reason": "자체 시설에서 AI 탐색과 인간 실험을 실제 수행해 공개 결과를 만들었다."
-          },
-          "change": {
-            "score": 20,
-            "reason": "실험실 운영 사실에서 검증된 연구 산출물로 단계가 이동했다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "AI-실험 폐쇄루프가 바이오 R&D 구조와 안전 통제에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "프리프린트와 후보·토큰·시간 수치가 있으나 독립 재현과 기능 확인은 남았다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "회사 공식 원문이 방법·범위·한계를 직접 공개했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-18",
-          "statement": "Anthropic은 자체 wet lab과 파트너 연구실을 운영했지만 구체적인 검증 성과는 공개하지 않았다.",
-          "evidenceIds": [
-            "anthropic-wet-lab-reuters-20260918"
-          ]
-        },
-        "evidenceIds": [
-          "anthropic-art-enzyme-official-20260923"
-        ],
-        "note": "30+20+18+14+10=92. 기존 실행 카드가 동일 사건의 실험 성과 확인으로 이동했다."
-      },
-      "timing": {
-        "occurredAt": null,
-        "publishedAt": "2026-09-23",
-        "firstSeenAt": "2026-09-24T07:35:20+09:00",
-        "verifiedAt": "2026-09-24T07:35:20+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "AI 신약개발·실험실 자동화",
-          "relationship": "indirect",
-          "text": "AI 후보 탐색과 인간 실험을 연결하는 폐쇄루프가 실제 연구 산출물을 만들었다.",
-          "evidenceIds": [
-            "anthropic-art-enzyme-official-20260923"
-          ]
-        },
-        {
-          "sector": "바이오보안",
-          "relationship": "indirect",
-          "text": "BSL-1·2와 인간 실험 집행을 분리했으나 대규모 생물학 탐색 통제의 장기 성과는 검증이 필요하다.",
-          "evidenceIds": [
-            "anthropic-art-enzyme-official-20260923"
-          ]
-        }
-      ]
-    },
-    {
-      "action": "Meta는 Muse를 실제 배포해 초기 다운로드를 확보했고, 외부 서비스의 접근 제한과 운영 협의를 마주했다.",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-24T07:35:20+09:00",
-        "stage": "outcome",
-        "impactDirection": "mixed",
-        "attribution": "third_party",
-        "breakdown": {
-          "action": {
-            "score": 29,
-            "reason": "실제 출시 후 12일 다운로드와 외부 서비스 대응이 관찰됐다."
-          },
-          "change": {
-            "score": 18,
-            "reason": "제품 배포에서 초기 채택 성과와 플랫폼 마찰 확인으로 이동했다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "소비자 에이전트·결제·웹 접근 규칙 전반에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 15,
-            "reason": "다운로드 기간과 수치가 명확하지만 활성·결제 성과는 남았다."
-          },
-          "source": {
-            "score": 9,
-            "reason": "Reuters가 Apptopia와 Amazon의 실명 자료를 직접 인용했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-08",
-          "statement": "Muse는 미국에 배포됐지만 채택·수익화·외부 서비스 수용 성과는 없었다.",
-          "evidenceIds": [
-            "meta-muse-personal-agent-20260908"
-          ]
-        },
-        "evidenceIds": [
-          "meta-muse-adoption-reuters-20260922",
-          "meta-muse-personal-agent-20260908"
-        ],
-        "note": "29+18+19+15+9=90. 동일 사건이 실행에서 초기 채택 성과로 이동했지만 수익화는 미확인이다."
-      },
-      "before": "9월 8일 미국에 Muse를 배포했지만 반복 사용·다운로드·유료 전환·외부 서비스 수용은 확인되지 않았다.",
-      "counter": "다운로드는 활성 사용자·완료율·유료 전환을 뜻하지 않으며 Amazon 갈등은 서비스 범위 축소와 규제 비용으로 이어질 수 있다.",
-      "date": "2026.09.20",
-      "eventId": "meta-muse-personal-agent",
-      "facts": [
-        "Apptopia는 Muse가 출시 12일간 280만 다운로드를 기록했다고 집계했다.",
-        "비교 가능한 첫 12일 기준 Muse 180만 건, ChatGPT 130만 건으로 보도됐다.",
-        "무료 기본형과 월 20달러·100달러 요금제가 있지만 유료 전환과 유지율은 공개되지 않았다.",
-        "Amazon은 Muse가 승인 없이 접근한다며 중단을 요구했고 Meta는 서비스 운영 방식을 두고 대응했다."
-      ],
-      "headline": "Meta Muse가 출시 12일간 280만 다운로드를 기록했지만 외부 서비스 접근 갈등이 드러났다",
-      "hypothesisId": "consumer-personal-agent-platform",
-      "id": "meta-muse-personal-agent",
-      "impact": "초기 채택은 소비자 행동 에이전트 시장을 앞당기지만 웹서비스의 허용·식별·결제 규칙이 플랫폼 확장의 비용과 속도를 결정할 수 있다.",
-      "impactPath": [
-        "초기 대규모 다운로드",
-        "행동 에이전트 반복 사용·구독 전환",
-        "외부 서비스 접근·식별 갈등",
-        "에이전트 플랫폼 규칙과 수익화 재편"
-      ],
-      "industryLinks": [
-        {
-          "sector": "소비자 AI 에이전트·결제",
-          "relationship": "indirect",
-          "text": "초기 다운로드는 행동 에이전트 채택을 보여주지만 유료 전환과 거래량은 공개되지 않았다.",
-          "evidenceIds": [
-            "meta-muse-adoption-reuters-20260922"
-          ]
-        },
-        {
-          "sector": "웹 플랫폼·에이전트 보안",
-          "relationship": "confirmed",
-          "text": "Amazon은 Muse의 승인 없는 접근 중단을 Meta에 요구했다.",
-          "evidenceIds": [
-            "meta-muse-adoption-reuters-20260922"
-          ]
-        }
-      ],
-      "initials": "MZ",
-      "kind": "강화",
-      "leader": "마크 저커버그(Mark Zuckerberg)",
-      "next": "30·90일 활성률, 유료 전환·해지율, 완료·취소·사고율, 주요 사이트 허용 계약, 자격증명 저장·식별 정책 변경을 확인한다.",
-      "now": "외부 집계상 출시 12일간 280만 다운로드가 확인됐고, Amazon은 승인 없이 접근하고 자격증명을 저장한다며 Meta에 중단을 요구했다.",
-      "reportDate": "2026.09.24",
-      "role": "Meta Founder & CEO",
-      "score": 90,
-      "source": "https://www.reuters.com/business/wall-street-expects-metas-ai-agent-shape-into-new-revenue-engine-2026-09-22/",
-      "sourceGrade": "B",
-      "sourceLabel": "Reuters · 2026.09.22",
-      "takeaway": "개인 행동 에이전트가 초기 대규모 채택 성과를 보였지만 Amazon의 접근 중단 요구는 승인·식별·자격증명 관리가 확장 병목임을 함께 보여준다.",
-      "theme": "AI 배포",
-      "timing": {
-        "occurredAt": "2026-09-20",
-        "publishedAt": "2026-09-22",
-        "firstSeenAt": "2026-09-24T07:35:20+09:00",
-        "verifiedAt": "2026-09-24T07:35:20+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      }
-    },
-    {
-      "id": "openai-gpt6-sol-luna-launch",
-      "leader": "샘 알트만(Sam Altman)",
-      "role": "OpenAI CEO",
-      "initials": "SA",
-      "score": 84,
-      "kind": "실행",
-      "date": "2026.09.22",
-      "reportDate": "2026.09.24",
-      "theme": "AI 배포",
-      "eventId": "openai-gpt6-sol-luna-launch",
-      "hypothesisId": "frontier-model-cost-curve",
-      "headline": "OpenAI가 GPT-6 Sol·Luna를 생산 배포하고 가격·캐시 비용을 낮췄다",
-      "takeaway": "프런티어 경쟁이 최고 성능뿐 아니라 실제 코딩·업무 경로의 토큰 비용과 캐시 효율로 이동했다. 파트너 토큰 절감은 확인됐지만 고객 총비용·품질·마진은 남아 있다.",
-      "before": "GPT-5.6은 연구·코딩 성과를 확대했지만 후속 세대의 생산 배포 가격과 장기 문맥 비용 구조는 공개되지 않았다.",
-      "now": "GPT-6 Sol·Luna를 ChatGPT Work·Codex·API에 출시하고 GPT-5.6 대비 낮은 정가와 90% 캐시 읽기 할인을 적용했다.",
-      "facts": [
-        "Sol은 입력 100만 토큰당 2달러·출력 10달러, Luna는 0.10달러·0.50달러로 제시됐다.",
-        "두 모델은 ChatGPT Work·Codex·API에서 같은 날 제공됐다.",
-        "캐시 읽기에는 최대 90% 할인을 적용했다.",
-        "GitHub는 수십억 건 요청에서 신규 프롬프트 토큰 비중이 절반 이상 감소했다고 밝혔다."
-      ],
-      "action": "OpenAI가 두 모델을 실제 제품과 API에 배포하고 가격·캐시 할인 체계를 즉시 적용했다.",
-      "impact": "모델 선택이 최고 성능 단일축에서 처리비용·캐시·속도 조합으로 이동해 추론 수요와 애플리케이션 단위경제를 바꿀 수 있다.",
-      "impactPath": [
-        "신형 모델 생산 배포",
-        "정가·캐시 비용 하락",
-        "코딩·업무 처리량 확대",
-        "추론 인프라 수요와 앱 단위경제 변화"
-      ],
-      "counter": "가격은 프로모션·믹스와 무관한 정가 비교이며 품질 조정 총비용·장기 유지율·OpenAI 마진은 공개되지 않았다. GitHub 수치는 단일 파트너 관측이다.",
-      "next": "실제 고객 토큰 믹스·지연·오류율·코딩 생산성, GPT-5.6 대비 총비용, 캐시 적중률, API 사용량과 OpenAI 추론 마진을 확인한다.",
-      "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "sourceLabel": "OpenAI 공식 출시 · 2026.09.22",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-24T07:35:20+09:00",
-        "stage": "execution",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 24,
-            "reason": "두 모델과 가격·캐시 할인을 제품·API에 실제 적용했다."
-          },
-          "change": {
-            "score": 16,
-            "reason": "성능 중심 출시에서 비용·캐시 효율을 핵심 제품축으로 강화했다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "추론 수요와 AI 애플리케이션 단위경제에 폭넓게 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 15,
-            "reason": "가격·배포면·파트너 토큰 수치가 명확하지만 총비용·마진은 남았다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "OpenAI 공식 원문이 가격·배포·파트너 측정치를 공개했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-06",
-          "statement": "OpenAI는 연구 자동화 사용량을 공개했지만 후속 세대의 생산 가격·캐시 구조는 제시하지 않았다.",
-          "evidenceIds": [
-            "openai-research-metrics-20260906"
-          ]
-        },
-        "evidenceIds": [
-          "openai-gpt6-sol-luna-official-20260922"
-        ],
-        "note": "24+16+19+15+10=84. 실제 생산 배포와 가격 변화는 확인됐으나 고객 총비용·마진은 미확인이다."
-      },
-      "timing": {
-        "occurredAt": "2026-09-22",
-        "publishedAt": "2026-09-22",
-        "firstSeenAt": "2026-09-24T07:35:20+09:00",
-        "verifiedAt": "2026-09-24T07:35:20+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "생성형 AI·추론 인프라",
-          "relationship": "indirect",
-          "text": "낮은 정가와 캐시 할인은 사용량을 늘릴 수 있으나 총연산 수요와 마진 방향은 미확인이다.",
-          "evidenceIds": [
-            "openai-gpt6-sol-luna-official-20260922"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "anthropic-opus55-launch",
-      "leader": "다리오 아모데이(Dario Amodei)",
-      "role": "Anthropic Co-founder & CEO",
-      "initials": "DA",
-      "score": 81,
-      "kind": "실행",
-      "date": "2026.09.22",
-      "reportDate": "2026.09.24",
-      "theme": "AI 배포",
-      "eventId": "anthropic-opus55-launch",
-      "hypothesisId": "frontier-model-cost-curve",
-      "headline": "Anthropic이 외부 사전평가를 거친 Opus 5.5를 더 낮은 비용으로 생산 배포했다",
-      "takeaway": "아모데이의 감속·외부평가 주장이 출시 중단이 아니라 평가 접근과 비용개선을 포함한 배포 절차로 구체화됐다. 독립기관의 전체 결과와 실사용 안전성은 남아 있다.",
-      "before": "9월 12일 아모데이는 외부 평가자에게 직원급 접근을 주고 능력 향상 속도를 늦추자고 제안했지만 신형 모델 절차에 적용한 증거는 없었다.",
-      "now": "Opus 5.5를 주요 클라우드와 API에 출시하면서 Frontier Design·METR의 사전평가와 비용·격리 우회 지표를 공개했다.",
-      "facts": [
-        "Opus 5.5는 AWS·Google Cloud·Azure와 Claude API에 같은 날 제공됐다.",
-        "Opus 5 대비 일반 작업 비용을 약 40%, 토큰 정가를 20%, 캐시 읽기를 60% 낮췄다고 밝혔다.",
-        "Frontier Design과 METR이 출시 전에 모델을 시험했다.",
-        "회사 내부 시험에서 격리 우회 성향이 Opus 5·Mythos 5.1보다 85% 낮았다고 밝혔다."
-      ],
-      "action": "Anthropic이 신형 모델을 생산 배포하면서 외부 기관의 출시 전 평가와 가격 인하를 제품 절차에 적용했다.",
-      "impact": "프런티어 모델의 출시 경쟁이 성능·가격·독립평가를 함께 묶는 방향으로 이동할 수 있다. 다만 평가 결과 공개 범위가 제한되면 감속 약속의 검증력은 낮다.",
-      "impactPath": [
-        "외부 출시 전 평가",
-        "멀티클라우드 생산 배포",
-        "토큰·캐시 비용 하락",
-        "기업 모델 선택과 안전평가 표준 변화"
-      ],
-      "counter": "회사가 제시한 85% 개선은 내부 시험이며 외부 기관의 전체 보고서·실사용 사고율·고객 비용은 공개되지 않았다. 능력 향상 속도가 실제 느려졌는지도 불명확하다.",
-      "next": "METR·Frontier Design 전체 보고서, 모델 카드·사고율, 고객별 비용·성능, 배포 후 통제 우회 사례, 다음 모델 출시 간격을 확인한다.",
-      "source": "https://www.anthropic.com/claude-opus-5-5",
-      "sourceLabel": "Anthropic 공식 출시 · 2026.09.22",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-24T07:35:20+09:00",
-        "stage": "execution",
-        "impactDirection": "mixed",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 24,
-            "reason": "신형 모델을 멀티클라우드·API에 배포하고 사전 외부평가를 적용했다."
-          },
-          "change": {
-            "score": 15,
-            "reason": "감속·외부 접근 주장이 실제 출시 절차에 일부 반영됐다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "기업 AI 가격 경쟁과 출시 전 평가 관행에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "비용·기관·내부 지표는 있으나 외부 전체 결과와 실사용 사고율은 없다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "공식 원문과 Reuters가 출시·평가기관을 교차 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-02",
-          "statement": "Anthropic은 Fable·Mythos 5.1을 배포했지만 아모데이의 감속·외부평가 제안 전이었다.",
-          "evidenceIds": [
-            "anthropic-fable-mythos-official-20260902"
-          ]
-        },
-        "evidenceIds": [
-          "anthropic-opus55-official-20260922",
-          "anthropic-opus55-reuters-20260922"
-        ],
-        "note": "24+15+18+14+10=81. 실제 배포와 사전 외부평가는 확인됐으나 전체 독립 결과는 미공개다."
-      },
-      "timing": {
-        "occurredAt": "2026-09-22",
-        "publishedAt": "2026-09-22",
-        "firstSeenAt": "2026-09-24T07:35:20+09:00",
-        "verifiedAt": "2026-09-24T07:35:20+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "생성형 AI·클라우드",
-          "relationship": "confirmed",
-          "text": "Opus 5.5가 세 주요 클라우드와 API에 실제 배포됐다.",
-          "evidenceIds": [
-            "anthropic-opus55-official-20260922"
-          ]
-        },
-        {
-          "sector": "AI 안전평가",
-          "relationship": "indirect",
-          "text": "출시 전 외부평가가 적용됐지만 전체 결과 공개와 상주 평가자 계약은 별도 검증이 필요하다.",
-          "evidenceIds": [
-            "anthropic-opus55-official-20260922",
-            "anthropic-opus55-reuters-20260922"
-          ]
-        }
-      ]
-    },
-    {
-      "action": "회사가 상장 절차의 속도를 늦춘 것으로 보도돼 공개시장 조달 실행 시점이 후퇴했다.",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-24T07:35:20+09:00",
-        "stage": "execution",
-        "impactDirection": "negative",
-        "attribution": "third_party",
-        "breakdown": {
-          "action": {
-            "score": 22,
-            "reason": "상장 진행 속도 둔화라는 자금조달 행동 변화가 직접 보도됐다."
-          },
-          "change": {
-            "score": 18,
-            "reason": "IPO 신청·검증 단계에서 일정 후퇴로 방향이 약화됐다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "AI 데이터센터 건설의 자본비용과 공급망 발주에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 13,
-            "reason": "상장 재개·수정 공시·첫 매출로 판별 가능하지만 회사 세부 설명은 없다."
-          },
-          "source": {
-            "score": 9,
-            "reason": "Financial Times 직접 보도와 기존 SEC 원문을 대조했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-01",
-          "statement": "SB Energy는 S-1을 제출해 8.8GW 계약과 IPO 계획을 공개했다.",
-          "evidenceIds": [
-            "sb-energy-s1-sec-20260901"
-          ]
-        },
-        "evidenceIds": [
-          "sb-energy-ipo-delay-ft-20260923",
-          "sb-energy-s1-sec-20260901"
-        ],
-        "note": "22+18+19+13+9=81. 기존 legacy 카드를 새 원문과 함께 재평가했으며 IPO 일정 둔화를 약화 신호로 기록했다."
-      },
-      "before": "9월 1일 S-1을 제출해 공모가격·조달액과 2026년 4분기 첫 데이터센터 매출을 공개시장 검증 대상으로 전환했다.",
-      "counter": "IPO 지연 보도는 프로젝트 계약 취소나 8.8GW 수요 소멸을 뜻하지 않는다. 회사가 대체 자금을 조달하거나 등록을 재개하면 영향은 제한될 수 있다.",
-      "date": "2026.09.23",
-      "eventId": "ports-pike",
-      "facts": [
-        "SB Energy는 9월 1일 S-1을 제출했지만 공모가격 범위와 조달액은 제시하지 않았다.",
-        "Financial Times는 9월 23일 회사가 IPO 진행을 늦췄다고 보도했다.",
-        "8.8GW 장기 계약과 NVIDIA 지원 구조는 기존 공시에 남아 있으나 데이터센터 매출은 아직 확인되지 않았다.",
-        "803MW 공정률과 2026년 4분기 첫 매출의 새 원문도 확인되지 않았다."
-      ],
-      "headline": "SB Energy가 공개시장 자금조달 여건 속에서 IPO 진행을 늦췄다",
-      "hypothesisId": "hyp-ports-pike",
-      "id": "ports-pike",
-      "impact": "AI 데이터센터 개발의 병목이 계약 발표에서 대규모 장기자본의 가격·가용성으로 이동했다. 상장 지연은 전력·건설 발주 속도와 계열사 자금 부담을 늦출 수 있다.",
-      "impactPath": [
-        "IPO 일정 둔화",
-        "공개시장 자본 유입 지연",
-        "데이터센터 건설·전력 발주 불확실성 확대",
-        "SoftBank·NVIDIA·OpenAI 집중 위험 재평가"
-      ],
-      "industryLinks": [
-        {
-          "sector": "AI 데이터센터·프로젝트금융",
-          "relationship": "indirect",
-          "text": "IPO 일정 둔화는 대규모 데이터센터 건설 자본의 가격·가용성 위험을 높인다.",
-          "evidenceIds": [
-            "sb-energy-ipo-delay-ft-20260923",
-            "sb-energy-s1-sec-20260901"
-          ]
-        }
-      ],
-      "initials": "AI",
-      "kind": "약화",
-      "leader": "젠슨 황(Jensen Huang) · 샘 알트만(Sam Altman) · 손정의(Masayoshi Son)",
-      "next": "수정 S-1·공모가격·상장 일정, 대체 부채·사모자금, NVIDIA 납입, 803MW 공정률, 2026년 4분기 첫 매출을 확인한다.",
-      "now": "Financial Times는 SB Energy가 IPO 진행을 늦췄다고 보도했으며 공모가격·조달액과 등록 효력·첫 데이터센터 매출은 여전히 확인되지 않았다.",
-      "reportDate": "2026.09.24",
-      "role": "NVIDIA · OpenAI · SoftBank",
-      "score": 81,
-      "source": "https://www.ft.com/content/4a80f076-d1bb-4492-a854-0833d981d5f4",
-      "sourceGrade": "B",
-      "sourceLabel": "Financial Times · 2026.09.23",
-      "takeaway": "8.8GW 계약 공개로 IPO 검증 단계에 들어갔던 계획이 상장 일정 둔화로 약화됐다. 프로젝트 계약 자체의 취소는 아니지만 자본비용과 첫 매출 검증이 더 중요해졌다.",
-      "theme": "AI 인프라",
-      "timing": {
-        "occurredAt": "2026-09-23",
-        "publishedAt": "2026-09-23",
-        "firstSeenAt": "2026-09-24T07:35:20+09:00",
-        "verifiedAt": "2026-09-24T07:35:20+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      }
-    },
-    {
-      "id": "nvidia-dsx-ready-ecosystem",
-      "leader": "젠슨 황(Jensen Huang)",
-      "role": "NVIDIA Founder & CEO",
-      "initials": "JH",
-      "score": 77,
-      "kind": "실행",
-      "date": "2026.09.21",
-      "reportDate": "2026.09.24",
-      "theme": "AI 인프라",
-      "eventId": "nvidia-dsx-ready-ecosystem",
-      "hypothesisId": "ai-factory-qualified-ecosystem",
-      "headline": "NVIDIA가 AI 공장 전력·냉각 제품을 사전 검증하는 DSX Ready 자격체계를 시작했다",
-      "takeaway": "전력 효율 실측을 개별 사례에서 파트너 제품 자격체계로 확장했다. 등재는 상용 설치나 성과 보증이 아니므로 실제 고객 가동과 장애율을 확인해야 한다.",
-      "before": "9월 15일 Lambda와 NVIDIA Eos에서 전력당 토큰 개선이 확인됐지만 호환 전력·냉각 제품의 공통 자격체계는 없었다.",
-      "now": "배터리·냉각 파트너가 DSX 요구사항에 따라 시험 데이터를 제출하는 DSX Ready 프로그램을 시작하고 첫 제품군을 등재했다.",
-      "facts": [
-        "Hitachi Energy·LG Energy Solution·Tesla의 배터리·전력 제품이 첫 자격군에 포함됐다.",
-        "LG Electronics·LiquidStack·Vertiv의 냉각분배장치가 등재됐다.",
-        "파트너가 제품을 시험하고 데이터를 제출해 NVIDIA 요건 충족 여부를 검토받는다.",
-        "NVIDIA는 이 자격이 개별 부지 엔지니어링과 안정성 검토를 대체하지 않는다고 밝혔다."
-      ],
-      "action": "NVIDIA가 파트너 전력·냉각 제품을 시험·등재하는 운영 프로그램을 실제 시작했다.",
-      "impact": "GPU 경쟁력이 칩 성능을 넘어 전력·냉각 상호운용성과 조달 표준으로 확장된다. 자격체계가 채택되면 AI 공장 공급망의 설계 기준과 파트너 진입장벽을 바꿀 수 있다.",
-      "impactPath": [
-        "전력·냉각 제품 사전 자격",
-        "AI 공장 설계·조달 표준화",
-        "파트너 생태계 락인 가능성",
-        "설치 속도·전력당 토큰 변화"
-      ],
-      "counter": "자격 등재는 주문·설치·가동 성과가 아니며 파트너 자체 시험 데이터에 의존한다. 부지별 계통·안전·냉각 설계는 별도 검증이 필요하다.",
-      "next": "등재 제품 주문·설치 수, 고객 부지 가동률·장애율, 인증 탈락·갱신 기준, 전력당 토큰과 설치기간의 독립 측정을 확인한다.",
-      "source": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-      "sourceLabel": "NVIDIA 공식 발표 · 2026.09.21",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-09-24T07:35:20+09:00",
-        "stage": "execution",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 22,
-            "reason": "자격 프로그램을 시작하고 첫 파트너 제품군을 등재했다."
-          },
-          "change": {
-            "score": 13,
-            "reason": "개별 운영 실측에서 공급망 전반의 사전 검증 체계로 범위를 넓혔다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "AI 공장 전력·냉각 조달 기준과 생태계 구조에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "파트너·제품군·시험 절차는 공개됐으나 설치·성과는 남았다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "NVIDIA 공식 원문이 참가사·범위·한계를 직접 공개했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-15",
-          "statement": "NVIDIA는 특정 운영 환경의 전력당 토큰 개선을 공개했지만 파트너 제품 자격체계는 없었다.",
-          "evidenceIds": [
-            "nvidia-ai-factory-power-validation-20260915"
-          ]
-        },
-        "evidenceIds": [
-          "nvidia-dsx-ready-official-20260921"
-        ],
-        "note": "22+13+18+14+10=77. 운영 프로그램 출범은 실행이지만 실제 설치·성과 전이다."
-      },
-      "timing": {
-        "occurredAt": "2026-09-21",
-        "publishedAt": "2026-09-21",
-        "firstSeenAt": "2026-09-24T07:35:20+09:00",
-        "verifiedAt": "2026-09-24T07:35:20+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "AI 데이터센터 전력·냉각",
-          "relationship": "confirmed",
-          "text": "공식 자격 프로그램에 배터리·전력·냉각 파트너 제품이 등재됐다.",
-          "evidenceIds": [
-            "nvidia-dsx-ready-official-20260921"
-          ]
-        }
-      ]
     }
   ],
   "status": "signals",
-  "statusMessage": "22명 전원을 확인했고, 결정적 신호 8건과 관찰 신호 2건을 선별했습니다.",
+  "statusMessage": "22명 전원을 확인해 결정적 신호 5건과 관찰 신호 1건을 선별했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -16296,6 +17123,20 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "softbank-digitalbridge-acquisition-close",
+            "eventIds": [
+              "softbank-digitalbridge-acquisition-close"
+            ],
+            "note": "같은 발표·사건의 참여자와 반복 보도는 하나의 사건으로 집계한다."
+          },
+          {
+            "id": "nvidia-coreweave-vera-rubin-production",
+            "eventIds": [
+              "nvidia-coreweave-vera-rubin-production"
+            ],
+            "note": "같은 발표·사건의 참여자와 반복 보도는 하나의 사건으로 집계한다."
+          },
           {
             "id": "tesla-30b-credit-facilities",
             "eventIds": [
@@ -16582,6 +17423,22 @@
         ],
         "supporting": [
           {
+            "eventId": "softbank-digitalbridge-acquisition-close",
+            "text": "SoftBank가 DigitalBridge 인수를 완료해 디지털 인프라 운용 플랫폼을 편입했다.",
+            "evidenceIds": [
+              "softbank-digitalbridge-close-official-20260930"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "nvidia-coreweave-vera-rubin-production",
+            "text": "Vera Rubin이 CoreWeave 생산 클러스터와 Cognition 워크로드에서 가동됐다.",
+            "evidenceIds": [
+              "nvidia-coreweave-vera-rubin-official-20260930"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "tesla-30b-credit-facilities",
             "text": "Tesla가 300억달러 신용계약으로 AI·로보택시·반도체 투자 선택권을 확보했다.",
             "evidenceIds": [
@@ -16753,6 +17610,20 @@
         },
         "independentEventGroups": [
           {
+            "id": "ftc-frontier-agent-probe",
+            "eventIds": [
+              "ftc-frontier-agent-probe"
+            ],
+            "note": "같은 발표·사건의 참여자와 반복 보도는 하나의 사건으로 집계한다."
+          },
+          {
+            "id": "openai-distillation-campaign-disruption",
+            "eventIds": [
+              "openai-distillation-campaign-disruption"
+            ],
+            "note": "같은 발표·사건의 참여자와 반복 보도는 하나의 사건으로 집계한다."
+          },
+          {
             "id": "nvidia-open-agent-safety-platform",
             "eventIds": [
               "nvidia-open-agent-safety-platform"
@@ -16873,6 +17744,24 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "ftc-frontier-agent-probe",
+            "text": "이탈 에이전트 문제가 미국 연방 강제 조사로 확대됐다.",
+            "evidenceIds": [
+              "ftc-frontier-agent-probe-reuters-20260930",
+              "ftc-frontier-agent-probe-ap-20260930"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-distillation-campaign-disruption",
+            "text": "암호화 추론 출력이 경쟁 모델 증류와 개인정보·자격증명 노출의 공격면이 됐다.",
+            "evidenceIds": [
+              "openai-distillation-disruption-official-20260930",
+              "encrypted-reasoning-research-arxiv-20260810"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-open-agent-safety-platform",
             "text": "독립 공격시험·실제 고객 배치·사고 감소율이 없다.",
@@ -17025,6 +17914,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "openai-distillation-campaign-disruption",
+            "text": "OpenAI가 대규모 모델 증류 캠페인을 차단하고 계정·출력 통제를 강화했다.",
+            "evidenceIds": [
+              "openai-distillation-disruption-official-20260930",
+              "encrypted-reasoning-research-arxiv-20260810"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-open-agent-safety-platform",
             "text": "NVIDIA가 에이전트 권한격리와 독립 감시 하드웨어를 공개했다.",
@@ -17200,6 +18098,20 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "amd-ross-embedded-agent",
+            "eventIds": [
+              "amd-ross-embedded-agent"
+            ],
+            "note": "같은 발표·사건의 참여자와 반복 보도는 하나의 사건으로 집계한다."
+          },
+          {
+            "id": "google-gemini4-argon-early-deployment",
+            "eventIds": [
+              "google-gemini4-argon-early-deployment"
+            ],
+            "note": "같은 발표·사건의 참여자와 반복 보도는 하나의 사건으로 집계한다."
+          },
           {
             "id": "meta-muse-small-business-connectors",
             "eventIds": [
@@ -17666,6 +18578,23 @@
         ],
         "supporting": [
           {
+            "eventId": "amd-ross-embedded-agent",
+            "text": "AMD가 임베디드 설계 에이전트 Ross와 MCP·지식도구를 실제 제공했다.",
+            "evidenceIds": [
+              "amd-ross-official-20260930"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "google-gemini4-argon-early-deployment",
+            "text": "Gemini 4 Argon이 내부·보안 파트너에 배포되고 생산·보안 성과가 공개됐다.",
+            "evidenceIds": [
+              "google-gemini4-argon-official-20260930",
+              "google-gemini4-argon-reuters-20260930"
+            ],
+            "status": "verified"
+          },
+          {
             "eventId": "meta-muse-small-business-connectors",
             "text": "Meta가 Muse를 중소기업 외부 SaaS에 연결해 실제 출시했다.",
             "evidenceIds": [
@@ -18059,5 +18988,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T07:28:00+09:00"
+  "updatedAt": "2026-10-01T07:32:00+09:00"
 }
