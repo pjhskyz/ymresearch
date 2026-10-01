@@ -53,7 +53,7 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '7f8bfa373b41b37d658470e225295c18969352d975d85c5708fd6c26f7116786'
+          expected = '8790403959d8d20a4155cf1e97d1f03460cb3f9a824ebb2eacc90a2798ac9e8a'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
@@ -61,15 +61,44 @@ jobs:
           PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
           grep -q '2026.09' k-ramen-dashboard/index.html
-          grep -q 'period:"1-20"' k-ramen-dashboard/index.html
-          grep -q 'releaseDate:"2026-09-21"' k-ramen-dashboard/index.html
-          grep -q 'total:118.905931' k-ramen-dashboard/index.html
+          grep -q 'period:"full"' k-ramen-dashboard/index.html
+          grep -q 'releaseDate:"2026-10-01"' k-ramen-dashboard/index.html
+          grep -q 'total:169.263130' k-ramen-dashboard/index.html
           grep -q 'm:"2026.08",total:156.623983' k-ramen-dashboard/index.html
           grep -q 'kg:37311905.90,krw:223264563685,countryCount:106,status:"final",period:"full",asOf:"2026-08-31",releaseDate:"2026-09-15"' k-ramen-dashboard/index.html
           grep -q '최근 확정치' k-ramen-dashboard/index.html
           grep -q '2025 Q2 vs 2026 Q2' k-ramen-dashboard/index.html
           grep -q '진행 중 분기 추정' k-ramen-dashboard/index.html
           grep -q 'buildCurrentQuarterEstimate' k-ramen-dashboard/index.html
+          node - <<'JS'
+          const assert = require('node:assert/strict');
+          const fs = require('node:fs');
+          const vm = require('node:vm');
+          const html = fs.readFileSync('k-ramen-dashboard/index.html', 'utf8');
+          const start = html.indexOf('const YEARLY=');
+          const end = html.indexOf('// KPI', start);
+          assert(start >= 0 && end > start, 'Dashboard data and calculation block was not found.');
+          const { M, Q, QE } = vm.runInNewContext(html.slice(start, end) + ';({M,Q,QE})');
+          const latest = M[M.length - 1];
+          const [year, month] = latest.m.split('.').map(Number);
+          const quarter = Math.ceil(month / 3);
+          const label = year + ' Q' + quarter;
+          const rows = M.filter(r => Number(r.m.slice(0, 4)) === year && Math.ceil(Number(r.m.slice(5)) / 3) === quarter);
+          const complete = rows.length === 3 && rows.every(r => r.period === 'full');
+          if (complete) {
+            assert.equal(QE, null, 'A completed quarter must not retain an estimate.');
+            const actual = Q.find(q => q.label === label);
+            assert(actual && actual.months === 3, 'Completed quarter is missing from monthly aggregates.');
+            for (const field of ['total', 'kg']) {
+              const expected = rows.reduce((sum, r) => sum + r[field], 0);
+              assert(Math.abs(actual[field] - expected) < 1e-6, 'Quarter aggregate mismatch: ' + field);
+            }
+            assert.equal(actual.provisional, rows.some(r => r.status === 'provisional'), 'Quarter provisional badge is incorrect.');
+          } else {
+            assert(QE && QE.label === label && QE.estimate, 'An incomplete quarter requires a separate estimate.');
+            assert(!Q.some(q => q.label === label), 'An incomplete quarter must not enter actual aggregates.');
+          }
+          JS
           touch .nojekyll
 
 
@@ -159,6 +188,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 
 
