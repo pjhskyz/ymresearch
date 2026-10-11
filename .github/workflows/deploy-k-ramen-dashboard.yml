@@ -53,17 +53,17 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '8790403959d8d20a4155cf1e97d1f03460cb3f9a824ebb2eacc90a2798ac9e8a'
+          expected = 'd00eb49a0b1e14b15f272f1478044ada81049bc0f31c32174d76b353ffe3db03'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
           path.write_bytes(html)
           PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
-          grep -q '2026.09' k-ramen-dashboard/index.html
-          grep -q 'period:"full"' k-ramen-dashboard/index.html
-          grep -q 'releaseDate:"2026-10-01"' k-ramen-dashboard/index.html
-          grep -q 'total:169.263130' k-ramen-dashboard/index.html
+          grep -q '2026.10' k-ramen-dashboard/index.html
+          grep -q 'period:"1-10"' k-ramen-dashboard/index.html
+          grep -q 'releaseDate:"2026-10-11"' k-ramen-dashboard/index.html
+          grep -q 'total:44.160390' k-ramen-dashboard/index.html
           grep -q 'm:"2026.08",total:156.623983' k-ramen-dashboard/index.html
           grep -q 'kg:37311905.90,krw:223264563685,countryCount:106,status:"final",period:"full",asOf:"2026-08-31",releaseDate:"2026-09-15"' k-ramen-dashboard/index.html
           grep -q '최근 확정치' k-ramen-dashboard/index.html
@@ -80,6 +80,20 @@ jobs:
           assert(start >= 0 && end > start, 'Dashboard data and calculation block was not found.');
           const { M, Q, QE } = vm.runInNewContext(html.slice(start, end) + ';({M,Q,QE})');
           const latest = M[M.length - 1];
+          assert.equal(latest.m, '2026.10');
+          assert.equal(latest.period, '1-10');
+          assert.equal(latest.asOf, '2026-10-10');
+          assert.equal(latest.releaseDate, '2026-10-11');
+          assert.equal(latest.total, 44.160390);
+          assert.equal(latest.kg, 10504843.23);
+          assert.equal(latest.krw, 60250817689);
+          assert.equal(latest.countryCount, 149);
+          assert.equal(latest.activeCountryCount, 69);
+          assert(QE && QE.label === '2026 Q4' && QE.partialIncluded);
+          assert(Math.abs(QE.total - latest.total / 10 * 31 * 3) < 1e-8);
+          assert(Math.abs(QE.kg - latest.kg / 10 * 31 * 3) < 1e-6);
+          assert.equal(QE.observedTotal, latest.total);
+          assert(QE.basis.includes('10월 1~10일') && QE.basis.includes('31일'));
           const [year, month] = latest.m.split('.').map(Number);
           const quarter = Math.ceil(month / 3);
           const label = year + ' Q' + quarter;
@@ -188,6 +202,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 
 
