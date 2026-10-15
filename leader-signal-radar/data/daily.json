@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.15",
+  "asOfDate": "2026.10.16",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -307,21 +307,303 @@
     }
   ],
   "currentObservationIds": [
-    "nvidia-uk-ai-safety-20261014",
-    "grok-bipa-class-actions-20261013",
-    "hassabis-dynamic-ai-certification-20261014",
-    "anthropic-singapore-office-mou-20261014"
+    "ge-venture-global-power-frame-20261015",
+    "meta-muse-spark-1-3"
   ],
   "currentSignalIds": [
-    "microsoft-cybercrime-marketplace-20261014",
-    "openai-eight-state-lawsuits-20261014",
-    "anthropic-midterm-safeguards-20261014",
-    "softbank-record-junk-bond-20260924",
-    "meta-west-africa-scam-disruption-20261013"
+    "tsmc-q3-record-revenue-20261008",
+    "dario-frontier-pacing"
   ],
-  "dailyThesis": "AI 안전이 선언에서 법원 집행·범죄 인프라 압류·선거 오남용 차단으로 이동했다. 동시에 SoftBank는 고금리 레버리지로 AI 집중투자를 유지해 안전·신용 양쪽의 검증 압력이 커졌다.",
-  "lastSuccessfulRun": "2026-10-15T07:33:32+09:00",
+  "dailyThesis": "AI 투자 판단의 초점이 발표 규모에서 검증 가능한 운영 결과로 이동했다. TSMC는 AI 수요를 이익·2나노 매출로 전환했고 Anthropic은 독립 평가자를 내부에 배치했다. 반면 전력 예약계약과 오픈웨이트 공개는 후속 주문·독립 채택 검증이 남아 있다.",
+  "lastSuccessfulRun": "2026-10-16T07:29:10+09:00",
   "observations": [
+    {
+      "id": "ge-venture-global-power-frame-20261015",
+      "eventId": "ge-venture-global-offgrid-power-frame",
+      "hypothesisId": "ge-venture-global-offgrid-power",
+      "leader": "스콧 스트라직(Scott Strazik)",
+      "role": "GE Vernova CEO",
+      "initials": "SS",
+      "score": 74,
+      "kind": "신규",
+      "date": "2026.10.09",
+      "reportDate": "2026.10.16",
+      "theme": "에너지 전환",
+      "headline": "GE Vernova가 Venture Global과 최대 16기·10GW 초과 전력섬 장비 프레임 계약을 맺었다",
+      "takeaway": "AI·LNG 부지의 계통 독립형 전력 수요가 단일 장비 주문에서 최대 16개 전력섬의 장기 프레임 계약으로 커졌다. 그러나 최대 172억달러는 모두 확정 주문이 아니며 후속 구매주문이 핵심 검증점이다.",
+      "before": "GE Vernova는 AI 공장용 발전·계통·전력품질 장비를 개별 제품과 프로젝트 단위로 공급하고 있었다.",
+      "now": "Venture Global은 GE Vernova와 2034년까지 최대 16개 720MW 전력섬 장비를 확보하는 프레임 계약을 체결했고 첫 구매주문은 2026년 말까지 예상한다.",
+      "facts": [
+        "10월 9일 체결된 프레임 계약은 최대 16개 720MW 전력섬, 총 10GW를 넘는 가스터빈·발전 장비를 대상으로 하며 납기는 2034년까지다.",
+        "첫 구매주문은 2026년 말까지 예상되며, 첫 8개 전력섬과 나머지 8개의 예약 구조가 포함됐다.",
+        "모든 구매주문이 발행될 경우 공시상 총액은 최대 172억달러지만 현재 구속력은 예약 수수료와 일부 준비 의무에 제한된다.",
+        "Venture Global은 기존 4.5GW 규모 계통 독립형 전력망을 10GW 이상 추가 확대하려 한다."
+      ],
+      "action": "GE Vernova가 Venture Global과 다년간의 전력섬 장비 예약·프레임 계약을 체결해 생산 슬롯과 후속 발주 경로를 확보했다.",
+      "impact": "데이터센터·LNG의 계통 대기시간을 우회하는 현장발전 수요가 가스터빈·변압기·스위치기어·서비스 수주로 연결될 수 있다. 동시에 연료·배출·구매주문 전환 위험이 커진다.",
+      "impactPath": [
+        "대규모 전력부하의 계통 연결 지연",
+        "현장형 전력섬 예약과 생산 슬롯 확보",
+        "가스터빈·계통장비·장기서비스 후속 발주",
+        "구매주문 전환·연료·배출 허가가 실제 매출을 결정"
+      ],
+      "counter": "SEC 공시는 예약 계약만으로 전 장비 구매·공급 의무가 생기지 않는다고 명시한다. 최대 172억달러는 모든 후속 주문이 발행될 때의 상한이며 부지·연료·허가·자금과 배출 비용도 남아 있다.",
+      "next": "2026년 말 첫 구매주문, 각 전력섬의 부지·연료·허가·금융, GE Vernova의 실제 수주잔고 반영액과 2034년까지 납품 일정을 확인한다.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm",
+      "sourceLabel": "Venture Global SEC 8-K · 2026.10.15",
+      "sourceGrade": "A",
+      "stage": "commitment",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 22,
+          "reason": "최대 16개 전력섬의 생산 슬롯과 후속 구매주문 구조를 계약으로 확보했다."
+        },
+        "change": {
+          "score": 11,
+          "reason": "개별 AI 전력제품에서 10GW 초과 다년 프레임 계약으로 범위가 확대됐지만 확정 주문은 아니다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "가스터빈·계통장비·서비스와 AI·LNG 전력 인프라 자본흐름에 큰 파급경로가 있다."
+        },
+        "verification": {
+          "score": 13,
+          "reason": "연말 첫 구매주문·수주잔고·부지별 허가와 납품으로 판별할 수 있다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "SEC 계약 공시, 회사 원문과 Reuters 직접 보도를 교차 확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-08-24",
+        "statement": "GE Vernova는 AI 공장용 발전·계통·전력품질 장비를 포괄하는 power-to-rack 전략과 2027년 첫 MV-UPS 출하 계획을 제시했다.",
+        "evidenceIds": [
+          "ge-ai-factory-mvups-official-20260824"
+        ]
+      },
+      "evidenceIds": [
+        "venture-global-ge-frame-sec-20261015",
+        "venture-global-ge-frame-official-20261015",
+        "venture-global-ge-frame-reuters-20261015"
+      ],
+      "assessmentNote": "22+11+18+13+10=74. 계약·예약은 구체적이지만 후속 구매주문 전 commitment 단계이므로 관찰 상한을 적용했다.",
+      "occurredAt": "2026-10-09",
+      "publishedAt": "2026-10-15",
+      "industryLinks": [
+        {
+          "sector": "가스터빈·계통 장비",
+          "relationship": "confirmed",
+          "text": "Venture Global과 GE Vernova 사이 최대 16개 전력섬의 장비 예약·프레임 계약이 공시됐다.",
+          "evidenceIds": [
+            "venture-global-ge-frame-sec-20261015",
+            "venture-global-ge-frame-official-20261015"
+          ]
+        },
+        {
+          "sector": "AI 데이터센터·LNG 전력",
+          "relationship": "indirect",
+          "text": "계통 독립형 전력망 확대는 대규모 연속 부하의 전력 확보 방식에 영향을 주지만 부지별 최종 용도와 주문은 아직 확정되지 않았다.",
+          "evidenceIds": [
+            "venture-global-ge-frame-official-20261015",
+            "venture-global-ge-frame-reuters-20261015"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-16T07:29:10+09:00",
+        "stage": "commitment",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 22,
+            "reason": "최대 16개 전력섬의 생산 슬롯과 후속 구매주문 구조를 계약으로 확보했다."
+          },
+          "change": {
+            "score": 11,
+            "reason": "개별 AI 전력제품에서 10GW 초과 다년 프레임 계약으로 범위가 확대됐지만 확정 주문은 아니다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "가스터빈·계통장비·서비스와 AI·LNG 전력 인프라 자본흐름에 큰 파급경로가 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "연말 첫 구매주문·수주잔고·부지별 허가와 납품으로 판별할 수 있다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "SEC 계약 공시, 회사 원문과 Reuters 직접 보도를 교차 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-08-24",
+          "statement": "GE Vernova는 AI 공장용 발전·계통·전력품질 장비를 포괄하는 power-to-rack 전략과 2027년 첫 MV-UPS 출하 계획을 제시했다.",
+          "evidenceIds": [
+            "ge-ai-factory-mvups-official-20260824"
+          ]
+        },
+        "evidenceIds": [
+          "venture-global-ge-frame-sec-20261015",
+          "venture-global-ge-frame-official-20261015",
+          "venture-global-ge-frame-reuters-20261015"
+        ],
+        "note": "22+11+18+13+10=74. 계약·예약은 구체적이지만 후속 구매주문 전 commitment 단계이므로 관찰 상한을 적용했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-09",
+        "publishedAt": "2026-10-15",
+        "firstSeenAt": "2026-10-16T07:29:10+09:00",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "10월 9일 계약은 10월 15일 SEC 8-K와 회사 보도자료로 처음 공개돼 조사 구간에서 원문 확인했다."
+      }
+    },
+    {
+      "id": "meta-muse-spark-1-3",
+      "eventId": "meta-muse-spark-1-3",
+      "hypothesisId": "hyp-meta-muse-spark-1-3",
+      "leader": "마크 저커버그(Mark Zuckerberg)",
+      "role": "Meta Founder & CEO",
+      "initials": "MZ",
+      "score": 70,
+      "kind": "실행",
+      "date": "2026.10.15",
+      "reportDate": "2026.10.16",
+      "theme": "AI 배포",
+      "headline": "Meta가 예고했던 Muse Spark 오픈웨이트를 공개해 8160억 매개변수 에이전트 모델의 로컬 실행을 열었다",
+      "takeaway": "9월의 오픈웨이트 예고가 실제 가중치 공개로 전환됐다. API 중심 배포에서 로컬·자체운영 선택지로 넓어졌지만 두 대의 고급 Mac이 필요한 규모와 독립 성능·비용 검증은 채택을 제한할 수 있다.",
+      "before": "9월 2일 Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하면서 더 큰 모델과 Muse Spark 오픈웨이트를 추후 공개하겠다고 예고했다.",
+      "now": "Meta는 총 8160억·활성 420억 매개변수와 100만 토큰 문맥을 갖춘 Muse Spark 오픈웨이트를 공개하고 두 대의 Apple M5 Ultra Mac 또는 API에서 실행할 수 있다고 밝혔다.",
+      "facts": [
+        "Muse Spark 오픈웨이트 모델은 총 8160억 매개변수 중 420억을 활성화하고 100만 토큰 문맥을 지원한다.",
+        "가중치가 공개돼 두 대의 M5 Ultra Mac을 연결한 로컬 환경이나 Meta Model API에서 실행할 수 있다.",
+        "Meta는 코딩·에이전트 작업을 주요 용도로 제시했으며 9월 2일 Muse Spark 1.3 발표에서 오픈웨이트 출시를 예고했다."
+      ],
+      "action": "Meta가 Muse Spark의 모델 가중치를 실제 공개해 개발자의 로컬·자체운영 배포 경로를 열었다.",
+      "impact": "대형 에이전트 모델의 가중치 공개는 API 종속과 데이터 통제에 선택지를 주지만 필요한 하드웨어 규모와 검증되지 않은 단위경제성이 실사용 범위를 좌우한다.",
+      "impactPath": [
+        "오픈웨이트 약속의 실제 공개",
+        "개발자 로컬·자체운영 선택지 확대",
+        "에이전트 모델 API 가격·데이터 통제 경쟁",
+        "하드웨어 비용·독립 벤치마크가 채택을 결정"
+      ],
+      "counter": "두 대의 고급 M5 Ultra Mac이 필요하고 Meta의 성능 주장과 100만 토큰 품질은 독립 재현되지 않았다. 다운로드·기업 배포·API 가격과 저커버그의 제품 통합 성과도 공개되지 않았다.",
+      "next": "공개 저장소 라이선스·다운로드, 독립 코딩·에이전트 벤치마크, 로컬 추론 비용·속도, Meta 제품 통합과 기업 배포를 확인한다.",
+      "source": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/",
+      "sourceLabel": "Reuters 직접 보도 · Muse Spark 오픈웨이트 · 2026.10.15",
+      "sourceGrade": "B",
+      "stage": "execution",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 24,
+          "reason": "예고했던 모델 가중치를 실제 공개해 로컬·자체운영 경로를 열었다."
+        },
+        "change": {
+          "score": 12,
+          "reason": "API 배포에서 오픈웨이트로 범위가 넓어졌지만 Meta의 개방 전략 자체는 지속선상이다."
+        },
+        "impact": {
+          "score": 14,
+          "reason": "에이전트 모델의 API 종속·데이터 통제·하드웨어 선택에 영향을 줄 수 있다."
+        },
+        "verification": {
+          "score": 11,
+          "reason": "공개 저장소·다운로드·독립 벤치마크·로컬 비용으로 판별할 수 있다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "Reuters 직접 보도와 9월 Meta 공식 예고 원문을 확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-09-02",
+        "statement": "Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하며 오픈웨이트는 추후 공개하겠다고 예고했다.",
+        "evidenceIds": [
+          "meta-muse-spark-13-official-20260902"
+        ]
+      },
+      "evidenceIds": [
+        "meta-muse-spark-open-weight-reuters-20261015"
+      ],
+      "assessmentNote": "24+12+14+11+9=70. legacy의 내부 효율 주장과 달리 공개 약속의 실행을 확인했지만 독립 성능·채택이 없어 관찰로 재평가했다.",
+      "occurredAt": "2026-10-15",
+      "publishedAt": "2026-10-16T06:19:00+09:00",
+      "industryLinks": [
+        {
+          "sector": "오픈웨이트 AI·개발자 도구",
+          "relationship": "indirect",
+          "text": "공개 가중치는 자체운영과 모델 수정 선택지를 넓히지만 실제 채택·라이선스·비용은 추가 검증이 필요하다.",
+          "evidenceIds": [
+            "meta-muse-spark-open-weight-reuters-20261015"
+          ]
+        },
+        {
+          "sector": "AI 추론 하드웨어",
+          "relationship": "hypothesis",
+          "text": "두 대의 고급 Mac에서 로컬 실행 가능하다는 설명은 하드웨어 수요 가능성을 제시할 뿐 공급 계약을 뜻하지 않는다.",
+          "evidenceIds": [
+            "meta-muse-spark-open-weight-reuters-20261015"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-16T07:29:10+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 24,
+            "reason": "예고했던 모델 가중치를 실제 공개해 로컬·자체운영 경로를 열었다."
+          },
+          "change": {
+            "score": 12,
+            "reason": "API 배포에서 오픈웨이트로 범위가 넓어졌지만 Meta의 개방 전략 자체는 지속선상이다."
+          },
+          "impact": {
+            "score": 14,
+            "reason": "에이전트 모델의 API 종속·데이터 통제·하드웨어 선택에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 11,
+            "reason": "공개 저장소·다운로드·독립 벤치마크·로컬 비용으로 판별할 수 있다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "Reuters 직접 보도와 9월 Meta 공식 예고 원문을 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-02",
+          "statement": "Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하며 오픈웨이트는 추후 공개하겠다고 예고했다.",
+          "evidenceIds": [
+            "meta-muse-spark-13-official-20260902"
+          ]
+        },
+        "evidenceIds": [
+          "meta-muse-spark-open-weight-reuters-20261015"
+        ],
+        "note": "24+12+14+11+9=70. legacy의 내부 효율 주장과 달리 공개 약속의 실행을 확인했지만 독립 성능·채택이 없어 관찰로 재평가했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-15",
+        "publishedAt": "2026-10-16T06:19:00+09:00",
+        "firstSeenAt": "2026-10-16T07:29:10+09:00",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      }
+    },
     {
       "id": "nvidia-uk-ai-safety-20261014",
       "leader": "젠슨 황(Jensen Huang)",
@@ -1434,254 +1716,363 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-10T07:35:03+09:00",
-      "end": "2026-10-15T07:33:32+09:00"
+      "start": "2026-10-12T07:33:32+09:00",
+      "end": "2026-10-16T07:29:10+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://www.tesla.com/blog"
+          "https://ir.tesla.com/press",
+          "https://x.ai/news"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://blogs.nvidia.com/"
+          "https://nvidianews.nvidia.com/news/latest"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://openai.com/news/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://www.anthropic.com/news"
+          "https://www.anthropic.com/news/an-update-on-independent-evaluators"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "Anthropic 원문에서 METR 6명의 실제 배치·접근권·발표권을 확인해 기존 사건을 보강했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://blogs.microsoft.com/"
+          "https://news.microsoft.com/source/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
+          "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/",
+          "https://research.meta.ai/blog/introducing-muse-spark-1-3",
           "https://about.fb.com/news/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "9월 Meta 공식 예고와 10월 오픈웨이트 공개 보도를 대조해 legacy 사건을 재평가했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://newsroom.amd.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://pr.tsmc.com/english"
+          "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf",
+          "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+          "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 분기 실적·경영보고서와 직접 보도를 열어 예비 매출 사건을 실적 성과로 보강했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://group.softbank/en/news"
+          "https://group.softbank/en/news/press"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://www.gevernova.com/news"
+          "https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm",
+          "https://ventureglobal.com/2026/10/15/venture-global-secures-new-agreements-to-support-expansion-of-existing-grid-independent-power-network/",
+          "https://www.reuters.com/business/energy/venture-global-inks-deals-with-ge-vernova-baker-hughes-power-expansion-2026-10-15/",
+          "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "SEC 공시·회사 원문·직접 보도를 열어 예약과 확정 구매주문의 구속력을 구분했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://www.flagshippioneering.com/news"
+          "https://www.flagshippioneering.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://foundersfund.com/news/"
+          "https://foundersfund.com/team/peter-thiel/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://economicprinciples.org/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://a16z.com/news-content/"
+          "https://a16z.com/author/marc-andreessen/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 글의 LLM 사용 관점을 확인했지만 날짜 있는 기준선과 투자판단을 바꿀 행동이 부족해 60점 미만으로 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-15T07:33:32+09:00",
+        "checkedAt": "2026-10-16T07:29:10+09:00",
         "urls": [
-          "https://thenetworkstate.com/"
+          "https://balajis.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했다. 선별된 사건 외에는 기존 전략 반복 또는 점진적 업데이트였다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       }
     ],
     "evidence": [
+      {
+        "id": "tsmc-q3-earnings-release-20261015",
+        "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf",
+        "label": "TSMC 공식 · 2026년 3분기 실적 발표",
+        "grade": "A",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "TSMC는 3분기 매출 1조4,942.4억 대만달러, 순이익 7,630.6억 대만달러, 총마진 66.4%, 2나노 매출 비중 8%를 보고했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tsmc-q3-management-report-20261015",
+        "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+        "label": "TSMC 공식 · 2026년 3분기 경영보고서",
+        "grade": "A",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "TSMC의 3분기 HPC 매출 비중은 68%, 2나노 비중은 8%였고 초기 2나노 램프가 총마진에 부담을 줬다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tsmc-q3-results-reuters-20261015",
+        "url": "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/",
+        "label": "Reuters 직접 보도 · TSMC 3분기 실적",
+        "grade": "B",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Reuters는 TSMC의 4분기 매출 가이던스 523억~543억달러, 2026년 약 44% 성장 전망과 600억~640억달러 설비투자 계획을 확인했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "anthropic-metr-embedded-evaluator-official-20261015",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "label": "Anthropic 공식 · 상주형 독립 평가자 업데이트",
+        "grade": "A",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Anthropic은 METR 직원 6명에게 직원급 내부 접근을 제공했고 METR은 회사가 거부할 수 없는 독립 평가 발표권을 갖는다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "ge-ai-factory-mvups-official-20260824",
+        "url": "https://www.gevernova.com/news/press-releases/ge-vernova-introduces-medium-voltage-ups-help-accelerate-buildout-ai-factories",
+        "label": "GE Vernova 공식 기준선 · AI 공장 MV-UPS",
+        "grade": "A",
+        "publishedAt": "2026-08-24",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "GE Vernova는 발전·계통·전력품질 장비를 묶는 AI 데이터센터 power-to-rack 전략과 2027년 MV-UPS 첫 출하 계획을 공개했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "venture-global-ge-frame-sec-20261015",
+        "url": "https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm",
+        "label": "Venture Global SEC 8-K · GE Vernova 프레임 계약",
+        "grade": "A",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Venture Global은 최대 16개 전력섬 장비 프레임 계약과 최대 172억달러 조건을 공시했지만 후속 구매주문 전에는 전 장비 구매·공급 의무가 없다고 명시했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "venture-global-ge-frame-official-20261015",
+        "url": "https://ventureglobal.com/2026/10/15/venture-global-secures-new-agreements-to-support-expansion-of-existing-grid-independent-power-network/",
+        "label": "Venture Global 공식 · 계통 독립형 전력망 확대",
+        "grade": "A",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Venture Global은 최대 16개 720MW 전력섬과 10GW를 넘는 현장발전 확대를 위해 GE Vernova와 장비·서비스 계약을 맺었다.",
+        "provenance": "official"
+      },
+      {
+        "id": "venture-global-ge-frame-reuters-20261015",
+        "url": "https://www.reuters.com/business/energy/venture-global-inks-deals-with-ge-vernova-baker-hughes-power-expansion-2026-10-15/",
+        "label": "Reuters 직접 보도 · Venture Global–GE Vernova 계약",
+        "grade": "B",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Reuters는 GE Vernova가 최대 16개 전력섬의 가스터빈·발전 장비를 2034년까지 공급하는 프레임 계약과 연말 첫 주문 계획을 확인했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "meta-muse-spark-13-official-20260902",
+        "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+        "label": "Meta AI Research 기준선 · Muse Spark 1.3",
+        "grade": "A",
+        "publishedAt": "2026-09-02",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하며 더 큰 모델과 Muse Spark 오픈웨이트를 추후 공개하겠다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "meta-muse-spark-open-weight-reuters-20261015",
+        "url": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/",
+        "label": "Reuters 직접 보도 · Meta Muse Spark 오픈웨이트",
+        "grade": "B",
+        "publishedAt": "2026-10-16T06:19:00+09:00",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "claim": "Meta는 총 8160억·활성 420억 매개변수와 100만 토큰 문맥을 갖춘 Muse Spark 가중치를 공개해 두 대의 M5 Ultra Mac 또는 API에서 실행할 수 있게 했다.",
+        "provenance": "direct_report"
+      },
       {
         "id": "meta-west-africa-scam-official-20261013",
         "url": "https://about.fb.com/news/2026/10/meta-tech-companies-law-enforcement-crackdown-global-scam-networks/",
@@ -4204,6 +4595,657 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261016-tsmc-q3-2026-record-revenue-reinforced",
+        "eventId": "tsmc-q3-2026-record-revenue",
+        "signalId": "tsmc-q3-record-revenue-20261008",
+        "hypothesisId": "tsmc-ai-demand-revenue-conversion",
+        "previousRevisionId": "revision-20261009-tsmc-q3-2026-record-revenue",
+        "reportDate": "2026.10.16",
+        "recordedAt": "2026-10-16T07:29:10+09:00",
+        "tier": "signal",
+        "score": 92,
+        "headline": "TSMC가 3분기 순이익 68.7% 증가와 2나노 매출 비중 8%를 확인하고 4분기 매출 523억~543억달러를 제시했다",
+        "source": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "29+19+19+15+10=92. 실적 성과와 2나노 양산을 결정적으로 보되 초기 램프 비용과 비AI 수요 둔화를 혼합 방향으로 반영했다.",
+        "evidenceIds": [
+          "tsmc-q3-earnings-release-20261015",
+          "tsmc-q3-management-report-20261015",
+          "tsmc-q3-results-reuters-20261015"
+        ],
+        "snapshot": {
+          "id": "tsmc-q3-record-revenue-20261008",
+          "eventId": "tsmc-q3-2026-record-revenue",
+          "hypothesisId": "tsmc-ai-demand-revenue-conversion",
+          "leader": "웨이저자(C.C. Wei)",
+          "role": "TSMC Chairman & CEO",
+          "initials": "CW",
+          "score": 92,
+          "kind": "강화",
+          "date": "2026.10.15",
+          "theme": "AI 인프라",
+          "headline": "TSMC가 3분기 순이익 68.7% 증가와 2나노 매출 비중 8%를 확인하고 4분기 매출 523억~543억달러를 제시했다",
+          "takeaway": "예비 매출 기록이 순이익·마진·2나노 양산 비중으로 검증됐다. AI 수요가 최첨단 공정과 현금창출로 전환되고 있지만 2나노 초기 램프와 비AI 수요 둔화는 다음 분기의 마진 변수다.",
+          "before": "10월 8일 예비 집계에서 3분기 매출 1.49조 대만달러는 확인됐지만 순이익·제품 믹스·총마진과 다음 분기 가이던스는 미확인 상태였다.",
+          "now": "공식 실적에서 순이익 7,630.6억 대만달러, 총마진 66.4%, 2나노 매출 비중 8%, HPC 매출 비중 68%가 확인됐고 회사는 4분기 매출 523억~543억달러를 제시했다.",
+          "facts": [
+            "3분기 매출은 1조4,942.4억 대만달러, 순이익은 7,630.6억 대만달러로 전년 대비 각각 50.9%, 68.7% 증가했다.",
+            "총마진은 66.4%, 영업이익률은 58.7%였고 2나노 공정은 분기 웨이퍼 매출의 8%, HPC는 순매출의 68%를 차지했다.",
+            "4분기 매출 가이던스는 523억~543억달러이며 TSMC는 2026년 연간 매출 성장률 전망을 약 44%로 높였다.",
+            "회사는 2026년 설비투자를 600억~640억달러로 제시하고 애리조나 2공장 생산을 2027년 3분기로 앞당겼다."
+          ],
+          "action": "TSMC가 예비 매출을 감사 전 분기 손익·공정 믹스·다음 분기 가이던스와 자본집행 계획으로 구체화했다.",
+          "impact": "AI 가속기 수요가 2나노와 HPC 비중, 파운드리 수익성으로 전환되는 경로가 선명해졌다. 반면 2나노 초기 램프 비용과 소비·가격 민감형 수요 둔화가 증설의 수익성을 시험한다.",
+          "impactPath": [
+            "AI 가속기 수요와 최첨단 공정 주문 확대",
+            "2나노·HPC 매출 비중 및 파운드리 이익 증가",
+            "장비·첨단패키징·전력 인프라 자본지출 확대",
+            "초기 수율·비AI 수요가 마진 지속성을 검증"
+          ],
+          "counter": "2나노 초기 양산은 총마진을 희석했고 회사는 소비자·가격 민감형 수요가 약하다고 밝혔다. 고객별 집중도와 2027년 AI 수요 지속성도 아직 확정되지 않았다.",
+          "next": "4분기 실제 매출·총마진, 2나노 수율과 매출 비중, 2027년 AI 가속기 주문·CoWoS 증설, 애리조나 2공장 양산 일정을 확인한다.",
+          "source": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "sourceLabel": "TSMC 2026년 3분기 공식 실적 · 2026.10.15",
+          "sourceGrade": "A",
+          "stage": "outcome",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 29,
+              "reason": "예비 매출을 순이익·마진·공정 믹스와 다음 분기 가이던스로 검증했다."
+            },
+            "change": {
+              "score": 19,
+              "reason": "매출 기록만 확인된 상태에서 2나노 양산과 AI 수익 전환의 범위가 의미 있게 확대됐다."
+            },
+            "impact": {
+              "score": 19,
+              "reason": "파운드리·장비·첨단패키징·전력 자본흐름과 공급집중에 직접 영향을 준다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "분기 손익·공정 비중·가이던스·CAPEX와 공장 일정으로 후속 판별이 가능하다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "공식 실적·경영보고서와 Reuters 직접 보도를 교차 확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-08",
+            "statement": "예비 집계에서 3분기 매출 1.49조 대만달러는 확인됐지만 순이익·공정 믹스·총마진은 미확인이었다.",
+            "evidenceIds": [
+              "tsmc-september-revenue-official-20261008",
+              "tsmc-q3-record-revenue-reuters-20261008"
+            ]
+          },
+          "evidenceIds": [
+            "tsmc-q3-earnings-release-20261015",
+            "tsmc-q3-management-report-20261015",
+            "tsmc-q3-results-reuters-20261015"
+          ],
+          "assessmentNote": "29+19+19+15+10=92. 실적 성과와 2나노 양산을 결정적으로 보되 초기 램프 비용과 비AI 수요 둔화를 혼합 방향으로 반영했다.",
+          "occurredAt": "2026-10-15",
+          "publishedAt": "2026-10-15",
+          "industryLinks": [
+            {
+              "sector": "반도체 파운드리·장비",
+              "relationship": "indirect",
+              "text": "2나노 매출 비중 8%와 600억~640억달러 설비투자는 최첨단 공정 장비·소재 수요의 가시성을 높인다.",
+              "evidenceIds": [
+                "tsmc-q3-earnings-release-20261015",
+                "tsmc-q3-results-reuters-20261015"
+              ]
+            },
+            {
+              "sector": "AI 가속기·첨단패키징",
+              "relationship": "hypothesis",
+              "text": "HPC 매출 비중 68%는 AI 수요 전환을 지지하지만 고객별 AI 매출과 패키징 병목은 별도 검증이 필요하다.",
+              "evidenceIds": [
+                "tsmc-q3-management-report-20261015",
+                "tsmc-q3-results-reuters-20261015"
+              ]
+            }
+          ],
+          "reportDate": "2026.10.16",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-16T07:29:10+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 29,
+                "reason": "예비 매출을 순이익·마진·공정 믹스와 다음 분기 가이던스로 검증했다."
+              },
+              "change": {
+                "score": 19,
+                "reason": "매출 기록만 확인된 상태에서 2나노 양산과 AI 수익 전환의 범위가 의미 있게 확대됐다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "파운드리·장비·첨단패키징·전력 자본흐름과 공급집중에 직접 영향을 준다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "분기 손익·공정 비중·가이던스·CAPEX와 공장 일정으로 후속 판별이 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "공식 실적·경영보고서와 Reuters 직접 보도를 교차 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-08",
+              "statement": "예비 집계에서 3분기 매출 1.49조 대만달러는 확인됐지만 순이익·공정 믹스·총마진은 미확인이었다.",
+              "evidenceIds": [
+                "tsmc-september-revenue-official-20261008",
+                "tsmc-q3-record-revenue-reuters-20261008"
+              ]
+            },
+            "evidenceIds": [
+              "tsmc-q3-earnings-release-20261015",
+              "tsmc-q3-management-report-20261015",
+              "tsmc-q3-results-reuters-20261015"
+            ],
+            "note": "29+19+19+15+10=92. 실적 성과와 2나노 양산을 결정적으로 보되 초기 램프 비용과 비AI 수요 둔화를 혼합 방향으로 반영했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-15",
+            "publishedAt": "2026-10-15",
+            "firstSeenAt": "2026-10-09T07:26:00+09:00",
+            "verifiedAt": "2026-10-16T07:29:10+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          }
+        }
+      },
+      {
+        "id": "revision-20261016-dario-frontier-pacing-metr-execution",
+        "eventId": "dario-frontier-pacing",
+        "signalId": "dario-frontier-pacing",
+        "hypothesisId": "frontier-ai-pacing-audit",
+        "previousRevisionId": "revision-20260919-dario-frontier-pacing-execution",
+        "reportDate": "2026.10.16",
+        "recordedAt": "2026-10-16T07:29:10+09:00",
+        "tier": "signal",
+        "score": 91,
+        "headline": "Anthropic이 METR 6명에게 직원급 내부 접근과 회사가 거부할 수 없는 평가 발표권을 부여했다",
+        "source": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "29+19+19+15+9=91. 실제 상주 인력·접근권·독립 발표권을 결정적으로 평가하되 자발적·기업 재원 구조와 결과 미공개를 반영했다.",
+        "evidenceIds": [
+          "anthropic-metr-embedded-evaluator-official-20261015"
+        ],
+        "snapshot": {
+          "action": "Anthropic이 METR 6명을 내부 평가 환경에 실제 배치하고 평가·발표 독립성을 공개 규칙으로 설정했다.",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-16T07:29:10+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 29,
+                "reason": "METR 6명이 장비·공간·내부 도구를 받아 실제 평가 접근을 시작했다."
+              },
+              "change": {
+                "score": 19,
+                "reason": "일반 파트너십에서 인원·접근단계·독립 발표권이 명시된 운영 구조로 확대됐다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "프런티어 AI 감사·규제·안전 서비스의 운영 표준에 직접 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "독립 보고서·삭제 내역·모델 훈련과 출시 변경으로 결과를 판별할 수 있다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "Anthropic 공식 원문에서 인원·권한·제한을 직접 확인했지만 독립 보고서는 아직 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-18",
+              "statement": "Accenture Faculty와 상주형 평가를 시작했지만 평가자의 인원·구체적 내부 권한과 독립 발표 절차는 설계 중이었다.",
+              "evidenceIds": [
+                "anthropic-accenture-embedded-eval-official-20260918",
+                "anthropic-accenture-embedded-eval-reuters-20260918"
+              ]
+            },
+            "evidenceIds": [
+              "anthropic-metr-embedded-evaluator-official-20261015"
+            ],
+            "note": "29+19+19+15+9=91. 실제 상주 인력·접근권·독립 발표권을 결정적으로 평가하되 자발적·기업 재원 구조와 결과 미공개를 반영했다."
+          },
+          "before": "9월에는 Accenture Faculty와 상주형 평가 파트너십을 시작했지만 평가자의 인원·구체적 내부 권한·독립 발표권은 설계 중이었다.",
+          "counter": "Anthropic이 평가비용과 접근 범위를 제공하는 자발적 구조이며 고객 데이터·모델 구조 등은 제외된다. METR 보고서가 실제 훈련 중단·출시 연기·안전조치 변경으로 이어졌다는 결과도 아직 없다.",
+          "date": "2026.10.15",
+          "eventId": "dario-frontier-pacing",
+          "facts": [
+            "METR 직원 6명이 Anthropic 장비·사무공간·내부 도구를 받아 직원과 유사한 평가 접근을 시작했다.",
+            "METR은 평가 방법·결론을 독립적으로 정하고 결과를 발표하며 Anthropic은 발표를 거부할 수 없다.",
+            "Anthropic은 고객 데이터·법적 특권 정보·모델 구조 등 좁은 범위의 삭제만 요구할 수 있고 METR은 삭제 사실과 성격을 설명할 수 있다.",
+            "Anthropic은 접근을 3단계로 나눴고 METR은 최고 수준인 3단계, SecureBio는 1단계로 배치했다."
+          ],
+          "headline": "Anthropic이 METR 6명에게 직원급 내부 접근과 회사가 거부할 수 없는 평가 발표권을 부여했다",
+          "hypothesisId": "frontier-ai-pacing-audit",
+          "id": "dario-frontier-pacing",
+          "impact": "프런티어 AI 감사가 외부 설문에서 상주형 내부 검증으로 이동할 수 있는 운영 선례다. 동시에 피평가 기업의 자발적 참여와 재원 의존이 규제·표준화 논쟁의 핵심 변수가 된다.",
+          "impactPath": [
+            "상주형 독립평가 약속",
+            "METR 6명의 직원급 내부 접근 실행",
+            "독립 발표와 제한적 삭제 규칙 공개",
+            "프런티어 모델 감사·규제 표준의 검증 가능성 확대"
+          ],
+          "industryLinks": [
+            {
+              "sector": "프런티어 AI·안전 감사",
+              "relationship": "confirmed",
+              "text": "Anthropic과 METR이 6명의 상주형 평가자, 직원급 내부 접근과 독립 발표권을 실제 운영하기 시작했다.",
+              "evidenceIds": [
+                "anthropic-metr-embedded-evaluator-official-20261015"
+              ]
+            }
+          ],
+          "initials": "DA",
+          "kind": "강화",
+          "leader": "다리오 아모데이(Dario Amodei)",
+          "next": "METR의 첫 독립 보고서, 삭제 요구의 빈도·범위, 지적사항에 따른 모델 훈련·배포 변경, SecureBio·Accenture 평가 결과의 공개 여부를 확인한다.",
+          "now": "METR 직원 6명이 사내 장비·공간·내부 도구를 받아 안전팀과 유사한 접근을 시작했고, Anthropic은 평가 결과의 발표를 거부할 수 없으며 제한적 보안 삭제만 요구할 수 있다.",
+          "reportDate": "2026.10.16",
+          "role": "Anthropic 공동창업자·CEO",
+          "score": 91,
+          "source": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "sourceGrade": "A",
+          "sourceLabel": "Anthropic 공식 · 독립 평가자 업데이트 · 2026.10.15",
+          "takeaway": "상주형 독립평가 약속이 이름 있는 평가기관, 6명의 실제 배치, 3단계 접근권과 공개권으로 구체화됐다. 다만 자발적·기업 재원형 구조여서 평가가 모델 훈련·출시를 바꾸는지는 아직 검증해야 한다.",
+          "theme": "AI 안전",
+          "timing": {
+            "occurredAt": "2026-10-15",
+            "publishedAt": "2026-10-15",
+            "firstSeenAt": "2026-09-13T07:38:56+09:00",
+            "verifiedAt": "2026-10-16T07:29:10+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "stage": "execution",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 29,
+              "reason": "METR 6명이 장비·공간·내부 도구를 받아 실제 평가 접근을 시작했다."
+            },
+            "change": {
+              "score": 19,
+              "reason": "일반 파트너십에서 인원·접근단계·독립 발표권이 명시된 운영 구조로 확대됐다."
+            },
+            "impact": {
+              "score": 19,
+              "reason": "프런티어 AI 감사·규제·안전 서비스의 운영 표준에 직접 영향을 줄 수 있다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "독립 보고서·삭제 내역·모델 훈련과 출시 변경으로 결과를 판별할 수 있다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "Anthropic 공식 원문에서 인원·권한·제한을 직접 확인했지만 독립 보고서는 아직 없다."
+            }
+          },
+          "baseline": {
+            "date": "2026-09-18",
+            "statement": "Accenture Faculty와 상주형 평가를 시작했지만 평가자의 인원·구체적 내부 권한과 독립 발표 절차는 설계 중이었다.",
+            "evidenceIds": [
+              "anthropic-accenture-embedded-eval-official-20260918",
+              "anthropic-accenture-embedded-eval-reuters-20260918"
+            ]
+          },
+          "evidenceIds": [
+            "anthropic-metr-embedded-evaluator-official-20261015"
+          ],
+          "assessmentNote": "29+19+19+15+9=91. 실제 상주 인력·접근권·독립 발표권을 결정적으로 평가하되 자발적·기업 재원 구조와 결과 미공개를 반영했다.",
+          "occurredAt": "2026-10-15",
+          "publishedAt": "2026-10-15"
+        }
+      },
+      {
+        "id": "revision-20261016-ge-venture-global-offgrid-power-frame",
+        "eventId": "ge-venture-global-offgrid-power-frame",
+        "signalId": "ge-venture-global-power-frame-20261015",
+        "hypothesisId": "ge-venture-global-offgrid-power",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.16",
+        "recordedAt": "2026-10-16T07:29:10+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "GE Vernova가 Venture Global과 최대 16기·10GW 초과 전력섬 장비 프레임 계약을 맺었다",
+        "source": "https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "22+11+18+13+10=74. 계약·예약은 구체적이지만 후속 구매주문 전 commitment 단계이므로 관찰 상한을 적용했다.",
+        "evidenceIds": [
+          "venture-global-ge-frame-sec-20261015",
+          "venture-global-ge-frame-official-20261015",
+          "venture-global-ge-frame-reuters-20261015"
+        ],
+        "snapshot": {
+          "id": "ge-venture-global-power-frame-20261015",
+          "eventId": "ge-venture-global-offgrid-power-frame",
+          "hypothesisId": "ge-venture-global-offgrid-power",
+          "leader": "스콧 스트라직(Scott Strazik)",
+          "role": "GE Vernova CEO",
+          "initials": "SS",
+          "score": 74,
+          "kind": "신규",
+          "date": "2026.10.09",
+          "reportDate": "2026.10.16",
+          "theme": "에너지 전환",
+          "headline": "GE Vernova가 Venture Global과 최대 16기·10GW 초과 전력섬 장비 프레임 계약을 맺었다",
+          "takeaway": "AI·LNG 부지의 계통 독립형 전력 수요가 단일 장비 주문에서 최대 16개 전력섬의 장기 프레임 계약으로 커졌다. 그러나 최대 172억달러는 모두 확정 주문이 아니며 후속 구매주문이 핵심 검증점이다.",
+          "before": "GE Vernova는 AI 공장용 발전·계통·전력품질 장비를 개별 제품과 프로젝트 단위로 공급하고 있었다.",
+          "now": "Venture Global은 GE Vernova와 2034년까지 최대 16개 720MW 전력섬 장비를 확보하는 프레임 계약을 체결했고 첫 구매주문은 2026년 말까지 예상한다.",
+          "facts": [
+            "10월 9일 체결된 프레임 계약은 최대 16개 720MW 전력섬, 총 10GW를 넘는 가스터빈·발전 장비를 대상으로 하며 납기는 2034년까지다.",
+            "첫 구매주문은 2026년 말까지 예상되며, 첫 8개 전력섬과 나머지 8개의 예약 구조가 포함됐다.",
+            "모든 구매주문이 발행될 경우 공시상 총액은 최대 172억달러지만 현재 구속력은 예약 수수료와 일부 준비 의무에 제한된다.",
+            "Venture Global은 기존 4.5GW 규모 계통 독립형 전력망을 10GW 이상 추가 확대하려 한다."
+          ],
+          "action": "GE Vernova가 Venture Global과 다년간의 전력섬 장비 예약·프레임 계약을 체결해 생산 슬롯과 후속 발주 경로를 확보했다.",
+          "impact": "데이터센터·LNG의 계통 대기시간을 우회하는 현장발전 수요가 가스터빈·변압기·스위치기어·서비스 수주로 연결될 수 있다. 동시에 연료·배출·구매주문 전환 위험이 커진다.",
+          "impactPath": [
+            "대규모 전력부하의 계통 연결 지연",
+            "현장형 전력섬 예약과 생산 슬롯 확보",
+            "가스터빈·계통장비·장기서비스 후속 발주",
+            "구매주문 전환·연료·배출 허가가 실제 매출을 결정"
+          ],
+          "counter": "SEC 공시는 예약 계약만으로 전 장비 구매·공급 의무가 생기지 않는다고 명시한다. 최대 172억달러는 모든 후속 주문이 발행될 때의 상한이며 부지·연료·허가·자금과 배출 비용도 남아 있다.",
+          "next": "2026년 말 첫 구매주문, 각 전력섬의 부지·연료·허가·금융, GE Vernova의 실제 수주잔고 반영액과 2034년까지 납품 일정을 확인한다.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm",
+          "sourceLabel": "Venture Global SEC 8-K · 2026.10.15",
+          "sourceGrade": "A",
+          "stage": "commitment",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 22,
+              "reason": "최대 16개 전력섬의 생산 슬롯과 후속 구매주문 구조를 계약으로 확보했다."
+            },
+            "change": {
+              "score": 11,
+              "reason": "개별 AI 전력제품에서 10GW 초과 다년 프레임 계약으로 범위가 확대됐지만 확정 주문은 아니다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "가스터빈·계통장비·서비스와 AI·LNG 전력 인프라 자본흐름에 큰 파급경로가 있다."
+            },
+            "verification": {
+              "score": 13,
+              "reason": "연말 첫 구매주문·수주잔고·부지별 허가와 납품으로 판별할 수 있다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "SEC 계약 공시, 회사 원문과 Reuters 직접 보도를 교차 확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-08-24",
+            "statement": "GE Vernova는 AI 공장용 발전·계통·전력품질 장비를 포괄하는 power-to-rack 전략과 2027년 첫 MV-UPS 출하 계획을 제시했다.",
+            "evidenceIds": [
+              "ge-ai-factory-mvups-official-20260824"
+            ]
+          },
+          "evidenceIds": [
+            "venture-global-ge-frame-sec-20261015",
+            "venture-global-ge-frame-official-20261015",
+            "venture-global-ge-frame-reuters-20261015"
+          ],
+          "assessmentNote": "22+11+18+13+10=74. 계약·예약은 구체적이지만 후속 구매주문 전 commitment 단계이므로 관찰 상한을 적용했다.",
+          "occurredAt": "2026-10-09",
+          "publishedAt": "2026-10-15",
+          "industryLinks": [
+            {
+              "sector": "가스터빈·계통 장비",
+              "relationship": "confirmed",
+              "text": "Venture Global과 GE Vernova 사이 최대 16개 전력섬의 장비 예약·프레임 계약이 공시됐다.",
+              "evidenceIds": [
+                "venture-global-ge-frame-sec-20261015",
+                "venture-global-ge-frame-official-20261015"
+              ]
+            },
+            {
+              "sector": "AI 데이터센터·LNG 전력",
+              "relationship": "indirect",
+              "text": "계통 독립형 전력망 확대는 대규모 연속 부하의 전력 확보 방식에 영향을 주지만 부지별 최종 용도와 주문은 아직 확정되지 않았다.",
+              "evidenceIds": [
+                "venture-global-ge-frame-official-20261015",
+                "venture-global-ge-frame-reuters-20261015"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-16T07:29:10+09:00",
+            "stage": "commitment",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 22,
+                "reason": "최대 16개 전력섬의 생산 슬롯과 후속 구매주문 구조를 계약으로 확보했다."
+              },
+              "change": {
+                "score": 11,
+                "reason": "개별 AI 전력제품에서 10GW 초과 다년 프레임 계약으로 범위가 확대됐지만 확정 주문은 아니다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "가스터빈·계통장비·서비스와 AI·LNG 전력 인프라 자본흐름에 큰 파급경로가 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "연말 첫 구매주문·수주잔고·부지별 허가와 납품으로 판별할 수 있다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "SEC 계약 공시, 회사 원문과 Reuters 직접 보도를 교차 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-08-24",
+              "statement": "GE Vernova는 AI 공장용 발전·계통·전력품질 장비를 포괄하는 power-to-rack 전략과 2027년 첫 MV-UPS 출하 계획을 제시했다.",
+              "evidenceIds": [
+                "ge-ai-factory-mvups-official-20260824"
+              ]
+            },
+            "evidenceIds": [
+              "venture-global-ge-frame-sec-20261015",
+              "venture-global-ge-frame-official-20261015",
+              "venture-global-ge-frame-reuters-20261015"
+            ],
+            "note": "22+11+18+13+10=74. 계약·예약은 구체적이지만 후속 구매주문 전 commitment 단계이므로 관찰 상한을 적용했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-09",
+            "publishedAt": "2026-10-15",
+            "firstSeenAt": "2026-10-16T07:29:10+09:00",
+            "verifiedAt": "2026-10-16T07:29:10+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "10월 9일 계약은 10월 15일 SEC 8-K와 회사 보도자료로 처음 공개돼 조사 구간에서 원문 확인했다."
+          }
+        }
+      },
+      {
+        "id": "revision-20261016-meta-muse-spark-1-3-open-weight",
+        "eventId": "meta-muse-spark-1-3",
+        "signalId": "meta-muse-spark-1-3",
+        "hypothesisId": "hyp-meta-muse-spark-1-3",
+        "previousRevisionId": "revision-ded040d1a9-meta-muse-spark-1-3",
+        "reportDate": "2026.10.16",
+        "recordedAt": "2026-10-16T07:29:10+09:00",
+        "tier": "observation",
+        "score": 70,
+        "headline": "Meta가 예고했던 Muse Spark 오픈웨이트를 공개해 8160억 매개변수 에이전트 모델의 로컬 실행을 열었다",
+        "source": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "24+12+14+11+9=70. legacy의 내부 효율 주장과 달리 공개 약속의 실행을 확인했지만 독립 성능·채택이 없어 관찰로 재평가했다.",
+        "evidenceIds": [
+          "meta-muse-spark-open-weight-reuters-20261015"
+        ],
+        "snapshot": {
+          "id": "meta-muse-spark-1-3",
+          "eventId": "meta-muse-spark-1-3",
+          "hypothesisId": "hyp-meta-muse-spark-1-3",
+          "leader": "마크 저커버그(Mark Zuckerberg)",
+          "role": "Meta Founder & CEO",
+          "initials": "MZ",
+          "score": 70,
+          "kind": "실행",
+          "date": "2026.10.15",
+          "reportDate": "2026.10.16",
+          "theme": "AI 배포",
+          "headline": "Meta가 예고했던 Muse Spark 오픈웨이트를 공개해 8160억 매개변수 에이전트 모델의 로컬 실행을 열었다",
+          "takeaway": "9월의 오픈웨이트 예고가 실제 가중치 공개로 전환됐다. API 중심 배포에서 로컬·자체운영 선택지로 넓어졌지만 두 대의 고급 Mac이 필요한 규모와 독립 성능·비용 검증은 채택을 제한할 수 있다.",
+          "before": "9월 2일 Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하면서 더 큰 모델과 Muse Spark 오픈웨이트를 추후 공개하겠다고 예고했다.",
+          "now": "Meta는 총 8160억·활성 420억 매개변수와 100만 토큰 문맥을 갖춘 Muse Spark 오픈웨이트를 공개하고 두 대의 Apple M5 Ultra Mac 또는 API에서 실행할 수 있다고 밝혔다.",
+          "facts": [
+            "Muse Spark 오픈웨이트 모델은 총 8160억 매개변수 중 420억을 활성화하고 100만 토큰 문맥을 지원한다.",
+            "가중치가 공개돼 두 대의 M5 Ultra Mac을 연결한 로컬 환경이나 Meta Model API에서 실행할 수 있다.",
+            "Meta는 코딩·에이전트 작업을 주요 용도로 제시했으며 9월 2일 Muse Spark 1.3 발표에서 오픈웨이트 출시를 예고했다."
+          ],
+          "action": "Meta가 Muse Spark의 모델 가중치를 실제 공개해 개발자의 로컬·자체운영 배포 경로를 열었다.",
+          "impact": "대형 에이전트 모델의 가중치 공개는 API 종속과 데이터 통제에 선택지를 주지만 필요한 하드웨어 규모와 검증되지 않은 단위경제성이 실사용 범위를 좌우한다.",
+          "impactPath": [
+            "오픈웨이트 약속의 실제 공개",
+            "개발자 로컬·자체운영 선택지 확대",
+            "에이전트 모델 API 가격·데이터 통제 경쟁",
+            "하드웨어 비용·독립 벤치마크가 채택을 결정"
+          ],
+          "counter": "두 대의 고급 M5 Ultra Mac이 필요하고 Meta의 성능 주장과 100만 토큰 품질은 독립 재현되지 않았다. 다운로드·기업 배포·API 가격과 저커버그의 제품 통합 성과도 공개되지 않았다.",
+          "next": "공개 저장소 라이선스·다운로드, 독립 코딩·에이전트 벤치마크, 로컬 추론 비용·속도, Meta 제품 통합과 기업 배포를 확인한다.",
+          "source": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/",
+          "sourceLabel": "Reuters 직접 보도 · Muse Spark 오픈웨이트 · 2026.10.15",
+          "sourceGrade": "B",
+          "stage": "execution",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 24,
+              "reason": "예고했던 모델 가중치를 실제 공개해 로컬·자체운영 경로를 열었다."
+            },
+            "change": {
+              "score": 12,
+              "reason": "API 배포에서 오픈웨이트로 범위가 넓어졌지만 Meta의 개방 전략 자체는 지속선상이다."
+            },
+            "impact": {
+              "score": 14,
+              "reason": "에이전트 모델의 API 종속·데이터 통제·하드웨어 선택에 영향을 줄 수 있다."
+            },
+            "verification": {
+              "score": 11,
+              "reason": "공개 저장소·다운로드·독립 벤치마크·로컬 비용으로 판별할 수 있다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "Reuters 직접 보도와 9월 Meta 공식 예고 원문을 확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-09-02",
+            "statement": "Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하며 오픈웨이트는 추후 공개하겠다고 예고했다.",
+            "evidenceIds": [
+              "meta-muse-spark-13-official-20260902"
+            ]
+          },
+          "evidenceIds": [
+            "meta-muse-spark-open-weight-reuters-20261015"
+          ],
+          "assessmentNote": "24+12+14+11+9=70. legacy의 내부 효율 주장과 달리 공개 약속의 실행을 확인했지만 독립 성능·채택이 없어 관찰로 재평가했다.",
+          "occurredAt": "2026-10-15",
+          "publishedAt": "2026-10-16T06:19:00+09:00",
+          "industryLinks": [
+            {
+              "sector": "오픈웨이트 AI·개발자 도구",
+              "relationship": "indirect",
+              "text": "공개 가중치는 자체운영과 모델 수정 선택지를 넓히지만 실제 채택·라이선스·비용은 추가 검증이 필요하다.",
+              "evidenceIds": [
+                "meta-muse-spark-open-weight-reuters-20261015"
+              ]
+            },
+            {
+              "sector": "AI 추론 하드웨어",
+              "relationship": "hypothesis",
+              "text": "두 대의 고급 Mac에서 로컬 실행 가능하다는 설명은 하드웨어 수요 가능성을 제시할 뿐 공급 계약을 뜻하지 않는다.",
+              "evidenceIds": [
+                "meta-muse-spark-open-weight-reuters-20261015"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-16T07:29:10+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 24,
+                "reason": "예고했던 모델 가중치를 실제 공개해 로컬·자체운영 경로를 열었다."
+              },
+              "change": {
+                "score": 12,
+                "reason": "API 배포에서 오픈웨이트로 범위가 넓어졌지만 Meta의 개방 전략 자체는 지속선상이다."
+              },
+              "impact": {
+                "score": 14,
+                "reason": "에이전트 모델의 API 종속·데이터 통제·하드웨어 선택에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 11,
+                "reason": "공개 저장소·다운로드·독립 벤치마크·로컬 비용으로 판별할 수 있다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "Reuters 직접 보도와 9월 Meta 공식 예고 원문을 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-02",
+              "statement": "Meta는 Muse Spark 1.3을 API와 Muse Code에 출시하며 오픈웨이트는 추후 공개하겠다고 예고했다.",
+              "evidenceIds": [
+                "meta-muse-spark-13-official-20260902"
+              ]
+            },
+            "evidenceIds": [
+              "meta-muse-spark-open-weight-reuters-20261015"
+            ],
+            "note": "24+12+14+11+9=70. legacy의 내부 효율 주장과 달리 공개 약속의 실행을 확인했지만 독립 성능·채택이 없어 관찰로 재평가했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-15",
+            "publishedAt": "2026-10-16T06:19:00+09:00",
+            "firstSeenAt": "2026-10-16T07:29:10+09:00",
+            "verifiedAt": "2026-10-16T07:29:10+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          }
+        }
+      },
       {
         "id": "revision-20261015-microsoft-cybercrime-marketplace",
         "eventId": "microsoft-cybercrime-marketplace",
@@ -24216,6 +25258,14 @@
         "leaderNames": [
           "쩡위췬(Robin Zeng)"
         ]
+      },
+      {
+        "id": "ge-venture-global-offgrid-power",
+        "title": "GE Vernova 계통 독립형 전력섬 발주 전환",
+        "question": "최대 16개 전력섬 예약이 구매주문·수주잔고·허가·납품과 반복 서비스 매출로 전환되는가?",
+        "leaderNames": [
+          "스콧 스트라직(Scott Strazik)"
+        ]
       }
     ],
     "migration": {
@@ -24230,24 +25280,308 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-13T07:35:03+09:00",
-    "end": "2026-10-15T07:33:32+09:00"
+    "start": "2026-10-15T07:33:32+09:00",
+    "end": "2026-10-16T07:29:10+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 38,
-    "newSignals": 5,
-    "newObservations": 4,
+    "sourcesChecked": 31,
+    "newSignals": 2,
+    "newObservations": 2,
     "upgrades": 0,
-    "downgrades": 0,
+    "downgrades": 1,
     "reversals": 0,
     "actionTransitions": 0,
-    "excludedCount": 7,
-    "notes": "22명 전원과 중복 제거 원문 38개를 확인했다. 결정적 신호는 Microsoft 범죄 인프라 압류, OpenAI 8개 주 소송, Anthropic 선거 안전 집행, SoftBank 고금리 조달, Meta 사기망 단속이다. 관찰은 NVIDIA 영국 안전연구 지원, Grok 생체정보 소송, Hassabis 국제 인증 제안, Anthropic 싱가포르 조직·MOU다. TSMC 실적은 조사 종료 뒤 발표 예정이라 제외하고, OpenAI 독립평가 보도는 익명 협상 단계라 체크포인트 근거로만 반영했다.",
-    "note": "22명 전원과 중복 제거 원문 38개를 확인했다. 결정적 신호는 Microsoft 범죄 인프라 압류, OpenAI 8개 주 소송, Anthropic 선거 안전 집행, SoftBank 고금리 조달, Meta 사기망 단속이다. 관찰은 NVIDIA 영국 안전연구 지원, Grok 생체정보 소송, Hassabis 국제 인증 제안, Anthropic 싱가포르 조직·MOU다. TSMC 실적은 조사 종료 뒤 발표 예정이라 제외하고, OpenAI 독립평가 보도는 익명 협상 단계라 체크포인트 근거로만 반영했다."
+    "excludedCount": 8,
+    "notes": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 TSMC 3분기 실적 보강과 Anthropic METR 상주형 평가 실행이다. 관찰은 GE Vernova 전력섬 프레임 계약과 Meta Muse Spark 오픈웨이트 공개다. Meta legacy 사건은 내부 효율 주장 90점에서 공개 약속 실행 70점으로 재평가했으며 legacy이므로 행동 전환 수에는 넣지 않았다. NVIDIA 독일 협력 보도는 익명·예정 단계, Tyler Cowen 글은 기준선·행동 부족, 기타 발표는 반복·점진적 업데이트 또는 60점 미만으로 제외했다.",
+    "note": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 TSMC 3분기 실적 보강과 Anthropic METR 상주형 평가 실행이다. 관찰은 GE Vernova 전력섬 프레임 계약과 Meta Muse Spark 오픈웨이트 공개다. Meta legacy 사건은 내부 효율 주장 90점에서 공개 약속 실행 70점으로 재평가했으며 legacy이므로 행동 전환 수에는 넣지 않았다. NVIDIA 독일 협력 보도는 익명·예정 단계, Tyler Cowen 글은 기준선·행동 부족, 기타 발표는 반복·점진적 업데이트 또는 60점 미만으로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "tsmc-q3-record-revenue-20261008",
+      "eventId": "tsmc-q3-2026-record-revenue",
+      "hypothesisId": "tsmc-ai-demand-revenue-conversion",
+      "leader": "웨이저자(C.C. Wei)",
+      "role": "TSMC Chairman & CEO",
+      "initials": "CW",
+      "score": 92,
+      "kind": "강화",
+      "date": "2026.10.15",
+      "theme": "AI 인프라",
+      "headline": "TSMC가 3분기 순이익 68.7% 증가와 2나노 매출 비중 8%를 확인하고 4분기 매출 523억~543억달러를 제시했다",
+      "takeaway": "예비 매출 기록이 순이익·마진·2나노 양산 비중으로 검증됐다. AI 수요가 최첨단 공정과 현금창출로 전환되고 있지만 2나노 초기 램프와 비AI 수요 둔화는 다음 분기의 마진 변수다.",
+      "before": "10월 8일 예비 집계에서 3분기 매출 1.49조 대만달러는 확인됐지만 순이익·제품 믹스·총마진과 다음 분기 가이던스는 미확인 상태였다.",
+      "now": "공식 실적에서 순이익 7,630.6억 대만달러, 총마진 66.4%, 2나노 매출 비중 8%, HPC 매출 비중 68%가 확인됐고 회사는 4분기 매출 523억~543억달러를 제시했다.",
+      "facts": [
+        "3분기 매출은 1조4,942.4억 대만달러, 순이익은 7,630.6억 대만달러로 전년 대비 각각 50.9%, 68.7% 증가했다.",
+        "총마진은 66.4%, 영업이익률은 58.7%였고 2나노 공정은 분기 웨이퍼 매출의 8%, HPC는 순매출의 68%를 차지했다.",
+        "4분기 매출 가이던스는 523억~543억달러이며 TSMC는 2026년 연간 매출 성장률 전망을 약 44%로 높였다.",
+        "회사는 2026년 설비투자를 600억~640억달러로 제시하고 애리조나 2공장 생산을 2027년 3분기로 앞당겼다."
+      ],
+      "action": "TSMC가 예비 매출을 감사 전 분기 손익·공정 믹스·다음 분기 가이던스와 자본집행 계획으로 구체화했다.",
+      "impact": "AI 가속기 수요가 2나노와 HPC 비중, 파운드리 수익성으로 전환되는 경로가 선명해졌다. 반면 2나노 초기 램프 비용과 소비·가격 민감형 수요 둔화가 증설의 수익성을 시험한다.",
+      "impactPath": [
+        "AI 가속기 수요와 최첨단 공정 주문 확대",
+        "2나노·HPC 매출 비중 및 파운드리 이익 증가",
+        "장비·첨단패키징·전력 인프라 자본지출 확대",
+        "초기 수율·비AI 수요가 마진 지속성을 검증"
+      ],
+      "counter": "2나노 초기 양산은 총마진을 희석했고 회사는 소비자·가격 민감형 수요가 약하다고 밝혔다. 고객별 집중도와 2027년 AI 수요 지속성도 아직 확정되지 않았다.",
+      "next": "4분기 실제 매출·총마진, 2나노 수율과 매출 비중, 2027년 AI 가속기 주문·CoWoS 증설, 애리조나 2공장 양산 일정을 확인한다.",
+      "source": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+      "sourceLabel": "TSMC 2026년 3분기 공식 실적 · 2026.10.15",
+      "sourceGrade": "A",
+      "stage": "outcome",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 29,
+          "reason": "예비 매출을 순이익·마진·공정 믹스와 다음 분기 가이던스로 검증했다."
+        },
+        "change": {
+          "score": 19,
+          "reason": "매출 기록만 확인된 상태에서 2나노 양산과 AI 수익 전환의 범위가 의미 있게 확대됐다."
+        },
+        "impact": {
+          "score": 19,
+          "reason": "파운드리·장비·첨단패키징·전력 자본흐름과 공급집중에 직접 영향을 준다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "분기 손익·공정 비중·가이던스·CAPEX와 공장 일정으로 후속 판별이 가능하다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "공식 실적·경영보고서와 Reuters 직접 보도를 교차 확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-08",
+        "statement": "예비 집계에서 3분기 매출 1.49조 대만달러는 확인됐지만 순이익·공정 믹스·총마진은 미확인이었다.",
+        "evidenceIds": [
+          "tsmc-september-revenue-official-20261008",
+          "tsmc-q3-record-revenue-reuters-20261008"
+        ]
+      },
+      "evidenceIds": [
+        "tsmc-q3-earnings-release-20261015",
+        "tsmc-q3-management-report-20261015",
+        "tsmc-q3-results-reuters-20261015"
+      ],
+      "assessmentNote": "29+19+19+15+10=92. 실적 성과와 2나노 양산을 결정적으로 보되 초기 램프 비용과 비AI 수요 둔화를 혼합 방향으로 반영했다.",
+      "occurredAt": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "industryLinks": [
+        {
+          "sector": "반도체 파운드리·장비",
+          "relationship": "indirect",
+          "text": "2나노 매출 비중 8%와 600억~640억달러 설비투자는 최첨단 공정 장비·소재 수요의 가시성을 높인다.",
+          "evidenceIds": [
+            "tsmc-q3-earnings-release-20261015",
+            "tsmc-q3-results-reuters-20261015"
+          ]
+        },
+        {
+          "sector": "AI 가속기·첨단패키징",
+          "relationship": "hypothesis",
+          "text": "HPC 매출 비중 68%는 AI 수요 전환을 지지하지만 고객별 AI 매출과 패키징 병목은 별도 검증이 필요하다.",
+          "evidenceIds": [
+            "tsmc-q3-management-report-20261015",
+            "tsmc-q3-results-reuters-20261015"
+          ]
+        }
+      ],
+      "reportDate": "2026.10.16",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-16T07:29:10+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 29,
+            "reason": "예비 매출을 순이익·마진·공정 믹스와 다음 분기 가이던스로 검증했다."
+          },
+          "change": {
+            "score": 19,
+            "reason": "매출 기록만 확인된 상태에서 2나노 양산과 AI 수익 전환의 범위가 의미 있게 확대됐다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "파운드리·장비·첨단패키징·전력 자본흐름과 공급집중에 직접 영향을 준다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "분기 손익·공정 비중·가이던스·CAPEX와 공장 일정으로 후속 판별이 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "공식 실적·경영보고서와 Reuters 직접 보도를 교차 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-08",
+          "statement": "예비 집계에서 3분기 매출 1.49조 대만달러는 확인됐지만 순이익·공정 믹스·총마진은 미확인이었다.",
+          "evidenceIds": [
+            "tsmc-september-revenue-official-20261008",
+            "tsmc-q3-record-revenue-reuters-20261008"
+          ]
+        },
+        "evidenceIds": [
+          "tsmc-q3-earnings-release-20261015",
+          "tsmc-q3-management-report-20261015",
+          "tsmc-q3-results-reuters-20261015"
+        ],
+        "note": "29+19+19+15+10=92. 실적 성과와 2나노 양산을 결정적으로 보되 초기 램프 비용과 비AI 수요 둔화를 혼합 방향으로 반영했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-15",
+        "publishedAt": "2026-10-15",
+        "firstSeenAt": "2026-10-09T07:26:00+09:00",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      }
+    },
+    {
+      "action": "Anthropic이 METR 6명을 내부 평가 환경에 실제 배치하고 평가·발표 독립성을 공개 규칙으로 설정했다.",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-16T07:29:10+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 29,
+            "reason": "METR 6명이 장비·공간·내부 도구를 받아 실제 평가 접근을 시작했다."
+          },
+          "change": {
+            "score": 19,
+            "reason": "일반 파트너십에서 인원·접근단계·독립 발표권이 명시된 운영 구조로 확대됐다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "프런티어 AI 감사·규제·안전 서비스의 운영 표준에 직접 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "독립 보고서·삭제 내역·모델 훈련과 출시 변경으로 결과를 판별할 수 있다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "Anthropic 공식 원문에서 인원·권한·제한을 직접 확인했지만 독립 보고서는 아직 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-18",
+          "statement": "Accenture Faculty와 상주형 평가를 시작했지만 평가자의 인원·구체적 내부 권한과 독립 발표 절차는 설계 중이었다.",
+          "evidenceIds": [
+            "anthropic-accenture-embedded-eval-official-20260918",
+            "anthropic-accenture-embedded-eval-reuters-20260918"
+          ]
+        },
+        "evidenceIds": [
+          "anthropic-metr-embedded-evaluator-official-20261015"
+        ],
+        "note": "29+19+19+15+9=91. 실제 상주 인력·접근권·독립 발표권을 결정적으로 평가하되 자발적·기업 재원 구조와 결과 미공개를 반영했다."
+      },
+      "before": "9월에는 Accenture Faculty와 상주형 평가 파트너십을 시작했지만 평가자의 인원·구체적 내부 권한·독립 발표권은 설계 중이었다.",
+      "counter": "Anthropic이 평가비용과 접근 범위를 제공하는 자발적 구조이며 고객 데이터·모델 구조 등은 제외된다. METR 보고서가 실제 훈련 중단·출시 연기·안전조치 변경으로 이어졌다는 결과도 아직 없다.",
+      "date": "2026.10.15",
+      "eventId": "dario-frontier-pacing",
+      "facts": [
+        "METR 직원 6명이 Anthropic 장비·사무공간·내부 도구를 받아 직원과 유사한 평가 접근을 시작했다.",
+        "METR은 평가 방법·결론을 독립적으로 정하고 결과를 발표하며 Anthropic은 발표를 거부할 수 없다.",
+        "Anthropic은 고객 데이터·법적 특권 정보·모델 구조 등 좁은 범위의 삭제만 요구할 수 있고 METR은 삭제 사실과 성격을 설명할 수 있다.",
+        "Anthropic은 접근을 3단계로 나눴고 METR은 최고 수준인 3단계, SecureBio는 1단계로 배치했다."
+      ],
+      "headline": "Anthropic이 METR 6명에게 직원급 내부 접근과 회사가 거부할 수 없는 평가 발표권을 부여했다",
+      "hypothesisId": "frontier-ai-pacing-audit",
+      "id": "dario-frontier-pacing",
+      "impact": "프런티어 AI 감사가 외부 설문에서 상주형 내부 검증으로 이동할 수 있는 운영 선례다. 동시에 피평가 기업의 자발적 참여와 재원 의존이 규제·표준화 논쟁의 핵심 변수가 된다.",
+      "impactPath": [
+        "상주형 독립평가 약속",
+        "METR 6명의 직원급 내부 접근 실행",
+        "독립 발표와 제한적 삭제 규칙 공개",
+        "프런티어 모델 감사·규제 표준의 검증 가능성 확대"
+      ],
+      "industryLinks": [
+        {
+          "sector": "프런티어 AI·안전 감사",
+          "relationship": "confirmed",
+          "text": "Anthropic과 METR이 6명의 상주형 평가자, 직원급 내부 접근과 독립 발표권을 실제 운영하기 시작했다.",
+          "evidenceIds": [
+            "anthropic-metr-embedded-evaluator-official-20261015"
+          ]
+        }
+      ],
+      "initials": "DA",
+      "kind": "강화",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "next": "METR의 첫 독립 보고서, 삭제 요구의 빈도·범위, 지적사항에 따른 모델 훈련·배포 변경, SecureBio·Accenture 평가 결과의 공개 여부를 확인한다.",
+      "now": "METR 직원 6명이 사내 장비·공간·내부 도구를 받아 안전팀과 유사한 접근을 시작했고, Anthropic은 평가 결과의 발표를 거부할 수 없으며 제한적 보안 삭제만 요구할 수 있다.",
+      "reportDate": "2026.10.16",
+      "role": "Anthropic 공동창업자·CEO",
+      "score": 91,
+      "source": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "sourceGrade": "A",
+      "sourceLabel": "Anthropic 공식 · 독립 평가자 업데이트 · 2026.10.15",
+      "takeaway": "상주형 독립평가 약속이 이름 있는 평가기관, 6명의 실제 배치, 3단계 접근권과 공개권으로 구체화됐다. 다만 자발적·기업 재원형 구조여서 평가가 모델 훈련·출시를 바꾸는지는 아직 검증해야 한다.",
+      "theme": "AI 안전",
+      "timing": {
+        "occurredAt": "2026-10-15",
+        "publishedAt": "2026-10-15",
+        "firstSeenAt": "2026-09-13T07:38:56+09:00",
+        "verifiedAt": "2026-10-16T07:29:10+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "stage": "execution",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 29,
+          "reason": "METR 6명이 장비·공간·내부 도구를 받아 실제 평가 접근을 시작했다."
+        },
+        "change": {
+          "score": 19,
+          "reason": "일반 파트너십에서 인원·접근단계·독립 발표권이 명시된 운영 구조로 확대됐다."
+        },
+        "impact": {
+          "score": 19,
+          "reason": "프런티어 AI 감사·규제·안전 서비스의 운영 표준에 직접 영향을 줄 수 있다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "독립 보고서·삭제 내역·모델 훈련과 출시 변경으로 결과를 판별할 수 있다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "Anthropic 공식 원문에서 인원·권한·제한을 직접 확인했지만 독립 보고서는 아직 없다."
+        }
+      },
+      "baseline": {
+        "date": "2026-09-18",
+        "statement": "Accenture Faculty와 상주형 평가를 시작했지만 평가자의 인원·구체적 내부 권한과 독립 발표 절차는 설계 중이었다.",
+        "evidenceIds": [
+          "anthropic-accenture-embedded-eval-official-20260918",
+          "anthropic-accenture-embedded-eval-reuters-20260918"
+        ]
+      },
+      "evidenceIds": [
+        "anthropic-metr-embedded-evaluator-official-20261015"
+      ],
+      "assessmentNote": "29+19+19+15+9=91. 실제 상주 인력·접근권·독립 발표권을 결정적으로 평가하되 자발적·기업 재원 구조와 결과 미공개를 반영했다.",
+      "occurredAt": "2026-10-15",
+      "publishedAt": "2026-10-15"
+    },
     {
       "id": "microsoft-cybercrime-marketplace-20261014",
       "leader": "사티아 나델라(Satya Nadella)",
@@ -25719,152 +27053,6 @@
       }
     },
     {
-      "id": "tsmc-q3-record-revenue-20261008",
-      "eventId": "tsmc-q3-2026-record-revenue",
-      "hypothesisId": "tsmc-ai-demand-revenue-conversion",
-      "leader": "웨이저자(C.C. Wei)",
-      "role": "TSMC Chairman & CEO",
-      "initials": "CW",
-      "score": 88,
-      "kind": "실행",
-      "date": "2026.10.08",
-      "theme": "AI 인프라",
-      "headline": "TSMC 3분기 매출이 1.49조 대만달러로 사상 최고를 기록해 회사 가이던스와 시장 전망을 웃돌았다",
-      "takeaway": "AI 칩 수요가 주문 기대를 넘어 실제 파운드리 매출로 전환되고 있다. 다만 수익성과 고객별 집중도는 10월 15일 실적에서 확인해야 한다.",
-      "before": "TSMC는 3분기 매출을 미화 446억~458억달러로 전망했고 시장은 1.46조 대만달러를 예상했다.",
-      "now": "9월 매출은 전년 대비 54.6% 늘었고 Reuters 계산상 3분기 매출은 1.49조 대만달러로 사상 최고이자 회사 가이던스 상단을 넘어섰다.",
-      "facts": [
-        "9월 매출은 5,118.6억 대만달러로 전년동월 대비 54.6% 증가했다.",
-        "1~9월 누적 매출은 3조8,987.3억 대만달러로 41.1% 증가했다.",
-        "3분기 매출은 1.49조 대만달러로 전년 대비 50% 늘었다.",
-        "시장 예상 1.46조 대만달러와 회사의 446억~458억달러 가이던스를 웃돌았다."
-      ],
-      "action": "TSMC가 AI 수요를 실제 웨이퍼·패키징 매출로 전환해 분기 기록을 갱신했다.",
-      "impact": "파운드리·HBM·첨단패키징·전력·장비 공급망의 수요 가시성을 높이지만 고객·제품 집중 위험도 확대할 수 있다.",
-      "impactPath": [
-        "AI 가속기 주문 확대",
-        "TSMC 웨이퍼·패키징 매출 증가",
-        "장비·메모리·전력 투자 확대",
-        "공급망 집중과 증설 부담 증가"
-      ],
-      "counter": "월 매출은 감사 전 수치이고 제품·고객별 구성, 마진과 현금흐름은 아직 공개되지 않았다.",
-      "next": "10월 15일 순이익·총마진·CoWoS 가동률·CAPEX와 4분기 가이던스, 고객집중도를 확인한다.",
-      "source": "https://pr.cld.tsmc.com/english/news/3343",
-      "sourceLabel": "TSMC 공식 매출 발표 · 2026.10.08",
-      "sourceGrade": "A",
-      "stage": "outcome",
-      "impactDirection": "positive",
-      "attribution": "company_action",
-      "breakdown": {
-        "action": {
-          "score": 29,
-          "reason": "실제 분기 매출이 회사 전망과 시장 예상 상단을 넘었다."
-        },
-        "change": {
-          "score": 16,
-          "reason": "AI 수요 기대가 사상 최고 분기 매출로 전환된 변화가 확인됐다."
-        },
-        "impact": {
-          "score": 18,
-          "reason": "파운드리·메모리·패키징·장비·전력 공급망에 큰 파급경로가 있다."
-        },
-        "verification": {
-          "score": 15,
-          "reason": "10월 15일 실적과 월별 매출·마진·CAPEX로 명확히 검증할 수 있다."
-        },
-        "source": {
-          "score": 10,
-          "reason": "TSMC 공식 수치와 Reuters 계산·시장 전망을 교차 확인했다."
-        }
-      },
-      "baseline": {
-        "date": "2026-07-16",
-        "statement": "TSMC는 3분기 매출을 446억~458억달러로 전망했다.",
-        "evidenceIds": [
-          "tsmc-q3-guidance-official-20260716"
-        ]
-      },
-      "evidenceIds": [
-        "tsmc-september-revenue-official-20261008",
-        "tsmc-q3-record-revenue-reuters-20261008",
-        "tsmc-q3-guidance-official-20260716"
-      ],
-      "assessmentNote": "29+16+18+15+10=88. 실제 매출 성과를 결정적으로 평가하되 제품구성·마진·감사 전 수치의 한계를 반영했다.",
-      "occurredAt": "2026-10-08",
-      "publishedAt": "2026-10-08",
-      "industryLinks": [
-        {
-          "sector": "반도체 파운드리·장비",
-          "relationship": "indirect",
-          "text": "기록적 매출은 웨이퍼와 제조장비 수요 가시성을 높일 수 있다.",
-          "evidenceIds": [
-            "tsmc-september-revenue-official-20261008",
-            "tsmc-q3-record-revenue-reuters-20261008"
-          ]
-        },
-        {
-          "sector": "HBM·첨단패키징",
-          "relationship": "hypothesis",
-          "text": "AI 매출 성장의 제품별 기여와 CoWoS 병목 완화는 10월 15일 실적에서 확인해야 한다.",
-          "evidenceIds": [
-            "tsmc-q3-record-revenue-reuters-20261008"
-          ]
-        }
-      ],
-      "reportDate": "2026.10.09",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-10-09T07:26:00+09:00",
-        "stage": "outcome",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 29,
-            "reason": "실제 분기 매출이 회사 전망과 시장 예상 상단을 넘었다."
-          },
-          "change": {
-            "score": 16,
-            "reason": "AI 수요 기대가 사상 최고 분기 매출로 전환된 변화가 확인됐다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "파운드리·메모리·패키징·장비·전력 공급망에 큰 파급경로가 있다."
-          },
-          "verification": {
-            "score": 15,
-            "reason": "10월 15일 실적과 월별 매출·마진·CAPEX로 명확히 검증할 수 있다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "TSMC 공식 수치와 Reuters 계산·시장 전망을 교차 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-07-16",
-          "statement": "TSMC는 3분기 매출을 446억~458억달러로 전망했다.",
-          "evidenceIds": [
-            "tsmc-q3-guidance-official-20260716"
-          ]
-        },
-        "evidenceIds": [
-          "tsmc-september-revenue-official-20261008",
-          "tsmc-q3-record-revenue-reuters-20261008",
-          "tsmc-q3-guidance-official-20260716"
-        ],
-        "note": "29+16+18+15+10=88. 실제 매출 성과를 결정적으로 평가하되 제품구성·마진·감사 전 수치의 한계를 반영했다."
-      },
-      "timing": {
-        "occurredAt": "2026-10-08",
-        "publishedAt": "2026-10-08",
-        "firstSeenAt": "2026-10-09T07:26:00+09:00",
-        "verifiedAt": "2026-10-09T07:26:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      }
-    },
-    {
       "id": "tsmc-globalfoundries-interposer-20261008",
       "eventId": "tsmc-globalfoundries-us-interposer",
       "hypothesisId": "tsmc-us-advanced-packaging-diversification",
@@ -26609,7 +27797,7 @@
     }
   ],
   "status": "signals",
-  "statusMessage": "22명 전원을 확인해 결정적 신호 5건과 관찰 신호 4건을 선별했습니다.",
+  "statusMessage": "결정적 신호 2건과 관찰 2건을 확인했습니다. TSMC 실적과 Anthropic 독립평가 실행을 보강하고 GE Vernova 전력섬 계약과 Meta 오픈웨이트 실행을 새로 검토했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -26900,10 +28088,10 @@
           },
           {
             "eventId": "tsmc-q3-2026-record-revenue",
-            "text": "제품·고객별 매출과 마진은 10월 15일 실적 전까지 미확인이다.",
+            "text": "2나노 초기 램프가 마진을 희석했고 소비자·가격 민감형 수요와 2027년 AI 수요 지속성은 불확실하다.",
             "evidenceIds": [
-              "tsmc-september-revenue-official-20261008",
-              "tsmc-q3-record-revenue-reuters-20261008"
+              "tsmc-q3-management-report-20261015",
+              "tsmc-q3-results-reuters-20261015"
             ],
             "status": "verified"
           },
@@ -27125,10 +28313,11 @@
           },
           {
             "eventId": "tsmc-q3-2026-record-revenue",
-            "text": "TSMC의 AI 수요가 사상 최고 분기 매출과 가이던스 상회로 전환됐다.",
+            "text": "TSMC의 예비 매출 기록이 순이익 68.7% 증가, 총마진 66.4%, 2나노 매출 비중 8%와 4분기 가이던스로 검증됐다.",
             "evidenceIds": [
-              "tsmc-september-revenue-official-20261008",
-              "tsmc-q3-record-revenue-reuters-20261008"
+              "tsmc-q3-earnings-release-20261015",
+              "tsmc-q3-management-report-20261015",
+              "tsmc-q3-results-reuters-20261015"
             ],
             "status": "verified"
           },
@@ -27791,11 +28980,11 @@
           },
           {
             "eventId": "dario-frontier-pacing",
+            "text": "피평가 기업이 재원·접근 범위를 제공하며 독립 보고서와 훈련·출시 변경 결과는 아직 공개되지 않았다.",
             "evidenceIds": [
-              "anthropic-accenture-embedded-eval-official-20260918"
+              "anthropic-metr-embedded-evaluator-official-20261015"
             ],
-            "status": "verified",
-            "text": "평가 기준·독립 보고 방식은 아직 미정이고 Anthropic이 비용을 직접 부담한다. 회사는 프런티어 모델 훈련·출시를 계속해 실제 감속은 확인되지 않았다."
+            "status": "verified"
           },
           {
             "eventId": "openai-ipo-safety-pacing",
@@ -28092,12 +29281,11 @@
           },
           {
             "eventId": "dario-frontier-pacing",
+            "text": "Anthropic이 METR 6명을 직원급 내부 접근 환경에 배치하고 회사가 거부할 수 없는 평가 발표권을 부여했다.",
             "evidenceIds": [
-              "anthropic-accenture-embedded-eval-official-20260918",
-              "anthropic-accenture-embedded-eval-reuters-20260918"
+              "anthropic-metr-embedded-evaluator-official-20261015"
             ],
-            "status": "verified",
-            "text": "Anthropic이 Accenture Faculty와 상주형 독립평가를 시작하고 양사가 5년간 각각 최소 10억달러 역량 투자를 예상한다고 밝혔다."
+            "status": "verified"
           },
           {
             "eventId": "openai-ipo-safety-pacing",
@@ -28893,9 +30081,11 @@
           },
           {
             "eventId": "meta-muse-spark-1-3",
-            "evidenceIds": [],
-            "status": "legacy",
-            "text": "20%·25% 개선치는 Meta 내부 비교이며 독립 평가가 아닙니다. 최대 추론과 공개 가중치는 아직 출시되지 않았고, Meta의 소비자 제품 매출로 이어지는 정도도 확인되지 않았습니다."
+            "text": "두 대의 고급 Mac이 필요하고 독립 성능·다운로드·기업 채택·단위경제성은 확인되지 않았다.",
+            "evidenceIds": [
+              "meta-muse-spark-open-weight-reuters-20261015"
+            ],
+            "status": "verified"
           }
         ],
         "supporting": [
@@ -29286,9 +30476,12 @@
           },
           {
             "eventId": "meta-muse-spark-1-3",
-            "evidenceIds": [],
-            "status": "legacy",
-            "text": "Meta가 도구 호출 20%·토큰 25%를 줄인 Muse Spark 1.3을 API와 코딩 도구에 출시했다"
+            "text": "Meta가 9월에 예고한 Muse Spark 오픈웨이트를 실제 공개해 로컬·자체운영 경로를 열었다.",
+            "evidenceIds": [
+              "meta-muse-spark-13-official-20260902",
+              "meta-muse-spark-open-weight-reuters-20261015"
+            ],
+            "status": "verified"
           },
           {
             "eventId": "anthropic-retail-agent-blueprints",
@@ -29319,6 +30512,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "ge-venture-global-offgrid-power-frame",
+            "eventIds": [
+              "ge-venture-global-offgrid-power-frame"
+            ],
+            "note": "같은 프레임 계약의 SEC 공시·회사 발표·직접 보도는 하나의 사건으로 집계한다."
+          },
           {
             "id": "catl-seres-plant-in-plant-phase2",
             "eventIds": [
@@ -29363,6 +30563,14 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "ge-venture-global-offgrid-power-frame",
+            "text": "최대 172억달러는 모든 후속 구매주문이 발행될 때의 상한이며 예약만으로 전 장비 구매·공급 의무가 생기지 않는다.",
+            "evidenceIds": [
+              "venture-global-ge-frame-sec-20261015"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "catl-seres-plant-in-plant-phase2",
             "text": "2단계 투자액·착공·가동일·보장 물량이 없어 합산 20GWh 이상 계획의 실제 실행은 미검증이다.",
@@ -29413,6 +30621,16 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "ge-venture-global-offgrid-power-frame",
+            "text": "GE Vernova가 Venture Global과 최대 16개·10GW 초과 전력섬 장비의 예약·프레임 계약을 체결했다.",
+            "evidenceIds": [
+              "venture-global-ge-frame-sec-20261015",
+              "venture-global-ge-frame-official-20261015",
+              "venture-global-ge-frame-reuters-20261015"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "catl-seres-plant-in-plant-phase2",
             "text": "CATL과 SERES가 AITO 전 차종 장기 공급과 연 10–12GWh 2단계 공장 내 생산 증설에 합의했다.",
@@ -29465,5 +30683,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T07:33:32+09:00"
+  "updatedAt": "2026-10-16T07:29:10+09:00"
 }
