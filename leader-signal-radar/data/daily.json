@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.16",
+  "asOfDate": "2026.10.17",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -134,6 +134,12 @@
       "history": [
         {
           "status": "unverified",
+          "result": "2026년 10월 10일 공식 현황에서 65개 코드베이스·1,885건 식별·661개 패치·458개 상류 반영을 확인했다. 실제 보안 성과는 진전됐지만 10억달러 이용권의 소진액·도입 기관 수와 MS-ISAC 수정 결과는 공개되지 않아 미검증을 유지한다.",
+          "reviewedAt": "2026-10-10T07:35:00+09:00",
+          "nextReviewDate": "2026-10-17"
+        },
+        {
+          "status": "unverified",
           "result": "2026년 10월 3일 Daybreak 접근통제 설정·마이그레이션 안내를 확인했다. 프로젝트·사용자 단위 기본 비활성 통제는 공개됐지만 이용권 소진액·도입 기관 수·MS-ISAC 취약점 수정 성과는 없어 미검증을 유지한다.",
           "reviewedAt": "2026-10-03T07:32:00+09:00",
           "nextReviewDate": "2026-10-10"
@@ -147,9 +153,9 @@
       ],
       "hypothesisId": "hyp-openai-daybreak-billion",
       "id": "daybreak-adoption",
-      "nextReviewDate": "2026-10-17",
-      "result": "2026년 10월 10일 공식 현황에서 65개 코드베이스·1,885건 식별·661개 패치·458개 상류 반영을 확인했다. 실제 보안 성과는 진전됐지만 10억달러 이용권의 소진액·도입 기관 수와 MS-ISAC 수정 결과는 공개되지 않아 미검증을 유지한다.",
-      "reviewedAt": "2026-10-10T07:35:00+09:00",
+      "nextReviewDate": "2026-10-24",
+      "result": "2026년 10월 17일 OpenAI 공식 뉴스와 Daybreak 공개 자료를 재검토했다. 10월 10일 이후 신규 운영 성과, 10억달러 이용권 소진액·도입 기관 수와 MS-ISAC 취약점 수정 결과는 공개되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-17T07:29:38+09:00",
       "status": "unverified",
       "test": "보조형 이용권의 실제 소진액·도입 기관 수와 MS-ISAC 시범사업의 취약점 수정 성과가 확인되는가",
       "theme": "AI 안전",
@@ -161,9 +167,16 @@
       "evidenceIds": [
         "tesla-cybercab-special-order-reuters-20260915",
         "tesla-cybercab-audit-nhtsa-20260904",
-        "tesla-cybercab-faq-official-20260831"
+        "tesla-cybercab-faq-official-20260831",
+        "tesla-cybercab-school-zone-bi-20261012"
       ],
       "history": [
+        {
+          "status": "unverified",
+          "result": "2026년 10월 10일 NHTSA 공개자료를 재검토했다. 9월 4일 감사 개시 이후 Tesla 답변·NHTSA 적합성 결론과 일반 유료 승차 수·사고·원격지원 지표는 공개되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
+          "reviewedAt": "2026-10-10T07:35:00+09:00",
+          "nextReviewDate": "2026-10-17"
+        },
         {
           "status": "unverified",
           "result": "2026년 10월 6일 Tesla 공식 FAQ와 승객 안내에서 오스틴 제한 지역의 앱 배차·예상요금·운전대 없는 Cybercab 탑승 절차를 확인했다. 실제 서비스 제공은 보강됐지만 Tesla의 NHTSA 답변·적합성 결론과 유료 승차 수·사고·원격지원 지표는 공개되지 않아 미검증을 유지한다.",
@@ -215,9 +228,9 @@
       ],
       "hypothesisId": "hyp-tesla-cybercab-austin-launch",
       "id": "cybercab-safety",
-      "nextReviewDate": "2026-10-17",
-      "result": "2026년 10월 10일 NHTSA 공개자료를 재검토했다. 9월 4일 감사 개시 이후 Tesla 답변·NHTSA 적합성 결론과 일반 유료 승차 수·사고·원격지원 지표는 공개되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
-      "reviewedAt": "2026-10-10T07:35:00+09:00",
+      "nextReviewDate": "2026-10-24",
+      "result": "2026년 10월 17일 NHTSA 자기인증 감사 후속과 신규 학교구역 과속 결함청원을 재검토했다. 약 1,000대·영상 3건의 청원 검토는 추가됐지만 정식 조사 결정·Tesla 답변·자기인증 결론·사고·원격지원 지표는 공개되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-17T07:29:38+09:00",
       "status": "unverified",
       "test": "일반 유료 승차 수·요금·서비스 구역·원격지원·사고율이 공개되고 NHTSA가 자기인증 적합성을 인정하는가",
       "theme": "자율주행",
@@ -307,16 +320,444 @@
     }
   ],
   "currentObservationIds": [
-    "ge-venture-global-power-frame-20261015",
-    "meta-muse-spark-1-3"
+    "tesla-roadster-thruster-demo-20261015",
+    "tesla-cybercab-school-zone-review-20261009",
+    "dalio-ai-sovereign-capital-squeeze-20261015"
   ],
   "currentSignalIds": [
-    "tsmc-q3-record-revenue-20261008",
-    "dario-frontier-pacing"
+    "nvidia-rtx-spark-launch-20261016"
   ],
-  "dailyThesis": "AI 투자 판단의 초점이 발표 규모에서 검증 가능한 운영 결과로 이동했다. TSMC는 AI 수요를 이익·2나노 매출로 전환했고 Anthropic은 독립 평가자를 내부에 배치했다. 반면 전력 예약계약과 오픈웨이트 공개는 후속 주문·독립 채택 검증이 남아 있다.",
-  "lastSuccessfulRun": "2026-10-16T07:29:10+09:00",
+  "dailyThesis": "AI 투자 신호는 데이터센터 밖 로컬 PC의 실제 판매로 넓어졌지만, 자율주행·고성능 EV의 시연과 자본시장 경고는 규제·양산·자금수요라는 후속 증거를 요구한다.",
+  "lastSuccessfulRun": "2026-10-17T07:29:38+09:00",
   "observations": [
+    {
+      "id": "tesla-roadster-thruster-demo-20261015",
+      "eventId": "tesla-roadster-thruster-prototype-demo",
+      "hypothesisId": "tesla-roadster-halo-commercialization",
+      "leader": "일론 머스크(Elon Musk)",
+      "role": "Tesla · SpaceX · SpaceXAI CEO",
+      "initials": "EM",
+      "score": 71,
+      "kind": "실행",
+      "date": "2026.10.15",
+      "reportDate": "2026.10.17",
+      "theme": "AI 배포",
+      "headline": "Tesla가 SpaceX 추진기 Roadster 시제품을 실제 시연했지만 양산은 2028년으로 미뤘다",
+      "takeaway": "장기간 반복된 Roadster 약속이 공중 회전·점프를 수행한 시제품으로 처음 구체화됐다. 다만 Musk 스스로 재무적 중요성이 낮다고 밝혔고 도로 합법성·가격·2028년 양산이 남아 투자 파급력은 제한적이다.",
+      "before": "9월에는 장기간 지연된 Roadster의 공개 일정만 예고됐고 차세대 시제품의 추진기 성능·생산 시점·예약 조건은 검증되지 않았다.",
+      "now": "Tesla는 SpaceX와 개발한 추진기·흡착 시스템으로 공중 회전과 차량 점프를 시연하고 Performance·Thrust·초대형 Rocket 트림, 2028년 생산 목표와 예약금을 제시했다.",
+      "facts": [
+        "Roadster 시제품은 흡착 시스템으로 경사로를 거꾸로 주행하고 추진기로 공중 회전·차량 점프를 수행했다.",
+        "Tesla는 2028년 생산을 제시했으며 Performance와 Thrust 예약금은 각각 5만달러와 25만달러다.",
+        "Rocket 트림은 초대 방식이고 도로 주행용이 아니며 일부 지역에서만 제공된다고 회사가 명시했다.",
+        "Musk는 Roadster가 재무적으로 중요하지 않지만 브랜드를 위한 halo car라고 설명했다."
+      ],
+      "action": "Tesla가 반복된 제품 약속을 SpaceX 추진기와 흡착 시스템을 탑재한 실제 주행·비행 시연 및 예약 재개로 옮겼다.",
+      "impact": "Tesla–SpaceX 간 기술 이전과 고성능 EV 브랜드 효과는 확인됐지만 직접 매출 기여가 작고 2028년 양산·규제 승인 전까지 공급망 파급은 제한된다.",
+      "impactPath": [
+        "항공우주 추진·제어 기술의 자동차 시제품 적용",
+        "고성능 EV 브랜드와 예약 수요 형성",
+        "규제 승인·양산 설계·공급망 투자",
+        "2028년 실제 인도와 예약 전환율이 성과를 결정"
+      ],
+      "counter": "Rocket 트림은 도로 주행 승인이 없고 생산은 2028년 목표다. 과거 Roadster 일정이 반복 지연됐으며 차량 가격·인증·대량생산 설계와 예약 전환율도 공개되지 않았다.",
+      "next": "도로·항공 규제 분류, 양산 설계와 가격, 공급업체·생산설비 투자, 2028년 생산 개시와 실제 인도·환불률을 확인한다.",
+      "source": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+      "sourceLabel": "Reuters · 2026.10.15",
+      "sourceGrade": "B",
+      "stage": "execution",
+      "impactDirection": "mixed",
+      "attribution": "leader_direct",
+      "breakdown": {
+        "action": {
+          "score": 24,
+          "reason": "장기간 예고한 제품의 실제 작동 시제품을 공개 시연하고 예약 조건을 제시했다."
+        },
+        "change": {
+          "score": 11,
+          "reason": "공개 일정 약속에서 추진기·흡착 기능 시연으로 진전했지만 양산은 2028년으로 남았다."
+        },
+        "impact": {
+          "score": 12,
+          "reason": "항공우주 기술 이전과 브랜드 효과는 있으나 직접 재무·산업 규모는 제한적이다."
+        },
+        "verification": {
+          "score": 14,
+          "reason": "생산연도·예약금·트림과 규제 제약이 공개돼 양산·인도로 판별할 수 있다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "Reuters와 AP 직접 보도, Tesla 공식 제품 제한 문구를 교차 확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-09-12",
+        "statement": "Roadster는 공개 행사 일정만 예고됐고 차세대 시제품의 작동과 생산 조건은 검증 전이었다.",
+        "evidenceIds": [
+          "tesla-roadster-baseline-reuters-20260912"
+        ]
+      },
+      "evidenceIds": [
+        "tesla-roadster-reuters-20261015",
+        "tesla-roadster-ap-20261016",
+        "tesla-roadster-official-20261016"
+      ],
+      "assessmentNote": "24+11+12+14+10=71. 실제 시연은 실행으로 인정하되 2028년 양산·규제·낮은 재무 중요성을 반영해 관찰로 제한했다.",
+      "occurredAt": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "industryLinks": [
+        {
+          "sector": "고성능 전기차·항공우주 기술",
+          "relationship": "confirmed",
+          "text": "Tesla와 SpaceX가 공동 개발한 추진기 기술이 Roadster 시제품 시연에 적용됐다.",
+          "evidenceIds": [
+            "tesla-roadster-reuters-20261015",
+            "tesla-roadster-ap-20261016"
+          ]
+        },
+        {
+          "sector": "프리미엄 EV 공급망",
+          "relationship": "hypothesis",
+          "text": "2028년 양산이 확정되면 고압 공기·경량소재·제어부품 수요로 이어질 수 있으나 공급업체와 물량은 미공개다.",
+          "evidenceIds": [
+            "tesla-roadster-reuters-20261015"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-17T07:29:38+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "leader_direct",
+        "breakdown": {
+          "action": {
+            "score": 24,
+            "reason": "장기간 예고한 제품의 실제 작동 시제품을 공개 시연하고 예약 조건을 제시했다."
+          },
+          "change": {
+            "score": 11,
+            "reason": "공개 일정 약속에서 추진기·흡착 기능 시연으로 진전했지만 양산은 2028년으로 남았다."
+          },
+          "impact": {
+            "score": 12,
+            "reason": "항공우주 기술 이전과 브랜드 효과는 있으나 직접 재무·산업 규모는 제한적이다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "생산연도·예약금·트림과 규제 제약이 공개돼 양산·인도로 판별할 수 있다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Reuters와 AP 직접 보도, Tesla 공식 제품 제한 문구를 교차 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-12",
+          "statement": "Roadster는 공개 행사 일정만 예고됐고 차세대 시제품의 작동과 생산 조건은 검증 전이었다.",
+          "evidenceIds": [
+            "tesla-roadster-baseline-reuters-20260912"
+          ]
+        },
+        "evidenceIds": [
+          "tesla-roadster-reuters-20261015",
+          "tesla-roadster-ap-20261016",
+          "tesla-roadster-official-20261016"
+        ],
+        "note": "24+11+12+14+10=71. 실제 시연은 실행으로 인정하되 2028년 양산·규제·낮은 재무 중요성을 반영해 관찰로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-15",
+        "publishedAt": "2026-10-15",
+        "firstSeenAt": "2026-10-17T07:29:38+09:00",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "직전 조사 구간에 발생했지만 이번 수집 구간에서 Reuters·AP·Tesla 원문을 처음 교차 확인한 누락 사건이다."
+      }
+    },
+    {
+      "id": "tesla-cybercab-school-zone-review-20261009",
+      "eventId": "tesla-cybercab-school-zone-defect-petition",
+      "hypothesisId": "hyp-tesla-cybercab-austin-launch",
+      "leader": "일론 머스크(Elon Musk)",
+      "role": "Tesla · SpaceX · SpaceXAI CEO",
+      "initials": "EM",
+      "score": 66,
+      "kind": "약화",
+      "date": "2026.10.09",
+      "reportDate": "2026.10.17",
+      "theme": "AI 안전",
+      "headline": "NHTSA가 Cybercab·Model Y Robotaxi의 학교구역 과속 주장에 결함청원 검토를 열었다",
+      "takeaway": "운전대 없는 유료 운행의 검증 질문이 자기인증 적합성에서 실제 학교구역 속도 준수로 넓어졌다. 아직 정식 결함조사 결정이나 사고·부상은 없어 안전 실패로 확정할 수는 없다.",
+      "before": "Tesla는 오스틴 제한 구역에서 앱 배차와 요금, 운전대 없는 탑승 절차를 운영했고 NHTSA는 Cybercab 자기인증 근거를 별도로 감사 중이었다.",
+      "now": "NHTSA는 자동운전 중 학교구역 제한속도를 넘었다는 영상 3건이 첨부된 결함청원을 접수해 약 1,000대의 Model Y Robotaxi와 Cybercab에 대한 정식 조사 개시 여부를 검토한다.",
+      "facts": [
+        "NHTSA 결함조사국은 9월 23일 접수된 청원을 바탕으로 10월 9일 결함청원 검토를 열었다.",
+        "대상은 2026년형 Model Y Robotaxi와 Cybercab 약 1,000대로 기재됐다.",
+        "청원은 자동운전 중 활성 학교구역 제한속도를 넘었다는 영상 3건을 근거로 제시했다.",
+        "공개 문서에는 관련 사고나 부상이 없으며 NHTSA는 정식 조사 개시 여부를 아직 결정하지 않았다."
+      ],
+      "action": "NHTSA가 Tesla의 실제 자율주행 운행 행동을 대상으로 결함청원 검토 절차를 개시했다.",
+      "impact": "Cybercab 확장의 병목이 차체 자기인증뿐 아니라 운행정책·속도제어 검증으로 확대돼 지역 확대와 규제 비용, 보험·신뢰에 영향을 줄 수 있다.",
+      "impactPath": [
+        "학교구역 과속 영상과 결함청원",
+        "NHTSA의 정식 조사 여부 판단",
+        "속도제어 소프트웨어·운행허가·보험 검토",
+        "서비스 지역 확대와 차량 생산 속도에 영향"
+      ],
+      "counter": "현재는 청원 평가 단계이며 정식 결함조사·위반·리콜이 아니다. 사고와 부상도 보고되지 않았고 영상의 맥락과 차량별 소프트웨어 버전은 공개되지 않았다.",
+      "next": "NHTSA의 청원 인용·기각 결정, Tesla 답변, 차량 로그·학교구역 인식 성능, 소프트웨어 수정·운행 제한·사고 지표를 확인한다.",
+      "source": "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10",
+      "sourceLabel": "Business Insider · 2026.10.12",
+      "sourceGrade": "B",
+      "stage": "execution",
+      "impactDirection": "negative",
+      "attribution": "third_party",
+      "breakdown": {
+        "action": {
+          "score": 20,
+          "reason": "연방 안전당국이 영상 3건과 약 1,000대를 대상으로 공식 청원 검토 절차를 열었다."
+        },
+        "change": {
+          "score": 14,
+          "reason": "자기인증 감사에 실제 운행 중 학교구역 속도준수 문제가 새 검증축으로 추가됐다."
+        },
+        "impact": {
+          "score": 13,
+          "reason": "자율주행 확장·소프트웨어·보험·규제 비용에 영향을 줄 수 있으나 아직 청원 검토 단계다."
+        },
+        "verification": {
+          "score": 11,
+          "reason": "NHTSA의 인용·기각, Tesla 로그·답변과 리콜·수정으로 판별 가능하다."
+        },
+        "source": {
+          "score": 8,
+          "reason": "NHTSA 문서를 인용한 신뢰도 높은 직접 보도이지만 당국 원문 URL은 확인하지 못했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-08-31",
+        "statement": "Tesla는 오스틴 제한 지역의 앱 배차·요금·무운전대 Cybercab 탑승 절차를 공식 안내했고 안전성과 자기인증은 별도 검증 전이었다.",
+        "evidenceIds": [
+          "tesla-cybercab-faq-official-20260831"
+        ]
+      },
+      "evidenceIds": [
+        "tesla-cybercab-school-zone-bi-20261012"
+      ],
+      "assessmentNote": "20+14+13+11+8=66. 공식 절차 개시는 반영하되 정식 조사·사고·위반 결론이 없어 관찰로 제한했다.",
+      "occurredAt": "2026-10-09",
+      "publishedAt": "2026-10-12",
+      "industryLinks": [
+        {
+          "sector": "자율주행·로보택시 규제",
+          "relationship": "indirect",
+          "text": "학교구역 속도준수 검토는 Tesla의 지역 확대·운행정책과 경쟁 자율주행 사업자의 안전 기준에도 영향을 줄 수 있다.",
+          "evidenceIds": [
+            "tesla-cybercab-school-zone-bi-20261012"
+          ]
+        },
+        {
+          "sector": "자동차 보험·안전 소프트웨어",
+          "relationship": "hypothesis",
+          "text": "정식 조사나 결함 인정으로 전환되면 속도제어 수정·운행제한·보험 조건 변화가 발생할 수 있다.",
+          "evidenceIds": [
+            "tesla-cybercab-school-zone-bi-20261012"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-17T07:29:38+09:00",
+        "stage": "execution",
+        "impactDirection": "negative",
+        "attribution": "third_party",
+        "breakdown": {
+          "action": {
+            "score": 20,
+            "reason": "연방 안전당국이 영상 3건과 약 1,000대를 대상으로 공식 청원 검토 절차를 열었다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "자기인증 감사에 실제 운행 중 학교구역 속도준수 문제가 새 검증축으로 추가됐다."
+          },
+          "impact": {
+            "score": 13,
+            "reason": "자율주행 확장·소프트웨어·보험·규제 비용에 영향을 줄 수 있으나 아직 청원 검토 단계다."
+          },
+          "verification": {
+            "score": 11,
+            "reason": "NHTSA의 인용·기각, Tesla 로그·답변과 리콜·수정으로 판별 가능하다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "NHTSA 문서를 인용한 신뢰도 높은 직접 보도이지만 당국 원문 URL은 확인하지 못했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-08-31",
+          "statement": "Tesla는 오스틴 제한 지역의 앱 배차·요금·무운전대 Cybercab 탑승 절차를 공식 안내했고 안전성과 자기인증은 별도 검증 전이었다.",
+          "evidenceIds": [
+            "tesla-cybercab-faq-official-20260831"
+          ]
+        },
+        "evidenceIds": [
+          "tesla-cybercab-school-zone-bi-20261012"
+        ],
+        "note": "20+14+13+11+8=66. 공식 절차 개시는 반영하되 정식 조사·사고·위반 결론이 없어 관찰로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-09",
+        "publishedAt": "2026-10-12",
+        "firstSeenAt": "2026-10-17T07:29:38+09:00",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "10월 9일 당국 절차는 이번 수집 구간에서 NHTSA 문서를 인용한 직접 보도로 처음 확인했다."
+      }
+    },
+    {
+      "id": "dalio-ai-sovereign-capital-squeeze-20261015",
+      "eventId": "dalio-ai-sovereign-capital-squeeze",
+      "hypothesisId": "dalio-ai-sovereign-capital-squeeze",
+      "leader": "레이 달리오(Ray Dalio)",
+      "role": "Bridgewater Associates Founder",
+      "initials": "RD",
+      "score": 60,
+      "kind": "강화",
+      "date": "2026.10.15",
+      "reportDate": "2026.10.17",
+      "theme": "AI 인프라",
+      "headline": "달리오가 AI 기업과 정부의 자본 경쟁을 2027년 4.4조달러 순부채 공급 문제로 구체화했다",
+      "takeaway": "기존의 막연한 부채위기 경고가 AI 하이퍼스케일러와 정부의 동시 조달, 순부채 공급·기업채 발행·자유현금흐름이라는 검증 가능한 경로로 좁혀졌다. 실제 수요 부족과 스프레드 확대가 이어지는지는 미확인이다.",
+      "before": "10월 6일 달리오는 미국 부채와 이자비용이 지속 불가능하고 향후 3년 내 위기가 가능하다고 경고했지만 AI 기업과 정부의 자본경쟁 규모는 구체화하지 않았다.",
+      "now": "달리오는 연간 순부채 공급이 2025년 약 3.5조달러에서 2027년 약 4.4조달러로 늘 수 있고 AI 기업의 차입·주식발행이 자유현금흐름을 압박하는 초기 단계라고 주장했다.",
+      "facts": [
+        "Dalio는 2027년 연간 순부채 공급을 약 4.4조달러로 제시해 2025년 약 3.5조달러보다 증가한다고 전망했다.",
+        "그는 순기업채 발행이 2025년 약 7,000억달러에서 2026년 1.1조달러, 2027년 1.4조달러로 늘 수 있다고 밝혔다.",
+        "기술기업 채권 발행은 2025년 전체 1,080억달러에서 2026년 초 약 2,200억달러로 늘었다고 지적했다.",
+        "높은 설비투자를 차입과 주식발행으로 충당하면서 자유현금흐름이 줄어드는 것을 자금경색의 초기 신호로 규정했다."
+      ],
+      "action": "Dalio가 기존 부채위기 관점을 AI 하이퍼스케일러의 조달과 정부채 공급을 합친 수치·기간·반증 가능한 자본시장 경로로 구체화했다.",
+      "impact": "AI 인프라 수익성과 별개로 금리·신용스프레드가 상승하면 데이터센터·전력·반도체 CAPEX의 할인율과 자금조달 속도가 동시에 악화될 수 있다.",
+      "impactPath": [
+        "정부채와 AI 기업채 동시 공급 증가",
+        "투자자 요구수익률·신용스프레드 상승",
+        "AI 설비투자와 자유현금흐름 압박",
+        "CAPEX 지연·프로젝트 선별 강화 가능성"
+      ],
+      "counter": "제시된 2027년 수치는 전망이며 채권 수요·생산성 향상·기업 이익이 공급 증가를 흡수할 수 있다. Dalio의 실제 포트폴리오 변경과 개별 AI 프로젝트 취소도 확인되지 않았다.",
+      "next": "2027년 정부·기업 순발행, 기술기업 신용스프레드와 발행 concession, 하이퍼스케일러 자유현금흐름·CAPEX, 프로젝트 지연·취소를 확인한다.",
+      "source": "https://www.businessinsider.com/ray-dalio-bond-market-ai-tech-treasury-yields-2026-10",
+      "sourceLabel": "Business Insider · 2026.10.15",
+      "sourceGrade": "B",
+      "stage": "statement",
+      "impactDirection": "negative",
+      "attribution": "leader_direct",
+      "breakdown": {
+        "action": {
+          "score": 6,
+          "reason": "실제 포트폴리오 변화는 없지만 수치·기간이 있는 직접 관점 제시다."
+        },
+        "change": {
+          "score": 14,
+          "reason": "일반 부채위기 경고를 AI 하이퍼스케일러와 정부의 동시 자본경쟁으로 의미 있게 좁혔다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "AI 인프라·국채·회사채의 가격과 자본배분에 걸친 광범위한 경로를 제시한다."
+        },
+        "verification": {
+          "score": 14,
+          "reason": "2025~2027 순발행·스프레드·자유현금흐름 수치로 판별 가능하다."
+        },
+        "source": {
+          "score": 8,
+          "reason": "Dalio의 X 직접 발언을 구체적으로 인용한 신뢰도 높은 직접 보도를 확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-06",
+        "statement": "Dalio는 향후 3년 내 미국 부채위기를 경고했지만 AI 기업과 정부의 자본경쟁 규모는 특정하지 않았다.",
+        "evidenceIds": [
+          "dalio-debt-crisis-baseline-bi-20261006"
+        ]
+      },
+      "evidenceIds": [
+        "dalio-capital-squeeze-bi-20261015"
+      ],
+      "assessmentNote": "6+14+18+14+8=60. 행동점수는 발언 상한으로 두고, 수치화된 변화·파급·검증조건으로 관찰 문턱만 통과시켰다.",
+      "occurredAt": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·전력·반도체 금융",
+          "relationship": "hypothesis",
+          "text": "금리와 스프레드 상승이 부채 의존형 AI 설비투자의 프로젝트 선별·지연을 유발할 수 있다.",
+          "evidenceIds": [
+            "dalio-capital-squeeze-bi-20261015"
+          ]
+        },
+        {
+          "sector": "국채·회사채 시장",
+          "relationship": "indirect",
+          "text": "정부와 기술기업의 동시 순발행 증가는 동일 장기자본 수요를 두고 경쟁하는 경로를 만든다.",
+          "evidenceIds": [
+            "dalio-capital-squeeze-bi-20261015"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-17T07:29:38+09:00",
+        "stage": "statement",
+        "impactDirection": "negative",
+        "attribution": "leader_direct",
+        "breakdown": {
+          "action": {
+            "score": 6,
+            "reason": "실제 포트폴리오 변화는 없지만 수치·기간이 있는 직접 관점 제시다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "일반 부채위기 경고를 AI 하이퍼스케일러와 정부의 동시 자본경쟁으로 의미 있게 좁혔다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "AI 인프라·국채·회사채의 가격과 자본배분에 걸친 광범위한 경로를 제시한다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "2025~2027 순발행·스프레드·자유현금흐름 수치로 판별 가능하다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "Dalio의 X 직접 발언을 구체적으로 인용한 신뢰도 높은 직접 보도를 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-06",
+          "statement": "Dalio는 향후 3년 내 미국 부채위기를 경고했지만 AI 기업과 정부의 자본경쟁 규모는 특정하지 않았다.",
+          "evidenceIds": [
+            "dalio-debt-crisis-baseline-bi-20261006"
+          ]
+        },
+        "evidenceIds": [
+          "dalio-capital-squeeze-bi-20261015"
+        ],
+        "note": "6+14+18+14+8=60. 행동점수는 발언 상한으로 두고, 수치화된 변화·파급·검증조건으로 관찰 문턱만 통과시켰다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-15",
+        "publishedAt": "2026-10-15",
+        "firstSeenAt": "2026-10-17T07:29:38+09:00",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "직전 조사 종료 전 게시됐으나 이번 수집 구간에서 기준선과 직접 인용을 처음 교차 확인했다."
+      }
+    },
     {
       "id": "ge-venture-global-power-frame-20261015",
       "eventId": "ge-venture-global-offgrid-power-frame",
@@ -1716,37 +2157,42 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-12T07:33:32+09:00",
-      "end": "2026-10-16T07:29:10+09:00"
+      "start": "2026-10-13T07:29:10+09:00",
+      "end": "2026-10-17T07:29:38+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://ir.tesla.com/press",
-          "https://x.ai/news"
+          "https://x.ai/news",
+          "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+          "https://www.tesla.com/roadster",
+          "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "Roadster 작동 시제품과 Cybercab 학교구역 과속 결함청원 검토를 각각 독립 사건으로 확인했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news/latest"
+          "https://nvidianews.nvidia.com/news/latest",
+          "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+          "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "RTX Spark의 10월 7일 사전주문 기준선과 10월 16일 6개 OEM 글로벌 판매 원문을 대조했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://openai.com/news/"
         ],
@@ -1757,18 +2203,18 @@
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
-          "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+          "https://www.anthropic.com/news"
         ],
-        "note": "Anthropic 원문에서 METR 6명의 실제 배치·접근권·발표권을 확인해 기존 사건을 보강했다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
@@ -1779,7 +2225,7 @@
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
         ],
@@ -1790,20 +2236,18 @@
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
-          "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/",
-          "https://research.meta.ai/blog/introducing-muse-spark-1-3",
           "https://about.fb.com/news/"
         ],
-        "note": "9월 Meta 공식 예고와 10월 오픈웨이트 공개 보도를 대조해 legacy 사건을 재평가했다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://newsroom.amd.com/"
         ],
@@ -1814,21 +2258,18 @@
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
-          "https://investor.tsmc.com/english/quarterly-results/2026/q3",
-          "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf",
-          "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
-          "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/"
+          "https://investor.tsmc.com/english/quarterly-results/2026/q3"
         ],
-        "note": "공식 분기 실적·경영보고서와 직접 보도를 열어 예비 매출 사건을 실적 성과로 보강했다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://group.softbank/en/news/press"
         ],
@@ -1839,7 +2280,7 @@
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
@@ -1850,21 +2291,18 @@
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
-          "https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm",
-          "https://ventureglobal.com/2026/10/15/venture-global-secures-new-agreements-to-support-expansion-of-existing-grid-independent-power-network/",
-          "https://www.reuters.com/business/energy/venture-global-inks-deals-with-ge-vernova-baker-hughes-power-expansion-2026-10-15/",
           "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence"
         ],
-        "note": "SEC 공시·회사 원문·직접 보도를 열어 예약과 확정 구매주문의 구속력을 구분했다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
@@ -1875,7 +2313,7 @@
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://www.flagshippioneering.com/"
         ],
@@ -1886,7 +2324,7 @@
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
@@ -1897,7 +2335,7 @@
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude"
         ],
@@ -1908,7 +2346,7 @@
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://foundersfund.com/team/peter-thiel/"
         ],
@@ -1919,7 +2357,7 @@
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
@@ -1930,18 +2368,19 @@
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
-          "https://economicprinciples.org/"
+          "https://economicprinciples.org/",
+          "https://www.businessinsider.com/ray-dalio-bond-market-ai-tech-treasury-yields-2026-10"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "기존 부채위기 경고와 AI 기업·정부 자본경쟁의 수치화된 후속 발언을 대조했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://a16z.com/author/marc-andreessen/"
         ],
@@ -1952,18 +2391,18 @@
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "공식 글의 LLM 사용 관점을 확인했지만 날짜 있는 기준선과 투자판단을 바꿀 행동이 부족해 60점 미만으로 제외했다.",
+        "note": "공식 글과 인터뷰를 확인했으나 질문과 제3자 비공개 주장 중심이며 본인의 신규 행동·검증 기준이 부족해 60점 미만으로 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-16T07:29:10+09:00",
+        "checkedAt": "2026-10-17T07:29:38+09:00",
         "urls": [
           "https://balajis.com/"
         ],
@@ -1973,6 +2412,96 @@
       }
     ],
     "evidence": [
+      {
+        "id": "nvidia-rtx-spark-launch-official-20261016",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+        "label": "NVIDIA 공식 · RTX Spark 글로벌 출시",
+        "grade": "A",
+        "publishedAt": "2026-10-16",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "NVIDIA는 RTX Spark 노트북을 ASUS·Dell·HP·Lenovo·Microsoft·MSI를 통해 전 세계에 판매하기 시작했으며 시작가는 2,599달러라고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "nvidia-rtx-spark-baseline-official-20261007",
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+        "label": "NVIDIA 공식 · RTX Spark 사전주문 기준선",
+        "grade": "A",
+        "publishedAt": "2026-10-07",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "NVIDIA는 10월 7일 RTX Spark 사전주문을 열고 노트북을 10월 16일 출시하며 소형 데스크톱은 11월 판매한다고 예고했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tesla-roadster-reuters-20261015",
+        "url": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+        "label": "Reuters · Tesla Roadster 시연",
+        "grade": "B",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "Tesla는 SpaceX 기술을 적용한 Roadster 시제품의 공중 회전·점프·흡착 주행을 시연하고 2028년 생산 계획과 예약 조건을 공개했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tesla-roadster-ap-20261016",
+        "url": "https://apnews.com/article/7d5f19665435b7408025bfb7a2f2f0b7",
+        "label": "AP · Tesla Roadster 시연 교차확인",
+        "grade": "B",
+        "publishedAt": "2026-10-16",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "AP는 Roadster의 냉가스 추진·공중 기동 시연과 2028년 생산 목표, 도로 운행 규제 불확실성을 확인했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tesla-roadster-baseline-reuters-20260912",
+        "url": "https://www.reuters.com/business/autos-transportation/tesla-signals-oct-1-launch-long-delayed-roadster-2026-09-12/",
+        "label": "Reuters · Roadster 공개 예고 기준선",
+        "grade": "B",
+        "publishedAt": "2026-09-12",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "Elon Musk는 장기간 지연된 차세대 Roadster의 공개 행사를 예고했지만 당시 생산 차량·시연 성과는 확인되지 않았다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tesla-roadster-official-20261016",
+        "url": "https://www.tesla.com/roadster",
+        "label": "Tesla 공식 · Roadster 제품 페이지",
+        "grade": "A",
+        "publishedAt": "2026-10-16",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "Tesla 공식 페이지는 Rocket 트림이 일부 지역에서만 제공되며 표시 사양이 Thrust 보조장치 기준이라고 명시한다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tesla-cybercab-school-zone-bi-20261012",
+        "url": "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10",
+        "label": "Business Insider · NHTSA 학교구역 과속 결함청원 검토",
+        "grade": "B",
+        "publishedAt": "2026-10-12",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "NHTSA는 Model Y Robotaxi와 Cybercab의 학교구역 과속 주장에 대한 결함청원 검토를 열었으며 약 1,000대, 영상 3건을 평가한 뒤 정식 조사 여부를 결정한다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "dalio-capital-squeeze-bi-20261015",
+        "url": "https://www.businessinsider.com/ray-dalio-bond-market-ai-tech-treasury-yields-2026-10",
+        "label": "Business Insider · Ray Dalio 자본공급 경고",
+        "grade": "B",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "Ray Dalio는 정부와 AI 하이퍼스케일러의 자본 경쟁으로 연간 순부채 공급이 2025년 약 3.5조달러에서 2027년 약 4.4조달러로 늘 수 있다고 밝혔다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "dalio-debt-crisis-baseline-bi-20261006",
+        "url": "https://www.businessinsider.com/ray-dalio-debt-crisis-government-spending-borrowing-ai-wealth-interest-2026-10",
+        "label": "Business Insider · Ray Dalio 부채위기 기준선",
+        "grade": "B",
+        "publishedAt": "2026-10-06",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "claim": "Dalio는 미국의 부채와 이자비용이 지속 불가능하며 향후 3년 안에 부채 위기가 발생할 수 있다고 경고했다.",
+        "provenance": "direct_report"
+      },
       {
         "id": "tsmc-q3-earnings-release-20261015",
         "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf",
@@ -4595,6 +5124,653 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261017-dalio-ai-sovereign-capital-squeeze",
+        "eventId": "dalio-ai-sovereign-capital-squeeze",
+        "signalId": "dalio-ai-sovereign-capital-squeeze-20261015",
+        "hypothesisId": "dalio-ai-sovereign-capital-squeeze",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.17",
+        "recordedAt": "2026-10-17T07:29:38+09:00",
+        "tier": "observation",
+        "score": 60,
+        "headline": "달리오가 AI 기업과 정부의 자본 경쟁을 2027년 4.4조달러 순부채 공급 문제로 구체화했다",
+        "source": "https://www.businessinsider.com/ray-dalio-bond-market-ai-tech-treasury-yields-2026-10",
+        "status": "reviewed",
+        "stage": "statement",
+        "reason": "6+14+18+14+8=60. 행동점수는 발언 상한으로 두고, 수치화된 변화·파급·검증조건으로 관찰 문턱만 통과시켰다.",
+        "evidenceIds": [
+          "dalio-capital-squeeze-bi-20261015"
+        ],
+        "snapshot": {
+          "id": "dalio-ai-sovereign-capital-squeeze-20261015",
+          "eventId": "dalio-ai-sovereign-capital-squeeze",
+          "hypothesisId": "dalio-ai-sovereign-capital-squeeze",
+          "leader": "레이 달리오(Ray Dalio)",
+          "role": "Bridgewater Associates Founder",
+          "initials": "RD",
+          "score": 60,
+          "kind": "강화",
+          "date": "2026.10.15",
+          "reportDate": "2026.10.17",
+          "theme": "AI 인프라",
+          "headline": "달리오가 AI 기업과 정부의 자본 경쟁을 2027년 4.4조달러 순부채 공급 문제로 구체화했다",
+          "takeaway": "기존의 막연한 부채위기 경고가 AI 하이퍼스케일러와 정부의 동시 조달, 순부채 공급·기업채 발행·자유현금흐름이라는 검증 가능한 경로로 좁혀졌다. 실제 수요 부족과 스프레드 확대가 이어지는지는 미확인이다.",
+          "before": "10월 6일 달리오는 미국 부채와 이자비용이 지속 불가능하고 향후 3년 내 위기가 가능하다고 경고했지만 AI 기업과 정부의 자본경쟁 규모는 구체화하지 않았다.",
+          "now": "달리오는 연간 순부채 공급이 2025년 약 3.5조달러에서 2027년 약 4.4조달러로 늘 수 있고 AI 기업의 차입·주식발행이 자유현금흐름을 압박하는 초기 단계라고 주장했다.",
+          "facts": [
+            "Dalio는 2027년 연간 순부채 공급을 약 4.4조달러로 제시해 2025년 약 3.5조달러보다 증가한다고 전망했다.",
+            "그는 순기업채 발행이 2025년 약 7,000억달러에서 2026년 1.1조달러, 2027년 1.4조달러로 늘 수 있다고 밝혔다.",
+            "기술기업 채권 발행은 2025년 전체 1,080억달러에서 2026년 초 약 2,200억달러로 늘었다고 지적했다.",
+            "높은 설비투자를 차입과 주식발행으로 충당하면서 자유현금흐름이 줄어드는 것을 자금경색의 초기 신호로 규정했다."
+          ],
+          "action": "Dalio가 기존 부채위기 관점을 AI 하이퍼스케일러의 조달과 정부채 공급을 합친 수치·기간·반증 가능한 자본시장 경로로 구체화했다.",
+          "impact": "AI 인프라 수익성과 별개로 금리·신용스프레드가 상승하면 데이터센터·전력·반도체 CAPEX의 할인율과 자금조달 속도가 동시에 악화될 수 있다.",
+          "impactPath": [
+            "정부채와 AI 기업채 동시 공급 증가",
+            "투자자 요구수익률·신용스프레드 상승",
+            "AI 설비투자와 자유현금흐름 압박",
+            "CAPEX 지연·프로젝트 선별 강화 가능성"
+          ],
+          "counter": "제시된 2027년 수치는 전망이며 채권 수요·생산성 향상·기업 이익이 공급 증가를 흡수할 수 있다. Dalio의 실제 포트폴리오 변경과 개별 AI 프로젝트 취소도 확인되지 않았다.",
+          "next": "2027년 정부·기업 순발행, 기술기업 신용스프레드와 발행 concession, 하이퍼스케일러 자유현금흐름·CAPEX, 프로젝트 지연·취소를 확인한다.",
+          "source": "https://www.businessinsider.com/ray-dalio-bond-market-ai-tech-treasury-yields-2026-10",
+          "sourceLabel": "Business Insider · 2026.10.15",
+          "sourceGrade": "B",
+          "stage": "statement",
+          "impactDirection": "negative",
+          "attribution": "leader_direct",
+          "breakdown": {
+            "action": {
+              "score": 6,
+              "reason": "실제 포트폴리오 변화는 없지만 수치·기간이 있는 직접 관점 제시다."
+            },
+            "change": {
+              "score": 14,
+              "reason": "일반 부채위기 경고를 AI 하이퍼스케일러와 정부의 동시 자본경쟁으로 의미 있게 좁혔다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "AI 인프라·국채·회사채의 가격과 자본배분에 걸친 광범위한 경로를 제시한다."
+            },
+            "verification": {
+              "score": 14,
+              "reason": "2025~2027 순발행·스프레드·자유현금흐름 수치로 판별 가능하다."
+            },
+            "source": {
+              "score": 8,
+              "reason": "Dalio의 X 직접 발언을 구체적으로 인용한 신뢰도 높은 직접 보도를 확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-06",
+            "statement": "Dalio는 향후 3년 내 미국 부채위기를 경고했지만 AI 기업과 정부의 자본경쟁 규모는 특정하지 않았다.",
+            "evidenceIds": [
+              "dalio-debt-crisis-baseline-bi-20261006"
+            ]
+          },
+          "evidenceIds": [
+            "dalio-capital-squeeze-bi-20261015"
+          ],
+          "assessmentNote": "6+14+18+14+8=60. 행동점수는 발언 상한으로 두고, 수치화된 변화·파급·검증조건으로 관찰 문턱만 통과시켰다.",
+          "occurredAt": "2026-10-15",
+          "publishedAt": "2026-10-15",
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·전력·반도체 금융",
+              "relationship": "hypothesis",
+              "text": "금리와 스프레드 상승이 부채 의존형 AI 설비투자의 프로젝트 선별·지연을 유발할 수 있다.",
+              "evidenceIds": [
+                "dalio-capital-squeeze-bi-20261015"
+              ]
+            },
+            {
+              "sector": "국채·회사채 시장",
+              "relationship": "indirect",
+              "text": "정부와 기술기업의 동시 순발행 증가는 동일 장기자본 수요를 두고 경쟁하는 경로를 만든다.",
+              "evidenceIds": [
+                "dalio-capital-squeeze-bi-20261015"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-17T07:29:38+09:00",
+            "stage": "statement",
+            "impactDirection": "negative",
+            "attribution": "leader_direct",
+            "breakdown": {
+              "action": {
+                "score": 6,
+                "reason": "실제 포트폴리오 변화는 없지만 수치·기간이 있는 직접 관점 제시다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "일반 부채위기 경고를 AI 하이퍼스케일러와 정부의 동시 자본경쟁으로 의미 있게 좁혔다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "AI 인프라·국채·회사채의 가격과 자본배분에 걸친 광범위한 경로를 제시한다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "2025~2027 순발행·스프레드·자유현금흐름 수치로 판별 가능하다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "Dalio의 X 직접 발언을 구체적으로 인용한 신뢰도 높은 직접 보도를 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-06",
+              "statement": "Dalio는 향후 3년 내 미국 부채위기를 경고했지만 AI 기업과 정부의 자본경쟁 규모는 특정하지 않았다.",
+              "evidenceIds": [
+                "dalio-debt-crisis-baseline-bi-20261006"
+              ]
+            },
+            "evidenceIds": [
+              "dalio-capital-squeeze-bi-20261015"
+            ],
+            "note": "6+14+18+14+8=60. 행동점수는 발언 상한으로 두고, 수치화된 변화·파급·검증조건으로 관찰 문턱만 통과시켰다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-15",
+            "publishedAt": "2026-10-15",
+            "firstSeenAt": "2026-10-17T07:29:38+09:00",
+            "verifiedAt": "2026-10-17T07:29:38+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "직전 조사 종료 전 게시됐으나 이번 수집 구간에서 기준선과 직접 인용을 처음 교차 확인했다."
+          }
+        }
+      },
+      {
+        "id": "revision-20261017-tesla-cybercab-school-zone-defect-petition",
+        "eventId": "tesla-cybercab-school-zone-defect-petition",
+        "signalId": "tesla-cybercab-school-zone-review-20261009",
+        "hypothesisId": "hyp-tesla-cybercab-austin-launch",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.17",
+        "recordedAt": "2026-10-17T07:29:38+09:00",
+        "tier": "observation",
+        "score": 66,
+        "headline": "NHTSA가 Cybercab·Model Y Robotaxi의 학교구역 과속 주장에 결함청원 검토를 열었다",
+        "source": "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "20+14+13+11+8=66. 공식 절차 개시는 반영하되 정식 조사·사고·위반 결론이 없어 관찰로 제한했다.",
+        "evidenceIds": [
+          "tesla-cybercab-school-zone-bi-20261012"
+        ],
+        "snapshot": {
+          "id": "tesla-cybercab-school-zone-review-20261009",
+          "eventId": "tesla-cybercab-school-zone-defect-petition",
+          "hypothesisId": "hyp-tesla-cybercab-austin-launch",
+          "leader": "일론 머스크(Elon Musk)",
+          "role": "Tesla · SpaceX · SpaceXAI CEO",
+          "initials": "EM",
+          "score": 66,
+          "kind": "약화",
+          "date": "2026.10.09",
+          "reportDate": "2026.10.17",
+          "theme": "AI 안전",
+          "headline": "NHTSA가 Cybercab·Model Y Robotaxi의 학교구역 과속 주장에 결함청원 검토를 열었다",
+          "takeaway": "운전대 없는 유료 운행의 검증 질문이 자기인증 적합성에서 실제 학교구역 속도 준수로 넓어졌다. 아직 정식 결함조사 결정이나 사고·부상은 없어 안전 실패로 확정할 수는 없다.",
+          "before": "Tesla는 오스틴 제한 구역에서 앱 배차와 요금, 운전대 없는 탑승 절차를 운영했고 NHTSA는 Cybercab 자기인증 근거를 별도로 감사 중이었다.",
+          "now": "NHTSA는 자동운전 중 학교구역 제한속도를 넘었다는 영상 3건이 첨부된 결함청원을 접수해 약 1,000대의 Model Y Robotaxi와 Cybercab에 대한 정식 조사 개시 여부를 검토한다.",
+          "facts": [
+            "NHTSA 결함조사국은 9월 23일 접수된 청원을 바탕으로 10월 9일 결함청원 검토를 열었다.",
+            "대상은 2026년형 Model Y Robotaxi와 Cybercab 약 1,000대로 기재됐다.",
+            "청원은 자동운전 중 활성 학교구역 제한속도를 넘었다는 영상 3건을 근거로 제시했다.",
+            "공개 문서에는 관련 사고나 부상이 없으며 NHTSA는 정식 조사 개시 여부를 아직 결정하지 않았다."
+          ],
+          "action": "NHTSA가 Tesla의 실제 자율주행 운행 행동을 대상으로 결함청원 검토 절차를 개시했다.",
+          "impact": "Cybercab 확장의 병목이 차체 자기인증뿐 아니라 운행정책·속도제어 검증으로 확대돼 지역 확대와 규제 비용, 보험·신뢰에 영향을 줄 수 있다.",
+          "impactPath": [
+            "학교구역 과속 영상과 결함청원",
+            "NHTSA의 정식 조사 여부 판단",
+            "속도제어 소프트웨어·운행허가·보험 검토",
+            "서비스 지역 확대와 차량 생산 속도에 영향"
+          ],
+          "counter": "현재는 청원 평가 단계이며 정식 결함조사·위반·리콜이 아니다. 사고와 부상도 보고되지 않았고 영상의 맥락과 차량별 소프트웨어 버전은 공개되지 않았다.",
+          "next": "NHTSA의 청원 인용·기각 결정, Tesla 답변, 차량 로그·학교구역 인식 성능, 소프트웨어 수정·운행 제한·사고 지표를 확인한다.",
+          "source": "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10",
+          "sourceLabel": "Business Insider · 2026.10.12",
+          "sourceGrade": "B",
+          "stage": "execution",
+          "impactDirection": "negative",
+          "attribution": "third_party",
+          "breakdown": {
+            "action": {
+              "score": 20,
+              "reason": "연방 안전당국이 영상 3건과 약 1,000대를 대상으로 공식 청원 검토 절차를 열었다."
+            },
+            "change": {
+              "score": 14,
+              "reason": "자기인증 감사에 실제 운행 중 학교구역 속도준수 문제가 새 검증축으로 추가됐다."
+            },
+            "impact": {
+              "score": 13,
+              "reason": "자율주행 확장·소프트웨어·보험·규제 비용에 영향을 줄 수 있으나 아직 청원 검토 단계다."
+            },
+            "verification": {
+              "score": 11,
+              "reason": "NHTSA의 인용·기각, Tesla 로그·답변과 리콜·수정으로 판별 가능하다."
+            },
+            "source": {
+              "score": 8,
+              "reason": "NHTSA 문서를 인용한 신뢰도 높은 직접 보도이지만 당국 원문 URL은 확인하지 못했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-08-31",
+            "statement": "Tesla는 오스틴 제한 지역의 앱 배차·요금·무운전대 Cybercab 탑승 절차를 공식 안내했고 안전성과 자기인증은 별도 검증 전이었다.",
+            "evidenceIds": [
+              "tesla-cybercab-faq-official-20260831"
+            ]
+          },
+          "evidenceIds": [
+            "tesla-cybercab-school-zone-bi-20261012"
+          ],
+          "assessmentNote": "20+14+13+11+8=66. 공식 절차 개시는 반영하되 정식 조사·사고·위반 결론이 없어 관찰로 제한했다.",
+          "occurredAt": "2026-10-09",
+          "publishedAt": "2026-10-12",
+          "industryLinks": [
+            {
+              "sector": "자율주행·로보택시 규제",
+              "relationship": "indirect",
+              "text": "학교구역 속도준수 검토는 Tesla의 지역 확대·운행정책과 경쟁 자율주행 사업자의 안전 기준에도 영향을 줄 수 있다.",
+              "evidenceIds": [
+                "tesla-cybercab-school-zone-bi-20261012"
+              ]
+            },
+            {
+              "sector": "자동차 보험·안전 소프트웨어",
+              "relationship": "hypothesis",
+              "text": "정식 조사나 결함 인정으로 전환되면 속도제어 수정·운행제한·보험 조건 변화가 발생할 수 있다.",
+              "evidenceIds": [
+                "tesla-cybercab-school-zone-bi-20261012"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-17T07:29:38+09:00",
+            "stage": "execution",
+            "impactDirection": "negative",
+            "attribution": "third_party",
+            "breakdown": {
+              "action": {
+                "score": 20,
+                "reason": "연방 안전당국이 영상 3건과 약 1,000대를 대상으로 공식 청원 검토 절차를 열었다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "자기인증 감사에 실제 운행 중 학교구역 속도준수 문제가 새 검증축으로 추가됐다."
+              },
+              "impact": {
+                "score": 13,
+                "reason": "자율주행 확장·소프트웨어·보험·규제 비용에 영향을 줄 수 있으나 아직 청원 검토 단계다."
+              },
+              "verification": {
+                "score": 11,
+                "reason": "NHTSA의 인용·기각, Tesla 로그·답변과 리콜·수정으로 판별 가능하다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "NHTSA 문서를 인용한 신뢰도 높은 직접 보도이지만 당국 원문 URL은 확인하지 못했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-08-31",
+              "statement": "Tesla는 오스틴 제한 지역의 앱 배차·요금·무운전대 Cybercab 탑승 절차를 공식 안내했고 안전성과 자기인증은 별도 검증 전이었다.",
+              "evidenceIds": [
+                "tesla-cybercab-faq-official-20260831"
+              ]
+            },
+            "evidenceIds": [
+              "tesla-cybercab-school-zone-bi-20261012"
+            ],
+            "note": "20+14+13+11+8=66. 공식 절차 개시는 반영하되 정식 조사·사고·위반 결론이 없어 관찰로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-09",
+            "publishedAt": "2026-10-12",
+            "firstSeenAt": "2026-10-17T07:29:38+09:00",
+            "verifiedAt": "2026-10-17T07:29:38+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "10월 9일 당국 절차는 이번 수집 구간에서 NHTSA 문서를 인용한 직접 보도로 처음 확인했다."
+          }
+        }
+      },
+      {
+        "id": "revision-20261017-tesla-roadster-thruster-prototype-demo",
+        "eventId": "tesla-roadster-thruster-prototype-demo",
+        "signalId": "tesla-roadster-thruster-demo-20261015",
+        "hypothesisId": "tesla-roadster-halo-commercialization",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.17",
+        "recordedAt": "2026-10-17T07:29:38+09:00",
+        "tier": "observation",
+        "score": 71,
+        "headline": "Tesla가 SpaceX 추진기 Roadster 시제품을 실제 시연했지만 양산은 2028년으로 미뤘다",
+        "source": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "24+11+12+14+10=71. 실제 시연은 실행으로 인정하되 2028년 양산·규제·낮은 재무 중요성을 반영해 관찰로 제한했다.",
+        "evidenceIds": [
+          "tesla-roadster-reuters-20261015",
+          "tesla-roadster-ap-20261016",
+          "tesla-roadster-official-20261016"
+        ],
+        "snapshot": {
+          "id": "tesla-roadster-thruster-demo-20261015",
+          "eventId": "tesla-roadster-thruster-prototype-demo",
+          "hypothesisId": "tesla-roadster-halo-commercialization",
+          "leader": "일론 머스크(Elon Musk)",
+          "role": "Tesla · SpaceX · SpaceXAI CEO",
+          "initials": "EM",
+          "score": 71,
+          "kind": "실행",
+          "date": "2026.10.15",
+          "reportDate": "2026.10.17",
+          "theme": "AI 배포",
+          "headline": "Tesla가 SpaceX 추진기 Roadster 시제품을 실제 시연했지만 양산은 2028년으로 미뤘다",
+          "takeaway": "장기간 반복된 Roadster 약속이 공중 회전·점프를 수행한 시제품으로 처음 구체화됐다. 다만 Musk 스스로 재무적 중요성이 낮다고 밝혔고 도로 합법성·가격·2028년 양산이 남아 투자 파급력은 제한적이다.",
+          "before": "9월에는 장기간 지연된 Roadster의 공개 일정만 예고됐고 차세대 시제품의 추진기 성능·생산 시점·예약 조건은 검증되지 않았다.",
+          "now": "Tesla는 SpaceX와 개발한 추진기·흡착 시스템으로 공중 회전과 차량 점프를 시연하고 Performance·Thrust·초대형 Rocket 트림, 2028년 생산 목표와 예약금을 제시했다.",
+          "facts": [
+            "Roadster 시제품은 흡착 시스템으로 경사로를 거꾸로 주행하고 추진기로 공중 회전·차량 점프를 수행했다.",
+            "Tesla는 2028년 생산을 제시했으며 Performance와 Thrust 예약금은 각각 5만달러와 25만달러다.",
+            "Rocket 트림은 초대 방식이고 도로 주행용이 아니며 일부 지역에서만 제공된다고 회사가 명시했다.",
+            "Musk는 Roadster가 재무적으로 중요하지 않지만 브랜드를 위한 halo car라고 설명했다."
+          ],
+          "action": "Tesla가 반복된 제품 약속을 SpaceX 추진기와 흡착 시스템을 탑재한 실제 주행·비행 시연 및 예약 재개로 옮겼다.",
+          "impact": "Tesla–SpaceX 간 기술 이전과 고성능 EV 브랜드 효과는 확인됐지만 직접 매출 기여가 작고 2028년 양산·규제 승인 전까지 공급망 파급은 제한된다.",
+          "impactPath": [
+            "항공우주 추진·제어 기술의 자동차 시제품 적용",
+            "고성능 EV 브랜드와 예약 수요 형성",
+            "규제 승인·양산 설계·공급망 투자",
+            "2028년 실제 인도와 예약 전환율이 성과를 결정"
+          ],
+          "counter": "Rocket 트림은 도로 주행 승인이 없고 생산은 2028년 목표다. 과거 Roadster 일정이 반복 지연됐으며 차량 가격·인증·대량생산 설계와 예약 전환율도 공개되지 않았다.",
+          "next": "도로·항공 규제 분류, 양산 설계와 가격, 공급업체·생산설비 투자, 2028년 생산 개시와 실제 인도·환불률을 확인한다.",
+          "source": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+          "sourceLabel": "Reuters · 2026.10.15",
+          "sourceGrade": "B",
+          "stage": "execution",
+          "impactDirection": "mixed",
+          "attribution": "leader_direct",
+          "breakdown": {
+            "action": {
+              "score": 24,
+              "reason": "장기간 예고한 제품의 실제 작동 시제품을 공개 시연하고 예약 조건을 제시했다."
+            },
+            "change": {
+              "score": 11,
+              "reason": "공개 일정 약속에서 추진기·흡착 기능 시연으로 진전했지만 양산은 2028년으로 남았다."
+            },
+            "impact": {
+              "score": 12,
+              "reason": "항공우주 기술 이전과 브랜드 효과는 있으나 직접 재무·산업 규모는 제한적이다."
+            },
+            "verification": {
+              "score": 14,
+              "reason": "생산연도·예약금·트림과 규제 제약이 공개돼 양산·인도로 판별할 수 있다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "Reuters와 AP 직접 보도, Tesla 공식 제품 제한 문구를 교차 확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-09-12",
+            "statement": "Roadster는 공개 행사 일정만 예고됐고 차세대 시제품의 작동과 생산 조건은 검증 전이었다.",
+            "evidenceIds": [
+              "tesla-roadster-baseline-reuters-20260912"
+            ]
+          },
+          "evidenceIds": [
+            "tesla-roadster-reuters-20261015",
+            "tesla-roadster-ap-20261016",
+            "tesla-roadster-official-20261016"
+          ],
+          "assessmentNote": "24+11+12+14+10=71. 실제 시연은 실행으로 인정하되 2028년 양산·규제·낮은 재무 중요성을 반영해 관찰로 제한했다.",
+          "occurredAt": "2026-10-15",
+          "publishedAt": "2026-10-15",
+          "industryLinks": [
+            {
+              "sector": "고성능 전기차·항공우주 기술",
+              "relationship": "confirmed",
+              "text": "Tesla와 SpaceX가 공동 개발한 추진기 기술이 Roadster 시제품 시연에 적용됐다.",
+              "evidenceIds": [
+                "tesla-roadster-reuters-20261015",
+                "tesla-roadster-ap-20261016"
+              ]
+            },
+            {
+              "sector": "프리미엄 EV 공급망",
+              "relationship": "hypothesis",
+              "text": "2028년 양산이 확정되면 고압 공기·경량소재·제어부품 수요로 이어질 수 있으나 공급업체와 물량은 미공개다.",
+              "evidenceIds": [
+                "tesla-roadster-reuters-20261015"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-17T07:29:38+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "leader_direct",
+            "breakdown": {
+              "action": {
+                "score": 24,
+                "reason": "장기간 예고한 제품의 실제 작동 시제품을 공개 시연하고 예약 조건을 제시했다."
+              },
+              "change": {
+                "score": 11,
+                "reason": "공개 일정 약속에서 추진기·흡착 기능 시연으로 진전했지만 양산은 2028년으로 남았다."
+              },
+              "impact": {
+                "score": 12,
+                "reason": "항공우주 기술 이전과 브랜드 효과는 있으나 직접 재무·산업 규모는 제한적이다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "생산연도·예약금·트림과 규제 제약이 공개돼 양산·인도로 판별할 수 있다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Reuters와 AP 직접 보도, Tesla 공식 제품 제한 문구를 교차 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-12",
+              "statement": "Roadster는 공개 행사 일정만 예고됐고 차세대 시제품의 작동과 생산 조건은 검증 전이었다.",
+              "evidenceIds": [
+                "tesla-roadster-baseline-reuters-20260912"
+              ]
+            },
+            "evidenceIds": [
+              "tesla-roadster-reuters-20261015",
+              "tesla-roadster-ap-20261016",
+              "tesla-roadster-official-20261016"
+            ],
+            "note": "24+11+12+14+10=71. 실제 시연은 실행으로 인정하되 2028년 양산·규제·낮은 재무 중요성을 반영해 관찰로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-15",
+            "publishedAt": "2026-10-15",
+            "firstSeenAt": "2026-10-17T07:29:38+09:00",
+            "verifiedAt": "2026-10-17T07:29:38+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "직전 조사 구간에 발생했지만 이번 수집 구간에서 Reuters·AP·Tesla 원문을 처음 교차 확인한 누락 사건이다."
+          }
+        }
+      },
+      {
+        "id": "revision-20261017-nvidia-rtx-spark-commercial-launch",
+        "eventId": "nvidia-rtx-spark-commercial-launch",
+        "signalId": "nvidia-rtx-spark-launch-20261016",
+        "hypothesisId": "nvidia-rtx-spark-local-ai-adoption",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.17",
+        "recordedAt": "2026-10-17T07:29:38+09:00",
+        "tier": "signal",
+        "score": 84,
+        "headline": "NVIDIA가 RTX Spark 로컬 AI PC를 6개 OEM과 전 세계 판매로 전환했다",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "28+15+18+14+9=84. 실제 글로벌 판매를 실행으로 평가하되 채택·경제성 성과는 미확인으로 남겼다.",
+        "evidenceIds": [
+          "nvidia-rtx-spark-launch-official-20261016"
+        ],
+        "snapshot": {
+          "id": "nvidia-rtx-spark-launch-20261016",
+          "eventId": "nvidia-rtx-spark-commercial-launch",
+          "hypothesisId": "nvidia-rtx-spark-local-ai-adoption",
+          "leader": "젠슨 황(Jensen Huang)",
+          "role": "NVIDIA Founder & CEO",
+          "initials": "JH",
+          "score": 84,
+          "kind": "실행",
+          "date": "2026.10.16",
+          "reportDate": "2026.10.17",
+          "theme": "AI 배포",
+          "headline": "NVIDIA가 RTX Spark 로컬 AI PC를 6개 OEM과 전 세계 판매로 전환했다",
+          "takeaway": "사전주문과 비전 발표가 실제 다중 OEM 판매로 넘어갔다. 로컬 에이전트와 대용량 메모리가 클라우드 추론을 일부 대체할 경로가 열렸지만 출하량·사용률·가격 탄력성은 아직 검증 전이다.",
+          "before": "10월 7일 NVIDIA와 Microsoft는 RTX Spark 사전주문과 10월 16일 출시를 예고했지만 실제 판매 가능 모델·가격·초기 소프트웨어 지원은 확인되지 않았다.",
+          "now": "ASUS·Dell·HP·Lenovo·Microsoft·MSI의 노트북이 전 세계 판매를 시작했고 NVIDIA는 시작가 2,599달러, 최대 128GB 통합 메모리와 1페타플롭 FP4 성능, 출시일 지원 앱·에이전트를 공개했다.",
+          "facts": [
+            "RTX Spark 노트북은 10월 16일 6개 OEM의 웹사이트와 주요 소매점에서 전 세계 판매를 시작했다.",
+            "NVIDIA는 최대 128GB 통합 메모리와 1페타플롭 FP4 AI 성능으로 대형 모델과 로컬 에이전트를 실행할 수 있다고 밝혔다.",
+            "출시 지원에는 GitHub Copilot·Hermes·OpenClaw와 Adobe 앱, Windows 실행 컨테이너가 포함됐다.",
+            "공식 시작가는 2,599달러이며 지역·구성별 가격은 달라진다."
+          ],
+          "action": "NVIDIA가 Microsoft 및 PC 제조사와 공동 개발한 로컬 AI 플랫폼을 예약 단계에서 실제 글로벌 유통·판매 단계로 전환했다.",
+          "impact": "AI 추론이 데이터센터뿐 아니라 고가 Windows PC로 분산될 수 있어 PC 교체수요·메모리 용량·로컬 모델 생태계와 클라우드 추론 비용에 영향을 준다.",
+          "impactPath": [
+            "다중 OEM의 실제 제품 판매",
+            "고용량 메모리 기반 로컬 모델·에이전트 실행",
+            "PC·메모리·개발도구 수요 확대",
+            "출하량·사용률·클라우드 대체율이 경제성을 검증"
+          ],
+          "counter": "회사 사양과 출시 파트너는 확인됐지만 판매량·반품률·배터리 지속시간·실사용 모델 성능과 클라우드 대비 총비용은 공개되지 않았다. 2,599달러 시작가는 대중 채택을 제한할 수 있다.",
+          "next": "분기별 RTX Spark 출하량과 OEM 재고, 로컬 에이전트 사용량·성능·전력소비, 메모리 구성별 가격, 11월 데스크톱 출시를 확인한다.",
+          "source": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+          "sourceLabel": "NVIDIA 공식 · 2026.10.16",
+          "sourceGrade": "A",
+          "stage": "execution",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 28,
+              "reason": "6개 OEM·주요 소매점에서 실제 판매를 시작해 제품 확약을 상용 실행으로 전환했다."
+            },
+            "change": {
+              "score": 15,
+              "reason": "사전주문과 출시 예고에서 글로벌 가용성·가격·출시 앱을 갖춘 실제 판매로 진전했다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "PC·메모리·로컬 모델·클라우드 추론의 수요 경로를 함께 바꿀 수 있다."
+            },
+            "verification": {
+              "score": 14,
+              "reason": "가격·모델·판매 채널·11월 데스크톱 일정과 향후 출하·사용량으로 판별 가능하다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "NVIDIA 공식 출시 원문과 10월 7일 공식 기준선을 대조했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-07",
+            "statement": "RTX Spark는 사전주문과 10월 16일 출시 예고 단계였고 실제 판매·가격·초기 지원은 확인 전이었다.",
+            "evidenceIds": [
+              "nvidia-rtx-spark-baseline-official-20261007"
+            ]
+          },
+          "evidenceIds": [
+            "nvidia-rtx-spark-launch-official-20261016"
+          ],
+          "assessmentNote": "28+15+18+14+9=84. 실제 글로벌 판매를 실행으로 평가하되 채택·경제성 성과는 미확인으로 남겼다.",
+          "occurredAt": "2026-10-16",
+          "publishedAt": "2026-10-16",
+          "industryLinks": [
+            {
+              "sector": "AI PC·PC OEM",
+              "relationship": "confirmed",
+              "text": "ASUS·Dell·HP·Lenovo·Microsoft·MSI가 RTX Spark 노트북의 실제 판매를 시작했다.",
+              "evidenceIds": [
+                "nvidia-rtx-spark-launch-official-20261016"
+              ]
+            },
+            {
+              "sector": "메모리·로컬 AI 소프트웨어",
+              "relationship": "indirect",
+              "text": "최대 128GB 통합 메모리와 로컬 에이전트 지원은 고용량 메모리·온디바이스 모델 수요를 늘릴 수 있다.",
+              "evidenceIds": [
+                "nvidia-rtx-spark-launch-official-20261016"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-17T07:29:38+09:00",
+            "stage": "execution",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 28,
+                "reason": "6개 OEM·주요 소매점에서 실제 판매를 시작해 제품 확약을 상용 실행으로 전환했다."
+              },
+              "change": {
+                "score": 15,
+                "reason": "사전주문과 출시 예고에서 글로벌 가용성·가격·출시 앱을 갖춘 실제 판매로 진전했다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "PC·메모리·로컬 모델·클라우드 추론의 수요 경로를 함께 바꿀 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "가격·모델·판매 채널·11월 데스크톱 일정과 향후 출하·사용량으로 판별 가능하다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "NVIDIA 공식 출시 원문과 10월 7일 공식 기준선을 대조했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-07",
+              "statement": "RTX Spark는 사전주문과 10월 16일 출시 예고 단계였고 실제 판매·가격·초기 지원은 확인 전이었다.",
+              "evidenceIds": [
+                "nvidia-rtx-spark-baseline-official-20261007"
+              ]
+            },
+            "evidenceIds": [
+              "nvidia-rtx-spark-launch-official-20261016"
+            ],
+            "note": "28+15+18+14+9=84. 실제 글로벌 판매를 실행으로 평가하되 채택·경제성 성과는 미확인으로 남겼다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-16",
+            "publishedAt": "2026-10-16",
+            "firstSeenAt": "2026-10-17T07:29:38+09:00",
+            "verifiedAt": "2026-10-17T07:29:38+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          }
+        }
+      },
       {
         "id": "revision-20261016-tsmc-q3-2026-record-revenue-reinforced",
         "eventId": "tsmc-q3-2026-record-revenue",
@@ -24322,6 +25498,30 @@
     ],
     "hypotheses": [
       {
+        "id": "nvidia-rtx-spark-local-ai-adoption",
+        "title": "RTX Spark의 로컬 AI PC 채택",
+        "question": "6개 이상 OEM의 실제 판매가 출하량·개발자 사용·로컬 에이전트 성능과 반복 수요로 이어지는가?",
+        "leaderNames": [
+          "젠슨 황(Jensen Huang)"
+        ]
+      },
+      {
+        "id": "tesla-roadster-halo-commercialization",
+        "title": "Tesla Roadster의 기술 시연과 상용화",
+        "question": "SpaceX 추진기 시연이 2028년 양산·규제 승인·실제 인도와 브랜드 또는 기술 이전 성과로 이어지는가?",
+        "leaderNames": [
+          "일론 머스크(Elon Musk)"
+        ]
+      },
+      {
+        "id": "dalio-ai-sovereign-capital-squeeze",
+        "title": "정부와 AI 기업의 자본 경쟁",
+        "question": "2027년 순부채 공급 증가가 실제 금리·스프레드·AI 설비투자와 자유현금흐름을 압박하는가?",
+        "leaderNames": [
+          "레이 달리오(Ray Dalio)"
+        ]
+      },
+      {
         "id": "microsoft-cybercrime-disruption-scale",
         "title": "Microsoft의 범죄 공급망 집행",
         "question": "도메인·계정 압류가 악성 메시지와 피해액을 지속적으로 낮추는가?",
@@ -25280,24 +26480,165 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-15T07:33:32+09:00",
-    "end": "2026-10-16T07:29:10+09:00"
+    "start": "2026-10-16T07:29:10+09:00",
+    "end": "2026-10-17T07:29:38+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 31,
-    "newSignals": 2,
-    "newObservations": 2,
+    "sourcesChecked": 29,
+    "newSignals": 1,
+    "newObservations": 3,
     "upgrades": 0,
-    "downgrades": 1,
+    "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 0,
-    "excludedCount": 8,
-    "notes": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 TSMC 3분기 실적 보강과 Anthropic METR 상주형 평가 실행이다. 관찰은 GE Vernova 전력섬 프레임 계약과 Meta Muse Spark 오픈웨이트 공개다. Meta legacy 사건은 내부 효율 주장 90점에서 공개 약속 실행 70점으로 재평가했으며 legacy이므로 행동 전환 수에는 넣지 않았다. NVIDIA 독일 협력 보도는 익명·예정 단계, Tyler Cowen 글은 기준선·행동 부족, 기타 발표는 반복·점진적 업데이트 또는 60점 미만으로 제외했다.",
-    "note": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 TSMC 3분기 실적 보강과 Anthropic METR 상주형 평가 실행이다. 관찰은 GE Vernova 전력섬 프레임 계약과 Meta Muse Spark 오픈웨이트 공개다. Meta legacy 사건은 내부 효율 주장 90점에서 공개 약속 실행 70점으로 재평가했으며 legacy이므로 행동 전환 수에는 넣지 않았다. NVIDIA 독일 협력 보도는 익명·예정 단계, Tyler Cowen 글은 기준선·행동 부족, 기타 발표는 반복·점진적 업데이트 또는 60점 미만으로 제외했다."
+    "excludedCount": 7,
+    "notes": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 NVIDIA RTX Spark의 6개 OEM 글로벌 판매다. 관찰은 Tesla Roadster 추진기 시연, Cybercab 학교구역 과속 결함청원 검토, Dalio의 2027년 자본공급 경고다. SoftBank Allied Universal 인수설은 익명·검토 단계, NVIDIA–Mercedes 확장은 금액·기한 부족, Microsoft CMA 사안과 Tesla FSD 집단소송 판결은 외부 절차, Tyler Cowen 글은 본인 행동·기준선 부족, Hassabis 안전 발언은 실행 증거 부족, TSMC 실적 보도는 기존 사건 반복으로 제외했다.",
+    "note": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 NVIDIA RTX Spark의 6개 OEM 글로벌 판매다. 관찰은 Tesla Roadster 추진기 시연, Cybercab 학교구역 과속 결함청원 검토, Dalio의 2027년 자본공급 경고다. SoftBank Allied Universal 인수설은 익명·검토 단계, NVIDIA–Mercedes 확장은 금액·기한 부족, Microsoft CMA 사안과 Tesla FSD 집단소송 판결은 외부 절차, Tyler Cowen 글은 본인 행동·기준선 부족, Hassabis 안전 발언은 실행 증거 부족, TSMC 실적 보도는 기존 사건 반복으로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "nvidia-rtx-spark-launch-20261016",
+      "eventId": "nvidia-rtx-spark-commercial-launch",
+      "hypothesisId": "nvidia-rtx-spark-local-ai-adoption",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA Founder & CEO",
+      "initials": "JH",
+      "score": 84,
+      "kind": "실행",
+      "date": "2026.10.16",
+      "reportDate": "2026.10.17",
+      "theme": "AI 배포",
+      "headline": "NVIDIA가 RTX Spark 로컬 AI PC를 6개 OEM과 전 세계 판매로 전환했다",
+      "takeaway": "사전주문과 비전 발표가 실제 다중 OEM 판매로 넘어갔다. 로컬 에이전트와 대용량 메모리가 클라우드 추론을 일부 대체할 경로가 열렸지만 출하량·사용률·가격 탄력성은 아직 검증 전이다.",
+      "before": "10월 7일 NVIDIA와 Microsoft는 RTX Spark 사전주문과 10월 16일 출시를 예고했지만 실제 판매 가능 모델·가격·초기 소프트웨어 지원은 확인되지 않았다.",
+      "now": "ASUS·Dell·HP·Lenovo·Microsoft·MSI의 노트북이 전 세계 판매를 시작했고 NVIDIA는 시작가 2,599달러, 최대 128GB 통합 메모리와 1페타플롭 FP4 성능, 출시일 지원 앱·에이전트를 공개했다.",
+      "facts": [
+        "RTX Spark 노트북은 10월 16일 6개 OEM의 웹사이트와 주요 소매점에서 전 세계 판매를 시작했다.",
+        "NVIDIA는 최대 128GB 통합 메모리와 1페타플롭 FP4 AI 성능으로 대형 모델과 로컬 에이전트를 실행할 수 있다고 밝혔다.",
+        "출시 지원에는 GitHub Copilot·Hermes·OpenClaw와 Adobe 앱, Windows 실행 컨테이너가 포함됐다.",
+        "공식 시작가는 2,599달러이며 지역·구성별 가격은 달라진다."
+      ],
+      "action": "NVIDIA가 Microsoft 및 PC 제조사와 공동 개발한 로컬 AI 플랫폼을 예약 단계에서 실제 글로벌 유통·판매 단계로 전환했다.",
+      "impact": "AI 추론이 데이터센터뿐 아니라 고가 Windows PC로 분산될 수 있어 PC 교체수요·메모리 용량·로컬 모델 생태계와 클라우드 추론 비용에 영향을 준다.",
+      "impactPath": [
+        "다중 OEM의 실제 제품 판매",
+        "고용량 메모리 기반 로컬 모델·에이전트 실행",
+        "PC·메모리·개발도구 수요 확대",
+        "출하량·사용률·클라우드 대체율이 경제성을 검증"
+      ],
+      "counter": "회사 사양과 출시 파트너는 확인됐지만 판매량·반품률·배터리 지속시간·실사용 모델 성능과 클라우드 대비 총비용은 공개되지 않았다. 2,599달러 시작가는 대중 채택을 제한할 수 있다.",
+      "next": "분기별 RTX Spark 출하량과 OEM 재고, 로컬 에이전트 사용량·성능·전력소비, 메모리 구성별 가격, 11월 데스크톱 출시를 확인한다.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "sourceLabel": "NVIDIA 공식 · 2026.10.16",
+      "sourceGrade": "A",
+      "stage": "execution",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 28,
+          "reason": "6개 OEM·주요 소매점에서 실제 판매를 시작해 제품 확약을 상용 실행으로 전환했다."
+        },
+        "change": {
+          "score": 15,
+          "reason": "사전주문과 출시 예고에서 글로벌 가용성·가격·출시 앱을 갖춘 실제 판매로 진전했다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "PC·메모리·로컬 모델·클라우드 추론의 수요 경로를 함께 바꿀 수 있다."
+        },
+        "verification": {
+          "score": 14,
+          "reason": "가격·모델·판매 채널·11월 데스크톱 일정과 향후 출하·사용량으로 판별 가능하다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "NVIDIA 공식 출시 원문과 10월 7일 공식 기준선을 대조했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-07",
+        "statement": "RTX Spark는 사전주문과 10월 16일 출시 예고 단계였고 실제 판매·가격·초기 지원은 확인 전이었다.",
+        "evidenceIds": [
+          "nvidia-rtx-spark-baseline-official-20261007"
+        ]
+      },
+      "evidenceIds": [
+        "nvidia-rtx-spark-launch-official-20261016"
+      ],
+      "assessmentNote": "28+15+18+14+9=84. 실제 글로벌 판매를 실행으로 평가하되 채택·경제성 성과는 미확인으로 남겼다.",
+      "occurredAt": "2026-10-16",
+      "publishedAt": "2026-10-16",
+      "industryLinks": [
+        {
+          "sector": "AI PC·PC OEM",
+          "relationship": "confirmed",
+          "text": "ASUS·Dell·HP·Lenovo·Microsoft·MSI가 RTX Spark 노트북의 실제 판매를 시작했다.",
+          "evidenceIds": [
+            "nvidia-rtx-spark-launch-official-20261016"
+          ]
+        },
+        {
+          "sector": "메모리·로컬 AI 소프트웨어",
+          "relationship": "indirect",
+          "text": "최대 128GB 통합 메모리와 로컬 에이전트 지원은 고용량 메모리·온디바이스 모델 수요를 늘릴 수 있다.",
+          "evidenceIds": [
+            "nvidia-rtx-spark-launch-official-20261016"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-17T07:29:38+09:00",
+        "stage": "execution",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 28,
+            "reason": "6개 OEM·주요 소매점에서 실제 판매를 시작해 제품 확약을 상용 실행으로 전환했다."
+          },
+          "change": {
+            "score": 15,
+            "reason": "사전주문과 출시 예고에서 글로벌 가용성·가격·출시 앱을 갖춘 실제 판매로 진전했다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "PC·메모리·로컬 모델·클라우드 추론의 수요 경로를 함께 바꿀 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "가격·모델·판매 채널·11월 데스크톱 일정과 향후 출하·사용량으로 판별 가능하다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "NVIDIA 공식 출시 원문과 10월 7일 공식 기준선을 대조했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-07",
+          "statement": "RTX Spark는 사전주문과 10월 16일 출시 예고 단계였고 실제 판매·가격·초기 지원은 확인 전이었다.",
+          "evidenceIds": [
+            "nvidia-rtx-spark-baseline-official-20261007"
+          ]
+        },
+        "evidenceIds": [
+          "nvidia-rtx-spark-launch-official-20261016"
+        ],
+        "note": "28+15+18+14+9=84. 실제 글로벌 판매를 실행으로 평가하되 채택·경제성 성과는 미확인으로 남겼다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-16",
+        "publishedAt": "2026-10-16",
+        "firstSeenAt": "2026-10-17T07:29:38+09:00",
+        "verifiedAt": "2026-10-17T07:29:38+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      }
+    },
     {
       "id": "tsmc-q3-record-revenue-20261008",
       "eventId": "tsmc-q3-2026-record-revenue",
@@ -27797,7 +29138,7 @@
     }
   ],
   "status": "signals",
-  "statusMessage": "결정적 신호 2건과 관찰 2건을 확인했습니다. TSMC 실적과 Anthropic 독립평가 실행을 보강하고 GE Vernova 전력섬 계약과 Meta 오픈웨이트 실행을 새로 검토했습니다.",
+  "statusMessage": "결정적 신호 1건과 관찰 3건을 확인했습니다. RTX Spark는 실제 글로벌 판매로 전환됐고, Roadster 시연·Cybercab 안전심사·Dalio 자본경색 경고는 후속 검증이 남았습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -27813,6 +29154,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "dalio-ai-sovereign-capital-squeeze",
+            "eventIds": [
+              "dalio-ai-sovereign-capital-squeeze"
+            ],
+            "note": "Dalio의 동일 X 발언과 직접 보도는 하나의 자본시장 관점 사건으로 집계한다."
+          },
           {
             "id": "ocp-summit-20261012-open-ai-factory",
             "eventIds": [
@@ -28019,6 +29367,14 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "dalio-ai-sovereign-capital-squeeze",
+            "text": "Dalio는 정부와 AI 기업의 동시 순발행이 금리·스프레드와 AI 설비투자 자유현금흐름을 압박할 수 있다고 경고했다.",
+            "evidenceIds": [
+              "dalio-capital-squeeze-bi-20261015"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "softbank-record-junk-bond",
             "text": "기록적 고금리 차입이 AI 자산 집중과 재융자 위험을 높였다.",
@@ -28516,6 +29872,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "tesla-cybercab-school-zone-defect-petition",
+            "eventIds": [
+              "tesla-cybercab-school-zone-defect-petition"
+            ],
+            "note": "학교구역 과속 청원과 당국 검토·반복 보도는 하나의 안전 사건으로 집계한다."
+          },
+          {
             "id": "microsoft-model-insider-risk",
             "eventIds": [
               "microsoft-model-insider-risk"
@@ -28741,6 +30104,14 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "tesla-cybercab-school-zone-defect-petition",
+            "text": "NHTSA가 Cybercab·Model Y Robotaxi의 학교구역 과속 주장에 결함청원 검토를 열었다.",
+            "evidenceIds": [
+              "tesla-cybercab-school-zone-bi-20261012"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "grok-bipa-class-actions",
             "text": "위법성과 손해는 확정되지 않았다.",
@@ -29374,6 +30745,20 @@
         },
         "independentEventGroups": [
           {
+            "id": "tesla-roadster-thruster-prototype-demo",
+            "eventIds": [
+              "tesla-roadster-thruster-prototype-demo"
+            ],
+            "note": "Tesla·SpaceX의 동일 Roadster 시연과 반복 보도는 하나의 사건으로 집계한다."
+          },
+          {
+            "id": "nvidia-rtx-spark-commercial-launch",
+            "eventIds": [
+              "nvidia-rtx-spark-commercial-launch"
+            ],
+            "note": "RTX Spark 사전주문 기준선과 글로벌 출시 발표는 하나의 제품 상용화 사건으로 집계한다."
+          },
+          {
             "id": "meta-muse-wonder-launch",
             "eventIds": [
               "meta-muse-wonder-launch"
@@ -29711,6 +31096,24 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "tesla-roadster-thruster-prototype-demo",
+            "text": "Rocket 트림의 도로 합법성과 가격은 미확정이며 생산은 2028년 목표로 남았다.",
+            "evidenceIds": [
+              "tesla-roadster-reuters-20261015",
+              "tesla-roadster-ap-20261016",
+              "tesla-roadster-official-20261016"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "nvidia-rtx-spark-commercial-launch",
+            "text": "출하량·실사용 성능·클라우드 대체율은 미공개이고 2,599달러 시작가는 대중 채택을 제한할 수 있다.",
+            "evidenceIds": [
+              "nvidia-rtx-spark-launch-official-20261016"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "meta-muse-wonder-launch",
             "text": "전체 안전보고서·독립 성능·가격·활성 사용자·유료 전환은 아직 공개되지 않았다.",
@@ -30089,6 +31492,24 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "tesla-roadster-thruster-prototype-demo",
+            "text": "Tesla가 SpaceX 추진기와 흡착 시스템을 적용한 Roadster 작동 시제품을 실제 시연했다.",
+            "evidenceIds": [
+              "tesla-roadster-reuters-20261015",
+              "tesla-roadster-ap-20261016",
+              "tesla-roadster-official-20261016"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "nvidia-rtx-spark-commercial-launch",
+            "text": "NVIDIA가 RTX Spark를 6개 OEM과 전 세계 판매해 로컬 AI PC를 사전주문에서 상용 실행으로 옮겼다.",
+            "evidenceIds": [
+              "nvidia-rtx-spark-launch-official-20261016"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "meta-muse-wonder-launch",
             "text": "Muse Wonder가 API·Muse Code에, Full이 유료 Muse Code에 실제 배포됐다.",
@@ -30683,5 +32104,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T07:29:10+09:00"
+  "updatedAt": "2026-10-17T07:29:38+09:00"
 }
