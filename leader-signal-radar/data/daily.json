@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.17",
+  "asOfDate": "2026.10.18",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -9,6 +9,12 @@
         "nvidia-hf-sec-close-timing-20261004"
       ],
       "history": [
+        {
+          "nextReviewDate": "2026-10-18",
+          "result": "2026년 10월 4일 NVIDIA 8-K와 공식 인수 발표를 재검토했다. 거래는 규제 승인 등 조건을 거쳐 2027년 상반기 종결 예정이며, 경쟁 GPU·클라우드의 지원·추천·가격 조건이 인수 후에도 동일하게 유지되는지 판단할 운영 자료는 아직 없어 미검증을 유지한다.",
+          "reviewedAt": "2026-10-04T07:25:00+09:00",
+          "status": "unverified"
+        },
         {
           "nextReviewDate": "2026-10-04",
           "result": "2026년 9월 27일 NVIDIA 뉴스룸과 9월 3일 인수 원문을 재검토했다. 거래 종결·규제 승인과 경쟁 GPU·클라우드의 지원·추천·가격 조건을 비교할 공개 자료가 없어 미검증을 유지한다.",
@@ -36,9 +42,9 @@
       ],
       "hypothesisId": "hyp-nvidia-hugging-face-acquisition",
       "id": "hf-neutrality",
-      "nextReviewDate": "2026-10-18",
-      "result": "2026년 10월 4일 NVIDIA 8-K와 공식 인수 발표를 재검토했다. 거래는 규제 승인 등 조건을 거쳐 2027년 상반기 종결 예정이며, 경쟁 GPU·클라우드의 지원·추천·가격 조건이 인수 후에도 동일하게 유지되는지 판단할 운영 자료는 아직 없어 미검증을 유지한다.",
-      "reviewedAt": "2026-10-04T07:25:00+09:00",
+      "nextReviewDate": "2026-11-01",
+      "result": "2026년 10월 18일 NVIDIA 최신 뉴스룸, 9월 3일 인수 발표와 9월 2일 8-K를 재검토했다. 거래는 규제 승인 등 조건을 거쳐 2027년 상반기 종결 예정이며, 거래 종결·승인이나 경쟁 GPU·클라우드의 지원·추천·가격 조건을 비교할 운영 자료는 새로 확인되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-18T07:33:16+09:00",
       "status": "unverified",
       "test": "규제 승인을 거쳐 거래가 종결되고 경쟁 GPU·클라우드의 지원·추천·가격 조건이 실제로 동일하게 유지되는가",
       "theme": "AI 배포",
@@ -319,16 +325,10 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [
-    "tesla-roadster-thruster-demo-20261015",
-    "tesla-cybercab-school-zone-review-20261009",
-    "dalio-ai-sovereign-capital-squeeze-20261015"
-  ],
-  "currentSignalIds": [
-    "nvidia-rtx-spark-launch-20261016"
-  ],
-  "dailyThesis": "AI 투자 신호는 데이터센터 밖 로컬 PC의 실제 판매로 넓어졌지만, 자율주행·고성능 EV의 시연과 자본시장 경고는 규제·양산·자금수요라는 후속 증거를 요구한다.",
-  "lastSuccessfulRun": "2026-10-17T07:29:38+09:00",
+  "currentObservationIds": [],
+  "currentSignalIds": [],
+  "dailyThesis": "주말 조사 구간의 새 보도는 발언·익명 협상·외부 절차·기존 사건 반복이 중심이었습니다. 기존 시그널을 재포장하지 않고 신규 편입을 보류합니다.",
+  "lastSuccessfulRun": "2026-10-18T07:33:16+09:00",
   "observations": [
     {
       "id": "tesla-roadster-thruster-demo-20261015",
@@ -2157,42 +2157,39 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-13T07:29:10+09:00",
-      "end": "2026-10-17T07:29:38+09:00"
+      "start": "2026-10-14T07:29:38+09:00",
+      "end": "2026-10-18T07:33:16+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://ir.tesla.com/press",
-          "https://x.ai/news",
-          "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
-          "https://www.tesla.com/roadster",
-          "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10"
+          "https://www.axios.com/2026/10/17/elon-musk-doge-walter-isaacson-podcast"
         ],
-        "note": "Roadster 작동 시제품과 Cybercab 학교구역 과속 결함청원 검토를 각각 독립 사건으로 확인했다.",
+        "note": "Axios 직접 인용에서 DOGE 실패 평가와 AI·로봇 생산성 관점을 확인했으나, 기업 차원의 신규 실행·기한·검증 지표가 없어 60점 미만으로 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://nvidianews.nvidia.com/news/latest",
-          "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-          "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+          "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
         ],
-        "note": "RTX Spark의 10월 7일 사전주문 기준선과 10월 16일 6개 OEM 글로벌 판매 원문을 대조했다.",
+        "note": "RTX Spark 후속 행사는 전일 상용화 사건의 반복이었다. Hugging Face 인수 체크포인트도 종결·승인·운영 중립성의 새 증거가 없어 미검증을 유지했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://openai.com/news/"
         ],
@@ -2203,18 +2200,19 @@
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://www.anthropic.com/news"
+          "https://www.anthropic.com/news",
+        "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "Anthropic의 Blackstone 대상 반도체 리스 금융은 익명 소식통 기반 협상 보도로, 회사 원문·확정 계약이 없어 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
@@ -2225,7 +2223,7 @@
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
         ],
@@ -2236,18 +2234,19 @@
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://about.fb.com/news/"
+          "https://about.fb.com/news/",
+        "https://www.thedailybeast.com/meta-pulls-back-25-million-of-its-65-million-midterm-war-chest"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "Meta의 정치자금 축소 보도는 7~8월 실행의 지연 발견이지만 저커버그의 전략 변화로 귀속할 직접 근거와 명확한 이유가 없어 60점 미만으로 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://newsroom.amd.com/"
         ],
@@ -2258,29 +2257,31 @@
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+          "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "10월 15일 실적·2027년 신중론은 전일 조사에서 확인한 동일 사건의 반복 보도로 신규화하지 않았다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://group.softbank/en/news/press"
+          "https://group.softbank/en/news/press",
+          "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "Allied Universal 인수 논의는 익명 소식통 기반 초기 협상이며 확정 거래·회사 원문이 없어 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
@@ -2291,29 +2292,32 @@
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence"
+          "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence",
+          "https://www.gevernova.com/news/press-releases/ge-vernova-announce-third-quarter-2026-financial-results-october-28"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "10월 28일 실적 발표 일정 공지는 새 전략이나 실행 성과가 아닌 캘린더 공지라 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://www.palantir.com/newsroom/"
+          "https://www.palantir.com/newsroom/",
+        "https://www.theguardian.com/technology/2026/oct/17/palantir-patient-data-tech-rejected-by-many-nhs-trusts-in-england",
+          "https://www.reuters.com/legal/litigation/palantir-london-mayors-office-settle-lawsuit-over-uk-police-contract-2026-10-14/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "NHS 도입 편차와 런던 경찰 계약 소송 합의는 확인했지만, 외부 기관의 채택·법적 절차이며 카프의 신규 행동·관점 변화로 귀속하기 어려워 60점 미만으로 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://www.flagshippioneering.com/"
         ],
@@ -2324,7 +2328,7 @@
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
@@ -2335,18 +2339,19 @@
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude"
+          "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude",
+        "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "새로 노출된 Morgan Stanley 인터뷰는 2026년 1월 녹음·2월 게시 자료로 조사 구간의 신규 사건이 아니었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://foundersfund.com/team/peter-thiel/"
         ],
@@ -2357,7 +2362,7 @@
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
@@ -2368,19 +2373,18 @@
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
-          "https://economicprinciples.org/",
-          "https://www.businessinsider.com/ray-dalio-bond-market-ai-tech-treasury-yields-2026-10"
+          "https://economicprinciples.org/"
         ],
-        "note": "기존 부채위기 경고와 AI 기업·정부 자본경쟁의 수치화된 후속 발언을 대조했다.",
+        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://a16z.com/author/marc-andreessen/"
         ],
@@ -2391,18 +2395,18 @@
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "공식 글과 인터뷰를 확인했으나 질문과 제3자 비공개 주장 중심이며 본인의 신규 행동·검증 기준이 부족해 60점 미만으로 제외했다.",
+        "note": "10월 17일 글은 제3자 링크·질문 중심으로 본인의 관점 변화, 행동, 반증 조건이 부족해 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-17T07:29:38+09:00",
+        "checkedAt": "2026-10-18T07:33:16+09:00",
         "urls": [
           "https://balajis.com/"
         ],
@@ -26480,21 +26484,21 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-16T07:29:10+09:00",
-    "end": "2026-10-17T07:29:38+09:00"
+    "start": "2026-10-17T07:29:38+09:00",
+    "end": "2026-10-18T07:33:16+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 29,
-    "newSignals": 1,
-    "newObservations": 3,
+    "sourcesChecked": 33,
+    "newSignals": 0,
+    "newObservations": 0,
     "upgrades": 0,
     "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 0,
-    "excludedCount": 7,
-    "notes": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 NVIDIA RTX Spark의 6개 OEM 글로벌 판매다. 관찰은 Tesla Roadster 추진기 시연, Cybercab 학교구역 과속 결함청원 검토, Dalio의 2027년 자본공급 경고다. SoftBank Allied Universal 인수설은 익명·검토 단계, NVIDIA–Mercedes 확장은 금액·기한 부족, Microsoft CMA 사안과 Tesla FSD 집단소송 판결은 외부 절차, Tyler Cowen 글은 본인 행동·기준선 부족, Hassabis 안전 발언은 실행 증거 부족, TSMC 실적 보도는 기존 사건 반복으로 제외했다.",
-    "note": "22명 전원과 중복 제거 원문을 확인했다. 결정적 신호는 NVIDIA RTX Spark의 6개 OEM 글로벌 판매다. 관찰은 Tesla Roadster 추진기 시연, Cybercab 학교구역 과속 결함청원 검토, Dalio의 2027년 자본공급 경고다. SoftBank Allied Universal 인수설은 익명·검토 단계, NVIDIA–Mercedes 확장은 금액·기한 부족, Microsoft CMA 사안과 Tesla FSD 집단소송 판결은 외부 절차, Tyler Cowen 글은 본인 행동·기준선 부족, Hassabis 안전 발언은 실행 증거 부족, TSMC 실적 보도는 기존 사건 반복으로 제외했다."
+    "excludedCount": 9,
+    "notes": "22명 전원과 33개 중복 제거 원문을 확인했다. 60점 이상 신규 사건은 없었다. Musk의 DOGE·AI 발언은 기업 실행 부족, Anthropic 반도체 리스 금융과 SoftBank 인수설은 익명 협상, Meta 정치자금 축소는 리더 귀속·변화 이유 부족, TSMC 실적은 기존 사건 반복, GE Vernova는 일정 공지, Palantir NHS·런던 사안은 외부 채택·법적 절차, Druckenmiller 인터뷰는 과거 자료, Tyler Cowen 글은 본인 행동·검증 기준 부족으로 제외했다.",
+    "note": "22명 전원과 33개 중복 제거 원문을 확인했다. 60점 이상 신규 사건은 없었다. Musk의 DOGE·AI 발언은 기업 실행 부족, Anthropic 반도체 리스 금융과 SoftBank 인수설은 익명 협상, Meta 정치자금 축소는 리더 귀속·변화 이유 부족, TSMC 실적은 기존 사건 반복, GE Vernova는 일정 공지, Palantir NHS·런던 사안은 외부 채택·법적 절차, Druckenmiller 인터뷰는 과거 자료, Tyler Cowen 글은 본인 행동·검증 기준 부족으로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
@@ -29137,8 +29141,8 @@
       ]
     }
   ],
-  "status": "signals",
-  "statusMessage": "결정적 신호 1건과 관찰 3건을 확인했습니다. RTX Spark는 실제 글로벌 판매로 전환됐고, Roadster 시연·Cybercab 안전심사·Dalio 자본경색 경고는 후속 검증이 남았습니다.",
+  "status": "no_signal",
+  "statusMessage": "고정 22명과 33개 중복 제거 원문을 확인했으나, 직전 성공 실행 이후 기존 관점 대비 의미 있는 변화와 검증 가능한 행동을 함께 충족한 60점 이상 신규 사건은 없었습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -32104,5 +32108,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T07:29:38+09:00"
+  "updatedAt": "2026-10-18T07:33:16+09:00"
 }
