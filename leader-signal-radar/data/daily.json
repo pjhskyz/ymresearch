@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.18",
+  "asOfDate": "2026.10.19",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -325,11 +325,118 @@
       "title": "SB Energy 상장과 첫 데이터센터 매출"
     }
   ],
-  "currentObservationIds": [],
+  "currentObservationIds": [
+    "anthropic-public-benefit-fund"
+  ],
   "currentSignalIds": [],
-  "dailyThesis": "주말 조사 구간의 새 보도는 발언·익명 협상·외부 절차·기존 사건 반복이 중심이었습니다. 기존 시그널을 재포장하지 않고 신규 편입을 보류합니다.",
-  "lastSuccessfulRun": "2026-10-18T07:33:16+09:00",
+  "dailyThesis": "Anthropic이 공익 우선 원칙을 회사 지분 5%와 기업가치 연동 증액 공식으로 구체화했습니다. 공익 지배구조의 진전이지만 승인·기금 설립·첫 배분 성과가 확인될 때까지 공식 확약으로 추적합니다.",
+  "lastSuccessfulRun": "2026-10-19T07:32:23+09:00",
   "observations": [
+    {
+      "id": "anthropic-public-benefit-fund",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "role": "Anthropic 공동창업자·CEO",
+      "initials": "DA",
+      "score": 72,
+      "kind": "강화",
+      "date": "2026.10.18",
+      "reportDate": "2026.10.19",
+      "theme": "AI 안전",
+      "eventId": "anthropic-public-benefit-fund-20261018",
+      "hypothesisId": "anthropic-public-benefit-control",
+      "headline": "Anthropic이 지분 5%와 기업가치 연동 증액을 공익기금에 배정하기로 했다",
+      "takeaway": "공익 우선 원칙이 창업자 의결권 구조에서 회사 지분의 구체적 배정 공식으로 확장됐다. 다만 주주 승인, 가치 기준선, 기금 거버넌스와 실제 집행은 남아 있어 실행이 아닌 공식 확약으로 평가한다.",
+      "before": "Anthropic은 공익법인과 Founder LLC의 핵심 사안 50.1% 의결권으로 상장 뒤 공익 통제를 설계했지만, 회사 지분을 별도 공익기금에 배정하는 수치와 증액 공식은 공개하지 않았다.",
+      "now": "Anthropic은 주주 승인 조건으로 지분 5%를 공익기금에 배정하고 기업가치가 기준선보다 50% 오를 때마다 이사회 재량으로 2%를 추가하는 계획을 발표했다.",
+      "facts": [
+        "최초 배정은 Anthropic 지분 5%이며 주주 승인을 조건으로 한다.",
+        "기업가치가 미공개 기준선보다 50% 오를 때마다 이사회 재량으로 지분 2%를 추가할 수 있다.",
+        "기금은 Anthropic이 전액 소유한 LLC로 설립하며 비영리 기부·특정 집단 직접 지원 등에 사용할 수 있다.",
+        "기존 창업자·직원 기부 약정까지 합치면 약 20%가 공익 목적에 배정되지만 거버넌스와 가치 기준선은 향후 공개된다."
+      ],
+      "action": "Anthropic이 상장 전 회사 지분의 고정 비율과 기업가치 연동 증액 공식을 공익기금에 배정하는 계획을 공식 발표했다.",
+      "impact": "AI 기업의 초과가치 일부를 노동시장 충격과 공익 목적으로 이전하는 자본배분 선례가 될 수 있지만, 승인·희석·기금 통제와 성과 측정이 불명확하다.",
+      "impactPath": [
+        "Anthropic 지분의 공익기금 귀속",
+        "기업가치 상승 시 공익 지분 비율 확대",
+        "노동충격·비영리·직접지원 재원 증가 가능성",
+        "상장 AI 기업의 지배구조·희석 기준에 영향"
+      ],
+      "counter": "5% 배정은 주주 승인 전이고 추가 2%는 이사회 재량이다. 가치 기준선·의결권·현금화 방식·수혜자 선정·성과 기준이 미공개여서 발표가 실제 공익지출이나 노동충격 완화로 이어진다고 단정할 수 없다.",
+      "next": "주주 승인과 LLC 설립, 가치 기준선·의결권·현금화 규칙, 첫 공익보고서의 배정액·수혜자·성과, IPO 문서의 희석·지배구조 반영을 확인한다.",
+      "source": "https://www.anthropic.com/news/public-benefit-fund",
+      "sourceLabel": "Anthropic 공식 발표 · 2026.10.18",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-19T07:32:23+09:00",
+        "stage": "commitment",
+        "impactDirection": "mixed",
+        "attribution": "company_statement",
+        "breakdown": {
+          "action": {
+            "score": 14,
+            "reason": "정확한 지분 비율과 증액 공식을 공개한 이사회 차원의 확약이지만 주주 승인과 법인 설립 전이다."
+          },
+          "change": {
+            "score": 18,
+            "reason": "기존 공익법인·창업자 통제를 넘어 회사 지분 자체를 별도 공익기금에 귀속시키는 의미 있는 자본배분 변화다."
+          },
+          "impact": {
+            "score": 17,
+            "reason": "상장 전 AI 기업의 지분 희석·공익 분배·노동충격 대응과 유사 기업의 지배구조 기준에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "5%와 단계별 2% 공식은 검증 가능하지만 승인 기한·가치 기준선·집행 일정과 성과 기준은 아직 공개되지 않았다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Anthropic 공식 원문과 Reuters 직접 보도에서 발표일·조건·미공개 항목을 교차 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-29",
+          "statement": "Anthropic은 공익법인과 Founder LLC의 50.1% 핵심 의결권 구조를 제시했지만, 회사 지분을 별도 공익기금에 배정하는 비율·증액 공식은 없었다.",
+          "evidenceIds": [
+            "anthropic-founder-llc-reuters-20260929"
+          ]
+        },
+        "evidenceIds": [
+          "anthropic-public-benefit-fund-official-20261018",
+          "anthropic-public-benefit-fund-reuters-20261018"
+        ],
+        "note": "14+18+17+13+10=72. 지분 비율이 있는 구체적 확약과 자본배분 변화를 반영하되 주주 승인·설립·집행 전이므로 관찰에 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-18",
+        "publishedAt": "2026-10-18",
+        "firstSeenAt": "2026-10-19T07:32:23+09:00",
+        "verifiedAt": "2026-10-19T07:32:23+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 기업 지배구조·자본시장",
+          "relationship": "hypothesis",
+          "text": "공익기금 지분 배정은 상장 후 주주권·희석·공익 우선순위를 바꿀 수 있으나 승인과 세부 규칙이 남아 있다.",
+          "evidenceIds": [
+            "anthropic-public-benefit-fund-official-20261018",
+            "anthropic-public-benefit-fund-reuters-20261018"
+          ]
+        },
+        {
+          "sector": "노동시장·공익재원",
+          "relationship": "indirect",
+          "text": "기금이 AI 노동충격 대응과 직접지원 재원으로 쓰일 수 있으나 실제 배분 대상과 성과는 아직 없다.",
+          "evidenceIds": [
+            "anthropic-public-benefit-fund-official-20261018"
+          ]
+        }
+      ]
+    },
     {
       "id": "tesla-roadster-thruster-demo-20261015",
       "eventId": "tesla-roadster-thruster-prototype-demo",
@@ -2157,265 +2264,276 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-14T07:29:38+09:00",
-      "end": "2026-10-18T07:33:16+09:00"
+      "start": "2026-10-15T07:33:16+09:00",
+      "end": "2026-10-19T07:32:23+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://ir.tesla.com/press",
-          "https://www.axios.com/2026/10/17/elon-musk-doge-walter-isaacson-podcast"
+          "https://ir.tesla.com/press"
         ],
-        "note": "Axios 직접 인용에서 DOGE 실패 평가와 AI·로봇 생산성 관점을 확인했으나, 기업 차원의 신규 실행·기한·검증 지표가 없어 60점 미만으로 제외했다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news/latest",
-          "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
+          "https://nvidianews.nvidia.com/news/latest"
         ],
-        "note": "RTX Spark 후속 행사는 전일 상용화 사건의 반복이었다. Hugging Face 인수 체크포인트도 종결·승인·운영 중립성의 새 증거가 없어 미검증을 유지했다.",
+        "note": "10월 17일 RTX Spark 출시는 기존 제품 출시 일정의 이행으로, 직전 관점 대비 독립적인 전략 변화가 없어 신규화하지 않았다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://openai.com/news/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://www.anthropic.com/news",
-        "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/"
+          "https://www.anthropic.com/news/public-benefit-fund",
+          "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
         ],
-        "note": "Anthropic의 Blackstone 대상 반도체 리스 금융은 익명 소식통 기반 협상 보도로, 회사 원문·확정 계약이 없어 제외했다.",
+        "note": "공식 원문과 Reuters를 교차 확인해 공익기금 지분 5%와 가치연동 증액 확약을 72점 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://about.fb.com/news/",
-        "https://www.thedailybeast.com/meta-pulls-back-25-million-of-its-65-million-midterm-war-chest"
+          "https://about.fb.com/news/"
         ],
-        "note": "Meta의 정치자금 축소 보도는 7~8월 실행의 지연 발견이지만 저커버그의 전략 변화로 귀속할 직접 근거와 명확한 이유가 없어 60점 미만으로 제외했다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://newsroom.amd.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://investor.tsmc.com/english/quarterly-results/2026/q3",
-          "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/"
+          "https://investor.tsmc.com/english/quarterly-results/2026/q3"
         ],
-        "note": "10월 15일 실적·2027년 신중론은 전일 조사에서 확인한 동일 사건의 반복 보도로 신규화하지 않았다.",
+        "note": "Q3 실적·Texas 검토는 직전 조사에서 반영된 사건의 반복 또는 미확정 협의로 신규화하지 않았다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://group.softbank/en/news/press",
-          "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca"
+          "https://group.softbank/en/news/press"
         ],
-        "note": "Allied Universal 인수 논의는 익명 소식통 기반 초기 협상이며 확정 거래·회사 원문이 없어 제외했다.",
+        "note": "Allied Universal 인수설은 익명 소식통 기반 초기 협상이며 확정 계약·공식 원문이 없어 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence",
-          "https://www.gevernova.com/news/press-releases/ge-vernova-announce-third-quarter-2026-financial-results-october-28"
+          "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence"
         ],
-        "note": "10월 28일 실적 발표 일정 공지는 새 전략이나 실행 성과가 아닌 캘린더 공지라 제외했다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://www.palantir.com/newsroom/",
-        "https://www.theguardian.com/technology/2026/oct/17/palantir-patient-data-tech-rejected-by-many-nhs-trusts-in-england",
-          "https://www.reuters.com/legal/litigation/palantir-london-mayors-office-settle-lawsuit-over-uk-police-contract-2026-10-14/"
+          "https://www.palantir.com/newsroom/"
         ],
-        "note": "NHS 도입 편차와 런던 경찰 계약 소송 합의는 확인했지만, 외부 기관의 채택·법적 절차이며 카프의 신규 행동·관점 변화로 귀속하기 어려워 60점 미만으로 제외했다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://www.flagshippioneering.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
-          "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude",
-        "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali"
+          "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude"
         ],
-        "note": "새로 노출된 Morgan Stanley 인터뷰는 2026년 1월 녹음·2월 게시 자료로 조사 구간의 신규 사건이 아니었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://foundersfund.com/team/peter-thiel/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://economicprinciples.org/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://a16z.com/author/marc-andreessen/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "10월 17일 글은 제3자 링크·질문 중심으로 본인의 관점 변화, 행동, 반증 조건이 부족해 제외했다.",
+        "note": "최신 게시물을 확인했으나 외부 연구 소개와 링크가 중심이고 본인의 관점 변화·행동·반증 기준이 부족해 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-18T07:33:16+09:00",
+        "checkedAt": "2026-10-19T07:32:23+09:00",
         "urls": [
           "https://balajis.com/"
         ],
-        "note": "공식 채널과 최신 직접 보도를 확인했으며 조사 구간에서 기존 관점·행동을 바꿀 60점 이상 사건은 없었다.",
+        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상으로 선별할 새 관점 변화·실행·성과는 없었다.",
         "checked": true,
         "blocked": false
       }
     ],
     "evidence": [
+      {
+        "id": "anthropic-public-benefit-fund-reuters-20261018",
+        "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/",
+        "label": "Reuters · Anthropic 공익기금 지분 구조 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-10-19T03:18:00+09:00",
+        "verifiedAt": "2026-10-19T07:32:23+09:00",
+        "claim": "Reuters는 최초 5% 배정이 주주 승인 대상이고 추가 2% 배정의 가치 기준선은 미공개이며, 거버넌스·구조·평가기준은 향후 공개된다고 확인했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "anthropic-public-benefit-fund-official-20261018",
+        "url": "https://www.anthropic.com/news/public-benefit-fund",
+        "label": "Anthropic 공식 · 공익기금 지분 배정 계획",
+        "grade": "A",
+        "publishedAt": "2026-10-18",
+        "verifiedAt": "2026-10-19T07:32:23+09:00",
+        "claim": "Anthropic은 주주 승인 조건으로 지분 5%를 공익기금에 배정하고 기업가치가 기준선보다 50% 오를 때마다 이사회 재량으로 2%를 추가하는 구조를 발표했다.",
+        "provenance": "official"
+      },
       {
         "id": "nvidia-rtx-spark-launch-official-20261016",
         "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
@@ -5128,6 +5246,131 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261019-anthropic-public-benefit-fund",
+        "eventId": "anthropic-public-benefit-fund-20261018",
+        "signalId": "anthropic-public-benefit-fund",
+        "hypothesisId": "anthropic-public-benefit-control",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.19",
+        "recordedAt": "2026-10-19T07:32:23+09:00",
+        "tier": "observation",
+        "score": 72,
+        "headline": "Anthropic이 지분 5%와 기업가치 연동 증액을 공익기금에 배정하기로 했다",
+        "source": "https://www.anthropic.com/news/public-benefit-fund",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "14+18+17+13+10=72. 지분 비율이 있는 구체적 확약과 자본배분 변화를 반영하되 주주 승인·설립·집행 전이므로 관찰에 제한했다.",
+        "evidenceIds": [
+          "anthropic-public-benefit-fund-official-20261018",
+          "anthropic-public-benefit-fund-reuters-20261018"
+        ],
+        "snapshot": {
+          "id": "anthropic-public-benefit-fund",
+          "leader": "다리오 아모데이(Dario Amodei)",
+          "role": "Anthropic 공동창업자·CEO",
+          "initials": "DA",
+          "score": 72,
+          "kind": "강화",
+          "date": "2026.10.18",
+          "reportDate": "2026.10.19",
+          "theme": "AI 안전",
+          "eventId": "anthropic-public-benefit-fund-20261018",
+          "hypothesisId": "anthropic-public-benefit-control",
+          "headline": "Anthropic이 지분 5%와 기업가치 연동 증액을 공익기금에 배정하기로 했다",
+          "takeaway": "공익 우선 원칙이 창업자 의결권 구조에서 회사 지분의 구체적 배정 공식으로 확장됐다. 다만 주주 승인, 가치 기준선, 기금 거버넌스와 실제 집행은 남아 있어 실행이 아닌 공식 확약으로 평가한다.",
+          "before": "Anthropic은 공익법인과 Founder LLC의 핵심 사안 50.1% 의결권으로 상장 뒤 공익 통제를 설계했지만, 회사 지분을 별도 공익기금에 배정하는 수치와 증액 공식은 공개하지 않았다.",
+          "now": "Anthropic은 주주 승인 조건으로 지분 5%를 공익기금에 배정하고 기업가치가 기준선보다 50% 오를 때마다 이사회 재량으로 2%를 추가하는 계획을 발표했다.",
+          "facts": [
+            "최초 배정은 Anthropic 지분 5%이며 주주 승인을 조건으로 한다.",
+            "기업가치가 미공개 기준선보다 50% 오를 때마다 이사회 재량으로 지분 2%를 추가할 수 있다.",
+            "기금은 Anthropic이 전액 소유한 LLC로 설립하며 비영리 기부·특정 집단 직접 지원 등에 사용할 수 있다.",
+            "기존 창업자·직원 기부 약정까지 합치면 약 20%가 공익 목적에 배정되지만 거버넌스와 가치 기준선은 향후 공개된다."
+          ],
+          "action": "Anthropic이 상장 전 회사 지분의 고정 비율과 기업가치 연동 증액 공식을 공익기금에 배정하는 계획을 공식 발표했다.",
+          "impact": "AI 기업의 초과가치 일부를 노동시장 충격과 공익 목적으로 이전하는 자본배분 선례가 될 수 있지만, 승인·희석·기금 통제와 성과 측정이 불명확하다.",
+          "impactPath": [
+            "Anthropic 지분의 공익기금 귀속",
+            "기업가치 상승 시 공익 지분 비율 확대",
+            "노동충격·비영리·직접지원 재원 증가 가능성",
+            "상장 AI 기업의 지배구조·희석 기준에 영향"
+          ],
+          "counter": "5% 배정은 주주 승인 전이고 추가 2%는 이사회 재량이다. 가치 기준선·의결권·현금화 방식·수혜자 선정·성과 기준이 미공개여서 발표가 실제 공익지출이나 노동충격 완화로 이어진다고 단정할 수 없다.",
+          "next": "주주 승인과 LLC 설립, 가치 기준선·의결권·현금화 규칙, 첫 공익보고서의 배정액·수혜자·성과, IPO 문서의 희석·지배구조 반영을 확인한다.",
+          "source": "https://www.anthropic.com/news/public-benefit-fund",
+          "sourceLabel": "Anthropic 공식 발표 · 2026.10.18",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-19T07:32:23+09:00",
+            "stage": "commitment",
+            "impactDirection": "mixed",
+            "attribution": "company_statement",
+            "breakdown": {
+              "action": {
+                "score": 14,
+                "reason": "정확한 지분 비율과 증액 공식을 공개한 이사회 차원의 확약이지만 주주 승인과 법인 설립 전이다."
+              },
+              "change": {
+                "score": 18,
+                "reason": "기존 공익법인·창업자 통제를 넘어 회사 지분 자체를 별도 공익기금에 귀속시키는 의미 있는 자본배분 변화다."
+              },
+              "impact": {
+                "score": 17,
+                "reason": "상장 전 AI 기업의 지분 희석·공익 분배·노동충격 대응과 유사 기업의 지배구조 기준에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "5%와 단계별 2% 공식은 검증 가능하지만 승인 기한·가치 기준선·집행 일정과 성과 기준은 아직 공개되지 않았다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Anthropic 공식 원문과 Reuters 직접 보도에서 발표일·조건·미공개 항목을 교차 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-29",
+              "statement": "Anthropic은 공익법인과 Founder LLC의 50.1% 핵심 의결권 구조를 제시했지만, 회사 지분을 별도 공익기금에 배정하는 비율·증액 공식은 없었다.",
+              "evidenceIds": [
+                "anthropic-founder-llc-reuters-20260929"
+              ]
+            },
+            "evidenceIds": [
+              "anthropic-public-benefit-fund-official-20261018",
+              "anthropic-public-benefit-fund-reuters-20261018"
+            ],
+            "note": "14+18+17+13+10=72. 지분 비율이 있는 구체적 확약과 자본배분 변화를 반영하되 주주 승인·설립·집행 전이므로 관찰에 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-18",
+            "publishedAt": "2026-10-18",
+            "firstSeenAt": "2026-10-19T07:32:23+09:00",
+            "verifiedAt": "2026-10-19T07:32:23+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 기업 지배구조·자본시장",
+              "relationship": "hypothesis",
+              "text": "공익기금 지분 배정은 상장 후 주주권·희석·공익 우선순위를 바꿀 수 있으나 승인과 세부 규칙이 남아 있다.",
+              "evidenceIds": [
+                "anthropic-public-benefit-fund-official-20261018",
+                "anthropic-public-benefit-fund-reuters-20261018"
+              ]
+            },
+            {
+              "sector": "노동시장·공익재원",
+              "relationship": "indirect",
+              "text": "기금이 AI 노동충격 대응과 직접지원 재원으로 쓰일 수 있으나 실제 배분 대상과 성과는 아직 없다.",
+              "evidenceIds": [
+                "anthropic-public-benefit-fund-official-20261018"
+              ]
+            }
+          ]
+        }
+      },
       {
         "id": "revision-20261017-dalio-ai-sovereign-capital-squeeze",
         "eventId": "dalio-ai-sovereign-capital-squeeze",
@@ -26484,21 +26727,21 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-17T07:29:38+09:00",
-    "end": "2026-10-18T07:33:16+09:00"
+    "start": "2026-10-18T07:33:16+09:00",
+    "end": "2026-10-19T07:32:23+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 33,
+    "sourcesChecked": 24,
     "newSignals": 0,
-    "newObservations": 0,
+    "newObservations": 1,
     "upgrades": 0,
     "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 0,
-    "excludedCount": 9,
-    "notes": "22명 전원과 33개 중복 제거 원문을 확인했다. 60점 이상 신규 사건은 없었다. Musk의 DOGE·AI 발언은 기업 실행 부족, Anthropic 반도체 리스 금융과 SoftBank 인수설은 익명 협상, Meta 정치자금 축소는 리더 귀속·변화 이유 부족, TSMC 실적은 기존 사건 반복, GE Vernova는 일정 공지, Palantir NHS·런던 사안은 외부 채택·법적 절차, Druckenmiller 인터뷰는 과거 자료, Tyler Cowen 글은 본인 행동·검증 기준 부족으로 제외했다.",
-    "note": "22명 전원과 33개 중복 제거 원문을 확인했다. 60점 이상 신규 사건은 없었다. Musk의 DOGE·AI 발언은 기업 실행 부족, Anthropic 반도체 리스 금융과 SoftBank 인수설은 익명 협상, Meta 정치자금 축소는 리더 귀속·변화 이유 부족, TSMC 실적은 기존 사건 반복, GE Vernova는 일정 공지, Palantir NHS·런던 사안은 외부 채택·법적 절차, Druckenmiller 인터뷰는 과거 자료, Tyler Cowen 글은 본인 행동·검증 기준 부족으로 제외했다."
+    "excludedCount": 7,
+    "notes": "22명 전원과 24개 중복 제거 원문을 확인했다. Anthropic의 공익기금 지분 5%·가치연동 증액 확약 1건을 72점 관찰로 선별했다. NVIDIA 제품 출시는 기존 일정 이행, TSMC 실적·Texas 검토는 기존 사건 반복·미확정 협의, SoftBank Allied Universal 건은 익명 초기 협상, Microsoft 데이터센터 철회는 리더 귀속·원문 부족, Brian Chesky 이메일 발언과 Tyler Cowen 게시물은 행동·변화량 부족으로 제외했다.",
+    "note": "22명 전원과 24개 중복 제거 원문을 확인했다. Anthropic의 공익기금 지분 5%·가치연동 증액 확약 1건을 72점 관찰로 선별했다. NVIDIA 제품 출시는 기존 일정 이행, TSMC 실적·Texas 검토는 기존 사건 반복·미확정 협의, SoftBank Allied Universal 건은 익명 초기 협상, Microsoft 데이터센터 철회는 리더 귀속·원문 부족, Brian Chesky 이메일 발언과 Tyler Cowen 게시물은 행동·변화량 부족으로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
@@ -29141,8 +29384,8 @@
       ]
     }
   ],
-  "status": "no_signal",
-  "statusMessage": "고정 22명과 33개 중복 제거 원문을 확인했으나, 직전 성공 실행 이후 기존 관점 대비 의미 있는 변화와 검증 가능한 행동을 함께 충족한 60점 이상 신규 사건은 없었습니다.",
+  "status": "observations",
+  "statusMessage": "고정 22명과 24개 중복 제거 원문을 확인해 Anthropic 공익기금 지분 배정 1건을 관찰로 선별했습니다. 주주 승인과 실제 집행 전이므로 결정적 시그널은 없습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -29876,6 +30119,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "anthropic-public-benefit-fund-20261018",
+            "eventIds": [
+              "anthropic-public-benefit-fund-20261018"
+            ],
+            "note": "공익기금 발표와 Reuters 후속 보도는 하나의 지분 배정 확약 사건으로 집계한다."
+          },
+          {
             "id": "tesla-cybercab-school-zone-defect-petition",
             "eventIds": [
               "tesla-cybercab-school-zone-defect-petition"
@@ -30426,6 +30676,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "anthropic-public-benefit-fund-20261018",
+            "text": "Anthropic이 공익법인 원칙을 회사 지분 5%와 기업가치 연동 증액 공식으로 구체화했다. 주주 승인과 실제 집행은 남아 있다.",
+            "evidenceIds": [
+              "anthropic-public-benefit-fund-official-20261018",
+              "anthropic-public-benefit-fund-reuters-20261018"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "meta-west-africa-scam-disruption",
             "text": "국제 공조를 운영해 대규모 플랫폼 집행과 현장 체포·구조 결과를 냈다.",
@@ -32108,5 +32367,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T07:33:16+09:00"
+  "updatedAt": "2026-10-19T07:32:23+09:00"
 }
