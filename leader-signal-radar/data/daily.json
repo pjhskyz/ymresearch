@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.20",
+  "asOfDate": "2026.10.21",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -326,14 +326,301 @@
     }
   ],
   "currentObservationIds": [
-    "spacex-child-share-pledge-20261019",
-    "catl-yinwang-battery-swap-20261019",
-    "openai-low-resource-code-benchmarks-20261019"
+    "tesla-spacex-merger-committees-20261020",
+    "openai-orchestra-bio-acquisition-20261020"
   ],
-  "currentSignalIds": [],
-  "dailyThesis": "AI의 사회적 이익 분배, EV 배터리 교환망, 레거시 소프트웨어 현대화가 각각 기한 있는 확약·협력계약·공개 평가로 구체화됐습니다. 세 사건 모두 실제 자산 이전·네트워크 가동·고객 운영 성과가 다음 검증 문턱입니다.",
-  "lastSuccessfulRun": "2026-10-20T07:31:49+09:00",
+  "currentSignalIds": [
+    "spacex-q3-ai-profit-20261020"
+  ],
+  "dailyThesis": "AI 설비투자의 핵심 질문이 약속에서 수익성으로 이동했습니다. SpaceX는 AI 인프라를 부문 영업흑자와 전사 순이익으로 연결했지만 투자 규모가 매출을 웃돌아 반복 현금흐름이 다음 시험입니다. 동시에 Musk 기업군의 공식 결합 검토와 OpenAI의 신약개발 운영 플랫폼 인수는 AI 수직통합의 범위가 더 넓어지고 있음을 보여줍니다.",
+  "lastSuccessfulRun": "2026-10-21T07:27:54+09:00",
   "observations": [
+    {
+      "id": "tesla-spacex-merger-committees-20261020",
+      "eventId": "tesla-spacex-merger-committees",
+      "hypothesisId": "musk-conglomerate-integration",
+      "leader": "일론 머스크(Elon Musk)",
+      "role": "Tesla · SpaceX · xAI CEO",
+      "initials": "EM",
+      "score": 74,
+      "kind": "강화",
+      "date": "2026.10.20",
+      "reportDate": "2026.10.21",
+      "theme": "AI 인프라",
+      "headline": "Tesla와 SpaceX가 특별위원회를 꾸려 기업 결합을 공식 논의하기 시작했다",
+      "takeaway": "두 회사의 협업·합병 추측이 이해상충을 분리한 공식 이사회 절차로 바뀌었다. 다만 거래 조건·방식·일정과 주주·규제 승인이 없어 구조 변화가 실제 집행됐다고 볼 수는 없다.",
+      "before": "7월 Musk는 두 회사의 중첩을 언급하며 결합 가능성을 닫지 않았지만 적절한 절차가 필요하다고 했고 Tesla 법무책임자는 SpaceX를 파트너로만 표현했다.",
+      "now": "Musk는 결합을 좋은 생각이라고 평가하고 자신은 이해상충 당사자로 논의에서 배제됐으며 양사 특별위원회가 공식 논의 중이라고 밝혔다. 최종 거래에는 주주 승인이 필요하다.",
+      "facts": [
+        "Musk는 Tesla–SpaceX 결합을 좋은 생각이라고 직접 말했다.",
+        "Tesla와 SpaceX 양사에 특별위원회가 구성돼 공식 결합 논의를 진행 중이다.",
+        "Musk는 이해상충 때문에 특별위원회 논의에 참여하지 않는다고 밝혔다.",
+        "거래 조건·방식·일정은 공개되지 않았고 최종 거래에는 주주 승인이 필요하다."
+      ],
+      "action": "양사가 특별위원회를 구성해 추측 수준의 결합 아이디어를 공식 검토 절차로 전환했다.",
+      "impact": "성사되면 Tesla의 제조·로봇·에너지와 SpaceX의 위성·발사·AI 인프라가 결합해 사업 간 자본배분·거버넌스·규제 위험이 크게 바뀐다.",
+      "impactPath": [
+        "양사 특별위원회 공식 검토",
+        "거래 구조·가치평가·이사회 승인",
+        "주주·미국 및 해외 규제 심사",
+        "통합 자본배분과 사업별 수익성 변화"
+      ],
+      "counter": "특별위원회 논의는 계약이 아니며 가치평가·교환비율·중국 사업·국가안보 심사·소수주주 보호가 거래를 무산시키거나 장기화할 수 있다.",
+      "next": "8-K·이사회 결의·거래계약·독립 가치평가, Tesla와 SpaceX 주주투표 일정, 미국 국가안보·독점 및 중국 규제 심사 여부를 확인한다.",
+      "source": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
+      "sourceLabel": "Reuters 실적통화 직접 보도 · 2026.10.20",
+      "sourceGrade": "B",
+      "stage": "commitment",
+      "impactDirection": "mixed",
+      "attribution": "leader_direct",
+      "breakdown": {
+        "action": {
+          "score": 18,
+          "reason": "양사 특별위원회가 공식 결합 논의를 시작했지만 계약·조건·이사회 승인은 아직 없다."
+        },
+        "change": {
+          "score": 19,
+          "reason": "7월의 가능성 언급과 시장 추측에서 이해상충을 배제한 양사 공식 절차로 의미 있게 전진했다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "성사 시 자동차·로봇·AI·반도체·위성·우주발사 자산과 자본조달 구조를 한 기업으로 묶는 대형 구조 변화다."
+        },
+        "verification": {
+          "score": 10,
+          "reason": "이사회 결의·공시·거래조건·주주투표·규제심사로 판별 가능하지만 일정과 조건은 없다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "Reuters가 실적 통화의 Musk 직접 발언과 양사 특별위원회 설치를 직접 보도했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-07-23",
+        "statement": "Musk는 Tesla와 SpaceX의 중첩을 인정했지만 합병 가능성을 부인하지 않는 수준이었고 Tesla 측은 SpaceX를 파트너로만 표현했다.",
+        "evidenceIds": [
+          "tesla-spacex-merger-baseline-reuters-20260723"
+        ]
+      },
+      "evidenceIds": [
+        "tesla-spacex-merger-reuters-20261020"
+      ],
+      "assessmentNote": "18+19+18+10+9=74. 공식 특별위원회 논의는 전략 변화지만 거래 미확정·무기한인 commitment이므로 관찰에 제한했다.",
+      "occurredAt": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "industryLinks": [
+        {
+          "sector": "자동차·로봇·우주·AI 인프라",
+          "relationship": "hypothesis",
+          "text": "계약이 체결될 경우 제조·에너지·위성·발사·연산 인프라가 한 자본배분 체계로 통합될 수 있다.",
+          "evidenceIds": [
+            "tesla-spacex-merger-reuters-20261020"
+          ]
+        },
+        {
+          "sector": "기업지배구조·규제",
+          "relationship": "confirmed",
+          "text": "양사 특별위원회가 구성됐고 Musk는 이해상충 당사자로 논의에서 배제됐다고 밝혔다.",
+          "evidenceIds": [
+            "tesla-spacex-merger-reuters-20261020"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-21T07:27:54+09:00",
+        "stage": "commitment",
+        "impactDirection": "mixed",
+        "attribution": "leader_direct",
+        "breakdown": {
+          "action": {
+            "score": 18,
+            "reason": "양사 특별위원회가 공식 결합 논의를 시작했지만 계약·조건·이사회 승인은 아직 없다."
+          },
+          "change": {
+            "score": 19,
+            "reason": "7월의 가능성 언급과 시장 추측에서 이해상충을 배제한 양사 공식 절차로 의미 있게 전진했다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "성사 시 자동차·로봇·AI·반도체·위성·우주발사 자산과 자본조달 구조를 한 기업으로 묶는 대형 구조 변화다."
+          },
+          "verification": {
+            "score": 10,
+            "reason": "이사회 결의·공시·거래조건·주주투표·규제심사로 판별 가능하지만 일정과 조건은 없다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "Reuters가 실적 통화의 Musk 직접 발언과 양사 특별위원회 설치를 직접 보도했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-07-23",
+          "statement": "Musk는 Tesla와 SpaceX의 중첩을 인정했지만 합병 가능성을 부인하지 않는 수준이었고 Tesla 측은 SpaceX를 파트너로만 표현했다.",
+          "evidenceIds": [
+            "tesla-spacex-merger-baseline-reuters-20260723"
+          ]
+        },
+        "evidenceIds": [
+          "tesla-spacex-merger-reuters-20261020"
+        ],
+        "note": "18+19+18+10+9=74. 공식 특별위원회 논의는 전략 변화지만 거래 미확정·무기한인 commitment이므로 관찰에 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-20",
+        "publishedAt": "2026-10-20",
+        "firstSeenAt": "2026-10-21T07:27:54+09:00",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      }
+    },
+    {
+      "id": "openai-orchestra-bio-acquisition-20261020",
+      "eventId": "openai-orchestra-bio-acquisition",
+      "hypothesisId": "openai-life-science-workflow-integration",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 70,
+      "kind": "실행",
+      "date": "2026.10.20",
+      "reportDate": "2026.10.21",
+      "theme": "AI 배포",
+      "headline": "OpenAI가 Orchestra Bio를 인수해 생명과학 모델을 신약개발 운영 워크플로로 확장했다",
+      "takeaway": "GPT-Rosalind의 연구·분석 도구가 프로그램 일정·의존성·의사결정까지 조율하는 운영 플랫폼과 조직을 흡수했다. 실제 개발기간 단축과 임상 진전은 아직 증명되지 않았다.",
+      "before": "OpenAI는 GPT-Rosalind와 Workbench를 연구실에 제공해 생물·화학 추론, 데이터 분석과 실험계획을 지원했지만 신약개발 프로그램 전체 운영을 직접 통합하지는 않았다.",
+      "now": "OpenAI는 바이오파마 개발 프로그램의 연구·전임상·제조·임상 의존성을 관리하는 Orchestra Bio의 팀과 기술을 인수해 Rosalind와 결합한다고 밝혔다.",
+      "facts": [
+        "OpenAI와 Orchestra Bio 양측은 인수와 팀·기술 합류를 공식 확인했다.",
+        "Orchestra 플랫폼은 신약개발 연구·전임상·제조·임상의 일정과 의존성을 에이전트로 추적한다.",
+        "OpenAI는 Orchestra를 GPT-Rosalind·Rosalind Workbench와 결합해 과학 결과와 다음 연구·개발 결정을 연결할 계획이다.",
+        "거래금액·통합 제품 출시일·고객 성과지표는 공개되지 않았다."
+      ],
+      "action": "OpenAI가 Orchestra Bio의 조직과 운영 플랫폼을 인수해 생명과학 전략을 모델 제공에서 개발 워크플로 통합으로 확장했다.",
+      "impact": "연구 추론과 개발 프로그램 관리를 연결하면 바이오파마의 일정 지연·부서 간 단절·외부 파트너 조정 비용을 낮출 수 있지만 임상 성공 확률 개선은 미검증이다.",
+      "impactPath": [
+        "Orchestra 팀·기술의 Rosalind 통합",
+        "연구·전임상·제조·임상 의존성 추적",
+        "개발 의사결정·일정 대응 자동화",
+        "개발기간·비용·임상 진전으로 효과 검증"
+      ],
+      "counter": "인수 규모와 고객 유지, 데이터 거버넌스, 규제 검증, 실제 신약개발 일정·비용·성공률이 공개되지 않아 플랫폼 통합이 의료 성과로 이어질지는 불확실하다.",
+      "next": "통합 제품 출시와 고객 전환, 제약사별 배치 범위, 프로그램 일정 지연·인력시간·개발비 변화, 규제·데이터 감사와 임상 후보 진전을 확인한다.",
+      "source": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "sourceLabel": "OpenAI 공식 · 2026.10.20",
+      "sourceGrade": "A",
+      "stage": "execution",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 22,
+          "reason": "Orchestra Bio의 팀과 기술 인수를 완료해 조직·제품 자산을 실제 통합했다."
+        },
+        "change": {
+          "score": 14,
+          "reason": "생명과학 모델·워크벤치 제공에서 신약개발 일정·의존성·의사결정 운영 플랫폼까지 범위를 확장했다."
+        },
+        "impact": {
+          "score": 14,
+          "reason": "검증될 경우 바이오파마 R&D의 연구와 프로그램 운영을 연결해 개발 기간·실패 대응·협업 구조에 영향을 줄 수 있다."
+        },
+        "verification": {
+          "score": 11,
+          "reason": "통합 제품 출시·고객 배치·개발기간·일정 지연·임상 진전으로 검증 가능하지만 기한과 거래조건은 없다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "OpenAI와 Orchestra Bio 양측 공식 원문이 인수 완료와 통합 방향을 확인한다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-15",
+        "statement": "OpenAI는 GPT-Rosalind와 Workbench를 학술 연구실에 제공했지만 신약개발 프로그램 운영 플랫폼이나 관련 조직 인수는 공개하지 않았다.",
+        "evidenceIds": [
+          "openai-rosalind-plan-official-20261015"
+        ]
+      },
+      "evidenceIds": [
+        "openai-orchestra-acquisition-official-20261020",
+        "orchestra-join-openai-official-20261020"
+      ],
+      "assessmentNote": "22+14+14+11+9=70. 인수 완료를 실행으로 평가하되 거래조건·통합 제품·고객 운영 성과가 없어 관찰에 제한했다.",
+      "occurredAt": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "industryLinks": [
+        {
+          "sector": "바이오파마 R&D 소프트웨어",
+          "relationship": "confirmed",
+          "text": "OpenAI가 Orchestra Bio의 팀과 신약개발 프로그램 관리 기술을 인수해 Rosalind에 통합한다.",
+          "evidenceIds": [
+            "openai-orchestra-acquisition-official-20261020",
+            "orchestra-join-openai-official-20261020"
+          ]
+        },
+        {
+          "sector": "신약개발·임상 운영",
+          "relationship": "indirect",
+          "text": "연구·전임상·제조·임상 의존성 조정이 실제 일정·비용·후보 진전에 미치는 효과는 향후 검증 대상이다.",
+          "evidenceIds": [
+            "openai-orchestra-acquisition-official-20261020",
+            "orchestra-join-openai-official-20261020"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-21T07:27:54+09:00",
+        "stage": "execution",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 22,
+            "reason": "Orchestra Bio의 팀과 기술 인수를 완료해 조직·제품 자산을 실제 통합했다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "생명과학 모델·워크벤치 제공에서 신약개발 일정·의존성·의사결정 운영 플랫폼까지 범위를 확장했다."
+          },
+          "impact": {
+            "score": 14,
+            "reason": "검증될 경우 바이오파마 R&D의 연구와 프로그램 운영을 연결해 개발 기간·실패 대응·협업 구조에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 11,
+            "reason": "통합 제품 출시·고객 배치·개발기간·일정 지연·임상 진전으로 검증 가능하지만 기한과 거래조건은 없다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "OpenAI와 Orchestra Bio 양측 공식 원문이 인수 완료와 통합 방향을 확인한다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-15",
+          "statement": "OpenAI는 GPT-Rosalind와 Workbench를 학술 연구실에 제공했지만 신약개발 프로그램 운영 플랫폼이나 관련 조직 인수는 공개하지 않았다.",
+          "evidenceIds": [
+            "openai-rosalind-plan-official-20261015"
+          ]
+        },
+        "evidenceIds": [
+          "openai-orchestra-acquisition-official-20261020",
+          "orchestra-join-openai-official-20261020"
+        ],
+        "note": "22+14+14+11+9=70. 인수 완료를 실행으로 평가하되 거래조건·통합 제품·고객 운영 성과가 없어 관찰에 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-20",
+        "publishedAt": "2026-10-20",
+        "firstSeenAt": "2026-10-21T07:27:54+09:00",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      }
+    },
     {
       "id": "spacex-child-share-pledge-20261019",
       "eventId": "spacex-child-share-pledge",
@@ -2574,262 +2861,344 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-16T07:32:23+09:00",
-      "end": "2026-10-20T07:31:49+09:00"
+      "start": "2026-10-17T07:31:49+09:00",
+      "end": "2026-10-21T07:27:54+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
-          "https://ir.tesla.com/press",
-          "https://apnews.com/article/musk-spacex-anthropic-donation-ai-b3312da37a0e340be275295073055e00",
-          "https://www.washingtonpost.com/technology/2026/10/19/elon-musk-says-hell-give-spacex-share-every-american-child/",
-          "https://www.axios.com/2026/10/17/elon-musk-doge-walter-isaacson-podcast"
+          "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/earningsreleaseq22608042.htm",
+          "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
+          "https://www.reuters.com/legal/legalindustry/musk-keeps-tesla-spacex-merger-speculation-alive-cites-growing-overlap-2026-07-23/",
+          "https://ir.tesla.com/press"
         ],
-        "note": "직접 발언과 AP·Washington Post를 교차 확인해 2027년 아동 대상 SpaceX 주식 제공 확약을 65점 관찰로 선별했다.",
+        "note": "SpaceX 공식 실적과 직전 분기 기준선, Reuters 실적통화를 대조해 Q3 흑자 전환을 95점 결정적 신호로, 양사 특별위원회 논의를 74점 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news/latest",
-          "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
-          "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-          "https://apnews.com/article/jensen-huang-nvidia-merz-germany-economy-artificial-intelligence-f024c1e0d181677a19468657907a9025"
+          "https://nvidianews.nvidia.com/news/latest"
         ],
-        "note": "양자 시뮬레이션은 회사 자체 결과이고 독일 투자계획은 금액·조건이 없어, 물리 AI의 기존 관점 대비 변화량이 관찰 문턱에 못 미쳤다.",
+        "note": "NVIDIA 최신 원문을 확인했으나 수집구간의 신규 실행·성과 기준을 넘는 별도 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/low-resource-programming-languages/"
+          "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+          "https://orchestra.bio/",
+          "https://openai.com/index/introducing-the-rosalind-academic-plan/"
         ],
-        "note": "저자원 언어 평가·공개 테스트를 확인해 레거시 현대화 성능을 72점 관찰로 선별했다.",
+        "note": "OpenAI와 Orchestra Bio 양측 인수 원문을 기존 Rosalind 기준선과 대조해 70점 실행 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
-          "https://www.anthropic.com/news"
+          "https://www.anthropic.com/news",
+          "https://www.anthropic.com/news/public-benefit-fund"
         ],
-        "note": "공익기금 후속 보도는 전일 선별 사건의 반복이며 기본 조사 구간에 별도 신규 실행·성과는 없었다.",
+        "note": "Anthropic 최신 공지와 공익기금 후속 설명을 확인했으나 기존 사건 반복이어서 신규화하지 않았다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "Google DeepMind 최신 연구·제품 공지를 확인했으며 신규 전략 변화나 실행은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "Microsoft Source 최신 원문을 확인했으며 기존 Maia·AI 배포 사건을 바꾸는 신규 근거는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://about.fb.com/news/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "Meta Newsroom 최신 원문을 확인했으며 문턱을 넘는 신규 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
-          "https://newsroom.amd.com/"
+          "https://newsroom.amd.com/",
+          "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
+          "https://newsroom.amd.com/news/amd-fsr-upscaling-4-1-boosts-frames-image-quality/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "AMD–Intel oneDNN 협력 계획과 FSR 4.1 배포를 확인했으나 Lisa Su 직접 전략 변화가 아니고 범위·성과·기한이 부족해 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://investor.tsmc.com/english/quarterly-results/2026/q3"
         ],
-        "note": "Q3 실적·Texas 검토는 기존 조사에서 반영된 사건의 반복이며 새 확정 계약이나 실행은 없었다.",
+        "note": "TSMC Q3 원문을 재확인했으며 기존 기록 사건을 바꾸는 신규 근거는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://group.softbank/en/news/press"
         ],
-        "note": "Allied Universal 인수 보도는 익명 소식통 기반 초기 협상이며 공식 확정계약이 없어 제외했다.",
+        "note": "SoftBank 공식 보도자료를 확인했으며 신규 확정 거래·집행은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
-          "https://www.catl.com/en/news/",
-          "https://www.reuters.com/world/asia-pacific/huawei-backed-smart-car-business-cooperate-with-catl-battery-swapping-2026-10-19/"
+          "https://www.catl.com/en/news/"
         ],
-        "note": "Yinwang 발표를 확인한 Reuters 직접보도로 배터리 교환 협력계약을 63점 관찰로 선별했다.",
+        "note": "CATL 최신 원문을 확인했으며 10월 19일 이후 신규 실행·성과 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "GE Vernova AI 관련 원문을 확인했으며 수집구간 신규 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "Palantir Newsroom을 확인했으며 신규 공개 원문은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://www.flagshippioneering.com/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "Flagship 공식 사이트의 최신 콘텐츠를 확인했으며 신규 전략 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "Airbnb Newsroom을 확인했으며 신규 핵심 실행은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude"
         ],
-        "note": "공식 공시를 확인했으나 기본 조사 구간에 새로운 관점 변화나 포트폴리오 실행 근거는 없었다.",
+        "note": "공개 SEC 조회를 확인했으며 신규 공시나 직접 관점 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://foundersfund.com/team/peter-thiel/"
         ],
-        "note": "공식 채널과 최신 보도를 확인했으나 재인용·인물 소개를 넘어선 새 관점 변화는 없었다.",
+        "note": "Founders Fund 공식 페이지를 확인했으며 신규 직접 발언·행동은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
-        "note": "공식 인사이트 채널에 기본 조사 구간의 새 메모나 관점 변화가 없었다.",
+        "note": "Oaktree Insights를 확인했으며 신규 메모나 관점 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://economicprinciples.org/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 새 수치·반증조건이 있는 관점 변화는 없었다.",
+        "note": "Economic Principles 공식 채널을 확인했으며 신규 검증 가능 관점 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://a16z.com/author/marc-andreessen/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 본인의 새 관점 변화·행동은 없었다.",
+        "note": "a16z 공식 저자 페이지를 확인했으며 수집구간 신규 직접 콘텐츠는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "10월 19일 게시물은 외부 논문·도서 소개 중심이며 본인의 관점 변화·행동·반증 기준이 부족해 제외했다.",
+        "note": "10월 20일 자동화·저축률 논문 소개를 확인했으나 타인의 연구 요약이고 Cowen 자신의 실질 관점 변화·행동이 부족해 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-20T07:31:49+09:00",
+        "checkedAt": "2026-10-21T07:27:54+09:00",
         "urls": [
           "https://balajis.com/"
         ],
-        "note": "공식 채널의 최신 게시물을 확인했으나 기본 조사 구간에 60점 이상 새 관점 변화·실행·성과는 없었다.",
+        "note": "공식 사이트를 확인했으나 수집구간 신규 검증 가능 원문은 없었다.",
         "checked": true,
         "blocked": false
       }
     ],
     "evidence": [
+      {
+        "id": "spacex-q3-official-20261020",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+        "label": "SpaceX SEC 공식 Q3 2026 실적",
+        "grade": "A",
+        "publishedAt": "2026-10-20",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "SpaceX는 3분기 매출 145억7500만달러, 순이익 44억달러, SI 영업이익 4억3100만달러, 1.7GW 연산용량, 총 설비투자 195억9300만달러와 첫 매출 발생 Starship 임무를 공시했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "spacex-q2-official-20260804",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/earningsreleaseq22608042.htm",
+        "label": "SpaceX SEC 공식 Q2 2026 실적",
+        "grade": "A",
+        "publishedAt": "2026-08-04",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "SpaceX의 2분기 매출은 78억1400만달러, 순손실은 5억4100만달러였고 AI 부문은 12억5700만달러 영업손실을 기록했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "spacex-q3-reuters-20261020",
+        "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
+        "label": "Reuters · SpaceX Q3 실적통화 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-10-20",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "Reuters는 SpaceX의 첫 공개기업 분기 흑자, AI 매출 확대·대규모 설비투자와 Musk의 실적통화 발언을 직접 보도했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tesla-spacex-merger-reuters-20261020",
+        "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
+        "label": "Reuters · Tesla–SpaceX 특별위원회 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-10-20",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "Musk는 Tesla–SpaceX 결합을 좋은 생각이라고 말했고 양사 특별위원회가 공식 논의 중이며 자신은 이해상충 때문에 참여하지 않는다고 밝혔다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tesla-spacex-merger-baseline-reuters-20260723",
+        "url": "https://www.reuters.com/legal/legalindustry/musk-keeps-tesla-spacex-merger-speculation-alive-cites-growing-overlap-2026-07-23/",
+        "label": "Reuters · Tesla–SpaceX 결합 가능성 기준선",
+        "grade": "B",
+        "publishedAt": "2026-07-23",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "7월 Musk는 양사 중첩을 인정하면서도 합병 논의에는 적절한 절차가 필요하다고 했고 공식 결합 절차는 확인하지 않았다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "openai-orchestra-acquisition-official-20261020",
+        "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+        "label": "OpenAI · Orchestra Bio 인수",
+        "grade": "A",
+        "publishedAt": "2026-10-20",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "OpenAI는 Orchestra Bio를 인수해 팀과 신약개발 프로그램 관리 기술을 GPT-Rosalind·Rosalind Workbench에 결합한다고 발표했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "orchestra-join-openai-official-20261020",
+        "url": "https://orchestra.bio/",
+        "label": "Orchestra Bio · OpenAI 합류 확인",
+        "grade": "A",
+        "publishedAt": "2026-10-20",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "Orchestra Bio는 회사와 팀이 OpenAI에 합류해 신약개발 프로그램 조정 임무를 확대한다고 공식 확인했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-rosalind-plan-official-20261015",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+        "label": "OpenAI · Rosalind Academic Plan 기준선",
+        "grade": "A",
+        "publishedAt": "2026-10-15",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "claim": "OpenAI는 GPT-Rosalind와 Workbench를 학술 연구실에 제공해 생명과학 추론·도구 조정을 지원한다고 발표했다.",
+        "provenance": "official"
+      },
       {
         "id": "musk-spacex-child-share-ap-20261019",
         "url": "https://apnews.com/article/musk-spacex-anthropic-donation-ai-b3312da37a0e340be275295073055e00",
@@ -5602,6 +5971,494 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261021-spacex-q3-ai-profit",
+        "eventId": "spacex-q3-ai-profit",
+        "signalId": "spacex-q3-ai-profit-20261020",
+        "hypothesisId": "spacex-ai-infrastructure-economics",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.21",
+        "recordedAt": "2026-10-21T07:27:54+09:00",
+        "tier": "signal",
+        "score": 95,
+        "headline": "SpaceX가 AI 인프라 확장과 첫 매출 발생 Starship 임무를 전사·AI 부문 흑자로 전환했다",
+        "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "30+24+19+13+9=95. 실제 분기 흑자와 AI 부문 영업흑자, 운영 용량·설비투자·첫 매출 발생 Starship 임무를 성과로 평가했다.",
+        "evidenceIds": [
+          "spacex-q3-official-20261020",
+          "spacex-q3-reuters-20261020"
+        ],
+        "snapshot": {
+          "id": "spacex-q3-ai-profit-20261020",
+          "eventId": "spacex-q3-ai-profit",
+          "hypothesisId": "spacex-ai-infrastructure-economics",
+          "leader": "일론 머스크(Elon Musk)",
+          "role": "Tesla · SpaceX · xAI CEO",
+          "initials": "EM",
+          "score": 95,
+          "kind": "실행",
+          "date": "2026.10.20",
+          "reportDate": "2026.10.21",
+          "theme": "AI 인프라",
+          "headline": "SpaceX가 AI 인프라 확장과 첫 매출 발생 Starship 임무를 전사·AI 부문 흑자로 전환했다",
+          "takeaway": "AI 인프라 투자가 매출 성장뿐 아니라 부문 영업흑자와 전사 순이익으로 처음 연결됐다. 다만 3분기 196억달러 설비투자와 4분기 추가 투자계획 때문에 반복 수익성과 현금흐름이 다음 검증 문턱이다.",
+          "before": "2026년 2분기 SpaceX는 매출 78억달러에도 순손실 5억4100만달러였고 AI 부문은 12억5700만달러 영업손실을 기록해 대규모 연산 투자의 경제성이 확인되지 않았다.",
+          "now": "3분기 매출은 145억7500만달러, 순이익은 44억달러로 전환됐고 SI 부문은 매출 75억6000만달러와 영업이익 4억3100만달러를 기록했다. 동시에 첫 매출 발생 Starship 임무로 Starlink V3 위성 26기를 배치했다.",
+          "facts": [
+            "3분기 매출은 전년 대비 161% 증가한 145억7500만달러, 순이익은 44억달러로 전년 11억달러 순손실에서 전환됐다.",
+            "SI 부문 매출은 75억6000만달러, 영업이익은 4억3100만달러였고 명목 연산용량은 1.7GW로 늘었다.",
+            "총 설비투자는 195억9300만달러였으며 이 중 SI 부문이 164억4400만달러를 차지했다.",
+            "첫 매출 발생 Starship 임무가 Starlink V3 위성 26기를 배치했고 회사는 Falcon 9 Starlink 발사 대비 약 10배의 하향링크 용량이라고 밝혔다."
+          ],
+          "action": "SpaceX가 1.7GW 연산 인프라와 164억달러 규모 SI 설비투자를 실제 매출·부문 영업흑자로 연결하고 Starship을 최초 매출 임무에 투입했다.",
+          "impact": "우주발사·위성통신 현금창출과 AI 데이터센터 투자를 결합한 수직통합 모델이 성과를 내기 시작해 가속기·전력·냉각·네트워크 수요와 우주산업 자본배분에 영향을 준다.",
+          "impactPath": [
+            "클라우드 계약·Grok·Cursor가 SI 매출 확대",
+            "1.7GW 연산설비가 부문 영업흑자 전환",
+            "대규모 설비투자가 전력·가속기·냉각 수요 자극",
+            "Starlink·Starship 현금흐름과 반복 수익성이 모델을 검증"
+          ],
+          "counter": "한 분기 흑자만으로 투자 회수율이 확정되지는 않는다. 3분기 총 설비투자가 매출을 웃돌았고 4분기에도 대규모 투자가 예고돼 자유현금흐름·고객 집중도·계약 갱신과 Starship 재사용성이 핵심 위험이다.",
+          "next": "4분기 SI 영업이익과 현금흐름, 350억~400억달러 설비투자 집행, 클라우드 계약 갱신·고객 집중도, Starship 반복 발사·재사용과 V3 위성 배치량을 확인한다.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "sourceLabel": "SpaceX SEC 공식 실적 · 2026.10.20",
+          "sourceGrade": "A",
+          "stage": "outcome",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 30,
+              "reason": "분기 실적·1.7GW 운영 용량·대규모 설비투자·첫 매출 발생 Starship 임무까지 실제 운영 결과가 확인됐다."
+            },
+            "change": {
+              "score": 24,
+              "reason": "2분기 전사·AI 부문 적자에서 3분기 모두 흑자로 전환했고 AI가 최대 매출 부문이 되는 근본적 사업구조 변화가 나타났다."
+            },
+            "impact": {
+              "score": 19,
+              "reason": "AI 데이터센터·전력·가속기 수요와 위성통신·우주발사 자본배분을 한 기업 안에서 연결하는 산업 구조 변화다."
+            },
+            "verification": {
+              "score": 13,
+              "reason": "SEC 공시의 분기별 매출·이익·용량·설비투자와 향후 반복 실적으로 수익성 지속 여부를 판별할 수 있다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "SpaceX의 SEC 공식 실적 원문을 직전 분기 공시와 대조하고 Reuters 직접 보도로 교차확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-08-04",
+            "statement": "2026년 2분기 SpaceX는 매출 78억달러, 순손실 5억4100만달러였고 AI 부문은 매출 25억6100만달러와 영업손실 12억5700만달러를 기록했다.",
+            "evidenceIds": [
+              "spacex-q2-official-20260804"
+            ]
+          },
+          "evidenceIds": [
+            "spacex-q3-official-20261020",
+            "spacex-q3-reuters-20261020"
+          ],
+          "assessmentNote": "30+24+19+13+9=95. 실제 분기 흑자와 AI 부문 영업흑자, 운영 용량·설비투자·첫 매출 발생 Starship 임무를 성과로 평가했다.",
+          "occurredAt": "2026-10-20",
+          "publishedAt": "2026-10-20",
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·전력 인프라",
+              "relationship": "indirect",
+              "text": "1.7GW 연산용량과 164억4400만달러 SI 설비투자는 가속기·전력·냉각·네트워크 공급망 수요를 확대한다.",
+              "evidenceIds": [
+                "spacex-q3-official-20261020"
+              ]
+            },
+            {
+              "sector": "우주발사·위성통신",
+              "relationship": "confirmed",
+              "text": "첫 매출 발생 Starship 임무가 Starlink V3 위성 26기를 배치했다.",
+              "evidenceIds": [
+                "spacex-q3-official-20261020"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-21T07:27:54+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 30,
+                "reason": "분기 실적·1.7GW 운영 용량·대규모 설비투자·첫 매출 발생 Starship 임무까지 실제 운영 결과가 확인됐다."
+              },
+              "change": {
+                "score": 24,
+                "reason": "2분기 전사·AI 부문 적자에서 3분기 모두 흑자로 전환했고 AI가 최대 매출 부문이 되는 근본적 사업구조 변화가 나타났다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "AI 데이터센터·전력·가속기 수요와 위성통신·우주발사 자본배분을 한 기업 안에서 연결하는 산업 구조 변화다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "SEC 공시의 분기별 매출·이익·용량·설비투자와 향후 반복 실적으로 수익성 지속 여부를 판별할 수 있다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "SpaceX의 SEC 공식 실적 원문을 직전 분기 공시와 대조하고 Reuters 직접 보도로 교차확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-08-04",
+              "statement": "2026년 2분기 SpaceX는 매출 78억달러, 순손실 5억4100만달러였고 AI 부문은 매출 25억6100만달러와 영업손실 12억5700만달러를 기록했다.",
+              "evidenceIds": [
+                "spacex-q2-official-20260804"
+              ]
+            },
+            "evidenceIds": [
+              "spacex-q3-official-20261020",
+              "spacex-q3-reuters-20261020"
+            ],
+            "note": "30+24+19+13+9=95. 실제 분기 흑자와 AI 부문 영업흑자, 운영 용량·설비투자·첫 매출 발생 Starship 임무를 성과로 평가했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-20",
+            "publishedAt": "2026-10-20",
+            "firstSeenAt": "2026-10-21T07:27:54+09:00",
+            "verifiedAt": "2026-10-21T07:27:54+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          }
+        }
+      },
+      {
+        "id": "revision-20261021-tesla-spacex-merger-committees",
+        "eventId": "tesla-spacex-merger-committees",
+        "signalId": "tesla-spacex-merger-committees-20261020",
+        "hypothesisId": "musk-conglomerate-integration",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.21",
+        "recordedAt": "2026-10-21T07:27:54+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "Tesla와 SpaceX가 특별위원회를 꾸려 기업 결합을 공식 논의하기 시작했다",
+        "source": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "18+19+18+10+9=74. 공식 특별위원회 논의는 전략 변화지만 거래 미확정·무기한인 commitment이므로 관찰에 제한했다.",
+        "evidenceIds": [
+          "tesla-spacex-merger-reuters-20261020"
+        ],
+        "snapshot": {
+          "id": "tesla-spacex-merger-committees-20261020",
+          "eventId": "tesla-spacex-merger-committees",
+          "hypothesisId": "musk-conglomerate-integration",
+          "leader": "일론 머스크(Elon Musk)",
+          "role": "Tesla · SpaceX · xAI CEO",
+          "initials": "EM",
+          "score": 74,
+          "kind": "강화",
+          "date": "2026.10.20",
+          "reportDate": "2026.10.21",
+          "theme": "AI 인프라",
+          "headline": "Tesla와 SpaceX가 특별위원회를 꾸려 기업 결합을 공식 논의하기 시작했다",
+          "takeaway": "두 회사의 협업·합병 추측이 이해상충을 분리한 공식 이사회 절차로 바뀌었다. 다만 거래 조건·방식·일정과 주주·규제 승인이 없어 구조 변화가 실제 집행됐다고 볼 수는 없다.",
+          "before": "7월 Musk는 두 회사의 중첩을 언급하며 결합 가능성을 닫지 않았지만 적절한 절차가 필요하다고 했고 Tesla 법무책임자는 SpaceX를 파트너로만 표현했다.",
+          "now": "Musk는 결합을 좋은 생각이라고 평가하고 자신은 이해상충 당사자로 논의에서 배제됐으며 양사 특별위원회가 공식 논의 중이라고 밝혔다. 최종 거래에는 주주 승인이 필요하다.",
+          "facts": [
+            "Musk는 Tesla–SpaceX 결합을 좋은 생각이라고 직접 말했다.",
+            "Tesla와 SpaceX 양사에 특별위원회가 구성돼 공식 결합 논의를 진행 중이다.",
+            "Musk는 이해상충 때문에 특별위원회 논의에 참여하지 않는다고 밝혔다.",
+            "거래 조건·방식·일정은 공개되지 않았고 최종 거래에는 주주 승인이 필요하다."
+          ],
+          "action": "양사가 특별위원회를 구성해 추측 수준의 결합 아이디어를 공식 검토 절차로 전환했다.",
+          "impact": "성사되면 Tesla의 제조·로봇·에너지와 SpaceX의 위성·발사·AI 인프라가 결합해 사업 간 자본배분·거버넌스·규제 위험이 크게 바뀐다.",
+          "impactPath": [
+            "양사 특별위원회 공식 검토",
+            "거래 구조·가치평가·이사회 승인",
+            "주주·미국 및 해외 규제 심사",
+            "통합 자본배분과 사업별 수익성 변화"
+          ],
+          "counter": "특별위원회 논의는 계약이 아니며 가치평가·교환비율·중국 사업·국가안보 심사·소수주주 보호가 거래를 무산시키거나 장기화할 수 있다.",
+          "next": "8-K·이사회 결의·거래계약·독립 가치평가, Tesla와 SpaceX 주주투표 일정, 미국 국가안보·독점 및 중국 규제 심사 여부를 확인한다.",
+          "source": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
+          "sourceLabel": "Reuters 실적통화 직접 보도 · 2026.10.20",
+          "sourceGrade": "B",
+          "stage": "commitment",
+          "impactDirection": "mixed",
+          "attribution": "leader_direct",
+          "breakdown": {
+            "action": {
+              "score": 18,
+              "reason": "양사 특별위원회가 공식 결합 논의를 시작했지만 계약·조건·이사회 승인은 아직 없다."
+            },
+            "change": {
+              "score": 19,
+              "reason": "7월의 가능성 언급과 시장 추측에서 이해상충을 배제한 양사 공식 절차로 의미 있게 전진했다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "성사 시 자동차·로봇·AI·반도체·위성·우주발사 자산과 자본조달 구조를 한 기업으로 묶는 대형 구조 변화다."
+            },
+            "verification": {
+              "score": 10,
+              "reason": "이사회 결의·공시·거래조건·주주투표·규제심사로 판별 가능하지만 일정과 조건은 없다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "Reuters가 실적 통화의 Musk 직접 발언과 양사 특별위원회 설치를 직접 보도했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-07-23",
+            "statement": "Musk는 Tesla와 SpaceX의 중첩을 인정했지만 합병 가능성을 부인하지 않는 수준이었고 Tesla 측은 SpaceX를 파트너로만 표현했다.",
+            "evidenceIds": [
+              "tesla-spacex-merger-baseline-reuters-20260723"
+            ]
+          },
+          "evidenceIds": [
+            "tesla-spacex-merger-reuters-20261020"
+          ],
+          "assessmentNote": "18+19+18+10+9=74. 공식 특별위원회 논의는 전략 변화지만 거래 미확정·무기한인 commitment이므로 관찰에 제한했다.",
+          "occurredAt": "2026-10-20",
+          "publishedAt": "2026-10-20",
+          "industryLinks": [
+            {
+              "sector": "자동차·로봇·우주·AI 인프라",
+              "relationship": "hypothesis",
+              "text": "계약이 체결될 경우 제조·에너지·위성·발사·연산 인프라가 한 자본배분 체계로 통합될 수 있다.",
+              "evidenceIds": [
+                "tesla-spacex-merger-reuters-20261020"
+              ]
+            },
+            {
+              "sector": "기업지배구조·규제",
+              "relationship": "confirmed",
+              "text": "양사 특별위원회가 구성됐고 Musk는 이해상충 당사자로 논의에서 배제됐다고 밝혔다.",
+              "evidenceIds": [
+                "tesla-spacex-merger-reuters-20261020"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-21T07:27:54+09:00",
+            "stage": "commitment",
+            "impactDirection": "mixed",
+            "attribution": "leader_direct",
+            "breakdown": {
+              "action": {
+                "score": 18,
+                "reason": "양사 특별위원회가 공식 결합 논의를 시작했지만 계약·조건·이사회 승인은 아직 없다."
+              },
+              "change": {
+                "score": 19,
+                "reason": "7월의 가능성 언급과 시장 추측에서 이해상충을 배제한 양사 공식 절차로 의미 있게 전진했다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "성사 시 자동차·로봇·AI·반도체·위성·우주발사 자산과 자본조달 구조를 한 기업으로 묶는 대형 구조 변화다."
+              },
+              "verification": {
+                "score": 10,
+                "reason": "이사회 결의·공시·거래조건·주주투표·규제심사로 판별 가능하지만 일정과 조건은 없다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "Reuters가 실적 통화의 Musk 직접 발언과 양사 특별위원회 설치를 직접 보도했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-07-23",
+              "statement": "Musk는 Tesla와 SpaceX의 중첩을 인정했지만 합병 가능성을 부인하지 않는 수준이었고 Tesla 측은 SpaceX를 파트너로만 표현했다.",
+              "evidenceIds": [
+                "tesla-spacex-merger-baseline-reuters-20260723"
+              ]
+            },
+            "evidenceIds": [
+              "tesla-spacex-merger-reuters-20261020"
+            ],
+            "note": "18+19+18+10+9=74. 공식 특별위원회 논의는 전략 변화지만 거래 미확정·무기한인 commitment이므로 관찰에 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-20",
+            "publishedAt": "2026-10-20",
+            "firstSeenAt": "2026-10-21T07:27:54+09:00",
+            "verifiedAt": "2026-10-21T07:27:54+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          }
+        }
+      },
+      {
+        "id": "revision-20261021-openai-orchestra-bio-acquisition",
+        "eventId": "openai-orchestra-bio-acquisition",
+        "signalId": "openai-orchestra-bio-acquisition-20261020",
+        "hypothesisId": "openai-life-science-workflow-integration",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.21",
+        "recordedAt": "2026-10-21T07:27:54+09:00",
+        "tier": "observation",
+        "score": 70,
+        "headline": "OpenAI가 Orchestra Bio를 인수해 생명과학 모델을 신약개발 운영 워크플로로 확장했다",
+        "source": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "22+14+14+11+9=70. 인수 완료를 실행으로 평가하되 거래조건·통합 제품·고객 운영 성과가 없어 관찰에 제한했다.",
+        "evidenceIds": [
+          "openai-orchestra-acquisition-official-20261020",
+          "orchestra-join-openai-official-20261020"
+        ],
+        "snapshot": {
+          "id": "openai-orchestra-bio-acquisition-20261020",
+          "eventId": "openai-orchestra-bio-acquisition",
+          "hypothesisId": "openai-life-science-workflow-integration",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 70,
+          "kind": "실행",
+          "date": "2026.10.20",
+          "reportDate": "2026.10.21",
+          "theme": "AI 배포",
+          "headline": "OpenAI가 Orchestra Bio를 인수해 생명과학 모델을 신약개발 운영 워크플로로 확장했다",
+          "takeaway": "GPT-Rosalind의 연구·분석 도구가 프로그램 일정·의존성·의사결정까지 조율하는 운영 플랫폼과 조직을 흡수했다. 실제 개발기간 단축과 임상 진전은 아직 증명되지 않았다.",
+          "before": "OpenAI는 GPT-Rosalind와 Workbench를 연구실에 제공해 생물·화학 추론, 데이터 분석과 실험계획을 지원했지만 신약개발 프로그램 전체 운영을 직접 통합하지는 않았다.",
+          "now": "OpenAI는 바이오파마 개발 프로그램의 연구·전임상·제조·임상 의존성을 관리하는 Orchestra Bio의 팀과 기술을 인수해 Rosalind와 결합한다고 밝혔다.",
+          "facts": [
+            "OpenAI와 Orchestra Bio 양측은 인수와 팀·기술 합류를 공식 확인했다.",
+            "Orchestra 플랫폼은 신약개발 연구·전임상·제조·임상의 일정과 의존성을 에이전트로 추적한다.",
+            "OpenAI는 Orchestra를 GPT-Rosalind·Rosalind Workbench와 결합해 과학 결과와 다음 연구·개발 결정을 연결할 계획이다.",
+            "거래금액·통합 제품 출시일·고객 성과지표는 공개되지 않았다."
+          ],
+          "action": "OpenAI가 Orchestra Bio의 조직과 운영 플랫폼을 인수해 생명과학 전략을 모델 제공에서 개발 워크플로 통합으로 확장했다.",
+          "impact": "연구 추론과 개발 프로그램 관리를 연결하면 바이오파마의 일정 지연·부서 간 단절·외부 파트너 조정 비용을 낮출 수 있지만 임상 성공 확률 개선은 미검증이다.",
+          "impactPath": [
+            "Orchestra 팀·기술의 Rosalind 통합",
+            "연구·전임상·제조·임상 의존성 추적",
+            "개발 의사결정·일정 대응 자동화",
+            "개발기간·비용·임상 진전으로 효과 검증"
+          ],
+          "counter": "인수 규모와 고객 유지, 데이터 거버넌스, 규제 검증, 실제 신약개발 일정·비용·성공률이 공개되지 않아 플랫폼 통합이 의료 성과로 이어질지는 불확실하다.",
+          "next": "통합 제품 출시와 고객 전환, 제약사별 배치 범위, 프로그램 일정 지연·인력시간·개발비 변화, 규제·데이터 감사와 임상 후보 진전을 확인한다.",
+          "source": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+          "sourceLabel": "OpenAI 공식 · 2026.10.20",
+          "sourceGrade": "A",
+          "stage": "execution",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 22,
+              "reason": "Orchestra Bio의 팀과 기술 인수를 완료해 조직·제품 자산을 실제 통합했다."
+            },
+            "change": {
+              "score": 14,
+              "reason": "생명과학 모델·워크벤치 제공에서 신약개발 일정·의존성·의사결정 운영 플랫폼까지 범위를 확장했다."
+            },
+            "impact": {
+              "score": 14,
+              "reason": "검증될 경우 바이오파마 R&D의 연구와 프로그램 운영을 연결해 개발 기간·실패 대응·협업 구조에 영향을 줄 수 있다."
+            },
+            "verification": {
+              "score": 11,
+              "reason": "통합 제품 출시·고객 배치·개발기간·일정 지연·임상 진전으로 검증 가능하지만 기한과 거래조건은 없다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "OpenAI와 Orchestra Bio 양측 공식 원문이 인수 완료와 통합 방향을 확인한다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-15",
+            "statement": "OpenAI는 GPT-Rosalind와 Workbench를 학술 연구실에 제공했지만 신약개발 프로그램 운영 플랫폼이나 관련 조직 인수는 공개하지 않았다.",
+            "evidenceIds": [
+              "openai-rosalind-plan-official-20261015"
+            ]
+          },
+          "evidenceIds": [
+            "openai-orchestra-acquisition-official-20261020",
+            "orchestra-join-openai-official-20261020"
+          ],
+          "assessmentNote": "22+14+14+11+9=70. 인수 완료를 실행으로 평가하되 거래조건·통합 제품·고객 운영 성과가 없어 관찰에 제한했다.",
+          "occurredAt": "2026-10-20",
+          "publishedAt": "2026-10-20",
+          "industryLinks": [
+            {
+              "sector": "바이오파마 R&D 소프트웨어",
+              "relationship": "confirmed",
+              "text": "OpenAI가 Orchestra Bio의 팀과 신약개발 프로그램 관리 기술을 인수해 Rosalind에 통합한다.",
+              "evidenceIds": [
+                "openai-orchestra-acquisition-official-20261020",
+                "orchestra-join-openai-official-20261020"
+              ]
+            },
+            {
+              "sector": "신약개발·임상 운영",
+              "relationship": "indirect",
+              "text": "연구·전임상·제조·임상 의존성 조정이 실제 일정·비용·후보 진전에 미치는 효과는 향후 검증 대상이다.",
+              "evidenceIds": [
+                "openai-orchestra-acquisition-official-20261020",
+                "orchestra-join-openai-official-20261020"
+              ]
+            }
+          ],
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-21T07:27:54+09:00",
+            "stage": "execution",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 22,
+                "reason": "Orchestra Bio의 팀과 기술 인수를 완료해 조직·제품 자산을 실제 통합했다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "생명과학 모델·워크벤치 제공에서 신약개발 일정·의존성·의사결정 운영 플랫폼까지 범위를 확장했다."
+              },
+              "impact": {
+                "score": 14,
+                "reason": "검증될 경우 바이오파마 R&D의 연구와 프로그램 운영을 연결해 개발 기간·실패 대응·협업 구조에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 11,
+                "reason": "통합 제품 출시·고객 배치·개발기간·일정 지연·임상 진전으로 검증 가능하지만 기한과 거래조건은 없다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "OpenAI와 Orchestra Bio 양측 공식 원문이 인수 완료와 통합 방향을 확인한다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-15",
+              "statement": "OpenAI는 GPT-Rosalind와 Workbench를 학술 연구실에 제공했지만 신약개발 프로그램 운영 플랫폼이나 관련 조직 인수는 공개하지 않았다.",
+              "evidenceIds": [
+                "openai-rosalind-plan-official-20261015"
+              ]
+            },
+            "evidenceIds": [
+              "openai-orchestra-acquisition-official-20261020",
+              "orchestra-join-openai-official-20261020"
+            ],
+            "note": "22+14+14+11+9=70. 인수 완료를 실행으로 평가하되 거래조건·통합 제품·고객 운영 성과가 없어 관찰에 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-20",
+            "publishedAt": "2026-10-20",
+            "firstSeenAt": "2026-10-21T07:27:54+09:00",
+            "verifiedAt": "2026-10-21T07:27:54+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          }
+        }
+      },
       {
         "id": "revision-20261020-openai-low-resource-code-benchmarks",
         "eventId": "openai-low-resource-code-benchmarks",
@@ -27458,6 +28315,30 @@
         "leaderNames": [
           "스콧 스트라직(Scott Strazik)"
         ]
+      },
+      {
+        "id": "spacex-ai-infrastructure-economics",
+        "title": "SpaceX AI 인프라의 반복 수익성과 우주사업 교차보조",
+        "question": "SI 부문 흑자가 반복 현금흐름으로 이어지고 대규모 설비투자와 Starship·Starlink 자본수요를 감당하는가?",
+        "leaderNames": [
+          "일론 머스크(Elon Musk)"
+        ]
+      },
+      {
+        "id": "musk-conglomerate-integration",
+        "title": "Tesla–SpaceX 기업 결합과 자본배분",
+        "question": "특별위원회 논의가 공정한 가치평가·계약·주주·규제 승인과 검증 가능한 통합 시너지로 전환되는가?",
+        "leaderNames": [
+          "일론 머스크(Elon Musk)"
+        ]
+      },
+      {
+        "id": "openai-life-science-workflow-integration",
+        "title": "OpenAI 생명과학 연구·개발 운영 통합",
+        "question": "Orchestra Bio 통합이 고객 배치와 신약개발 일정·비용·임상 진전 개선으로 이어지는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)"
+        ]
       }
     ],
     "migration": {
@@ -27472,24 +28353,167 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-19T07:32:23+09:00",
-    "end": "2026-10-20T07:31:49+09:00"
+    "start": "2026-10-20T07:31:49+09:00",
+    "end": "2026-10-21T07:27:54+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 30,
-    "newSignals": 0,
-    "newObservations": 3,
+    "sourcesChecked": 32,
+    "newSignals": 1,
+    "newObservations": 2,
     "upgrades": 0,
     "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 0,
-    "excludedCount": 8,
-    "notes": "22명 전원과 30개 중복 제거 원문을 확인했다. Musk의 SpaceX 주식 직접 분배 확약(65), CATL–Yinwang 배터리 교환 협력(63), OpenAI 저자원 언어 공개 평가(72)를 관찰로 선별했다. NVIDIA 양자 시뮬레이션·독일 투자계획은 기준선·독립 검증 또는 조건이 부족했고, Tesla 실적 컨센서스는 회사 전략 변화가 아니며, TSMC Q3와 Anthropic 공익기금은 기존 사건 반복, SoftBank 인수설은 익명 초기 협상, Tyler Cowen 게시물은 관점 변화·행동이 부족해 제외했다.",
-    "note": "22명 전원과 30개 중복 제거 원문을 확인했다. Musk의 SpaceX 주식 직접 분배 확약(65), CATL–Yinwang 배터리 교환 협력(63), OpenAI 저자원 언어 공개 평가(72)를 관찰로 선별했다. NVIDIA 양자 시뮬레이션·독일 투자계획은 기준선·독립 검증 또는 조건이 부족했고, Tesla 실적 컨센서스는 회사 전략 변화가 아니며, TSMC Q3와 Anthropic 공익기금은 기존 사건 반복, SoftBank 인수설은 익명 초기 협상, Tyler Cowen 게시물은 관점 변화·행동이 부족해 제외했다."
+    "excludedCount": 7,
+    "notes": "22명 전원과 중복 제거 원문을 확인했다. SpaceX Q3의 전사·SI 흑자와 첫 매출 발생 Starship 임무(95)를 결정적으로, Tesla–SpaceX 특별위원회 논의(74)와 OpenAI의 Orchestra Bio 인수(70)를 관찰로 선별했다. AMD–Intel oneDNN 계획·FSR 4.1은 리더 전략 변화·성과가 부족했고, Anthropic 공익기금·TSMC Q3는 기존 사건 반복, OpenAI 자금조달설은 익명 보도, Tyler Cowen 글은 타인 연구 소개, 기타 리더는 신규 기준 미달로 제외했다.",
+    "note": "22명 전원과 중복 제거 원문을 확인했다. SpaceX Q3의 전사·SI 흑자와 첫 매출 발생 Starship 임무(95)를 결정적으로, Tesla–SpaceX 특별위원회 논의(74)와 OpenAI의 Orchestra Bio 인수(70)를 관찰로 선별했다. AMD–Intel oneDNN 계획·FSR 4.1은 리더 전략 변화·성과가 부족했고, Anthropic 공익기금·TSMC Q3는 기존 사건 반복, OpenAI 자금조달설은 익명 보도, Tyler Cowen 글은 타인 연구 소개, 기타 리더는 신규 기준 미달로 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "spacex-q3-ai-profit-20261020",
+      "eventId": "spacex-q3-ai-profit",
+      "hypothesisId": "spacex-ai-infrastructure-economics",
+      "leader": "일론 머스크(Elon Musk)",
+      "role": "Tesla · SpaceX · xAI CEO",
+      "initials": "EM",
+      "score": 95,
+      "kind": "실행",
+      "date": "2026.10.20",
+      "reportDate": "2026.10.21",
+      "theme": "AI 인프라",
+      "headline": "SpaceX가 AI 인프라 확장과 첫 매출 발생 Starship 임무를 전사·AI 부문 흑자로 전환했다",
+      "takeaway": "AI 인프라 투자가 매출 성장뿐 아니라 부문 영업흑자와 전사 순이익으로 처음 연결됐다. 다만 3분기 196억달러 설비투자와 4분기 추가 투자계획 때문에 반복 수익성과 현금흐름이 다음 검증 문턱이다.",
+      "before": "2026년 2분기 SpaceX는 매출 78억달러에도 순손실 5억4100만달러였고 AI 부문은 12억5700만달러 영업손실을 기록해 대규모 연산 투자의 경제성이 확인되지 않았다.",
+      "now": "3분기 매출은 145억7500만달러, 순이익은 44억달러로 전환됐고 SI 부문은 매출 75억6000만달러와 영업이익 4억3100만달러를 기록했다. 동시에 첫 매출 발생 Starship 임무로 Starlink V3 위성 26기를 배치했다.",
+      "facts": [
+        "3분기 매출은 전년 대비 161% 증가한 145억7500만달러, 순이익은 44억달러로 전년 11억달러 순손실에서 전환됐다.",
+        "SI 부문 매출은 75억6000만달러, 영업이익은 4억3100만달러였고 명목 연산용량은 1.7GW로 늘었다.",
+        "총 설비투자는 195억9300만달러였으며 이 중 SI 부문이 164억4400만달러를 차지했다.",
+        "첫 매출 발생 Starship 임무가 Starlink V3 위성 26기를 배치했고 회사는 Falcon 9 Starlink 발사 대비 약 10배의 하향링크 용량이라고 밝혔다."
+      ],
+      "action": "SpaceX가 1.7GW 연산 인프라와 164억달러 규모 SI 설비투자를 실제 매출·부문 영업흑자로 연결하고 Starship을 최초 매출 임무에 투입했다.",
+      "impact": "우주발사·위성통신 현금창출과 AI 데이터센터 투자를 결합한 수직통합 모델이 성과를 내기 시작해 가속기·전력·냉각·네트워크 수요와 우주산업 자본배분에 영향을 준다.",
+      "impactPath": [
+        "클라우드 계약·Grok·Cursor가 SI 매출 확대",
+        "1.7GW 연산설비가 부문 영업흑자 전환",
+        "대규모 설비투자가 전력·가속기·냉각 수요 자극",
+        "Starlink·Starship 현금흐름과 반복 수익성이 모델을 검증"
+      ],
+      "counter": "한 분기 흑자만으로 투자 회수율이 확정되지는 않는다. 3분기 총 설비투자가 매출을 웃돌았고 4분기에도 대규모 투자가 예고돼 자유현금흐름·고객 집중도·계약 갱신과 Starship 재사용성이 핵심 위험이다.",
+      "next": "4분기 SI 영업이익과 현금흐름, 350억~400억달러 설비투자 집행, 클라우드 계약 갱신·고객 집중도, Starship 반복 발사·재사용과 V3 위성 배치량을 확인한다.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+      "sourceLabel": "SpaceX SEC 공식 실적 · 2026.10.20",
+      "sourceGrade": "A",
+      "stage": "outcome",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 30,
+          "reason": "분기 실적·1.7GW 운영 용량·대규모 설비투자·첫 매출 발생 Starship 임무까지 실제 운영 결과가 확인됐다."
+        },
+        "change": {
+          "score": 24,
+          "reason": "2분기 전사·AI 부문 적자에서 3분기 모두 흑자로 전환했고 AI가 최대 매출 부문이 되는 근본적 사업구조 변화가 나타났다."
+        },
+        "impact": {
+          "score": 19,
+          "reason": "AI 데이터센터·전력·가속기 수요와 위성통신·우주발사 자본배분을 한 기업 안에서 연결하는 산업 구조 변화다."
+        },
+        "verification": {
+          "score": 13,
+          "reason": "SEC 공시의 분기별 매출·이익·용량·설비투자와 향후 반복 실적으로 수익성 지속 여부를 판별할 수 있다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "SpaceX의 SEC 공식 실적 원문을 직전 분기 공시와 대조하고 Reuters 직접 보도로 교차확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-08-04",
+        "statement": "2026년 2분기 SpaceX는 매출 78억달러, 순손실 5억4100만달러였고 AI 부문은 매출 25억6100만달러와 영업손실 12억5700만달러를 기록했다.",
+        "evidenceIds": [
+          "spacex-q2-official-20260804"
+        ]
+      },
+      "evidenceIds": [
+        "spacex-q3-official-20261020",
+        "spacex-q3-reuters-20261020"
+      ],
+      "assessmentNote": "30+24+19+13+9=95. 실제 분기 흑자와 AI 부문 영업흑자, 운영 용량·설비투자·첫 매출 발생 Starship 임무를 성과로 평가했다.",
+      "occurredAt": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·전력 인프라",
+          "relationship": "indirect",
+          "text": "1.7GW 연산용량과 164억4400만달러 SI 설비투자는 가속기·전력·냉각·네트워크 공급망 수요를 확대한다.",
+          "evidenceIds": [
+            "spacex-q3-official-20261020"
+          ]
+        },
+        {
+          "sector": "우주발사·위성통신",
+          "relationship": "confirmed",
+          "text": "첫 매출 발생 Starship 임무가 Starlink V3 위성 26기를 배치했다.",
+          "evidenceIds": [
+            "spacex-q3-official-20261020"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-21T07:27:54+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 30,
+            "reason": "분기 실적·1.7GW 운영 용량·대규모 설비투자·첫 매출 발생 Starship 임무까지 실제 운영 결과가 확인됐다."
+          },
+          "change": {
+            "score": 24,
+            "reason": "2분기 전사·AI 부문 적자에서 3분기 모두 흑자로 전환했고 AI가 최대 매출 부문이 되는 근본적 사업구조 변화가 나타났다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "AI 데이터센터·전력·가속기 수요와 위성통신·우주발사 자본배분을 한 기업 안에서 연결하는 산업 구조 변화다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "SEC 공시의 분기별 매출·이익·용량·설비투자와 향후 반복 실적으로 수익성 지속 여부를 판별할 수 있다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "SpaceX의 SEC 공식 실적 원문을 직전 분기 공시와 대조하고 Reuters 직접 보도로 교차확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-08-04",
+          "statement": "2026년 2분기 SpaceX는 매출 78억달러, 순손실 5억4100만달러였고 AI 부문은 매출 25억6100만달러와 영업손실 12억5700만달러를 기록했다.",
+          "evidenceIds": [
+            "spacex-q2-official-20260804"
+          ]
+        },
+        "evidenceIds": [
+          "spacex-q3-official-20261020",
+          "spacex-q3-reuters-20261020"
+        ],
+        "note": "30+24+19+13+9=95. 실제 분기 흑자와 AI 부문 영업흑자, 운영 용량·설비투자·첫 매출 발생 Starship 임무를 성과로 평가했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-20",
+        "publishedAt": "2026-10-20",
+        "firstSeenAt": "2026-10-21T07:27:54+09:00",
+        "verifiedAt": "2026-10-21T07:27:54+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      }
+    },
     {
       "id": "nvidia-rtx-spark-launch-20261016",
       "eventId": "nvidia-rtx-spark-commercial-launch",
@@ -30129,8 +31153,8 @@
       ]
     }
   ],
-  "status": "observations",
-  "statusMessage": "고정 22명과 30개 중복 제거 원문을 확인해 SpaceX 주식 직접 분배 확약, CATL 배터리 교환 협력, OpenAI 저자원 언어 평가 3건을 관찰로 선별했습니다. 실행 구조·운영 성과·독립 재현 전이므로 결정적 시그널은 없습니다.",
+  "status": "signals",
+  "statusMessage": "고정 22명과 공식·직접 원문을 확인해 SpaceX의 AI 인프라 흑자 전환을 결정적 신호로, Tesla–SpaceX 특별위원회 논의와 OpenAI의 Orchestra Bio 인수를 관찰로 선별했습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -30146,6 +31170,20 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "spacex-q3-ai-profit",
+            "eventIds": [
+              "spacex-q3-ai-profit"
+            ],
+            "note": "같은 Q3 실적·SEC 공시·통화 보도는 하나의 운영성과 사건으로 집계한다."
+          },
+          {
+            "id": "tesla-spacex-merger-committees",
+            "eventIds": [
+              "tesla-spacex-merger-committees"
+            ],
+            "note": "양사 특별위원회와 Musk의 같은 실적통화 발언은 하나의 결합 검토 사건으로 집계한다."
+          },
           {
             "id": "dalio-ai-sovereign-capital-squeeze",
             "eventIds": [
@@ -30359,6 +31397,14 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "spacex-q3-ai-profit",
+            "text": "SpaceX의 3분기 총 설비투자 195억9300만달러는 분기 매출을 웃돌아 한 분기 흑자가 반복 자유현금흐름을 보장하지 않는다.",
+            "evidenceIds": [
+              "spacex-q3-official-20261020"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "dalio-ai-sovereign-capital-squeeze",
             "text": "Dalio는 정부와 AI 기업의 동시 순발행이 금리·스프레드와 AI 설비투자 자유현금흐름을 압박할 수 있다고 경고했다.",
@@ -30600,6 +31646,23 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "spacex-q3-ai-profit",
+            "text": "SpaceX의 SI 매출 75억6000만달러와 4억3100만달러 영업이익, 1.7GW 운영 용량이 AI 인프라 투자의 실제 수익성 전환을 확인했다.",
+            "evidenceIds": [
+              "spacex-q3-official-20261020",
+              "spacex-q3-reuters-20261020"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "tesla-spacex-merger-committees",
+            "text": "Tesla와 SpaceX가 특별위원회를 구성해 제조·에너지·우주·AI 자산 결합을 공식 검토하기 시작했다.",
+            "evidenceIds": [
+              "tesla-spacex-merger-reuters-20261020"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "microsoft-maia300-multigigawatt",
             "text": "Maia 200이 실제 Copilot·MAI 워크로드에 투입되고 Maia 300의 2027년 멀티기가와트 배치가 발표됐다.",
@@ -31776,6 +32839,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "openai-orchestra-bio-acquisition",
+            "eventIds": [
+              "openai-orchestra-bio-acquisition"
+            ],
+            "note": "OpenAI와 Orchestra Bio 양측의 같은 인수 발표는 하나의 사건으로 집계한다."
+          },
+          {
             "id": "openai-low-resource-code-benchmarks",
             "eventIds": [
               "openai-low-resource-code-benchmarks"
@@ -32134,6 +33204,15 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "openai-orchestra-bio-acquisition",
+            "text": "거래조건·통합 제품 일정·고객 유지와 개발기간·임상 성과는 공개되지 않아 운영 효과는 미검증이다.",
+            "evidenceIds": [
+              "openai-orchestra-acquisition-official-20261020",
+              "orchestra-join-openai-official-20261020"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "openai-low-resource-code-benchmarks",
             "text": "회사 자체 벤치마크이며 실제 고객 운영의 결함·비용·감사 성과는 확인되지 않았다.",
@@ -32538,6 +33617,15 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "openai-orchestra-bio-acquisition",
+            "text": "OpenAI가 Orchestra Bio의 팀·기술을 인수해 Rosalind를 신약개발 프로그램 운영 워크플로로 확장했다.",
+            "evidenceIds": [
+              "openai-orchestra-acquisition-official-20261020",
+              "orchestra-join-openai-official-20261020"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "openai-low-resource-code-benchmarks",
             "text": "OpenAI가 저자원 언어의 정량 평가와 공개 테스트 도구를 제시했다.",
@@ -33181,5 +34269,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T07:31:49+09:00"
+  "updatedAt": "2026-10-21T07:27:54+09:00"
 }
