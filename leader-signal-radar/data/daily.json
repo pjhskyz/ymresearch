@@ -147,32 +147,19 @@
       ],
       "history": [
         {
+          "reviewedAt": "2026-10-22T07:26:28+09:00",
           "status": "unverified",
-          "result": "2026년 10월 17일 OpenAI 공식 뉴스와 Daybreak 공개 자료를 재검토했다. 10월 10일 이후 신규 운영 성과, 10억달러 이용권 소진액·도입 기관 수와 MS-ISAC 취약점 수정 결과는 공개되지 않아 미검증을 유지한다.",
-          "reviewedAt": "2026-10-17T07:29:38+09:00",
-          "nextReviewDate": "2026-10-24"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 10월 10일 공식 현황에서 65개 코드베이스·1,885건 식별·661개 패치·458개 상류 반영을 확인했다. 실제 보안 성과는 진전됐지만 10억달러 이용권의 소진액·도입 기관 수와 MS-ISAC 수정 결과는 공개되지 않아 미검증을 유지한다.",
-          "reviewedAt": "2026-10-10T07:35:00+09:00",
-          "nextReviewDate": "2026-10-17"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 10월 3일 Daybreak 접근통제 설정·마이그레이션 안내를 확인했다. 프로젝트·사용자 단위 기본 비활성 통제는 공개됐지만 이용권 소진액·도입 기관 수·MS-ISAC 취약점 수정 성과는 없어 미검증을 유지한다.",
-          "reviewedAt": "2026-10-03T07:32:00+09:00",
-          "nextReviewDate": "2026-10-10"
-        },
-        {
-          "status": "unverified",
-          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-          "reviewedAt": null,
-          "nextReviewDate": "2026-10-03"
+          "result": "기존 검증 질문을 이어받았다. 원본 이력은 보존 아카이브에 남기고, 재검토 시각이 없는 레거시 항목과 현재 추적을 분리했다.",
+          "evidenceIds": [
+            "openai-daybreak-access-controls-20261002",
+            "openai-daybreak-outcomes-official-20261010",
+            "openai-daybreak-frontline-official-20260903",
+            "openai-patch-planet-php-official-20261021"
+          ]
         }
       ],
       "hypothesisId": "hyp-openai-daybreak-billion",
-      "id": "daybreak-adoption",
+      "id": "daybreak-adoption-v2",
       "nextReviewDate": "2026-10-29",
       "result": "2026년 10월 21일 Daybreak가 PHP 중대 취약점의 선제 발견·패치·클라우드 보호·정부 공조를 실제 운영한 사례를 확인했다. 다만 10억달러 이용권 소진액·도입기관 수와 MS-ISAC 현장 성과는 공개되지 않아 미검증을 유지한다.",
       "reviewedAt": "2026-10-22T07:26:28+09:00",
@@ -192,62 +179,19 @@
       ],
       "history": [
         {
+          "reviewedAt": "2026-10-22T07:26:28+09:00",
           "status": "unverified",
-          "result": "2026년 10월 10일 NHTSA 공개자료를 재검토했다. 9월 4일 감사 개시 이후 Tesla 답변·NHTSA 적합성 결론과 일반 유료 승차 수·사고·원격지원 지표는 공개되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
-          "reviewedAt": "2026-10-10T07:35:00+09:00",
-          "nextReviewDate": "2026-10-17"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 10월 6일 Tesla 공식 FAQ와 승객 안내에서 오스틴 제한 지역의 앱 배차·예상요금·운전대 없는 Cybercab 탑승 절차를 확인했다. 실제 서비스 제공은 보강됐지만 Tesla의 NHTSA 답변·적합성 결론과 유료 승차 수·사고·원격지원 지표는 공개되지 않아 미검증을 유지한다.",
-          "reviewedAt": "2026-10-06T07:25:00+09:00",
-          "nextReviewDate": "2026-10-10"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 10월 2일 07:37 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 지났지만 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차·사고·원격지원 지표와 실제 지연 원문은 공개되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
-          "reviewedAt": "2026-10-02T07:37:00+09:00",
-          "nextReviewDate": "2026-10-06"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 10월 1일 07:32 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 지났지만 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표와 실제 지연 원문은 확인되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
-          "reviewedAt": "2026-10-01T07:32:00+09:00",
-          "nextReviewDate": "2026-10-02"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 9월 30일 07:28 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 미국 현지의 9월 30일 제출 기한은 아직 끝나지 않았고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
-          "reviewedAt": "2026-09-30T07:28:00+09:00",
-          "nextReviewDate": "2026-10-01"
-        },
-        {
-          "nextReviewDate": "2026-10-01",
-          "result": "2026년 9월 29일 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 남아 있고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
-          "reviewedAt": "2026-09-29T07:32:00+09:00",
-          "status": "unverified"
-        },
-        {
-          "nextReviewDate": "2026-10-01",
-          "result": "2026년 9월 18일 NHTSA가 Tesla에 자기인증 근거와 임시 인간 조작장치 사용 여부 등을 9월 30일까지 답하라고 요구한 사실을 확인했다. Tesla 답변, NHTSA 적합성 결론, 일반 유료 승차·사고·원격지원 지표는 없어 미검증을 유지한다.",
-          "reviewedAt": "2026-09-18T07:40:17+09:00",
-          "status": "unverified"
-        },
-        {
-          "nextReviewDate": "2026-09-18",
-          "result": "2026년 9월 11일 재검토에서 일반 유료 승차 수·사고율·원격지원 개입률 또는 NHTSA 감사 결론을 확인하지 못했다. 미검증 상태를 유지하고 9월 18일 다시 확인한다.",
-          "reviewedAt": null,
-          "status": "unverified"
-        },
-        {
-          "nextReviewDate": "2026-09-11",
-          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-          "reviewedAt": "2026-09-11T07:53:00+09:00",
-          "status": "unverified"
+          "result": "기존 검증 질문을 이어받았다. 원본 이력은 보존 아카이브에 남기고, 재검토 시각이 없는 레거시 항목과 현재 추적을 분리했다.",
+          "evidenceIds": [
+            "tesla-cybercab-special-order-reuters-20260915",
+            "tesla-cybercab-audit-nhtsa-20260904",
+            "tesla-cybercab-faq-official-20260831",
+            "tesla-cybercab-school-zone-bi-20261012"
+          ]
         }
       ],
       "hypothesisId": "hyp-tesla-cybercab-austin-launch",
-      "id": "cybercab-safety",
+      "id": "cybercab-safety-v2",
       "nextReviewDate": "2026-10-24",
       "result": "2026년 10월 17일 NHTSA 자기인증 감사 후속과 신규 학교구역 과속 결함청원을 재검토했다. 약 1,000대·영상 3건의 청원 검토는 추가됐지만 정식 조사 결정·Tesla 답변·자기인증 결론·사고·원격지원 지표는 공개되지 않아 미검증을 유지한다.",
       "reviewedAt": "2026-10-17T07:29:38+09:00",
@@ -264,32 +208,16 @@
       ],
       "history": [
         {
+          "reviewedAt": "2026-10-22T07:26:28+09:00",
           "status": "unverified",
-          "result": "2026년 10월 15일 Google DeepMind 공식 채널과 기존 외부 검증을 재검토했다. 극한기상·지역별 독립 재현 결과가 추가로 공개되지 않아 미검증을 유지한다.",
-          "reviewedAt": "2026-10-15T07:33:32+09:00",
-          "nextReviewDate": "2026-10-22"
-        },
-        {
-          "status": "unverified",
-          "result": "2026년 10월 6일 독립 전문가 검토에서 최대 50% 향상이 평균 성능이 아니며 스페인 DANA 같은 극한사례는 아직 분석되지 않았음을 확인했다. 강수·극한기상 독립 재현, Cloud API 이용량과 산업 고객 성과가 부족해 미검증을 유지한다.",
-          "reviewedAt": "2026-10-08T07:26:00+09:00",
-          "nextReviewDate": "2026-10-15"
-        },
-        {
-          "status": "unverified",
-          "result": "WeatherNext 3 공식 자료와 독립 평가 공개 여부를 재검토했다. 강수·극한기상 사례의 독립 재현, Cloud API 이용량과 산업 고객 성과를 확인하지 못해 미검증을 유지한다.",
-          "reviewedAt": "2026-10-01T07:32:00+09:00",
-          "nextReviewDate": "2026-10-08"
-        },
-        {
-          "status": "unverified",
-          "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
-          "reviewedAt": null,
-          "nextReviewDate": "2026-10-01"
+          "result": "기존 검증 질문을 이어받았다. 원본 이력은 보존 아카이브에 남기고, 재검토 시각이 없는 레거시 항목과 현재 추적을 분리했다.",
+          "evidenceIds": [
+            "weathernext3-elpais-20261006"
+          ]
         }
       ],
       "hypothesisId": "hyp-google-weathernext-3",
-      "id": "weather-validation",
+      "id": "weather-validation-v2",
       "nextReviewDate": "2026-10-29",
       "result": "2026년 10월 22일 Google DeepMind 공식 최신 채널을 재검토했다. WeatherNext 3의 극한기상·지역별 독립 재현과 Cloud API 이용·산업 고객 성과가 새로 공개되지 않아 미검증을 유지한다.",
       "reviewedAt": "2026-10-22T07:26:28+09:00",
@@ -3465,7 +3393,170 @@
     }
   ],
   "research": {
-    "checkpointArchive": [],
+    "checkpointArchive": [
+      {
+        "date": "2027.03.03까지",
+        "dueDate": "2027-03-03",
+        "evidenceIds": [
+          "openai-daybreak-access-controls-20261002",
+          "openai-daybreak-outcomes-official-20261010",
+          "openai-daybreak-frontline-official-20260903",
+          "openai-patch-planet-php-official-20261021"
+        ],
+        "history": [
+          {
+            "status": "unverified",
+            "result": "2026년 10월 17일 OpenAI 공식 뉴스와 Daybreak 공개 자료를 재검토했다. 10월 10일 이후 신규 운영 성과, 10억달러 이용권 소진액·도입 기관 수와 MS-ISAC 취약점 수정 결과는 공개되지 않아 미검증을 유지한다.",
+            "reviewedAt": "2026-10-17T07:29:38+09:00",
+            "nextReviewDate": "2026-10-24"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 10월 10일 공식 현황에서 65개 코드베이스·1,885건 식별·661개 패치·458개 상류 반영을 확인했다. 실제 보안 성과는 진전됐지만 10억달러 이용권의 소진액·도입 기관 수와 MS-ISAC 수정 결과는 공개되지 않아 미검증을 유지한다.",
+            "reviewedAt": "2026-10-10T07:35:00+09:00",
+            "nextReviewDate": "2026-10-17"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 10월 3일 Daybreak 접근통제 설정·마이그레이션 안내를 확인했다. 프로젝트·사용자 단위 기본 비활성 통제는 공개됐지만 이용권 소진액·도입 기관 수·MS-ISAC 취약점 수정 성과는 없어 미검증을 유지한다.",
+            "reviewedAt": "2026-10-03T07:32:00+09:00",
+            "nextReviewDate": "2026-10-10"
+          },
+          {
+            "status": "unverified",
+            "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
+            "reviewedAt": null,
+            "nextReviewDate": "2026-10-03"
+          }
+        ],
+        "hypothesisId": "hyp-openai-daybreak-billion",
+        "id": "daybreak-adoption",
+        "nextReviewDate": "2026-10-29",
+        "result": "2026년 10월 21일 Daybreak가 PHP 중대 취약점의 선제 발견·패치·클라우드 보호·정부 공조를 실제 운영한 사례를 확인했다. 다만 10억달러 이용권 소진액·도입기관 수와 MS-ISAC 현장 성과는 공개되지 않아 미검증을 유지한다.",
+        "reviewedAt": "2026-10-22T07:26:28+09:00",
+        "status": "unverified",
+        "test": "보조형 이용권의 실제 소진액·도입 기관 수와 MS-ISAC 시범사업의 취약점 수정 성과가 확인되는가",
+        "theme": "AI 안전",
+        "title": "Daybreak 10억 달러 사용 성과"
+      },
+      {
+        "date": "진행 중",
+        "dueDate": "2026-09-30",
+        "evidenceIds": [
+          "tesla-cybercab-special-order-reuters-20260915",
+          "tesla-cybercab-audit-nhtsa-20260904",
+          "tesla-cybercab-faq-official-20260831",
+          "tesla-cybercab-school-zone-bi-20261012"
+        ],
+        "history": [
+          {
+            "status": "unverified",
+            "result": "2026년 10월 10일 NHTSA 공개자료를 재검토했다. 9월 4일 감사 개시 이후 Tesla 답변·NHTSA 적합성 결론과 일반 유료 승차 수·사고·원격지원 지표는 공개되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
+            "reviewedAt": "2026-10-10T07:35:00+09:00",
+            "nextReviewDate": "2026-10-17"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 10월 6일 Tesla 공식 FAQ와 승객 안내에서 오스틴 제한 지역의 앱 배차·예상요금·운전대 없는 Cybercab 탑승 절차를 확인했다. 실제 서비스 제공은 보강됐지만 Tesla의 NHTSA 답변·적합성 결론과 유료 승차 수·사고·원격지원 지표는 공개되지 않아 미검증을 유지한다.",
+            "reviewedAt": "2026-10-06T07:25:00+09:00",
+            "nextReviewDate": "2026-10-10"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 10월 2일 07:37 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 지났지만 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차·사고·원격지원 지표와 실제 지연 원문은 공개되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
+            "reviewedAt": "2026-10-02T07:37:00+09:00",
+            "nextReviewDate": "2026-10-06"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 10월 1일 07:32 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 지났지만 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표와 실제 지연 원문은 확인되지 않았다. 기한 경과만으로 지연 판정하지 않고 미검증을 유지한다.",
+            "reviewedAt": "2026-10-01T07:32:00+09:00",
+            "nextReviewDate": "2026-10-02"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 9월 30일 07:28 KST까지 NHTSA 공개자료와 Tesla 채널을 재검토했다. 미국 현지의 9월 30일 제출 기한은 아직 끝나지 않았고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
+            "reviewedAt": "2026-09-30T07:28:00+09:00",
+            "nextReviewDate": "2026-10-01"
+          },
+          {
+            "nextReviewDate": "2026-10-01",
+            "result": "2026년 9월 29일 NHTSA 공개자료와 Tesla 채널을 재검토했다. 9월 30일 제출 기한은 남아 있고 Tesla 답변·NHTSA 적합성 결론·일반 유료 승차 및 사고·원격지원 지표는 확인되지 않아 미검증을 유지한다.",
+            "reviewedAt": "2026-09-29T07:32:00+09:00",
+            "status": "unverified"
+          },
+          {
+            "nextReviewDate": "2026-10-01",
+            "result": "2026년 9월 18일 NHTSA가 Tesla에 자기인증 근거와 임시 인간 조작장치 사용 여부 등을 9월 30일까지 답하라고 요구한 사실을 확인했다. Tesla 답변, NHTSA 적합성 결론, 일반 유료 승차·사고·원격지원 지표는 없어 미검증을 유지한다.",
+            "reviewedAt": "2026-09-18T07:40:17+09:00",
+            "status": "unverified"
+          },
+          {
+            "nextReviewDate": "2026-09-18",
+            "result": "2026년 9월 11일 재검토에서 일반 유료 승차 수·사고율·원격지원 개입률 또는 NHTSA 감사 결론을 확인하지 못했다. 미검증 상태를 유지하고 9월 18일 다시 확인한다.",
+            "reviewedAt": null,
+            "status": "unverified"
+          },
+          {
+            "nextReviewDate": "2026-09-11",
+            "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
+            "reviewedAt": "2026-09-11T07:53:00+09:00",
+            "status": "unverified"
+          }
+        ],
+        "hypothesisId": "hyp-tesla-cybercab-austin-launch",
+        "id": "cybercab-safety",
+        "nextReviewDate": "2026-10-24",
+        "result": "2026년 10월 17일 NHTSA 자기인증 감사 후속과 신규 학교구역 과속 결함청원을 재검토했다. 약 1,000대·영상 3건의 청원 검토는 추가됐지만 정식 조사 결정·Tesla 답변·자기인증 결론·사고·원격지원 지표는 공개되지 않아 미검증을 유지한다.",
+        "reviewedAt": "2026-10-17T07:29:38+09:00",
+        "status": "unverified",
+        "test": "일반 유료 승차 수·요금·서비스 구역·원격지원·사고율이 공개되고 NHTSA가 자기인증 적합성을 인정하는가",
+        "theme": "자율주행",
+        "title": "Tesla Cybercab 유료 운행과 NHTSA 감사"
+      },
+      {
+        "date": "2026년 가을·겨울 극한기상",
+        "dueDate": null,
+        "evidenceIds": [
+          "weathernext3-elpais-20261006"
+        ],
+        "history": [
+          {
+            "status": "unverified",
+            "result": "2026년 10월 15일 Google DeepMind 공식 채널과 기존 외부 검증을 재검토했다. 극한기상·지역별 독립 재현 결과가 추가로 공개되지 않아 미검증을 유지한다.",
+            "reviewedAt": "2026-10-15T07:33:32+09:00",
+            "nextReviewDate": "2026-10-22"
+          },
+          {
+            "status": "unverified",
+            "result": "2026년 10월 6일 독립 전문가 검토에서 최대 50% 향상이 평균 성능이 아니며 스페인 DANA 같은 극한사례는 아직 분석되지 않았음을 확인했다. 강수·극한기상 독립 재현, Cloud API 이용량과 산업 고객 성과가 부족해 미검증을 유지한다.",
+            "reviewedAt": "2026-10-08T07:26:00+09:00",
+            "nextReviewDate": "2026-10-15"
+          },
+          {
+            "status": "unverified",
+            "result": "WeatherNext 3 공식 자료와 독립 평가 공개 여부를 재검토했다. 강수·극한기상 사례의 독립 재현, Cloud API 이용량과 산업 고객 성과를 확인하지 못해 미검증을 유지한다.",
+            "reviewedAt": "2026-10-01T07:32:00+09:00",
+            "nextReviewDate": "2026-10-08"
+          },
+          {
+            "status": "unverified",
+            "result": "기존 확인 질문을 이관했습니다. 기한·결과 원문 재검증 전이며 재검토일은 편집 일정입니다.",
+            "reviewedAt": null,
+            "nextReviewDate": "2026-10-01"
+          }
+        ],
+        "hypothesisId": "hyp-google-weathernext-3",
+        "id": "weather-validation",
+        "nextReviewDate": "2026-10-29",
+        "result": "2026년 10월 22일 Google DeepMind 공식 최신 채널을 재검토했다. WeatherNext 3의 극한기상·지역별 독립 재현과 Cloud API 이용·산업 고객 성과가 새로 공개되지 않아 미검증을 유지한다.",
+        "reviewedAt": "2026-10-22T07:26:28+09:00",
+        "status": "unverified",
+        "test": "독립 실시간 평가와 폭풍 사례에서 강수·풍력 예측 개선이 재현되고 Cloud API 이용량과 산업 고객 성과가 공개되는가",
+        "theme": "AI 배포",
+        "title": "WeatherNext 3 실전 정확도"
+      }
+    ],
     "collectionWindow": {
       "start": "2026-10-18T07:27:54+09:00",
       "end": "2026-10-22T07:26:28+09:00"
