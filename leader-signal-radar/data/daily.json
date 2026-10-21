@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.21",
+  "asOfDate": "2026.10.22",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -67,9 +67,16 @@
         "california-openai-subpoena-official-20261001",
         "openai-gpt6-ui-official-20261007",
         "openai-gpt6-oct-safety-official-20261007",
-        "openai-independent-review-reuters-20261013"
+        "openai-independent-review-reuters-20261013",
+        "openai-provider-safety-standards-official-20261021"
       ],
       "history": [
+        {
+          "status": "unverified",
+          "result": "2026년 10월 13일 외부평가 공개권 협상과 계약상 기밀정보 제한을 확인했다. 평가자 방법·결론 독립성 주장은 있으나 상주 계약·외부 감사권과 Astra 전 고객군 안전성과는 공개되지 않아 미검증을 유지한다.",
+          "reviewedAt": "2026-10-15T07:33:32+09:00",
+          "nextReviewDate": "2026-10-22"
+        },
         {
           "status": "unverified",
           "result": "2026년 10월 7일 GPT-6 배포와 공식 안전평가에서 자해·성적 콘텐츠·미성년자 정책의 일부 회귀와 분류기 완화책을 확인했다. 통제 공개는 구체화됐지만 독립 평가자 상주 계약·외부 감사권, Astra 전 고객군 접근과 오탐·감시 우회 성과는 확인되지 않아 미검증을 유지한다.",
@@ -121,9 +128,9 @@
       ],
       "hypothesisId": "openai-safety-governance",
       "id": "openai-safety-review",
-      "nextReviewDate": "2026-10-22",
-      "result": "2026년 10월 13일 외부평가 공개권 협상과 계약상 기밀정보 제한을 확인했다. 평가자 방법·결론 독립성 주장은 있으나 상주 계약·외부 감사권과 Astra 전 고객군 안전성과는 공개되지 않아 미검증을 유지한다.",
-      "reviewedAt": "2026-10-15T07:33:32+09:00",
+      "nextReviewDate": "2026-10-29",
+      "result": "2026년 10월 21일 OpenAI가 호스팅·재판매 파트너의 동일 보호조치와 11월 20일 모델 라우터 사전승인을 공개했다. 공급자 단위 통제는 구체화됐지만 독립 평가자 상주 계약·외부 감사권, Astra 전 고객군 안전성과는 공개되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-22T07:26:28+09:00",
       "status": "unverified",
       "test": "Plus·Pro·Business·Enterprise와 API·Azure·Bedrock 개방 완료 여부, 의회 자료의 감시 우회·오탐률, 독일 위키 사건 로그와 오정렬 공개 기준·기한이 확인되는가",
       "theme": "AI 안전",
@@ -135,9 +142,16 @@
       "evidenceIds": [
         "openai-daybreak-access-controls-20261002",
         "openai-daybreak-outcomes-official-20261010",
-        "openai-daybreak-frontline-official-20260903"
+        "openai-daybreak-frontline-official-20260903",
+        "openai-patch-planet-php-official-20261021"
       ],
       "history": [
+        {
+          "status": "unverified",
+          "result": "2026년 10월 17일 OpenAI 공식 뉴스와 Daybreak 공개 자료를 재검토했다. 10월 10일 이후 신규 운영 성과, 10억달러 이용권 소진액·도입 기관 수와 MS-ISAC 취약점 수정 결과는 공개되지 않아 미검증을 유지한다.",
+          "reviewedAt": "2026-10-17T07:29:38+09:00",
+          "nextReviewDate": "2026-10-24"
+        },
         {
           "status": "unverified",
           "result": "2026년 10월 10일 공식 현황에서 65개 코드베이스·1,885건 식별·661개 패치·458개 상류 반영을 확인했다. 실제 보안 성과는 진전됐지만 10억달러 이용권의 소진액·도입 기관 수와 MS-ISAC 수정 결과는 공개되지 않아 미검증을 유지한다.",
@@ -159,9 +173,9 @@
       ],
       "hypothesisId": "hyp-openai-daybreak-billion",
       "id": "daybreak-adoption",
-      "nextReviewDate": "2026-10-24",
-      "result": "2026년 10월 17일 OpenAI 공식 뉴스와 Daybreak 공개 자료를 재검토했다. 10월 10일 이후 신규 운영 성과, 10억달러 이용권 소진액·도입 기관 수와 MS-ISAC 취약점 수정 결과는 공개되지 않아 미검증을 유지한다.",
-      "reviewedAt": "2026-10-17T07:29:38+09:00",
+      "nextReviewDate": "2026-10-29",
+      "result": "2026년 10월 21일 Daybreak가 PHP 중대 취약점의 선제 발견·패치·클라우드 보호·정부 공조를 실제 운영한 사례를 확인했다. 다만 10억달러 이용권 소진액·도입기관 수와 MS-ISAC 현장 성과는 공개되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-22T07:26:28+09:00",
       "status": "unverified",
       "test": "보조형 이용권의 실제 소진액·도입 기관 수와 MS-ISAC 시범사업의 취약점 수정 성과가 확인되는가",
       "theme": "AI 안전",
@@ -251,6 +265,12 @@
       "history": [
         {
           "status": "unverified",
+          "result": "2026년 10월 15일 Google DeepMind 공식 채널과 기존 외부 검증을 재검토했다. 극한기상·지역별 독립 재현 결과가 추가로 공개되지 않아 미검증을 유지한다.",
+          "reviewedAt": "2026-10-15T07:33:32+09:00",
+          "nextReviewDate": "2026-10-22"
+        },
+        {
+          "status": "unverified",
           "result": "2026년 10월 6일 독립 전문가 검토에서 최대 50% 향상이 평균 성능이 아니며 스페인 DANA 같은 극한사례는 아직 분석되지 않았음을 확인했다. 강수·극한기상 독립 재현, Cloud API 이용량과 산업 고객 성과가 부족해 미검증을 유지한다.",
           "reviewedAt": "2026-10-08T07:26:00+09:00",
           "nextReviewDate": "2026-10-15"
@@ -270,9 +290,9 @@
       ],
       "hypothesisId": "hyp-google-weathernext-3",
       "id": "weather-validation",
-      "nextReviewDate": "2026-10-22",
-      "result": "2026년 10월 15일 Google DeepMind 공식 채널과 기존 외부 검증을 재검토했다. 극한기상·지역별 독립 재현 결과가 추가로 공개되지 않아 미검증을 유지한다.",
-      "reviewedAt": "2026-10-15T07:33:32+09:00",
+      "nextReviewDate": "2026-10-29",
+      "result": "2026년 10월 22일 Google DeepMind 공식 최신 채널을 재검토했다. WeatherNext 3의 극한기상·지역별 독립 재현과 Cloud API 이용·산업 고객 성과가 새로 공개되지 않아 미검증을 유지한다.",
+      "reviewedAt": "2026-10-22T07:26:28+09:00",
       "status": "unverified",
       "test": "독립 실시간 평가와 폭풍 사례에서 강수·풍력 예측 개선이 재현되고 Cloud API 이용량과 산업 고객 성과가 공개되는가",
       "theme": "AI 배포",
@@ -289,6 +309,12 @@
         "sb-energy-ipo-ft-20261004"
       ],
       "history": [
+        {
+          "status": "delayed",
+          "result": "2026년 10월 15일 SoftBank 공식 채널과 기존 S-1·보류 보도를 재검토했다. 공모가격 범위·효력발생·상장일이 확인되지 않아 실제 지연 판정을 유지한다.",
+          "reviewedAt": "2026-10-15T07:33:32+09:00",
+          "nextReviewDate": "2026-10-22"
+        },
         {
           "status": "delayed",
           "result": "2026년 10월 4일 Financial Times가 수요·가치평가 우려로 SB Energy IPO 진행 보류를 보도했다. 공모가격·등록 효력·상장 재개와 첫 데이터센터 매출은 확인되지 않아 delayed를 유지한다.",
@@ -316,9 +342,9 @@
       ],
       "hypothesisId": "hyp-ports-pike",
       "id": "sb-energy-ipo",
-      "nextReviewDate": "2026-10-22",
-      "result": "2026년 10월 15일 SoftBank 공식 채널과 기존 S-1·보류 보도를 재검토했다. 공모가격 범위·효력발생·상장일이 확인되지 않아 실제 지연 판정을 유지한다.",
-      "reviewedAt": "2026-10-15T07:33:32+09:00",
+      "nextReviewDate": "2026-10-29",
+      "result": "2026년 10월 22일 SoftBank 공식 보도자료와 기존 S-1·보류 보도를 재검토했다. 공모가격 범위·효력발생·상장 재개가 확인되지 않아 실제 지연 판정을 유지한다.",
+      "reviewedAt": "2026-10-22T07:26:28+09:00",
       "status": "delayed",
       "test": "공모 가격·조달액, NVIDIA 자금 납입, 803MW 공정률과 첫 데이터센터 매출이 계획대로 확인되는가",
       "theme": "AI 인프라",
@@ -326,15 +352,595 @@
     }
   ],
   "currentObservationIds": [
-    "tesla-spacex-merger-committees-20261020",
-    "openai-orchestra-bio-acquisition-20261020"
+    "nvidia-dsx-pod-20261021",
+    "openai-google-cloud-20261021",
+    "anthropic-stubbs-trust-20261021",
+    "openai-provider-safety-standards-20261021"
   ],
   "currentSignalIds": [
-    "spacex-q3-ai-profit-20261020"
+    "openai-chatgpt-ads-billion",
+    "openai-daybreak-billion",
+    "meta-muse-personal-agent",
+    "tesla-q3-cash-flow-20261021",
+    "meta-class-c-founder-control-20261021",
+    "openai-distributed-bio-reasoning-20261021",
+    "catl-q3-competition-20261020"
   ],
-  "dailyThesis": "AI 설비투자의 핵심 질문이 약속에서 수익성으로 이동했습니다. SpaceX는 AI 인프라를 부문 영업흑자와 전사 순이익으로 연결했지만 투자 규모가 매출을 웃돌아 반복 현금흐름이 다음 시험입니다. 동시에 Musk 기업군의 공식 결합 검토와 OpenAI의 신약개발 운영 플랫폼 인수는 AI 수직통합의 범위가 더 넓어지고 있음을 보여줍니다.",
-  "lastSuccessfulRun": "2026-10-21T07:27:54+09:00",
+  "dailyThesis": "AI 경쟁은 모델 발표보다 현금흐름·유통·지배구조·실사용으로 이동했습니다. Tesla는 투자 중 현금흐름을 회복했고 Meta는 Muse 1천만 계정과 무의결권 주식으로 배포와 자본구조를 동시에 확장했습니다. OpenAI는 광고·사이버보안·생물학에서 운영 성과를 냈지만, CATL은 글로벌 점유율 상승과 중국 경쟁 약화가 엇갈렸습니다.",
+  "lastSuccessfulRun": "2026-10-22T07:26:28+09:00",
   "observations": [
+    {
+      "id": "openai-provider-safety-standards-20261021",
+      "eventId": "openai-cross-provider-safety-standards",
+      "hypothesisId": "openai-cross-provider-safety-enforcement",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 65,
+      "kind": "신규",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 안전",
+      "headline": "OpenAI가 호스팅·재판매·라우터 전반에 동일 안전기준과 사전승인을 적용한다",
+      "takeaway": "멀티클라우드 확장에 맞춰 안전 통제를 모델 내부에서 유통 파트너의 조사·집행·승인까지 넓혔다. 시행일은 구체적이지만 독립 감사와 실제 우회·오탐 감소는 확인 전이다.",
+      "before": "2026년 9월 22일 OpenAI는 제3자 평가의 독립성과 장기 접근 원칙을 제시했지만 공급자별 집행 책임과 라우터 승인 절차는 구체화하지 않았다.",
+      "now": "파트너가 OpenAI와 동등한 보호조치·위반조사·공동집행을 유지하도록 요구하고 모델 라우터·AI 게이트웨이의 사전 승인 규칙을 11월 20일부터 시행한다.",
+      "facts": [
+        "호스팅·재판매 파트너는 OpenAI와 일관된 보호조치·위반조사·집행을 유지해야 한다.",
+        "모델 라우터·AI 게이트웨이는 OpenAI 모델 제공 전 검토·승인을 받아야 한다.",
+        "새 Usage Policies의 시행일은 2026년 11월 20일이다.",
+        "SafetyIDs로 최종 사용자를 식별정보 없이 구분하는 방식을 도입할 계획이다."
+      ],
+      "action": "OpenAI가 다중 공급자 유통을 위한 안전·집행·승인 정책과 시행일을 공개 확약했다.",
+      "impact": "모델 유통망의 공통 안전기준은 클라우드·라우터 사업자의 진입·규정준수 비용과 공급자 책임 범위를 바꿀 수 있다.",
+      "impactPath": [
+        "파트너 공통 안전정책",
+        "라우터·게이트웨이 사전승인",
+        "공동 위반조사·집행",
+        "우회·사고·오탐 감소 검증"
+      ],
+      "counter": "정책은 시행 전이며 파트너별 계약·감사권·집행건수·이의제기 절차와 독립 성과평가가 공개되지 않았다.",
+      "next": "11월 20일 시행, 승인·거부 사업자 수, 공급자별 사고·우회·오탐, 독립 감사와 이의제기·복구 시간을 확인한다.",
+      "source": "https://openai.com/index/broad-access-through-consistent-standards/",
+      "sourceLabel": "OpenAI 공식 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "commitment",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 14,
+            "reason": "구체적 정책·적용대상·시행일을 확약했지만 실제 집행 전이다."
+          },
+          "change": {
+            "score": 10,
+            "reason": "안전책임을 모델 내부에서 호스팅·재판매·라우터의 공동집행으로 넓혔다."
+          },
+          "impact": {
+            "score": 16,
+            "reason": "클라우드·라우터 유통의 진입비용과 책임구조를 바꿀 수 있다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "11월 20일 시행일과 승인·집행 대상이 명확해 후속 검증이 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "OpenAI 공식 정책 원문이 적용대상과 요구사항을 직접 명시한다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-22",
+          "statement": "OpenAI는 제3자 평가의 독립성·장기 접근 원칙을 공개했지만 공급자별 공동집행 규칙은 구체화하지 않았다.",
+          "evidenceIds": [
+            "openai-third-party-assessment-official-20260922"
+          ]
+        },
+        "evidenceIds": [
+          "openai-provider-safety-standards-official-20261021"
+        ],
+        "note": "14+10+16+15+10=65. 시행 전 기업 정책이므로 관찰로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 클라우드·모델 라우터",
+          "relationship": "confirmed",
+          "text": "OpenAI 모델 접근을 제공하는 라우터·게이트웨이에 사전승인 의무가 적용된다.",
+          "evidenceIds": [
+            "openai-provider-safety-standards-official-20261021"
+          ]
+        },
+        {
+          "sector": "AI 안전·규정준수",
+          "relationship": "hypothesis",
+          "text": "공통 정책이 사고·우회·오탐을 줄이는지는 실제 집행자료가 필요하다.",
+          "evidenceIds": [
+            "openai-provider-safety-standards-official-20261021"
+          ]
+        }
+      ],
+      "stage": "commitment",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 14,
+          "reason": "구체적 정책·적용대상·시행일을 확약했지만 실제 집행 전이다."
+        },
+        "change": {
+          "score": 10,
+          "reason": "안전책임을 모델 내부에서 호스팅·재판매·라우터의 공동집행으로 넓혔다."
+        },
+        "impact": {
+          "score": 16,
+          "reason": "클라우드·라우터 유통의 진입비용과 책임구조를 바꿀 수 있다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "11월 20일 시행일과 승인·집행 대상이 명확해 후속 검증이 가능하다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "OpenAI 공식 정책 원문이 적용대상과 요구사항을 직접 명시한다."
+        }
+      },
+      "baseline": {
+        "date": "2026-09-22",
+        "statement": "OpenAI는 제3자 평가의 독립성·장기 접근 원칙을 공개했지만 공급자별 공동집행 규칙은 구체화하지 않았다.",
+        "evidenceIds": [
+          "openai-third-party-assessment-official-20260922"
+        ]
+      },
+      "evidenceIds": [
+        "openai-provider-safety-standards-official-20261021"
+      ],
+      "assessmentNote": "14+10+16+15+10=65. 시행 전 기업 정책이므로 관찰로 제한했다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "anthropic-stubbs-trust-20261021",
+      "eventId": "anthropic-stubbs-trustee",
+      "hypothesisId": "anthropic-long-term-benefit-governance",
+      "leader": "다리오 아모데이(Dario Amodei)",
+      "role": "Anthropic 공동창업자·CEO",
+      "initials": "DA",
+      "score": 66,
+      "kind": "실행",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 안전",
+      "headline": "Anthropic이 이사회 과반 지명권을 가진 장기공익신탁에 과학·국가안보 전문가를 추가했다",
+      "takeaway": "공익기금 약정에 이어 위험·사회영향을 다루는 독립 신탁의 인적 구성을 실제 보강했다. 권한은 크지만 고위험 모델·IPO·자본조달에서 신탁이 어떤 결정을 바꿨는지는 아직 공개되지 않았다.",
+      "before": "2026년 10월 18일 Anthropic은 공익기금 지분 배정을 약정했지만 장기공익신탁의 신규 전문성·구체적 의사결정 사례는 공개하지 않았다.",
+      "now": "Harvard 전 과학대학장 Christopher Stubbs가 독립 수탁자로 합류했고 신탁의 이사회 과반 지명권·위험 의사결정 자문 역할이 재확인됐다.",
+      "facts": [
+        "Christopher Stubbs는 Harvard 전 과학대학장이자 국가안보·군비통제 자문 경험을 가진 실험물리학자다.",
+        "Stubbs는 회사 경영진·투자자와 독립된 장기공익신탁 수탁자로 합류했다.",
+        "신탁은 Anthropic 이사회 과반을 지명할 권한이 있다.",
+        "신탁은 AI 위험·사회영향 관련 핵심 의사결정에서 이사회와 경영진에 자문한다."
+      ],
+      "action": "Anthropic 장기공익신탁이 독립 과학·국가안보 전문가를 실제 선임해 공식 통제기구의 구성을 강화했다.",
+      "impact": "프런티어 AI 기업의 공익지배구조가 IPO·투자자 권리·고위험 모델 출시에서 실제 제동장치가 될지 업계 거버넌스 기준에 영향을 준다.",
+      "impactPath": [
+        "독립 수탁자 전문성 강화",
+        "이사회 과반 지명권",
+        "고위험 모델·자본결정 자문",
+        "실제 제동·공개책임 검증"
+      ],
+      "counter": "선임 사실과 권한은 확인됐지만 신탁의 투표·거부·조건부 승인 사례, 이해상충 정책과 상세 회의기록은 공개되지 않았다.",
+      "next": "신탁의 이사 지명·표결·거부 사례, IPO·모델 출시 조건, 공익보고서의 미달사항 시정, 투자자와의 권한 충돌을 확인한다.",
+      "source": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "sourceLabel": "Anthropic 공식 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "execution",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 18,
+            "reason": "독립 수탁자를 실제 선임해 통제기구 인적 구성을 변경했다."
+          },
+          "change": {
+            "score": 11,
+            "reason": "공익기금 약정에서 과학·국가안보 전문성의 공식 거버넌스 보강으로 진전했다."
+          },
+          "impact": {
+            "score": 13,
+            "reason": "프런티어 AI의 이사회 통제·IPO·모델 출시 거버넌스 기준에 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "향후 이사 지명·표결·거부와 공익보고서로 권한 행사를 확인할 수 있다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Anthropic 공식 원문이 선임·독립성·이사회 지명권을 직접 명시한다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-18",
+          "statement": "Anthropic은 공익기금 지분 배정을 약정했지만 장기공익신탁의 신규 전문성·의사결정 사례는 공개하지 않았다.",
+          "evidenceIds": [
+            "anthropic-public-benefit-fund-official-20261018"
+          ]
+        },
+        "evidenceIds": [
+          "anthropic-stubbs-trust-official-20261021"
+        ],
+        "note": "18+11+13+14+10=66. 실제 선임은 실행이나 권한 행사 결과가 없어 관찰로 평가했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "프런티어 AI 지배구조",
+          "relationship": "confirmed",
+          "text": "독립 신탁은 이사회 과반 지명권을 보유하고 신규 수탁자를 선임했다.",
+          "evidenceIds": [
+            "anthropic-stubbs-trust-official-20261021"
+          ]
+        },
+        {
+          "sector": "AI 안전·자본시장",
+          "relationship": "hypothesis",
+          "text": "IPO·고위험 모델 결정에서 실질 제동으로 작동하는지는 미검증이다.",
+          "evidenceIds": [
+            "anthropic-stubbs-trust-official-20261021"
+          ]
+        }
+      ],
+      "stage": "execution",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 18,
+          "reason": "독립 수탁자를 실제 선임해 통제기구 인적 구성을 변경했다."
+        },
+        "change": {
+          "score": 11,
+          "reason": "공익기금 약정에서 과학·국가안보 전문성의 공식 거버넌스 보강으로 진전했다."
+        },
+        "impact": {
+          "score": 13,
+          "reason": "프런티어 AI의 이사회 통제·IPO·모델 출시 거버넌스 기준에 영향을 줄 수 있다."
+        },
+        "verification": {
+          "score": 14,
+          "reason": "향후 이사 지명·표결·거부와 공익보고서로 권한 행사를 확인할 수 있다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "Anthropic 공식 원문이 선임·독립성·이사회 지명권을 직접 명시한다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-18",
+        "statement": "Anthropic은 공익기금 지분 배정을 약정했지만 장기공익신탁의 신규 전문성·의사결정 사례는 공개하지 않았다.",
+        "evidenceIds": [
+          "anthropic-public-benefit-fund-official-20261018"
+        ]
+      },
+      "evidenceIds": [
+        "anthropic-stubbs-trust-official-20261021"
+      ],
+      "assessmentNote": "18+11+13+14+10=66. 실제 선임은 실행이나 권한 행사 결과가 없어 관찰로 평가했다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "openai-google-cloud-20261021",
+      "eventId": "openai-google-cloud-model-garden",
+      "hypothesisId": "openai-multicloud-distribution",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 70,
+      "kind": "신규",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 인프라",
+      "headline": "OpenAI가 Google Cloud Model Garden·Marketplace에 프런티어 모델과 Codex를 공급한다",
+      "takeaway": "직접 기업제휴에서 경쟁 클라우드의 조달약정·거버넌스 안으로 유통을 넓혔다. Microsoft가 주력 파트너로 남고 일반 제공은 수주 내 예정이어서 실제 사용량·마진은 아직 관찰 단계다.",
+      "before": "2026년 10월 6일 Atlassian 제휴는 특정 기업의 업무그래프와 OpenAI 에이전트를 연결한 직접 배포였다.",
+      "now": "Google Cloud 고객은 Model Garden과 Marketplace에서 OpenAI 모델·Codex를 구매하고 기존 GCP 약정액을 사용할 수 있게 되며 일반 제공은 수주 내 예정됐다.",
+      "facts": [
+        "OpenAI 프런티어 모델과 Codex가 Google Cloud Model Garden에 통합된다.",
+        "고객은 Google Cloud Marketplace와 기존 GCP 지출 약정으로 구매할 수 있다.",
+        "Google Antigravity와 Gemini Agent에서도 OpenAI 모델 선택을 제공할 계획이다.",
+        "일반 제공은 수주 내 예정이고 Microsoft는 OpenAI의 주력 클라우드 파트너로 남는다."
+      ],
+      "action": "OpenAI가 Google Cloud와 모델 유통·조달 통합 계약을 발표해 경쟁 클라우드 채널을 공식화했다.",
+      "impact": "멀티모델 클라우드 조달이 확대되면 기업 AI의 선택권·전환비용·클라우드 마켓플레이스 경쟁과 OpenAI 채널 마진이 바뀔 수 있다.",
+      "impactPath": [
+        "Model Garden·Marketplace 통합",
+        "GCP 약정액 활용",
+        "기업 모델 선택·배포 확대",
+        "클라우드 채널 경쟁·마진 검증"
+      ],
+      "counter": "일반 제공 전이고 가격·매출배분·고객·사용량이 미공개다. Microsoft 주력 관계와 Google의 자체 Gemini 사이 채널 갈등도 남는다.",
+      "next": "일반 제공일·모델 목록·가격·고객 수·토큰 사용량, GCP 약정 전환, OpenAI 마진과 Microsoft·Google 채널 충돌을 확인한다.",
+      "source": "https://openai.com/index/openai-models-google-cloud/",
+      "sourceLabel": "OpenAI 공식 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "commitment",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 18,
+            "reason": "양사 제휴와 구매·유통 경로는 확정됐지만 일반 제공 전이다."
+          },
+          "change": {
+            "score": 11,
+            "reason": "특정 기업 직접배포에서 경쟁 클라우드의 모델 장터·지출약정 채널로 확장한다."
+          },
+          "impact": {
+            "score": 17,
+            "reason": "기업 모델 선택권과 클라우드 마켓플레이스 경쟁·채널 경제성에 영향을 준다."
+          },
+          "verification": {
+            "score": 14,
+            "reason": "수주 내 일반 제공과 실제 고객·토큰·가격으로 검증 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "OpenAI 공식 발표가 파트너·구매경로·일정을 구체적으로 명시한다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-06",
+          "statement": "OpenAI의 Atlassian 제휴는 특정 기업 업무그래프에 에이전트를 직접 연결한 배포였다.",
+          "evidenceIds": [
+            "openai-atlassian-partnership-official-20261006"
+          ]
+        },
+        "evidenceIds": [
+          "openai-google-cloud-official-20261021"
+        ],
+        "note": "18+11+17+14+10=70. 계약과 배포경로는 구체적이지만 일반 제공 전이라 관찰로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "클라우드 AI 유통",
+          "relationship": "confirmed",
+          "text": "OpenAI 모델·Codex를 Google Cloud Model Garden·Marketplace와 GCP 약정으로 구매할 수 있게 된다.",
+          "evidenceIds": [
+            "openai-google-cloud-official-20261021"
+          ]
+        },
+        {
+          "sector": "기업 AI 에이전트",
+          "relationship": "indirect",
+          "text": "Google Antigravity·Gemini Agent의 모델 선택이 기업 업무 배포를 넓힐 수 있다.",
+          "evidenceIds": [
+            "openai-google-cloud-official-20261021"
+          ]
+        }
+      ],
+      "stage": "commitment",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 18,
+          "reason": "양사 제휴와 구매·유통 경로는 확정됐지만 일반 제공 전이다."
+        },
+        "change": {
+          "score": 11,
+          "reason": "특정 기업 직접배포에서 경쟁 클라우드의 모델 장터·지출약정 채널로 확장한다."
+        },
+        "impact": {
+          "score": 17,
+          "reason": "기업 모델 선택권과 클라우드 마켓플레이스 경쟁·채널 경제성에 영향을 준다."
+        },
+        "verification": {
+          "score": 14,
+          "reason": "수주 내 일반 제공과 실제 고객·토큰·가격으로 검증 가능하다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "OpenAI 공식 발표가 파트너·구매경로·일정을 구체적으로 명시한다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-06",
+        "statement": "OpenAI의 Atlassian 제휴는 특정 기업 업무그래프에 에이전트를 직접 연결한 배포였다.",
+        "evidenceIds": [
+          "openai-atlassian-partnership-official-20261006"
+        ]
+      },
+      "evidenceIds": [
+        "openai-google-cloud-official-20261021"
+      ],
+      "assessmentNote": "18+11+17+14+10=70. 계약과 배포경로는 구체적이지만 일반 제공 전이라 관찰로 제한했다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "nvidia-dsx-pod-20261021",
+      "eventId": "nvidia-dsx-pod-vera-rubin",
+      "hypothesisId": "nvidia-modular-ai-factories",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA 창업자·CEO",
+      "initials": "JH",
+      "score": 74,
+      "kind": "신규",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 인프라",
+      "headline": "NVIDIA가 Vera Rubin AI 공장을 컨테이너로 사전 통합해 현장 배치를 6개월에서 14일로 줄이겠다고 확약했다",
+      "takeaway": "랙 개방·전력검증을 넘어 컴퓨팅·냉각·전력을 공장에서 조립·시험하는 모듈형 공급모델로 확장했다. 다만 첫 고객 가동은 2027년 초 예정이라 14일 목표와 총비용은 아직 검증 전이다.",
+      "before": "9월 DSX Ready와 10월 OCP 개방은 전력·냉각·랙 상호운용 규격과 자격을 제공했지만 완성 AI 공장의 공장제 컨테이너 공급은 없었다.",
+      "now": "NVIDIA는 Dell·HPE·Lenovo·Schneider·Vertiv 등과 DSX POD를 공장에서 사전 통합·검증해 2027년 초 공급하겠다고 발표했다.",
+      "facts": [
+        "DSX POD는 Vera Rubin 컴퓨팅·네트워킹·케이블·전력·액체냉각을 모듈형 컨테이너에 사전 통합한다.",
+        "NVIDIA는 준비된 부지의 배치기간을 6개월에서 최소 14일로 줄이는 목표를 제시했다.",
+        "Dell·HPE·Lenovo·Schneider Electric·Vertiv 등 글로벌 파트너가 참여한다.",
+        "전 세계 공급은 2027년 초 예정이며 실제 고객 주문·가동·비용은 공개되지 않았다."
+      ],
+      "action": "NVIDIA가 구체적 파트너와 설계·공급시점을 갖춘 모듈형 AI 공장 레퍼런스 디자인을 출시했다.",
+      "impact": "AI 데이터센터 병목이 현장 건설에서 표준화된 공장 제조로 이동하면 전력·냉각·시스템 통합업체의 수주 구조와 가동시점 경제성이 달라질 수 있다.",
+      "impactPath": [
+        "공장 사전 통합·검증",
+        "현장 배치기간 단축",
+        "토큰 생산 조기화",
+        "전력·냉각·통합 공급망 재편"
+      ],
+      "counter": "레퍼런스 디자인과 파트너 명단은 주문·설치·가동 성과가 아니며 준비된 부지·전력망 조건, 운송·허가·총비용이 14일 목표를 제약할 수 있다.",
+      "next": "2027년 첫 고객·출하·14일 배치 재현, MW당 총비용·가동률·전력효율, 파트너별 수주와 경쟁 가속기 지원을 확인한다.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+      "sourceLabel": "NVIDIA 공식 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "commitment",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 20,
+            "reason": "제품 설계·파트너·공급시점은 확정됐지만 실제 출하·가동 전이다."
+          },
+          "change": {
+            "score": 11,
+            "reason": "규격·자격에서 공장제 완성 컨테이너로 배치 범위를 넓혔다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "데이터센터 건설 기간과 전력·냉각·통합업체의 공급구조를 바꿀 수 있다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "2027년 초·14일 목표가 있어 고객 출하·가동·총비용으로 명확히 검증 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "NVIDIA 공식 발표가 설계·파트너·일정을 구체적으로 명시한다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-21",
+          "statement": "DSX Ready는 전력·냉각 자격과 표준 설계 생태계를 제공했지만 완성 AI 공장 컨테이너는 아니었다.",
+          "evidenceIds": [
+            "nvidia-dsx-ready-official-20260921"
+          ]
+        },
+        "evidenceIds": [
+          "nvidia-dsx-pod-official-20261021"
+        ],
+        "note": "20+11+18+15+10=74. 구체적 확약이나 실제 출하 전이므로 결정적 승격을 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·전력·냉각",
+          "relationship": "confirmed",
+          "text": "NVIDIA는 명시된 인프라 파트너들과 DSX POD를 2027년 초 공급할 계획이다.",
+          "evidenceIds": [
+            "nvidia-dsx-pod-official-20261021"
+          ]
+        },
+        {
+          "sector": "모듈러 건설·시스템 통합",
+          "relationship": "hypothesis",
+          "text": "14일 배치와 총비용 우위는 첫 고객 가동으로 검증해야 한다.",
+          "evidenceIds": [
+            "nvidia-dsx-pod-official-20261021"
+          ]
+        }
+      ],
+      "stage": "commitment",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 20,
+          "reason": "제품 설계·파트너·공급시점은 확정됐지만 실제 출하·가동 전이다."
+        },
+        "change": {
+          "score": 11,
+          "reason": "규격·자격에서 공장제 완성 컨테이너로 배치 범위를 넓혔다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "데이터센터 건설 기간과 전력·냉각·통합업체의 공급구조를 바꿀 수 있다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "2027년 초·14일 목표가 있어 고객 출하·가동·총비용으로 명확히 검증 가능하다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "NVIDIA 공식 발표가 설계·파트너·일정을 구체적으로 명시한다."
+        }
+      },
+      "baseline": {
+        "date": "2026-09-21",
+        "statement": "DSX Ready는 전력·냉각 자격과 표준 설계 생태계를 제공했지만 완성 AI 공장 컨테이너는 아니었다.",
+        "evidenceIds": [
+          "nvidia-dsx-ready-official-20260921"
+        ]
+      },
+      "evidenceIds": [
+        "nvidia-dsx-pod-official-20261021"
+      ],
+      "assessmentNote": "20+11+18+15+10=74. 구체적 확약이나 실제 출하 전이므로 결정적 승격을 제한했다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
     {
       "id": "tesla-spacex-merger-committees-20261020",
       "eventId": "tesla-spacex-merger-committees",
@@ -2861,156 +3467,159 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-17T07:31:49+09:00",
-      "end": "2026-10-21T07:27:54+09:00"
+      "start": "2026-10-18T07:27:54+09:00",
+      "end": "2026-10-22T07:26:28+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
-          "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
-          "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/earningsreleaseq22608042.htm",
-          "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
-          "https://www.reuters.com/legal/legalindustry/musk-keeps-tesla-spacex-merger-speculation-alive-cites-growing-overlap-2026-07-23/",
-          "https://ir.tesla.com/press"
+          "https://ir.tesla.com/",
+          "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+          "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/"
         ],
-        "note": "SpaceX 공식 실적과 직전 분기 기준선, Reuters 실적통화를 대조해 Q3 흑자 전환을 95점 결정적 신호로, 양사 특별위원회 논의를 74점 관찰로 선별했다.",
+        "note": "Tesla Q3 공식 자료와 Reuters를 대조해 현금흐름 전환을 88점 결정적 신호로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
-          "https://nvidianews.nvidia.com/news/latest"
+          "https://nvidianews.nvidia.com/news/latest",
+          "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment"
         ],
-        "note": "NVIDIA 최신 원문을 확인했으나 수집구간의 신규 실행·성과 기준을 넘는 별도 사건은 없었다.",
+        "note": "DSX POD 공식 원문을 기존 DSX Ready 기준선과 대조해 74점 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/openai-to-acquire-orchestra-bio/",
-          "https://orchestra.bio/",
-          "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+          "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+          "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "https://openai.com/index/openai-models-google-cloud/",
+          "https://openai.com/index/broad-access-through-consistent-standards/"
         ],
-        "note": "OpenAI와 Orchestra Bio 양측 인수 원문을 기존 Rosalind 기준선과 대조해 70점 실행 관찰로 선별했다.",
+        "note": "광고·Daybreak·분산 생물학 연구를 결정적으로, Google Cloud·다중 공급자 안전정책을 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://www.anthropic.com/news",
-          "https://www.anthropic.com/news/public-benefit-fund"
+          "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
         ],
-        "note": "Anthropic 최신 공지와 공익기금 후속 설명을 확인했으나 기존 사건 반복이어서 신규화하지 않았다.",
+        "note": "장기공익신탁 수탁자 선임을 66점 실행 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
-        "note": "Google DeepMind 최신 연구·제품 공지를 확인했으며 신규 전략 변화나 실행은 없었다.",
+        "note": "공식 최신 연구·제품과 인터뷰 보도를 확인했으나 2~3년 전망 발언은 신규 행동·반증조건이 부족해 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://news.microsoft.com/source/"
         ],
-        "note": "Microsoft Source 최신 원문을 확인했으며 기존 Maia·AI 배포 사건을 바꾸는 신규 근거는 없었다.",
+        "note": "Microsoft 최신 원문을 확인했으며 신규 전략 변화나 실행 문턱을 넘는 사건은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
-          "https://about.fb.com/news/"
+          "https://about.fb.com/news/",
+          "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+          "https://apnews.com/article/meta-earnings-facebook-instagram-muse-capex-13ecd6c459e39a3602f302bcc2412fe9",
+          "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
         ],
-        "note": "Meta Newsroom 최신 원문을 확인했으며 문턱을 넘는 신규 사건은 없었다.",
+        "note": "Muse 1천만 계정과 Class C 자본구조를 서로 다른 결정적 사건으로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
-          "https://newsroom.amd.com/",
-          "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
-          "https://newsroom.amd.com/news/amd-fsr-upscaling-4-1-boosts-frames-image-quality/"
+          "https://newsroom.amd.com/"
         ],
-        "note": "AMD–Intel oneDNN 협력 계획과 FSR 4.1 배포를 확인했으나 Lisa Su 직접 전략 변화가 아니고 범위·성과·기한이 부족해 제외했다.",
+        "note": "AMD 최신 원문을 확인했으며 10월 20일 FSR·Intel 협력은 직전 검토와 같고 리더 전략 변화·운영 성과가 부족해 신규화하지 않았다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://investor.tsmc.com/english/quarterly-results/2026/q3"
         ],
-        "note": "TSMC Q3 원문을 재확인했으며 기존 기록 사건을 바꾸는 신규 근거는 없었다.",
+        "note": "TSMC Q3 원문과 최신 보도를 확인했으며 현장 사망사고는 외부 운영사건으로 전략 변화 점수 문턱에 못 미쳤다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://group.softbank/en/news/press"
         ],
-        "note": "SoftBank 공식 보도자료를 확인했으며 신규 확정 거래·집행은 없었다.",
+        "note": "SoftBank 공식 최신 자료와 SB Energy 상장 후속을 확인했으나 신규 확정 거래·상장 재개는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
-          "https://www.catl.com/en/news/"
+          "https://www.catl.com/en/news/",
+          "https://www.reuters.com/business/autos-transportation/chinas-catl-profit-growth-slows-third-quarter-competition-intensifies-2026-10-20/"
         ],
-        "note": "CATL 최신 원문을 확인했으며 10월 19일 이후 신규 실행·성과 사건은 없었다.",
+        "note": "중첩 수집구간의 Q3 이익·중국 점유율 둔화를 76점 지연 발견 결정적 신호로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://www.gevernova.com/news/media-hub?tag=Artificial+Intelligence"
         ],
-        "note": "GE Vernova AI 관련 원문을 확인했으며 수집구간 신규 사건은 없었다.",
+        "note": "GE Vernova 최신 원문을 확인했으며 신규 계약·실적 원문은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
@@ -3021,18 +3630,18 @@
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://www.flagshippioneering.com/"
         ],
-        "note": "Flagship 공식 사이트의 최신 콘텐츠를 확인했으며 신규 전략 변화는 없었다.",
+        "note": "Flagship 공식 사이트를 확인했으며 신규 전략 변화·자본집행은 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://news.airbnb.com/"
         ],
@@ -3043,18 +3652,18 @@
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://www.sec.gov/edgar/browse/?CIK=1536411&owner=exclude"
         ],
-        "note": "공개 SEC 조회를 확인했으며 신규 공시나 직접 관점 변화는 없었다.",
+        "note": "공개 SEC 조회를 확인했으며 신규 공시·직접 관점 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://foundersfund.com/team/peter-thiel/"
         ],
@@ -3065,51 +3674,52 @@
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
-        "note": "Oaktree Insights를 확인했으며 신규 메모나 관점 변화는 없었다.",
+        "note": "Oaktree Insights를 확인했으며 신규 메모·관점 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://economicprinciples.org/"
         ],
-        "note": "Economic Principles 공식 채널을 확인했으며 신규 검증 가능 관점 변화는 없었다.",
+        "note": "공식 채널을 확인했으며 신규 검증 가능 관점 변화는 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
-          "https://a16z.com/author/marc-andreessen/"
+          "https://a16z.com/author/marc-andreessen/",
+          "https://www.reuters.com/legal/litigation/openai-president-urges-ai-safeguards-group-he-funds-opposes-regulation-2026-10-21/"
         ],
-        "note": "a16z 공식 저자 페이지를 확인했으며 수집구간 신규 직접 콘텐츠는 없었다.",
+        "note": "Leading the Future에 Andreessen·Horowitz·a16z 합산 5천만달러가 확인됐지만 개인별 금액과 90일 내 관점 변화 기준선이 없어 60점 미만으로 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "10월 20일 자동화·저축률 논문 소개를 확인했으나 타인의 연구 요약이고 Cowen 자신의 실질 관점 변화·행동이 부족해 제외했다.",
+        "note": "10월 21일 교정정책 견해를 확인했으나 산업·기업·투자판단 영향과 검증 가능 행동이 부족해 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-21T07:27:54+09:00",
+        "checkedAt": "2026-10-22T07:26:28+09:00",
         "urls": [
           "https://balajis.com/"
         ],
@@ -3119,6 +3729,136 @@
       }
     ],
     "evidence": [
+      {
+        "id": "anthropic-stubbs-trust-official-20261021",
+        "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+        "label": "Anthropic 공식 · Christopher Stubbs 장기공익신탁 선임",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "Anthropic 장기공익신탁은 Christopher Stubbs를 독립 수탁자로 선임했으며 신탁은 이사회 과반을 지명할 권한과 AI 위험·사회영향 자문 역할을 보유한다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-provider-safety-standards-official-20261021",
+        "url": "https://openai.com/index/broad-access-through-consistent-standards/",
+        "label": "OpenAI 공식 · 다중 공급자 안전정책",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "OpenAI는 호스팅·재판매 파트너에 자체와 동등한 보호조치·위반조사·공동집행을 요구하고 모델 라우터·AI 게이트웨이의 사전 승인을 11월 20일 시행한다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-google-cloud-official-20261021",
+        "url": "https://openai.com/index/openai-models-google-cloud/",
+        "label": "OpenAI 공식 · Google Cloud Model Garden 제휴",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "OpenAI와 Google Cloud는 OpenAI 프런티어 모델·Codex를 Model Garden과 Marketplace에 제공하고 GCP 약정액으로 구매할 수 있게 하며 수주 내 일반 제공할 계획이라고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "nvidia-dsx-pod-official-20261021",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+        "label": "NVIDIA 공식 · DSX POD 발표",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "NVIDIA는 Vera Rubin AI 공장을 모듈형 컨테이너로 사전 통합·검증하는 DSX POD와 2027년 초 글로벌 공급 계획, 준비된 부지에서 최대 14일 배치 목표를 발표했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "catl-q3-reuters-20261020",
+        "url": "https://www.reuters.com/business/autos-transportation/chinas-catl-profit-growth-slows-third-quarter-competition-intensifies-2026-10-20/",
+        "label": "Reuters · CATL Q3 이익·점유율 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-10-20T21:17:00+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "CATL Q3 순이익은 14.5% 증가한 212억위안으로 성장률이 Q2 36.5%에서 둔화했고 중국 점유율은 1월 49.8%에서 9월 40.9%로 하락한 반면 세계 점유율은 39.4%로 상승했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "openai-distributed-bio-official-20261021",
+        "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+        "label": "OpenAI 공식 · 분산 생물학 추론 연구",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "OpenAI·PerturbAI·Scripps는 수천 AI 에이전트가 수백만 생쥐 뇌세포 데이터를 32분간 분석해 재현 결과와 추가 가설을 만들었고 블라인드 전문가가 단일 에이전트보다 75% 선호했다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-patch-planet-php-official-20261021",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "label": "OpenAI 공식 · Patch the Planet PHP 취약점 대응",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "OpenAI는 GPT-5.6 Sol이 PHP의 중대 취약점을 찾아 유지관리자·Wiz·Cloudflare·정부기관과 패치와 사전 보호를 조율했다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-ads-100k-official-20261021",
+        "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+        "label": "OpenAI 공식 · ChatGPT Ads 10만 광고주·89개국",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "OpenAI는 ChatGPT Ads 출시 8개월여 만에 10만개 이상 광고주가 캠페인을 운영했고 26개국을 추가해 89개국으로 확대했다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "meta-q2-10q-official-20260730",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+        "label": "Meta SEC Q2 2026 10-Q",
+        "grade": "A",
+        "publishedAt": "2026-07-30",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "Meta의 Q2 10-Q는 Class A·Class B 자본구조를 공시했으며 공개 상장 무의결권 Class C 신설은 포함하지 않았다.",
+        "provenance": "official"
+      },
+      {
+        "id": "meta-muse-10m-ap-20261021",
+        "url": "https://apnews.com/article/meta-earnings-facebook-instagram-muse-capex-13ecd6c459e39a3602f302bcc2412fe9",
+        "label": "AP · Zuckerberg의 Muse 1천만 계정 발표",
+        "grade": "B",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "AP는 Zuckerberg가 미국·캐나다에서 Muse 계정을 만든 사람이 1천만명을 넘었다고 실적 통화에서 밝혔다고 보도했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "meta-q3-official-20261021",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+        "label": "Meta 공식 Q3 2026 실적·Class C 발표",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "Meta는 Q3 매출 646억달러, 설비투자 349억1000만달러, 자유현금흐름 -21억2000만달러와 2027년 1월 무의결권 Class C 신설·Founder Alignment Agreement를 발표했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "tesla-q3-reuters-20261021",
+        "url": "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/",
+        "label": "Reuters · Tesla Q3 현금흐름·설비투자 직접 보도",
+        "grade": "B",
+        "publishedAt": "2026-10-22T05:06:00+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "Reuters는 Tesla의 Q3 자유현금흐름이 시장의 49억2000만달러 소진 예상과 달리 15억3000만달러 흑자였고 설비투자는 예상보다 낮았다고 보도했다.",
+        "provenance": "direct_report"
+      },
+      {
+        "id": "tesla-q3-official-20261021",
+        "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+        "label": "Tesla 공식 Q3 2026 업데이트",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "claim": "Tesla는 Q3 자유현금흐름 15억3100만달러, 설비투자 47억3200만달러, 매출 280억4600만달러, 인도 48만6532대와 FSD 구독 174만건을 공시했다.",
+        "provenance": "official"
+      },
       {
         "id": "spacex-q3-official-20261020",
         "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
@@ -5971,6 +6711,1797 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261022-openai-cross-provider-safety-standards",
+        "eventId": "openai-cross-provider-safety-standards",
+        "signalId": "openai-provider-safety-standards-20261021",
+        "hypothesisId": "openai-cross-provider-safety-enforcement",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "observation",
+        "score": 65,
+        "headline": "OpenAI가 호스팅·재판매·라우터 전반에 동일 안전기준과 사전승인을 적용한다",
+        "source": "https://openai.com/index/broad-access-through-consistent-standards/",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "14+10+16+15+10=65. 11월 20일 시행 전 정책 확약이라 관찰로 제한했다.",
+        "evidenceIds": [
+          "openai-provider-safety-standards-official-20261021"
+        ],
+        "snapshot": {
+          "id": "openai-provider-safety-standards-20261021",
+          "eventId": "openai-cross-provider-safety-standards",
+          "hypothesisId": "openai-cross-provider-safety-enforcement",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 65,
+          "kind": "신규",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 안전",
+          "headline": "OpenAI가 호스팅·재판매·라우터 전반에 동일 안전기준과 사전승인을 적용한다",
+          "takeaway": "멀티클라우드 확장에 맞춰 안전 통제를 모델 내부에서 유통 파트너의 조사·집행·승인까지 넓혔다. 시행일은 구체적이지만 독립 감사와 실제 우회·오탐 감소는 확인 전이다.",
+          "before": "2026년 9월 22일 OpenAI는 제3자 평가의 독립성과 장기 접근 원칙을 제시했지만 공급자별 집행 책임과 라우터 승인 절차는 구체화하지 않았다.",
+          "now": "파트너가 OpenAI와 동등한 보호조치·위반조사·공동집행을 유지하도록 요구하고 모델 라우터·AI 게이트웨이의 사전 승인 규칙을 11월 20일부터 시행한다.",
+          "facts": [
+            "호스팅·재판매 파트너는 OpenAI와 일관된 보호조치·위반조사·집행을 유지해야 한다.",
+            "모델 라우터·AI 게이트웨이는 OpenAI 모델 제공 전 검토·승인을 받아야 한다.",
+            "새 Usage Policies의 시행일은 2026년 11월 20일이다.",
+            "SafetyIDs로 최종 사용자를 식별정보 없이 구분하는 방식을 도입할 계획이다."
+          ],
+          "action": "OpenAI가 다중 공급자 유통을 위한 안전·집행·승인 정책과 시행일을 공개 확약했다.",
+          "impact": "모델 유통망의 공통 안전기준은 클라우드·라우터 사업자의 진입·규정준수 비용과 공급자 책임 범위를 바꿀 수 있다.",
+          "impactPath": [
+            "파트너 공통 안전정책",
+            "라우터·게이트웨이 사전승인",
+            "공동 위반조사·집행",
+            "우회·사고·오탐 감소 검증"
+          ],
+          "counter": "정책은 시행 전이며 파트너별 계약·감사권·집행건수·이의제기 절차와 독립 성과평가가 공개되지 않았다.",
+          "next": "11월 20일 시행, 승인·거부 사업자 수, 공급자별 사고·우회·오탐, 독립 감사와 이의제기·복구 시간을 확인한다.",
+          "source": "https://openai.com/index/broad-access-through-consistent-standards/",
+          "sourceLabel": "OpenAI 공식 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "commitment",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 14,
+                "reason": "구체적 정책·적용대상·시행일을 확약했지만 실제 집행 전이다."
+              },
+              "change": {
+                "score": 10,
+                "reason": "안전책임을 모델 내부에서 호스팅·재판매·라우터의 공동집행으로 넓혔다."
+              },
+              "impact": {
+                "score": 16,
+                "reason": "클라우드·라우터 유통의 진입비용과 책임구조를 바꿀 수 있다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "11월 20일 시행일과 승인·집행 대상이 명확해 후속 검증이 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "OpenAI 공식 정책 원문이 적용대상과 요구사항을 직접 명시한다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-22",
+              "statement": "OpenAI는 제3자 평가의 독립성·장기 접근 원칙을 공개했지만 공급자별 공동집행 규칙은 구체화하지 않았다.",
+              "evidenceIds": [
+                "openai-third-party-assessment-official-20260922"
+              ]
+            },
+            "evidenceIds": [
+              "openai-provider-safety-standards-official-20261021"
+            ],
+            "note": "14+10+16+15+10=65. 시행 전 기업 정책이므로 관찰로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 클라우드·모델 라우터",
+              "relationship": "confirmed",
+              "text": "OpenAI 모델 접근을 제공하는 라우터·게이트웨이에 사전승인 의무가 적용된다.",
+              "evidenceIds": [
+                "openai-provider-safety-standards-official-20261021"
+              ]
+            },
+            {
+              "sector": "AI 안전·규정준수",
+              "relationship": "hypothesis",
+              "text": "공통 정책이 사고·우회·오탐을 줄이는지는 실제 집행자료가 필요하다.",
+              "evidenceIds": [
+                "openai-provider-safety-standards-official-20261021"
+              ]
+            }
+          ],
+          "stage": "commitment",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 14,
+              "reason": "구체적 정책·적용대상·시행일을 확약했지만 실제 집행 전이다."
+            },
+            "change": {
+              "score": 10,
+              "reason": "안전책임을 모델 내부에서 호스팅·재판매·라우터의 공동집행으로 넓혔다."
+            },
+            "impact": {
+              "score": 16,
+              "reason": "클라우드·라우터 유통의 진입비용과 책임구조를 바꿀 수 있다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "11월 20일 시행일과 승인·집행 대상이 명확해 후속 검증이 가능하다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "OpenAI 공식 정책 원문이 적용대상과 요구사항을 직접 명시한다."
+            }
+          },
+          "baseline": {
+            "date": "2026-09-22",
+            "statement": "OpenAI는 제3자 평가의 독립성·장기 접근 원칙을 공개했지만 공급자별 공동집행 규칙은 구체화하지 않았다.",
+            "evidenceIds": [
+              "openai-third-party-assessment-official-20260922"
+            ]
+          },
+          "evidenceIds": [
+            "openai-provider-safety-standards-official-20261021"
+          ],
+          "assessmentNote": "14+10+16+15+10=65. 시행 전 기업 정책이므로 관찰로 제한했다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-anthropic-stubbs-trustee",
+        "eventId": "anthropic-stubbs-trustee",
+        "signalId": "anthropic-stubbs-trust-20261021",
+        "hypothesisId": "anthropic-long-term-benefit-governance",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "observation",
+        "score": 66,
+        "headline": "Anthropic이 이사회 과반 지명권을 가진 장기공익신탁에 과학·국가안보 전문가를 추가했다",
+        "source": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "18+11+13+14+10=66. 수탁자 선임은 실행이나 권한 행사 결과가 없어 관찰로 평가했다.",
+        "evidenceIds": [
+          "anthropic-stubbs-trust-official-20261021"
+        ],
+        "snapshot": {
+          "id": "anthropic-stubbs-trust-20261021",
+          "eventId": "anthropic-stubbs-trustee",
+          "hypothesisId": "anthropic-long-term-benefit-governance",
+          "leader": "다리오 아모데이(Dario Amodei)",
+          "role": "Anthropic 공동창업자·CEO",
+          "initials": "DA",
+          "score": 66,
+          "kind": "실행",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 안전",
+          "headline": "Anthropic이 이사회 과반 지명권을 가진 장기공익신탁에 과학·국가안보 전문가를 추가했다",
+          "takeaway": "공익기금 약정에 이어 위험·사회영향을 다루는 독립 신탁의 인적 구성을 실제 보강했다. 권한은 크지만 고위험 모델·IPO·자본조달에서 신탁이 어떤 결정을 바꿨는지는 아직 공개되지 않았다.",
+          "before": "2026년 10월 18일 Anthropic은 공익기금 지분 배정을 약정했지만 장기공익신탁의 신규 전문성·구체적 의사결정 사례는 공개하지 않았다.",
+          "now": "Harvard 전 과학대학장 Christopher Stubbs가 독립 수탁자로 합류했고 신탁의 이사회 과반 지명권·위험 의사결정 자문 역할이 재확인됐다.",
+          "facts": [
+            "Christopher Stubbs는 Harvard 전 과학대학장이자 국가안보·군비통제 자문 경험을 가진 실험물리학자다.",
+            "Stubbs는 회사 경영진·투자자와 독립된 장기공익신탁 수탁자로 합류했다.",
+            "신탁은 Anthropic 이사회 과반을 지명할 권한이 있다.",
+            "신탁은 AI 위험·사회영향 관련 핵심 의사결정에서 이사회와 경영진에 자문한다."
+          ],
+          "action": "Anthropic 장기공익신탁이 독립 과학·국가안보 전문가를 실제 선임해 공식 통제기구의 구성을 강화했다.",
+          "impact": "프런티어 AI 기업의 공익지배구조가 IPO·투자자 권리·고위험 모델 출시에서 실제 제동장치가 될지 업계 거버넌스 기준에 영향을 준다.",
+          "impactPath": [
+            "독립 수탁자 전문성 강화",
+            "이사회 과반 지명권",
+            "고위험 모델·자본결정 자문",
+            "실제 제동·공개책임 검증"
+          ],
+          "counter": "선임 사실과 권한은 확인됐지만 신탁의 투표·거부·조건부 승인 사례, 이해상충 정책과 상세 회의기록은 공개되지 않았다.",
+          "next": "신탁의 이사 지명·표결·거부 사례, IPO·모델 출시 조건, 공익보고서의 미달사항 시정, 투자자와의 권한 충돌을 확인한다.",
+          "source": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "sourceLabel": "Anthropic 공식 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "execution",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 18,
+                "reason": "독립 수탁자를 실제 선임해 통제기구 인적 구성을 변경했다."
+              },
+              "change": {
+                "score": 11,
+                "reason": "공익기금 약정에서 과학·국가안보 전문성의 공식 거버넌스 보강으로 진전했다."
+              },
+              "impact": {
+                "score": 13,
+                "reason": "프런티어 AI의 이사회 통제·IPO·모델 출시 거버넌스 기준에 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "향후 이사 지명·표결·거부와 공익보고서로 권한 행사를 확인할 수 있다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Anthropic 공식 원문이 선임·독립성·이사회 지명권을 직접 명시한다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-18",
+              "statement": "Anthropic은 공익기금 지분 배정을 약정했지만 장기공익신탁의 신규 전문성·의사결정 사례는 공개하지 않았다.",
+              "evidenceIds": [
+                "anthropic-public-benefit-fund-official-20261018"
+              ]
+            },
+            "evidenceIds": [
+              "anthropic-stubbs-trust-official-20261021"
+            ],
+            "note": "18+11+13+14+10=66. 실제 선임은 실행이나 권한 행사 결과가 없어 관찰로 평가했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "프런티어 AI 지배구조",
+              "relationship": "confirmed",
+              "text": "독립 신탁은 이사회 과반 지명권을 보유하고 신규 수탁자를 선임했다.",
+              "evidenceIds": [
+                "anthropic-stubbs-trust-official-20261021"
+              ]
+            },
+            {
+              "sector": "AI 안전·자본시장",
+              "relationship": "hypothesis",
+              "text": "IPO·고위험 모델 결정에서 실질 제동으로 작동하는지는 미검증이다.",
+              "evidenceIds": [
+                "anthropic-stubbs-trust-official-20261021"
+              ]
+            }
+          ],
+          "stage": "execution",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 18,
+              "reason": "독립 수탁자를 실제 선임해 통제기구 인적 구성을 변경했다."
+            },
+            "change": {
+              "score": 11,
+              "reason": "공익기금 약정에서 과학·국가안보 전문성의 공식 거버넌스 보강으로 진전했다."
+            },
+            "impact": {
+              "score": 13,
+              "reason": "프런티어 AI의 이사회 통제·IPO·모델 출시 거버넌스 기준에 영향을 줄 수 있다."
+            },
+            "verification": {
+              "score": 14,
+              "reason": "향후 이사 지명·표결·거부와 공익보고서로 권한 행사를 확인할 수 있다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "Anthropic 공식 원문이 선임·독립성·이사회 지명권을 직접 명시한다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-18",
+            "statement": "Anthropic은 공익기금 지분 배정을 약정했지만 장기공익신탁의 신규 전문성·의사결정 사례는 공개하지 않았다.",
+            "evidenceIds": [
+              "anthropic-public-benefit-fund-official-20261018"
+            ]
+          },
+          "evidenceIds": [
+            "anthropic-stubbs-trust-official-20261021"
+          ],
+          "assessmentNote": "18+11+13+14+10=66. 실제 선임은 실행이나 권한 행사 결과가 없어 관찰로 평가했다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-openai-google-cloud-model-garden",
+        "eventId": "openai-google-cloud-model-garden",
+        "signalId": "openai-google-cloud-20261021",
+        "hypothesisId": "openai-multicloud-distribution",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "observation",
+        "score": 70,
+        "headline": "OpenAI가 Google Cloud Model Garden·Marketplace에 프런티어 모델과 Codex를 공급한다",
+        "source": "https://openai.com/index/openai-models-google-cloud/",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "18+11+17+14+10=70. 제휴는 확정됐지만 일반 제공·사용량 전이라 관찰로 제한했다.",
+        "evidenceIds": [
+          "openai-google-cloud-official-20261021"
+        ],
+        "snapshot": {
+          "id": "openai-google-cloud-20261021",
+          "eventId": "openai-google-cloud-model-garden",
+          "hypothesisId": "openai-multicloud-distribution",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 70,
+          "kind": "신규",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 인프라",
+          "headline": "OpenAI가 Google Cloud Model Garden·Marketplace에 프런티어 모델과 Codex를 공급한다",
+          "takeaway": "직접 기업제휴에서 경쟁 클라우드의 조달약정·거버넌스 안으로 유통을 넓혔다. Microsoft가 주력 파트너로 남고 일반 제공은 수주 내 예정이어서 실제 사용량·마진은 아직 관찰 단계다.",
+          "before": "2026년 10월 6일 Atlassian 제휴는 특정 기업의 업무그래프와 OpenAI 에이전트를 연결한 직접 배포였다.",
+          "now": "Google Cloud 고객은 Model Garden과 Marketplace에서 OpenAI 모델·Codex를 구매하고 기존 GCP 약정액을 사용할 수 있게 되며 일반 제공은 수주 내 예정됐다.",
+          "facts": [
+            "OpenAI 프런티어 모델과 Codex가 Google Cloud Model Garden에 통합된다.",
+            "고객은 Google Cloud Marketplace와 기존 GCP 지출 약정으로 구매할 수 있다.",
+            "Google Antigravity와 Gemini Agent에서도 OpenAI 모델 선택을 제공할 계획이다.",
+            "일반 제공은 수주 내 예정이고 Microsoft는 OpenAI의 주력 클라우드 파트너로 남는다."
+          ],
+          "action": "OpenAI가 Google Cloud와 모델 유통·조달 통합 계약을 발표해 경쟁 클라우드 채널을 공식화했다.",
+          "impact": "멀티모델 클라우드 조달이 확대되면 기업 AI의 선택권·전환비용·클라우드 마켓플레이스 경쟁과 OpenAI 채널 마진이 바뀔 수 있다.",
+          "impactPath": [
+            "Model Garden·Marketplace 통합",
+            "GCP 약정액 활용",
+            "기업 모델 선택·배포 확대",
+            "클라우드 채널 경쟁·마진 검증"
+          ],
+          "counter": "일반 제공 전이고 가격·매출배분·고객·사용량이 미공개다. Microsoft 주력 관계와 Google의 자체 Gemini 사이 채널 갈등도 남는다.",
+          "next": "일반 제공일·모델 목록·가격·고객 수·토큰 사용량, GCP 약정 전환, OpenAI 마진과 Microsoft·Google 채널 충돌을 확인한다.",
+          "source": "https://openai.com/index/openai-models-google-cloud/",
+          "sourceLabel": "OpenAI 공식 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "commitment",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 18,
+                "reason": "양사 제휴와 구매·유통 경로는 확정됐지만 일반 제공 전이다."
+              },
+              "change": {
+                "score": 11,
+                "reason": "특정 기업 직접배포에서 경쟁 클라우드의 모델 장터·지출약정 채널로 확장한다."
+              },
+              "impact": {
+                "score": 17,
+                "reason": "기업 모델 선택권과 클라우드 마켓플레이스 경쟁·채널 경제성에 영향을 준다."
+              },
+              "verification": {
+                "score": 14,
+                "reason": "수주 내 일반 제공과 실제 고객·토큰·가격으로 검증 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "OpenAI 공식 발표가 파트너·구매경로·일정을 구체적으로 명시한다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-06",
+              "statement": "OpenAI의 Atlassian 제휴는 특정 기업 업무그래프에 에이전트를 직접 연결한 배포였다.",
+              "evidenceIds": [
+                "openai-atlassian-partnership-official-20261006"
+              ]
+            },
+            "evidenceIds": [
+              "openai-google-cloud-official-20261021"
+            ],
+            "note": "18+11+17+14+10=70. 계약과 배포경로는 구체적이지만 일반 제공 전이라 관찰로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "클라우드 AI 유통",
+              "relationship": "confirmed",
+              "text": "OpenAI 모델·Codex를 Google Cloud Model Garden·Marketplace와 GCP 약정으로 구매할 수 있게 된다.",
+              "evidenceIds": [
+                "openai-google-cloud-official-20261021"
+              ]
+            },
+            {
+              "sector": "기업 AI 에이전트",
+              "relationship": "indirect",
+              "text": "Google Antigravity·Gemini Agent의 모델 선택이 기업 업무 배포를 넓힐 수 있다.",
+              "evidenceIds": [
+                "openai-google-cloud-official-20261021"
+              ]
+            }
+          ],
+          "stage": "commitment",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 18,
+              "reason": "양사 제휴와 구매·유통 경로는 확정됐지만 일반 제공 전이다."
+            },
+            "change": {
+              "score": 11,
+              "reason": "특정 기업 직접배포에서 경쟁 클라우드의 모델 장터·지출약정 채널로 확장한다."
+            },
+            "impact": {
+              "score": 17,
+              "reason": "기업 모델 선택권과 클라우드 마켓플레이스 경쟁·채널 경제성에 영향을 준다."
+            },
+            "verification": {
+              "score": 14,
+              "reason": "수주 내 일반 제공과 실제 고객·토큰·가격으로 검증 가능하다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "OpenAI 공식 발표가 파트너·구매경로·일정을 구체적으로 명시한다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-06",
+            "statement": "OpenAI의 Atlassian 제휴는 특정 기업 업무그래프에 에이전트를 직접 연결한 배포였다.",
+            "evidenceIds": [
+              "openai-atlassian-partnership-official-20261006"
+            ]
+          },
+          "evidenceIds": [
+            "openai-google-cloud-official-20261021"
+          ],
+          "assessmentNote": "18+11+17+14+10=70. 계약과 배포경로는 구체적이지만 일반 제공 전이라 관찰로 제한했다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-nvidia-dsx-pod-vera-rubin",
+        "eventId": "nvidia-dsx-pod-vera-rubin",
+        "signalId": "nvidia-dsx-pod-20261021",
+        "hypothesisId": "nvidia-modular-ai-factories",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "NVIDIA가 Vera Rubin AI 공장을 컨테이너로 사전 통합해 현장 배치를 6개월에서 14일로 줄이겠다고 확약했다",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "20+11+18+15+10=74. 제품·파트너·일정은 구체적이나 첫 출하 전이므로 관찰로 제한했다.",
+        "evidenceIds": [
+          "nvidia-dsx-pod-official-20261021"
+        ],
+        "snapshot": {
+          "id": "nvidia-dsx-pod-20261021",
+          "eventId": "nvidia-dsx-pod-vera-rubin",
+          "hypothesisId": "nvidia-modular-ai-factories",
+          "leader": "젠슨 황(Jensen Huang)",
+          "role": "NVIDIA 창업자·CEO",
+          "initials": "JH",
+          "score": 74,
+          "kind": "신규",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 인프라",
+          "headline": "NVIDIA가 Vera Rubin AI 공장을 컨테이너로 사전 통합해 현장 배치를 6개월에서 14일로 줄이겠다고 확약했다",
+          "takeaway": "랙 개방·전력검증을 넘어 컴퓨팅·냉각·전력을 공장에서 조립·시험하는 모듈형 공급모델로 확장했다. 다만 첫 고객 가동은 2027년 초 예정이라 14일 목표와 총비용은 아직 검증 전이다.",
+          "before": "9월 DSX Ready와 10월 OCP 개방은 전력·냉각·랙 상호운용 규격과 자격을 제공했지만 완성 AI 공장의 공장제 컨테이너 공급은 없었다.",
+          "now": "NVIDIA는 Dell·HPE·Lenovo·Schneider·Vertiv 등과 DSX POD를 공장에서 사전 통합·검증해 2027년 초 공급하겠다고 발표했다.",
+          "facts": [
+            "DSX POD는 Vera Rubin 컴퓨팅·네트워킹·케이블·전력·액체냉각을 모듈형 컨테이너에 사전 통합한다.",
+            "NVIDIA는 준비된 부지의 배치기간을 6개월에서 최소 14일로 줄이는 목표를 제시했다.",
+            "Dell·HPE·Lenovo·Schneider Electric·Vertiv 등 글로벌 파트너가 참여한다.",
+            "전 세계 공급은 2027년 초 예정이며 실제 고객 주문·가동·비용은 공개되지 않았다."
+          ],
+          "action": "NVIDIA가 구체적 파트너와 설계·공급시점을 갖춘 모듈형 AI 공장 레퍼런스 디자인을 출시했다.",
+          "impact": "AI 데이터센터 병목이 현장 건설에서 표준화된 공장 제조로 이동하면 전력·냉각·시스템 통합업체의 수주 구조와 가동시점 경제성이 달라질 수 있다.",
+          "impactPath": [
+            "공장 사전 통합·검증",
+            "현장 배치기간 단축",
+            "토큰 생산 조기화",
+            "전력·냉각·통합 공급망 재편"
+          ],
+          "counter": "레퍼런스 디자인과 파트너 명단은 주문·설치·가동 성과가 아니며 준비된 부지·전력망 조건, 운송·허가·총비용이 14일 목표를 제약할 수 있다.",
+          "next": "2027년 첫 고객·출하·14일 배치 재현, MW당 총비용·가동률·전력효율, 파트너별 수주와 경쟁 가속기 지원을 확인한다.",
+          "source": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+          "sourceLabel": "NVIDIA 공식 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "commitment",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 20,
+                "reason": "제품 설계·파트너·공급시점은 확정됐지만 실제 출하·가동 전이다."
+              },
+              "change": {
+                "score": 11,
+                "reason": "규격·자격에서 공장제 완성 컨테이너로 배치 범위를 넓혔다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "데이터센터 건설 기간과 전력·냉각·통합업체의 공급구조를 바꿀 수 있다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "2027년 초·14일 목표가 있어 고객 출하·가동·총비용으로 명확히 검증 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "NVIDIA 공식 발표가 설계·파트너·일정을 구체적으로 명시한다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-21",
+              "statement": "DSX Ready는 전력·냉각 자격과 표준 설계 생태계를 제공했지만 완성 AI 공장 컨테이너는 아니었다.",
+              "evidenceIds": [
+                "nvidia-dsx-ready-official-20260921"
+              ]
+            },
+            "evidenceIds": [
+              "nvidia-dsx-pod-official-20261021"
+            ],
+            "note": "20+11+18+15+10=74. 구체적 확약이나 실제 출하 전이므로 결정적 승격을 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·전력·냉각",
+              "relationship": "confirmed",
+              "text": "NVIDIA는 명시된 인프라 파트너들과 DSX POD를 2027년 초 공급할 계획이다.",
+              "evidenceIds": [
+                "nvidia-dsx-pod-official-20261021"
+              ]
+            },
+            {
+              "sector": "모듈러 건설·시스템 통합",
+              "relationship": "hypothesis",
+              "text": "14일 배치와 총비용 우위는 첫 고객 가동으로 검증해야 한다.",
+              "evidenceIds": [
+                "nvidia-dsx-pod-official-20261021"
+              ]
+            }
+          ],
+          "stage": "commitment",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 20,
+              "reason": "제품 설계·파트너·공급시점은 확정됐지만 실제 출하·가동 전이다."
+            },
+            "change": {
+              "score": 11,
+              "reason": "규격·자격에서 공장제 완성 컨테이너로 배치 범위를 넓혔다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "데이터센터 건설 기간과 전력·냉각·통합업체의 공급구조를 바꿀 수 있다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "2027년 초·14일 목표가 있어 고객 출하·가동·총비용으로 명확히 검증 가능하다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "NVIDIA 공식 발표가 설계·파트너·일정을 구체적으로 명시한다."
+            }
+          },
+          "baseline": {
+            "date": "2026-09-21",
+            "statement": "DSX Ready는 전력·냉각 자격과 표준 설계 생태계를 제공했지만 완성 AI 공장 컨테이너는 아니었다.",
+            "evidenceIds": [
+              "nvidia-dsx-ready-official-20260921"
+            ]
+          },
+          "evidenceIds": [
+            "nvidia-dsx-pod-official-20261021"
+          ],
+          "assessmentNote": "20+11+18+15+10=74. 구체적 확약이나 실제 출하 전이므로 결정적 승격을 제한했다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-catl-q3-2026-competition",
+        "eventId": "catl-q3-2026-competition",
+        "signalId": "catl-q3-competition-20261020",
+        "hypothesisId": "catl-domestic-global-mix",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 76,
+        "headline": "CATL Q3 이익 성장률이 2년래 최저로 둔화하고 중국 점유율은 49.8%에서 40.9%로 하락했다",
+        "source": "https://www.reuters.com/business/autos-transportation/chinas-catl-profit-growth-slows-third-quarter-competition-intensifies-2026-10-20/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "24+16+16+12+8=76. 중첩 수집구간에서 처음 원문 검증한 Q3 경쟁·점유율 결과다.",
+        "evidenceIds": [
+          "catl-q3-reuters-20261020"
+        ],
+        "snapshot": {
+          "id": "catl-q3-competition-20261020",
+          "eventId": "catl-q3-2026-competition",
+          "hypothesisId": "catl-domestic-global-mix",
+          "leader": "쩡위췬(Robin Zeng)",
+          "role": "CATL 창업자·CEO",
+          "initials": "RZ",
+          "score": 76,
+          "kind": "약화",
+          "date": "2026.10.20",
+          "reportDate": "2026.10.22",
+          "theme": "에너지 전환",
+          "headline": "CATL Q3 이익 성장률이 2년래 최저로 둔화하고 중국 점유율은 49.8%에서 40.9%로 하락했다",
+          "takeaway": "매출과 세계 점유율은 늘었지만 중국 경쟁 심화가 이익 성장과 내수 지배력을 동시에 압박했다. 해외 공급·에너지저장·교환망이 마진과 내수 점유율 하락을 상쇄하는지가 핵심이다.",
+          "before": "Q2 순이익 성장률은 36.5%였고 2026년 1월 중국 파워배터리 설치 점유율은 49.8%였다.",
+          "now": "Q3 순이익 성장률은 14.5%로 둔화했고 9월 중국 점유율은 40.9%로 낮아졌다. 반면 세계 EV 배터리 사용 점유율은 37.7%에서 39.4%로 상승했다.",
+          "facts": [
+            "Q3 순이익은 전년 대비 14.5% 증가한 212억위안으로 LSEG 예상 41.2% 증가를 밑돌았다.",
+            "매출은 58.6% 증가한 1652억위안이었지만 순이익 성장률은 Q2 36.5%에서 둔화했다.",
+            "중국 파워배터리 설치 점유율은 1월 49.8%에서 9월 40.9%로 하락했다.",
+            "세계 EV 배터리 사용 점유율은 전년 37.7%에서 39.4%로 상승했다."
+          ],
+          "action": "CATL의 실제 분기 실적과 점유율이 해외 확장과 중국 내 경쟁 압력의 분화를 보여줬다.",
+          "impact": "배터리 가격·수익성·완성차 협상력과 소재·교환망·에너지저장 공급망의 투자 우선순위가 국내외 성과 차이에 따라 바뀔 수 있다.",
+          "impactPath": [
+            "중국 점유율 하락·가격경쟁",
+            "순이익 성장 둔화",
+            "해외·저장·교환망 다각화",
+            "마진·글로벌 점유율 상쇄 검증"
+          ],
+          "counter": "한 분기 성장 둔화에도 매출은 58.6%, 세계 점유율은 상승했다. 제품 출시·교환망·해외 고객 확대가 이어지면 내수 하락이 구조적 약화로 연결되지 않을 수 있다.",
+          "next": "Q4 중국·세계 점유율, 배터리 ASP·단위마진, 해외 매출·가동률, 에너지저장 비중, 교환소·트럭 배터리 판매를 확인한다.",
+          "source": "https://www.reuters.com/business/autos-transportation/chinas-catl-profit-growth-slows-third-quarter-competition-intensifies-2026-10-20/",
+          "sourceLabel": "Reuters · 2026.10.20",
+          "sourceGrade": "B",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 24,
+                "reason": "분기 실적과 중국·세계 시장점유율이라는 실제 운영 결과가 확인됐다."
+              },
+              "change": {
+                "score": 16,
+                "reason": "순이익 성장률과 중국 점유율이 직전 분기·연초 대비 의미 있게 둔화했다."
+              },
+              "impact": {
+                "score": 16,
+                "reason": "배터리 가격·완성차 협상력과 소재·저장·교환망 투자에 영향을 준다."
+              },
+              "verification": {
+                "score": 12,
+                "reason": "분기 이익·점유율·ASP·해외 매출로 추적 가능하지만 회사 공식 원문을 직접 열지 못했다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "신뢰도 높은 Reuters 직접 보도가 거래소 공시와 산업데이터를 인용했지만 공식 공시 원문 확인은 제한됐다."
+              }
+            },
+            "baseline": {
+              "date": "2026-06-30",
+              "statement": "CATL Q2 순이익 성장률은 36.5%였고 2026년 1월 중국 점유율은 49.8%였다.",
+              "evidenceIds": [
+                "catl-q3-reuters-20261020"
+              ]
+            },
+            "evidenceIds": [
+              "catl-q3-reuters-20261020"
+            ],
+            "note": "24+16+16+12+8=76. 국내 경쟁 약화와 글로벌 점유율 상승이 공존해 혼합 방향으로 평가했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-10-20T21:17:00+09:00",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "직전 성공 구간 종료 전 게시됐지만 당시 수집에서 누락돼 이번 중첩 수집구간에서 Reuters 원문을 처음 검증했다."
+          },
+          "industryLinks": [
+            {
+              "sector": "EV 배터리·소재",
+              "relationship": "indirect",
+              "text": "중국 점유율 하락은 가격·마진과 소재 주문 구조에 압력을 줄 수 있다.",
+              "evidenceIds": [
+                "catl-q3-reuters-20261020"
+              ]
+            },
+            {
+              "sector": "에너지저장·배터리 교환",
+              "relationship": "hypothesis",
+              "text": "다각화가 내수 경쟁과 이익 성장 둔화를 상쇄하는지는 후속 실적으로 검증해야 한다.",
+              "evidenceIds": [
+                "catl-q3-reuters-20261020"
+              ]
+            }
+          ],
+          "stage": "outcome",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 24,
+              "reason": "분기 실적과 중국·세계 시장점유율이라는 실제 운영 결과가 확인됐다."
+            },
+            "change": {
+              "score": 16,
+              "reason": "순이익 성장률과 중국 점유율이 직전 분기·연초 대비 의미 있게 둔화했다."
+            },
+            "impact": {
+              "score": 16,
+              "reason": "배터리 가격·완성차 협상력과 소재·저장·교환망 투자에 영향을 준다."
+            },
+            "verification": {
+              "score": 12,
+              "reason": "분기 이익·점유율·ASP·해외 매출로 추적 가능하지만 회사 공식 원문을 직접 열지 못했다."
+            },
+            "source": {
+              "score": 8,
+              "reason": "신뢰도 높은 Reuters 직접 보도가 거래소 공시와 산업데이터를 인용했지만 공식 공시 원문 확인은 제한됐다."
+            }
+          },
+          "baseline": {
+            "date": "2026-06-30",
+            "statement": "CATL Q2 순이익 성장률은 36.5%였고 2026년 1월 중국 점유율은 49.8%였다.",
+            "evidenceIds": [
+              "catl-q3-reuters-20261020"
+            ]
+          },
+          "evidenceIds": [
+            "catl-q3-reuters-20261020"
+          ],
+          "assessmentNote": "24+16+16+12+8=76. 국내 경쟁 약화와 글로벌 점유율 상승이 공존해 혼합 방향으로 평가했다.",
+          "occurredAt": "2026-09-30",
+          "publishedAt": "2026-10-20T21:17:00+09:00",
+          "lateDiscovery": true,
+          "lateDiscoveryReason": "직전 성공 구간 종료 전 게시됐지만 당시 수집에서 누락돼 이번 중첩 수집구간에서 Reuters 원문을 처음 검증했다."
+        }
+      },
+      {
+        "id": "revision-20261022-openai-distributed-bio-reasoning",
+        "eventId": "openai-distributed-bio-reasoning",
+        "signalId": "openai-distributed-bio-reasoning-20261021",
+        "hypothesisId": "openai-distributed-biological-reasoning",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 81,
+        "headline": "수천 GPT-Rosalind 에이전트가 수백만 뇌세포 데이터를 32분에 분석해 검증 가능한 질병 가설을 만들었다",
+        "source": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "25+17+18+13+8=81. 분산 생물학 에이전트의 실제 연구 산출물을 별도 성과 사건으로 기록했다.",
+        "evidenceIds": [
+          "openai-distributed-bio-official-20261021"
+        ],
+        "snapshot": {
+          "id": "openai-distributed-bio-reasoning-20261021",
+          "eventId": "openai-distributed-bio-reasoning",
+          "hypothesisId": "openai-distributed-biological-reasoning",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 81,
+          "kind": "신규",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 배포",
+          "headline": "수천 GPT-Rosalind 에이전트가 수백만 뇌세포 데이터를 32분에 분석해 검증 가능한 질병 가설을 만들었다",
+          "takeaway": "생명과학 AI가 분석 도구 제공에서 대규모 분산 연구 실행과 공개 reasoning atlas로 이동했다. 블라인드 전문가 선호는 확인됐지만 제안된 가설의 실험실 재현과 신약 성과는 남아 있다.",
+          "before": "2026년 10월 15일 Rosalind Academic Plan은 대학 연구실에 모델·Workbench 접근을 제공했지만 대규모 분산 에이전트의 실제 연구성과는 공개하지 않았다.",
+          "now": "OpenAI·PerturbAI·Scripps는 수천 에이전트가 수백만 생쥐 뇌세포 데이터를 32분에 분석해 기존 결과를 재현하고 추가 질병 가설과 공개 reasoning atlas를 만들었다.",
+          "facts": [
+            "수천 GPT-Rosalind 에이전트가 수백만 생쥐 뇌세포의 CRISPR atlas를 32분간 분석했다.",
+            "분산 에이전트는 최대 작업에서 700편 이상 문헌을 인용해 단일 에이전트의 11편을 크게 웃돌았다.",
+            "블라인드 전문가들은 분산 에이전트 보고서를 단일 에이전트보다 75% 선호했다.",
+            "DCTN1·콜레스테롤 분포와 신경퇴행 연결 등 후속 실험 가능한 가설을 제안했지만 아직 실험 검증 전이다."
+          ],
+          "action": "OpenAI가 파트너 연구기관과 수천 에이전트를 실제 생물학 데이터에 배치하고 결과 atlas와 실험 가설을 공개했다.",
+          "impact": "바이오 데이터 해석의 시간·문헌 탐색 병목을 낮추면 실험 우선순위와 신약 타깃 발굴 구조가 바뀔 수 있지만 wet-lab 검증이 가치 전환의 관문이다.",
+          "impactPath": [
+            "수천 에이전트 병렬 분석",
+            "문헌·세포 데이터 연결",
+            "후속 실험 가설 우선순위화",
+            "재현·후보발굴 시간 단축 검증"
+          ],
+          "counter": "연구는 생쥐 데이터와 프리프린트 기반이며 OpenAI 중심 보고다. 새로운 가설이 독립 실험·인간 질환·임상 후보로 재현되지 않으면 생산성 향상이 과학적 성과로 이어지지 않는다.",
+          "next": "DCTN1·콜레스테롤 등 가설의 wet-lab 재현, 독립팀 복제, 비용·시간·오탐률, Orchestra 통합과 실제 후보·임상 진전을 확인한다.",
+          "source": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "sourceLabel": "OpenAI 공식 연구 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 25,
+                "reason": "수천 에이전트를 실제 데이터에 배치하고 공개 atlas·가설을 산출했다."
+              },
+              "change": {
+                "score": 17,
+                "reason": "모델 접근 제공에서 분산 연구 실행·전문가 비교·공개 산출물로 진전했다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "바이오 데이터 해석·실험 우선순위·신약 타깃 발굴의 비용 구조를 바꿀 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "가설·atlas·프리프린트가 공개돼 독립 실험으로 판별 가능하지만 wet-lab 재현 전이다."
+              },
+              "source": {
+                "score": 8,
+                "reason": "공식 원문과 공개 프리프린트 링크가 있으나 회사 중심 보고이고 독립 실험 검증은 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-15",
+              "statement": "Rosalind Academic Plan은 대학 연구실에 모델·Workbench 접근을 제공했지만 분산 에이전트 연구성과는 없었다.",
+              "evidenceIds": [
+                "openai-rosalind-plan-official-20261015"
+              ]
+            },
+            "evidenceIds": [
+              "openai-distributed-bio-official-20261021"
+            ],
+            "note": "25+17+18+13+8=81. 실제 연구산출물을 성과로 평가하되 프리프린트·생쥐 데이터와 wet-lab 검증 공백을 반영했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "바이오파마 R&D",
+              "relationship": "indirect",
+              "text": "분산 에이전트가 실험 우선순위와 신약 타깃 발굴 시간을 줄일 가능성이 있다.",
+              "evidenceIds": [
+                "openai-distributed-bio-official-20261021"
+              ]
+            },
+            {
+              "sector": "과학 연구 소프트웨어",
+              "relationship": "confirmed",
+              "text": "reasoning atlas와 에이전트 비교 결과가 공개됐다.",
+              "evidenceIds": [
+                "openai-distributed-bio-official-20261021"
+              ]
+            }
+          ],
+          "stage": "outcome",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 25,
+              "reason": "수천 에이전트를 실제 데이터에 배치하고 공개 atlas·가설을 산출했다."
+            },
+            "change": {
+              "score": 17,
+              "reason": "모델 접근 제공에서 분산 연구 실행·전문가 비교·공개 산출물로 진전했다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "바이오 데이터 해석·실험 우선순위·신약 타깃 발굴의 비용 구조를 바꿀 수 있다."
+            },
+            "verification": {
+              "score": 13,
+              "reason": "가설·atlas·프리프린트가 공개돼 독립 실험으로 판별 가능하지만 wet-lab 재현 전이다."
+            },
+            "source": {
+              "score": 8,
+              "reason": "공식 원문과 공개 프리프린트 링크가 있으나 회사 중심 보고이고 독립 실험 검증은 없다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-15",
+            "statement": "Rosalind Academic Plan은 대학 연구실에 모델·Workbench 접근을 제공했지만 분산 에이전트 연구성과는 없었다.",
+            "evidenceIds": [
+              "openai-rosalind-plan-official-20261015"
+            ]
+          },
+          "evidenceIds": [
+            "openai-distributed-bio-official-20261021"
+          ],
+          "assessmentNote": "25+17+18+13+8=81. 실제 연구산출물을 성과로 평가하되 프리프린트·생쥐 데이터와 wet-lab 검증 공백을 반영했다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-meta-class-c-founder-control",
+        "eventId": "meta-class-c-founder-control",
+        "signalId": "meta-class-c-founder-control-20261021",
+        "hypothesisId": "meta-founder-control-ai-capital",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 84,
+        "headline": "Meta가 AI 투자·인수 재원을 위해 무의결권 Class C를 만들고 Zuckerberg 지배력을 고정한다",
+        "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "23+18+18+15+10=84. 승인·계약이 완료된 별도 자본구조 실행 사건이다.",
+        "evidenceIds": [
+          "meta-q3-official-20261021",
+          "meta-q2-10q-official-20260730"
+        ],
+        "snapshot": {
+          "id": "meta-class-c-founder-control-20261021",
+          "eventId": "meta-class-c-founder-control",
+          "hypothesisId": "meta-founder-control-ai-capital",
+          "leader": "마크 저커버그(Mark Zuckerberg)",
+          "role": "Meta CEO",
+          "initials": "MZ",
+          "score": 84,
+          "kind": "신규",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 인프라",
+          "headline": "Meta가 AI 투자·인수 재원을 위해 무의결권 Class C를 만들고 Zuckerberg 지배력을 고정한다",
+          "takeaway": "349억달러 분기 설비투자와 음의 자유현금흐름 속에 Meta가 의결권 희석 없이 주식 조달·보상·인수를 늘릴 자본도구를 승인했다. AI 투자 지속성은 높아지지만 소수주주 통제와 희석 위험도 함께 커진다.",
+          "before": "2026년 7월 Q2 10-Q의 공개 자본구조는 Class A·B 중심이었고 AI 투자용 공개 상장 무의결권 Class C는 없었다.",
+          "now": "이사회·독립 특별위원회와 주주 서면동의를 거쳐 2027년 1월 Class C 신설, 1대1 주식배당과 Founder Alignment Agreement를 확정했다.",
+          "facts": [
+            "Meta 이사회는 공개 상장 무의결권 Class C를 2027년 1월 19일 신설하기로 승인했다.",
+            "Class A·B 각 1주당 Class C 1주를 지급하며 주주 의결권은 바뀌지 않는다.",
+            "Founder Alignment Agreement는 Zuckerberg의 Class C 매각·재직·향후 배당 조건을 규정한다.",
+            "Meta Q3 설비투자는 349억1000만달러, 자유현금흐름은 -21억2000만달러였다."
+          ],
+          "action": "Meta가 이사회·독립위원회·주주 승인을 마치고 무의결권 주식과 창업자 정렬 계약을 통해 AI 투자·인수용 자본조달 구조를 실행했다.",
+          "impact": "장기 AI 설비투자와 인수 여력은 커지지만 경제적 희석과 의결권 분리가 심화돼 자본비용·지배구조 할인·주주 견제에 영향을 준다.",
+          "impactPath": [
+            "Class C 주식배당·상장",
+            "의결권 희석 없는 자금조달·보상·인수",
+            "AI 인프라 투자 지속",
+            "희석·지배구조 할인 검증"
+          ],
+          "counter": "효력은 2027년 1월 예정이고 실제 발행·조달·인수 규모는 미정이다. 특별위원회 절차에도 창업자 지배력 고정이 자본규율과 소수주주 권리를 약화할 수 있다.",
+          "next": "1월 효력발생·8-K/정보서, Class C 상장과 실제 발행·조달·인수, 주식보상 희석률, AI 투자수익과 독립이사회 견제를 확인한다.",
+          "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+          "sourceLabel": "Meta 공식 Q3 실적·Class C 발표 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "execution",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 23,
+                "reason": "이사회·독립위원회·주주 승인과 Founder Alignment Agreement 체결까지 실제 법적 절차가 진행됐다."
+              },
+              "change": {
+                "score": 18,
+                "reason": "Class A·B 중심 구조에서 공개 상장 무의결권 Class C로 자본조달·지배구조를 의미 있게 변경한다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "AI 투자·인수 재원과 창업자 지배력·주주 희석을 함께 바꾸는 자본시장 사건이다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "2027년 1월 효력일과 향후 8-K·정보서·발행량·희석률로 명확히 검증할 수 있다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Meta 공식 실적·이사회 발표와 직전 SEC 10-Q를 직접 대조했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-07-30",
+              "statement": "Meta Q2 10-Q의 공개 자본구조는 Class A·B 중심이며 공개 상장 무의결권 Class C는 없었다.",
+              "evidenceIds": [
+                "meta-q2-10q-official-20260730"
+              ]
+            },
+            "evidenceIds": [
+              "meta-q3-official-20261021",
+              "meta-q2-10q-official-20260730"
+            ],
+            "note": "23+18+18+15+10=84. 승인·계약을 실행으로 평가하되 실제 발행 전이며 투자 지속성과 지배구조 위험이 함께 커져 혼합 방향이다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·자본시장",
+              "relationship": "indirect",
+              "text": "Class C는 대규모 AI 인프라 투자를 위한 주식 조달·인수·보상 수단을 넓힌다.",
+              "evidenceIds": [
+                "meta-q3-official-20261021"
+              ]
+            },
+            {
+              "sector": "기업지배구조",
+              "relationship": "confirmed",
+              "text": "무의결권 Class C와 Founder Alignment Agreement가 Zuckerberg의 의결권을 희석하지 않도록 설계됐다.",
+              "evidenceIds": [
+                "meta-q3-official-20261021"
+              ]
+            }
+          ],
+          "stage": "execution",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 23,
+              "reason": "이사회·독립위원회·주주 승인과 Founder Alignment Agreement 체결까지 실제 법적 절차가 진행됐다."
+            },
+            "change": {
+              "score": 18,
+              "reason": "Class A·B 중심 구조에서 공개 상장 무의결권 Class C로 자본조달·지배구조를 의미 있게 변경한다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "AI 투자·인수 재원과 창업자 지배력·주주 희석을 함께 바꾸는 자본시장 사건이다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "2027년 1월 효력일과 향후 8-K·정보서·발행량·희석률로 명확히 검증할 수 있다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "Meta 공식 실적·이사회 발표와 직전 SEC 10-Q를 직접 대조했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-07-30",
+            "statement": "Meta Q2 10-Q의 공개 자본구조는 Class A·B 중심이며 공개 상장 무의결권 Class C는 없었다.",
+            "evidenceIds": [
+              "meta-q2-10q-official-20260730"
+            ]
+          },
+          "evidenceIds": [
+            "meta-q3-official-20261021",
+            "meta-q2-10q-official-20260730"
+          ],
+          "assessmentNote": "23+18+18+15+10=84. 승인·계약을 실행으로 평가하되 실제 발행 전이며 투자 지속성과 지배구조 위험이 함께 커져 혼합 방향이다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-tesla-q3-2026-cash-flow",
+        "eventId": "tesla-q3-2026-cash-flow",
+        "signalId": "tesla-q3-cash-flow-20261021",
+        "hypothesisId": "tesla-ai-capital-discipline",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 88,
+        "headline": "Tesla가 AI 설비투자를 두 배로 늘린 가운데 자유현금흐름을 15억달러 흑자로 전환했다",
+        "source": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "28+20+18+13+9=88. Q2 현금소진에서 Q3 흑자로 전환했으나 낮은 설비투자와 이익 감소를 함께 반영했다.",
+        "evidenceIds": [
+          "tesla-q3-official-20261021",
+          "tesla-q3-reuters-20261021"
+        ],
+        "snapshot": {
+          "id": "tesla-q3-cash-flow-20261021",
+          "eventId": "tesla-q3-2026-cash-flow",
+          "hypothesisId": "tesla-ai-capital-discipline",
+          "leader": "일론 머스크(Elon Musk)",
+          "role": "Tesla · SpaceX · xAI CEO",
+          "initials": "EM",
+          "score": 88,
+          "kind": "반전",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 인프라",
+          "headline": "Tesla가 AI 설비투자를 두 배로 늘린 가운데 자유현금흐름을 15억달러 흑자로 전환했다",
+          "takeaway": "Tesla는 2분기 현금소진에서 3분기 흑자로 돌아섰고 FSD 구독도 늘었지만, 시장 예상보다 낮은 설비투자가 현금흐름 개선의 일부여서 AI·로보틱스 집행 속도와 수익화의 균형이 다음 시험이다.",
+          "before": "2026년 2분기 Tesla는 설비투자 57억8900만달러와 자유현금흐름 -10억9200만달러를 기록해 AI·로보틱스 확대가 단기 현금을 압박했다.",
+          "now": "3분기 설비투자는 47억3200만달러로 전년 대비 110% 증가했지만 전분기보다 줄었고, 영업현금흐름 62억6300만달러와 자유현금흐름 15억3100만달러를 기록했다.",
+          "facts": [
+            "자유현금흐름은 Q2 -10억9200만달러에서 Q3 15억3100만달러로 전환됐다.",
+            "Q3 설비투자는 47억3200만달러로 전년 대비 110% 늘었지만 시장 예상 약 75억달러를 밑돌았다.",
+            "인도량은 48만6532대, FSD 유료 구독은 174만건으로 전분기 148만건에서 증가했다.",
+            "매출은 280억4600만달러로 전년과 비슷했고 GAAP 영업이익은 전년 대비 56% 감소했다."
+          ],
+          "action": "Tesla가 차량·FSD 운영에서 현금을 창출해 대규모 AI·로보틱스 설비투자 중에도 분기 자유현금흐름을 흑자로 돌렸다.",
+          "impact": "전기차 현금창출이 AI·로봇 투자 재원을 버틸 수 있는지가 Tesla 가치평가와 가속기·전력·공장 자동화 공급망 수요의 핵심 변수가 된다.",
+          "impactPath": [
+            "차량 인도·FSD 구독 증가",
+            "영업현금흐름 확대",
+            "AI·로보틱스 설비투자 재원",
+            "상용 매출·반복 현금흐름 검증"
+          ],
+          "counter": "현금흐름 개선의 일부는 예상보다 낮은 설비투자에서 왔고 매출은 정체, GAAP 영업이익은 감소했다. 로보택시·Optimus의 상용 성과가 지연되면 투자 축소가 성장 선택지를 약화할 수 있다.",
+          "next": "Q4 설비투자와 자유현금흐름, FSD 구독 유지율·로보택시 유료승차, Optimus 생산·매출, 연간 인도 증가 여부를 확인한다.",
+          "source": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+          "sourceLabel": "Tesla 공식 Q3 업데이트 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 28,
+                "reason": "실제 분기 영업현금흐름·자유현금흐름과 FSD 구독·설비투자 결과가 공시됐다."
+              },
+              "change": {
+                "score": 20,
+                "reason": "Q2 현금소진에서 Q3 흑자로 전환했지만 투자 축소 효과가 섞여 근본적 사업반전으로 단정하지 않았다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "전기차 현금창출과 AI·로봇 자본집행의 균형은 공급망·자본시장에 큰 영향을 준다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "분기별 설비투자·현금흐름·FSD 구독과 상용 매출로 반복 검증할 수 있다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "Tesla 공식 분기자료를 Reuters 직접 보도와 대조했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-07-22",
+              "statement": "Tesla Q2 설비투자는 57억8900만달러, 자유현금흐름은 -10억9200만달러였다.",
+              "evidenceIds": [
+                "tesla-q3-official-20261021"
+              ]
+            },
+            "evidenceIds": [
+              "tesla-q3-official-20261021",
+              "tesla-q3-reuters-20261021"
+            ],
+            "note": "28+20+18+13+9=88. 현금흐름 전환은 성과지만 예상 이하 설비투자와 이익 감소를 반영해 혼합 방향으로 평가했다."
+          },
+          "timing": {
+            "occurredAt": "2026-09-30",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "AI 데이터센터·로보틱스",
+              "relationship": "indirect",
+              "text": "설비투자 집행 속도는 가속기·전력·냉각·공장 자동화 수요에 영향을 준다.",
+              "evidenceIds": [
+                "tesla-q3-official-20261021"
+              ]
+            },
+            {
+              "sector": "전기차·자율주행",
+              "relationship": "confirmed",
+              "text": "Tesla는 48만6532대 인도와 FSD 유료 구독 174만건을 공시했다.",
+              "evidenceIds": [
+                "tesla-q3-official-20261021"
+              ]
+            }
+          ],
+          "stage": "outcome",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 28,
+              "reason": "실제 분기 영업현금흐름·자유현금흐름과 FSD 구독·설비투자 결과가 공시됐다."
+            },
+            "change": {
+              "score": 20,
+              "reason": "Q2 현금소진에서 Q3 흑자로 전환했지만 투자 축소 효과가 섞여 근본적 사업반전으로 단정하지 않았다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "전기차 현금창출과 AI·로봇 자본집행의 균형은 공급망·자본시장에 큰 영향을 준다."
+            },
+            "verification": {
+              "score": 13,
+              "reason": "분기별 설비투자·현금흐름·FSD 구독과 상용 매출로 반복 검증할 수 있다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "Tesla 공식 분기자료를 Reuters 직접 보도와 대조했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-07-22",
+            "statement": "Tesla Q2 설비투자는 57억8900만달러, 자유현금흐름은 -10억9200만달러였다.",
+            "evidenceIds": [
+              "tesla-q3-official-20261021"
+            ]
+          },
+          "evidenceIds": [
+            "tesla-q3-official-20261021",
+            "tesla-q3-reuters-20261021"
+          ],
+          "assessmentNote": "28+20+18+13+9=88. 현금흐름 전환은 성과지만 예상 이하 설비투자와 이익 감소를 반영해 혼합 방향으로 평가했다.",
+          "occurredAt": "2026-09-30",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-meta-muse-personal-agent",
+        "eventId": "meta-muse-personal-agent",
+        "signalId": "meta-muse-personal-agent",
+        "hypothesisId": "consumer-personal-agent-platform",
+        "previousRevisionId": "revision-20261003-meta-muse-personal-agent",
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 92,
+        "headline": "Meta Muse가 출시 약 두 달 만에 미국·캐나다 계정 1천만명을 넘었다",
+        "source": "https://apnews.com/article/meta-earnings-facebook-instagram-muse-capex-13ecd6c459e39a3602f302bcc2412fe9",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "29+20+18+15+10=92. 같은 Muse 사건의 500만 다운로드 기준선이 1천만 계정 성과로 강화됐다.",
+        "evidenceIds": [
+          "meta-muse-10m-ap-20261021",
+          "meta-q3-official-20261021"
+        ],
+        "snapshot": {
+          "id": "meta-muse-personal-agent",
+          "eventId": "meta-muse-personal-agent",
+          "hypothesisId": "consumer-personal-agent-platform",
+          "leader": "마크 저커버그(Mark Zuckerberg)",
+          "role": "Meta CEO",
+          "initials": "MZ",
+          "score": 92,
+          "kind": "강화",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 배포",
+          "headline": "Meta Muse가 출시 약 두 달 만에 미국·캐나다 계정 1천만명을 넘었다",
+          "takeaway": "500만 다운로드의 초기 관심이 1천만 계정 개설로 확대됐다. 다만 계정 수는 활성 사용자·유료전환·작업 완료율이 아니므로 개인 에이전트의 반복 사용과 경제성은 아직 별도 검증이 필요하다.",
+          "before": "2026년 10월 2일 Muse는 출시 첫 달 500만 다운로드를 기록했지만 활성·유료 사용자와 작업 성공률은 공개하지 않았다.",
+          "now": "Zuckerberg는 Q3 실적 통화에서 미국·캐나다 Muse 계정 개설자가 1천만명을 넘었다고 밝혔다.",
+          "facts": [
+            "Muse는 2026년 8월 미국에서 출시됐고 9월 22일 280만 다운로드, 10월 2일 500만 다운로드가 보도됐다.",
+            "2026년 10월 21일 Zuckerberg는 미국·캐나다에서 1천만명 이상이 Muse 계정을 만들었다고 밝혔다.",
+            "Meta Q3 매출은 646억달러로 26% 증가했고 회사는 AI 투자가 광고 매출에 기여한다고 밝혔다.",
+            "활성 사용자·유료전환·작업 성공률·추론 원가는 공개되지 않았다."
+          ],
+          "action": "Meta가 Muse를 실제 배포해 두 달여 만에 1천만 계정 개설 규모로 확대했다.",
+          "impact": "개인 에이전트가 검색·커머스·앱 실행의 새 진입점이 될 가능성을 키우지만 광고·구독 수익과 추론비용의 균형이 필요하다.",
+          "impactPath": [
+            "Muse 계정 1천만명",
+            "반복 작업·커머스 사용",
+            "광고·구독·거래 수익",
+            "개인 에이전트 플랫폼 경쟁"
+          ],
+          "counter": "계정 개설은 월간 활성·유료전환·작업 완료와 다르며 미국·캐나다 외 확장, 외부 서비스 접근 안정성, 개인정보·오동작 지표가 공개되지 않았다.",
+          "next": "Muse MAU·7일/30일 유지율, 유료전환·작업 완료율, 거래액·추론원가, 지역 확대와 안전사고를 확인한다.",
+          "source": "https://apnews.com/article/meta-earnings-facebook-instagram-muse-capex-13ecd6c459e39a3602f302bcc2412fe9",
+          "sourceLabel": "AP · Meta Q3 실적 통화 · 2026.10.21",
+          "sourceGrade": "B",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 29,
+                "reason": "실제 배포된 제품이 1천만 계정 규모에 도달했다."
+              },
+              "change": {
+                "score": 20,
+                "reason": "첫 달 500만 다운로드에서 두 달여 만에 1천만 계정으로 사용자 기반이 확대됐다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "검색·커머스·앱 실행을 통합하는 개인 에이전트의 플랫폼 가능성을 키운다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "계정 수가 구체적이며 MAU·유지율·유료전환·작업 성공률로 후속 판별할 수 있다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "Zuckerberg의 실적 통화 직접 발언을 AP가 보도하고 Meta 공식 실적과 교차확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-02",
+              "statement": "Muse는 출시 첫 달 500만 다운로드를 기록했다.",
+              "evidenceIds": [
+                "meta-muse-5m-breakingviews-20261002"
+              ]
+            },
+            "evidenceIds": [
+              "meta-muse-10m-ap-20261021",
+              "meta-q3-official-20261021"
+            ],
+            "note": "29+20+18+15+10=92. 계정 성장 성과를 강화하되 활성·유료·작업 성과의 공백은 남겼다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "소비자 AI·에이전트",
+              "relationship": "confirmed",
+              "text": "미국·캐나다에서 Muse 계정이 1천만명을 넘었다.",
+              "evidenceIds": [
+                "meta-muse-10m-ap-20261021"
+              ]
+            },
+            {
+              "sector": "검색·커머스·디지털 광고",
+              "relationship": "hypothesis",
+              "text": "반복 사용과 거래·광고 수익 전환은 아직 검증해야 한다.",
+              "evidenceIds": [
+                "meta-muse-10m-ap-20261021"
+              ]
+            }
+          ],
+          "stage": "outcome",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 29,
+              "reason": "실제 배포된 제품이 1천만 계정 규모에 도달했다."
+            },
+            "change": {
+              "score": 20,
+              "reason": "첫 달 500만 다운로드에서 두 달여 만에 1천만 계정으로 사용자 기반이 확대됐다."
+            },
+            "impact": {
+              "score": 18,
+              "reason": "검색·커머스·앱 실행을 통합하는 개인 에이전트의 플랫폼 가능성을 키운다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "계정 수가 구체적이며 MAU·유지율·유료전환·작업 성공률로 후속 판별할 수 있다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "Zuckerberg의 실적 통화 직접 발언을 AP가 보도하고 Meta 공식 실적과 교차확인했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-02",
+            "statement": "Muse는 출시 첫 달 500만 다운로드를 기록했다.",
+            "evidenceIds": [
+              "meta-muse-5m-breakingviews-20261002"
+            ]
+          },
+          "evidenceIds": [
+            "meta-muse-10m-ap-20261021",
+            "meta-q3-official-20261021"
+          ],
+          "assessmentNote": "29+20+18+15+10=92. 계정 성장 성과를 강화하되 활성·유료·작업 성과의 공백은 남겼다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-openai-daybreak-billion",
+        "eventId": "openai-daybreak-billion",
+        "signalId": "openai-daybreak-billion",
+        "hypothesisId": "hyp-openai-daybreak-billion",
+        "previousRevisionId": "revision-20261010-openai-daybreak-billion",
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 92,
+        "headline": "OpenAI Daybreak가 PHP 중대 취약점을 선제 발견하고 유지관리자·클라우드·정부의 패치 대응을 조율했다",
+        "source": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "30+21+19+13+9=92. 같은 Daybreak 사건이 중대 PHP 취약점의 전주기 대응 성과로 강화됐다.",
+        "evidenceIds": [
+          "openai-patch-planet-php-official-20261021"
+        ],
+        "snapshot": {
+          "id": "openai-daybreak-billion",
+          "eventId": "openai-daybreak-billion",
+          "hypothesisId": "hyp-openai-daybreak-billion",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 92,
+          "kind": "강화",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 안전",
+          "headline": "OpenAI Daybreak가 PHP 중대 취약점을 선제 발견하고 유지관리자·클라우드·정부의 패치 대응을 조율했다",
+          "takeaway": "기존 상류 패치 집계가 광범위한 PHP 취약점의 선제 발견·수정·보호 배포라는 실제 사고대응 성과로 깊어졌다. 다만 심각도·CVE·공격 차단 효과는 공개 후 독립 검증이 필요하다.",
+          "before": "2026년 10월 10일 Daybreak는 65개 코드베이스에서 661개 패치 제작·458개 상류 반영을 공개했지만 개별 중대 사건의 전주기 대응은 제한적으로 공개됐다.",
+          "now": "GPT-5.6 Sol 기반 연구가 PHP 중대 취약점을 찾아 유지관리자·Wiz·Cloudflare와 패치·보호책을 준비하고 CISA 등 정부기관과 사전 대응을 조율했다.",
+          "facts": [
+            "Calif가 GPT-5.6 Sol을 활용해 PHP 중대 취약점을 찾았고 Wiz도 두 취약점을 독립 발견·보고했다.",
+            "PHP 유지관리자가 수정·배포를 주도하고 OpenAI·Wiz·Cloudflare 등이 공개 전 보호책을 준비했다.",
+            "OpenAI는 취약 버전을 확인하는 Codex skill과 공개 대응 프레임워크를 배포했다.",
+            "OpenAI는 CISA·ONCD 등 미국 정부기관과 국제 파트너를 대응 조율에 참여시켰다."
+          ],
+          "action": "OpenAI가 AI 취약점 탐지에서 유지관리자 패치·클라우드 보호·정부 공지까지 실제 전주기 대응을 운영했다.",
+          "impact": "프런티어 모델이 인터넷 핵심 오픈소스의 선제 방어 도구로 쓰이면서 보안 조달·책임공개·공공기관 협업 기준을 바꿀 수 있다.",
+          "impactPath": [
+            "AI 선제 취약점 발견",
+            "유지관리자 패치·클라우드 완화",
+            "정부·인프라 사업자 사전 대응",
+            "오픈소스 방어 표준 확산"
+          ],
+          "counter": "공식 원문 중심의 자기보고이며 CVE·심각도·패치 채택률·실제 공격 차단과 오탐은 아직 공개되지 않았다. 같은 능력이 공격자에게 확산될 위험도 있다.",
+          "next": "PHP 공식 CVE·패치와 독립 기술분석, 배포율·공격 차단·오탐, Daybreak 이용권 소진액·기관 수와 MS-ISAC 성과를 확인한다.",
+          "source": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "sourceLabel": "OpenAI 공식 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 30,
+                "reason": "실제 중대 취약점 발견부터 패치·보호·정부 공조까지 전주기 운영 성과가 확인됐다."
+              },
+              "change": {
+                "score": 21,
+                "reason": "다수 패치 집계에서 인터넷 핵심 소프트웨어의 선제 대응 사건으로 진전했다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "오픈소스·클라우드·공공 사이버보안의 탐지·공개·패치 표준에 영향을 준다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "PHP 공식 CVE·패치·배포율·공격 차단으로 검증 가능하지만 현재는 회사 중심 공개다."
+              },
+              "source": {
+                "score": 9,
+                "reason": "OpenAI 공식 원문과 파트너 명시는 있으나 독립 기술보고는 아직 없다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-10",
+              "statement": "Daybreak는 65개 코드베이스에서 661개 패치 제작과 458개 상류 반영을 공개했다.",
+              "evidenceIds": [
+                "openai-daybreak-outcomes-official-20261010"
+              ]
+            },
+            "evidenceIds": [
+              "openai-patch-planet-php-official-20261021"
+            ],
+            "note": "30+21+19+13+9=92. 구체적 전주기 대응을 성과로 강화하되 독립 기술검증 전이라는 한계를 남겼다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "오픈소스·클라우드 보안",
+              "relationship": "confirmed",
+              "text": "PHP 유지관리자·Wiz·Cloudflare와 패치·보호 대응을 실제 조율했다.",
+              "evidenceIds": [
+                "openai-patch-planet-php-official-20261021"
+              ]
+            },
+            {
+              "sector": "공공 사이버보안",
+              "relationship": "confirmed",
+              "text": "CISA·ONCD 등 정부기관이 사전 대응 조율에 참여했다.",
+              "evidenceIds": [
+                "openai-patch-planet-php-official-20261021"
+              ]
+            }
+          ],
+          "stage": "outcome",
+          "impactDirection": "positive",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 30,
+              "reason": "실제 중대 취약점 발견부터 패치·보호·정부 공조까지 전주기 운영 성과가 확인됐다."
+            },
+            "change": {
+              "score": 21,
+              "reason": "다수 패치 집계에서 인터넷 핵심 소프트웨어의 선제 대응 사건으로 진전했다."
+            },
+            "impact": {
+              "score": 19,
+              "reason": "오픈소스·클라우드·공공 사이버보안의 탐지·공개·패치 표준에 영향을 준다."
+            },
+            "verification": {
+              "score": 13,
+              "reason": "PHP 공식 CVE·패치·배포율·공격 차단으로 검증 가능하지만 현재는 회사 중심 공개다."
+            },
+            "source": {
+              "score": 9,
+              "reason": "OpenAI 공식 원문과 파트너 명시는 있으나 독립 기술보고는 아직 없다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-10",
+            "statement": "Daybreak는 65개 코드베이스에서 661개 패치 제작과 458개 상류 반영을 공개했다.",
+            "evidenceIds": [
+              "openai-daybreak-outcomes-official-20261010"
+            ]
+          },
+          "evidenceIds": [
+            "openai-patch-planet-php-official-20261021"
+          ],
+          "assessmentNote": "30+21+19+13+9=92. 구체적 전주기 대응을 성과로 강화하되 독립 기술검증 전이라는 한계를 남겼다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
+      {
+        "id": "revision-20261022-openai-chatgpt-ads-billion",
+        "eventId": "openai-chatgpt-ads-billion",
+        "signalId": "openai-chatgpt-ads-billion",
+        "hypothesisId": "hyp-openai-chatgpt-ads-billion",
+        "previousRevisionId": "revision-20261006-openai-chatgpt-ads-billion",
+        "reportDate": "2026.10.22",
+        "recordedAt": "2026-10-22T07:26:28+09:00",
+        "tier": "signal",
+        "score": 93,
+        "headline": "ChatGPT Ads가 10만 광고주와 89개국으로 확대돼 초기 수익축에서 글로벌 광고망으로 진전했다",
+        "source": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "29+20+19+15+10=93. 광고주·국가·운영 인프라 확장을 같은 사건의 강화로 기록했다.",
+        "evidenceIds": [
+          "openai-ads-100k-official-20261021"
+        ],
+        "snapshot": {
+          "id": "openai-chatgpt-ads-billion",
+          "eventId": "openai-chatgpt-ads-billion",
+          "hypothesisId": "hyp-openai-chatgpt-ads-billion",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 93,
+          "kind": "강화",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.22",
+          "theme": "AI 배포",
+          "headline": "ChatGPT Ads가 10만 광고주와 89개국으로 확대돼 초기 수익축에서 글로벌 광고망으로 진전했다",
+          "takeaway": "연환산 10억달러와 초기 전환측정을 넘어 광고주 수·국가·셀프서비스 유통이 동시에 확대됐다. 검색·소셜 광고 예산 이동 가능성은 커졌지만 광고주 유지율·마진·답변 독립성은 아직 미공개다.",
+          "before": "2026년 10월 5일 OpenAI는 전환·귀속·증분측정 파트너와 일부 광고주 성과를 공개했지만 전체 광고주 수·유지율·글로벌 운영범위는 제한적이었다.",
+          "now": "출시 8개월여 만에 10만개 이상 광고주가 캠페인을 집행했고 26개국을 추가해 89개국으로 확대했으며 Ads Manager와 기술 파트너 판매를 가동했다.",
+          "facts": [
+            "10만개 이상 광고주가 출시 이후 ChatGPT Ads 캠페인을 운영했다.",
+            "26개국이 추가돼 전 세계 89개국에서 광고를 제공한다.",
+            "광고는 주간 12억 사용자 중 Free·Go 요금제에만 노출되고 Plus·Pro·Enterprise는 광고 없이 유지된다.",
+            "대화 맥락을 처리하는 별도 광고 LLM·경매 시스템이 답변 생성과 분리돼 운영된다."
+          ],
+          "action": "OpenAI가 광고 판매·셀프서비스·글로벌 유통과 별도 광고 기술 스택을 실제 대규모 운영으로 확장했다.",
+          "impact": "대화형 탐색이 독립 광고 경매·측정 채널로 자리 잡으면 검색·소셜 광고 예산, AI 무료요금제의 경제성과 개인정보 기준이 바뀔 수 있다.",
+          "impactPath": [
+            "10만 광고주·89개국",
+            "대화형 광고 경매·측정",
+            "무료 AI 수익화",
+            "검색·소셜 광고 예산 재배분"
+          ],
+          "counter": "광고주 유지율·매출 총액·추론비·광고 ROAS의 전체 분포와 독립 감사는 없고, 대화 맥락 사용에 대한 프라이버시·답변 중립성 규제가 확장을 제약할 수 있다.",
+          "next": "광고 매출·순유지율·무료 사용자당 매출, 추론비·마진, 독립 증분효과·광고 차단·옵트아웃·답변 중립성 지표를 확인한다.",
+          "source": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+          "sourceLabel": "OpenAI 공식 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-22T07:26:28+09:00",
+            "stage": "outcome",
+            "impactDirection": "mixed",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 29,
+                "reason": "10만 광고주의 실제 캠페인 운영과 89개국 배포·셀프서비스 인프라가 확인됐다."
+              },
+              "change": {
+                "score": 20,
+                "reason": "초기 연환산 매출·사례 단계에서 글로벌 광고주·유통망 규모로 확장됐다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "검색·소셜 광고 예산과 범용 AI의 수익구조·프라이버시 기준에 영향을 준다."
+              },
+              "verification": {
+                "score": 15,
+                "reason": "광고주·국가·사용자 수가 구체적이며 매출·유지율·마진·독립측정으로 판별 가능하다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "OpenAI 공식 제품·기술 원문을 기존 공식 측정 발표와 대조했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-05",
+              "statement": "ChatGPT Ads는 전환·귀속·증분효과 측정 파트너와 세 광고주의 초기 성과를 공개했다.",
+              "evidenceIds": [
+                "openai-chatgpt-ads-measurement-official-20261005"
+              ]
+            },
+            "evidenceIds": [
+              "openai-ads-100k-official-20261021"
+            ],
+            "note": "29+20+19+15+10=93. 실제 광고주·국가 확장을 성과로 강화하되 유지율·마진·독립성 공백을 반영했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-22T07:26:28+09:00",
+            "verifiedAt": "2026-10-22T07:26:28+09:00",
+            "lateDiscovery": false,
+            "lateDiscoveryReason": null
+          },
+          "industryLinks": [
+            {
+              "sector": "디지털 광고·검색",
+              "relationship": "confirmed",
+              "text": "10만 광고주와 89개국 운영이 확인돼 대화형 광고 유통망이 확대됐다.",
+              "evidenceIds": [
+                "openai-ads-100k-official-20261021"
+              ]
+            },
+            {
+              "sector": "소비자 AI·프라이버시",
+              "relationship": "indirect",
+              "text": "별도 광고 스택이 답변 생성과 분리돼 있으나 독립성·옵트아웃은 후속 검증 대상이다.",
+              "evidenceIds": [
+                "openai-ads-100k-official-20261021"
+              ]
+            }
+          ],
+          "stage": "outcome",
+          "impactDirection": "mixed",
+          "attribution": "company_action",
+          "breakdown": {
+            "action": {
+              "score": 29,
+              "reason": "10만 광고주의 실제 캠페인 운영과 89개국 배포·셀프서비스 인프라가 확인됐다."
+            },
+            "change": {
+              "score": 20,
+              "reason": "초기 연환산 매출·사례 단계에서 글로벌 광고주·유통망 규모로 확장됐다."
+            },
+            "impact": {
+              "score": 19,
+              "reason": "검색·소셜 광고 예산과 범용 AI의 수익구조·프라이버시 기준에 영향을 준다."
+            },
+            "verification": {
+              "score": 15,
+              "reason": "광고주·국가·사용자 수가 구체적이며 매출·유지율·마진·독립측정으로 판별 가능하다."
+            },
+            "source": {
+              "score": 10,
+              "reason": "OpenAI 공식 제품·기술 원문을 기존 공식 측정 발표와 대조했다."
+            }
+          },
+          "baseline": {
+            "date": "2026-10-05",
+            "statement": "ChatGPT Ads는 전환·귀속·증분효과 측정 파트너와 세 광고주의 초기 성과를 공개했다.",
+            "evidenceIds": [
+              "openai-chatgpt-ads-measurement-official-20261005"
+            ]
+          },
+          "evidenceIds": [
+            "openai-ads-100k-official-20261021"
+          ],
+          "assessmentNote": "29+20+19+15+10=93. 실제 광고주·국가 확장을 성과로 강화하되 유지율·마진·독립성 공백을 반영했다.",
+          "occurredAt": "2026-10-21",
+          "publishedAt": "2026-10-21",
+          "lateDiscovery": false,
+          "lateDiscoveryReason": null
+        }
+      },
       {
         "id": "revision-20261021-spacex-q3-ai-profit",
         "eventId": "spacex-q3-ai-profit",
@@ -28339,6 +30870,70 @@
         "leaderNames": [
           "샘 알트만(Sam Altman)"
         ]
+      },
+      {
+        "id": "tesla-ai-capital-discipline",
+        "title": "Tesla의 AI 투자와 현금흐름 규율",
+        "question": "Tesla가 양의 자유현금흐름을 유지하면서 AI·로보틱스 설비투자와 상용 성과를 계획대로 확대하는가?",
+        "leaderNames": [
+          "일론 머스크(Elon Musk)"
+        ]
+      },
+      {
+        "id": "meta-founder-control-ai-capital",
+        "title": "Meta AI 투자재원과 창업자 지배력",
+        "question": "무의결권 Class C가 AI 투자재원을 확대하면서 희석·인수·지배구조 위험을 어떻게 바꾸는가?",
+        "leaderNames": [
+          "마크 저커버그(Mark Zuckerberg)"
+        ]
+      },
+      {
+        "id": "openai-distributed-biological-reasoning",
+        "title": "분산 AI 에이전트의 생물학 연구 생산성",
+        "question": "분산 에이전트가 제안한 생물학 가설이 독립 실험에서 재현되고 후보 발굴 시간·비용·성공률을 개선하는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)"
+        ]
+      },
+      {
+        "id": "catl-domestic-global-mix",
+        "title": "CATL의 중국 경쟁과 글로벌 점유율",
+        "question": "CATL이 중국 내 점유율·이익 성장 둔화를 글로벌 점유율·에너지저장·교환망 성장으로 상쇄하는가?",
+        "leaderNames": [
+          "쩡위췬(Robin Zeng)"
+        ]
+      },
+      {
+        "id": "nvidia-modular-ai-factories",
+        "title": "모듈형 AI 공장의 배치 경제성",
+        "question": "DSX POD가 2027년 실제 고객 부지에서 14일 배치·가동률·총비용 개선을 재현하는가?",
+        "leaderNames": [
+          "젠슨 황(Jensen Huang)"
+        ]
+      },
+      {
+        "id": "openai-multicloud-distribution",
+        "title": "OpenAI의 다중 클라우드 유통",
+        "question": "Google Cloud 유통이 일반 제공·고객 사용량·마진으로 이어지며 Microsoft 주력 관계와 채널 갈등을 통제하는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)"
+        ]
+      },
+      {
+        "id": "openai-cross-provider-safety-enforcement",
+        "title": "OpenAI 다중 공급자 안전집행",
+        "question": "파트너·라우터의 사전승인과 공동집행이 서비스별 우회·오탐·사고를 실제 줄이고 독립 검증에 개방되는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)"
+        ]
+      },
+      {
+        "id": "anthropic-long-term-benefit-governance",
+        "title": "Anthropic 장기공익신탁의 실질 통제",
+        "question": "독립 수탁자와 이사회 과반 지명권이 고위험 모델·IPO·자본조달 결정에서 실제 제동과 공개 책임을 만드는가?",
+        "leaderNames": [
+          "다리오 아모데이(Dario Amodei)"
+        ]
       }
     ],
     "migration": {
@@ -28353,24 +30948,1031 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-20T07:31:49+09:00",
-    "end": "2026-10-21T07:27:54+09:00"
+    "start": "2026-10-21T07:27:54+09:00",
+    "end": "2026-10-22T07:26:28+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 32,
-    "newSignals": 1,
-    "newObservations": 2,
+    "sourcesChecked": 36,
+    "newSignals": 7,
+    "newObservations": 4,
     "upgrades": 0,
     "downgrades": 0,
     "reversals": 0,
     "actionTransitions": 0,
     "excludedCount": 7,
-    "notes": "22명 전원과 중복 제거 원문을 확인했다. SpaceX Q3의 전사·SI 흑자와 첫 매출 발생 Starship 임무(95)를 결정적으로, Tesla–SpaceX 특별위원회 논의(74)와 OpenAI의 Orchestra Bio 인수(70)를 관찰로 선별했다. AMD–Intel oneDNN 계획·FSR 4.1은 리더 전략 변화·성과가 부족했고, Anthropic 공익기금·TSMC Q3는 기존 사건 반복, OpenAI 자금조달설은 익명 보도, Tyler Cowen 글은 타인 연구 소개, 기타 리더는 신규 기준 미달로 제외했다.",
-    "note": "22명 전원과 중복 제거 원문을 확인했다. SpaceX Q3의 전사·SI 흑자와 첫 매출 발생 Starship 임무(95)를 결정적으로, Tesla–SpaceX 특별위원회 논의(74)와 OpenAI의 Orchestra Bio 인수(70)를 관찰로 선별했다. AMD–Intel oneDNN 계획·FSR 4.1은 리더 전략 변화·성과가 부족했고, Anthropic 공익기금·TSMC Q3는 기존 사건 반복, OpenAI 자금조달설은 익명 보도, Tyler Cowen 글은 타인 연구 소개, 기타 리더는 신규 기준 미달로 제외했다."
+    "notes": "22명 전원과 중복 제거 원문을 확인했다. Tesla Q3 현금흐름(88), Meta Muse 1천만 계정(92)·Class C(84), OpenAI 광고(93)·Daybreak(92)·분산 생물학 연구(81), CATL Q3 경쟁 약화(76)를 결정적으로, NVIDIA DSX POD(74), OpenAI Google Cloud(70)·공급자 안전정책(65), Anthropic 장기공익신탁(66)을 관찰로 선별했다. Hassabis 전망 발언, AMD 반복 제품 업데이트, TSMC 현장사고, Meta 외부 판결, Andreessen 합산 기부, Cowen 교정정책 견해 등은 변화량·귀속·검증성이 부족해 제외했다.",
+    "note": "22명 전원과 중복 제거 원문을 확인했다. Tesla Q3 현금흐름(88), Meta Muse 1천만 계정(92)·Class C(84), OpenAI 광고(93)·Daybreak(92)·분산 생물학 연구(81), CATL Q3 경쟁 약화(76)를 결정적으로, NVIDIA DSX POD(74), OpenAI Google Cloud(70)·공급자 안전정책(65), Anthropic 장기공익신탁(66)을 관찰로 선별했다. Hassabis 전망 발언, AMD 반복 제품 업데이트, TSMC 현장사고, Meta 외부 판결, Andreessen 합산 기부, Cowen 교정정책 견해 등은 변화량·귀속·검증성이 부족해 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "catl-q3-competition-20261020",
+      "eventId": "catl-q3-2026-competition",
+      "hypothesisId": "catl-domestic-global-mix",
+      "leader": "쩡위췬(Robin Zeng)",
+      "role": "CATL 창업자·CEO",
+      "initials": "RZ",
+      "score": 76,
+      "kind": "약화",
+      "date": "2026.10.20",
+      "reportDate": "2026.10.22",
+      "theme": "에너지 전환",
+      "headline": "CATL Q3 이익 성장률이 2년래 최저로 둔화하고 중국 점유율은 49.8%에서 40.9%로 하락했다",
+      "takeaway": "매출과 세계 점유율은 늘었지만 중국 경쟁 심화가 이익 성장과 내수 지배력을 동시에 압박했다. 해외 공급·에너지저장·교환망이 마진과 내수 점유율 하락을 상쇄하는지가 핵심이다.",
+      "before": "Q2 순이익 성장률은 36.5%였고 2026년 1월 중국 파워배터리 설치 점유율은 49.8%였다.",
+      "now": "Q3 순이익 성장률은 14.5%로 둔화했고 9월 중국 점유율은 40.9%로 낮아졌다. 반면 세계 EV 배터리 사용 점유율은 37.7%에서 39.4%로 상승했다.",
+      "facts": [
+        "Q3 순이익은 전년 대비 14.5% 증가한 212억위안으로 LSEG 예상 41.2% 증가를 밑돌았다.",
+        "매출은 58.6% 증가한 1652억위안이었지만 순이익 성장률은 Q2 36.5%에서 둔화했다.",
+        "중국 파워배터리 설치 점유율은 1월 49.8%에서 9월 40.9%로 하락했다.",
+        "세계 EV 배터리 사용 점유율은 전년 37.7%에서 39.4%로 상승했다."
+      ],
+      "action": "CATL의 실제 분기 실적과 점유율이 해외 확장과 중국 내 경쟁 압력의 분화를 보여줬다.",
+      "impact": "배터리 가격·수익성·완성차 협상력과 소재·교환망·에너지저장 공급망의 투자 우선순위가 국내외 성과 차이에 따라 바뀔 수 있다.",
+      "impactPath": [
+        "중국 점유율 하락·가격경쟁",
+        "순이익 성장 둔화",
+        "해외·저장·교환망 다각화",
+        "마진·글로벌 점유율 상쇄 검증"
+      ],
+      "counter": "한 분기 성장 둔화에도 매출은 58.6%, 세계 점유율은 상승했다. 제품 출시·교환망·해외 고객 확대가 이어지면 내수 하락이 구조적 약화로 연결되지 않을 수 있다.",
+      "next": "Q4 중국·세계 점유율, 배터리 ASP·단위마진, 해외 매출·가동률, 에너지저장 비중, 교환소·트럭 배터리 판매를 확인한다.",
+      "source": "https://www.reuters.com/business/autos-transportation/chinas-catl-profit-growth-slows-third-quarter-competition-intensifies-2026-10-20/",
+      "sourceLabel": "Reuters · 2026.10.20",
+      "sourceGrade": "B",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 24,
+            "reason": "분기 실적과 중국·세계 시장점유율이라는 실제 운영 결과가 확인됐다."
+          },
+          "change": {
+            "score": 16,
+            "reason": "순이익 성장률과 중국 점유율이 직전 분기·연초 대비 의미 있게 둔화했다."
+          },
+          "impact": {
+            "score": 16,
+            "reason": "배터리 가격·완성차 협상력과 소재·저장·교환망 투자에 영향을 준다."
+          },
+          "verification": {
+            "score": 12,
+            "reason": "분기 이익·점유율·ASP·해외 매출로 추적 가능하지만 회사 공식 원문을 직접 열지 못했다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "신뢰도 높은 Reuters 직접 보도가 거래소 공시와 산업데이터를 인용했지만 공식 공시 원문 확인은 제한됐다."
+          }
+        },
+        "baseline": {
+          "date": "2026-06-30",
+          "statement": "CATL Q2 순이익 성장률은 36.5%였고 2026년 1월 중국 점유율은 49.8%였다.",
+          "evidenceIds": [
+            "catl-q3-reuters-20261020"
+          ]
+        },
+        "evidenceIds": [
+          "catl-q3-reuters-20261020"
+        ],
+        "note": "24+16+16+12+8=76. 국내 경쟁 약화와 글로벌 점유율 상승이 공존해 혼합 방향으로 평가했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-10-20T21:17:00+09:00",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "직전 성공 구간 종료 전 게시됐지만 당시 수집에서 누락돼 이번 중첩 수집구간에서 Reuters 원문을 처음 검증했다."
+      },
+      "industryLinks": [
+        {
+          "sector": "EV 배터리·소재",
+          "relationship": "indirect",
+          "text": "중국 점유율 하락은 가격·마진과 소재 주문 구조에 압력을 줄 수 있다.",
+          "evidenceIds": [
+            "catl-q3-reuters-20261020"
+          ]
+        },
+        {
+          "sector": "에너지저장·배터리 교환",
+          "relationship": "hypothesis",
+          "text": "다각화가 내수 경쟁과 이익 성장 둔화를 상쇄하는지는 후속 실적으로 검증해야 한다.",
+          "evidenceIds": [
+            "catl-q3-reuters-20261020"
+          ]
+        }
+      ],
+      "stage": "outcome",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 24,
+          "reason": "분기 실적과 중국·세계 시장점유율이라는 실제 운영 결과가 확인됐다."
+        },
+        "change": {
+          "score": 16,
+          "reason": "순이익 성장률과 중국 점유율이 직전 분기·연초 대비 의미 있게 둔화했다."
+        },
+        "impact": {
+          "score": 16,
+          "reason": "배터리 가격·완성차 협상력과 소재·저장·교환망 투자에 영향을 준다."
+        },
+        "verification": {
+          "score": 12,
+          "reason": "분기 이익·점유율·ASP·해외 매출로 추적 가능하지만 회사 공식 원문을 직접 열지 못했다."
+        },
+        "source": {
+          "score": 8,
+          "reason": "신뢰도 높은 Reuters 직접 보도가 거래소 공시와 산업데이터를 인용했지만 공식 공시 원문 확인은 제한됐다."
+        }
+      },
+      "baseline": {
+        "date": "2026-06-30",
+        "statement": "CATL Q2 순이익 성장률은 36.5%였고 2026년 1월 중국 점유율은 49.8%였다.",
+        "evidenceIds": [
+          "catl-q3-reuters-20261020"
+        ]
+      },
+      "evidenceIds": [
+        "catl-q3-reuters-20261020"
+      ],
+      "assessmentNote": "24+16+16+12+8=76. 국내 경쟁 약화와 글로벌 점유율 상승이 공존해 혼합 방향으로 평가했다.",
+      "occurredAt": "2026-09-30",
+      "publishedAt": "2026-10-20T21:17:00+09:00",
+      "lateDiscovery": true,
+      "lateDiscoveryReason": "직전 성공 구간 종료 전 게시됐지만 당시 수집에서 누락돼 이번 중첩 수집구간에서 Reuters 원문을 처음 검증했다."
+    },
+    {
+      "id": "openai-distributed-bio-reasoning-20261021",
+      "eventId": "openai-distributed-bio-reasoning",
+      "hypothesisId": "openai-distributed-biological-reasoning",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 81,
+      "kind": "신규",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 배포",
+      "headline": "수천 GPT-Rosalind 에이전트가 수백만 뇌세포 데이터를 32분에 분석해 검증 가능한 질병 가설을 만들었다",
+      "takeaway": "생명과학 AI가 분석 도구 제공에서 대규모 분산 연구 실행과 공개 reasoning atlas로 이동했다. 블라인드 전문가 선호는 확인됐지만 제안된 가설의 실험실 재현과 신약 성과는 남아 있다.",
+      "before": "2026년 10월 15일 Rosalind Academic Plan은 대학 연구실에 모델·Workbench 접근을 제공했지만 대규모 분산 에이전트의 실제 연구성과는 공개하지 않았다.",
+      "now": "OpenAI·PerturbAI·Scripps는 수천 에이전트가 수백만 생쥐 뇌세포 데이터를 32분에 분석해 기존 결과를 재현하고 추가 질병 가설과 공개 reasoning atlas를 만들었다.",
+      "facts": [
+        "수천 GPT-Rosalind 에이전트가 수백만 생쥐 뇌세포의 CRISPR atlas를 32분간 분석했다.",
+        "분산 에이전트는 최대 작업에서 700편 이상 문헌을 인용해 단일 에이전트의 11편을 크게 웃돌았다.",
+        "블라인드 전문가들은 분산 에이전트 보고서를 단일 에이전트보다 75% 선호했다.",
+        "DCTN1·콜레스테롤 분포와 신경퇴행 연결 등 후속 실험 가능한 가설을 제안했지만 아직 실험 검증 전이다."
+      ],
+      "action": "OpenAI가 파트너 연구기관과 수천 에이전트를 실제 생물학 데이터에 배치하고 결과 atlas와 실험 가설을 공개했다.",
+      "impact": "바이오 데이터 해석의 시간·문헌 탐색 병목을 낮추면 실험 우선순위와 신약 타깃 발굴 구조가 바뀔 수 있지만 wet-lab 검증이 가치 전환의 관문이다.",
+      "impactPath": [
+        "수천 에이전트 병렬 분석",
+        "문헌·세포 데이터 연결",
+        "후속 실험 가설 우선순위화",
+        "재현·후보발굴 시간 단축 검증"
+      ],
+      "counter": "연구는 생쥐 데이터와 프리프린트 기반이며 OpenAI 중심 보고다. 새로운 가설이 독립 실험·인간 질환·임상 후보로 재현되지 않으면 생산성 향상이 과학적 성과로 이어지지 않는다.",
+      "next": "DCTN1·콜레스테롤 등 가설의 wet-lab 재현, 독립팀 복제, 비용·시간·오탐률, Orchestra 통합과 실제 후보·임상 진전을 확인한다.",
+      "source": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "sourceLabel": "OpenAI 공식 연구 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 25,
+            "reason": "수천 에이전트를 실제 데이터에 배치하고 공개 atlas·가설을 산출했다."
+          },
+          "change": {
+            "score": 17,
+            "reason": "모델 접근 제공에서 분산 연구 실행·전문가 비교·공개 산출물로 진전했다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "바이오 데이터 해석·실험 우선순위·신약 타깃 발굴의 비용 구조를 바꿀 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "가설·atlas·프리프린트가 공개돼 독립 실험으로 판별 가능하지만 wet-lab 재현 전이다."
+          },
+          "source": {
+            "score": 8,
+            "reason": "공식 원문과 공개 프리프린트 링크가 있으나 회사 중심 보고이고 독립 실험 검증은 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-15",
+          "statement": "Rosalind Academic Plan은 대학 연구실에 모델·Workbench 접근을 제공했지만 분산 에이전트 연구성과는 없었다.",
+          "evidenceIds": [
+            "openai-rosalind-plan-official-20261015"
+          ]
+        },
+        "evidenceIds": [
+          "openai-distributed-bio-official-20261021"
+        ],
+        "note": "25+17+18+13+8=81. 실제 연구산출물을 성과로 평가하되 프리프린트·생쥐 데이터와 wet-lab 검증 공백을 반영했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "바이오파마 R&D",
+          "relationship": "indirect",
+          "text": "분산 에이전트가 실험 우선순위와 신약 타깃 발굴 시간을 줄일 가능성이 있다.",
+          "evidenceIds": [
+            "openai-distributed-bio-official-20261021"
+          ]
+        },
+        {
+          "sector": "과학 연구 소프트웨어",
+          "relationship": "confirmed",
+          "text": "reasoning atlas와 에이전트 비교 결과가 공개됐다.",
+          "evidenceIds": [
+            "openai-distributed-bio-official-20261021"
+          ]
+        }
+      ],
+      "stage": "outcome",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 25,
+          "reason": "수천 에이전트를 실제 데이터에 배치하고 공개 atlas·가설을 산출했다."
+        },
+        "change": {
+          "score": 17,
+          "reason": "모델 접근 제공에서 분산 연구 실행·전문가 비교·공개 산출물로 진전했다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "바이오 데이터 해석·실험 우선순위·신약 타깃 발굴의 비용 구조를 바꿀 수 있다."
+        },
+        "verification": {
+          "score": 13,
+          "reason": "가설·atlas·프리프린트가 공개돼 독립 실험으로 판별 가능하지만 wet-lab 재현 전이다."
+        },
+        "source": {
+          "score": 8,
+          "reason": "공식 원문과 공개 프리프린트 링크가 있으나 회사 중심 보고이고 독립 실험 검증은 없다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-15",
+        "statement": "Rosalind Academic Plan은 대학 연구실에 모델·Workbench 접근을 제공했지만 분산 에이전트 연구성과는 없었다.",
+        "evidenceIds": [
+          "openai-rosalind-plan-official-20261015"
+        ]
+      },
+      "evidenceIds": [
+        "openai-distributed-bio-official-20261021"
+      ],
+      "assessmentNote": "25+17+18+13+8=81. 실제 연구산출물을 성과로 평가하되 프리프린트·생쥐 데이터와 wet-lab 검증 공백을 반영했다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "meta-class-c-founder-control-20261021",
+      "eventId": "meta-class-c-founder-control",
+      "hypothesisId": "meta-founder-control-ai-capital",
+      "leader": "마크 저커버그(Mark Zuckerberg)",
+      "role": "Meta CEO",
+      "initials": "MZ",
+      "score": 84,
+      "kind": "신규",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 인프라",
+      "headline": "Meta가 AI 투자·인수 재원을 위해 무의결권 Class C를 만들고 Zuckerberg 지배력을 고정한다",
+      "takeaway": "349억달러 분기 설비투자와 음의 자유현금흐름 속에 Meta가 의결권 희석 없이 주식 조달·보상·인수를 늘릴 자본도구를 승인했다. AI 투자 지속성은 높아지지만 소수주주 통제와 희석 위험도 함께 커진다.",
+      "before": "2026년 7월 Q2 10-Q의 공개 자본구조는 Class A·B 중심이었고 AI 투자용 공개 상장 무의결권 Class C는 없었다.",
+      "now": "이사회·독립 특별위원회와 주주 서면동의를 거쳐 2027년 1월 Class C 신설, 1대1 주식배당과 Founder Alignment Agreement를 확정했다.",
+      "facts": [
+        "Meta 이사회는 공개 상장 무의결권 Class C를 2027년 1월 19일 신설하기로 승인했다.",
+        "Class A·B 각 1주당 Class C 1주를 지급하며 주주 의결권은 바뀌지 않는다.",
+        "Founder Alignment Agreement는 Zuckerberg의 Class C 매각·재직·향후 배당 조건을 규정한다.",
+        "Meta Q3 설비투자는 349억1000만달러, 자유현금흐름은 -21억2000만달러였다."
+      ],
+      "action": "Meta가 이사회·독립위원회·주주 승인을 마치고 무의결권 주식과 창업자 정렬 계약을 통해 AI 투자·인수용 자본조달 구조를 실행했다.",
+      "impact": "장기 AI 설비투자와 인수 여력은 커지지만 경제적 희석과 의결권 분리가 심화돼 자본비용·지배구조 할인·주주 견제에 영향을 준다.",
+      "impactPath": [
+        "Class C 주식배당·상장",
+        "의결권 희석 없는 자금조달·보상·인수",
+        "AI 인프라 투자 지속",
+        "희석·지배구조 할인 검증"
+      ],
+      "counter": "효력은 2027년 1월 예정이고 실제 발행·조달·인수 규모는 미정이다. 특별위원회 절차에도 창업자 지배력 고정이 자본규율과 소수주주 권리를 약화할 수 있다.",
+      "next": "1월 효력발생·8-K/정보서, Class C 상장과 실제 발행·조달·인수, 주식보상 희석률, AI 투자수익과 독립이사회 견제를 확인한다.",
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "sourceLabel": "Meta 공식 Q3 실적·Class C 발표 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "execution",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 23,
+            "reason": "이사회·독립위원회·주주 승인과 Founder Alignment Agreement 체결까지 실제 법적 절차가 진행됐다."
+          },
+          "change": {
+            "score": 18,
+            "reason": "Class A·B 중심 구조에서 공개 상장 무의결권 Class C로 자본조달·지배구조를 의미 있게 변경한다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "AI 투자·인수 재원과 창업자 지배력·주주 희석을 함께 바꾸는 자본시장 사건이다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "2027년 1월 효력일과 향후 8-K·정보서·발행량·희석률로 명확히 검증할 수 있다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Meta 공식 실적·이사회 발표와 직전 SEC 10-Q를 직접 대조했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-07-30",
+          "statement": "Meta Q2 10-Q의 공개 자본구조는 Class A·B 중심이며 공개 상장 무의결권 Class C는 없었다.",
+          "evidenceIds": [
+            "meta-q2-10q-official-20260730"
+          ]
+        },
+        "evidenceIds": [
+          "meta-q3-official-20261021",
+          "meta-q2-10q-official-20260730"
+        ],
+        "note": "23+18+18+15+10=84. 승인·계약을 실행으로 평가하되 실제 발행 전이며 투자 지속성과 지배구조 위험이 함께 커져 혼합 방향이다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·자본시장",
+          "relationship": "indirect",
+          "text": "Class C는 대규모 AI 인프라 투자를 위한 주식 조달·인수·보상 수단을 넓힌다.",
+          "evidenceIds": [
+            "meta-q3-official-20261021"
+          ]
+        },
+        {
+          "sector": "기업지배구조",
+          "relationship": "confirmed",
+          "text": "무의결권 Class C와 Founder Alignment Agreement가 Zuckerberg의 의결권을 희석하지 않도록 설계됐다.",
+          "evidenceIds": [
+            "meta-q3-official-20261021"
+          ]
+        }
+      ],
+      "stage": "execution",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 23,
+          "reason": "이사회·독립위원회·주주 승인과 Founder Alignment Agreement 체결까지 실제 법적 절차가 진행됐다."
+        },
+        "change": {
+          "score": 18,
+          "reason": "Class A·B 중심 구조에서 공개 상장 무의결권 Class C로 자본조달·지배구조를 의미 있게 변경한다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "AI 투자·인수 재원과 창업자 지배력·주주 희석을 함께 바꾸는 자본시장 사건이다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "2027년 1월 효력일과 향후 8-K·정보서·발행량·희석률로 명확히 검증할 수 있다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "Meta 공식 실적·이사회 발표와 직전 SEC 10-Q를 직접 대조했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-07-30",
+        "statement": "Meta Q2 10-Q의 공개 자본구조는 Class A·B 중심이며 공개 상장 무의결권 Class C는 없었다.",
+        "evidenceIds": [
+          "meta-q2-10q-official-20260730"
+        ]
+      },
+      "evidenceIds": [
+        "meta-q3-official-20261021",
+        "meta-q2-10q-official-20260730"
+      ],
+      "assessmentNote": "23+18+18+15+10=84. 승인·계약을 실행으로 평가하되 실제 발행 전이며 투자 지속성과 지배구조 위험이 함께 커져 혼합 방향이다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "tesla-q3-cash-flow-20261021",
+      "eventId": "tesla-q3-2026-cash-flow",
+      "hypothesisId": "tesla-ai-capital-discipline",
+      "leader": "일론 머스크(Elon Musk)",
+      "role": "Tesla · SpaceX · xAI CEO",
+      "initials": "EM",
+      "score": 88,
+      "kind": "반전",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 인프라",
+      "headline": "Tesla가 AI 설비투자를 두 배로 늘린 가운데 자유현금흐름을 15억달러 흑자로 전환했다",
+      "takeaway": "Tesla는 2분기 현금소진에서 3분기 흑자로 돌아섰고 FSD 구독도 늘었지만, 시장 예상보다 낮은 설비투자가 현금흐름 개선의 일부여서 AI·로보틱스 집행 속도와 수익화의 균형이 다음 시험이다.",
+      "before": "2026년 2분기 Tesla는 설비투자 57억8900만달러와 자유현금흐름 -10억9200만달러를 기록해 AI·로보틱스 확대가 단기 현금을 압박했다.",
+      "now": "3분기 설비투자는 47억3200만달러로 전년 대비 110% 증가했지만 전분기보다 줄었고, 영업현금흐름 62억6300만달러와 자유현금흐름 15억3100만달러를 기록했다.",
+      "facts": [
+        "자유현금흐름은 Q2 -10억9200만달러에서 Q3 15억3100만달러로 전환됐다.",
+        "Q3 설비투자는 47억3200만달러로 전년 대비 110% 늘었지만 시장 예상 약 75억달러를 밑돌았다.",
+        "인도량은 48만6532대, FSD 유료 구독은 174만건으로 전분기 148만건에서 증가했다.",
+        "매출은 280억4600만달러로 전년과 비슷했고 GAAP 영업이익은 전년 대비 56% 감소했다."
+      ],
+      "action": "Tesla가 차량·FSD 운영에서 현금을 창출해 대규모 AI·로보틱스 설비투자 중에도 분기 자유현금흐름을 흑자로 돌렸다.",
+      "impact": "전기차 현금창출이 AI·로봇 투자 재원을 버틸 수 있는지가 Tesla 가치평가와 가속기·전력·공장 자동화 공급망 수요의 핵심 변수가 된다.",
+      "impactPath": [
+        "차량 인도·FSD 구독 증가",
+        "영업현금흐름 확대",
+        "AI·로보틱스 설비투자 재원",
+        "상용 매출·반복 현금흐름 검증"
+      ],
+      "counter": "현금흐름 개선의 일부는 예상보다 낮은 설비투자에서 왔고 매출은 정체, GAAP 영업이익은 감소했다. 로보택시·Optimus의 상용 성과가 지연되면 투자 축소가 성장 선택지를 약화할 수 있다.",
+      "next": "Q4 설비투자와 자유현금흐름, FSD 구독 유지율·로보택시 유료승차, Optimus 생산·매출, 연간 인도 증가 여부를 확인한다.",
+      "source": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+      "sourceLabel": "Tesla 공식 Q3 업데이트 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 28,
+            "reason": "실제 분기 영업현금흐름·자유현금흐름과 FSD 구독·설비투자 결과가 공시됐다."
+          },
+          "change": {
+            "score": 20,
+            "reason": "Q2 현금소진에서 Q3 흑자로 전환했지만 투자 축소 효과가 섞여 근본적 사업반전으로 단정하지 않았다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "전기차 현금창출과 AI·로봇 자본집행의 균형은 공급망·자본시장에 큰 영향을 준다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "분기별 설비투자·현금흐름·FSD 구독과 상용 매출로 반복 검증할 수 있다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "Tesla 공식 분기자료를 Reuters 직접 보도와 대조했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-07-22",
+          "statement": "Tesla Q2 설비투자는 57억8900만달러, 자유현금흐름은 -10억9200만달러였다.",
+          "evidenceIds": [
+            "tesla-q3-official-20261021"
+          ]
+        },
+        "evidenceIds": [
+          "tesla-q3-official-20261021",
+          "tesla-q3-reuters-20261021"
+        ],
+        "note": "28+20+18+13+9=88. 현금흐름 전환은 성과지만 예상 이하 설비투자와 이익 감소를 반영해 혼합 방향으로 평가했다."
+      },
+      "timing": {
+        "occurredAt": "2026-09-30",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "AI 데이터센터·로보틱스",
+          "relationship": "indirect",
+          "text": "설비투자 집행 속도는 가속기·전력·냉각·공장 자동화 수요에 영향을 준다.",
+          "evidenceIds": [
+            "tesla-q3-official-20261021"
+          ]
+        },
+        {
+          "sector": "전기차·자율주행",
+          "relationship": "confirmed",
+          "text": "Tesla는 48만6532대 인도와 FSD 유료 구독 174만건을 공시했다.",
+          "evidenceIds": [
+            "tesla-q3-official-20261021"
+          ]
+        }
+      ],
+      "stage": "outcome",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 28,
+          "reason": "실제 분기 영업현금흐름·자유현금흐름과 FSD 구독·설비투자 결과가 공시됐다."
+        },
+        "change": {
+          "score": 20,
+          "reason": "Q2 현금소진에서 Q3 흑자로 전환했지만 투자 축소 효과가 섞여 근본적 사업반전으로 단정하지 않았다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "전기차 현금창출과 AI·로봇 자본집행의 균형은 공급망·자본시장에 큰 영향을 준다."
+        },
+        "verification": {
+          "score": 13,
+          "reason": "분기별 설비투자·현금흐름·FSD 구독과 상용 매출로 반복 검증할 수 있다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "Tesla 공식 분기자료를 Reuters 직접 보도와 대조했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-07-22",
+        "statement": "Tesla Q2 설비투자는 57억8900만달러, 자유현금흐름은 -10억9200만달러였다.",
+        "evidenceIds": [
+          "tesla-q3-official-20261021"
+        ]
+      },
+      "evidenceIds": [
+        "tesla-q3-official-20261021",
+        "tesla-q3-reuters-20261021"
+      ],
+      "assessmentNote": "28+20+18+13+9=88. 현금흐름 전환은 성과지만 예상 이하 설비투자와 이익 감소를 반영해 혼합 방향으로 평가했다.",
+      "occurredAt": "2026-09-30",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "meta-muse-personal-agent",
+      "eventId": "meta-muse-personal-agent",
+      "hypothesisId": "consumer-personal-agent-platform",
+      "leader": "마크 저커버그(Mark Zuckerberg)",
+      "role": "Meta CEO",
+      "initials": "MZ",
+      "score": 92,
+      "kind": "강화",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 배포",
+      "headline": "Meta Muse가 출시 약 두 달 만에 미국·캐나다 계정 1천만명을 넘었다",
+      "takeaway": "500만 다운로드의 초기 관심이 1천만 계정 개설로 확대됐다. 다만 계정 수는 활성 사용자·유료전환·작업 완료율이 아니므로 개인 에이전트의 반복 사용과 경제성은 아직 별도 검증이 필요하다.",
+      "before": "2026년 10월 2일 Muse는 출시 첫 달 500만 다운로드를 기록했지만 활성·유료 사용자와 작업 성공률은 공개하지 않았다.",
+      "now": "Zuckerberg는 Q3 실적 통화에서 미국·캐나다 Muse 계정 개설자가 1천만명을 넘었다고 밝혔다.",
+      "facts": [
+        "Muse는 2026년 8월 미국에서 출시됐고 9월 22일 280만 다운로드, 10월 2일 500만 다운로드가 보도됐다.",
+        "2026년 10월 21일 Zuckerberg는 미국·캐나다에서 1천만명 이상이 Muse 계정을 만들었다고 밝혔다.",
+        "Meta Q3 매출은 646억달러로 26% 증가했고 회사는 AI 투자가 광고 매출에 기여한다고 밝혔다.",
+        "활성 사용자·유료전환·작업 성공률·추론 원가는 공개되지 않았다."
+      ],
+      "action": "Meta가 Muse를 실제 배포해 두 달여 만에 1천만 계정 개설 규모로 확대했다.",
+      "impact": "개인 에이전트가 검색·커머스·앱 실행의 새 진입점이 될 가능성을 키우지만 광고·구독 수익과 추론비용의 균형이 필요하다.",
+      "impactPath": [
+        "Muse 계정 1천만명",
+        "반복 작업·커머스 사용",
+        "광고·구독·거래 수익",
+        "개인 에이전트 플랫폼 경쟁"
+      ],
+      "counter": "계정 개설은 월간 활성·유료전환·작업 완료와 다르며 미국·캐나다 외 확장, 외부 서비스 접근 안정성, 개인정보·오동작 지표가 공개되지 않았다.",
+      "next": "Muse MAU·7일/30일 유지율, 유료전환·작업 완료율, 거래액·추론원가, 지역 확대와 안전사고를 확인한다.",
+      "source": "https://apnews.com/article/meta-earnings-facebook-instagram-muse-capex-13ecd6c459e39a3602f302bcc2412fe9",
+      "sourceLabel": "AP · Meta Q3 실적 통화 · 2026.10.21",
+      "sourceGrade": "B",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 29,
+            "reason": "실제 배포된 제품이 1천만 계정 규모에 도달했다."
+          },
+          "change": {
+            "score": 20,
+            "reason": "첫 달 500만 다운로드에서 두 달여 만에 1천만 계정으로 사용자 기반이 확대됐다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "검색·커머스·앱 실행을 통합하는 개인 에이전트의 플랫폼 가능성을 키운다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "계정 수가 구체적이며 MAU·유지율·유료전환·작업 성공률로 후속 판별할 수 있다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "Zuckerberg의 실적 통화 직접 발언을 AP가 보도하고 Meta 공식 실적과 교차확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-02",
+          "statement": "Muse는 출시 첫 달 500만 다운로드를 기록했다.",
+          "evidenceIds": [
+            "meta-muse-5m-breakingviews-20261002"
+          ]
+        },
+        "evidenceIds": [
+          "meta-muse-10m-ap-20261021",
+          "meta-q3-official-20261021"
+        ],
+        "note": "29+20+18+15+10=92. 계정 성장 성과를 강화하되 활성·유료·작업 성과의 공백은 남겼다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "소비자 AI·에이전트",
+          "relationship": "confirmed",
+          "text": "미국·캐나다에서 Muse 계정이 1천만명을 넘었다.",
+          "evidenceIds": [
+            "meta-muse-10m-ap-20261021"
+          ]
+        },
+        {
+          "sector": "검색·커머스·디지털 광고",
+          "relationship": "hypothesis",
+          "text": "반복 사용과 거래·광고 수익 전환은 아직 검증해야 한다.",
+          "evidenceIds": [
+            "meta-muse-10m-ap-20261021"
+          ]
+        }
+      ],
+      "stage": "outcome",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 29,
+          "reason": "실제 배포된 제품이 1천만 계정 규모에 도달했다."
+        },
+        "change": {
+          "score": 20,
+          "reason": "첫 달 500만 다운로드에서 두 달여 만에 1천만 계정으로 사용자 기반이 확대됐다."
+        },
+        "impact": {
+          "score": 18,
+          "reason": "검색·커머스·앱 실행을 통합하는 개인 에이전트의 플랫폼 가능성을 키운다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "계정 수가 구체적이며 MAU·유지율·유료전환·작업 성공률로 후속 판별할 수 있다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "Zuckerberg의 실적 통화 직접 발언을 AP가 보도하고 Meta 공식 실적과 교차확인했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-02",
+        "statement": "Muse는 출시 첫 달 500만 다운로드를 기록했다.",
+        "evidenceIds": [
+          "meta-muse-5m-breakingviews-20261002"
+        ]
+      },
+      "evidenceIds": [
+        "meta-muse-10m-ap-20261021",
+        "meta-q3-official-20261021"
+      ],
+      "assessmentNote": "29+20+18+15+10=92. 계정 성장 성과를 강화하되 활성·유료·작업 성과의 공백은 남겼다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "openai-daybreak-billion",
+      "eventId": "openai-daybreak-billion",
+      "hypothesisId": "hyp-openai-daybreak-billion",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 92,
+      "kind": "강화",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 안전",
+      "headline": "OpenAI Daybreak가 PHP 중대 취약점을 선제 발견하고 유지관리자·클라우드·정부의 패치 대응을 조율했다",
+      "takeaway": "기존 상류 패치 집계가 광범위한 PHP 취약점의 선제 발견·수정·보호 배포라는 실제 사고대응 성과로 깊어졌다. 다만 심각도·CVE·공격 차단 효과는 공개 후 독립 검증이 필요하다.",
+      "before": "2026년 10월 10일 Daybreak는 65개 코드베이스에서 661개 패치 제작·458개 상류 반영을 공개했지만 개별 중대 사건의 전주기 대응은 제한적으로 공개됐다.",
+      "now": "GPT-5.6 Sol 기반 연구가 PHP 중대 취약점을 찾아 유지관리자·Wiz·Cloudflare와 패치·보호책을 준비하고 CISA 등 정부기관과 사전 대응을 조율했다.",
+      "facts": [
+        "Calif가 GPT-5.6 Sol을 활용해 PHP 중대 취약점을 찾았고 Wiz도 두 취약점을 독립 발견·보고했다.",
+        "PHP 유지관리자가 수정·배포를 주도하고 OpenAI·Wiz·Cloudflare 등이 공개 전 보호책을 준비했다.",
+        "OpenAI는 취약 버전을 확인하는 Codex skill과 공개 대응 프레임워크를 배포했다.",
+        "OpenAI는 CISA·ONCD 등 미국 정부기관과 국제 파트너를 대응 조율에 참여시켰다."
+      ],
+      "action": "OpenAI가 AI 취약점 탐지에서 유지관리자 패치·클라우드 보호·정부 공지까지 실제 전주기 대응을 운영했다.",
+      "impact": "프런티어 모델이 인터넷 핵심 오픈소스의 선제 방어 도구로 쓰이면서 보안 조달·책임공개·공공기관 협업 기준을 바꿀 수 있다.",
+      "impactPath": [
+        "AI 선제 취약점 발견",
+        "유지관리자 패치·클라우드 완화",
+        "정부·인프라 사업자 사전 대응",
+        "오픈소스 방어 표준 확산"
+      ],
+      "counter": "공식 원문 중심의 자기보고이며 CVE·심각도·패치 채택률·실제 공격 차단과 오탐은 아직 공개되지 않았다. 같은 능력이 공격자에게 확산될 위험도 있다.",
+      "next": "PHP 공식 CVE·패치와 독립 기술분석, 배포율·공격 차단·오탐, Daybreak 이용권 소진액·기관 수와 MS-ISAC 성과를 확인한다.",
+      "source": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "sourceLabel": "OpenAI 공식 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 30,
+            "reason": "실제 중대 취약점 발견부터 패치·보호·정부 공조까지 전주기 운영 성과가 확인됐다."
+          },
+          "change": {
+            "score": 21,
+            "reason": "다수 패치 집계에서 인터넷 핵심 소프트웨어의 선제 대응 사건으로 진전했다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "오픈소스·클라우드·공공 사이버보안의 탐지·공개·패치 표준에 영향을 준다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "PHP 공식 CVE·패치·배포율·공격 차단으로 검증 가능하지만 현재는 회사 중심 공개다."
+          },
+          "source": {
+            "score": 9,
+            "reason": "OpenAI 공식 원문과 파트너 명시는 있으나 독립 기술보고는 아직 없다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-10",
+          "statement": "Daybreak는 65개 코드베이스에서 661개 패치 제작과 458개 상류 반영을 공개했다.",
+          "evidenceIds": [
+            "openai-daybreak-outcomes-official-20261010"
+          ]
+        },
+        "evidenceIds": [
+          "openai-patch-planet-php-official-20261021"
+        ],
+        "note": "30+21+19+13+9=92. 구체적 전주기 대응을 성과로 강화하되 독립 기술검증 전이라는 한계를 남겼다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "오픈소스·클라우드 보안",
+          "relationship": "confirmed",
+          "text": "PHP 유지관리자·Wiz·Cloudflare와 패치·보호 대응을 실제 조율했다.",
+          "evidenceIds": [
+            "openai-patch-planet-php-official-20261021"
+          ]
+        },
+        {
+          "sector": "공공 사이버보안",
+          "relationship": "confirmed",
+          "text": "CISA·ONCD 등 정부기관이 사전 대응 조율에 참여했다.",
+          "evidenceIds": [
+            "openai-patch-planet-php-official-20261021"
+          ]
+        }
+      ],
+      "stage": "outcome",
+      "impactDirection": "positive",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 30,
+          "reason": "실제 중대 취약점 발견부터 패치·보호·정부 공조까지 전주기 운영 성과가 확인됐다."
+        },
+        "change": {
+          "score": 21,
+          "reason": "다수 패치 집계에서 인터넷 핵심 소프트웨어의 선제 대응 사건으로 진전했다."
+        },
+        "impact": {
+          "score": 19,
+          "reason": "오픈소스·클라우드·공공 사이버보안의 탐지·공개·패치 표준에 영향을 준다."
+        },
+        "verification": {
+          "score": 13,
+          "reason": "PHP 공식 CVE·패치·배포율·공격 차단으로 검증 가능하지만 현재는 회사 중심 공개다."
+        },
+        "source": {
+          "score": 9,
+          "reason": "OpenAI 공식 원문과 파트너 명시는 있으나 독립 기술보고는 아직 없다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-10",
+        "statement": "Daybreak는 65개 코드베이스에서 661개 패치 제작과 458개 상류 반영을 공개했다.",
+        "evidenceIds": [
+          "openai-daybreak-outcomes-official-20261010"
+        ]
+      },
+      "evidenceIds": [
+        "openai-patch-planet-php-official-20261021"
+      ],
+      "assessmentNote": "30+21+19+13+9=92. 구체적 전주기 대응을 성과로 강화하되 독립 기술검증 전이라는 한계를 남겼다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
+    {
+      "id": "openai-chatgpt-ads-billion",
+      "eventId": "openai-chatgpt-ads-billion",
+      "hypothesisId": "hyp-openai-chatgpt-ads-billion",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 93,
+      "kind": "강화",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.22",
+      "theme": "AI 배포",
+      "headline": "ChatGPT Ads가 10만 광고주와 89개국으로 확대돼 초기 수익축에서 글로벌 광고망으로 진전했다",
+      "takeaway": "연환산 10억달러와 초기 전환측정을 넘어 광고주 수·국가·셀프서비스 유통이 동시에 확대됐다. 검색·소셜 광고 예산 이동 가능성은 커졌지만 광고주 유지율·마진·답변 독립성은 아직 미공개다.",
+      "before": "2026년 10월 5일 OpenAI는 전환·귀속·증분측정 파트너와 일부 광고주 성과를 공개했지만 전체 광고주 수·유지율·글로벌 운영범위는 제한적이었다.",
+      "now": "출시 8개월여 만에 10만개 이상 광고주가 캠페인을 집행했고 26개국을 추가해 89개국으로 확대했으며 Ads Manager와 기술 파트너 판매를 가동했다.",
+      "facts": [
+        "10만개 이상 광고주가 출시 이후 ChatGPT Ads 캠페인을 운영했다.",
+        "26개국이 추가돼 전 세계 89개국에서 광고를 제공한다.",
+        "광고는 주간 12억 사용자 중 Free·Go 요금제에만 노출되고 Plus·Pro·Enterprise는 광고 없이 유지된다.",
+        "대화 맥락을 처리하는 별도 광고 LLM·경매 시스템이 답변 생성과 분리돼 운영된다."
+      ],
+      "action": "OpenAI가 광고 판매·셀프서비스·글로벌 유통과 별도 광고 기술 스택을 실제 대규모 운영으로 확장했다.",
+      "impact": "대화형 탐색이 독립 광고 경매·측정 채널로 자리 잡으면 검색·소셜 광고 예산, AI 무료요금제의 경제성과 개인정보 기준이 바뀔 수 있다.",
+      "impactPath": [
+        "10만 광고주·89개국",
+        "대화형 광고 경매·측정",
+        "무료 AI 수익화",
+        "검색·소셜 광고 예산 재배분"
+      ],
+      "counter": "광고주 유지율·매출 총액·추론비·광고 ROAS의 전체 분포와 독립 감사는 없고, 대화 맥락 사용에 대한 프라이버시·답변 중립성 규제가 확장을 제약할 수 있다.",
+      "next": "광고 매출·순유지율·무료 사용자당 매출, 추론비·마진, 독립 증분효과·광고 차단·옵트아웃·답변 중립성 지표를 확인한다.",
+      "source": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+      "sourceLabel": "OpenAI 공식 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-22T07:26:28+09:00",
+        "stage": "outcome",
+        "impactDirection": "mixed",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 29,
+            "reason": "10만 광고주의 실제 캠페인 운영과 89개국 배포·셀프서비스 인프라가 확인됐다."
+          },
+          "change": {
+            "score": 20,
+            "reason": "초기 연환산 매출·사례 단계에서 글로벌 광고주·유통망 규모로 확장됐다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "검색·소셜 광고 예산과 범용 AI의 수익구조·프라이버시 기준에 영향을 준다."
+          },
+          "verification": {
+            "score": 15,
+            "reason": "광고주·국가·사용자 수가 구체적이며 매출·유지율·마진·독립측정으로 판별 가능하다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "OpenAI 공식 제품·기술 원문을 기존 공식 측정 발표와 대조했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-05",
+          "statement": "ChatGPT Ads는 전환·귀속·증분효과 측정 파트너와 세 광고주의 초기 성과를 공개했다.",
+          "evidenceIds": [
+            "openai-chatgpt-ads-measurement-official-20261005"
+          ]
+        },
+        "evidenceIds": [
+          "openai-ads-100k-official-20261021"
+        ],
+        "note": "29+20+19+15+10=93. 실제 광고주·국가 확장을 성과로 강화하되 유지율·마진·독립성 공백을 반영했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-22T07:26:28+09:00",
+        "verifiedAt": "2026-10-22T07:26:28+09:00",
+        "lateDiscovery": false,
+        "lateDiscoveryReason": null
+      },
+      "industryLinks": [
+        {
+          "sector": "디지털 광고·검색",
+          "relationship": "confirmed",
+          "text": "10만 광고주와 89개국 운영이 확인돼 대화형 광고 유통망이 확대됐다.",
+          "evidenceIds": [
+            "openai-ads-100k-official-20261021"
+          ]
+        },
+        {
+          "sector": "소비자 AI·프라이버시",
+          "relationship": "indirect",
+          "text": "별도 광고 스택이 답변 생성과 분리돼 있으나 독립성·옵트아웃은 후속 검증 대상이다.",
+          "evidenceIds": [
+            "openai-ads-100k-official-20261021"
+          ]
+        }
+      ],
+      "stage": "outcome",
+      "impactDirection": "mixed",
+      "attribution": "company_action",
+      "breakdown": {
+        "action": {
+          "score": 29,
+          "reason": "10만 광고주의 실제 캠페인 운영과 89개국 배포·셀프서비스 인프라가 확인됐다."
+        },
+        "change": {
+          "score": 20,
+          "reason": "초기 연환산 매출·사례 단계에서 글로벌 광고주·유통망 규모로 확장됐다."
+        },
+        "impact": {
+          "score": 19,
+          "reason": "검색·소셜 광고 예산과 범용 AI의 수익구조·프라이버시 기준에 영향을 준다."
+        },
+        "verification": {
+          "score": 15,
+          "reason": "광고주·국가·사용자 수가 구체적이며 매출·유지율·마진·독립측정으로 판별 가능하다."
+        },
+        "source": {
+          "score": 10,
+          "reason": "OpenAI 공식 제품·기술 원문을 기존 공식 측정 발표와 대조했다."
+        }
+      },
+      "baseline": {
+        "date": "2026-10-05",
+        "statement": "ChatGPT Ads는 전환·귀속·증분효과 측정 파트너와 세 광고주의 초기 성과를 공개했다.",
+        "evidenceIds": [
+          "openai-chatgpt-ads-measurement-official-20261005"
+        ]
+      },
+      "evidenceIds": [
+        "openai-ads-100k-official-20261021"
+      ],
+      "assessmentNote": "29+20+19+15+10=93. 실제 광고주·국가 확장을 성과로 강화하되 유지율·마진·독립성 공백을 반영했다.",
+      "occurredAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "lateDiscovery": false,
+      "lateDiscoveryReason": null
+    },
     {
       "id": "spacex-q3-ai-profit-20261020",
       "eventId": "spacex-q3-ai-profit",
@@ -29973,152 +33575,6 @@
       ]
     },
     {
-      "id": "openai-daybreak-billion",
-      "eventId": "openai-daybreak-billion",
-      "hypothesisId": "hyp-openai-daybreak-billion",
-      "leader": "샘 알트만(Sam Altman)",
-      "role": "OpenAI CEO",
-      "initials": "SA",
-      "score": 89,
-      "kind": "강화",
-      "date": "2026.10.10",
-      "reportDate": "2026.10.10",
-      "theme": "AI 안전",
-      "headline": "OpenAI Daybreak가 458개 상류 패치 반영과 65개 코드베이스 검토 성과를 공개했다",
-      "takeaway": "10억달러 접근권 약정이 오픈소스 취약점의 실제 패치 수용 성과로 일부 전환됐다. 다만 회사 자체 집계이며 전체 보조금 소진과 MS-ISAC 성과는 아직 확인되지 않았다.",
-      "before": "OpenAI는 6개월간 10억달러 규모의 보조형 Daybreak 접근·훈련·지원을 약정했지만 실제 소진액과 수정 성과를 공개하지 않았다.",
-      "now": "공식 현황 페이지는 65개 코드베이스에서 1,885건을 식별하고 661개 패치를 만들었으며 458개가 상류 프로젝트에 반영됐다고 공개했다.",
-      "facts": [
-        "65개 오픈소스 코드베이스가 AI 지원 연구와 전문가 검토를 받고 있다.",
-        "1,885건의 문제가 식별돼 검증·우선순위화·공개 절차로 넘어갔다.",
-        "661개 패치가 제작·시험됐고 458개가 유지관리자에 의해 상류 프로젝트에 수용됐다.",
-        "공개된 지원 약정은 1,700만달러이며 10억달러 전체 이용권 소진액과 MS-ISAC 성과는 별도 공개되지 않았다."
-      ],
-      "action": "OpenAI가 Daybreak와 Patch the Planet을 운영해 식별→패치→상류 반영까지의 결과 수치를 공개했다.",
-      "impact": "AI 보안 에이전트의 가치가 취약점 발견 건수에서 실제 수정 수용률로 이동해 오픈소스 보안 조달·평가 기준을 바꿀 수 있다.",
-      "impactPath": [
-        "취약점 식별·검증",
-        "패치 제작·시험",
-        "유지관리자 상류 반영",
-        "오픈소스·공공 보안 조달 확대"
-      ],
-      "counter": "수치는 OpenAI 자체 집계이고 심각도·중복률·독립 감사·실제 공격 감소는 공개되지 않았다. 10억달러 약정의 전체 소진성과도 아니다.",
-      "next": "패치별 저장소·CVE·심각도와 독립 감사, 10억달러 이용권 소진액·기관 수, MS-ISAC 수정·사고 감소 성과를 확인한다.",
-      "source": "https://openai.com/daybreak/",
-      "sourceLabel": "OpenAI Daybreak 공식 현황 · 2026.10.10 확인",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-10-10T07:35:00+09:00",
-        "stage": "outcome",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 29,
-            "reason": "실제 코드베이스 검토와 458개 상류 패치 수용 결과를 공개했다."
-          },
-          "change": {
-            "score": 19,
-            "reason": "보조형 접근 약정에서 검증·패치·유지관리자 수용의 운영 성과로 진전했다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "오픈소스 보안과 AI 보안 조달의 성과 기준을 바꿀 수 있다."
-          },
-          "verification": {
-            "score": 13,
-            "reason": "정확한 수치는 추적 가능하지만 저장소·CVE·독립 감사와 10억달러 전체 성과는 아직 없다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "OpenAI 공식 현황과 기존 약정 원문을 직접 대조했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-03",
-          "statement": "OpenAI는 6개월간 10억달러 보조형 Daybreak 접근·훈련·지원과 MS-ISAC 시범사업을 약정했다.",
-          "evidenceIds": [
-            "openai-daybreak-frontline-official-20260903"
-          ]
-        },
-        "evidenceIds": [
-          "openai-daybreak-outcomes-official-20261010",
-          "openai-daybreak-frontline-official-20260903"
-        ],
-        "note": "29+19+18+13+10=89. 실제 상류 패치 수용을 성과로 재평가하되 회사 자체 집계와 전체 약정 성과의 공백을 반영했다."
-      },
-      "timing": {
-        "occurredAt": null,
-        "publishedAt": "2026-10-10",
-        "firstSeenAt": "2026-10-10T07:35:00+09:00",
-        "verifiedAt": "2026-10-10T07:35:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "오픈소스 보안",
-          "relationship": "confirmed",
-          "text": "유지관리자가 458개 패치를 상류 프로젝트에 수용했다고 OpenAI가 집계했다.",
-          "evidenceIds": [
-            "openai-daybreak-outcomes-official-20261010"
-          ]
-        },
-        {
-          "sector": "공공·핵심인프라 사이버보안",
-          "relationship": "hypothesis",
-          "text": "오픈소스 패치 성과가 10억달러 보조형 접근과 MS-ISAC 현장 성과로 이어지는지는 별도 검증해야 한다.",
-          "evidenceIds": [
-            "openai-daybreak-outcomes-official-20261010",
-            "openai-daybreak-frontline-official-20260903"
-          ]
-        }
-      ],
-      "stage": "outcome",
-      "impactDirection": "positive",
-      "attribution": "company_action",
-      "breakdown": {
-        "action": {
-          "score": 29,
-          "reason": "실제 코드베이스 검토와 458개 상류 패치 수용 결과를 공개했다."
-        },
-        "change": {
-          "score": 19,
-          "reason": "보조형 접근 약정에서 검증·패치·유지관리자 수용의 운영 성과로 진전했다."
-        },
-        "impact": {
-          "score": 18,
-          "reason": "오픈소스 보안과 AI 보안 조달의 성과 기준을 바꿀 수 있다."
-        },
-        "verification": {
-          "score": 13,
-          "reason": "정확한 수치는 추적 가능하지만 저장소·CVE·독립 감사와 10억달러 전체 성과는 아직 없다."
-        },
-        "source": {
-          "score": 10,
-          "reason": "OpenAI 공식 현황과 기존 약정 원문을 직접 대조했다."
-        }
-      },
-      "baseline": {
-        "date": "2026-09-03",
-        "statement": "OpenAI는 6개월간 10억달러 보조형 Daybreak 접근·훈련·지원과 MS-ISAC 시범사업을 약정했다.",
-        "evidenceIds": [
-          "openai-daybreak-frontline-official-20260903"
-        ]
-      },
-      "evidenceIds": [
-        "openai-daybreak-outcomes-official-20261010",
-        "openai-daybreak-frontline-official-20260903"
-      ],
-      "assessmentNote": "29+19+18+13+10=89. 실제 상류 패치 수용을 성과로 재평가하되 회사 자체 집계와 전체 약정 성과의 공백을 반영했다.",
-      "occurredAt": null,
-      "publishedAt": "2026-10-10",
-      "lateDiscovery": false,
-      "lateDiscoveryReason": null
-    },
-    {
       "id": "spacex-800mhz-spectrum-acquisition-20261008",
       "eventId": "spacex-800mhz-spectrum-acquisition",
       "hypothesisId": "spacex-starlink-mobile-carrier",
@@ -31047,114 +34503,10 @@
           ]
         }
       ]
-    },
-    {
-      "id": "openai-chatgpt-ads-billion",
-      "leader": "샘 알트만(Sam Altman)",
-      "role": "OpenAI CEO",
-      "initials": "SA",
-      "score": 85,
-      "kind": "강화",
-      "date": "2026.10.05",
-      "reportDate": "2026.10.06",
-      "theme": "AI 배포",
-      "eventId": "openai-chatgpt-ads-billion",
-      "hypothesisId": "hyp-openai-chatgpt-ads-billion",
-      "headline": "ChatGPT 광고가 전환 연동·독립 측정 생태계로 확장되고 세 광고주의 구매 성과를 공개했다",
-      "takeaway": "연환산 매출과 국가 확장 중심이던 광고 사업이 전환 API·귀속·증분효과 측정과 실제 광고주 성과를 공개하는 운영 단계로 진전했다. 다만 성과는 파트너가 보고한 초기 사례이며 전체 광고주 유지율·마진은 미공개다.",
-      "before": "8월 말 ChatGPT 광고는 출시 200일 안에 연환산 매출 10억 달러와 40여 개국 확장을 공개했지만 전환 품질과 광고주 성과 검증은 부족했다.",
-      "now": "OpenAI는 전환 데이터·웹과 앱 귀속·증분효과 측정 파트너를 연결하고 세 광고주의 신규고객·구매 성과를 공개했으며 이달 미국 이미지 생성 광고 시험을 예고했다.",
-      "facts": [
-        "Hightouch·Tealium·LiveRamp가 광고주의 기존 시스템에서 전환 데이터를 ChatGPT Ads로 보내는 연동을 지원한다.",
-        "AppsFlyer·Triple Whale 등 웹·앱 귀속 파트너와 Haus·Measured·WorkMagic의 증분효과 실험 파트너십이 공개됐다.",
-        "파트너 보고 기준 WeightWatchers의 귀속 CPA는 혼합 유료검색 기준보다 15.3% 낮았고, Dose의 증분구매 중 67%가 신규 고객, Portland Leather 유입의 93%가 신규 방문자였다.",
-        "새 이미지 생성 광고 형식은 10월 중 미국의 초기 광고주 집단에서 시험되며 현재 전체 지역·사용자에게 배포된 것은 아니다."
-      ],
-      "action": "OpenAI가 광고주 모집과 전환·귀속·증분효과 측정 연동을 실제 운영하고 초기 캠페인 성과를 공개했다.",
-      "impact": "대화형 탐색이 측정 가능한 광고 채널로 자리 잡으면 검색광고 예산과 AI 서비스의 수익구조가 이동할 수 있지만 개인정보·답변 독립성과 전환의 질을 함께 검증해야 한다.",
-      "impactPath": [
-        "ChatGPT 광고 전환·귀속 연동",
-        "광고주 성과 측정과 예산 재배분",
-        "무료 AI의 광고 수익 확대",
-        "검색광고·프라이버시 기준 변화"
-      ],
-      "counter": "초기 세 사례는 측정 파트너가 제공한 선택적 결과이고 전체 광고주 유지율·광고 매출·추론비용·개인정보 영향은 공개되지 않았다. 이미지 광고도 미국 제한 시험 전이다.",
-      "next": "다음 분기 광고 매출·광고주 유지율·무료 사용자당 매출과 추론비, 독립 증분효과 감사, 이미지 광고의 실제 도달·차단·옵트아웃 지표를 확인한다.",
-      "source": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
-      "sourceLabel": "OpenAI 공식 · 2026.10.05",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-10-06T07:25:00+09:00",
-        "stage": "outcome",
-        "impactDirection": "mixed",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 27,
-            "reason": "광고주 모집과 다수의 전환·귀속·증분측정 연동이 운영 중이고 실제 캠페인 결과가 제시됐다."
-          },
-          "change": {
-            "score": 16,
-            "reason": "매출·국가 확장에서 광고 품질과 성과 측정 인프라로 사업 운영이 의미 있게 깊어졌다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "검색광고 예산과 범용 AI의 수익구조·프라이버시 기준에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 14,
-            "reason": "CPA·신규고객 비중과 시험 시점이 있어 후속 매출·유지율·독립 측정으로 판별 가능하다."
-          },
-          "source": {
-            "score": 9,
-            "reason": "OpenAI 공식 원문과 측정 파트너 수치이지만 전체 모집단과 독립 감사는 없다."
-          }
-        },
-        "baseline": {
-          "date": "2026-08-31",
-          "statement": "ChatGPT 광고가 연환산 매출 10억 달러와 40여 개국 확장을 공개했으나 전환 품질·광고주 유지율은 검증되지 않았다.",
-          "evidenceIds": [
-            "openai-ads-official-20260831"
-          ]
-        },
-        "evidenceIds": [
-          "openai-chatgpt-ads-measurement-official-20261005",
-          "openai-ads-official-20260831"
-        ],
-        "note": "27+16+19+14+9=85. 기존 98점 legacy 총점은 보존하고, 현행 루브릭으로 실제 측정 운영과 초기 성과를 새로 평가했다."
-      },
-      "timing": {
-        "occurredAt": "2026-10-05",
-        "publishedAt": "2026-10-05",
-        "firstSeenAt": "2026-10-06T07:25:00+09:00",
-        "verifiedAt": "2026-10-06T07:25:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "디지털 광고·검색",
-          "relationship": "confirmed",
-          "text": "OpenAI가 광고주 전환·귀속·증분효과 측정 파트너를 실제 연결하고 초기 캠페인 성과를 공개했다.",
-          "evidenceIds": [
-            "openai-chatgpt-ads-measurement-official-20261005"
-          ]
-        },
-        {
-          "sector": "소비자 AI·프라이버시",
-          "relationship": "indirect",
-          "text": "광고 수익 확대는 무료 AI 접근성을 높일 수 있지만 대화 맥락과 광고 배치의 분리·옵트아웃 검증이 필요하다.",
-          "evidenceIds": [
-            "openai-chatgpt-ads-measurement-official-20261005"
-          ]
-        }
-      ]
     }
   ],
   "status": "signals",
-  "statusMessage": "고정 22명과 공식·직접 원문을 확인해 SpaceX의 AI 인프라 흑자 전환을 결정적 신호로, Tesla–SpaceX 특별위원회 논의와 OpenAI의 Orchestra Bio 인수를 관찰로 선별했습니다.",
+  "statusMessage": "고정 22명 전원을 확인해 결정적 7건과 관찰 4건을 선별했습니다. CATL Q3는 중첩 수집구간에서 처음 원문을 검증한 지연 발견입니다.",
   "themes": [
     {
       "conviction": 99,
@@ -31170,6 +34522,34 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "openai-google-cloud-model-garden",
+            "eventIds": [
+              "openai-google-cloud-model-garden"
+            ],
+            "note": "OpenAI–Google Cloud의 같은 유통계약을 하나의 사건으로 집계한다."
+          },
+          {
+            "id": "nvidia-dsx-pod-vera-rubin",
+            "eventIds": [
+              "nvidia-dsx-pod-vera-rubin"
+            ],
+            "note": "DSX POD 설계·파트너·2027년 공급 발표는 하나의 모듈형 AI 공장 사건으로 집계한다."
+          },
+          {
+            "id": "meta-class-c-founder-control",
+            "eventIds": [
+              "meta-class-c-founder-control"
+            ],
+            "note": "Meta의 Class C·주식배당·Founder Alignment Agreement는 하나의 자본구조 사건으로 집계한다."
+          },
+          {
+            "id": "tesla-q3-2026-cash-flow",
+            "eventIds": [
+              "tesla-q3-2026-cash-flow"
+            ],
+            "note": "Tesla Q3 실적·공식 자료와 Reuters 보도는 하나의 현금흐름·자본집행 사건으로 집계한다."
+          },
           {
             "id": "spacex-q3-ai-profit",
             "eventIds": [
@@ -31397,6 +34777,39 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "openai-google-cloud-model-garden",
+            "text": "일반 제공·가격·사용량·매출배분은 아직 확인되지 않았다.",
+            "evidenceIds": [
+              "openai-google-cloud-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "nvidia-dsx-pod-vera-rubin",
+            "text": "14일 배치 목표는 실제 고객 출하·전력조건·총비용으로 검증되지 않았다.",
+            "evidenceIds": [
+              "nvidia-dsx-pod-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "meta-class-c-founder-control",
+            "text": "Class C는 실제 발행 전이며 경제적 희석과 의결권 분리를 심화할 수 있다.",
+            "evidenceIds": [
+              "meta-q3-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "tesla-q3-2026-cash-flow",
+            "text": "현금흐름 개선은 예상보다 낮은 설비투자와 함께 나타났고 GAAP 영업이익은 전년 대비 감소했다.",
+            "evidenceIds": [
+              "tesla-q3-official-20261021",
+              "tesla-q3-reuters-20261021"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "spacex-q3-ai-profit",
             "text": "SpaceX의 3분기 총 설비투자 195억9300만달러는 분기 매출을 웃돌아 한 분기 흑자가 반복 자유현금흐름을 보장하지 않는다.",
@@ -31646,6 +35059,38 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "openai-google-cloud-model-garden",
+            "text": "OpenAI 모델·Codex가 Google Cloud Marketplace와 GCP 약정 조달경로에 들어간다.",
+            "evidenceIds": [
+              "openai-google-cloud-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "nvidia-dsx-pod-vera-rubin",
+            "text": "NVIDIA가 모듈형 Vera Rubin AI 공장과 글로벌 파트너·2027년 공급 계획을 공개했다.",
+            "evidenceIds": [
+              "nvidia-dsx-pod-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "meta-class-c-founder-control",
+            "text": "Meta가 AI 투자·인수용 무의결권 Class C와 Founder Alignment Agreement를 승인했다.",
+            "evidenceIds": [
+              "meta-q3-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "tesla-q3-2026-cash-flow",
+            "text": "Tesla가 Q2 현금소진에서 Q3 자유현금흐름 15억3100만달러 흑자로 전환했다.",
+            "evidenceIds": [
+              "tesla-q3-official-20261021"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "spacex-q3-ai-profit",
             "text": "SpaceX의 SI 매출 75억6000만달러와 4억3100만달러 영업이익, 1.7GW 운영 용량이 AI 인프라 투자의 실제 수익성 전환을 확인했다.",
@@ -31927,6 +35372,20 @@
         },
         "independentEventGroups": [
           {
+            "id": "anthropic-stubbs-trustee",
+            "eventIds": [
+              "anthropic-stubbs-trustee"
+            ],
+            "note": "장기공익신탁 수탁자 선임은 공익기금과 별도인 지배구조 사건으로 집계한다."
+          },
+          {
+            "id": "openai-cross-provider-safety-standards",
+            "eventIds": [
+              "openai-cross-provider-safety-standards"
+            ],
+            "note": "다중 공급자 안전정책과 Usage Policies 개정은 하나의 집행정책 사건으로 집계한다."
+          },
+          {
             "id": "spacex-child-share-pledge",
             "eventIds": [
               "spacex-child-share-pledge"
@@ -32173,6 +35632,30 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "anthropic-stubbs-trustee",
+            "text": "이사회 과반 지명권이 실제 모델·IPO 결정에 제동을 건 사례는 아직 없다.",
+            "evidenceIds": [
+              "anthropic-stubbs-trust-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-cross-provider-safety-standards",
+            "text": "정책 시행 전이며 파트너별 독립 감사·집행성과는 공개되지 않았다.",
+            "evidenceIds": [
+              "openai-provider-safety-standards-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-daybreak-billion",
+            "text": "CVE·심각도·패치 배포율·실제 공격 차단은 독립 검증 전이다.",
+            "evidenceIds": [
+              "openai-patch-planet-php-official-20261021"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "spacex-child-share-pledge",
             "text": "이사회·공시·계좌·세무·배분 주체가 없어 실제 자본 이전은 확인되지 않았다.",
@@ -32499,6 +35982,30 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "anthropic-stubbs-trustee",
+            "text": "Anthropic 장기공익신탁이 독립 과학·국가안보 전문가를 실제 선임했다.",
+            "evidenceIds": [
+              "anthropic-stubbs-trust-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-cross-provider-safety-standards",
+            "text": "OpenAI가 호스팅·재판매·라우터의 공동 안전집행과 11월 20일 사전승인 규칙을 확약했다.",
+            "evidenceIds": [
+              "openai-provider-safety-standards-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-daybreak-billion",
+            "text": "Daybreak가 PHP 중대 취약점의 선제 발견부터 패치·보호·정부 공조까지 운영했다.",
+            "evidenceIds": [
+              "openai-patch-planet-php-official-20261021"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "spacex-child-share-pledge",
             "text": "Musk가 2027년 미국 아동에게 SpaceX 주식 1주씩을 제공하겠다는 직접 분배 확약을 제시했다.",
@@ -32838,6 +36345,13 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "openai-distributed-bio-reasoning",
+            "eventIds": [
+              "openai-distributed-bio-reasoning"
+            ],
+            "note": "같은 생물학 에이전트 연구·프리프린트·atlas는 하나의 연구성과 사건으로 집계한다."
+          },
           {
             "id": "openai-orchestra-bio-acquisition",
             "eventIds": [
@@ -33204,6 +36718,30 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "openai-distributed-bio-reasoning",
+            "text": "프리프린트·생쥐 데이터 기반이며 가설의 wet-lab·인간질환 재현은 남아 있다.",
+            "evidenceIds": [
+              "openai-distributed-bio-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-chatgpt-ads-billion",
+            "text": "광고주 유지율·전체 ROAS·추론비·마진과 답변 독립성의 외부 감사는 없다.",
+            "evidenceIds": [
+              "openai-ads-100k-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "meta-muse-personal-agent",
+            "text": "계정 수는 활성·유료·작업 완료율을 뜻하지 않는다.",
+            "evidenceIds": [
+              "meta-muse-10m-ap-20261021"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "openai-orchestra-bio-acquisition",
             "text": "거래조건·통합 제품 일정·고객 유지와 개발기간·임상 성과는 공개되지 않아 운영 효과는 미검증이다.",
@@ -33617,6 +37155,30 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "openai-distributed-bio-reasoning",
+            "text": "수천 에이전트가 실제 생물학 데이터를 분석해 공개 atlas와 후속 실험 가설을 만들었다.",
+            "evidenceIds": [
+              "openai-distributed-bio-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-chatgpt-ads-billion",
+            "text": "ChatGPT Ads가 10만 광고주와 89개국 운영으로 확대됐다.",
+            "evidenceIds": [
+              "openai-ads-100k-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "meta-muse-personal-agent",
+            "text": "Muse가 미국·캐나다 1천만 계정으로 확대됐다.",
+            "evidenceIds": [
+              "meta-muse-10m-ap-20261021"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "openai-orchestra-bio-acquisition",
             "text": "OpenAI가 Orchestra Bio의 팀·기술을 인수해 Rosalind를 신약개발 프로그램 운영 워크플로로 확장했다.",
@@ -34076,6 +37638,13 @@
         },
         "independentEventGroups": [
           {
+            "id": "catl-q3-2026-competition",
+            "eventIds": [
+              "catl-q3-2026-competition"
+            ],
+            "note": "CATL Q3 실적과 국내외 점유율은 하나의 경쟁성과 사건으로 집계한다."
+          },
+          {
             "id": "catl-yinwang-battery-swap",
             "eventIds": [
               "catl-yinwang-battery-swap"
@@ -34133,6 +37702,14 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "catl-q3-2026-competition",
+            "text": "Q3 순이익 성장률은 14.5%로 둔화하고 중국 점유율은 1월 49.8%에서 9월 40.9%로 하락했다.",
+            "evidenceIds": [
+              "catl-q3-reuters-20261020"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "catl-yinwang-battery-swap",
             "text": "호환 차종·교환소 수·투자액·가동 일정이 없어 네트워크 실행은 미검증이다.",
@@ -34199,6 +37776,14 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "catl-q3-2026-competition",
+            "text": "CATL의 세계 EV 배터리 사용 점유율은 전년 37.7%에서 39.4%로 상승했다.",
+            "evidenceIds": [
+              "catl-q3-reuters-20261020"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "catl-yinwang-battery-swap",
             "text": "CATL이 Yinwang과 교환식 배터리·교환망의 계약상 협력에 들어갔다.",
@@ -34269,5 +37854,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T07:27:54+09:00"
+  "updatedAt": "2026-10-22T07:26:28+09:00"
 }
