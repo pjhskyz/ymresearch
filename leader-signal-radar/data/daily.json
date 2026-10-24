@@ -1,5 +1,5 @@
 {
-  "asOfDate": "2026.10.24",
+  "asOfDate": "2026.10.25",
   "checkpoints": [
     {
       "date": "거래 종결·후속 통합",
@@ -359,14 +359,119 @@
     }
   ],
   "currentObservationIds": [
-    "airbnb-house-rules-standardization-20261120"
+    "nvidia-google-cloud-a5x-rubin-20261021"
   ],
   "currentSignalIds": [
-    "openai-frontier-training-containment-20261001"
+    "openai-habitat-multitenancy-outcome-20261023",
+    "microsoft-model-insider-risk-20261010"
   ],
-  "dailyThesis": "AI 리더십의 차별점이 발표보다 운영 경계의 실제 구현으로 이동했습니다. OpenAI는 프런티어 학습을 인터넷 없는 환경과 안전사례 승인 아래 재개했고, Airbnb는 게스트 경험의 불확실성을 줄이기 위해 호스트 규칙을 플랫폼 정책으로 표준화했습니다. 두 사건 모두 다음 판단은 독립 감사와 시행 후 성과가 좌우합니다.",
-  "lastSuccessfulRun": "2026-10-24T07:26:26+09:00",
+  "dailyThesis": "AI 경쟁의 병목이 모델 자체에서 저장·하네스·권한·클라우드 배치 구조로 이동하고 있다. OpenAI는 10억 사용자 저장계층의 아키텍처를 운영성과로 증명했고, Microsoft는 모델 밖 통제를 제품·기업 배포로 옮겼다. 다만 Google Cloud의 Rubin 대규모 계획은 실제 주문·가동 전이어서 독립적 산업 합의로 보지 않는다.",
+  "lastSuccessfulRun": "2026-10-25T07:32:13+09:00",
   "observations": [
+    {
+      "id": "nvidia-google-cloud-a5x-rubin-20261021",
+      "leader": "젠슨 황(Jensen Huang)",
+      "role": "NVIDIA Founder & CEO",
+      "initials": "JH",
+      "score": 74,
+      "kind": "강화",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.25",
+      "theme": "AI 인프라",
+      "eventId": "nvidia-google-cloud-a5x-rubin-scale",
+      "hypothesisId": "nvidia-vera-rubin-inference-economics",
+      "headline": "NVIDIA·Google Cloud가 Rubin A5X 첫 고객 접근을 열고 최대 96만 GPU 확장을 예고했다",
+      "takeaway": "Rubin의 개방형 랙·네트워크 발표가 Google Cloud의 첫 고객 접근과 구체적인 대규모 배치 계획으로 진전됐다. 그러나 일반 제공과 유럽 확장, 96만 GPU는 대부분 미래 계획이므로 실제 가동·주문·경제성이 확인될 때까지 관찰 단계다.",
+      "before": "10월 12일 NVIDIA는 Vera Rubin의 OCP 랙·네트워크 규격과 DSX 기반 개방형 AI 공장 구조를 공개했지만 Google Cloud의 고객 접근·일반 제공·대규모 배치 계획은 확인되지 않았다.",
+      "now": "NVIDIA는 Google Cloud A5X의 첫 고객 접근, 다음 달 일반 제공 계획, 유럽 확장과 여러 사이트에 최대 96만 Rubin GPU를 배치하려는 계획을 공개했다.",
+      "facts": [
+        "Google Cloud A5X는 다음 달 일반 제공을 목표로 하고 유럽 확장이 계획됐다.",
+        "Google은 여러 데이터센터 사이트에 최대 96만 Rubin GPU를 배치할 계획이라고 NVIDIA가 밝혔다.",
+        "Ineffable이 A5X의 첫 고객 접근을 시작했다.",
+        "WPP는 초기 시험에서 기존 다중 노드 워크로드를 단일 A5X 인스턴스에서 실행했다고 밝혔다."
+      ],
+      "action": "NVIDIA와 Google Cloud가 A5X의 첫 고객 접근을 열고 일반 제공 시점·지역 확장·최대 배치 규모를 공식화했다.",
+      "impact": "계획이 실행되면 Rubin 수요가 하이퍼스케일러의 전력·네트워크·냉각·자본집행과 직접 연결되지만, 현재 수치는 확정 조달과 가동 성과가 아니다.",
+      "impactPath": [
+        "A5X 첫 고객 접근",
+        "일반 제공·유럽 확장",
+        "대규모 Rubin 배치",
+        "전력·네트워크·데이터센터 투자 확대"
+      ],
+      "counter": "최대 96만 GPU는 계획치이며 주문·투입 자본·전력 확보·가동률이 공개되지 않았다. 첫 고객의 비용·처리량 결과도 회사 인용의 초기 시험이다.",
+      "next": "A5X 일반 제공 완료, 실제 GPU 주문·설치·가동 수, 유럽 리전 전력·네트워크 계약, 고객의 토큰당 비용·가동률을 확인한다.",
+      "source": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "sourceLabel": "NVIDIA·Google Cloud Vera Rubin A5X 공식 발표 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-25T07:32:13+09:00",
+        "stage": "commitment",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 18,
+            "reason": "첫 고객 접근은 시작됐지만 일반 제공·유럽 확장·대부분의 대규모 배치는 아직 계획 단계다."
+          },
+          "change": {
+            "score": 14,
+            "reason": "개방형 규격 공개에서 특정 하이퍼스케일러의 고객 접근·시점·최대 규모로 진전됐다."
+          },
+          "impact": {
+            "score": 19,
+            "reason": "실행 시 GPU·전력·네트워크·냉각과 하이퍼스케일러 자본집행에 큰 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "다음 달 일반 제공과 실제 주문·설치·가동 수로 검증 가능하지만 확정 구매·가동 수치는 없다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "NVIDIA 공식 원문에서 Google Cloud 계획과 첫 고객 접근을 직접 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-12",
+          "statement": "NVIDIA는 Vera Rubin의 OCP 규격과 개방형 AI 공장 구조를 공개했지만 Google Cloud의 고객 접근과 대규모 배치 계획은 없었다.",
+          "evidenceIds": [
+            "nvidia-ocp-vera-rubin-open-official-20261012"
+          ]
+        },
+        "evidenceIds": [
+          "nvidia-ocp-vera-rubin-open-official-20261012",
+          "nvidia-google-cloud-a5x-official-20261021"
+        ],
+        "note": "18+14+19+13+10=74. 첫 고객 접근을 행동으로 인정하되 핵심 규모·일반 제공이 미래 계획이라 commitment·관찰로 제한했다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-25T07:32:13+09:00",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "공식 원문이 기본 조사 구간 이전 공개됐지만 이번 72시간 중첩 수집에서 처음 확인됐다."
+      },
+      "industryLinks": [
+        {
+          "sector": "하이퍼스케일 클라우드",
+          "relationship": "confirmed",
+          "text": "NVIDIA와 Google Cloud의 A5X 통합과 Ineffable의 첫 고객 접근이 공식 발표됐다.",
+          "evidenceIds": [
+            "nvidia-google-cloud-a5x-official-20261021"
+          ]
+        },
+        {
+          "sector": "데이터센터 전력·네트워크",
+          "relationship": "hypothesis",
+          "text": "최대 96만 GPU 계획이 실제 가동되면 대규모 전력·네트워크·냉각 투자가 필요하지만 계약은 확인되지 않았다.",
+          "evidenceIds": [
+            "nvidia-google-cloud-a5x-official-20261021"
+          ]
+        }
+      ]
+    },
     {
       "id": "airbnb-house-rules-standardization-20261120",
       "eventId": "airbnb-house-rules-standardization",
@@ -3476,113 +3581,6 @@
       ]
     },
     {
-      "id": "microsoft-model-insider-risk-20261010",
-      "leader": "사티아 나델라(Satya Nadella)",
-      "role": "Microsoft Chairman & CEO",
-      "initials": "SN",
-      "score": 63,
-      "kind": "강화",
-      "date": "2026.10.10",
-      "reportDate": "2026.10.12",
-      "theme": "AI 안전",
-      "eventId": "microsoft-model-insider-risk",
-      "hypothesisId": "microsoft-humanist-ai-model-governance",
-      "headline": "나델라가 프런티어 모델을 내부자 위험처럼 격리하고 외부 비상정지·독립감사를 두자고 제안했다",
-      "takeaway": "Microsoft의 인간 통제 원칙이 모델 행동강령에서 배포 시스템의 권한 분리·감사·비상정지 설계로 구체화됐다. 다만 회사 제품의 의무 적용과 시행 기한은 없어 관찰 단계다.",
-      "before": "Microsoft AI는 9월 행동강령 초안에서 모델이 인간의 중단·정정을 거부하거나 권한을 넘고 감사기록을 숨기지 않도록 제안했지만, 현재 모델에 적용된 규칙은 아니었다.",
-      "now": "나델라는 폐쇄형·개방형 프런티어 모델을 처음부터 잠재적 내부자 위험으로 간주하고, 모델 밖의 권한 통제·변조방지 로그·독립 감사·비상정지·사고공개를 산업 표준으로 만들자고 직접 제안했다.",
-      "facts": [
-        "나델라는 모델 공급자의 보증만으로 배포 조직의 책임이 사라지지 않는다고 밝혔다.",
-        "모델과 작업 오케스트레이션·행동공간을 분리하고 접근·행동 통제를 모델 외부에 두자고 제안했다.",
-        "모든 중요 행동에 변조방지형 인간 판독 증거를 남기고, 평가 모델과 검증 증거를 독립시키자고 했다.",
-        "권한 있는 사람이 작업 중 모델을 일시정지·종료할 수 있는 비상정지와 사고 공개를 요구했지만 적용 제품·시행일은 제시하지 않았다."
-      ],
-      "action": "나델라가 프런티어 모델의 외부 권한통제·독립감사·비상정지를 포함한 일곱 가지 운영 원칙을 공개했다.",
-      "impact": "원칙이 Microsoft 제품과 기업 조달에 반영되면 에이전트 런타임·신원권한·감사로그·보안 관제 계층의 설계와 구매 기준을 바꿀 수 있다.",
-      "impactPath": [
-        "모델을 잠재적 내부자 위험으로 분류",
-        "권한·행동·감사 통제를 모델 외부로 분리",
-        "기업 배포·조달 표준에 반영",
-        "에이전트 보안·감사 인프라 수요 확대"
-      ],
-      "counter": "개인 명의의 정책 제안이며 Microsoft 제품의 의무 적용, 독립 감사 계약, 비상정지 표준과 시행 일정은 확인되지 않았다.",
-      "next": "Microsoft의 공식 제품·보안 문서, MXC·Copilot·Azure의 외부 권한통제와 비상정지 적용, 독립 감사 계약·사고공개 기준·시행일을 확인한다.",
-      "source": "https://snscratchpad.com/posts/models-as-insider-risks/",
-      "sourceLabel": "Satya Nadella 직접 원문 · 2026.10.10",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-10-12T07:30:43+09:00",
-        "stage": "statement",
-        "impactDirection": "positive",
-        "attribution": "leader_direct",
-        "breakdown": {
-          "action": {
-            "score": 6,
-            "reason": "직접 원문으로 구체적 운영 원칙을 제안했지만 제품·계약·조직 집행은 확인되지 않았다."
-          },
-          "change": {
-            "score": 17,
-            "reason": "모델 행동강령의 내부 규칙에서 배포 시스템 전체의 외부 권한통제·독립감사·비상정지 구조로 범위를 넓혔다."
-          },
-          "impact": {
-            "score": 18,
-            "reason": "기업 에이전트의 신원·권한·감사·보안 인프라와 조달 표준 전반에 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 12,
-            "reason": "제품 문서·감사 계약·사고 공개·비상정지 적용으로 확인할 수 있으나 시행 기한이 없다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "나델라의 개인 사이트와 LinkedIn 직접 원문을 확인하고 기술 매체의 보도로 교차 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-14",
-          "statement": "Microsoft AI는 인간의 중단·정정권과 권한·감사 규칙을 담은 행동강령 초안을 공개했지만 현재 모델에는 적용하지 않았다.",
-          "evidenceIds": [
-            "microsoft-mai-code-consultation-20260914",
-            "microsoft-mai-code-document-20260914"
-          ]
-        },
-        "evidenceIds": [
-          "microsoft-nadella-insider-risk-essay-20261010",
-          "microsoft-nadella-insider-risk-verge-20261010",
-          "microsoft-mai-code-consultation-20260914",
-          "microsoft-mai-code-document-20260914"
-        ],
-        "note": "6+17+18+12+10=63. 구체적 관점 변화는 인정하되 statement 단계이며 회사 집행·시행일이 없어 관찰로 제한했다."
-      },
-      "timing": {
-        "occurredAt": "2026-10-10T23:43:00+09:00",
-        "publishedAt": "2026-10-10T23:43:00+09:00",
-        "firstSeenAt": "2026-10-12T07:30:43+09:00",
-        "verifiedAt": "2026-10-12T07:30:43+09:00",
-        "lateDiscovery": true,
-        "lateDiscoveryReason": "직접 원문과 직접 보도는 직전 실행 종료 전 게시됐지만 이전 실행에서 미포착되어 이번 겹침 수집에서 처음 원문 검증했다."
-      },
-      "industryLinks": [
-        {
-          "sector": "기업용 AI 보안",
-          "relationship": "indirect",
-          "text": "프런티어 모델을 내부자 위험으로 취급하면 신원·권한·감사·비상정지 계층의 요구사항이 강화될 수 있다.",
-          "evidenceIds": [
-            "microsoft-nadella-insider-risk-essay-20261010"
-          ]
-        },
-        {
-          "sector": "AI 에이전트 런타임",
-          "relationship": "hypothesis",
-          "text": "제안이 Microsoft 제품과 산업 표준에 실제 반영되는지는 아직 확인되지 않았다.",
-          "evidenceIds": [
-            "microsoft-nadella-insider-risk-essay-20261010"
-          ]
-        }
-      ]
-    },
-    {
       "id": "spacex-starlink-venezuela-authorization-20261009",
       "leader": "일론 머스크(Elon Musk)",
       "role": "SpaceX CEO",
@@ -3982,129 +3980,130 @@
   "research": {
     "checkpointArchive": [],
     "collectionWindow": {
-      "start": "2026-10-20T07:28:00+09:00",
-      "end": "2026-10-24T07:26:26+09:00"
+      "start": "2026-10-21T07:26:26+09:00",
+      "end": "2026-10-25T07:32:13+09:00"
     },
     "coverage": [
       {
         "leader": "일론 머스크(Elon Musk)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.tesla.com/support/robotaxi",
-          "https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf",
-          "https://static.nhtsa.gov/odi/inv/2026/INOA-DP26010-19159.pdf"
+          "https://www.reuters.com/business/autos-transportation/tesla-spacex-detail-deal-structure-musk-talks-up-martian-city-2026-10-22/"
         ],
-        "note": "Tesla Robotaxi 안내와 NHTSA 감사·결함청원 원문을 확인했다. 규제 결론과 공개 운영지표가 없어 새 카드로 승격하지 않았다.",
+        "note": "Tesla Robotaxi 공식 안내와 Tesla–SpaceX 결합 후속 보도를 확인했다. 후자는 승인 절차 설명의 반복이며 특별위원회 결정·조건 확정이 없어 기존 관찰을 재승격하지 않았다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "젠슨 황(Jensen Huang)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
-          "https://blogs.nvidia.com/"
+          "https://blogs.nvidia.com/",
+          "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
         ],
-        "note": "NVIDIA 공식 최신 게시를 확인했다. 게임 유통 후속 외에 전략 변화·자본집행을 동반한 새 사건이 없었다.",
+        "note": "NVIDIA 공식 최신 게시와 Google Cloud A5X 원문을 확인했다. 첫 고객 접근은 인정하되 일반 제공·최대 96만 GPU는 계획이라 관찰로 선별했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "샘 알트만(Sam Altman)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://openai.com/news/",
-          "https://openai.com/index/securing-our-frontier-model-training-environment/",
-          "https://openai.com/index/pacing-model-development-cyber-capabilities/",
-          "https://www.reuters.com/business/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-2026-10-23/"
+          "https://openai.com/index/scaling-storage-one-billion-users-part-one/",
+          "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+          "https://www.reuters.com/business/openai-prepares-new-funding-round-that-could-value-it-roughly-1-trillion-wsj-2026-10-23/"
         ],
-        "note": "프런티어 학습환경 격리·레드팀·10월 1일 재개를 현재 원문과 8월 기준선, Reuters로 대조해 결정적으로 선별했다.",
+        "note": "OpenAI 공식 최신 채널과 Habitat Part I·II를 대조해 저장계층 운영 성과를 결정적으로 선별했다. 1조달러 조달 보도는 익명 협상이라 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "다리오 아모데이(Dario Amodei)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.anthropic.com/news"
         ],
-        "note": "Anthropic 공식 최신 채널을 확인했다. 유럽 컨설팅 보도는 익명 취재이고 공식 계약·자본 집행 원문이 없어 제외했다.",
+        "note": "Anthropic 공식 최신 채널과 최근 직접 발언 보도를 확인했다. AI 경쟁의 상향 압력 설명은 기존 입장 보강이며 새 회사 실행·반전이 없어 제외했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "데미스 허사비스(Demis Hassabis)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://deepmind.google/blog/"
         ],
-        "note": "Google DeepMind 공식 최신 채널을 확인했다. 기존 인터뷰 재인용 외에 새 실행 사건이 없었다.",
+        "note": "Google DeepMind 공식 최신 채널을 확인했다. 수집구간 안에 새 자본집행·배포·성과 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "사티아 나델라(Satya Nadella)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
-          "https://news.microsoft.com/source/"
+          "https://news.microsoft.com/source/",
+          "https://news.microsoft.com/source/wp-content/uploads/2026/10/10212026_Nadella_TRANSCRIPT_Frontier-Tour-London.pdf"
         ],
-        "note": "Microsoft 공식 최신 채널을 확인했다. Garage 종료 보도는 직접 원문과 리더 귀속·산업 파급이 부족해 제외했다.",
+        "note": "Microsoft 공식 최신 채널과 나델라 연설록을 확인했다. 기존 내부자 위험 원칙이 Microsoft IQ·Foundry 구조와 기업 배포로 이동해 동일 사건을 실행으로 승격했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 저커버그(Mark Zuckerberg)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://about.fb.com/news/"
         ],
-        "note": "Meta 공식 최신 채널을 확인했다. 게시자 반발에 따른 약관 시행 조정은 리더 관점 변화와 성과 근거가 부족해 제외했다.",
+        "note": "Meta 공식 최신 채널을 확인했다. 수집구간 안에 저커버그의 새 관점 변화·조직·자본집행 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "리사 수(Lisa Su)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://newsroom.amd.com/"
         ],
-        "note": "AMD 공식 최신 게시를 확인했다. 10월 20일 x86 PyTorch 협력은 기존 개방형 소프트웨어 전략의 반복 범위로 판단했다.",
+        "note": "AMD 뉴스룸을 확인했다. 새 발표는 기존 제품·생태계 전략의 반복 범위이며 60점 이상 변화량을 만들지 못했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "웨이저자(C.C. Wei)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://pr.tsmc.com/english"
         ],
-        "note": "TSMC 공식 보도자료를 확인했다. 희토류 없는 모터 공급망 검토 보도는 초기 설문·익명 출처라 실행으로 보지 않았다.",
+        "note": "TSMC 공식 보도자료를 확인했다. 수집구간 안에 웨이저자의 새 전략 전환·계약·성과 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "손정의(Masayoshi Son)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://group.softbank/en/news/press"
         ],
-        "note": "SoftBank 공식 보도자료를 확인했다. 긴급경보 장애는 운영 사고이며 손정의의 새 전략·자본배분 신호가 아니었다.",
+        "note": "SoftBank 공식 보도자료를 확인했다. 수집구간 안에 손정의의 새 자본배분·거래·관점 변화 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "쩡위췬(Robin Zeng)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.catl.com/en/news/"
         ],
@@ -4115,29 +4114,29 @@
       {
         "leader": "스콧 스트라직(Scott Strazik)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.gevernova.com/news"
         ],
-        "note": "GE Vernova 뉴스룸을 확인했다. 수집구간 안에 리더 전략 변화나 새 실행·성과 원문이 없었다.",
+        "note": "GE Vernova 뉴스룸을 확인했다. 수집구간 안에 스트라직의 새 전략 변화나 실행·성과 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "알렉스 카프(Alex Karp)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.palantir.com/newsroom/"
         ],
-        "note": "Palantir 뉴스룸을 확인했다. NATO 원격중단 관련 임원 설명은 반응적 발언이며 Karp의 관점 변화·신규 실행이 아니었다.",
+        "note": "Palantir 뉴스룸을 확인했다. 수집구간 안에 Karp의 새 관점 전환·계약·운영성과 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "누바 아페얀(Noubar Afeyan)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.flagshippioneering.com/news"
         ],
@@ -4148,20 +4147,18 @@
       {
         "leader": "브라이언 체스키(Brian Chesky)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
-          "https://news.airbnb.com/",
-          "https://www.airbnb.com/resources/hosting-homes/a/important-changes-to-house-rules-21",
-          "https://apnews.com/article/airbnb-guests-checkout-chores-new-policy-24a2d80b09ae1fca77d0411c6a08dddd"
+          "https://news.airbnb.com/"
         ],
-        "note": "11월 20일 시행하는 체크아웃 집안일 제한과 예약 전 규칙 공개를 공식 원문·AP로 대조해 관찰로 선별했다.",
+        "note": "Airbnb 뉴스룸을 확인했다. 수집구간 안에 체스키의 새 제품 전략·정책 실행·성과 원문이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "스탠리 드러켄밀러(Stanley Druckenmiller)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali"
         ],
@@ -4172,18 +4169,18 @@
       {
         "leader": "피터 틸(Peter Thiel)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://omny.fm/shows/the-builders/peter-thiel"
         ],
-        "note": "9월 녹음 인터뷰 원문을 확인했다. AI 가속 견해는 9월 말 공개 내용의 반복으로 변화량을 추가하지 않았다.",
+        "note": "최근 공개된 인터뷰 원문을 확인했다. 9월 녹음의 AI 가속 견해는 기존 입장 반복이고 새 자본배분·반증조건이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "하워드 막스(Howard Marks)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://www.oaktreecapital.com/insights"
         ],
@@ -4194,18 +4191,18 @@
       {
         "leader": "레이 달리오(Ray Dalio)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
-          "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10"
+          "https://www.marketwatch.com/story/what-you-dont-know-is-greater-than-anything-you-do-know-how-ray-dalio-would-build-a-portfolio-to-withstand-a-popping-ai-bubble-2491ac6b"
         ],
-        "note": "최근 직접 인용 보도를 재검토했다. AI·국채 자금경쟁과 완충 축소 견해는 기존 관점 반복이었다.",
+        "note": "최근 직접 인용 보도를 확인했다. AI 위험과 분산 견해는 기존 관점 반복이며 새 반증조건·실행이 없었다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "마크 앤드리슨(Marc Andreessen)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://a16z.com/a16z-frontier/"
         ],
@@ -4216,18 +4213,18 @@
       {
         "leader": "타일러 코웬(Tyler Cowen)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://marginalrevolution.com/"
         ],
-        "note": "Marginal Revolution 최신 게시를 확인했다. 링크·논평은 새 투자 가설이나 반증조건으로 승격할 변화가 없었다.",
+        "note": "Marginal Revolution 최신 게시를 확인했다. 규제·사이버보안 논평은 새 투자 가설이나 실행 신호의 문턱에 미치지 못했다.",
         "checked": true,
         "blocked": false
       },
       {
         "leader": "발라지 스리니바산(Balaji Srinivasan)",
         "status": "checked",
-        "checkedAt": "2026-10-24T07:26:26+09:00",
+        "checkedAt": "2026-10-25T07:32:13+09:00",
         "urls": [
           "https://balajis.com/archive"
         ],
@@ -4237,6 +4234,46 @@
       }
     ],
     "evidence": [
+      {
+        "id": "nvidia-google-cloud-a5x-official-20261021",
+        "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+        "label": "NVIDIA·Google Cloud Vera Rubin A5X 공식 발표 · 2026.10.21",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "claim": "NVIDIA는 Google Cloud A5X가 다음 달 일반 제공될 예정이며 유럽 확장과 여러 사이트에 최대 96만 Rubin GPU 배치를 계획하고, Ineffable이 첫 고객 접근을 시작했다고 밝혔다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-habitat-part-two-official-20261023",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+        "label": "OpenAI Habitat 저장계층 Part II 공식 원문 · 2026.10.23",
+        "grade": "A",
+        "publishedAt": "2026-10-23",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "claim": "OpenAI는 10억 명 이상·40개 리전·500PB 규모의 Habitat에서 단일테넌시 우회를 되돌려 다중테넌시를 기본으로 만들고 읽기 p50을 120ms에서 10ms로 낮췄으며 대규모 CDC 파이프라인을 운영한다고 공개했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "openai-habitat-part-one-official-20260911",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/",
+        "label": "OpenAI Habitat 저장계층 Part I 공식 원문 · 2026.09.11",
+        "grade": "A",
+        "publishedAt": "2026-09-11",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "claim": "OpenAI는 두 명의 엔지니어와 Codex·GPT-5.5로 Habitat 서비스를 Rust로 재작성해 당시 요청의 95%를 처리하고 CPU 효율 6배·메모리 효율 15배를 달성했다고 공개했으며 데이터베이스 확장 결과는 후속편으로 예고했다.",
+        "provenance": "official"
+      },
+      {
+        "id": "microsoft-frontier-tour-zero-trust-official-20261021",
+        "url": "https://news.microsoft.com/source/wp-content/uploads/2026/10/10212026_Nadella_TRANSCRIPT_Frontier-Tour-London.pdf",
+        "label": "Microsoft Frontier Tour London 공식 연설록 · 2026.10.21",
+        "grade": "A",
+        "publishedAt": "2026-10-21",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "claim": "나델라는 모델을 잠재적 내부자 위험으로 다뤄야 한다는 원칙을 재확인했고, Microsoft IQ의 안전한 행동 등록부·모델과 하네스의 분리, Foundry의 추적·관찰 기능과 실제 기업 배포 사례를 공개했다.",
+        "provenance": "official"
+      },
       {
         "id": "openai-frontier-containment-official-20261023",
         "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
@@ -7369,6 +7406,381 @@
       }
     ],
     "history": [
+      {
+        "id": "revision-20261025-openai-habitat-multitenancy-scale",
+        "eventId": "openai-habitat-multitenancy-scale",
+        "signalId": "openai-habitat-multitenancy-outcome-20261023",
+        "hypothesisId": "openai-storage-reliability-scale",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.25",
+        "recordedAt": "2026-10-25T07:32:13+09:00",
+        "tier": "signal",
+        "score": 85,
+        "headline": "OpenAI가 단일테넌시 우회를 되돌리고 10억 사용자·500PB 저장계층을 다중테넌시로 재구축했다",
+        "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+        "status": "reviewed",
+        "stage": "outcome",
+        "reason": "26+18+18+13+10=85. 실제 글로벌 운영과 정량 성과를 outcome으로 평가하되 자체 엑사바이트 시스템 계획은 성과에 포함하지 않았다.",
+        "evidenceIds": [
+          "openai-habitat-part-one-official-20260911",
+          "openai-habitat-part-two-official-20261023"
+        ],
+        "snapshot": {
+          "id": "openai-habitat-multitenancy-outcome-20261023",
+          "leader": "샘 알트만(Sam Altman)",
+          "role": "OpenAI CEO",
+          "initials": "SA",
+          "score": 85,
+          "kind": "반전",
+          "date": "2026.10.23",
+          "reportDate": "2026.10.25",
+          "theme": "AI 인프라",
+          "eventId": "openai-habitat-multitenancy-scale",
+          "hypothesisId": "openai-storage-reliability-scale",
+          "headline": "OpenAI가 단일테넌시 우회를 되돌리고 10억 사용자·500PB 저장계층을 다중테넌시로 재구축했다",
+          "takeaway": "OpenAI는 고객별 단일테넌시가 조직·운영 복잡성을 키운다는 판단 뒤 다중테넌시를 기본으로 되돌리고 읽기 지연과 대규모 변경전파 성능을 개선했다. 이는 AI 서비스의 병목이 모델뿐 아니라 저장·격리·운영 자동화에 있음을 보여주지만 비용·장애율은 아직 공개되지 않았다.",
+          "before": "9월 Part I은 Habitat 서비스를 Rust로 재작성해 당시 요청의 95%를 처리하고 CPU 6배·메모리 15배 효율을 냈다고 공개했지만 데이터베이스 테넌시 구조와 대규모 지연·신뢰성 결과는 후속편으로 남겼다.",
+          "now": "OpenAI는 10억 명 이상·40개 리전·500PB 규모에서 단일테넌시 우회를 조직적으로 감당하지 못해 다중테넌시를 기본으로 복원했고 읽기 p50을 120ms에서 10ms로 낮추고 대규모 CDC를 운영한다고 밝혔다.",
+          "facts": [
+            "Habitat은 10억 명 이상의 사용자, 40개 리전, 500PB 이상의 저장 규모를 지원한다고 회사가 밝혔다.",
+            "고객별 단일테넌시로 우회한 뒤 용량계획·업그레이드·운영 복잡성이 커져 다중테넌시를 다시 기본 구조로 선택했다.",
+            "읽기 p50은 120ms에서 10ms로 낮아졌으며 핫키 제한·QoS·서버리스 개선이 함께 적용됐다.",
+            "CDC는 초당 수백만 건의 변경, 수천 개 컨테이너·파티션과 100개 이상의 Kafka 토픽을 처리한다고 공개됐다."
+          ],
+          "action": "OpenAI가 전 세계 ChatGPT 저장계층의 테넌시·캐시·변경전파 구조를 실제 재설계하고 운영 지연·처리 규모를 수치로 공개했다.",
+          "impact": "대규모 AI 서비스의 경쟁력이 모델 연산뿐 아니라 상태 저장·멀티테넌트 격리·데이터 이동의 효율과 신뢰성에 좌우되며, 클라우드 데이터베이스와 자체 저장시스템의 역할 분담을 바꿀 수 있다.",
+          "impactPath": [
+            "단일테넌시 운영 복잡성 확인",
+            "다중테넌시·캐시·QoS 재설계",
+            "지연·CDC 처리량 개선",
+            "AI 저장·데이터 인프라 투자 확대"
+          ],
+          "counter": "수치는 OpenAI 자체 공개이고 p99·오류율·장애시간·저장비용은 없다. 자체 엑사바이트 시스템은 개발 중일 뿐 운영 성과가 아니며 다중테넌시의 격리 사고 위험도 남는다.",
+          "next": "Habitat의 p99·오류예산·장애시간·PB당 비용, 다중테넌트 격리 사고, 자체 엑사바이트 저장시스템의 실제 이전률과 Azure 의존 변화를 확인한다.",
+          "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+          "sourceLabel": "OpenAI Habitat 저장계층 Part II 공식 원문 · 2026.10.23",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-25T07:32:13+09:00",
+            "stage": "outcome",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 26,
+                "reason": "글로벌 서비스의 저장계층을 실제 재설계·운영하고 지연·처리규모 결과를 공개했다."
+              },
+              "change": {
+                "score": 18,
+                "reason": "고객별 단일테넌시 우회를 되돌려 다중테넌시를 기본으로 복원한 의미 있는 아키텍처 반전이다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "AI 서비스의 저장·격리·데이터 이동 비용과 클라우드 데이터 인프라 구조 전반에 영향을 준다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "지연·처리량·규모는 공개됐고 후속 장애율·비용·이전률로 판별할 수 있으나 독립 측정은 없다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "OpenAI의 Part I·II 공식 기술 원문에서 기준선과 운영 결과를 직접 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-09-11",
+              "statement": "Rust 서비스 재작성의 효율은 공개됐지만 데이터베이스 테넌시 구조와 대규모 저장 성과는 후속편으로 남아 있었다.",
+              "evidenceIds": [
+                "openai-habitat-part-one-official-20260911"
+              ]
+            },
+            "evidenceIds": [
+              "openai-habitat-part-one-official-20260911",
+              "openai-habitat-part-two-official-20261023"
+            ],
+            "note": "26+18+18+13+10=85. 실제 글로벌 운영과 정량 성과를 outcome으로 평가하되 자체 엑사바이트 시스템 계획은 성과에 포함하지 않았다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-23",
+            "publishedAt": "2026-10-23",
+            "firstSeenAt": "2026-10-25T07:32:13+09:00",
+            "verifiedAt": "2026-10-25T07:32:13+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "정확한 게시 시각이 없어 기본 구간 이전 사건으로 보수적으로 분류하고 72시간 중첩 수집에서 처음 원문 검증했다."
+          },
+          "industryLinks": [
+            {
+              "sector": "클라우드 데이터베이스",
+              "relationship": "confirmed",
+              "text": "OpenAI는 Habitat의 저장계층이 Azure Cosmos DB를 기반으로 운영된다고 명시했다.",
+              "evidenceIds": [
+                "openai-habitat-part-two-official-20261023"
+              ]
+            },
+            {
+              "sector": "분산 저장·데이터 스트리밍",
+              "relationship": "indirect",
+              "text": "대규모 다중테넌시·캐시·CDC 운영은 저장·Kafka·관찰성 인프라 수요와 운영 기준을 높일 수 있다.",
+              "evidenceIds": [
+                "openai-habitat-part-two-official-20261023"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261025-microsoft-model-insider-risk-execution",
+        "eventId": "microsoft-model-insider-risk",
+        "signalId": "microsoft-model-insider-risk-20261010",
+        "hypothesisId": "microsoft-humanist-ai-model-governance",
+        "previousRevisionId": "revision-20261012-microsoft-model-insider-risk-correction-2",
+        "reportDate": "2026.10.25",
+        "recordedAt": "2026-10-25T07:32:13+09:00",
+        "tier": "signal",
+        "score": 80,
+        "headline": "나델라의 ‘모델=내부자 위험’ 원칙이 Microsoft IQ·Foundry의 외부 통제 구조로 구현됐다",
+        "source": "https://news.microsoft.com/source/wp-content/uploads/2026/10/10212026_Nadella_TRANSCRIPT_Frontier-Tour-London.pdf",
+        "status": "reviewed",
+        "stage": "execution",
+        "reason": "23+16+18+13+10=80. 동일 eventId가 statement에서 execution으로 이동해 결정적으로 승격했다. 독립 감사·비상정지 성과는 확인하지 않아 outcome으로 보지 않았다.",
+        "evidenceIds": [
+          "microsoft-frontier-tour-zero-trust-official-20261021",
+          "microsoft-nadella-insider-risk-essay-20261010",
+          "microsoft-nadella-insider-risk-verge-20261010"
+        ],
+        "snapshot": {
+          "id": "microsoft-model-insider-risk-20261010",
+          "leader": "사티아 나델라(Satya Nadella)",
+          "role": "Microsoft Chairman & CEO",
+          "initials": "SN",
+          "score": 80,
+          "kind": "실행",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.25",
+          "theme": "AI 안전",
+          "eventId": "microsoft-model-insider-risk",
+          "hypothesisId": "microsoft-humanist-ai-model-governance",
+          "headline": "나델라의 ‘모델=내부자 위험’ 원칙이 Microsoft IQ·Foundry의 외부 통제 구조로 구현됐다",
+          "takeaway": "나델라가 제안했던 모델 밖의 권한·감사 통제가 Microsoft IQ의 안전한 행동 등록부와 모델-하네스 분리, Foundry의 추적·관찰 구조로 옮겨갔다. 실제 기업 배포도 확인됐지만 독립 감사·비상정지·사고공개 성과는 아직 별도 검증이 필요하다.",
+          "before": "10월 10일 나델라는 프런티어 모델을 내부자 위험처럼 취급하고 모델 밖의 권한통제·감사·비상정지를 두자고 제안했지만 Microsoft 제품의 적용과 시행은 확인되지 않았다.",
+          "now": "10월 21일 공식 연설에서 Microsoft IQ의 안전한 행동 등록부, 모델과 하네스의 분리, Foundry의 추적·Insights와 실제 기업 에이전트 배포를 공개해 핵심 원칙 일부가 제품·운영 구조로 이동했다.",
+          "facts": [
+            "나델라는 규모가 커질수록 모델을 덜 신뢰하고 내부자 위험처럼 제로트러스트 구조로 다뤄야 한다고 밝혔다.",
+            "Microsoft IQ는 커넥터·스킬·플러그인을 안전한 행동 등록부에 두고, 컨텍스트와 메모리를 모델 밖에서 관리하도록 설계됐다.",
+            "Foundry Autopilot 데모는 전용 VM에 배포되고 추적·Insights로 관찰되는 에이전트를 Teams·Outlook 엔드포인트에 연결했다.",
+            "EasyJet 다중 에이전트 고객센터와 NHS 50만 명 Copilot 배포가 공개됐지만 독립 감사·비상정지의 운영성과는 제시되지 않았다."
+          ],
+          "action": "Microsoft가 나델라의 외부 통제 원칙 일부를 Microsoft IQ·Foundry의 권한 분리·행동 등록·추적 구조와 실제 기업 배포로 구현했다.",
+          "impact": "모델 성능보다 하네스·컨텍스트·권한·감사 계층을 기업 AI의 지속 자산으로 두는 구조가 확산되면 에이전트 보안·관찰성과 멀티모델 전환성이 조달의 핵심 기준이 될 수 있다.",
+          "impactPath": [
+            "모델을 내부자 위험으로 분류",
+            "권한·행동·메모리를 하네스에 분리",
+            "Foundry 추적과 기업 배포로 실행",
+            "에이전트 보안·관찰성 조달 기준 강화"
+          ],
+          "counter": "Microsoft의 자체 연설과 데모·고객 사례다. 독립 감사 계약, 비상정지의 실제 작동, 사고공개 기준과 보안사고 감소율은 확인되지 않았다.",
+          "next": "Microsoft IQ·Foundry의 일반 제공 범위, 독립 감사·비상정지 문서, 고객별 권한침해·오탐·사고율과 멀티모델 교체 비용을 확인한다.",
+          "source": "https://news.microsoft.com/source/wp-content/uploads/2026/10/10212026_Nadella_TRANSCRIPT_Frontier-Tour-London.pdf",
+          "sourceLabel": "Microsoft Frontier Tour London 공식 연설록 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-25T07:32:13+09:00",
+            "stage": "execution",
+            "impactDirection": "positive",
+            "attribution": "leader_direct",
+            "breakdown": {
+              "action": {
+                "score": 23,
+                "reason": "공식 제품 구조·실제 데모·다수 기업 배포가 확인돼 발언을 넘어 운영 실행으로 이동했다."
+              },
+              "change": {
+                "score": 16,
+                "reason": "외부 통제 원칙의 핵심 일부가 안전한 행동 등록부·모델-하네스 분리·추적 구조로 구체화됐다."
+              },
+              "impact": {
+                "score": 18,
+                "reason": "기업 에이전트의 권한·관찰성·멀티모델 전환 구조와 보안 조달 기준에 광범위한 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "제품 제공 범위·감사 문서·고객 사고율로 추적할 수 있으나 독립 감사와 비상정지 성과는 미공개다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "나델라의 공식 연설록에서 제품 구조·데모·고객 배포를 직접 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-10",
+              "statement": "나델라는 모델 밖 권한통제·감사·비상정지를 제안했지만 Microsoft 제품의 적용과 운영성과는 확인되지 않았다.",
+              "evidenceIds": [
+                "microsoft-nadella-insider-risk-essay-20261010",
+                "microsoft-nadella-insider-risk-verge-20261010"
+              ]
+            },
+            "evidenceIds": [
+              "microsoft-frontier-tour-zero-trust-official-20261021",
+              "microsoft-nadella-insider-risk-essay-20261010",
+              "microsoft-nadella-insider-risk-verge-20261010"
+            ],
+            "note": "23+16+18+13+10=80. 동일 eventId가 statement에서 execution으로 이동해 결정적으로 승격했다. 독립 감사·비상정지 성과는 확인하지 않아 outcome으로 보지 않았다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-12T07:30:43+09:00",
+            "verifiedAt": "2026-10-25T07:32:13+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "동일 사건의 제품·배포 실행 근거가 기본 조사 구간 전 공개됐지만 이번 72시간 중첩 수집에서 처음 원문 검증됐다."
+          },
+          "industryLinks": [
+            {
+              "sector": "기업용 AI 보안·관찰성",
+              "relationship": "confirmed",
+              "text": "Microsoft IQ·Foundry가 행동 등록·하네스 분리·추적 기능을 제품 구조와 데모로 공개했다.",
+              "evidenceIds": [
+                "microsoft-frontier-tour-zero-trust-official-20261021"
+              ]
+            },
+            {
+              "sector": "멀티모델 에이전트 런타임",
+              "relationship": "indirect",
+              "text": "모델을 교체 가능한 구성요소로 두면 하네스·컨텍스트·감사 계층의 전략적 가치가 높아질 수 있다.",
+              "evidenceIds": [
+                "microsoft-frontier-tour-zero-trust-official-20261021"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "revision-20261025-nvidia-google-cloud-a5x-rubin-scale",
+        "eventId": "nvidia-google-cloud-a5x-rubin-scale",
+        "signalId": "nvidia-google-cloud-a5x-rubin-20261021",
+        "hypothesisId": "nvidia-vera-rubin-inference-economics",
+        "previousRevisionId": null,
+        "reportDate": "2026.10.25",
+        "recordedAt": "2026-10-25T07:32:13+09:00",
+        "tier": "observation",
+        "score": 74,
+        "headline": "NVIDIA·Google Cloud가 Rubin A5X 첫 고객 접근을 열고 최대 96만 GPU 확장을 예고했다",
+        "source": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+        "status": "reviewed",
+        "stage": "commitment",
+        "reason": "18+14+19+13+10=74. 첫 고객 접근을 행동으로 인정하되 핵심 규모·일반 제공이 미래 계획이라 commitment·관찰로 제한했다.",
+        "evidenceIds": [
+          "nvidia-ocp-vera-rubin-open-official-20261012",
+          "nvidia-google-cloud-a5x-official-20261021"
+        ],
+        "snapshot": {
+          "id": "nvidia-google-cloud-a5x-rubin-20261021",
+          "leader": "젠슨 황(Jensen Huang)",
+          "role": "NVIDIA Founder & CEO",
+          "initials": "JH",
+          "score": 74,
+          "kind": "강화",
+          "date": "2026.10.21",
+          "reportDate": "2026.10.25",
+          "theme": "AI 인프라",
+          "eventId": "nvidia-google-cloud-a5x-rubin-scale",
+          "hypothesisId": "nvidia-vera-rubin-inference-economics",
+          "headline": "NVIDIA·Google Cloud가 Rubin A5X 첫 고객 접근을 열고 최대 96만 GPU 확장을 예고했다",
+          "takeaway": "Rubin의 개방형 랙·네트워크 발표가 Google Cloud의 첫 고객 접근과 구체적인 대규모 배치 계획으로 진전됐다. 그러나 일반 제공과 유럽 확장, 96만 GPU는 대부분 미래 계획이므로 실제 가동·주문·경제성이 확인될 때까지 관찰 단계다.",
+          "before": "10월 12일 NVIDIA는 Vera Rubin의 OCP 랙·네트워크 규격과 DSX 기반 개방형 AI 공장 구조를 공개했지만 Google Cloud의 고객 접근·일반 제공·대규모 배치 계획은 확인되지 않았다.",
+          "now": "NVIDIA는 Google Cloud A5X의 첫 고객 접근, 다음 달 일반 제공 계획, 유럽 확장과 여러 사이트에 최대 96만 Rubin GPU를 배치하려는 계획을 공개했다.",
+          "facts": [
+            "Google Cloud A5X는 다음 달 일반 제공을 목표로 하고 유럽 확장이 계획됐다.",
+            "Google은 여러 데이터센터 사이트에 최대 96만 Rubin GPU를 배치할 계획이라고 NVIDIA가 밝혔다.",
+            "Ineffable이 A5X의 첫 고객 접근을 시작했다.",
+            "WPP는 초기 시험에서 기존 다중 노드 워크로드를 단일 A5X 인스턴스에서 실행했다고 밝혔다."
+          ],
+          "action": "NVIDIA와 Google Cloud가 A5X의 첫 고객 접근을 열고 일반 제공 시점·지역 확장·최대 배치 규모를 공식화했다.",
+          "impact": "계획이 실행되면 Rubin 수요가 하이퍼스케일러의 전력·네트워크·냉각·자본집행과 직접 연결되지만, 현재 수치는 확정 조달과 가동 성과가 아니다.",
+          "impactPath": [
+            "A5X 첫 고객 접근",
+            "일반 제공·유럽 확장",
+            "대규모 Rubin 배치",
+            "전력·네트워크·데이터센터 투자 확대"
+          ],
+          "counter": "최대 96만 GPU는 계획치이며 주문·투입 자본·전력 확보·가동률이 공개되지 않았다. 첫 고객의 비용·처리량 결과도 회사 인용의 초기 시험이다.",
+          "next": "A5X 일반 제공 완료, 실제 GPU 주문·설치·가동 수, 유럽 리전 전력·네트워크 계약, 고객의 토큰당 비용·가동률을 확인한다.",
+          "source": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+          "sourceLabel": "NVIDIA·Google Cloud Vera Rubin A5X 공식 발표 · 2026.10.21",
+          "sourceGrade": "A",
+          "assessment": {
+            "status": "reviewed",
+            "rubricVersion": 1,
+            "assessedAt": "2026-10-25T07:32:13+09:00",
+            "stage": "commitment",
+            "impactDirection": "positive",
+            "attribution": "company_action",
+            "breakdown": {
+              "action": {
+                "score": 18,
+                "reason": "첫 고객 접근은 시작됐지만 일반 제공·유럽 확장·대부분의 대규모 배치는 아직 계획 단계다."
+              },
+              "change": {
+                "score": 14,
+                "reason": "개방형 규격 공개에서 특정 하이퍼스케일러의 고객 접근·시점·최대 규모로 진전됐다."
+              },
+              "impact": {
+                "score": 19,
+                "reason": "실행 시 GPU·전력·네트워크·냉각과 하이퍼스케일러 자본집행에 큰 영향을 줄 수 있다."
+              },
+              "verification": {
+                "score": 13,
+                "reason": "다음 달 일반 제공과 실제 주문·설치·가동 수로 검증 가능하지만 확정 구매·가동 수치는 없다."
+              },
+              "source": {
+                "score": 10,
+                "reason": "NVIDIA 공식 원문에서 Google Cloud 계획과 첫 고객 접근을 직접 확인했다."
+              }
+            },
+            "baseline": {
+              "date": "2026-10-12",
+              "statement": "NVIDIA는 Vera Rubin의 OCP 규격과 개방형 AI 공장 구조를 공개했지만 Google Cloud의 고객 접근과 대규모 배치 계획은 없었다.",
+              "evidenceIds": [
+                "nvidia-ocp-vera-rubin-open-official-20261012"
+              ]
+            },
+            "evidenceIds": [
+              "nvidia-ocp-vera-rubin-open-official-20261012",
+              "nvidia-google-cloud-a5x-official-20261021"
+            ],
+            "note": "18+14+19+13+10=74. 첫 고객 접근을 행동으로 인정하되 핵심 규모·일반 제공이 미래 계획이라 commitment·관찰로 제한했다."
+          },
+          "timing": {
+            "occurredAt": "2026-10-21",
+            "publishedAt": "2026-10-21",
+            "firstSeenAt": "2026-10-25T07:32:13+09:00",
+            "verifiedAt": "2026-10-25T07:32:13+09:00",
+            "lateDiscovery": true,
+            "lateDiscoveryReason": "공식 원문이 기본 조사 구간 이전 공개됐지만 이번 72시간 중첩 수집에서 처음 확인됐다."
+          },
+          "industryLinks": [
+            {
+              "sector": "하이퍼스케일 클라우드",
+              "relationship": "confirmed",
+              "text": "NVIDIA와 Google Cloud의 A5X 통합과 Ineffable의 첫 고객 접근이 공식 발표됐다.",
+              "evidenceIds": [
+                "nvidia-google-cloud-a5x-official-20261021"
+              ]
+            },
+            {
+              "sector": "데이터센터 전력·네트워크",
+              "relationship": "hypothesis",
+              "text": "최대 96만 GPU 계획이 실제 가동되면 대규모 전력·네트워크·냉각 투자가 필요하지만 계약은 확인되지 않았다.",
+              "evidenceIds": [
+                "nvidia-google-cloud-a5x-official-20261021"
+              ]
+            }
+          ]
+        }
+      },
       {
         "id": "revision-20261024-openai-frontier-training-containment",
         "eventId": "openai-frontier-training-containment",
@@ -32606,6 +33018,14 @@
         "leaderNames": [
           "브라이언 체스키(Brian Chesky)"
         ]
+      },
+      {
+        "id": "openai-storage-reliability-scale",
+        "title": "OpenAI 저장계층의 규모·신뢰성 경제성",
+        "question": "Habitat의 다중테넌시·캐시·CDC 구조가 다음 10억 사용자에서도 지연·장애·저장비용을 개선하고 격리·데이터 레지던시 위험을 통제하는가?",
+        "leaderNames": [
+          "샘 알트만(Sam Altman)"
+        ]
       }
     ],
     "migration": {
@@ -32620,24 +33040,234 @@
     "version": 1
   },
   "researchWindow": {
-    "start": "2026-10-23T07:28:00+09:00",
-    "end": "2026-10-24T07:26:26+09:00"
+    "start": "2026-10-24T07:26:26+09:00",
+    "end": "2026-10-25T07:32:13+09:00"
   },
   "runSummary": {
     "leadersChecked": 22,
-    "sourcesChecked": 29,
+    "sourcesChecked": 28,
     "newSignals": 1,
     "newObservations": 1,
-    "upgrades": 0,
+    "upgrades": 1,
     "downgrades": 0,
-    "reversals": 0,
-    "actionTransitions": 0,
-    "excludedCount": 10,
-    "notes": "22명 전원과 중복 제거 원문을 확인했다. OpenAI 프런티어 학습환경 격리·재개(87)를 결정적으로, Airbnb 체크아웃 규칙 표준화(64)를 관찰로 선별했다. Anthropic 유럽 컨설팅 익명 보도, TSMC 희토류 모터 초기 검토, a16z Frontier의 Marc 귀속 부족, Musk·Thiel 반복 발언, Meta 정책 조정 등은 출처·귀속·변화량·실행단계가 부족해 제외했다.",
-    "note": "22명 전원과 중복 제거 원문을 확인했다. OpenAI 프런티어 학습환경 격리·재개(87)를 결정적으로, Airbnb 체크아웃 규칙 표준화(64)를 관찰로 선별했다. Anthropic 유럽 컨설팅 익명 보도, TSMC 희토류 모터 초기 검토, a16z Frontier의 Marc 귀속 부족, Musk·Thiel 반복 발언, Meta 정책 조정 등은 출처·귀속·변화량·실행단계가 부족해 제외했다."
+    "reversals": 1,
+    "actionTransitions": 1,
+    "excludedCount": 9,
+    "notes": "22명 전원과 중복 제거 원문을 확인했다. OpenAI Habitat 다중테넌시 재구축(85·성과)과 Microsoft 모델 외부 통제의 제품 실행(80·실행)을 결정적으로, NVIDIA–Google Cloud A5X(74·공식 확약)를 관찰로 선별했다. Tesla–SpaceX 절차 반복, OpenAI 익명 조달설, Anthropic·Thiel 반복 발언, a16z의 Marc 귀속 부족 등은 출처·귀속·변화량·실행단계가 부족해 제외했다.",
+    "note": "22명 전원과 중복 제거 원문을 확인했다. OpenAI Habitat 다중테넌시 재구축(85·성과)과 Microsoft 모델 외부 통제의 제품 실행(80·실행)을 결정적으로, NVIDIA–Google Cloud A5X(74·공식 확약)를 관찰로 선별했다. Tesla–SpaceX 절차 반복, OpenAI 익명 조달설, Anthropic·Thiel 반복 발언, a16z의 Marc 귀속 부족 등은 출처·귀속·변화량·실행단계가 부족해 제외했다."
   },
   "schemaVersion": 2,
   "signals": [
+    {
+      "id": "openai-habitat-multitenancy-outcome-20261023",
+      "leader": "샘 알트만(Sam Altman)",
+      "role": "OpenAI CEO",
+      "initials": "SA",
+      "score": 85,
+      "kind": "반전",
+      "date": "2026.10.23",
+      "reportDate": "2026.10.25",
+      "theme": "AI 인프라",
+      "eventId": "openai-habitat-multitenancy-scale",
+      "hypothesisId": "openai-storage-reliability-scale",
+      "headline": "OpenAI가 단일테넌시 우회를 되돌리고 10억 사용자·500PB 저장계층을 다중테넌시로 재구축했다",
+      "takeaway": "OpenAI는 고객별 단일테넌시가 조직·운영 복잡성을 키운다는 판단 뒤 다중테넌시를 기본으로 되돌리고 읽기 지연과 대규모 변경전파 성능을 개선했다. 이는 AI 서비스의 병목이 모델뿐 아니라 저장·격리·운영 자동화에 있음을 보여주지만 비용·장애율은 아직 공개되지 않았다.",
+      "before": "9월 Part I은 Habitat 서비스를 Rust로 재작성해 당시 요청의 95%를 처리하고 CPU 6배·메모리 15배 효율을 냈다고 공개했지만 데이터베이스 테넌시 구조와 대규모 지연·신뢰성 결과는 후속편으로 남겼다.",
+      "now": "OpenAI는 10억 명 이상·40개 리전·500PB 규모에서 단일테넌시 우회를 조직적으로 감당하지 못해 다중테넌시를 기본으로 복원했고 읽기 p50을 120ms에서 10ms로 낮추고 대규모 CDC를 운영한다고 밝혔다.",
+      "facts": [
+        "Habitat은 10억 명 이상의 사용자, 40개 리전, 500PB 이상의 저장 규모를 지원한다고 회사가 밝혔다.",
+        "고객별 단일테넌시로 우회한 뒤 용량계획·업그레이드·운영 복잡성이 커져 다중테넌시를 다시 기본 구조로 선택했다.",
+        "읽기 p50은 120ms에서 10ms로 낮아졌으며 핫키 제한·QoS·서버리스 개선이 함께 적용됐다.",
+        "CDC는 초당 수백만 건의 변경, 수천 개 컨테이너·파티션과 100개 이상의 Kafka 토픽을 처리한다고 공개됐다."
+      ],
+      "action": "OpenAI가 전 세계 ChatGPT 저장계층의 테넌시·캐시·변경전파 구조를 실제 재설계하고 운영 지연·처리 규모를 수치로 공개했다.",
+      "impact": "대규모 AI 서비스의 경쟁력이 모델 연산뿐 아니라 상태 저장·멀티테넌트 격리·데이터 이동의 효율과 신뢰성에 좌우되며, 클라우드 데이터베이스와 자체 저장시스템의 역할 분담을 바꿀 수 있다.",
+      "impactPath": [
+        "단일테넌시 운영 복잡성 확인",
+        "다중테넌시·캐시·QoS 재설계",
+        "지연·CDC 처리량 개선",
+        "AI 저장·데이터 인프라 투자 확대"
+      ],
+      "counter": "수치는 OpenAI 자체 공개이고 p99·오류율·장애시간·저장비용은 없다. 자체 엑사바이트 시스템은 개발 중일 뿐 운영 성과가 아니며 다중테넌시의 격리 사고 위험도 남는다.",
+      "next": "Habitat의 p99·오류예산·장애시간·PB당 비용, 다중테넌트 격리 사고, 자체 엑사바이트 저장시스템의 실제 이전률과 Azure 의존 변화를 확인한다.",
+      "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+      "sourceLabel": "OpenAI Habitat 저장계층 Part II 공식 원문 · 2026.10.23",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-25T07:32:13+09:00",
+        "stage": "outcome",
+        "impactDirection": "positive",
+        "attribution": "company_action",
+        "breakdown": {
+          "action": {
+            "score": 26,
+            "reason": "글로벌 서비스의 저장계층을 실제 재설계·운영하고 지연·처리규모 결과를 공개했다."
+          },
+          "change": {
+            "score": 18,
+            "reason": "고객별 단일테넌시 우회를 되돌려 다중테넌시를 기본으로 복원한 의미 있는 아키텍처 반전이다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "AI 서비스의 저장·격리·데이터 이동 비용과 클라우드 데이터 인프라 구조 전반에 영향을 준다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "지연·처리량·규모는 공개됐고 후속 장애율·비용·이전률로 판별할 수 있으나 독립 측정은 없다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "OpenAI의 Part I·II 공식 기술 원문에서 기준선과 운영 결과를 직접 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-09-11",
+          "statement": "Rust 서비스 재작성의 효율은 공개됐지만 데이터베이스 테넌시 구조와 대규모 저장 성과는 후속편으로 남아 있었다.",
+          "evidenceIds": [
+            "openai-habitat-part-one-official-20260911"
+          ]
+        },
+        "evidenceIds": [
+          "openai-habitat-part-one-official-20260911",
+          "openai-habitat-part-two-official-20261023"
+        ],
+        "note": "26+18+18+13+10=85. 실제 글로벌 운영과 정량 성과를 outcome으로 평가하되 자체 엑사바이트 시스템 계획은 성과에 포함하지 않았다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-23",
+        "publishedAt": "2026-10-23",
+        "firstSeenAt": "2026-10-25T07:32:13+09:00",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "정확한 게시 시각이 없어 기본 구간 이전 사건으로 보수적으로 분류하고 72시간 중첩 수집에서 처음 원문 검증했다."
+      },
+      "industryLinks": [
+        {
+          "sector": "클라우드 데이터베이스",
+          "relationship": "confirmed",
+          "text": "OpenAI는 Habitat의 저장계층이 Azure Cosmos DB를 기반으로 운영된다고 명시했다.",
+          "evidenceIds": [
+            "openai-habitat-part-two-official-20261023"
+          ]
+        },
+        {
+          "sector": "분산 저장·데이터 스트리밍",
+          "relationship": "indirect",
+          "text": "대규모 다중테넌시·캐시·CDC 운영은 저장·Kafka·관찰성 인프라 수요와 운영 기준을 높일 수 있다.",
+          "evidenceIds": [
+            "openai-habitat-part-two-official-20261023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microsoft-model-insider-risk-20261010",
+      "leader": "사티아 나델라(Satya Nadella)",
+      "role": "Microsoft Chairman & CEO",
+      "initials": "SN",
+      "score": 80,
+      "kind": "실행",
+      "date": "2026.10.21",
+      "reportDate": "2026.10.25",
+      "theme": "AI 안전",
+      "eventId": "microsoft-model-insider-risk",
+      "hypothesisId": "microsoft-humanist-ai-model-governance",
+      "headline": "나델라의 ‘모델=내부자 위험’ 원칙이 Microsoft IQ·Foundry의 외부 통제 구조로 구현됐다",
+      "takeaway": "나델라가 제안했던 모델 밖의 권한·감사 통제가 Microsoft IQ의 안전한 행동 등록부와 모델-하네스 분리, Foundry의 추적·관찰 구조로 옮겨갔다. 실제 기업 배포도 확인됐지만 독립 감사·비상정지·사고공개 성과는 아직 별도 검증이 필요하다.",
+      "before": "10월 10일 나델라는 프런티어 모델을 내부자 위험처럼 취급하고 모델 밖의 권한통제·감사·비상정지를 두자고 제안했지만 Microsoft 제품의 적용과 시행은 확인되지 않았다.",
+      "now": "10월 21일 공식 연설에서 Microsoft IQ의 안전한 행동 등록부, 모델과 하네스의 분리, Foundry의 추적·Insights와 실제 기업 에이전트 배포를 공개해 핵심 원칙 일부가 제품·운영 구조로 이동했다.",
+      "facts": [
+        "나델라는 규모가 커질수록 모델을 덜 신뢰하고 내부자 위험처럼 제로트러스트 구조로 다뤄야 한다고 밝혔다.",
+        "Microsoft IQ는 커넥터·스킬·플러그인을 안전한 행동 등록부에 두고, 컨텍스트와 메모리를 모델 밖에서 관리하도록 설계됐다.",
+        "Foundry Autopilot 데모는 전용 VM에 배포되고 추적·Insights로 관찰되는 에이전트를 Teams·Outlook 엔드포인트에 연결했다.",
+        "EasyJet 다중 에이전트 고객센터와 NHS 50만 명 Copilot 배포가 공개됐지만 독립 감사·비상정지의 운영성과는 제시되지 않았다."
+      ],
+      "action": "Microsoft가 나델라의 외부 통제 원칙 일부를 Microsoft IQ·Foundry의 권한 분리·행동 등록·추적 구조와 실제 기업 배포로 구현했다.",
+      "impact": "모델 성능보다 하네스·컨텍스트·권한·감사 계층을 기업 AI의 지속 자산으로 두는 구조가 확산되면 에이전트 보안·관찰성과 멀티모델 전환성이 조달의 핵심 기준이 될 수 있다.",
+      "impactPath": [
+        "모델을 내부자 위험으로 분류",
+        "권한·행동·메모리를 하네스에 분리",
+        "Foundry 추적과 기업 배포로 실행",
+        "에이전트 보안·관찰성 조달 기준 강화"
+      ],
+      "counter": "Microsoft의 자체 연설과 데모·고객 사례다. 독립 감사 계약, 비상정지의 실제 작동, 사고공개 기준과 보안사고 감소율은 확인되지 않았다.",
+      "next": "Microsoft IQ·Foundry의 일반 제공 범위, 독립 감사·비상정지 문서, 고객별 권한침해·오탐·사고율과 멀티모델 교체 비용을 확인한다.",
+      "source": "https://news.microsoft.com/source/wp-content/uploads/2026/10/10212026_Nadella_TRANSCRIPT_Frontier-Tour-London.pdf",
+      "sourceLabel": "Microsoft Frontier Tour London 공식 연설록 · 2026.10.21",
+      "sourceGrade": "A",
+      "assessment": {
+        "status": "reviewed",
+        "rubricVersion": 1,
+        "assessedAt": "2026-10-25T07:32:13+09:00",
+        "stage": "execution",
+        "impactDirection": "positive",
+        "attribution": "leader_direct",
+        "breakdown": {
+          "action": {
+            "score": 23,
+            "reason": "공식 제품 구조·실제 데모·다수 기업 배포가 확인돼 발언을 넘어 운영 실행으로 이동했다."
+          },
+          "change": {
+            "score": 16,
+            "reason": "외부 통제 원칙의 핵심 일부가 안전한 행동 등록부·모델-하네스 분리·추적 구조로 구체화됐다."
+          },
+          "impact": {
+            "score": 18,
+            "reason": "기업 에이전트의 권한·관찰성·멀티모델 전환 구조와 보안 조달 기준에 광범위한 영향을 줄 수 있다."
+          },
+          "verification": {
+            "score": 13,
+            "reason": "제품 제공 범위·감사 문서·고객 사고율로 추적할 수 있으나 독립 감사와 비상정지 성과는 미공개다."
+          },
+          "source": {
+            "score": 10,
+            "reason": "나델라의 공식 연설록에서 제품 구조·데모·고객 배포를 직접 확인했다."
+          }
+        },
+        "baseline": {
+          "date": "2026-10-10",
+          "statement": "나델라는 모델 밖 권한통제·감사·비상정지를 제안했지만 Microsoft 제품의 적용과 운영성과는 확인되지 않았다.",
+          "evidenceIds": [
+            "microsoft-nadella-insider-risk-essay-20261010",
+            "microsoft-nadella-insider-risk-verge-20261010"
+          ]
+        },
+        "evidenceIds": [
+          "microsoft-frontier-tour-zero-trust-official-20261021",
+          "microsoft-nadella-insider-risk-essay-20261010",
+          "microsoft-nadella-insider-risk-verge-20261010"
+        ],
+        "note": "23+16+18+13+10=80. 동일 eventId가 statement에서 execution으로 이동해 결정적으로 승격했다. 독립 감사·비상정지 성과는 확인하지 않아 outcome으로 보지 않았다."
+      },
+      "timing": {
+        "occurredAt": "2026-10-21",
+        "publishedAt": "2026-10-21",
+        "firstSeenAt": "2026-10-12T07:30:43+09:00",
+        "verifiedAt": "2026-10-25T07:32:13+09:00",
+        "lateDiscovery": true,
+        "lateDiscoveryReason": "동일 사건의 제품·배포 실행 근거가 기본 조사 구간 전 공개됐지만 이번 72시간 중첩 수집에서 처음 원문 검증됐다."
+      },
+      "industryLinks": [
+        {
+          "sector": "기업용 AI 보안·관찰성",
+          "relationship": "confirmed",
+          "text": "Microsoft IQ·Foundry가 행동 등록·하네스 분리·추적 기능을 제품 구조와 데모로 공개했다.",
+          "evidenceIds": [
+            "microsoft-frontier-tour-zero-trust-official-20261021"
+          ]
+        },
+        {
+          "sector": "멀티모델 에이전트 런타임",
+          "relationship": "indirect",
+          "text": "모델을 교체 가능한 구성요소로 두면 하네스·컨텍스트·감사 계층의 전략적 가치가 높아질 수 있다.",
+          "evidenceIds": [
+            "microsoft-frontier-tour-zero-trust-official-20261021"
+          ]
+        }
+      ]
+    },
     {
       "id": "openai-frontier-training-containment-20261001",
       "eventId": "openai-frontier-training-containment",
@@ -36173,221 +36803,10 @@
         "lateDiscovery": false,
         "lateDiscoveryReason": null
       }
-    },
-    {
-      "id": "openai-gpt6-intelligent-ui-20261007",
-      "leader": "샘 알트만(Sam Altman)",
-      "role": "OpenAI CEO",
-      "initials": "SA",
-      "score": 89,
-      "kind": "실행",
-      "date": "2026.10.07",
-      "reportDate": "2026.10.08",
-      "theme": "AI 배포",
-      "eventId": "openai-gpt6-intelligent-ui-rollout",
-      "hypothesisId": "openai-adaptive-interface-scale",
-      "headline": "OpenAI가 GPT-6 지능형 UI를 유료 고객에게 배포했지만 안전평가에서 자해·미성년자 정책 회귀가 확인됐다",
-      "takeaway": "텍스트 답변을 넘어 요청별 인터랙티브 도구를 실시간 생성하는 인터페이스가 실제 배포됐다. 동시에 공식 안전평가가 일부 정책 회귀를 공개해 대규모 확산의 제품성과 통제비용을 함께 추적해야 한다.",
-      "before": "GPT-6 Sol·Luna는 API와 기존 ChatGPT 인터페이스에 배포됐지만, 질문에 맞춘 도구·앱형 인터페이스를 응답 중 생성하는 전면 배포는 확인되지 않았다.",
-      "now": "OpenAI는 GPT-6를 Plus·Pro·Business·Enterprise에 배포하고 Free·Go는 다음 날 개방한다고 밝혔다. 지능형 UI는 답변과 동시에 맞춤형 인터랙티브 구성요소를 만들지만 공식 안전평가에서는 자해·성적 콘텐츠·정서적 의존 등 일부 회귀가 나타났다.",
-      "facts": [
-        "GPT-6는 10월 7일 Plus·Pro·Business·Enterprise에 배포됐고 Free·Go는 10월 8일 개방 일정이 제시됐다.",
-        "지능형 UI는 질문별 인터랙티브 구성요소와 도구를 생성하며 검색 시작 시점은 기존보다 44% 빨라졌다고 회사가 밝혔다.",
-        "공식 배포 안전평가에서 Sol은 표준 자해, Luna는 표준 자해·고어·성적 콘텐츠에서 통계적으로 유의한 회귀가 보고됐다.",
-        "두 모델 모두 미성년자 정책의 연령제한·성적 콘텐츠·정서적 의존 항목에서 회귀가 있었고 분류기 차단이 완화책으로 적용됐다."
-      ],
-      "action": "OpenAI가 GPT-6 기반 생성형 인터페이스를 유료 고객군에 실제 배포하고 무료 고객군의 개방 일정을 확정했다.",
-      "impact": "AI 서비스의 경쟁축이 답변 품질에서 요청별 소프트웨어 생성과 배포 안전성으로 이동할 수 있으며, 인터페이스 자동생성은 앱·검색·업무도구의 경계를 흔들 수 있다.",
-      "impactPath": [
-        "GPT-6 고객군 배포",
-        "요청별 지능형 UI 생성",
-        "앱·검색·업무도구 사용방식 변화",
-        "안전 분류기와 운영비용의 동시 확대"
-      ],
-      "counter": "주간 사용자 12억 명은 ChatGPT 전체 규모이지 GPT-6 채택 완료 수치가 아니다. 안전 회귀와 완화책의 실제 노출률·오탐률도 공개되지 않았다.",
-      "next": "무료 고객군 개방 완료, 지능형 UI 사용률·완료율·오류율, 안전 회귀의 실제 사고율과 분류기 오탐·우회율을 확인한다.",
-      "source": "https://openai.com/index/gpt-6-for-everyone/",
-      "sourceLabel": "OpenAI 공식 발표 · 2026.10.07",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-10-08T07:26:00+09:00",
-        "stage": "execution",
-        "impactDirection": "mixed",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 26,
-            "reason": "유료 고객군에 실제 배포했고 무료 고객군 개방 일정도 명시했다."
-          },
-          "change": {
-            "score": 19,
-            "reason": "기존 채팅형 UI에서 요청별 인터랙티브 도구를 생성하는 제품 구조로 의미 있게 확장됐다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "검색·앱·업무도구의 사용방식과 AI 배포 안전 비용에 광범위한 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 15,
-            "reason": "고객군별 개방, 사용률·완료율과 안전평가 회귀·사고율로 후속 판별할 수 있다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "제품·안전 공식 원문과 직접 제품 보도를 교차 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-22",
-          "statement": "OpenAI는 GPT-6 Sol·Luna를 생산 배포했지만 요청별 인터랙티브 UI 생성과 이번 안전 회귀는 공개되지 않았다.",
-          "evidenceIds": [
-            "openai-gpt6-sol-luna-official-20260922"
-          ]
-        },
-        "evidenceIds": [
-          "openai-gpt6-ui-official-20261007",
-          "openai-gpt6-oct-safety-official-20261007",
-          "openai-gpt6-ui-verge-20261007"
-        ],
-        "note": "26+19+19+15+10=89. 실제 배포를 결정적으로 평가하되 전체 사용자 채택으로 확대해석하지 않고 안전 회귀를 혼합 방향에 반영했다."
-      },
-      "timing": {
-        "occurredAt": "2026-10-07",
-        "publishedAt": "2026-10-07",
-        "firstSeenAt": "2026-10-08T07:26:00+09:00",
-        "verifiedAt": "2026-10-08T07:26:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "AI 애플리케이션·검색",
-          "relationship": "indirect",
-          "text": "요청별 인터랙티브 UI 생성은 검색·앱·업무도구의 사용자 경험 경쟁을 바꿀 수 있다.",
-          "evidenceIds": [
-            "openai-gpt6-ui-official-20261007",
-            "openai-gpt6-ui-verge-20261007"
-          ]
-        },
-        {
-          "sector": "AI 안전·콘텐츠 조정",
-          "relationship": "indirect",
-          "text": "공식 평가의 정책 회귀는 분류기·모니터링·감사 수요를 높일 수 있다.",
-          "evidenceIds": [
-            "openai-gpt6-oct-safety-official-20261007"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "microsoft-windows-agent-platform-20261007",
-      "leader": "사티아 나델라(Satya Nadella)",
-      "role": "Microsoft CEO",
-      "initials": "SN",
-      "score": 88,
-      "kind": "실행",
-      "date": "2026.10.07",
-      "reportDate": "2026.10.08",
-      "theme": "AI 배포",
-      "eventId": "microsoft-windows-agent-platform",
-      "hypothesisId": "microsoft-local-agent-operating-layer",
-      "headline": "Microsoft가 Windows에 로컬 AI 모델과 에이전트 격리계층 MXC를 정식 배포했다",
-      "takeaway": "Microsoft가 Copilot 기능 추가를 넘어 Windows 자체를 로컬 모델과 에이전트 실행·보안 통제 계층으로 바꿨다. OpenAI·Anthropic·NVIDIA의 채택이 확인됐지만 실제 권한침해 감소와 기업 배포 규모는 아직 검증되지 않았다.",
-      "before": "Microsoft는 Copilot과 Windows Autopilot을 확장했지만, 타사 에이전트를 운영체제 수준에서 격리하고 로컬 모델을 표준 실행하는 범용 계층은 정식 배포되지 않았다.",
-      "now": "Microsoft Execution Containers가 정식 출시돼 IT 정책을 기기 단위로 집행하고 에이전트의 비인가 데이터 접근을 제한한다. Windows는 RTX Spark 노트북과 로컬 Nemotron·DeepSeek V4 실행을 묶었다.",
-      "facts": [
-        "Microsoft Execution Containers가 정식 출시됐고 OpenAI·Anthropic·NVIDIA가 이를 사용할 계획이라고 발표됐다.",
-        "IT 관리자가 규칙을 정하면 Windows가 에이전트별 데이터·네트워크 접근을 기기에서 집행한다.",
-        "RTX Spark 노트북은 최대 128GB 메모리와 1페타플롭 성능을 제시했고 10월 16일 출시 일정이 공개됐다.",
-        "로컬 Nemotron·DeepSeek V4와 Microsoft의 온디바이스 코딩 모델 실행이 시연됐다."
-      ],
-      "action": "Microsoft가 에이전트 격리·권한 집행 계층을 Windows에 정식 출시하고 로컬 AI 하드웨어·모델 생태계를 실제 판매 일정과 연결했다.",
-      "impact": "운영체제가 클라우드와 별도의 에이전트 실행·보안 표준이 되면 PC 교체수요, 로컬 추론칩, 기업 보안과 모델 유통의 가치사슬이 재편될 수 있다.",
-      "impactPath": [
-        "Windows MXC 정식 배포",
-        "타사 에이전트의 기기 내 권한 통제",
-        "RTX Spark·로컬 모델 수요 확대",
-        "PC·보안·클라우드 경계 재편"
-      ],
-      "counter": "파트너의 MXC 사용 계획은 배포 규모와 성과가 아니다. RTX Spark의 실제 판매량, 로컬 모델의 비용·전력·보안 우위도 미확인이다.",
-      "next": "MXC 기업 도입 수, 권한침해·데이터 유출 감소율, RTX Spark 판매량과 로컬 추론비용, OpenAI·Anthropic의 실제 제품 통합 범위를 확인한다.",
-      "source": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "sourceLabel": "NVIDIA 공식 발표 · 2026.10.07",
-      "sourceGrade": "A",
-      "assessment": {
-        "status": "reviewed",
-        "rubricVersion": 1,
-        "assessedAt": "2026-10-08T07:26:00+09:00",
-        "stage": "execution",
-        "impactDirection": "positive",
-        "attribution": "company_action",
-        "breakdown": {
-          "action": {
-            "score": 25,
-            "reason": "운영체제 보안 계층을 정식 출시하고 하드웨어 사전주문·출시일과 연결했다."
-          },
-          "change": {
-            "score": 19,
-            "reason": "Copilot 기능 확대에서 OS 수준의 로컬 에이전트 실행·격리 표준으로 전략 범위가 넓어졌다."
-          },
-          "impact": {
-            "score": 19,
-            "reason": "PC·로컬 추론·기업 보안·클라우드의 가치사슬에 구조적 영향을 줄 수 있다."
-          },
-          "verification": {
-            "score": 15,
-            "reason": "기업 도입, 보안사고율, 제품 판매량과 파트너 통합으로 구체적으로 추적할 수 있다."
-          },
-          "source": {
-            "score": 10,
-            "reason": "NVIDIA 공식 발표와 Reuters의 현장 직접보도를 교차 확인했다."
-          }
-        },
-        "baseline": {
-          "date": "2026-09-25",
-          "statement": "Microsoft는 Copilot Autopilot과 에이전트 관리를 공개했지만 Windows 수준의 범용 격리계층과 로컬 AI 하드웨어 판매는 확인되지 않았다.",
-          "evidenceIds": [
-            "microsoft-copilot-autopilot-official-20260925"
-          ]
-        },
-        "evidenceIds": [
-          "microsoft-windows-agents-nvidia-official-20261007",
-          "microsoft-windows-agents-reuters-20261007"
-        ],
-        "note": "25+19+19+15+10=88. 정식 출시와 판매 일정을 실행으로 평가하되 파트너 채택 계획을 실제 운영성과로 보지 않았다."
-      },
-      "timing": {
-        "occurredAt": "2026-10-07",
-        "publishedAt": "2026-10-07",
-        "firstSeenAt": "2026-10-08T07:26:00+09:00",
-        "verifiedAt": "2026-10-08T07:26:00+09:00",
-        "lateDiscovery": false,
-        "lateDiscoveryReason": null
-      },
-      "industryLinks": [
-        {
-          "sector": "PC·반도체",
-          "relationship": "confirmed",
-          "text": "Microsoft와 NVIDIA는 RTX Spark Windows 노트북의 사전주문과 10월 16일 출시를 발표했다.",
-          "evidenceIds": [
-            "microsoft-windows-agents-nvidia-official-20261007",
-            "microsoft-windows-agents-reuters-20261007"
-          ]
-        },
-        {
-          "sector": "기업 보안·AI 에이전트",
-          "relationship": "confirmed",
-          "text": "OpenAI·Anthropic·NVIDIA가 Microsoft Execution Containers 사용 계획을 밝혔다.",
-          "evidenceIds": [
-            "microsoft-windows-agents-reuters-20261007"
-          ]
-        }
-      ]
     }
   ],
   "status": "signals",
-  "statusMessage": "고정 22명 전원을 확인해 결정적 1건과 관찰 1건을 선별했습니다. OpenAI 학습 재개와 Airbnb 정책은 사건일이 앞서지만 이번 공식 원문에서 처음 검증한 지연 발견입니다.",
+  "statusMessage": "결정적 신호 2건과 관찰 1건을 선별했습니다. Microsoft 동일 사건 1건은 발언에서 실행으로 승격됐습니다.",
   "themes": [
     {
       "conviction": 99,
@@ -36403,6 +36822,20 @@
           "to": "2026.09.06"
         },
         "independentEventGroups": [
+          {
+            "id": "nvidia-google-cloud-a5x-rubin-scale",
+            "eventIds": [
+              "nvidia-google-cloud-a5x-rubin-scale"
+            ],
+            "note": "NVIDIA와 Google Cloud의 같은 A5X 발표·첫 고객 접근·확장 계획을 하나의 사건으로 집계한다."
+          },
+          {
+            "id": "openai-habitat-multitenancy-scale",
+            "eventIds": [
+              "openai-habitat-multitenancy-scale"
+            ],
+            "note": "OpenAI Habitat Part I·II와 같은 저장계층 재설계·성과는 하나의 회사 사건으로 집계한다."
+          },
           {
             "id": "nvidia-minerva-aiops-launch",
             "eventIds": [
@@ -36665,6 +37098,22 @@
           }
         ],
         "opposing": [
+          {
+            "eventId": "nvidia-google-cloud-a5x-rubin-scale",
+            "text": "최대 규모는 계획치이며 실제 주문·설치·전력 확보·가동률과 고객 경제성은 미확인이다.",
+            "evidenceIds": [
+              "nvidia-google-cloud-a5x-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-habitat-multitenancy-scale",
+            "text": "p99·오류율·장애시간·비용과 다중테넌트 격리 사고는 공개되지 않았고 자체 엑사바이트 시스템은 개발 단계다.",
+            "evidenceIds": [
+              "openai-habitat-part-two-official-20261023"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-minerva-aiops-launch",
             "text": "정량 가동률·수리시간 개선이 없고 다수 파트너는 배치 계획 단계다.",
@@ -36955,6 +37404,23 @@
           }
         ],
         "supporting": [
+          {
+            "eventId": "nvidia-google-cloud-a5x-rubin-scale",
+            "text": "Google Cloud A5X가 첫 고객 접근을 시작했고 다음 달 일반 제공·유럽 확장·최대 96만 Rubin GPU 계획이 공개됐다.",
+            "evidenceIds": [
+              "nvidia-google-cloud-a5x-official-20261021"
+            ],
+            "status": "verified"
+          },
+          {
+            "eventId": "openai-habitat-multitenancy-scale",
+            "text": "OpenAI가 10억 사용자·40개 리전·500PB 저장계층을 다중테넌시로 재구축하고 읽기 p50 12배 개선과 대규모 CDC 운영을 공개했다.",
+            "evidenceIds": [
+              "openai-habitat-part-one-official-20260911",
+              "openai-habitat-part-two-official-20261023"
+            ],
+            "status": "verified"
+          },
           {
             "eventId": "nvidia-minerva-aiops-launch",
             "text": "Minerva가 AI 공장 운영 텔레메트리를 통합하고 IREN 사용과 OEM·사업자 배치 경로를 확보했다.",
@@ -37322,7 +37788,7 @@
             "eventIds": [
               "microsoft-model-insider-risk"
             ],
-            "note": "나델라의 같은 원문·LinkedIn 게시·반복 보도는 하나의 관점 변화 사건으로 집계한다."
+            "note": "10월 10일 원칙 제안과 10월 21일 제품·배포 실행은 동일 eventId의 단계 전환이며 독립 사건 두 건으로 늘리지 않는다."
           },
           {
             "id": "anthropic-government-sites-unintended-actions",
@@ -37603,9 +38069,9 @@
           },
           {
             "eventId": "microsoft-model-insider-risk",
-            "text": "Microsoft 제품의 의무 적용과 감사 계약·시행일이 없어 실제 통제 강화는 아직 검증되지 않았다.",
+            "text": "독립 감사 계약·비상정지 작동·사고공개 기준과 보안사고 감소율은 아직 확인되지 않았다.",
             "evidenceIds": [
-              "microsoft-nadella-insider-risk-essay-20261010"
+              "microsoft-frontier-tour-zero-trust-official-20261021"
             ],
             "status": "verified"
           },
@@ -37981,10 +38447,10 @@
           },
           {
             "eventId": "microsoft-model-insider-risk",
-            "text": "나델라가 프런티어 모델의 외부 권한통제·변조방지 로그·독립감사·비상정지를 구체적 운영 원칙으로 제안했다.",
+            "text": "나델라의 외부 통제 원칙 일부가 Microsoft IQ의 안전한 행동 등록부·모델-하네스 분리와 Foundry 추적·기업 배포로 실행됐다.",
             "evidenceIds": [
-              "microsoft-nadella-insider-risk-essay-20261010",
-              "microsoft-nadella-insider-risk-verge-20261010"
+              "microsoft-frontier-tour-zero-trust-official-20261021",
+              "microsoft-nadella-insider-risk-essay-20261010"
             ],
             "status": "verified"
           },
@@ -39894,5 +40360,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T07:26:26+09:00"
+  "updatedAt": "2026-10-25T07:32:13+09:00"
 }
