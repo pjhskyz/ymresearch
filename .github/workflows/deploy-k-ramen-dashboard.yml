@@ -53,7 +53,7 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '07097c85a1f6d1d25788b2853c81db716dc4a1e336c1f0a23eba045c2b454e43'
+          expected = 'a3b2ca638d2d3763dd2ad8333d2c4d55c2236490bd6c72e5b17b8d709c3ab3c0'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
@@ -78,7 +78,7 @@ jobs:
           const start = html.indexOf('const YEARLY=');
           const end = html.indexOf('// KPI', start);
           assert(start >= 0 && end > start, 'Dashboard data and calculation block was not found.');
-          const { M, Q, QE } = vm.runInNewContext(html.slice(start, end) + ';({M,Q,QE})');
+          const { M, Q, QE, mOM, gY } = vm.runInNewContext(html.slice(start, end) + ';({M,Q,QE,mOM,gY})');
           const latest = M[M.length - 1];
           assert.equal(latest.m, '2026.11');
           assert.equal(latest.period, '1-10');
@@ -93,6 +93,9 @@ jobs:
           assert.equal(latest.prevMonthSamePeriod.period, '1-10');
           assert.equal(latest.prevMonthSamePeriod.total, 44.160390);
           assert.equal(latest.prevMonthSamePeriod.kg, 10504843.23);
+          assert.equal(mOM(latest, 'total'), 13.6);
+          assert.equal(gY(latest, 'total'), null);
+          assert(html.includes("'동기간 MoM '"));
           const oct = M.find(r => r.m === '2026.10');
           assert.equal(oct.total, 172.979123);
           assert.equal(oct.status, 'provisional');
