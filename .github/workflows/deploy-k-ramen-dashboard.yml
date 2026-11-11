@@ -53,17 +53,17 @@ jobs:
 
           html = gzip.decompress(base64.b64decode(match.group(1)))
           digest = hashlib.sha256(html).hexdigest()
-          expected = '1450677c89106a37e3d9ac655658cdb7d05aa124ae3504d6b3ab0051d630f9b7'
+          expected = '07097c85a1f6d1d25788b2853c81db716dc4a1e336c1f0a23eba045c2b454e43'
           if digest != expected:
               raise SystemExit(f'Dashboard checksum mismatch: {digest}')
 
           path.write_bytes(html)
           PY
           grep -q 'K-라면 수출 대시보드' k-ramen-dashboard/index.html
-          grep -q '2026.10' k-ramen-dashboard/index.html
-          grep -q 'period:"full"' k-ramen-dashboard/index.html
-          grep -q 'releaseDate:"2026-11-01"' k-ramen-dashboard/index.html
-          grep -q 'total:172.979123' k-ramen-dashboard/index.html
+          grep -q '2026.11' k-ramen-dashboard/index.html
+          grep -q 'period:"1-10"' k-ramen-dashboard/index.html
+          grep -q 'releaseDate:"2026-11-11"' k-ramen-dashboard/index.html
+          grep -q 'total:50.158680' k-ramen-dashboard/index.html
           grep -q 'm:"2026.08",total:156.623983' k-ramen-dashboard/index.html
           grep -q 'kg:37311905.90,krw:223264563685,countryCount:106,status:"final",period:"full",asOf:"2026-08-31",releaseDate:"2026-09-15"' k-ramen-dashboard/index.html
           grep -q '최근 확정치' k-ramen-dashboard/index.html
@@ -80,21 +80,28 @@ jobs:
           assert(start >= 0 && end > start, 'Dashboard data and calculation block was not found.');
           const { M, Q, QE } = vm.runInNewContext(html.slice(start, end) + ';({M,Q,QE})');
           const latest = M[M.length - 1];
-          assert.equal(latest.m, '2026.10');
-          assert.equal(latest.period, 'full');
-          assert.equal(latest.asOf, '2026-10-31');
-          assert.equal(latest.releaseDate, '2026-11-01');
-          assert.equal(latest.total, 172.979123);
-          assert.equal(latest.kg, 41274256.03);
-          assert.equal(latest.krw, 232819428639);
-          assert.equal(latest.countryCount, 149);
-          assert.equal(latest.activeCountryCount, 105);
-          assert(QE && QE.label === '2026 Q4' && !QE.partialIncluded && QE.completedMonths === 1);
-          assert(Math.abs(QE.total - latest.total * 3) < 1e-8);
-          assert(Math.abs(QE.kg - latest.kg * 3) < 1e-6);
-          assert.equal(QE.observedTotal, latest.total);
-          assert(QE.basis === '10월 월 전체 실적 × 3');
+          assert.equal(latest.m, '2026.11');
+          assert.equal(latest.period, '1-10');
+          assert.equal(latest.asOf, '2026-11-10');
+          assert.equal(latest.releaseDate, '2026-11-11');
+          assert.equal(latest.total, 50.158680);
+          assert.equal(latest.kg, 11991543.79);
+          assert.equal(latest.krw, 66855343845);
+          assert.equal(latest.countryCount, 150);
+          assert.equal(latest.activeCountryCount, 76);
           assert.equal(latest.status, 'provisional');
+          assert.equal(latest.prevMonthSamePeriod.period, '1-10');
+          assert.equal(latest.prevMonthSamePeriod.total, 44.160390);
+          assert.equal(latest.prevMonthSamePeriod.kg, 10504843.23);
+          const oct = M.find(r => r.m === '2026.10');
+          assert.equal(oct.total, 172.979123);
+          assert.equal(oct.status, 'provisional');
+          assert.equal(oct.period, 'full');
+          assert(QE && QE.label === '2026 Q4' && QE.partialIncluded && QE.completedMonths === 1 && QE.months === 2);
+          assert(Math.abs(QE.total - (oct.total + latest.total / 10 * 30) / 2 * 3) < 1e-8);
+          assert(Math.abs(QE.kg - (oct.kg + latest.kg / 10 * 30) / 2 * 3) < 1e-6);
+          assert.equal(QE.observedTotal, oct.total + latest.total);
+          assert.equal(QE.basis, '(10월 월 전체 실적 + 11월 1~10일 실적 ÷ 10일 × 30일) ÷ 2 × 3');
           const sep = M.find(r => r.m === '2026.09');
           assert.equal(sep.status, 'final');
           assert.equal(sep.period, 'full');
@@ -213,6 +220,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 
 
